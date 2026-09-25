@@ -1,0 +1,74 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.358432 0.000000 0.109584	</row0>
+			<row1>	0.000000 0.374809 0.000000	</row1>
+			<row2>	-0.109584 0.000000 0.358432	</row2>
+			<row3>	34.519287 56.734245 39.777313	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.063180 0.000000 0.156377	</row0>
+			<row1>	0.000000 0.168657 0.000000	</row1>
+			<row2>	-0.156377 0.000000 -0.063180	</row2>
+			<row3>	25.075745 58.534081 34.424774	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.406811 0.000000 0.021320	</row0>
+			<row1>	0.000000 0.407370 0.000000	</row1>
+			<row2>	-0.021320 0.000000 -0.406811	</row2>
+			<row3>	21.194397 57.321785 37.717010	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.275308 0.000000 0.295232	</row0>
+			<row1>	0.000000 0.403679 0.000000	</row1>
+			<row2>	-0.295232 0.000000 -0.275308	</row2>
+			<row3>	39.029297 52.926163 54.316345	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<pulseLight>
+		<colour>	255.000000 169.000000 91.000000	</colour>
+		<position>	99.107361 104.782074 58.507385	</position>
+		<innerRadius>	40.628773	</innerRadius>
+		<outerRadius>	62.646286	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	98.744934 111.158569 59.131134	</position>
+		<innerRadius>	43.720776	</innerRadius>
+		<outerRadius>	55.888199	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	false	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<terrain>
+		<resource>	00060003o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	00060003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

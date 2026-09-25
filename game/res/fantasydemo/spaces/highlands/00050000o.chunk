@@ -1,0 +1,23 @@
+<root>
+	<particles>
+		<resource>	sets/temperate/particles/bugs_light.xml	</resource>
+		<transform>
+			<row0>	-0.999999 -0.001185 0.000000	</row0>
+			<row1>	-0.001179 0.994949 -0.100372	</row1>
+			<row2>	0.000119 -0.100372 -0.994949	</row2>
+			<row3>	21.310028 91.935181 63.173840	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<terrain>
+		<resource>	00050000o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	00050000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

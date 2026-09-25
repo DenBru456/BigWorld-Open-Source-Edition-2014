@@ -1,0 +1,2180 @@
+<root>
+	<model>
+		<resource>	sets/temperate/props/tree_trunk_01.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	33.346191 208.970764 91.907730	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_fence_stone.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	25.566162 208.976883 94.896683	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_magic_shrine.model	</resource>
+		<transform>
+			<row0>	-0.997014 0.000000 -0.077217	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.077217 0.000000 -0.997014	</row2>
+			<row3>	28.299988 208.960724 96.600006	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/crab_apple/bwcrabapple_rt_flowers.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.424439 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.424439 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.424439	</row2>
+			<row3>	34.099976 209.400009 98.300003	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<model>
+		<resource>	sets/town/props/t_table.model	</resource>
+		<transform>
+			<row0>	0.781713 0.000000 0.623638	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.623638 0.000000 0.781713	</row2>
+			<row3>	35.888367 209.000000 93.905716	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.283341 -0.083414 -0.052081	</row0>
+			<row1>	0.084701 0.287712 -0.000000	</row1>
+			<row2>	0.049961 -0.014708 0.295364	</row2>
+			<row3>	24.554382 209.161179 97.926788	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.242761 0.085116 -0.193649	</row0>
+			<row1>	-0.098066 0.306467 0.011767	</row1>
+			<row2>	0.187424 0.050107 0.256981	</row2>
+			<row3>	39.339661 209.190369 89.279053	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.347866 0.142907 -0.038306	</row0>
+			<row1>	-0.132159 0.344136 0.083695	</row1>
+			<row2>	0.066513 -0.063626 0.366645	</row2>
+			<row3>	45.324585 209.419067 98.583755	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.250987 -0.000000 -0.150808	</row0>
+			<row1>	0.000000 0.292810 -0.000000	</row1>
+			<row2>	0.150808 0.000000 0.250987	</row2>
+			<row3>	34.422668 209.029999 88.841125	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.067938 0.000000 -0.176983	</row0>
+			<row1>	0.000000 0.189575 0.000000	</row1>
+			<row2>	0.176983 0.000000 0.067938	</row2>
+			<row3>	40.483643 206.297104 51.305084	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<particles>
+		<resource>	particles/crab_apple_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	33.673828 210.483536 99.013428	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_cluster.model	</resource>
+		<transform>
+			<row0>	-1.204674 -0.140365 0.000000	</row0>
+			<row1>	-0.140352 1.204556 -0.016989	</row1>
+			<row2>	0.001966 -0.016875 -1.212705	</row2>
+			<row3>	33.336914 209.532745 97.785843	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_single.model	</resource>
+		<transform>
+			<row0>	-0.882911 -0.159169 0.441737	</row0>
+			<row1>	-0.062489 0.972253 0.225428	</row1>
+			<row2>	-0.465362 0.171429 -0.868360	</row2>
+			<row3>	32.692444 209.012527 92.224945	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_single.model	</resource>
+		<transform>
+			<row0>	-0.999999 -0.000000 -0.000000	</row0>
+			<row1>	0.000000 1.986853 0.228935	</row1>
+			<row2>	0.000000 0.114468 -0.993426	</row2>
+			<row3>	33.591675 208.997910 92.564728	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_single.model	</resource>
+		<transform>
+			<row0>	0.110250 -0.131926 -0.843597	</row0>
+			<row1>	0.017096 0.850771 -0.130813	</row1>
+			<row2>	0.853679 0.000000 0.111568	</row2>
+			<row3>	32.992920 209.002335 92.894623	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	-0.749754 0.019184 0.000000	</row0>
+			<row1>	0.043060 1.682853 0.236961	</row1>
+			<row2>	0.002674 0.104507 -0.742678	</row2>
+			<row3>	27.993958 209.570877 91.439804	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	-1.295706 -0.103787 -0.019279	</row0>
+			<row1>	-0.064899 0.789618 0.110862	</row1>
+			<row2>	0.004647 0.181120 -1.287312	</row2>
+			<row3>	27.676331 209.582123 91.442322	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/crab_apple/bwcrabapple_rt_flowers.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.138079 0.000000 -0.515316	</row0>
+			<row1>	0.000000 0.533495 0.000000	</row1>
+			<row2>	0.515316 0.000000 -0.138079	</row2>
+			<row3>	28.549988 209.298569 90.138763	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.014791 0.044698 0.289757	</row0>
+			<row1>	-0.003727 0.290131 -0.044565	</row1>
+			<row2>	-0.293161 -0.001433 0.015186	</row2>
+			<row3>	6.329712 209.209930 82.445892	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_cluster.model	</resource>
+		<transform>
+			<row0>	-0.977997 -0.117465 -0.172396	</row0>
+			<row1>	-0.128250 0.990337 0.052776	</row1>
+			<row2>	0.164530 0.073726 -0.983611	</row2>
+			<row3>	11.604492 209.140594 83.735565	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/crab_apple/bwcrabapple_rt_flowers.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.118140 0.000000 -0.440904	</row0>
+			<row1>	0.000000 0.456458 0.000000	</row1>
+			<row2>	0.440904 0.000000 -0.118140	</row2>
+			<row3>	37.046631 209.627640 81.750885	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_single.model	</resource>
+		<transform>
+			<row0>	-0.843597 -0.131926 -0.110250	</row0>
+			<row1>	-0.130813 0.850771 -0.017096	</row1>
+			<row2>	0.111568 0.000000 -0.853679	</row2>
+			<row3>	36.255920 209.636520 81.714523	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	-0.649306 0.019184 0.374877	</row0>
+			<row1>	0.155771 1.682852 0.183684	</row1>
+			<row2>	-0.369023 0.104507 -0.644514	</row2>
+			<row3>	37.076355 209.679657 82.516449	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	-1.131753 -0.103787 0.631156	</row0>
+			<row1>	-0.000773 0.789618 0.128459	</row1>
+			<row2>	-0.639631 0.181120 -1.117167	</row2>
+			<row3>	36.802490 209.616180 82.677460	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.083186 -0.038345 0.240680	</row0>
+			<row1>	-0.064574 0.248693 0.017303	</row1>
+			<row2>	-0.235005 -0.054762 -0.089949	</row2>
+			<row3>	24.994934 209.028290 94.385025	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_cluster.model	</resource>
+		<transform>
+			<row0>	-0.957995 -0.075443 -0.276676	</row0>
+			<row1>	-0.085024 0.996117 0.022778	</row1>
+			<row2>	0.273884 0.045345 -0.960691	</row2>
+			<row3>	24.994934 209.029266 95.327377	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom05_single.model	</resource>
+		<transform>
+			<row0>	-0.206205 -0.072433 -0.769566	</row0>
+			<row1>	-0.152339 0.784665 -0.033035	</row1>
+			<row2>	0.757806 0.138029 -0.216045	</row2>
+			<row3>	24.390930 209.028290 94.648544	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.241484 0.000000 0.078463	</row0>
+			<row1>	0.000000 0.253911 0.000000	</row1>
+			<row2>	-0.078463 0.000000 0.241484	</row2>
+			<row3>	23.307861 207.740753 58.352661	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.044606 0.000000 -0.116201	</row0>
+			<row1>	0.000000 0.124468 0.000000	</row1>
+			<row2>	0.116201 0.000000 0.044606	</row2>
+			<row3>	41.691467 209.602570 90.157639	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.094658 -0.002172 0.053862	</row0>
+			<row1>	-0.004215 0.108807 -0.003018	</row1>
+			<row2>	-0.053741 -0.004706 -0.094634	</row2>
+			<row3>	50.024963 208.985794 65.372330	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	-1.131753 -0.103787 0.631156	</row0>
+			<row1>	-0.000773 0.789618 0.128459	</row1>
+			<row2>	-0.639631 0.181120 -1.117167	</row2>
+			<row3>	41.713196 209.675217 89.102905	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	-0.649306 0.019184 0.374877	</row0>
+			<row1>	0.155771 1.682852 0.183684	</row1>
+			<row2>	-0.369023 0.104507 -0.644514	</row2>
+			<row3>	41.987061 209.738693 88.941895	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_watch_tower.model	</resource>
+		<animation>
+			<name>	flagwave	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.999038 0.000000 -0.043831	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.043831 0.000000 -0.999038	</row2>
+			<row3>	63.489502 209.586563 51.210266	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	0.374877 0.019184 0.649306	</row0>
+			<row1>	0.183684 1.682852 -0.155771	</row1>
+			<row2>	-0.644514 0.104507 0.369023	</row2>
+			<row3>	44.243164 209.593719 84.778107	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_single.model	</resource>
+		<transform>
+			<row0>	-0.843597 -0.131926 -0.110250	</row0>
+			<row1>	-0.130813 0.850771 -0.017096	</row1>
+			<row2>	0.111568 0.000000 -0.853679	</row2>
+			<row3>	45.323914 209.715790 83.545044	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	0.631156 -0.103787 1.131752	</row0>
+			<row1>	0.128459 0.789618 0.000773	</row1>
+			<row2>	-1.117167 0.181120 0.639631	</row2>
+			<row3>	44.303894 209.605438 85.096725	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.116201 0.000000 -0.044606	</row0>
+			<row1>	0.000000 0.124468 0.000000	</row1>
+			<row2>	0.044606 0.000000 -0.116201	</row2>
+			<row3>	45.559082 209.589615 84.499405	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_magic_shrine.model	</resource>
+		<transform>
+			<row0>	0.332412 -0.025137 -0.942798	</row0>
+			<row1>	0.017429 0.999638 -0.020507	</row1>
+			<row2>	0.942971 -0.009615 0.332730	</row2>
+			<row3>	51.412903 209.856720 93.629883	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.152133 0.000000 -0.263503	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.263503 0.000000 0.152133	</row2>
+			<row3>	70.697632 208.368134 79.640244	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.000000 0.000000 -0.407706	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.407706 0.000000 0.000000	</row2>
+			<row3>	72.120605 208.153290 76.938400	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.152134 0.000000 -0.263504	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.263504 0.000000 -0.152134	</row2>
+			<row3>	71.001526 208.342743 76.682480	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.304267 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.304267	</row2>
+			<row3>	71.800293 208.165985 75.586960	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.263503 0.000000 -0.152133	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.152133 0.000000 -0.263503	</row2>
+			<row3>	55.433350 210.024384 95.056747	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-1.772518 0.000000 1.772516	</row0>
+			<row1>	0.000000 2.506717 0.000000	</row1>
+			<row2>	-1.772516 0.000000 -1.772518	</row2>
+			<row3>	57.893372 210.107391 91.260788	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	1.882406 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.882406 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.882406	</row2>
+			<row3>	62.531494 210.865204 85.438278	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.105522 0.000000 0.393814	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	-0.393814 0.000000 -0.105522	</row2>
+			<row3>	55.765686 210.207977 90.250168	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.304268 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.304268	</row2>
+			<row3>	54.990479 210.250946 89.708542	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.263505 0.000000 0.152134	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	-0.152134 0.000000 0.263505	</row2>
+			<row3>	57.399963 211.044891 86.629868	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.353084 0.000000 -0.203853	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.203853 0.000000 0.353084	</row2>
+			<row3>	67.240845 209.020477 78.922226	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.152133 0.000000 -0.263503	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.263503 0.000000 0.152133	</row2>
+			<row3>	55.214661 210.881805 86.754562	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.078750 0.000000 -0.293900	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.293900 0.000000 0.078750	</row2>
+			<row3>	66.120300 209.344696 78.671066	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.304268 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.304268	</row2>
+			<row3>	54.665344 210.931610 85.514877	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.203853 0.000000 0.353084	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	-0.353084 0.000000 0.203853	</row2>
+			<row3>	58.117859 211.049774 83.173264	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.353084 0.000000 -0.203853	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.203853 0.000000 -0.353084	</row2>
+			<row3>	67.087646 208.842743 76.904648	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.152134 0.000000 -0.263505	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.263505 0.000000 -0.152134	</row2>
+			<row3>	59.370178 211.049774 81.190536	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom04_cluster.model	</resource>
+		<transform>
+			<row0>	0.965924 0.000000 -0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965924	</row2>
+			<row3>	62.361572 210.421844 77.317551	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom01_cluster.model	</resource>
+		<transform>
+			<row0>	0.965924 0.000000 -0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965924	</row2>
+			<row3>	57.958252 209.365204 70.600693	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.393814 0.000000 -0.105522	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.105522 0.000000 -0.393814	</row2>
+			<row3>	58.362366 211.049774 85.879395	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.012733 0.000000 -0.145536	</row0>
+			<row1>	0.000000 0.146092 0.000000	</row1>
+			<row2>	0.145536 0.000000 -0.012733	</row2>
+			<row3>	48.785034 209.768021 86.980118	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<particles>
+		<resource>	particles/fx_butterflies2.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	44.682678 209.391785 71.767166	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/crab_apple_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	36.355408 209.649612 81.812973	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/crab_apple/bwcrabapple_rt_flowers.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.440904 0.000000 0.118140	</row0>
+			<row1>	0.000000 0.456458 0.000000	</row1>
+			<row2>	-0.118140 0.000000 -0.440904	</row2>
+			<row3>	42.980774 209.457977 71.385025	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<particles>
+		<resource>	particles/crab_apple_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	42.710999 209.430634 71.468292	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/fireflies_small.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	54.500183 210.745560 75.744522	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/fireflies_small.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	47.102844 208.142426 54.238358	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom01_cluster.model	</resource>
+		<transform>
+			<row0>	-0.866023 0.000000 -0.499999	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866023	</row2>
+			<row3>	10.761658 209.131683 86.323227	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_cluster.model	</resource>
+		<transform>
+			<row0>	0.965924 0.000000 -0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965924	</row2>
+			<row3>	59.209595 210.792938 75.759338	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.250987 0.000000 -0.150808	</row0>
+			<row1>	0.000000 0.292810 0.000000	</row1>
+			<row2>	0.150808 0.000000 0.250987	</row2>
+			<row3>	34.773743 209.072861 72.002747	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.242761 0.085116 -0.193649	</row0>
+			<row1>	-0.098066 0.306467 0.011767	</row1>
+			<row2>	0.187424 0.050107 0.256981	</row2>
+			<row3>	41.776855 209.446777 70.794312	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.193649 0.085116 -0.242761	</row0>
+			<row1>	0.011767 0.306467 0.098066	</row1>
+			<row2>	0.256981 0.050107 -0.187424	</row2>
+			<row3>	25.033020 208.910553 58.292908	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom03_single.model	</resource>
+		<transform>
+			<row0>	-1.131753 -0.103787 0.631156	</row0>
+			<row1>	-0.000773 0.789618 0.128459	</row1>
+			<row2>	-0.639631 0.181120 -1.117167	</row2>
+			<row3>	39.264221 207.481415 51.738373	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.293901 0.000000 -0.078751	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.078751 0.000000 0.293901	</row2>
+			<row3>	93.687744 211.532196 72.014786	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.105522 0.000000 -0.393814	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.393814 0.000000 -0.105522	</row2>
+			<row3>	97.208496 211.601532 70.632950	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.215150 0.000000 -0.215150	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.215150 0.000000 -0.215150	</row2>
+			<row3>	97.519226 211.923798 74.138931	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-0.000001 0.000000 1.426069	</row0>
+			<row1>	0.000000 1.426069 0.000000	</row1>
+			<row2>	-1.426069 0.000000 -0.000001	</row2>
+			<row3>	92.276001 212.040009 79.121521	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.293899 0.000000 0.078750	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	-0.078750 0.000000 -0.293899	</row2>
+			<row3>	96.410400 211.982391 75.450439	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.203853 0.000000 -0.353084	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.353084 0.000000 0.203853	</row2>
+			<row3>	94.255188 212.040009 77.995789	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	1.199515 0.000000 -1.199515	</row0>
+			<row1>	0.000000 1.696371 0.000000	</row1>
+			<row2>	1.199515 0.000000 1.199515	</row2>
+			<row3>	93.121887 211.604446 74.735748	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<resource>	particles/crab_apple_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	33.637268 209.478104 98.779190	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/crab_apple_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	41.931152 209.401199 71.343475	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.116818 -0.009348 -0.251760	</row0>
+			<row1>	-0.017606 0.277133 -0.002121	</row1>
+			<row2>	0.251318 0.015069 -0.117172	</row2>
+			<row3>	85.560303 213.900360 74.377808	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	0.362359 0.023404 -0.103844	</row0>
+			<row1>	-0.026350 0.376684 -0.007052	</row1>
+			<row2>	0.103136 0.014011 0.363045	</row2>
+			<row3>	87.317078 214.230438 75.395950	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	-0.073846 -0.006000 -0.383558	</row0>
+			<row1>	-0.029059 0.389566 -0.000499	</row1>
+			<row2>	0.382502 0.028437 -0.074088	</row2>
+			<row3>	87.290344 214.189423 73.670303	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	0.161345 0.026024 0.305667	</row0>
+			<row1>	-0.024750 0.345344 -0.016338	</row1>
+			<row2>	-0.305773 -0.014220 0.162611	</row2>
+			<row3>	86.858887 214.160126 76.933136	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	0.123280 0.025954 0.361846	</row0>
+			<row1>	-0.027359 0.381746 -0.018060	</row1>
+			<row2>	-0.361742 -0.020026 0.124681	</row2>
+			<row3>	88.281189 214.164032 77.253387	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.158201 0.000000 -0.013841	</row0>
+			<row1>	0.000000 0.158805 0.000000	</row1>
+			<row2>	0.013841 0.000000 0.158201	</row2>
+			<row3>	56.828613 209.123993 69.233109	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.393814 0.000000 -0.105522	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.105522 0.000000 0.393814	</row2>
+			<row3>	37.850098 209.758759 82.513306	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.353084 0.000000 0.203853	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	-0.203853 0.000000 0.353084	</row2>
+			<row3>	55.743530 209.333954 69.743958	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.407706 0.000000 -0.000000	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.407706	</row2>
+			<row3>	49.301270 209.339813 65.815689	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.017551 0.000000 -0.200605	</row0>
+			<row1>	0.000000 0.201371 0.000000	</row1>
+			<row2>	0.200605 0.000000 -0.017551	</row2>
+			<row3>	70.808594 208.689392 70.236099	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom04_cluster.model	</resource>
+		<transform>
+			<row0>	0.965924 0.000000 -0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965924	</row2>
+			<row3>	70.099304 208.887100 69.126114	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom04_cluster.model	</resource>
+		<transform>
+			<row0>	-0.499999 0.000000 -0.866023	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.866023 0.000000 -0.499999	</row2>
+			<row3>	68.943481 208.575836 68.910019	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.297982 0.028785 -0.118559	</row0>
+			<row1>	0.039523 0.318801 -0.021933	</row1>
+			<row2>	0.115424 -0.034849 -0.298564	</row2>
+			<row3>	41.914856 207.127533 50.008240	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.000788 -0.002507 0.125713	</row0>
+			<row1>	-0.005450 0.125597 0.002471	</row1>
+			<row2>	-0.125619 -0.005432 -0.000896	</row2>
+			<row3>	31.075317 207.993179 72.078583	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<particles>
+		<resource>	particles/water_fountain.xml	</resource>
+		<transform>
+			<row0>	0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.499999 0.000000 0.866024	</row2>
+			<row3>	38.286255 214.571091 75.541397	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_straight_tower.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	14.000000 208.999985 57.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_fill.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.999998 0.000000 0.000000	</row2>
+			<row3>	14.000000 208.999985 57.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_bend.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	34.000000 208.999985 38.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_straight_tower.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	54.000000 208.999985 38.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_bend.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999998 0.000000 0.000000	</row2>
+			<row3>	74.000000 208.999985 57.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_fill.model	</resource>
+		<transform>
+			<row0>	-0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999997	</row2>
+			<row3>	74.000000 208.999985 57.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_snake_02.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	94.000000 208.999985 57.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/crab_apple/bwcrabapple_rt_flowers.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.098631 0.000000 -0.368094	</row0>
+			<row1>	0.000000 0.381079 0.000000	</row1>
+			<row2>	0.368094 0.000000 -0.098631	</row2>
+			<row3>	93.655579 213.667938 89.807068	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<particles>
+		<resource>	particles/crab_apple_flowers.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	93.244080 213.928696 89.584122	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.353084 0.000000 0.203853	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	-0.203853 0.000000 -0.353084	</row2>
+			<row3>	94.505615 213.692352 89.231216	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.139696 -0.014345 0.172616	</row0>
+			<row1>	-0.022849 0.221348 -0.000096	</row1>
+			<row2>	-0.171698 -0.017785 -0.140430	</row2>
+			<row3>	90.942505 212.137665 81.940704	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.207288 -0.014345 0.079642	</row0>
+			<row1>	-0.019740 0.221348 -0.011508	</row1>
+			<row2>	-0.078480 -0.017785 -0.207465	</row2>
+			<row3>	87.049988 214.267548 77.801590	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/town/props/gravestone/models/gravestone_001.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.000000 0.000000 -0.999999	</row2>
+			<row3>	98.525269 211.838394 75.325989	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/gravestone/models/gravestone_003.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000339 0.999999 0.000000	</row1>
+			<row2>	0.999999 -0.000339 -0.000000	</row2>
+			<row3>	98.990845 212.039963 80.133118	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/gravestone/models/gravestone_001.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.000000 0.000000 -0.999999	</row2>
+			<row3>	97.453308 212.040009 78.348663	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/gravestone/models/gravestone_003.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	-0.000000 0.999999 -0.000339	</row1>
+			<row2>	-0.000000 -0.000339 -0.999999	</row2>
+			<row3>	98.634583 212.040009 76.498627	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/tree_trunk_01.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	45.979614 209.364578 67.243774	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.046324 0.085116 -0.307062	</row0>
+			<row1>	-0.038842 0.306467 0.090811	</row1>
+			<row2>	0.316264 0.050107 -0.033823	</row2>
+			<row3>	45.063782 209.255524 64.904236	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/town/props/axe.model	</resource>
+		<transform>
+			<row0>	0.156279 -0.987713 0.000000	</row0>
+			<row1>	0.987713 0.156279 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	45.980591 210.351440 67.173828	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.263505 0.000000 0.152134	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	-0.152134 0.000000 0.263505	</row2>
+			<row3>	66.356567 217.178680 94.533554	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.203853 0.000000 -0.353084	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.353084 0.000000 0.203853	</row2>
+			<row3>	67.264160 217.150360 94.263031	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.000000 0.000000 -0.304268	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.304268 0.000000 0.000000	</row2>
+			<row3>	66.754272 210.640594 87.664795	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.203853 0.000000 -0.353084	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.353084 0.000000 0.203853	</row2>
+			<row3>	70.524841 210.002899 86.005493	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.407706 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.407707 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.407706	</row2>
+			<row3>	64.459351 210.516571 82.890747	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.263505 0.000000 0.152134	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	-0.152134 0.000000 0.263505	</row2>
+			<row3>	66.329468 210.466766 84.686096	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.263503 0.000000 -0.152135	</row0>
+			<row1>	0.000000 0.304271 0.000000	</row1>
+			<row2>	0.152135 0.000000 0.263503	</row2>
+			<row3>	66.185425 211.123016 86.034302	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_diagonal_tower_cut.model	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 -0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	107.000000 212.999969 55.999969	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_fill.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999996	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.999996 0.000000 0.000000	</row2>
+			<row3>	94.000000 208.999969 67.999969	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_village_statue.model	</resource>
+		<transform>
+			<row0>	0.999731 0.000000 -0.023186	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.023186 0.000000 0.999731	</row2>
+			<row3>	9.090698 209.136719 85.030899	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom02_cluster.model	</resource>
+		<transform>
+			<row0>	-0.390182 -0.024461 0.920412	</row0>
+			<row1>	-0.062579 0.998040 -0.000004	</row1>
+			<row2>	-0.918608 -0.057600 -0.390948	</row2>
+			<row3>	6.440613 209.170898 85.932404	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_fence_stone.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	5.309326 209.185547 84.347229	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	false	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_fence_stone.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	9.167725 209.166992 80.524216	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_fence_stone.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-1.000000 0.000000 0.000000	</row2>
+			<row3>	9.129578 209.130859 88.198593	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_fence_stone.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	13.016785 209.045898 84.405945	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_fence_stone.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	25.687256 208.970734 89.597031	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_cabbages.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	23.524170 209.035126 89.688736	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/well.model	</resource>
+		<transform>
+			<row0>	0.994002 0.000000 -0.109357	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.109357 0.000000 0.994002	</row2>
+			<row3>	57.081543 210.916718 80.853485	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/fd_fountain.model	</resource>
+		<transform>
+			<row0>	-0.080334 0.000000 0.996767	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.996767 0.000000 -0.080334	</row2>
+			<row3>	38.097473 208.736435 75.342606	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.499999 0.000000 0.866025	</row0>
+			<row1>	0.223828 0.966022 0.129227	</row1>
+			<row2>	-0.836600 0.258454 -0.483011	</row2>
+			<row3>	94.574158 213.894501 89.878052	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.866024 0.000000 0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.499999 0.000000 -0.866024	</row2>
+			<row3>	45.347412 209.389297 67.879150	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965925	</row0>
+			<row1>	-0.249647 0.966022 0.066893	</row1>
+			<row2>	0.933106 0.258454 -0.250025	</row2>
+			<row3>	24.630066 209.028290 93.898788	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.751866 -0.273966 0.599697	</row0>
+			<row1>	-0.332405 0.943030 0.014063	</row1>
+			<row2>	-0.569386 -0.188769 -0.800102	</row2>
+			<row3>	24.500427 209.028290 93.102859	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.866025 0.000000 -0.499999	</row0>
+			<row1>	-0.129227 0.966022 0.223828	</row1>
+			<row2>	0.483011 0.258454 -0.836600	</row2>
+			<row3>	41.836792 209.784897 91.201645	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.707106 0.000000 0.707107	</row0>
+			<row1>	0.182755 0.966022 0.182755	</row1>
+			<row2>	-0.683081 0.258454 -0.683081	</row2>
+			<row3>	56.045349 209.977173 93.166443	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.866024 0.000000 -0.499999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.499999 0.000000 -0.866024	</row2>
+			<row3>	48.106567 210.096649 86.358917	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	0.499999 0.000000 -0.866024	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.866024 0.000000 0.499999	</row2>
+			<row3>	39.409973 207.376923 52.384995	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-0.862471 -0.090508 0.497948	</row0>
+			<row1>	-0.109388 0.993960 -0.008802	</row1>
+			<row2>	-0.494143 -0.062061 -0.867161	</row2>
+			<row3>	85.715759 213.950165 76.869751	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	0.965924 0.000000 -0.258819	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.258819 0.000000 0.965924	</row2>
+			<row3>	60.403320 208.957947 69.591751	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	particles/fx_butterflies.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	47.227661 209.898560 92.912369	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0006fffdo.cdata/terrain2	</resource>
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	27.323059 208.567352 77.636322	</row3>
+		</transform>
+		<guid>	A325FF89.401F6594.CC715AA9.38C5B609	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	4AA9407F.4298782B.0E898EA9.D242C1F8	</guid>
+					<chunkId>	0006fffdo	</chunkId>
+				</item>
+				<item>
+					<guid>	560BA005.4B9769CF.BB633FBC.28E53E63	</guid>
+					<chunkId>	0006fffdo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	4AA9407F.4298782B.0E898EA9.D242C1F8	</guid>
+				<chunkId>	0006fffdo	</chunkId>
+			</link>
+			<link>
+				<guid>	560BA005.4B9769CF.BB633FBC.28E53E63	</guid>
+				<chunkId>	0006fffdo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	47.811951 209.423798 76.288940	</row3>
+		</transform>
+		<guid>	4AA9407F.4298782B.0E898EA9.D242C1F8	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	A325FF89.401F6594.CC715AA9.38C5B609	</guid>
+					<chunkId>	0006fffdo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	A325FF89.401F6594.CC715AA9.38C5B609	</guid>
+				<chunkId>	0006fffdo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	15.559448 209.008759 88.341873	</row3>
+		</transform>
+		<guid>	560BA005.4B9769CF.BB633FBC.28E53E63	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	A325FF89.401F6594.CC715AA9.38C5B609	</guid>
+					<chunkId>	0006fffdo	</chunkId>
+				</item>
+				<item>
+					<guid>	45FC3062.4BBC0B83.98709982.F2E58695	</guid>
+					<chunkId>	0006fffeo	</chunkId>
+				</item>
+				<item>
+					<guid>	FD0EC669.4BCD9A54.31E76EA3.104779E0	</guid>
+					<chunkId>	0006fffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	45FC3062.4BBC0B83.98709982.F2E58695	</guid>
+				<chunkId>	0006fffeo	</chunkId>
+			</link>
+			<link>
+				<guid>	85F1C4A9.45CBEB4C.FD13BDAB.B662C735	</guid>
+				<chunkId>	0005fffdo	</chunkId>
+			</link>
+			<link>
+				<guid>	A0F3420D.49878BA1.A5C2CF91.6F2CC9A0	</guid>
+				<chunkId>	0006fffeo	</chunkId>
+			</link>
+			<link>
+				<guid>	A325FF89.401F6594.CC715AA9.38C5B609	</guid>
+				<chunkId>	0006fffdo	</chunkId>
+			</link>
+			<link>
+				<guid>	FD0EC669.4BCD9A54.31E76EA3.104779E0	</guid>
+				<chunkId>	0006fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	94.682251 214.735321 95.352081	</row3>
+		</transform>
+		<guid>	4A5A8AAF.4101B93F.38DA66B7.94DFEB13	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	74A98F62.428D5283.1AE6F089.155DF392	</guid>
+					<chunkId>	0007fffdo	</chunkId>
+				</item>
+				<item>
+					<guid>	53BB35E2.4AA0DDF0.A17D1793.83BA642B	</guid>
+					<chunkId>	0007fffdo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+			<radius>	2.300437	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	53BB35E2.4AA0DDF0.A17D1793.83BA642B	</guid>
+				<chunkId>	0007fffdo	</chunkId>
+			</link>
+			<link>
+				<guid>	74A98F62.428D5283.1AE6F089.155DF392	</guid>
+				<chunkId>	0007fffdo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	0E504527.4B56F5EF.E8F251A4.8B3AE2DC	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	27.680176 204.742172 53.642166	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	striff	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	0EADECF6.4A99BC55.FFC16A91.A0017E47	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	0.499999 0.000000 0.866024	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.866024 0.000000 0.499999	</row2>
+			<row3>	34.943359 209.027817 95.442703	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	2	</seatType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	ECD2F2D6.4718C510.95A86FB2.8A2AD768	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	-0.707106 0.000000 -0.707106	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.707106 0.000000 -0.707106	</row2>
+			<row3>	36.916382 209.027817 92.235291	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	2	</seatType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	993B3DA6.4D795896.AACD5DB6.587AB8EC	</guid>
+		<type>	Building	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	1.577271 209.099594 83.614227	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<models>
+				<item>	sets/town/props/pillar_stage1.model	</item>
+				<item>	sets/town/props/pillar_stage2.model	</item>
+				<item>	sets/town/props/pillar_stage3.model	</item>
+				<item>	sets/town/props/pillar_stage4.model	</item>
+			</models>
+			<stage>	2	</stage>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	0006fffdo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

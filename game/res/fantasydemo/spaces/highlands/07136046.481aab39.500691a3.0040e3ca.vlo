@@ -1,0 +1,37 @@
+<root>
+	<water>
+		<position>	525.409668 146.152649 -136.324234	</position>
+		<orientation>	-0.000000	</orientation>
+		<size>	49.437561 0.000000 22.319305	</size>
+		<fresnelConstant>	0.300000	</fresnelConstant>
+		<fresnelExponent>	4.000000	</fresnelExponent>
+		<reflectionTint>	0.580392 0.580392 0.580392 1.000000	</reflectionTint>
+		<reflectionStrength>	0.020000	</reflectionStrength>
+		<refractionTint>	1.000000 1.000000 1.000000 1.000000	</refractionTint>
+		<refractionStrength>	0.020000	</refractionStrength>
+		<tessellation>	1.000000	</tessellation>
+		<consistency>	0.950000	</consistency>
+		<textureTessellation>	10.000000	</textureTessellation>
+		<scrollSpeed1>	5.000000 0.500000	</scrollSpeed1>
+		<scrollSpeed2>	5.000000 0.000000	</scrollSpeed2>
+		<waveScale>	1.000000 0.750000	</waveScale>
+		<windVelocity>	0.020000	</windVelocity>
+		<sunPower>	150.000000	</sunPower>
+		<sunScale>	0.120000	</sunScale>
+		<waveTexture>	system/maps/water_normal_animation/normal	</waveTexture>
+		<cellsize>	35.000000	</cellsize>
+		<smoothness>	0.100000	</smoothness>
+		<depth>	10.000000	</depth>
+		<foamTexture>	system/maps/water_foam2.dds	</foamTexture>
+		<deepColour>	0.152941 0.192157 0.337255 1.000000	</deepColour>
+		<fadeDepth>	0.000000	</fadeDepth>
+		<foamIntersection>	1.500000	</foamIntersection>
+		<foamMultiplier>	0.100000	</foamMultiplier>
+		<foamTiling>	1.000000	</foamTiling>
+		<useEdgeAlpha>	false	</useEdgeAlpha>
+		<useSimulation>	true	</useSimulation>
+		<visibility>	1	</visibility>
+		<reflectionTexture>	system/maps/cloudyhillscubemap2.dds	</reflectionTexture>
+		<useCubeMap>	false	</useCubeMap>
+	</water>
+</root>

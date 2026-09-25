@@ -1,0 +1,164 @@
+<root>
+	<ambientLight>
+		<colour>	0.000000 2.000000 15.000001	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-0.172440 9.689362 -2.731628	</position>
+		<innerRadius>	1.409559	</innerRadius>
+		<outerRadius>	4.642952	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-0.497009 13.990051 2.361916	</position>
+		<innerRadius>	1.959419	</innerRadius>
+		<outerRadius>	3.793355	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<shell>
+		<resource>	sets/town/shells/tower_room02.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	15796	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	1.314261 0.000010 0.612216	</row0>
+			<row1>	-0.609551 0.135183 1.308534	</row1>
+			<row2>	-0.057073 -1.443541 0.122545	</row2>
+			<row3>	1.316849 17.762680 -2.863312	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	15796	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-1.393464 0.000000 -0.374370	</row0>
+			<row1>	0.374370 -0.000000 -1.393462	</row1>
+			<row2>	-0.000000 -1.442875 0.000000	</row2>
+			<row3>	-0.581314 13.269913 3.098610	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20156	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.510013 0.024882 -0.028846	</row0>
+			<row1>	-0.023649 0.510405 0.022147	</row1>
+			<row2>	0.029864 -0.020753 0.510140	</row2>
+			<row3>	-0.446655 13.764236 2.792915	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24516	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	1.290564 0.000000 -0.112028	</row0>
+			<row1>	0.111977 -0.038979 1.289978	</row1>
+			<row2>	-0.003371 -1.294829 -0.038833	</row2>
+			<row3>	-0.299072 9.049240 -3.143051	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24552	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-0.247971 9.641571 -2.593414	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.507915 0.025354 -0.054262	</row0>
+			<row1>	0.027286 0.510424 -0.016914	</row1>
+			<row2>	0.053318 -0.019693 -0.508266	</row2>
+			<row3>	-0.305527 9.479706 -2.830360	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28912	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<transform>
+		<row0>	0.999999 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	212.000000 212.000000 98.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	208.610123 220.525650 94.499992	</min>
+		<max>	215.389847 230.402725 101.338356	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am000bi.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

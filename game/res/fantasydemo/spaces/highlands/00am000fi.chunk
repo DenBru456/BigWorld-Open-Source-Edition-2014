@@ -1,0 +1,786 @@
+<root>
+	<ambientLight>
+		<colour>	0.000000 2.000000 15.000001	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	1.022324 9.635681 -2.494522	</position>
+		<innerRadius>	2.277120	</innerRadius>
+		<outerRadius>	3.760161	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	2.429611 15.648575 0.178284	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-2.549347 13.078491 0.789131	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<shell>
+		<resource>	sets/town/shells/tower_room02.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	15796	</size>
+		</staticLighting>
+	</shell>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.050797 9.448578 -2.514359	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.704315 15.389481 0.215042	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-0.120560 0.000000 1.362511	</row0>
+			<row1>	-1.362513 0.000182 -0.120559	</row1>
+			<row2>	-0.000182 -1.367835 -0.000016	</row2>
+			<row3>	3.133926 14.845459 0.245560	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	15796	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.115614 0.012416 -0.498040	</row0>
+			<row1>	0.021330 0.510681 0.017682	</row1>
+			<row2>	0.497739 -0.024770 0.114927	</row2>
+			<row3>	2.843781 15.278214 0.181274	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20156	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-0.370050 0.000000 -1.384753	</row0>
+			<row1>	1.384755 -0.000000 -0.370050	</row1>
+			<row2>	-0.000000 -1.433345 0.000000	</row2>
+			<row3>	-3.007797 12.197479 0.920090	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20192	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.164772 0.012416 0.484005	</row0>
+			<row1>	-0.027450 0.510681 -0.003755	</row1>
+			<row2>	-0.483387 -0.024770 0.165196	</row2>
+			<row3>	-2.680511 12.665939 0.876434	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24552	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.497129 0.024882 -0.117509	</row0>
+			<row1>	0.028974 0.510405 -0.014500	</row1>
+			<row2>	0.116569 -0.020753 -0.497540	</row2>
+			<row3>	1.167053 9.290894 -2.655075	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24588	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.483432 0.177687 -0.880410	</row0>
+			<row1>	-0.133579 0.903697 0.109038	</row1>
+			<row2>	0.929294 0.073991 0.525207	</row2>
+			<row3>	2.634888 13.518814 0.884521	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24624	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.271939 -1.206999 -0.588304	</row0>
+			<row1>	0.362932 0.719134 -1.643176	</row1>
+			<row2>	1.497331 -0.410896 0.150890	</row2>
+			<row3>	2.941071 13.889374 0.209991	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24844	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.107012 0.000000 -1.987121	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	1.987124 0.000000 0.107012	</row2>
+			<row3>	2.791870 13.639374 0.562469	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	25064	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.325152 0.000000 -0.347674	</row0>
+			<row1>	0.000000 0.970000 0.000000	</row1>
+			<row2>	0.276617 0.000000 -1.054317	</row2>
+			<row3>	2.767929 13.797424 0.821579	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	25284	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	1.125555 0.157074 -0.765085	</row0>
+			<row1>	-0.142231 1.490108 0.096681	</row1>
+			<row2>	0.770165 0.000000 1.133026	</row2>
+			<row3>	2.853897 13.609360 0.155228	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	25504	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.254820 -0.342281 -0.430320	</row0>
+			<row1>	0.055779 1.089637 -1.029360	</row1>
+			<row2>	0.547483 -0.877108 -0.898803	</row2>
+			<row3>	3.077820 14.129364 -0.283371	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	25724	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.073672 0.000000 -1.368018	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	1.368019 0.000000 0.073672	</row2>
+			<row3>	2.839355 13.849365 0.424835	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	25944	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.496014 0.388849 -0.801978	</row0>
+			<row1>	-0.038593 0.836240 0.381592	</row1>
+			<row2>	0.933889 -0.180528 0.490067	</row2>
+			<row3>	3.075577 13.745758 0.495483	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	26164	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.107012 0.000000 -1.987121	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	1.987124 0.000000 0.107012	</row2>
+			<row3>	2.791870 13.527420 0.562469	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	26384	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.318548 0.944276 0.330782	</row0>
+			<row1>	-0.872676 0.182460 0.319539	</row1>
+			<row2>	0.267361 -0.432482 0.977123	</row2>
+			<row3>	2.514023 13.542526 0.716576	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	26604	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.073672 0.000000 -1.368018	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	1.368019 0.000000 0.073672	</row2>
+			<row3>	2.963104 13.909363 -0.199448	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	26824	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.054851 0.000000 -1.018525	</row0>
+			<row1>	0.000000 1.120000 0.000000	</row1>
+			<row2>	1.018525 0.000000 0.054850	</row2>
+			<row3>	2.491882 13.509354 0.463142	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27044	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.504559 0.000000 -0.886467	</row0>
+			<row1>	0.000000 0.920000 0.000000	</row1>
+			<row2>	0.929922 0.000000 0.529291	</row2>
+			<row3>	2.949799 13.902084 0.677208	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27264	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.215678 1.312075 -0.329917	</row0>
+			<row1>	0.456067 0.418526 1.366323	</row1>
+			<row2>	1.287199 0.096147 -0.459107	</row2>
+			<row3>	2.662292 13.867188 -0.135048	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27484	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.344621 -0.157778 0.209775	</row0>
+			<row1>	-0.040690 0.881688 0.402331	</row1>
+			<row2>	-0.203774 0.436727 -0.977674	</row2>
+			<row3>	2.838120 13.574432 0.846931	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27704	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.325153 0.000000 -0.347674	</row0>
+			<row1>	0.000000 0.970000 0.000000	</row1>
+			<row2>	0.276617 0.000000 -1.054317	</row2>
+			<row3>	2.789597 13.934891 0.821548	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27924	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.002863 0.378033 -1.187164	</row0>
+			<row1>	0.228283 1.281328 0.408570	</row1>
+			<row2>	1.228331 -0.199525 -0.060574	</row2>
+			<row3>	2.809174 14.127808 -0.728714	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28144	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.905536 0.000000 -0.505427	</row0>
+			<row1>	0.000000 0.935368 0.000000	</row1>
+			<row2>	0.530202 0.000000 -0.949924	</row2>
+			<row3>	2.713196 13.232208 1.373177	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28364	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.073672 0.000000 -1.368018	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	1.368019 0.000000 0.073672	</row2>
+			<row3>	2.668579 13.639374 0.806198	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28584	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.833499 0.000000 -1.087282	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	1.087285 0.000000 -0.833497	</row2>
+			<row3>	2.863052 13.241180 1.120781	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28804	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.611854 -0.003333 -0.889958	</row0>
+			<row1>	-0.210109 1.019106 0.140634	</row1>
+			<row2>	0.863328 0.260033 -0.594518	</row2>
+			<row3>	2.927612 14.052094 0.526520	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	29024	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.976433 0.000000 -0.960979	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	0.960980 0.000000 -0.976432	</row2>
+			<row3>	2.880539 14.071167 -0.449112	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	29244	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.259431 -0.422847 -0.334570	</row0>
+			<row1>	0.068363 0.799255 -1.267485	</row1>
+			<row2>	0.535573 -1.079454 -0.651799	</row2>
+			<row3>	3.009216 14.232452 -0.497406	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	29464	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.254820 -0.342281 -0.430320	</row0>
+			<row1>	0.055779 1.089637 -1.029360	</row1>
+			<row2>	0.547483 -0.877108 -0.898803	</row2>
+			<row3>	3.049316 14.019882 0.354836	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	29684	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.643625 0.000000 -1.209400	</row0>
+			<row1>	0.000000 1.500000 0.000000	</row1>
+			<row2>	1.209402 0.000000 0.643624	</row2>
+			<row3>	2.697678 13.782455 0.266953	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	29904	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.375097 1.305451 -0.178887	</row0>
+			<row1>	-0.562276 0.346121 1.346866	</row1>
+			<row2>	1.213458 -0.269749 0.575901	</row2>
+			<row3>	1.603378 12.638672 1.881531	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	30124	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.019499 -1.365390 -0.110599	</row0>
+			<row1>	-0.955267 0.000000 -0.168423	</row1>
+			<row2>	0.188622 0.089352 -1.069831	</row2>
+			<row3>	3.052475 13.708450 0.858849	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	30344	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.806377 0.000000 -1.051901	</row0>
+			<row1>	0.000000 1.451189 0.000000	</row1>
+			<row2>	1.051903 0.000000 -0.806375	</row2>
+			<row3>	2.902542 13.503311 0.972176	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	30564	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<transform>
+		<row0>	0.999999 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	212.000000 221.000000 98.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	208.610123 220.999985 94.499992	</min>
+		<max>	215.389847 239.309097 101.338356	</max>
+	</boundingBox>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	91C7B19F.4E2B4D0E.89E759B8.52C8C565	</guid>
+		<type>	Landmark	</type>
+		<transform>
+			<row0>	1.000001 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-0.875061 14.310562 -1.771133	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<radius>	50.329926	</radius>
+			<description>	Wizard Tower	</description>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<worldNavmesh>
+		<resource>	00am000fi.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

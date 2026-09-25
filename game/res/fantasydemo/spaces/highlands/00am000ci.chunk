@@ -1,0 +1,487 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/tunnel_damaged.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	22232	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<resource>	sets/dungeon/props/web03.model	</resource>
+		<transform>
+			<row0>	0.865705 -0.370506 0.336554	</row0>
+			<row1>	-0.208613 -0.878267 -0.430255	</row1>
+			<row2>	0.454998 0.302266 -0.837616	</row2>
+			<row3>	9.636261 2.427185 -4.882813	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	22232	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.999998 0.000000 0.000329	</row0>
+			<row1>	-0.000329 0.000104 0.999998	</row1>
+			<row2>	0.000000 -0.999998 0.000104	</row2>
+			<row3>	10.610535 1.815033 -4.741043	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	22248	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999996	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.999996 0.000000 0.000000	</row2>
+			<row3>	10.559235 2.148682 -4.491043	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.225830 0.000000 -0.974163	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	0.974163 0.000000 0.225830	</row2>
+			<row3>	10.612701 2.174194 -4.462357	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<omniLight>
+		<colour>	245.000107 221.000107 148.000000	</colour>
+		<position>	10.830383 2.380890 -3.974319	</position>
+		<innerRadius>	2.044891	</innerRadius>
+		<outerRadius>	5.304735	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.300000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/town/props/t_table.model	</resource>
+		<transform>
+			<row0>	0.999228 0.000000 0.039319	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.029988 0.000000 0.762098	</row2>
+			<row3>	1.694946 -0.015717 -1.016037	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	26608	</offset>
+			<size>	6728	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-1.410248 0.000000 0.377877	</row0>
+			<row1>	0.000000 1.579998 0.000000	</row1>
+			<row2>	-0.377877 0.000000 -1.410248	</row2>
+			<row3>	1.327057 0.764328 -0.954071	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.209644 0.000000 -0.782399	</row0>
+			<row1>	0.000000 0.989999 0.000000	</row1>
+			<row2>	0.782399 0.000000 -0.209644	</row2>
+			<row3>	1.484192 0.764328 -1.221344	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.338104 1.304321 -0.928276	</position>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1252456978	</modified_on>
+		</metaData>
+		<maxDistance>	40.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+	</flare>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.273896 0.000001 -1.434075	</row0>
+			<row1>	0.000000 1.579998 0.000001	</row1>
+			<row2>	1.434075 0.000000 -0.273896	</row2>
+			<row3>	2.519501 0.764328 -1.100151	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	0.795617 0.000000 -0.151956	</row0>
+			<row1>	0.000000 0.989998 0.000000	</row1>
+			<row2>	0.151956 0.000000 0.795617	</row2>
+			<row3>	2.524384 0.764328 -0.754845	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.531525 1.294342 -1.094315	</position>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1252456984	</modified_on>
+		</metaData>
+		<maxDistance>	40.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	201.000000 133.000000 58.000000	</colour>
+	</flare>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	35.000000 33.000000 29.000004	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	10.820740 2.081223 -3.948502	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	6.804775	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	1.942078 1.179901 -0.973572	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.913212	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.380653 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.380653 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.380653	</row2>
+			<row3>	10.602020 2.162415 -4.502838	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	33336	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	particles/shimmer.xml	</resource>
+		<transform>
+			<row0>	-0.030186 0.000000 -0.999542	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999542 0.000000 -0.030186	</row2>
+			<row3>	2.585236 0.421295 -0.914803	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	particles/shimmer.xml	</resource>
+		<transform>
+			<row0>	-0.258820 0.000000 -0.965924	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.965924 0.000000 -0.258820	</row2>
+			<row3>	1.324799 0.434555 -0.939629	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	0.999992 -0.000001 0.003260	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.003260 0.000000 0.999992	</row2>
+			<row3>	8.396332 0.000000 -2.654922	</row3>
+		</transform>
+		<guid>	2F819522.4111CA97.F91C6FB3.28ADD9D1	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	DE483A44.4D7ED63C.C603A992.ECF4C4B8	</guid>
+					<chunkId>	0004fffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	934D98EB.47CBFD62.DA3BBB86.1EE22B44	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1264978589	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1264978700	</modified_on>
+		</metaData>
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.000000 0.000000 0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	5.979492 1.640900 -3.028969	</row3>
+		</transform>
+		<guid>	5B91EC09.4363ED39.BFEC678F.2455E90C	</guid>
+		<properties>
+			<next>
+				<guid>	602408FB.4164DF6A.D836E1AF.968BC27D	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</next>
+			<name>	camera node1	</name>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	EA8F82E6.4F23DD32.50D00C88.3045D792	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	EFF116B6.48AFC318.2D781EBF.E485B931	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	-0.999998 0.000020 -0.000000	</row0>
+			<row1>	0.000020 1.000000 -0.000142	</row1>
+			<row2>	-0.000000 -0.000142 -0.999998	</row2>
+			<row3>	1.763580 0.000000 -2.617737	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Here you can see Heat Shimmer from the candles, and dynamic lighting.	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<modelType>	1	</modelType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290984662	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290984671	</modified_on>
+		</metaData>
+		<guid>	696A6CCE.4AB992A2.C385C28C.ABF17DDC	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	6.686401 0.000000 -3.341545	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	6	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	425.337860 156.269974 -121.940025	</row3>
+	</transform>
+	<boundingBox>
+		<min>	425.205902 155.848846 -127.397217	</min>
+		<max>	440.450653 163.186600 -121.441658	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am000ci.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

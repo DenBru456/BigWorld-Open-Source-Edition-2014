@@ -1,0 +1,44 @@
+<root>
+	<water>
+		<position>	577.428589 147.909790 -127.168900	</position>
+		<orientation>	0.000000	</orientation>
+		<size>	49.031654 0.000000 70.870132	</size>
+		<fresnelConstant>	0.300000	</fresnelConstant>
+		<fresnelExponent>	5.000000	</fresnelExponent>
+		<reflectionTint>	1.000000 1.000000 1.000000 1.000000	</reflectionTint>
+		<reflectionStrength>	0.100000	</reflectionStrength>
+		<refractionTint>	1.000000 1.000000 1.000000 1.000000	</refractionTint>
+		<refractionStrength>	0.040000	</refractionStrength>
+		<tessellation>	1.000000	</tessellation>
+		<consistency>	0.950000	</consistency>
+		<textureTessellation>	10.000000	</textureTessellation>
+		<scrollSpeed1>	-1.000000 0.500000	</scrollSpeed1>
+		<scrollSpeed2>	1.000000 0.000000	</scrollSpeed2>
+		<waveScale>	1.000000 0.750000	</waveScale>
+		<windVelocity>	0.020000	</windVelocity>
+		<sunPower>	1.000000	</sunPower>
+		<sunScale>	0.000000	</sunScale>
+		<waveTexture>	system/maps/water_normal_animation/normal	</waveTexture>
+		<cellsize>	100.000000	</cellsize>
+		<smoothness>	0.200000	</smoothness>
+		<useEdgeAlpha>	false	</useEdgeAlpha>
+		<useSimulation>	true	</useSimulation>
+		<depth>	10.000000	</depth>
+		<foamTexture>	system/maps/water_foam2.dds	</foamTexture>
+		<deepColour>	0.000000 0.200000 0.330000 1.000000	</deepColour>
+		<fadeDepth>	0.000000	</fadeDepth>
+		<foamIntersection>	0.900000	</foamIntersection>
+		<foamMultiplier>	0.200000	</foamMultiplier>
+		<visibility>	1	</visibility>
+		<foamTiling>	1.000000	</foamTiling>
+		<reflectionTexture>	system/maps/beastroomcubemap01.dds	</reflectionTexture>
+		<useCubeMap>	false	</useCubeMap>
+		<ignoreSoftParticleContrast>	false	</ignoreSoftParticleContrast>
+		<metaData>	</metaData>
+		<bypassDepth>	false	</bypassDepth>
+	</water>
+	<editorOnly>
+		<hidden>	false	</hidden>
+		<frozen>	false	</frozen>
+	</editorOnly>
+</root>

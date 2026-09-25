@@ -1,0 +1,27 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/american_elm_noleaves/AmericanElm_RT_noleaves.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.052041 0.447401 -0.081749	</row0>
+			<row1>	0.445824 0.033907 -0.098236	</row1>
+			<row2>	-0.089955 -0.090782 -0.439575	</row2>
+			<row3>	5.869629 38.717724 12.476044	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<terrain>
+		<resource>	00060005o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	00060005o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

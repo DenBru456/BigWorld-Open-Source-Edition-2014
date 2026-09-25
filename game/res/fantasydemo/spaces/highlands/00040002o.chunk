@@ -1,0 +1,124 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/american_elm_noleaves/AmericanElm_RT_noleaves.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.595028 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.595028 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.595028	</row2>
+			<row3>	10.610748 58.109375 63.073059	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<particles>
+		<resource>	particles/area2_fire.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	6.231628 73.332787 63.724243	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/area2_fire.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	16.395050 73.680367 62.979340	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/tree_fire.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	9.913239 77.533646 62.519043	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<terrain>
+		<resource>	00040002o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	DDD74492.4E07E85F.E8998DAC.A5A5E79F	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	44.170959 73.640617 2.918961	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	striff	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	C2494324.4C62E72D.7F4782B3.C9DC480B	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	73.142609 57.812496 76.284744	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	striff	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	D95B64CD.40AA4FED.ADCA8390.DA47B5F5	</guid>
+		<type>	Landmark	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	36.296509 73.311508 6.305878	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<radius>	212.782211	</radius>
+			<description>	Badlands	</description>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00040002o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

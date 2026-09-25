@@ -1,0 +1,57 @@
+<root>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.010992 0.000000 0.157197	</row0>
+			<row1>	0.000000 0.157581 0.000000	</row1>
+			<row2>	-0.157197 0.000000 -0.010992	</row2>
+			<row3>	2.018912 176.954010 54.223511	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.087028 0.000000 0.119784	</row0>
+			<row1>	0.000000 0.148061 0.000000	</row1>
+			<row2>	-0.119784 0.000000 -0.087028	</row2>
+			<row3>	40.066959 186.530457 57.966339	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.029456 0.000000 0.151535	</row0>
+			<row1>	0.000000 0.154371 0.000000	</row1>
+			<row2>	-0.151535 0.000000 0.029456	</row2>
+			<row3>	23.023180 178.479034 23.052460	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.018070 0.000000 -0.147164	</row0>
+			<row1>	0.000000 0.148270 0.000000	</row1>
+			<row2>	0.147164 0.000000 -0.018070	</row2>
+			<row3>	49.598843 179.275925 14.546555	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	00000001o.cdata/terrain2	</resource>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	00000001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

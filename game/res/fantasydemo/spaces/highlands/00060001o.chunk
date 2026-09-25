@@ -1,0 +1,57 @@
+<root>
+	<terrain>
+		<resource>	00060001o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	5CC34FA6.441AD9F7.D0F76481.FF943B88	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	45.748169 115.226555 78.732185	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	spider	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	A74261AA.4374A3BA.8DFD3E9A.0578CE25	</guid>
+		<type>	DustDevil	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	22.995483 119.345917 9.076416	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00060001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

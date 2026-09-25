@@ -1,0 +1,104 @@
+<fffefffao.chunk>
+	<terrain>
+		<resource>	fffefffao.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<vlo>
+		<uid>	d9e4d4d3.416a30b9.81f32989.d283040a	</uid>
+		<type>	water	</type>
+	</vlo>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	F1F5D3CE.4227AE01.3BC7B194.88354E0C	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	50.660202 58.834381 1.005493	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	5	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	D178C5E7.45B5B2B3.7CD279A7.00764EF6	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.258819 0.000000 -0.965926	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965926 0.000000 0.258819	</row2>
+			<row3>	55.267899 58.253185 3.041626	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	5	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	571D6248.4248219A.637C82B9.1443BBB0	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.707107 0.000000 -0.707107	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.707107 0.000000 -0.707107	</row2>
+			<row3>	48.393173 58.297031 4.599060	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	5	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	BBB820B3.44C3C5C6.63128F9C.82DCCE81	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	29.713837 59.150387 7.295471	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	crab	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	fffefffao.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffefffao.chunk>

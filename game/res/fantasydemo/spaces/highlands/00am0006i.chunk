@@ -1,0 +1,76 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/entrance_connector.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	5828	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	35.000000 33.000000 29.000004	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	0.999994 0.000192 0.003261	</row0>
+			<row1>	-0.000195 0.999999 0.000448	</row1>
+			<row2>	-0.003261 -0.000448 0.999994	</row2>
+			<row3>	0.137054 0.000000 -2.548599	</row3>
+		</transform>
+		<guid>	DE483A44.4D7ED63C.C603A992.ECF4C4B8	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	F325A66D.49EB40CE.9AD04E8B.34361500	</guid>
+					<chunkId>	0004fffeo	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	2.000000	</departureSpeed>
+			<importance>	1	</importance>
+			<waitSecs>	0.000000	</waitSecs>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	2F819522.4111CA97.F91C6FB3.28ADD9D1	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	420.337891 156.269989 -121.940033	</row3>
+	</transform>
+	<boundingBox>
+		<min>	419.654877 155.659698 -127.400452	</min>
+		<max>	426.345398 161.923538 -121.441666	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0006i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

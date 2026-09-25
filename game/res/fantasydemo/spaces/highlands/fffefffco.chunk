@@ -1,0 +1,30 @@
+<fffefffco.chunk>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-3.534689 -0.020479 -0.041374	</row0>
+			<row1>	-0.022058 3.532298 0.136151	</row1>
+			<row2>	0.040553 0.136397 -3.532125	</row2>
+			<row3>	57.359283 46.103306 94.525513	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	fffefffco.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<vlo>
+		<uid>	d9e4d4d3.416a30b9.81f32989.d283040a	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	fffefffco.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffefffco.chunk>

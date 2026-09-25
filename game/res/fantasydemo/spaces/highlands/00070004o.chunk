@@ -1,0 +1,33 @@
+<root>
+	<terrain>
+		<resource>	00070004o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	24338356.46395356.2DFA878C.965AD423	</guid>
+		<type>	DustDevil	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	27.745300 50.885353 62.156281	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00070004o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

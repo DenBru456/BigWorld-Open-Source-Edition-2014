@@ -1,0 +1,981 @@
+<root>
+	<shell>
+		<resource>	sets/town/shells/t_room_small_2x4exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	956	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<resource>	sets/town/props/t_weaponrack.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.962725	</row0>
+			<row1>	0.000000 1.962724 0.000000	</row1>
+			<row2>	1.962725 -0.000000 0.000000	</row2>
+			<row3>	0.004760 0.000000 9.867627	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	956	</offset>
+			<size>	600	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_shelf.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.010585	</row0>
+			<row1>	0.000000 1.010584 0.000000	</row1>
+			<row2>	1.010585 -0.000000 0.000000	</row2>
+			<row3>	0.474886 0.000000 7.090220	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	1556	</offset>
+			<size>	480	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_crate.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 -0.000000 0.000000	</row2>
+			<row3>	-0.036503 0.000000 8.391662	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	2036	</offset>
+			<size>	1472	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_crate.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.582783	</row0>
+			<row1>	-0.000000 0.582783 0.000000	</row1>
+			<row2>	0.582783 0.000000 0.000000	</row2>
+			<row3>	0.224924 1.092056 6.526420	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	3508	</offset>
+			<size>	1472	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_stand.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 -0.000000 0.000000	</row2>
+			<row3>	-6.605392 0.000000 1.581352	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	4980	</offset>
+			<size>	1024	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_basket.model	</resource>
+		<transform>
+			<row0>	0.000000 -0.000006 -0.811921	</row0>
+			<row1>	0.000000 0.811921 -0.000006	</row1>
+			<row2>	0.811921 -0.000000 0.000000	</row2>
+			<row3>	0.109939 2.102639 6.428161	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	6004	</offset>
+			<size>	248	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/sword_bastard.model	</resource>
+		<transform>
+			<row0>	0.083621 0.470074 -1.280688	</row0>
+			<row1>	0.224300 1.260892 0.477454	</row1>
+			<row2>	1.345667 -0.239380 0.000000	</row2>
+			<row3>	-0.100945 1.195782 10.390140	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/plug_archdoor_shut.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 -1.068583	</row0>
+			<row1>	0.000000 1.068583 0.000000	</row1>
+			<row2>	1.068583 0.000000 0.000000	</row2>
+			<row3>	-8.038544 0.000000 8.011520	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	6252	</offset>
+			<size>	368	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<colour>	255.000000 232.000061 208.000061	</colour>
+		<position>	-0.514587 3.561934 2.099998	</position>
+		<innerRadius>	3.786762	</innerRadius>
+		<outerRadius>	6.210063	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.400000	</multiplier>
+	</omniLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	0.042694 3.085544 1.680779	</position>
+		<colour>	255.000000 207.000015 158.000000	</colour>
+	</flare>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	-6.457336 1.658304 1.297249	</position>
+		<innerRadius>	0.935976	</innerRadius>
+		<outerRadius>	3.111542	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	2.600000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom04_single.model	</resource>
+		<transform>
+			<row0>	0.998246 0.059204 -0.000001	</row0>
+			<row1>	-0.026038 0.439008 -0.898106	</row1>
+			<row2>	-0.053171 0.896530 0.439780	</row2>
+			<row3>	0.145552 2.123184 6.516357	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	6620	</offset>
+			<size>	524	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/mushrooms/mushroom05_single.model	</resource>
+		<transform>
+			<row0>	-0.222529 -0.636117 0.738805	</row0>
+			<row1>	-0.873789 0.466238 0.138248	</row1>
+			<row2>	-0.432401 -0.614797 -0.659585	</row2>
+			<row3>	0.368029 2.172005 6.543701	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	7144	</offset>
+			<size>	524	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.000000 -0.000000 1.000000	</row2>
+			<row3>	-0.128815 0.008514 3.828690	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	7668	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_apples.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.000000 -0.000000 1.000000	</row2>
+			<row3>	-1.042435 0.000000 9.863724	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13184	</offset>
+			<size>	8316	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/grail.model	</resource>
+		<transform>
+			<row0>	0.415948 -0.000000 -1.552337	</row0>
+			<row1>	0.000000 1.607097 0.000000	</row1>
+			<row2>	1.552337 -0.000000 0.415948	</row2>
+			<row3>	0.181919 1.092056 5.882300	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/table_indoor/model/table_indoor.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-5.761112 0.000015 9.116699	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	21500	</offset>
+			<size>	5760	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_basket.model	</resource>
+		<transform>
+			<row0>	-0.000013 -0.000081 -0.811921	</row0>
+			<row1>	-0.016402 0.811755 -0.000081	</row1>
+			<row2>	0.811755 0.016402 -0.000015	</row2>
+			<row3>	-5.329228 0.978531 8.679672	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27260	</offset>
+			<size>	248	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/item_food_drumstick.model	</resource>
+		<transform>
+			<row0>	0.030040 -0.623181 -0.372727	</row0>
+			<row1>	-0.062106 0.369474 -0.622747	</row1>
+			<row2>	0.723479 0.057593 -0.037983	</row2>
+			<row3>	-5.288833 0.934189 8.672882	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<transform>
+			<row0>	-0.000002 -0.000566 -1.000000	</row0>
+			<row1>	-0.003597 0.999994 -0.000566	</row1>
+			<row2>	0.999993 0.003597 -0.000004	</row2>
+			<row3>	-6.373755 0.977631 9.385498	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-6.409348 1.304024 9.397903	</position>
+		<colour>	255.000000 207.000015 158.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<transform>
+			<row0>	-0.000003 -0.002282 -0.999997	</row0>
+			<row1>	0.031548 0.999500 -0.002281	</row1>
+			<row2>	0.999502 -0.031547 0.000069	</row2>
+			<row3>	-5.210693 0.978844 9.628036	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<transform>
+			<row0>	0.000043 0.003114 -0.999995	</row0>
+			<row1>	0.016413 0.999860 0.003114	</row1>
+			<row2>	0.999865 -0.016413 -0.000008	</row2>
+			<row3>	-5.536731 0.979729 9.834915	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-5.553288 1.293518 9.838837	</position>
+		<colour>	255.000000 207.000015 158.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-5.223862 1.294395 9.640976	</position>
+		<colour>	255.000000 207.000015 158.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/items/grail.model	</resource>
+		<transform>
+			<row0>	-0.000002 -0.002627 -1.277930	</row0>
+			<row1>	0.010709 1.277885 -0.002627	</row1>
+			<row2>	1.277888 -0.010709 0.000020	</row2>
+			<row3>	-5.765373 0.977890 8.720917	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	0.194050 3.054771 5.594635	</position>
+		<innerRadius>	0.935976	</innerRadius>
+		<outerRadius>	3.111542	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<transform>
+			<row0>	0.000000 -0.001734 -0.999999	</row0>
+			<row1>	0.000000 0.999997 -0.001734	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	0.194820 2.089485 5.663071	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	0.195881 2.421249 5.668716	</position>
+		<colour>	255.000000 207.000015 158.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/town/props/t_shovel.model	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 -0.000000	</row0>
+			<row1>	0.000000 0.991386 -0.130969	</row1>
+			<row2>	0.000000 -0.130969 -0.991387	</row2>
+			<row3>	-5.261743 0.000000 0.738796	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27508	</offset>
+			<size>	668	</size>
+		</staticLighting>
+	</model>
+	<shell>
+		<resource>	sets/town/shells/t_room_small_2x4exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/t_room_small_2x4exit-0	</lighting>
+	</shell>
+	<model>
+		<resource>	sets/town/props/bench/model/bench.model	</resource>
+		<transform>
+			<row0>	0.000065 0.000000 0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-1.839641 0.000000 -0.000137	</row2>
+			<row3>	-6.737025 -0.000023 4.394760	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28176	</offset>
+			<size>	1816	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/keg/model/keg.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 -0.000000	</row2>
+			<row3>	-6.579716 0.505333 3.331772	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	29992	</offset>
+			<size>	6100	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/grail.model	</resource>
+		<transform>
+			<row0>	0.000009 -0.000137 -1.277933	</row0>
+			<row1>	0.000595 1.277932 -0.000137	</row1>
+			<row2>	1.277933 -0.000595 0.000009	</row2>
+			<row3>	-7.073735 0.505341 5.732300	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/items/grail.model	</resource>
+		<transform>
+			<row0>	0.000009 0.000003 -1.277933	</row0>
+			<row1>	-0.000013 1.277932 0.000003	</row1>
+			<row2>	1.277933 0.000013 0.000009	</row2>
+			<row3>	-6.722382 0.505341 5.748444	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/items/grail.model	</resource>
+		<transform>
+			<row0>	0.000009 -0.000137 -1.277933	</row0>
+			<row1>	0.000595 1.277932 -0.000137	</row1>
+			<row2>	1.277933 -0.000595 0.000009	</row2>
+			<row3>	-6.348970 0.505341 5.742676	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/keg/model/keg.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	-6.570931 0.505280 4.157074	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	36092	</offset>
+			<size>	6100	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/keg/model/keg.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999999 0.000000 0.000000	</row2>
+			<row3>	-6.543425 0.505325 5.021790	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	42192	</offset>
+			<size>	6100	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	-3.230227 0.000008 10.197433	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	48292	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.258819 0.000000 -0.965925	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.965925 0.000000 -0.258819	</row2>
+			<row3>	-2.350398 0.000008 10.264359	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	53808	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<ambientLight>
+		<colour>	133.000000 105.000008 82.000000	</colour>
+		<multiplier>	0.500000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	-5.417224 1.890083 8.098450	</position>
+		<innerRadius>	2.083567	</innerRadius>
+		<outerRadius>	3.298187	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel_cabbages.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.000000 -0.000000 1.000000	</row2>
+			<row3>	-0.810970 0.000000 7.328918	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	59324	</offset>
+			<size>	6796	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<transform>
+			<row0>	-0.000000 -0.000001 -1.000000	</row0>
+			<row1>	0.000346 1.000000 -0.000001	</row1>
+			<row2>	1.000000 -0.000346 0.000000	</row2>
+			<row3>	-6.546876 0.587753 1.330963	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/items/grail.model	</resource>
+		<transform>
+			<row0>	0.000009 -0.000147 -1.277933	</row0>
+			<row1>	0.000593 1.277932 -0.000147	</row1>
+			<row2>	1.277933 -0.000593 0.000009	</row2>
+			<row3>	-6.342607 0.587753 1.814804	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/items/grail.model	</resource>
+		<transform>
+			<row0>	0.000009 0.000003 -1.277933	</row0>
+			<row1>	-0.000013 1.277932 0.000003	</row1>
+			<row2>	1.277933 0.000013 0.000009	</row2>
+			<row3>	-6.675800 0.587753 1.846817	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-6.594956 0.925522 1.325760	</position>
+		<colour>	255.000000 207.000015 158.000000	</colour>
+	</flare>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 1.296246	</row0>
+			<row1>	-1.296246 -0.000000 0.000000	</row1>
+			<row2>	0.000000 -1.296246 -0.000000	</row2>
+			<row3>	0.499996 2.231316 1.695770	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	66120	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.427221 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.427221 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.427221	</row2>
+			<row3>	0.173367 2.668755 1.670334	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	70480	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.499784	</row0>
+			<row1>	0.000000 1.499784 0.000000	</row1>
+			<row2>	1.499784 -0.000000 0.000000	</row2>
+			<row3>	0.053808 0.222893 6.262067	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	70516	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/town/props/t_steps.model	</resource>
+		<transform>
+			<row0>	-0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.000000 0.000000 -0.999998	</row2>
+			<row3>	-1.444435 -0.309364 -0.559265	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	70736	</offset>
+			<size>	2312	</size>
+		</staticLighting>
+	</model>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	-17.899902 71.356682 -231.453094	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-18.399902 70.745102 -242.453079	</min>
+		<max>	-9.899901 76.356674 -231.453079	</max>
+	</boundingBox>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	98364ECF.4370396E.6EE5C290.48B9E487	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	-0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999998	</row2>
+			<row3>	-4.052721 0.000053 8.699112	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	2	</seatType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<guid>	76F9C76C.4792705E.223FAFA1.87343FBD	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	-0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999998	</row2>
+			<row3>	-5.886704 -0.000053 7.538193	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	2	</seatType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290984758	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290984758	</modified_on>
+		</metaData>
+		<guid>	D92410A8.4519FC73.50E089AF.AEA395E1	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-1.808775 0.000015 5.133057	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	6	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290984760	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290984760	</modified_on>
+		</metaData>
+		<guid>	56AA1F4B.491120BC.0D4AC88D.25AE50C3	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	-4.302201 0.000008 5.499695	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	6	</creatureType>
+			<patrolPathNode>	</patrolPathNode>
+		</properties>
+		<backLinks>	</backLinks>
+	</entity>
+	<worldNavmesh>
+		<resource>	00am0032i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

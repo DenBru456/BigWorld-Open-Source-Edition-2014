@@ -1,0 +1,63 @@
+<root>
+	<terrain>
+		<resource>	00050002o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	10.896057 66.742172 48.491608	</row3>
+		</transform>
+		<guid>	55F30B16.4A6971CE.D3856EB3.CCE6CEB4	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	5FCB2F56.4D150D22.E83A3A8B.32237E0E	</guid>
+					<chunkId>	00040001o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	704C750B.4877E44C.E5965C90.0B83FEF8	</guid>
+				<chunkId>	00050003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	96096B6C.4D23B8C3.FDD33395.2A8B4BBB	</guid>
+		<type>	DustDevil	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	13.535553 66.828880 50.470764	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00050002o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

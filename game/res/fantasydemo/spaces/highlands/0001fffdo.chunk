@@ -1,0 +1,44 @@
+<root>
+	<vlo>
+		<uid>	d9e4d4d3.416a30b9.81f32989.d283040a	</uid>
+		<type>	water	</type>
+	</vlo>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0001fffdo.cdata/terrain2	</resource>
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.146083 -0.000000 -0.989272	</row0>
+			<row1>	-0.272680 0.961261 -0.040266	</row1>
+			<row2>	0.950949 0.275637 0.140424	</row2>
+			<row3>	35.389610 66.759094 57.249771	</row3>
+		</transform>
+		<guid>	0A792770.4FB76550.ABE46A91.0067626F	</guid>
+		<properties>
+			<next>
+				<guid>	284CDB28.4B75CFA7.75B8B18C.3E858D74	</guid>
+				<chunkId>	0002fffdo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	7D613507.4179692A.84851BB2.36E088D2	</guid>
+				<chunkId>	0000fffdo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	0001fffdo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

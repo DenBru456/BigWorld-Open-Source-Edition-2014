@@ -1,0 +1,212 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Conifers/italian_stonepine/ItalianStonePine_RT_1.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.290786 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.290786 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.290786	</row2>
+			<row3>	37.042999 73.453125 90.559982	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<terrain>
+		<resource>	00040001o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	90.591339 74.554672 99.143394	</row3>
+		</transform>
+		<guid>	5FCB2F56.4D150D22.E83A3A8B.32237E0E	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	728447B2.4A9C3803.0723D3B8.1332D32F	</guid>
+					<chunkId>	00040001o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	55F30B16.4A6971CE.D3856EB3.CCE6CEB4	</guid>
+				<chunkId>	00050002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	95.659882 78.874985 34.640404	</row3>
+		</transform>
+		<guid>	728447B2.4A9C3803.0723D3B8.1332D32F	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	FECEBD66.494E1274.FB057484.3EC55B94	</guid>
+					<chunkId>	00040001o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	5FCB2F56.4D150D22.E83A3A8B.32237E0E	</guid>
+				<chunkId>	00040001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	30.307648 71.484360 21.047485	</row3>
+		</transform>
+		<guid>	FECEBD66.494E1274.FB057484.3EC55B94	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	3129EB60.479BCEFB.CD842A9A.6A662E53	</guid>
+					<chunkId>	00040001o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	728447B2.4A9C3803.0723D3B8.1332D32F	</guid>
+				<chunkId>	00040001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	25.598663 73.726547 98.037346	</row3>
+		</transform>
+		<guid>	3129EB60.479BCEFB.CD842A9A.6A662E53	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	BC3CFB58.48CA3FFD.43DC229F.89092CC7	</guid>
+					<chunkId>	00030002o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	FECEBD66.494E1274.FB057484.3EC55B94	</guid>
+				<chunkId>	00040001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	CC2C2396.45354C57.E27682BA.0038C056	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	70.198608 75.539055 21.532738	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	spider	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	D05269D3.4971A01B.B14144B8.98E650EA	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	47.795166 73.499992 15.702850	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	spider	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	9363B915.48C6A4B4.2E6E8480.BF5C6CC6	</guid>
+		<type>	DustDevil	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	98.036926 81.853951 11.937340	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00040001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

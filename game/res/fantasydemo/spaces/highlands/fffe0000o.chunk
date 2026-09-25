@@ -1,0 +1,74 @@
+<fffe0000o.chunk>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.138986 0.000000 -0.165637	</row0>
+			<row1>	0.000000 0.216224 0.000000	</row1>
+			<row2>	0.165637 0.000000 0.138986	</row2>
+			<row3>	92.108315 129.564224 4.507240	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.136320 0.000000 0.168341	</row0>
+			<row1>	0.000000 0.216615 0.000000	</row1>
+			<row2>	-0.168341 0.000000 -0.136320	</row2>
+			<row3>	77.644920 139.225128 21.474129	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.003280 0.000000 0.187926	</row0>
+			<row1>	0.000000 0.187954 0.000000	</row1>
+			<row2>	-0.187926 0.000000 0.003280	</row2>
+			<row3>	63.989441 143.860794 18.307472	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.136346 0.000000 0.127145	</row0>
+			<row1>	0.000000 0.186430 0.000000	</row1>
+			<row2>	-0.127145 0.000000 -0.136346	</row2>
+			<row3>	36.710724 161.592300 36.253937	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffe0000o.cdata/terrain2	</resource>
+	</terrain>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.136320 0.000000 0.168341	</row0>
+			<row1>	0.000000 0.216615 0.000000	</row1>
+			<row2>	-0.168341 0.000000 -0.136320	</row2>
+			<row3>	90.926643 144.268814 38.521591	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<worldNavmesh>
+		<resource>	fffe0000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffe0000o.chunk>

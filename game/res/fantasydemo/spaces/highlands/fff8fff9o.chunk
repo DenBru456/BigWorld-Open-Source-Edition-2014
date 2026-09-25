@@ -1,0 +1,38 @@
+<fff8fff9o.chunk>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.122581 0.000000 0.039829	</row0>
+			<row1>	0.000000 0.128889 0.000000	</row1>
+			<row2>	-0.039829 0.000000 0.122581	</row2>
+			<row3>	62.548889 116.023438 88.288940	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.019338 0.000000 -0.099486	</row0>
+			<row1>	0.000000 0.101348 0.000000	</row1>
+			<row2>	0.099486 0.000000 -0.019338	</row2>
+			<row3>	51.640015 112.269989 1.380005	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<terrain>
+		<resource>	fff8fff9o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	fff8fff9o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fff8fff9o.chunk>

@@ -1,0 +1,142 @@
+<root>
+	<ambientLight>
+		<colour>	0.000000 2.000000 15.000002	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<colour>	255.000000 252.000046 187.000000	</colour>
+		<position>	0.129501 47.373825 2.725197	</position>
+		<innerRadius>	2.046679	</innerRadius>
+		<outerRadius>	8.837933	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.391525 47.092667 2.650482	</position>
+	</flare>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.999996 0.002726 -0.000018	</row0>
+			<row1>	0.002725 0.999967 0.007646	</row1>
+			<row2>	0.000039 0.007646 -0.999970	</row2>
+			<row3>	2.184265 45.822403 2.712196	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	3568	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.999974 0.007052 0.000007	</row0>
+			<row1>	0.007052 0.999966 0.004043	</row1>
+			<row2>	0.000021 0.004042 -0.999991	</row2>
+			<row3>	2.666550 45.823441 2.017570	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	9084	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.191589 47.203384 2.639320	</position>
+	</flare>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.182323 0.000368 -0.681668	</row0>
+			<row1>	0.001343 0.763626 0.000054	</row1>
+			<row2>	0.681667 -0.001187 -0.182324	</row2>
+			<row3>	2.167664 46.912003 2.628975	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.459970 0.003511 0.123018	</row0>
+			<row1>	0.003217 0.515269 -0.002680	</row1>
+			<row2>	-0.123033 -0.001624 -0.459977	</row2>
+			<row3>	2.389038 46.894485 2.651810	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<shell>
+		<resource>	sets/town/shells/tower_room05.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	3568	</size>
+		</staticLighting>
+	</shell>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	212.000000 211.700409 98.000031	</row3>
+	</transform>
+	<boundingBox>
+		<min>	207.601486 257.000366 93.734337	</min>
+		<max>	216.185135 278.994690 102.265709	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0016i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

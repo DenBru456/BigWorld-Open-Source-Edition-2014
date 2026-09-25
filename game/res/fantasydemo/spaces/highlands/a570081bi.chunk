@@ -1,0 +1,261 @@
+<a570081bi.chunk>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281327391	</modified_on>
+		</metaData>
+		<resource>	sets/town/shells/tower_room05.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	3568	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310932	</modified_on>
+		</metaData>
+		<colour>	0.000000 2.000000 15.000006	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281327468	</modified_on>
+		</metaData>
+		<colour>	255.000000 252.000107 187.000000	</colour>
+		<position>	0.112585 47.404755 3.208923	</position>
+		<innerRadius>	2.230962	</innerRadius>
+		<outerRadius>	2.951355	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281327484	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281327572	</modified_on>
+		</metaData>
+		<colour>	255.000000 252.000122 187.000000	</colour>
+		<position>	1.363760 49.218475 1.529907	</position>
+		<innerRadius>	2.230962	</innerRadius>
+		<outerRadius>	4.730914	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332313	</modified_on>
+		</metaData>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.995369 -0.096074 0.002667	</row0>
+			<row1>	-0.096073 0.993826 -0.055468	</row1>
+			<row2>	0.002678 -0.055468 -0.998456	</row2>
+			<row3>	2.636969 45.990524 1.996216	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	3568	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332316	</modified_on>
+		</metaData>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.997449 -0.071324 0.002854	</row0>
+			<row1>	-0.071309 0.993827 -0.084983	</row1>
+			<row2>	0.003225 -0.084969 -0.996378	</row2>
+			<row3>	2.089098 46.010880 2.780823	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	9084	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332326	</modified_on>
+		</metaData>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.179836 -0.070935 -0.678631	</row0>
+			<row1>	-0.054454 0.758913 -0.064895	</row1>
+			<row2>	0.680471 0.033109 -0.183784	</row2>
+			<row3>	1.880850 47.094650 2.686646	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332417	</modified_on>
+		</metaData>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<animation>
+			<name>	t_candle_anim	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.459127 -0.022324 0.124187	</row0>
+			<row1>	-0.036744 0.512105 -0.043790	</row1>
+			<row2>	-0.121524 -0.047873 -0.457885	</row2>
+			<row3>	2.133877 47.108627 2.637573	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332433	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.119802 47.281113 2.646851	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+	</flare>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332437	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	1.864906 47.365219 2.666748	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+	</flare>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281332448	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332474	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	-0.055884 0.142844 1.600260	</row0>
+			<row1>	0.004888 1.601235 -0.142761	</row1>
+			<row2>	-1.606615 -0.000097 -0.056098	</row2>
+			<row3>	2.002155 46.043671 2.790405	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	14600	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<transform>
+		<row0>	0.034900 -0.000005 0.999391	</row0>
+		<row1>	-0.000001 1.000000 0.000005	</row1>
+		<row2>	-0.999391 -0.000001 0.034900	</row2>
+		<row3>	549.839722 213.880402 -233.090134	</row3>
+	</transform>
+	<boundingBox>
+		<min>	545.423035 259.180389 -237.634598	</min>
+		<max>	554.248779 281.174744 -228.758331	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	a570081bi.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</a570081bi.chunk>

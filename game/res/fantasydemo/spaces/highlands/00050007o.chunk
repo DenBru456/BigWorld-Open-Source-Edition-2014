@@ -1,0 +1,23 @@
+<root>
+	<particles>
+		<resource>	particles/mega_fire.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	82.572662 50.464966 98.351257	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<terrain>
+		<resource>	00050007o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	00050007o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

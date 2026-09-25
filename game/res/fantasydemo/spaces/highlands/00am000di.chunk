@@ -1,0 +1,82 @@
+<root>
+	<ambientLight>
+		<colour>	24.000002 24.000002 37.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	0.700000 0.000000 -0.000121	</row0>
+			<row1>	0.000000 0.461874 0.000000	</row1>
+			<row2>	-0.000085 0.000000 0.319686	</row2>
+			<row3>	0.205872 -0.057251 -4.093597	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	2668	</offset>
+			<size>	104	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/flagstone_slab.model	</resource>
+		<transform>
+			<row0>	0.700000 0.000000 -0.000121	</row0>
+			<row1>	0.000000 0.461874 0.000000	</row1>
+			<row2>	-0.000085 0.000000 0.319686	</row2>
+			<row3>	-0.058731 0.122742 -4.589775	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	2772	</offset>
+			<size>	104	</size>
+		</staticLighting>
+	</model>
+	<shell>
+		<resource>	sets/town/shells/tower_corridor.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	2668	</size>
+		</staticLighting>
+	</shell>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	212.000000 212.000000 98.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	210.838150 211.781479 93.199989	</min>
+		<max>	213.164841 216.499985 94.591911	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am000di.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

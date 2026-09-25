@@ -1,0 +1,87 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/american_elm_noleaves/AmericanElm_RT_noleaves.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.087088 0.351440 -0.045925	</row0>
+			<row1>	0.335891 -0.066745 0.126197	</row1>
+			<row2>	0.113121 -0.072378 -0.339366	</row2>
+			<row3>	17.723633 62.211433 49.278870	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<terrain>
+		<resource>	00050003o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	45.556610 45.914055 98.470337	</row3>
+		</transform>
+		<guid>	3A8A0359.4EB48B96.D725EDB8.B57E9C72	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	704C750B.4877E44C.E5965C90.0B83FEF8	</guid>
+					<chunkId>	00050003o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	ECE32726.4359ADD4.439759B9.0DADCCE9	</guid>
+				<chunkId>	00040004o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	1.753815 60.070305 17.438385	</row3>
+		</transform>
+		<guid>	704C750B.4877E44C.E5965C90.0B83FEF8	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	55F30B16.4A6971CE.D3856EB3.CCE6CEB4	</guid>
+					<chunkId>	00050002o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	3A8A0359.4EB48B96.D725EDB8.B57E9C72	</guid>
+				<chunkId>	00050003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	00050003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

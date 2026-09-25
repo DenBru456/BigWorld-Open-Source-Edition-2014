@@ -1,0 +1,50 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Conifers/monterey_cypress/MontereyCypress_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.054341 0.000000 0.190879	</row0>
+			<row1>	0.000000 0.198463 0.000000	</row1>
+			<row2>	-0.190879 0.000000 -0.054341	</row2>
+			<row3>	100.017593 166.710938 3.817261	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	-0.549808 0.000000 -0.275147	</row0>
+			<row1>	0.000000 0.614812 0.000000	</row1>
+			<row2>	0.275147 0.000000 -0.549808	</row2>
+			<row3>	84.950607 163.859375 1.760132	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+		<transform>
+			<row0>	0.895050 0.000000 -0.711567	</row0>
+			<row1>	0.000000 1.143433 0.000000	</row1>
+			<row2>	0.711567 0.000000 0.895050	</row2>
+			<row3>	90.320328 160.343750 0.183350	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	00010006o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	00010006o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

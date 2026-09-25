@@ -1,0 +1,217 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/tunnel_turn_stairs02.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	11252	</size>
+		</staticLighting>
+	</shell>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-5.888710 1.037949 -1.903748	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.748809 0.000000 -0.662776	</row0>
+			<row1>	0.662776 0.000104 0.748809	</row1>
+			<row2>	0.000069 -0.999995 0.000077	</row2>
+			<row3>	-6.571571 0.771454 -2.358582	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	11252	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	-0.663022 0.000000 -0.748590	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.748590 0.000000 -0.663022	</row2>
+			<row3>	-6.444183 1.105103 -2.137451	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	-0.476838 0.000000 -0.878982	</row0>
+			<row1>	0.000000 0.999993 0.000000	</row1>
+			<row2>	0.878982 0.000000 -0.476838	</row2>
+			<row3>	-6.385117 1.130615 -2.151428	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.307518 0.000000 0.224341	</row0>
+			<row1>	0.000000 0.380652 0.000000	</row1>
+			<row2>	-0.224341 0.000000 -0.307518	</row2>
+			<row3>	-6.459488 1.116776 -2.198547	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	15612	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	245.000168 221.000168 148.000000	</colour>
+		<position>	-5.898743 1.337616 -1.929321	</position>
+		<innerRadius>	2.044891	</innerRadius>
+		<outerRadius>	8.737484	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.300000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	35.000000 33.000000 29.000002	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.623678 -0.087030 0.776818	</row0>
+			<row1>	-0.198296 0.943657 0.264925	</row1>
+			<row2>	-0.756107 -0.319269 0.571281	</row2>
+			<row3>	-4.411636 1.396057 -1.265503	</row3>
+		</transform>
+		<guid>	92140FBE.41E692DA.9A107C9A.37334CB0	</guid>
+		<properties>
+			<next>
+				<guid>	CBFA540E.46D6918A.72FDB491.DA3A8E82	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	5FD78457.4129EF79.FACD25BB.ABA94899	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	-0.715355 0.181232 -0.674844	</row0>
+			<row1>	-0.014184 0.961812 0.273333	</row1>
+			<row2>	0.698612 0.205103 -0.685469	</row2>
+			<row3>	-5.271156 0.745056 -0.244873	</row3>
+		</transform>
+		<guid>	81CE8AD8.422AE76F.1D4A798C.6DD259CF	</guid>
+		<properties>
+			<next>
+				<guid>	E86FA0ED.46B1E085.C9441188.3AEEF625	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	72635BE7.42D5C1D8.F91D379D.AE6952F6	</guid>
+				<chunkId>	0005fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	540.411499 150.269836 -131.980759	</row3>
+	</transform>
+	<boundingBox>
+		<min>	534.748779 146.819183 -132.558289	</min>
+		<max>	546.008606 156.142868 -121.467430	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am003bi.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

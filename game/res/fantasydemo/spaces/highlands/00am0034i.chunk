@@ -1,0 +1,57 @@
+<root>
+	<model>
+		<resource>	sets/town/props/fd_village_building_plug.model	</resource>
+		<transform>
+			<row0>	-1.015380 0.000000 -0.000000	</row0>
+			<row1>	-0.000000 1.131116 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999999	</row2>
+			<row3>	-1.950684 0.000000 -0.299957	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	64	</offset>
+			<size>	96	</size>
+		</staticLighting>
+	</model>
+	<shell>
+		<resource>	sets/town/shells/t_room_entrance.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	64	</size>
+		</staticLighting>
+	</shell>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	-17.899963 71.356682 -231.453033	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-17.899963 71.356674 -231.453018	</min>
+		<max>	-13.899962 75.881142 -230.953018	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0034i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

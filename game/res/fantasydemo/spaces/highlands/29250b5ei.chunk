@@ -1,0 +1,386 @@
+<root>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310966	</modified_on>
+		</metaData>
+		<resource>	sets/town/shells/tower_room02.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	15796	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310932	</modified_on>
+		</metaData>
+		<colour>	0.000000 2.000000 15.000002	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310932	</modified_on>
+		</metaData>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-0.497009 13.990051 2.361916	</position>
+		<innerRadius>	1.959419	</innerRadius>
+		<outerRadius>	3.793355	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<priority>	0	</priority>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310932	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	1.314261 0.000010 0.612216	</row0>
+			<row1>	-0.609551 0.135183 1.308534	</row1>
+			<row2>	-0.057073 -1.443541 0.122545	</row2>
+			<row3>	1.316849 17.762680 -2.863312	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	15796	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310932	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-1.393464 0.000000 -0.374370	</row0>
+			<row1>	0.374370 -0.000000 -1.393462	</row1>
+			<row2>	-0.000000 -1.442875 0.000000	</row2>
+			<row3>	-0.581314 13.269913 3.098610	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20156	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310932	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.510013 0.024882 -0.028846	</row0>
+			<row1>	-0.023649 0.510405 0.022147	</row1>
+			<row2>	0.029864 -0.020753 0.510140	</row2>
+			<row3>	-0.446655 13.764236 2.792915	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24516	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281316524	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.621926 -0.000004 -1.136358	</row0>
+			<row1>	1.135844 -0.038982 0.621645	</row1>
+			<row2>	-0.034197 -1.294828 -0.018712	</row2>
+			<row3>	-2.923409 10.486771 -1.285583	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24552	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281316524	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.326635 0.025356 0.392724	</row0>
+			<row1>	0.001043 0.510424 -0.032087	</row1>
+			<row2>	-0.393540 -0.019692 -0.326044	</row2>
+			<row3>	-2.666672 10.917236 -1.107056	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28912	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281316524	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-2.437693 11.079178 -1.023621	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281321007	</modified_on>
+		</metaData>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-1.229416 10.557358 -0.979065	</position>
+		<innerRadius>	1.903979	</innerRadius>
+		<outerRadius>	3.865177	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<priority>	0	</priority>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281321021	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281321029	</modified_on>
+		</metaData>
+		<colour>	251.000031 221.000031 159.000000	</colour>
+		<position>	-1.300417 10.445801 -0.561890	</position>
+		<innerRadius>	0.711142	</innerRadius>
+		<outerRadius>	2.880111	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281332148	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332148	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	0.316509 0.000048 -0.677572	</row0>
+			<row1>	0.906004 0.000001 0.423215	</row1>
+			<row2>	0.000038 -1.337606 -0.000078	</row2>
+			<row3>	-2.866821 10.488220 -1.289917	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28948	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281332151	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332151	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	-0.722240 0.000047 -0.194041	</row0>
+			<row1>	0.259460 0.000000 -0.965729	</row1>
+			<row2>	-0.000083 -1.337606 -0.000022	</row2>
+			<row3>	-0.634436 13.262024 3.084351	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28964	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281332172	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281332182	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/gen_shadow/model/gen_shadow.model	</resource>
+		<transform>
+			<row0>	0.678397 0.026429 0.313627	</row0>
+			<row1>	-0.420783 0.093738 0.902279	</row1>
+			<row2>	-0.009930 -1.330877 0.133634	</row2>
+			<row3>	1.377399 17.787598 -2.837524	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28980	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<transform>
+		<row0>	0.034899 0.000000 0.999390	</row0>
+		<row1>	-0.000004 1.000000 0.000000	</row1>
+		<row2>	-0.999391 -0.000004 0.034899	</row2>
+		<row3>	549.839966 214.179993 -233.089996	</row3>
+	</transform>
+	<boundingBox>
+		<min>	546.385193 223.025513 -236.599945	</min>
+		<max>	553.456116 232.648132 -229.585693	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	29250b5ei.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,65 @@
+<root>
+	<spotLight>
+		<colour>	255.000000 255.000000 236.000015	</colour>
+		<position>	-0.049759 31.962463 3.061478	</position>
+		<direction>	0.000000 -0.431832 -0.901953	</direction>
+		<innerRadius>	2.510306	</innerRadius>
+		<outerRadius>	6.893178	</outerRadius>
+		<cosConeAngle>	0.920643	</cosConeAngle>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+		<editorOnly>
+			<version>	2.000000	</version>
+		</editorOnly>
+	</spotLight>
+	<ambientLight>
+		<colour>	0.000000 2.000000 15.000001	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<colour>	252.000031 255.000000 230.000031	</colour>
+		<position>	0.100784 31.481415 2.430840	</position>
+		<innerRadius>	3.508725	</innerRadius>
+		<outerRadius>	6.035497	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<shell>
+		<resource>	sets/town/shells/tower_room03.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	23396	</size>
+		</staticLighting>
+	</shell>
+	<transform>
+		<row0>	0.999999 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 0.999999	</row2>
+		<row3>	212.000000 212.000000 98.000000	</row3>
+	</transform>
+	<boundingBox>
+		<min>	208.635910 238.893356 94.499992	</min>
+		<max>	215.364044 248.318909 101.312950	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0011i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

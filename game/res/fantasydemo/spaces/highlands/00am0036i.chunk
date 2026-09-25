@@ -1,0 +1,154 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/tunnel_stairs.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	13872	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	35.000000 33.000000 29.000004	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.749303 0.000000 -0.006292	</row0>
+			<row1>	0.006292 0.000078 0.749303	</row1>
+			<row2>	0.000001 -0.749329 0.000078	</row2>
+			<row3>	5.581726 0.653366 -4.735687	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13872	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	-0.008726 0.000000 -0.999952	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	0.999952 0.000000 -0.008726	</row2>
+			<row3>	5.553467 0.903366 -4.580154	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.217320 0.000000 -0.976092	</row0>
+			<row1>	0.000000 0.999991 0.000000	</row1>
+			<row2>	0.976092 0.000000 0.217320	</row2>
+			<row3>	5.574707 0.913361 -4.558945	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	249.000092 199.000092 145.000000	</colour>
+		<position>	5.592957 1.482666 -3.889847	</position>
+		<innerRadius>	0.978421	</innerRadius>
+		<outerRadius>	5.304735	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.300000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.380445 0.012576 0.000036	</row0>
+			<row1>	-0.012576 0.380445 -0.000278	</row1>
+			<row2>	-0.000045 0.000276 0.380653	</row2>
+			<row3>	5.547607 0.907150 -4.569534	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	18232	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290984699	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290984699	</modified_on>
+		</metaData>
+		<guid>	0DB4501C.427C82F1.C85394BC.EFD7FC33	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	12.430725 -2.824203 -3.269135	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	6	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	515.348816 156.269867 -136.969009	</row3>
+	</transform>
+	<boundingBox>
+		<min>	515.037231 152.936508 -142.426193	</min>
+		<max>	530.582642 162.029877 -136.470642	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0036i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

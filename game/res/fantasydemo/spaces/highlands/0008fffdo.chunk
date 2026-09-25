@@ -1,0 +1,52 @@
+<root>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_straight_tower.model	</resource>
+		<transform>
+			<row0>	-0.999997 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999997	</row2>
+			<row3>	16.000000 226.999985 58.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_bend.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	36.000000 226.999985 78.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_straight.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	36.000000 226.999985 98.999985	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<resource>	0008fffdo.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	0008fffdo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,60 @@
+<root>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_straight_tower.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	36.000000 226.999985 19.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/town/props/wall/model/wall_accend_01.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999997	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.999997 0.000000 0.000000	</row2>
+			<row3>	36.000000 226.999985 39.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1299548157	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1299548259	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/keep/models/keep_lod0_p3.model	</resource>
+		<transform>
+			<row0>	-0.562682 0.000001 -0.826671	</row0>
+			<row1>	0.000002 0.999999 0.000000	</row1>
+			<row2>	0.826671 -0.000002 -0.562682	</row2>
+			<row3>	16.144409 227.018906 139.798355	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0008fffeo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0008fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

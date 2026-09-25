@@ -1,0 +1,7 @@
+<root>
+  <rule pattern="^(space\.settings)$">
+    <root>true</root>
+    <converter>SpaceConverter</converter>
+    <converterParams>-minX -16 -maxX 15 -minZ -16 -maxZ 15</converterParams>
+  </rule>
+</root>

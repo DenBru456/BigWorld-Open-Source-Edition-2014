@@ -1,0 +1,68 @@
+<root>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.197889 0.000000 -0.262608	</row0>
+			<row1>	0.000000 0.328821 0.000000	</row1>
+			<row2>	0.262608 0.000000 -0.197889	</row2>
+			<row3>	28.751526 98.686600 14.999023	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/monterey_cypress/MontereyCypress_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.191924 0.000000 -0.187184	</row0>
+			<row1>	0.000000 0.268091 0.000000	</row1>
+			<row2>	0.187184 0.000000 0.191924	</row2>
+			<row3>	22.879761 97.642250 6.706177	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/monterey_cypress/MontereyCypress_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.268091 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.268091 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.268091	</row2>
+			<row3>	6.984924 103.126625 7.904724	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/umprellathorn/UmbrellaThorn_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.204808 0.000000 0.121035	</row0>
+			<row1>	0.000000 0.237898 0.000000	</row1>
+			<row2>	-0.121035 0.000000 0.204808	</row2>
+			<row3>	16.289246 97.946938 3.180115	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/italian_stonepine/ItalianStonePine_RT_1.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.173916 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.173916 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.173916	</row2>
+			<row3>	10.561523 98.837563 0.049072	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<terrain>
+		<resource>	0008fffco.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	0008fffco.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

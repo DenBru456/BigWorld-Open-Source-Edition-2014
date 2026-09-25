@@ -1,0 +1,155 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/tunnel_stairs.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	13872	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	35.000000 33.000000 29.000004	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<colour>	245.000153 221.000153 148.000000	</colour>
+		<position>	8.800552 0.085953 -3.890930	</position>
+		<innerRadius>	2.044891	</innerRadius>
+		<outerRadius>	6.596556	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.300000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.999993 0.002260 -0.000234	</row0>
+			<row1>	0.000232 0.000735 0.999995	</row1>
+			<row2>	0.002260 -0.999993 0.000735	</row2>
+			<row3>	10.646538 -0.839401 -4.738983	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13872	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	10.633949 -0.434250 -4.518738	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	252.000015 254.000015 150.000000	</colour>
+	</flare>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	-0.805237 0.022776 0.592501	</row0>
+			<row1>	0.111127 0.987344 0.113074	</row1>
+			<row2>	-0.582432 0.156895 -0.797584	</row2>
+			<row3>	10.615562 -0.485809 -4.525940	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.380653	</row0>
+			<row1>	0.000000 0.380653 0.000000	</row1>
+			<row2>	0.380653 0.000000 0.000000	</row2>
+			<row3>	10.638344 -0.500641 -4.504669	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	18232	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	0.000108 0.000722 -1.000000	</row0>
+			<row1>	0.291570 0.956549 0.000723	</row1>
+			<row2>	0.956549 -0.291570 -0.000107	</row2>
+			<row3>	5.426186 -0.551102 -2.370056	</row3>
+		</transform>
+		<guid>	3DAAEE66.444D36D6.DCC47B91.3A4134D4	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	934D98EB.47CBFD62.DA3BBB86.1EE22B44	</guid>
+					<chunkId>	0004fffeo	</chunkId>
+				</item>
+			</patrolLinks>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	F0B76830.48FF7142.691B0F8B.1E9645D3	</guid>
+				<chunkId>	0004fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	445.337799 156.269943 -116.940018	</row3>
+	</transform>
+	<boundingBox>
+		<min>	444.839417 152.936584 -117.251602	</min>
+		<max>	450.794983 162.029953 -101.706192	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am001ei.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

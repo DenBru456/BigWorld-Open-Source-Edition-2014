@@ -1,0 +1,73 @@
+<fffcfffao.chunk>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.019240 0.000000 -0.156696	</row0>
+			<row1>	0.000000 0.157873 0.000000	</row1>
+			<row2>	0.156696 0.000000 -0.019240	</row2>
+			<row3>	41.382690 70.138451 18.595947	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.045241 0.000000 -0.124300	</row0>
+			<row1>	0.000000 0.132277 0.000000	</row1>
+			<row2>	0.124300 0.000000 0.045241	</row2>
+			<row3>	8.028137 71.914932 50.947449	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.081531 0.000000 0.081531	</row0>
+			<row1>	0.000000 0.115303 0.000000	</row1>
+			<row2>	-0.081531 0.000000 0.081531	</row2>
+			<row3>	1.406647 76.045815 35.646790	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.135868 0.000000 0.028880	</row0>
+			<row1>	0.000000 0.138904 0.000000	</row1>
+			<row2>	-0.028880 0.000000 0.135868	</row2>
+			<row3>	18.498718 74.847366 38.605957	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<terrain>
+		<resource>	fffcfffao.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<vlo>
+		<uid>	d9e4d4d3.416a30b9.81f32989.d283040a	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	fffcfffao.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffcfffao.chunk>

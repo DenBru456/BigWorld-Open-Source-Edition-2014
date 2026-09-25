@@ -1,0 +1,226 @@
+<ffff0001o.chunk>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.123239 0.000000 0.132158	</row0>
+			<row1>	0.000000 0.180703 0.000000	</row1>
+			<row2>	-0.132158 0.000000 -0.123239	</row2>
+			<row3>	35.935455 149.010742 1.567268	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.103586 0.000000 0.186875	</row0>
+			<row1>	0.000000 0.213664 0.000000	</row1>
+			<row2>	-0.186875 0.000000 0.103586	</row2>
+			<row3>	31.584053 158.378769 20.751556	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.042801 0.000000 -0.171664	</row0>
+			<row1>	0.000000 0.176919 0.000000	</row1>
+			<row2>	0.171664 0.000000 0.042801	</row2>
+			<row3>	52.124805 156.094391 20.137772	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.170871 0.000000 -0.087063	</row0>
+			<row1>	0.000000 0.191773 0.000000	</row1>
+			<row2>	0.087063 0.000000 -0.170871	</row2>
+			<row3>	54.331017 149.300400 5.025734	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir/DouglasFir_RT.spt	</spt>
+	</speedtree>
+	<speedtree>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.120260 0.000000 0.120260	</row0>
+			<row1>	0.000000 0.170074 0.000000	</row1>
+			<row2>	-0.120260 0.000000 -0.120260	</row2>
+			<row3>	68.004807 148.975357 5.333496	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<spt>	speedtree/Conifers/douglas_fir_full/DouglasFir_RT_Full.spt	</spt>
+	</speedtree>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1291269793	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1291269891	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	-0.331768 -0.044713 -0.766897	</row0>
+			<row1>	-0.074879 0.833265 -0.016189	</row1>
+			<row2>	0.764540 0.062203 -0.334373	</row2>
+			<row3>	61.782581 147.075333 4.858772	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1291271156	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1291271165	</modified_on>
+		</metaData>
+		<resource>	particles/waterfall-rocks.xml	</resource>
+		<transform>
+			<row0>	0.999999 -0.000001 0.000000	</row0>
+			<row1>	0.000001 0.999999 0.000001	</row1>
+			<row2>	0.000000 -0.000001 0.999999	</row2>
+			<row3>	64.000214 148.931641 1.954292	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1291096374	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1291336922	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-1.056253 -0.200403 -0.602191	</row0>
+			<row1>	0.000000 1.169216 -0.389104	</row1>
+			<row2>	0.634661 -0.333527 -1.002213	</row2>
+			<row3>	68.864235 141.374817 2.185791	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	false	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1291336964	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1291337028	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/stream/stream.model	</resource>
+		<animation>
+			<name>	stream	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	1.015882 -0.018373 0.250271	</row0>
+			<row1>	0.048719 0.897740 -0.131874	</row1>
+			<row2>	-0.108307 0.071224 0.444829	</row2>
+			<row3>	61.184788 149.042084 6.600677	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<dye>
+			<name>	mid_layer	</name>
+			<tint>	slow	</tint>
+		</dye>
+		<dye>
+			<name>	top_layer	</name>
+			<tint>	slow	</tint>
+		</dye>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	ffff0001o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1291345693	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1291345714	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	-0.553700 -0.074623 -1.279904	</row0>
+			<row1>	-0.124968 1.390668 -0.027018	</row1>
+			<row2>	1.275970 0.103813 -0.558048	</row2>
+			<row3>	58.613434 148.125290 11.820908	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1291345717	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1291345722	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-0.602190 -0.200403 1.056252	</row0>
+			<row1>	-0.389104 1.169215 -0.000000	</row1>
+			<row2>	-1.002212 -0.333527 -0.634661	</row2>
+			<row3>	63.449780 148.628479 13.994263	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	adamm	</created_by>
+			<created_on>	1291345724	</created_on>
+			<modified_by>	adamm	</modified_by>
+			<modified_on>	1291345730	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	1.056250 -0.200403 0.602189	</row0>
+			<row1>	-0.000000 1.169213 0.389104	</row1>
+			<row2>	-0.634660 -0.333527 1.002210	</row2>
+			<row3>	60.859211 151.689850 19.043701	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<worldNavmesh>
+		<resource>	ffff0001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</ffff0001o.chunk>

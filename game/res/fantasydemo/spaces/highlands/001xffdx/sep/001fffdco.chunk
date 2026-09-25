@@ -1,0 +1,23 @@
+<root>
+	<terrain>
+		<resource>	001xffdx/sep/001fffdco.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<model>
+		<resource>	characters/npc/chicken/chicken.model	</resource>
+		<transform>
+			<row0>	-150.045456 0.000000 84.412926	</row0>
+			<row1>	-35.896362 155.818420 -63.806416	</row1>
+			<row2>	-76.400230 -73.210701 -135.802734	</row2>
+			<row3>	65.814209 98.893005 50.071777	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<worldNavmesh>
+		<resource>	001xffdx/sep/001fffdco.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

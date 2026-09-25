@@ -1,0 +1,431 @@
+<fffdfffdo.chunk>
+	<model>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-3.534688 -0.020479 -0.041374	</row0>
+			<row1>	-0.022058 3.532298 0.136151	</row1>
+			<row2>	0.040553 0.136397 -3.532125	</row2>
+			<row3>	41.580017 46.109997 30.630005	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290661321	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290661331	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	1.802863 0.000001 -3.040693	</row0>
+			<row1>	0.000007 3.534987 0.000005	</row1>
+			<row2>	3.040693 -0.000009 1.802863	</row2>
+			<row3>	65.795258 44.337879 56.846466	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290662793	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290662810	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+		<transform>
+			<row0>	-0.292707 -0.048325 1.314308	</row0>
+			<row1>	-0.173536 1.336111 0.010478	</row1>
+			<row2>	-1.303696 -0.167001 -0.296483	</row2>
+			<row3>	86.398102 63.353630 73.419937	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290663083	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290663121	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/stream/stream.model	</resource>
+		<animation>
+			<name>	stream	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	1.020974 -0.056950 -0.477305	</row0>
+			<row1>	0.016488 0.924943 -0.075090	</row1>
+			<row2>	0.297990 0.045990 0.631925	</row2>
+			<row3>	82.734329 66.663620 93.253555	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<dye>
+			<name>	mid_layer	</name>
+			<tint>	slow	</tint>
+		</dye>
+		<dye>
+			<name>	top_layer	</name>
+			<tint>	end	</tint>
+		</dye>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290662670	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290663209	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/stream/stream.model	</resource>
+		<animation>
+			<name>	stream	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	1.111232 -0.026027 -0.194789	</row0>
+			<row1>	0.014530 0.927115 -0.040985	</row1>
+			<row2>	0.121439 0.028554 0.688971	</row2>
+			<row3>	76.904129 65.932426 76.321594	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<dye>
+			<name>	mid_layer	</name>
+			<tint>	slow	</tint>
+		</dye>
+		<dye>
+			<name>	top_layer	</name>
+			<tint>	end	</tint>
+		</dye>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290660455	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290663218	</modified_on>
+		</metaData>
+		<resource>	sets/shared/props/stream/waterfall01.model	</resource>
+		<transform>
+			<row0>	1.377132 -0.055414 0.029113	</row0>
+			<row1>	0.013879 0.389323 0.084516	</row1>
+			<row2>	-0.026439 -0.191454 0.886271	</row2>
+			<row3>	75.489532 62.108185 65.053680	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290660536	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290663224	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-3.102404 0.000003 0.379984	</row0>
+			<row1>	0.000004 3.125588 0.000006	</row1>
+			<row2>	-0.379984 0.000006 -3.102404	</row2>
+			<row3>	84.542603 49.267166 66.049774	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290663282	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290663285	</modified_on>
+		</metaData>
+		<resource>	particles/waterfall_base_highspec.xml	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 -0.000000	</row1>
+			<row2>	0.000000 -0.000000 -1.000000	</row2>
+			<row3>	73.257904 57.970123 60.640228	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290663286	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290663299	</modified_on>
+		</metaData>
+		<resource>	particles/waterfall_base_highspec.xml	</resource>
+		<transform>
+			<row0>	-1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -1.000000	</row2>
+			<row3>	78.959259 57.970127 62.022064	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290665791	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290665795	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	1.629280 0.024715 -1.196887	</row0>
+			<row1>	0.085929 2.013746 0.158555	</row1>
+			<row2>	1.194053 -0.178641 1.621735	</row2>
+			<row3>	84.911682 61.596561 82.303040	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.369181 0.001998 0.077952	</row0>
+			<row1>	-0.001940 0.377321 -0.000481	</row1>
+			<row2>	-0.077953 0.000070 0.369187	</row2>
+			<row3>	89.358414 68.376541 76.592041	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290730030	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290730068	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-0.414231 0.178818 1.970818	</row0>
+			<row1>	-0.352877 1.974585 -0.253328	</row1>
+			<row2>	-1.947197 -0.395881 -0.373348	</row2>
+			<row3>	67.858170 62.297562 73.093536	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290730073	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290730076	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+		<transform>
+			<row0>	-3.534751 0.000001 -0.040979	</row0>
+			<row1>	0.000001 3.534989 -0.000009	</row1>
+			<row2>	0.040979 -0.000009 -3.534751	</row2>
+			<row3>	85.023270 40.738182 43.567139	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	particles/fx_butterflies.xml	</resource>
+		<transform>
+			<row0>	0.976212 0.000000 0.216818	</row0>
+			<row1>	-0.203294 0.347658 0.915317	</row1>
+			<row2>	-0.075379 -0.937621 0.339387	</row2>
+			<row3>	84.649048 58.730064 49.121170	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	particles/fx_butterflies2.xml	</resource>
+		<transform>
+			<row0>	0.449412 0.000000 0.893324	</row0>
+			<row1>	-0.374252 0.908012 0.188278	</row1>
+			<row2>	-0.811150 -0.418943 0.408072	</row2>
+			<row3>	82.519363 65.837204 77.546127	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<speedtree>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290740092	</modified_on>
+		</metaData>
+		<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.361694 0.095014 0.050249	</row0>
+			<row1>	-0.092507 0.365003 -0.024298	</row1>
+			<row2>	-0.054727 0.010972 0.373176	</row2>
+			<row3>	89.316986 68.801819 87.459747	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffdfffdo.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290985183	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290985185	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/mushrooms/mushroom05_cluster.model	</resource>
+		<transform>
+			<row0>	-1.515951 -0.513179 -0.034189	</row0>
+			<row1>	-0.514018 1.515335 0.046549	</row1>
+			<row2>	0.017440 0.055059 -1.599777	</row2>
+			<row3>	93.065063 70.454353 91.123520	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	d9e4d4d3.416a30b9.81f32989.d283040a	</uid>
+		<type>	water	</type>
+	</vlo>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290734401	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290734409	</modified_on>
+		</metaData>
+		<resource>	particles/waterfall-base.xml	</resource>
+		<transform>
+			<row0>	-0.999385 0.034817 0.003734	</row0>
+			<row1>	0.034817 0.976644 0.212015	</row1>
+			<row2>	0.003734 0.212015 -0.977257	</row2>
+			<row3>	76.349869 64.389664 63.750381	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290734424	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290739111	</modified_on>
+		</metaData>
+		<resource>	particles/waterfall-base.xml	</resource>
+		<transform>
+			<row0>	-0.996744 -0.080573 0.001701	</row0>
+			<row1>	-0.079594 0.980888 -0.177531	</row1>
+			<row2>	0.012634 -0.177089 -0.984110	</row2>
+			<row3>	71.849884 65.746880 78.247345	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1290646539	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1290647396	</modified_on>
+		</metaData>
+		<resource>	particles/waterfall-base.xml	</resource>
+		<transform>
+			<row0>	-0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999998	</row2>
+			<row3>	79.887177 68.364502 85.682297	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<worldNavmesh>
+		<resource>	fffdfffdo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffdfffdo.chunk>

@@ -1,0 +1,148 @@
+<root>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-1.041245 38.010727 -2.509514	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<ambientLight>
+		<colour>	0.000000 2.000000 15.000002	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	2.352280 42.465790 1.109848	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+	</pulseLight>
+	<shell>
+		<resource>	sets/town/shells/tower_room04.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	15504	</size>
+		</staticLighting>
+	</shell>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.156631 37.408157 -2.536781	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.549622 42.230087 1.078735	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-0.583933 0.000000 1.250056	</row0>
+			<row1>	-1.250056 -0.000000 -0.583933	</row1>
+			<row2>	0.000000 -1.379717 0.000000	</row2>
+			<row3>	2.891556 41.694778 1.281532	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	15504	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.212497 0.021788 -0.464687	</row0>
+			<row1>	0.013015 0.510391 0.029881	</row1>
+			<row2>	0.465014 -0.024242 0.211512	</row2>
+			<row3>	2.574753 42.154831 1.090187	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	19864	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	1.250838 0.000000 -0.582256	</row0>
+			<row1>	0.582256 0.000000 1.250838	</row1>
+			<row2>	0.000000 -1.379717 0.000000	</row2>
+			<row3>	-1.223541 36.889267 -2.897705	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	19900	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.432273 0.025469 0.272131	</row0>
+			<row1>	0.014282 0.510616 -0.025100	</row1>
+			<row2>	-0.272945 -0.013617 -0.432296	</row2>
+			<row3>	-1.150391 37.341843 -2.580887	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24260	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	212.000000 211.999161 98.000008	</row3>
+	</transform>
+	<boundingBox>
+		<min>	208.635910 247.860214 94.500000	</min>
+		<max>	215.364059 257.674896 101.312965	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0013i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

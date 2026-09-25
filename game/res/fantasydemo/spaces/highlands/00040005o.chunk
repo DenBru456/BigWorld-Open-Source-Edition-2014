@@ -1,0 +1,54 @@
+<root>
+	<pulseLight>
+		<colour>	255.000000 60.000008 60.000008	</colour>
+		<position>	83.532623 69.096573 8.041748	</position>
+		<innerRadius>	31.868177	</innerRadius>
+		<outerRadius>	46.041145	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	82.449829 69.973053 7.951935	</position>
+		<innerRadius>	43.720776	</innerRadius>
+		<outerRadius>	60.915028	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	false	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.800000	</multiplier>
+	</omniLight>
+	<particles>
+		<resource>	particles/huge_fire.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	80.007813 41.820313 7.639832	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/american_elm_noleaves/AmericanElm_RT_noleaves.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.096817 0.447401 -0.004194	</row0>
+			<row1>	-0.137837 0.033907 0.435213	</row1>
+			<row2>	0.425661 -0.090782 0.141884	</row2>
+			<row3>	56.331848 53.429024 95.131439	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+	</speedtree>
+	<terrain>
+		<resource>	00040005o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<worldNavmesh>
+		<resource>	00040005o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,34 @@
+<root>
+	<terrain>
+		<resource>	00060004o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	B932A697.445597F7.E339B18C.C0052F97	</guid>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	4.375610 44.061409 0.966644	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<maxFlightTime>	15.000000	</maxFlightTime>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00060004o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

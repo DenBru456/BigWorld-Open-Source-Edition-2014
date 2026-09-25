@@ -1,0 +1,112 @@
+<root>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	52.634338 65.937004 42.026001	</position>
+		<innerRadius>	43.720776	</innerRadius>
+		<outerRadius>	60.915028	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	false	</static>
+		<specular>	true	</specular>
+		<multiplier>	1.800000	</multiplier>
+	</omniLight>
+	<pulseLight>
+		<colour>	255.000000 60.000004 60.000004	</colour>
+		<position>	53.717133 73.839485 31.596405	</position>
+		<innerRadius>	31.868177	</innerRadius>
+		<outerRadius>	41.553421	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/american_elm_noleaves/AmericanElm_RT_noleaves.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.073694 0.356699 -0.023208	</row0>
+			<row1>	-0.016343 0.027033 0.363601	</row1>
+			<row2>	0.357080 -0.072378 0.021431	</row2>
+			<row3>	32.547974 63.321136 97.921783	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<particles>
+		<resource>	particles/mega_fire.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	51.144196 49.820313 36.428284	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<terrain>
+		<resource>	00040003o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	47.969635 49.612038 36.833527	</row3>
+		</transform>
+		<guid>	BE1C4CF8.426AC289.01D69A8C.99DB2927	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	1DF8F256.46645A82.3D87EDBB.12849CDA	</guid>
+					<chunkId>	00040003o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	7.000000	</departureSpeed>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	FB3DDF42.46155464.4834C68A.3C8457D6	</guid>
+				<chunkId>	00030002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	20.771881 57.374992 37.550751	</row3>
+		</transform>
+		<guid>	1DF8F256.46645A82.3D87EDBB.12849CDA	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	F5A05688.413DC9F4.12905CA3.414FD7B6	</guid>
+					<chunkId>	00030003o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	7.000000	</departureSpeed>
+			<radius>	12.094779	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	BE1C4CF8.426AC289.01D69A8C.99DB2927	</guid>
+				<chunkId>	00040003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	00040003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

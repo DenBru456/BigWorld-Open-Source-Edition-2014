@@ -1,0 +1,295 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.329087 0.000000 -0.031615	</row0>
+			<row1>	0.000000 0.330601 0.000000	</row1>
+			<row2>	0.031615 0.000000 0.329087	</row2>
+			<row3>	2.193817 74.359375 69.950653	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.210344 0.000000 -0.255055	</row0>
+			<row1>	0.000000 0.330601 0.000000	</row1>
+			<row2>	0.255055 0.000000 0.210344	</row2>
+			<row3>	12.387451 69.921875 87.922119	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.061730 0.000000 0.201909	</row0>
+			<row1>	0.000000 0.211135 0.000000	</row1>
+			<row2>	-0.201909 0.000000 -0.061730	</row2>
+			<row3>	60.372375 61.783562 66.562500	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Broadleaves/american_elm_noleaves/AmericanElm_RT_noleaves.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.016748 0.356699 0.075425	</row0>
+			<row1>	-0.306716 0.027033 -0.195954	</row1>
+			<row2>	-0.197100 -0.072378 0.298525	</row2>
+			<row3>	60.833923 62.382813 89.894196	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<terrain>
+		<resource>	00030002o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	77.054840 60.054680 74.440536	</row3>
+		</transform>
+		<guid>	BC3CFB58.48CA3FFD.43DC229F.89092CC7	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	F5A05688.413DC9F4.12905CA3.414FD7B6	</guid>
+					<chunkId>	00030003o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	37.961948	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	3129EB60.479BCEFB.CD842A9A.6A662E53	</guid>
+				<chunkId>	00040001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PlatformNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	7.381317 84.095207 34.169815	</row3>
+		</transform>
+		<guid>	2CD0955D.4A84EDBB.4EBBC8B9.A569819D	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	A5C4EF6D.4FF29D55.A3B86CAF.1CDFFAC3	</guid>
+					<chunkId>	00030002o	</chunkId>
+				</item>
+			</links>
+			<approachSpeed>	5.000000	</approachSpeed>
+			<approachAcceleration>	5.000000	</approachAcceleration>
+			<waitTime>	5.000000	</waitTime>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	15BAF438.40BA7C04.98271589.C4148B76	</guid>
+				<chunkId>	00030002o	</chunkId>
+			</link>
+			<link>
+				<guid>	DDA86CB0.43D509A4.7F957190.D54753E9	</guid>
+				<chunkId>	00030001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PlatformNode	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	31.660217 101.751053 19.348175	</row3>
+		</transform>
+		<guid>	A5C4EF6D.4FF29D55.A3B86CAF.1CDFFAC3	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	29CAE7D2.4F3DE3CA.606BB487.36A6A1CF	</guid>
+					<chunkId>	00030001o	</chunkId>
+				</item>
+			</links>
+			<approachSpeed>	5.000000	</approachSpeed>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	2CD0955D.4A84EDBB.4EBBC8B9.A569819D	</guid>
+				<chunkId>	00030002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	95FC3009.4A963BFD.2C7BBB87.0B8A441B	</guid>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	28.558228 66.837051 97.027679	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<maxFlightTime>	15.000000	</maxFlightTime>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	FB3DDF42.46155464.4834C68A.3C8457D6	</guid>
+		<type>	GuardSpawner	</type>
+		<transform>
+			<row0>	-0.250566 0.000000 -0.968100	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.968100 0.000000 -0.250566	</row2>
+			<row3>	3.746796 83.211990 41.143784	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<dictionary>	{}	</dictionary>
+			<spawnPoints>
+				<item>
+					<guid>	BE1C4CF8.426AC289.01D69A8C.99DB2927	</guid>
+					<chunkId>	00040003o	</chunkId>
+				</item>
+			</spawnPoints>
+			<nameProperty>	Guard Spawner	</nameProperty>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	15BAF438.40BA7C04.98271589.C4148B76	</guid>
+		<type>	MovingPlatform	</type>
+		<transform>
+			<row0>	0.999790 0.020404 -0.000769	</row0>
+			<row1>	-0.020404 0.996951 -0.075307	</row1>
+			<row2>	-0.000769 0.075307 0.997159	</row2>
+			<row3>	13.385284 84.046829 34.152924	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<platformName>	Platform	</platformName>
+			<startNode>
+				<guid>	2CD0955D.4A84EDBB.4EBBC8B9.A569819D	</guid>
+				<chunkId>	00030002o	</chunkId>
+			</startNode>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	99D878C9.44D7D7FF.53359DA8.4C54A6FA	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	-0.999998 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.999998	</row2>
+			<row3>	2.542755 84.046860 33.579727	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Wait here for the floating platform	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<modelType>	1	</modelType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	F1D1AE87.4633CB6D.504EE6B0.C11A3E0E	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	26.693390 68.024406 74.580215	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	spider	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	717CEAF9.4C624319.5C09ABB5.929DEF83	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.925354 83.374489 39.603836	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo2	</label>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00030002o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

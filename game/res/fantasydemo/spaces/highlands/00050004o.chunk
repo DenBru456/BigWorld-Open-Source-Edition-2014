@@ -1,0 +1,103 @@
+<root>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.295035 0.000000 -0.113253	</row0>
+			<row1>	0.000000 0.316025 0.000000	</row1>
+			<row2>	0.113253 0.000000 -0.295035	</row2>
+			<row3>	81.317444 44.109138 40.482300	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.419699 0.000000 -0.014656	</row0>
+			<row1>	0.000000 0.419955 0.000000	</row1>
+			<row2>	0.014656 0.000000 -0.419699	</row2>
+			<row3>	80.437317 43.718559 32.737396	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.220995 0.000000 -0.143516	</row0>
+			<row1>	0.000000 0.263507 0.000000	</row1>
+			<row2>	0.143516 0.000000 0.220995	</row2>
+			<row3>	91.819092 44.153221 35.482422	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.252200 0.000000 0.311441	</row0>
+			<row1>	0.000000 0.400750 0.000000	</row1>
+			<row2>	-0.311441 0.000000 0.252200	</row2>
+			<row3>	95.155579 43.733978 41.731689	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	0.216231 0.000000 0.049921	</row0>
+			<row1>	0.000000 0.221919 0.000000	</row1>
+			<row2>	-0.049921 0.000000 0.216231	</row2>
+			<row3>	85.614624 43.954056 28.584412	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<speedtree>
+		<spt>	speedtree/Palms_Cacti_Cycads/joshua_tree/JoshuaTree_RT.spt	</spt>
+		<seed>	1	</seed>
+		<transform>
+			<row0>	-0.113845 0.000000 -0.372371	</row0>
+			<row1>	0.000000 0.389386 0.000000	</row1>
+			<row2>	0.372371 0.000000 -0.113845	</row2>
+			<row3>	77.081238 43.970795 35.948669	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</speedtree>
+	<terrain>
+		<resource>	00050004o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	186DCCC1.41880B28.FB78D8AB.8EB0064B	</guid>
+		<type>	SpawnPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	25.479706 46.765621 7.449371	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<spawnName>	spider	</spawnName>
+			<spawnCount>	1	</spawnCount>
+			<rarePercent>	50.000000	</rarePercent>
+			<spawnInterval>	1	</spawnInterval>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00050004o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

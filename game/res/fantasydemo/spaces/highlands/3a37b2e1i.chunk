@@ -1,0 +1,55 @@
+<root>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310966	</modified_on>
+		</metaData>
+		<resource>	sets/town/shells/tower_corridor.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	2668	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1281310932	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1281310932	</modified_on>
+		</metaData>
+		<colour>	24.000004 24.000004 37.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<transform>
+		<row0>	0.034899 0.000000 0.999391	</row0>
+		<row1>	-0.000004 1.000000 0.000000	</row1>
+		<row2>	-0.999391 -0.000004 0.034899	</row2>
+		<row3>	549.839966 214.179993 -233.089996	</row3>
+	</transform>
+	<boundingBox>
+		<min>	553.205444 213.961502 -234.418640	</min>
+		<max>	554.677673 218.680008 -232.044785	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	3a37b2e1i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>
