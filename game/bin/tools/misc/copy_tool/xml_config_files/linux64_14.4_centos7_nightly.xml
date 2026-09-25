@@ -1,0 +1,12 @@
+<root>
+	<server>
+		<type file="game/res/bigworld/scripts/common/Lib"/>
+		<type file="game/res/bigworld/scripts/server_common/lib-dynload-el7"/>
+		<type file="game/res/bigworld/scripts/server_common/site-packages"/>
+		<type file="game/bin/server/el7/server"/>
+		<type file="game/bin/server/el7/tools"/>
+		<type file="game/bin/server/el7/examples"/>
+	</server>
+	<keep>
+	</keep>
+</root>

@@ -1,0 +1,13 @@
+<root>
+	<!-- See the Server Operations Guide for options that can be specified in
+		 this file. -->
+
+	<parentFile> server/development_defaults.xml </parentFile>
+
+	<billingSystem>
+		<entityTypeForUnknownUsers> Avatar </entityTypeForUnknownUsers>
+		<shouldAcceptUnknownUsers> true </shouldAcceptUnknownUsers>
+		<shouldRememberUnknownUsers> false </shouldRememberUnknownUsers>
+	</billingSystem>
+
+</root>

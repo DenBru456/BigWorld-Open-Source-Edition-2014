@@ -1,0 +1,32 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-2.657412 0.223157 -0.000001	</min>
+		<max>	2.780727 2.335167 0.419100	</max>
+	</boundingBox>
+</root>

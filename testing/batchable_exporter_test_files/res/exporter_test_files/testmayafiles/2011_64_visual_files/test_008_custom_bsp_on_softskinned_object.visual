@@ -1,0 +1,140 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	joint1	</identifier>
+			<transform>
+				<row0>	0.000000 -0.901273 0.433253	</row0>
+				<row1>	0.000000 0.433253 0.901273	</row1>
+				<row2>	-1.000000 -0.000000 0.000000	</row2>
+				<row3>	0.000000 0.289490 -0.139308	</row3>
+			</transform>
+			<node>
+				<identifier>	joint2	</identifier>
+				<transform>
+					<row0>	-0.534199 0.845359 0.000000	</row0>
+					<row1>	-0.845359 -0.534199 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.307313 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	joint3	</identifier>
+					<transform>
+						<row0>	0.000000 0.000000 -1.000000	</row0>
+						<row1>	0.847713 0.530455 0.000000	</row1>
+						<row2>	0.530455 -0.847713 -0.000000	</row2>
+						<row3>	0.323821 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	joint4	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	-0.000000 0.000000 0.078900	</row3>
+						</transform>
+						<node>
+							<identifier>	joint4_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 -0.000000 -0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000	</row2>
+								<row3>	-0.000000 -0.287024 -0.244509	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	joint3_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000000 -0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000	</row2>
+							<row3>	-0.000000 -0.287024 -0.165608	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	joint2_BlendBone	</identifier>
+					<transform>
+						<row0>	-0.000000 -0.000000 -1.000000	</row0>
+						<row1>	0.847713 0.530455 0.000000	</row1>
+						<row2>	-0.530455 0.847713 -0.000000	</row2>
+						<row3>	-0.007341 -0.011865 -0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	joint1_BlendBone	</identifier>
+				<transform>
+					<row0>	0.000000 -0.000000 -1.000000	</row0>
+					<row1>	-0.901273 0.433253 0.000000	</row1>
+					<row2>	-0.433253 -0.901273 -0.000000	</row2>
+					<row3>	0.321265 0.000132 0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint1_BlendBone	</node>
+		<node>	joint2_BlendBone	</node>
+		<node>	joint3_BlendBone	</node>
+		<node>	joint4_BlendBone	</node>
+		<geometry>
+			<vertices>	pSphereShape1.vertices	</vertices>
+			<primitive>	pSphereShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	phong1_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.198420 0.000890 -0.196400	</min>
+		<max>	0.198420 0.341222 0.196400	</max>
+	</boundingBox>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	0	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	false	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile />
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+		</settings>
+	</metaData>
+</root>

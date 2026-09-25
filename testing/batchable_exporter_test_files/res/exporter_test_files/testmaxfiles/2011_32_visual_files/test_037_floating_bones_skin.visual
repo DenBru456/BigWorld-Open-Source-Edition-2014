@@ -1,0 +1,126 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.438530 -0.898716 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -1.000000	</row1>
+				<row2>	0.898716 0.438530 -0.000000	</row2>
+				<row3>	-0.276557 0.311355 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	-0.659881 -0.000000 0.751371	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.751371 0.000000 -0.659881	</row2>
+					<row3>	0.676586 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	1.000000 -0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.722429 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone03BlendBoneTeapot01	</identifier>
+						<transform>
+							<row0>	0.451265 0.000000 -0.892390	</row0>
+							<row1>	0.892390 -0.000000 0.451265	</row1>
+							<row2>	-0.000000 -1.000000 -0.000000	</row2>
+							<row3>	-0.466746 0.000000 0.151870	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneTeapot01	</identifier>
+					<transform>
+						<row0>	0.451265 0.000000 -0.892390	</row0>
+						<row1>	0.892390 -0.000000 0.451265	</row1>
+						<row2>	-0.000000 -1.000000 -0.000000	</row2>
+						<row3>	0.255684 0.000000 0.151870	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneTeapot01	</identifier>
+				<transform>
+					<row0>	0.438530 0.000000 0.898716	</row0>
+					<row1>	-0.898716 -0.000000 0.438530	</row1>
+					<row2>	0.000000 -1.000000 -0.000000	</row2>
+					<row3>	0.401099 0.000000 0.112007	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone04	</identifier>
+			<transform>
+				<row0>	0.777941 0.628337 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -1.000000	</row1>
+				<row2>	-0.628337 0.777941 -0.000000	</row2>
+				<row3>	0.606227 0.380952 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone05	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 -0.000000	</row0>
+					<row1>	-0.000000 1.000000 -0.000000	</row1>
+					<row2>	0.000000 -0.000000 1.000000	</row2>
+					<row3>	0.244846 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone05BlendBoneTeapot01	</identifier>
+					<transform>
+						<row0>	0.777941 0.000000 -0.628337	</row0>
+						<row1>	0.628337 -0.000000 0.777941	</row1>
+						<row2>	0.000000 -1.000000 -0.000000	</row2>
+						<row3>	-0.955822 -0.000000 0.084556	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone04BlendBoneTeapot01	</identifier>
+				<transform>
+					<row0>	0.777941 0.000000 -0.628337	</row0>
+					<row1>	0.628337 -0.000000 0.777941	</row1>
+					<row2>	0.000000 -1.000000 -0.000000	</row2>
+					<row3>	-0.710976 -0.000000 0.084556	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone03BlendBoneTeapot01	</node>
+		<node>	Bone01BlendBoneTeapot01	</node>
+		<node>	Bone04BlendBoneTeapot01	</node>
+		<node>	Bone02BlendBoneTeapot01	</node>
+		<node>	Bone05BlendBoneTeapot01	</node>
+		<geometry>
+			<vertices>	Teapot01.vertices	</vertices>
+			<primitive>	Teapot01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.765796 0.000000 -0.510531	</min>
+		<max>	0.875082 0.804086 0.510531	</max>
+	</boundingBox>
+</root>

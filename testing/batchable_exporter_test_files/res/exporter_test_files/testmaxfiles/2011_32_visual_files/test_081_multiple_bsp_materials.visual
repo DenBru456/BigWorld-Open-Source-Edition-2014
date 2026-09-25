@@ -1,0 +1,90 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box001	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.559119 0.000000 -0.397196	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Cone001	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-1.363694 0.000000 3.428507	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Torus001	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-4.365159 0.000000 4.271437	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Torus001	</node>
+		<geometry>
+			<vertices>	Torus001.vertices	</vertices>
+			<primitive>	Torus001.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	renderable_c	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cone001	</node>
+		<geometry>
+			<vertices>	Cone001.vertices	</vertices>
+			<primitive>	Cone001.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	renderable_b	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	renderable_a	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box001	</node>
+		<geometry>
+			<vertices>	Box001.vertices	</vertices>
+			<primitive>	Box001.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	renderable_a	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-5.841076 -0.321857 -6.425680	</min>
+		<max>	3.720011 1.650412 5.747354	</max>
+	</boundingBox>
+</root>

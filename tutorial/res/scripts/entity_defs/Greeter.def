@@ -1,0 +1,42 @@
+<root>
+	<Properties>
+		<radius>
+			<Type>		  FLOAT
+				<Widget>	RADIUS
+					<colour>	255 0 0 192	</colour>
+					<gizmoRadius>	2		</gizmoRadius>
+				</Widget>
+			</Type>
+			<Flags>		  CELL_PRIVATE	</Flags>
+			<Default>		3.0			</Default>
+			<Editable>		true		</Editable>
+		</radius>
+		
+		<activated>
+			<Type>		   INT8			</Type>
+			<Flags>		  ALL_CLIENTS		</Flags>
+			<Default>		1				</Default>
+		</activated>
+		
+		<createOnCell>
+			 <Type>	MAILBOX		</Type>
+			 <Flags>   BASE		   </Flags>
+		</createOnCell>
+	</Properties>
+
+	<ClientMethods>
+		<greet>
+			<Arg>		UINT32			</Arg> <!-- Entity ID of who we are greeting -->
+			<Arg>		STRING			</Arg> <!-- Our greeting message -->
+		</greet>
+	</ClientMethods>
+
+	<CellMethods>
+		<toggleActive>
+			<Exposed/>
+		</toggleActive>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

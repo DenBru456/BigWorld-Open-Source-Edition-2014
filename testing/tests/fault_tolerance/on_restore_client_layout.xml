@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<cluster>
+	<cellappmgr>
+		<machine name="%(machine)s"/>
+	</cellappmgr>
+	<baseappmgr>
+		<machine name="%(machine)s"/>
+	</baseappmgr>
+	<dbappmgr>
+		<machine name="%(machine)s"/>
+	</dbappmgr>
+	<dbapp>
+		<machine name="%(machine)s"/>
+	</dbapp>
+	<loginapp>
+		<machine name="%(machine)s"/>
+	</loginapp>
+	<cellapp>
+		<machine count="6" name="%(machine)s"/>
+	</cellapp>
+	<baseapp>
+		<machine count="1" name="%(machine)s"/>
+	</baseapp>
+	<serviceapp>
+		<machine count="1" name="%(machine)s"/>
+	</serviceapp>
+</cluster>

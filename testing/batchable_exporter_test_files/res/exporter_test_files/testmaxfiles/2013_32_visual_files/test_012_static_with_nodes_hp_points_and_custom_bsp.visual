@@ -1,0 +1,69 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_muzzle	</identifier>
+				<transform>
+					<row0>	-0.005377 -0.999985 0.000000	</row0>
+					<row1>	0.999985 -0.005377 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	6.154685 1.334411 -0.040555	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_scope	</identifier>
+				<transform>
+					<row0>	-0.005377 -0.999985 0.000000	</row0>
+					<row1>	0.999985 -0.005377 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.445603 3.699521 -0.040555	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_rthand	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-1.958145 0.465442 -0.040555	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.270000 0.000000 -1.270000	</min>
+		<max>	6.114685 2.540000 1.270000	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</root>

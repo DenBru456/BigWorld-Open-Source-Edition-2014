@@ -1,0 +1,42 @@
+<root>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Properties>
+		<name>
+			<Type>			UNICODE_STRING  </Type>
+			<Flags>			ALL_CLIENTS     </Flags>
+		</name>
+	</Properties>
+
+	<ClientMethods>
+
+		<!-- {+CHAT_CONSOLE -->
+		<!-- Client part of the chat implementation -->
+		<say>
+			<Arg>		UNICODE_STRING		</Arg> <!-- message -->
+		</say>
+		<!-- +CHAT_CONSOLE} -->
+		
+	</ClientMethods>
+
+	<CellMethods>
+
+		<!-- {+CHAT_CONSOLE -->
+		<!-- Chat to people within 50 metres -->
+		<say>
+			<Exposed/>
+			<Arg>				UNICODE_STRING	</Arg>
+			<DetailDistance>	50 				</DetailDistance>
+		</say>
+		<!-- +CHAT_CONSOLE} -->
+		
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>

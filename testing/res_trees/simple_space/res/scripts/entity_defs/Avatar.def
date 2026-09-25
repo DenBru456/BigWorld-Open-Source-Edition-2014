@@ -1,0 +1,39 @@
+<root>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<setFriendStatus>
+			<Args>
+				<index>			FRIENDIDX		</index>
+				<isOnline>		BOOL			</isOnline>
+			</Args>
+		</setFriendStatus>
+
+		<chat>
+			<Args>
+				<msg>UNICODE_STRING</msg>
+			</Args>
+		</chat>
+	</ClientMethods>
+
+	<CellMethods>
+		<chat>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<msg>UNICODE_STRING</msg>
+			</Args>
+		</chat>
+
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>

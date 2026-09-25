@@ -1,0 +1,19 @@
+<patrolGraph>
+  <nodeDefaults>
+    <minStay>  5  </minStay>
+    <maxStay>  5  </maxStay>
+    <radius>   1  </radius>
+  </nodeDefaults>
+  <nodes>
+    <node>
+      <name>      N1      </name>
+      <pos>       20 0 20   </pos>
+      <edges><edge>  N2        </edge></edges>
+    </node>
+    <node>
+      <name>      N2        </name>
+      <pos>       -20 0 -20  </pos>
+	  <edges><edge>  N2        </edge></edges>
+    </node>
+  </nodes>
+</patrolGraph>

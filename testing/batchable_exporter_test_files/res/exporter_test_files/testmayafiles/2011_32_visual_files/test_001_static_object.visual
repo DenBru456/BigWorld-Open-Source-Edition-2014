@@ -1,0 +1,64 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn3	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.094775 0.087857 -0.165000	</min>
+		<max>	1.046225 0.919357 0.000000	</max>
+	</boundingBox>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	1	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	false	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile />
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+		</settings>
+	</metaData>
+</root>

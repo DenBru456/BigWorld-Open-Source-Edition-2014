@@ -1,0 +1,61 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.018019 0.000000 0.065045	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	test	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-4.015127 5.956137 0.065045	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	test	</node>
+		<geometry>
+			<vertices>	test.vertices	</vertices>
+			<primitive>	test.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box01	</node>
+		<geometry>
+			<vertices>	Box01.mvertices	</vertices>
+			<primitive>	Box01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-6.233819 0.000000 -2.153647	</min>
+		<max>	2.063997 9.918448 2.283737	</max>
+	</boundingBox>
+</root>

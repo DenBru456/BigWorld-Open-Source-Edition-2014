@@ -1,0 +1,66 @@
+#!/bin/sh
+#
+# Runs PyUnit test scripts with the BigWorld built Python interpreter.
+#
+
+SOURCE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+ARGS=$@
+
+while [ $# -gt 0 ]; do
+	case $1 in
+		-p|--platform)  BW_PLATFORM=$2; break;;
+		*) break;;
+	esac
+
+	if [[ ! -z "$BW_PLATFORM" ]]; then
+		break;
+	fi
+	shift
+done
+
+
+if [[ -z "$BW_PLATFORM" ]]; then
+	# Derive directories mirroring Makefiles
+	BW_PLATFORM=$($SOURCE_DIR/../programming/bigworld/build/make/platform_info.py)
+fi
+
+if [[ -z "$BW_INSTALL_DIR" ]]; then
+	BW_INSTALL_DIR=$SOURCE_DIR/..
+fi
+
+BW_RES=$BW_INSTALL_DIR/game/res/bigworld
+PYTHON_DIR=$BW_INSTALL_DIR/game/bin/server/$BW_PLATFORM/third_party/python/bin
+
+if [[ ! -f $PYTHON_DIR/python.exe ]]; then
+	#python is not installed, try to run python from PYTHON_BUILD_DIR
+	PYTHON_DIR=$SOURCE_DIR/../programming/bigworld/build/$BW_PLATFORM/third_party/python
+fi
+
+if [[ ! -f $PYTHON_DIR/python.exe ]]; then
+	echo "Can't find python.exe in $PYTHON_DIR , please build python first!"
+	exit 1
+fi
+
+# Paths mirroring to embedded interpreter
+BW_PY_LIB=$BW_RES/scripts/server_common
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/common
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/common/Lib
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/server_common/lib-dynload-$BW_PLATFORM
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/server_common/site-packages
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/server_common/site-packages/Zope-2.11.4
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/server_common/site-packages/msgpack-python-0.4.2
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/server_common/site-packages/pika-0.9.13
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/server_common/site-packages/sqlalchemy-0.6.6
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/server_common/site-packages/twisted-11.0.0
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/common/site-packages
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/common/site-packages/Pympler-0.3.0
+BW_PY_LIB=$BW_PY_LIB:$BW_RES/scripts/common/Lib/site-packages
+
+#Paths for testing framework
+BW_PY_TEST_LIB=$SOURCE_DIR
+BW_PY_TEST_LIB=$BW_PY_TEST_LIB:$SOURCE_DIR/../programming/bigworld/build/make
+BW_PY_TEST_LIB=$BW_PY_TEST_LIB:$SOURCE_DIR/../game/tools/bigworld/server
+BW_PY_TEST_LIB=$BW_PY_TEST_LIB:$SOURCE_DIR/lib
+
+PATH=$PYTHON_DIR:$PATH PYTHONPATH=$BW_PY_LIB:$BW_PY_TEST_LIB python.exe $ARGS

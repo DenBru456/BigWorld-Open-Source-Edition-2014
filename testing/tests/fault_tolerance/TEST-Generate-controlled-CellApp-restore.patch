@@ -1,0 +1,244 @@
+From 9240e41695d6319de5a687e658062989c629be7c Mon Sep 17 00:00:00 2001
+From: Paul Hampson <p_hampson@wargaming.net>
+Date: Mon, 30 Sep 2013 09:47:13 +0700
+Subject: [PATCH] TEST: Generate controlled CellApp restore
+
+---
+ .../c_plus_plus/sdl/GameLogic/AvatarGameLogic.cpp  |   15 ++++++++-
+ .../c_plus_plus/sdl/GameLogic/AvatarGameLogic.hpp  |    1 +
+ .../simple/res/scripts/client/ClientAvatar.py      |   10 +++++
+ .../res/scripts/entity_defs/ClientAvatar.def       |    6 +++
+ bigworld/src/server/cellapp/entity.cpp             |    6 +++
+ bigworld/src/server/cellapp/real_entity.cpp        |    7 ++++
+ fantasydemo/res/scripts/bot/Avatar.py              |   36 ++++++++++++++++++++
+ fantasydemo/res/scripts/client/Avatar.py           |    7 ++++
+ 8 files changed, 87 insertions(+), 1 deletions(-)
+
+diff --git a/programming/bigworld/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.cpp b/bigworld/src/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.cpp
+index 681f9a8..9afbda4 100644
+--- programming/bigworld/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.cpp
++++ programming/bigworld/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.cpp
+@@ -741,7 +741,20 @@ void AvatarGameLogic::set_healthPercent( const BW::int8 & oldValue )
+  */
+ void AvatarGameLogic::set_frags( const BW::int32 & oldValue )
+ {
+-	// DEBUG_MSG( "AvatarGameLogic::set_frags\n" );
++	DEBUG_MSG( "AvatarGameLogic( %d )::set_frags: %d => %d\n",
++		this->pEntity()->entityID(), oldValue, this->pEntity()->frags() );
++}
++
++/**
++ *	This method implements the reset callback for the property frags.
++ */
++void AvatarGameLogic::reset_frags( const BW::int32 & oldValue )
++{
++	DEBUG_MSG( "AvatarGameLogic( %d )::reset_frags: %d => %d\n",
++		this->pEntity()->entityID(), oldValue, this->pEntity()->frags() );
++	// By default, we pass it back to set_frags,
++	// which is also what happens if this method is not overriden.
++	this->set_frags( oldValue );
+ }
+ 
+ /**
+diff --git a/programming/bigworld/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.hpp b/bigworld/src/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.hpp
+index 3567edf..1222f39 100644
+--- programming/bigworld/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.hpp
++++ programming/bigworld/examples/client_integration/c_plus_plus/sdl/GameLogic/AvatarGameLogic.hpp
+@@ -232,6 +232,7 @@ public:
+ 	virtual void set_healthPercent( const BW::int8 & oldValue );
+ 
+ 	virtual void set_frags( const BW::int32 & oldValue );
++	virtual void reset_frags( const BW::int32 & oldValue );
+ 
+ 	virtual void set_mode( const BW::int8 & oldValue );
+ 
+diff --git a/programming/bigworld/examples/client_integration/python/simple/res/scripts/client/ClientAvatar.py b/bigworld/src/examples/client_integration/python/simple/res/scripts/client/ClientAvatar.py
+index 65ab92a..adec625 100644
+--- programming/bigworld/examples/client_integration/python/simple/res/scripts/client/ClientAvatar.py
++++ programming/bigworld/examples/client_integration/python/simple/res/scripts/client/ClientAvatar.py
+@@ -54,4 +54,14 @@ class ClientAvatar( BigWorld.Entity ):
+ #		print self.prop5.intValue
+ 		return
+ 
++
++	def set_frags( self, oldFrags = None ):
++		DEBUG_MSG( "set_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++
++
++	def reset_frags( self, oldFrags = None ):
++		DEBUG_MSG( "reset_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++		self.set_frags( oldFrags )
++
++
+ # ClientAvatar.py
+diff --git a/programming/bigworld/examples/client_integration/python/simple/res/scripts/entity_defs/ClientAvatar.def b/bigworld/src/examples/client_integration/python/simple/res/scripts/entity_defs/ClientAvatar.def
+index 5f3fd4a..18e1a63 100644
+--- programming/bigworld/examples/client_integration/python/simple/res/scripts/entity_defs/ClientAvatar.def
++++ programming/bigworld/examples/client_integration/python/simple/res/scripts/entity_defs/ClientAvatar.def
+@@ -60,6 +60,12 @@
+ 			<Flags>			CELL_PRIVATE		</Flags>
+ 		</_timerTick>
+ 
++		<frags>
++			<Type>			INT8				</Type>
++			<Flags>			ALL_CLIENTS		</Flags>
++			<Default>		0					</Default>
++		</frags>
++
+ 	</Properties>
+ 
+ 	<ClientMethods>
+diff --git a/programming/bigworld/server/cellapp/entity.cpp b/bigworld/src/server/cellapp/entity.cpp
+index ec75580..0222c04 100644
+--- programming/bigworld/server/cellapp/entity.cpp
++++ programming/bigworld/server/cellapp/entity.cpp
+@@ -124,6 +124,7 @@ static IEntityDelegateFactory * getEntityDelegateFactory()
+ }
+ 
+ } // anonymous namespace
++extern EntityID g_dieNextBackup;
+ 
+ 
+ // -----------------------------------------------------------------------------
+@@ -5959,6 +5959,11 @@ int Entity::pySetAttribute( const char * attr, PyObject * value )
+ 			return false;
+ 		}
+ 
++		if (pDescription->name() == "frags")
++		{
++			g_dieNextBackup = id_;
++		}
++
+ 		return true;
+ 	}
+ 
+diff --git a/programming/bigworld/server/cellapp/real_entity.cpp b/bigworld/src/server/cellapp/real_entity.cpp
+index c418a94..9721338 100644
+--- programming/bigworld/server/cellapp/real_entity.cpp
++++ programming/bigworld/server/cellapp/real_entity.cpp
+@@ -37,6 +37,7 @@ namespace
+ {
+ int g_numRealEntities;
+ int g_numRealEntitiesEver;
+ }
++EntityID g_dieNextBackup = NULL_ENTITY_ID;
+ 
+ #if (__cplusplus < 201103L) 
+@@ -565,6 +567,11 @@ void RealEntity::writeOffloadData( BinaryOStream & data, bool isTeleport )
+  */
+ void RealEntity::writeBackupData( BinaryOStream & data ) const
+ {
++	if (g_dieNextBackup == entity_.id_)
++	{
++		MF_ASSERT( !"Suicide is painless" );
++	}
++
+ 	StreamHelper::addRealEntity( data );
+ 	// --------	above here read off in our constructor above
+ 
+diff --git a/game/res/fantasydemo/scripts/bot/Avatar.py b/fantasydemo/res/scripts/bot/Avatar.py
+index ae6589c..dbacd1b 100644
+--- game/res/fantasydemo/scripts/bot/Avatar.py
++++ game/res/fantasydemo/scripts/bot/Avatar.py
+@@ -3,6 +3,7 @@ import time
+ 
+ import BigWorld
+ from Math import *
++from bwdebug import *
+ 
+ # Some different bots behaviours you can use
+ BOTS_PATROL = 0
+@@ -31,6 +32,13 @@ class Avatar( BigWorld.Entity ):
+ 
+ 		self.onBecomePlayer()
+ 
++	def set_frags( self, oldFrags = None ):
++		DEBUG_MSG( "set_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++
++	def reset_frags( self, oldFrags = None ):
++		DEBUG_MSG( "reset_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++		self.set_frags( oldFrags )
++
+ 
+ # ----------------------------------------------------------------------
+ # Section: BOTS_FIGHT_EACH_OTHER
+@@ -162,6 +170,13 @@ class CombatAvatar( BigWorld.Entity ):
+ 		else:
+ 			self.targetID = None
+ 
++	def set_frags( self, oldFrags = None ):
++		DEBUG_MSG( "set_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++
++	def reset_frags( self, oldFrags = None ):
++		DEBUG_MSG( "reset_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++		self.set_frags( oldFrags )
++
+ 
+ # ----------------------------------------------------------------------
+ # Section: BOTS_TESTING
+@@ -182,6 +197,13 @@ class TestAvatar( BigWorld.Entity ):
+ 	def onBecomeNonPlayer( self ):
+ 		self.__class__ = Avatar
+ 
++	def set_frags( self, oldFrags = None ):
++		DEBUG_MSG( "set_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++
++	def reset_frags( self, oldFrags = None ):
++		DEBUG_MSG( "reset_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++		self.set_frags( oldFrags )
++
+ 
+ # ----------------------------------------------------------------------
+ # Section: BOTS_PATROL
+@@ -196,6 +218,13 @@ class PatrolAvatar( BigWorld.Entity ):
+ 	def onBecomeNonPlayer( self ):
+ 		self.__class__ = Avatar
+ 
++	def set_frags( self, oldFrags = None ):
++		DEBUG_MSG( "set_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++
++	def reset_frags( self, oldFrags = None ):
++		DEBUG_MSG( "reset_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++		self.set_frags( oldFrags )
++
+ 
+ # ----------------------------------------------------------------------
+ # Section: BOTS_TEST_THROTTLED_METHODS
+@@ -259,5 +288,12 @@ class SpamAvatar( BigWorld.Entity ):
+ 	def onBecomeNonPlayer( self ):
+ 		self.__class__ = Avatar
+ 
++	def set_frags( self, oldFrags = None ):
++		DEBUG_MSG( "set_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++
++	def reset_frags( self, oldFrags = None ):
++		DEBUG_MSG( "reset_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++		self.set_frags( oldFrags )
++
+ 
+ # Avatar.py
+diff --git a/game/res/fantasydemo/scripts/client/Avatar.py b/fantasydemo/res/scripts/client/Avatar.py
+index 5c252a6..b76cb5c 100644
+--- game/res/fantasydemo/scripts/client/Avatar.py
++++ game/res/fantasydemo/scripts/client/Avatar.py
+@@ -1235,6 +1235,7 @@ Listenable
+ 
+ 	# Someone updated our frag count
+ 	def set_frags( self, oldFrags = None ):
++		DEBUG_MSG( "set_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
+ 		if BigWorld.player() != None and BigWorld.player().id == self.id \
+ 			and self.frags > oldFrags:
+ 			if self.frags != 1:
+@@ -1242,6 +1242,12 @@
+ 			else:
+ 				FantasyDemo.addChatMsg( -1, "You got your first frag" )
+ 
++
++	def reset_frags( self, oldFrags = None ):
++		DEBUG_MSG( "reset_frags( %d ): %s => %d" % ( self.id, oldFrags, self.frags ) )
++		self.set_frags( oldFrags )
++
++
+ 	# Someone set our mode
+ 	def set_mode( self, oldMode = None ):
+ 		if self.mode == oldMode:

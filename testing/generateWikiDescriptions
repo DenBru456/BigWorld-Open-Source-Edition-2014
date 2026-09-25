@@ -1,0 +1,22 @@
+#! /usr/bin/env python
+
+from bwtest import loader
+
+
+	
+def printDescriptions(suite, indent):
+	print "%s %s %s" % (indent, suite.name, indent)
+	print suite.description
+	for subSuite in suite.testsuites:
+		printDescriptions(subSuite, indent+"=")
+	for case in suite.testcases:
+		print "* %s" % case.name
+		print "    tags = %s" % case.tags
+		print "    %s" % case.description.strip()
+		
+
+l = loader.Loader()
+topSuite = l.discover("tests")
+currentIndent = "=="
+for suite in topSuite.testsuites:
+	printDescriptions(suite, currentIndent)

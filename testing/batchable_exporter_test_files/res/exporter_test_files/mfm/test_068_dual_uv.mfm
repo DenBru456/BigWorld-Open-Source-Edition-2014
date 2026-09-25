@@ -1,0 +1,23 @@
+<test_068_dual_uv.mfm>
+	<property>	alphaReference
+		<Int>	0	</Int>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	selfIllumination
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<fx>	shaders/std_effects/lightonly_dual.fx	</fx>
+	<property>	diffuseMap2
+		<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+	</property>
+</test_068_dual_uv.mfm>

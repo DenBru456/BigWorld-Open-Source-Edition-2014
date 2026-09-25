@@ -1,0 +1,88 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	-0.002986 0.999995 -0.000000	</row0>
+				<row1>	-0.000004 -0.000000 -1.000000	</row1>
+				<row2>	-0.999995 -0.002986 0.000004	</row2>
+				<row3>	0.008757 0.010246 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	0.999995 -0.000000 0.003306	</row0>
+					<row1>	0.000000 1.000000 -0.000004	</row1>
+					<row2>	-0.003306 0.000004 0.999995	</row2>
+					<row3>	1.302424 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 -0.000000 1.000000	</row2>
+						<row3>	1.236380 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone03BlendBoneCylinder01	</identifier>
+						<transform>
+							<row0>	-0.009433 -0.000000 -0.999955	</row0>
+							<row1>	0.999955 -0.000000 -0.009433	</row1>
+							<row2>	-0.000000 -1.000000 0.000000	</row2>
+							<row3>	-2.548940 -0.000000 0.017251	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneCylinder01	</identifier>
+					<transform>
+						<row0>	-0.009433 -0.000000 -0.999956	</row0>
+						<row1>	0.999956 -0.000000 -0.009433	</row1>
+						<row2>	-0.000000 -1.000000 0.000000	</row2>
+						<row3>	-1.312560 -0.000000 0.017251	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneCylinder01	</identifier>
+				<transform>
+					<row0>	-0.002986 -0.000004 -0.999996	</row0>
+					<row1>	0.999996 -0.000000 -0.002986	</row1>
+					<row2>	-0.000000 -1.000000 0.000004	</row2>
+					<row3>	-0.010220 0.000000 0.008787	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneCylinder01	</node>
+		<node>	Bone02BlendBoneCylinder01	</node>
+		<node>	Bone03BlendBoneCylinder01	</node>
+		<geometry>
+			<vertices>	Cylinder01.vertices	</vertices>
+			<primitive>	Cylinder01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.287573 0.000000 -0.287573	</min>
+		<max>	0.287573 2.545783 0.287573	</max>
+	</boundingBox>
+</root>

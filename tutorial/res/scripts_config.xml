@@ -1,0 +1,55 @@
+<scripts_config.xml>
+	<!--
+		The contents of this files are passed to the personality script 
+		as the first argument in the init function (as a data section). It's 
+		grammar is solely defined by the personality script.
+	-->
+
+	<space> spaces/main </space>
+	
+	<player>
+		
+		<entityType> Avatar </entityType>
+		<!--
+			This is the entity type the player will be created as.  You must
+			implement a Player<class> type (e.g. PlayerAvatar) to use this type
+			as a client proxy.
+		-->
+		
+		<startPosition> 0.0 1.0 0.0 </startPosition>
+		<startDirection> 1.0 0.0 0.0 </startDirection>
+		<!--
+			Used by the personality script to provide a start position and
+			facing dir for players if there is no space specific spawn point.
+		-->
+
+	</player>
+
+	<!-- {+CLIENT_SERVER -->
+	<server>
+
+		<online> false </online>
+		<!--
+			Whether or not the client actually connects to the server.
+		-->
+		
+		<host> 10.40.3.23 </host>
+		<!--
+			The server to connect to.  Ideally we would allow this to be entered
+			via an in-game GUI (or leverage the server discovery stuff) but for
+			now we'll just hardcode it.
+		-->
+
+	</server>
+	<!-- +CLIENT_SERVER} -->
+
+	<!-- {+CHAT_CONSOLE -->
+	<chat>
+
+		<visibleLines> 6 </visibleLines>
+		<!-- Number of lines of chat history visible at once -->
+
+	</chat>
+	<!-- +CHAT_CONSOLE} -->
+
+</scripts_config.xml>

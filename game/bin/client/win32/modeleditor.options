@@ -1,0 +1,188 @@
+<root>
+	<personality>	Personality	</personality>
+	<help>
+		<toolsReferenceGuide>	..\..\doc\content_tools_reference_guide.pdf	</toolsReferenceGuide>
+		<contentCreationManual>	..\..\doc\content_creation.chm	</contentCreationManual>
+		<shortcutsHtml>	resources/html/shortcuts.html	</shortcutsHtml>
+	</help>
+	<space>	helpers/spaces/pe	</space>
+	<camera>
+		<speed>	Slow
+			<Slow>	0.5
+				<turbo>	4	</turbo>
+			</Slow>
+			<Medium>	4
+				<turbo>	8	</turbo>
+			</Medium>
+			<Fast>	16
+				<turbo>	32	</turbo>
+			</Fast>
+			<SuperFast>	32
+				<turbo>	64	</turbo>
+			</SuperFast>
+		</speed>
+		<invert>	0	</invert>
+		<mode>	4	</mode>
+		<rotDir>	0	</rotDir>
+		<orbitSpeed>	0.5	</orbitSpeed>
+	</camera>
+	<render>
+		<environment>	1
+			<drawFog>	0	</drawFog>
+			<drawClouds>	0	</drawClouds>
+			<drawSky>	1	</drawSky>
+			<drawSunAndMoon>	1	</drawSunAndMoon>
+			<drawDetailObjects>	1	</drawDetailObjects>
+			<drawWater>	1	</drawWater>
+			<drawSkyBoxes>	0	</drawSkyBoxes>
+		</environment>
+		<misc>
+			<drawFog>	0	</drawFog>
+			<nearPlane>	0.01f	</nearPlane>
+			<farPlane>	250.f	</farPlane>
+		</misc>
+		<helperDistanceThreshold>	150	</helperDistanceThreshold>
+		<scenery>	1
+			<drawWater>	1
+				<reflection>	1	</reflection>
+				<simulation>	1	</simulation>
+			</drawWater>
+			<wireFrame>	0	</wireFrame>
+		</scenery>
+		<useUmbra>	0	</useUmbra>
+	</render>
+	<precompileEffects>	0	</precompileEffects>
+	<settings>
+		<showAxes>	1	</showAxes>
+		<checkForSparkles>	0	</checkForSparkles>
+		<showModel>	1	</showModel>
+		<showWireframe>	0	</showWireframe>
+		<showSkeleton>	0	</showSkeleton>
+		<showShadowing>	1	</showShadowing>
+		<showBoundingBox>	0	</showBoundingBox>
+		<showBsp>	0	</showBsp>
+		<showPortals>	1	</showPortals>
+		<centreModel>	0	</centreModel>
+		<groundModel>	0	</groundModel>
+		<useCustomLighting>	0	</useCustomLighting>
+		<zoomOnLoad>	1	</zoomOnLoad>
+		<animateZoom>	1	</animateZoom>
+		<zoomDuration>	0.3	</zoomDuration>
+		<useTerrain>	0	</useTerrain>
+		<useFloor>	1	</useFloor>
+		<bkgColour>	192.000000 192.000000 192.000000	</bkgColour>
+		<floorTexture>	helpers/maps/system/default.bmp	</floorTexture>
+		<floorGrid>	1.0	</floorGrid>
+		<floraDensity>	2	</floraDensity>
+		<showOriginalAnim>	0	</showOriginalAnim>
+		<showLightModels>	1	</showLightModels>
+		<lastNewTintFX>	1	</lastNewTintFX>
+		<showTrees>	1	</showTrees>
+		<showWater>	0	</showWater>
+		<regenBBOnLoad>	0	</regenBBOnLoad>
+		<lockLodParents>	0	</lockLodParents>
+		<gameTime>	12:16	</gameTime>
+		<showActions>	0	</showActions>
+		<showBinormals>	0	</showBinormals>
+		<showCustomHull>	0	</showCustomHull>
+		<showEditorProxy>	0	</showEditorProxy>
+		<showHardPoints>	0	</showHardPoints>
+		<showNormals>	0	</showNormals>
+	</settings>
+	<startup>
+		<lastLoadOK>	true	</lastLoadOK>
+		<showSplashScreen>	1	</showSplashScreen>
+		<loadLastModel>	1	</loadLastModel>
+		<loadLastLights>	1	</loadLastLights>
+		<lastView>
+			<row0>	-0.908474 0.000000 -0.417941	</row0>
+			<row1>	0.040933 0.995192 -0.088976	</row1>
+			<row2>	0.415932 -0.097940 -0.904107	</row2>
+			<row3>	-0.435376 0.472260 0.865939	</row3>
+		</lastView>
+		<lastOrigin>	0.000000 0.369741 -0.080433	</lastOrigin>
+	</startup>
+	<messages>
+		<showDate>	0	</showDate>
+		<showTime>	0	</showTime>
+		<showPriority>	1	</showPriority>
+		<errorMsgs>	1	</errorMsgs>
+		<warningMsgs>	1	</warningMsgs>
+		<noticeMsgs>	0	</noticeMsgs>
+		<infoMsgs>	0	</infoMsgs>
+		<assetMsgs>	0	</assetMsgs>
+	</messages>
+	<consoles>
+		<darkenBackground>	true	</darkenBackground>
+		<numMessageLines>	5	</numMessageLines>
+	</consoles>
+	<lights>
+		<file0>	helpers/lights/yellowkey_bluebounce_whiterim.mvl	</file0>
+		<file1>	helpers/lights/3way_studio.mvl	</file1>
+		<file2>	helpers/lights/underlight.mvl	</file2>
+		<file3>	</file3>
+		<file4>	</file4>
+		<file5>	</file5>
+		<file6>	</file6>
+		<file7>	</file7>
+		<file8>	</file8>
+		<file9>	</file9>
+	</lights>
+	<language>	helpers/languages/files_en.xml	</language>
+	<language>	helpers/languages/files_cn.xml	</language>
+	<language>	helpers/languages/modeleditor_gui_en.xml	</language>
+	<language>	helpers/languages/modeleditor_gui_cn.xml	</language>
+	<language>	helpers/languages/modeleditor_rc_en.xml	</language>
+	<language>	helpers/languages/modeleditor_rc_cn.xml	</language>
+	<checkFileCase>	false	</checkFileCase>
+	<app>
+		<mainThreadCpuAffinity>	1	</mainThreadCpuAffinity>
+		<maxTimeDelta>	0.500000	</maxTimeDelta>
+		<timeScale>	1.000000	</timeScale>
+	</app>
+	<currentCountry>	</currentCountry>
+	<currentLanguage>	</currentLanguage>
+	<graphics>
+		<bpp>	32	</bpp>
+		<fullScreen>	false	</fullScreen>
+		<height>	768	</height>
+		<shadows>	false	</shadows>
+		<width>	1024	</width>
+		<overrideAutoDetectGraphicsSettings>	0	</overrideAutoDetectGraphicsSettings>
+	</graphics>
+	<models>
+		<file0>	</file0>
+		<file1>	</file1>
+		<file2>	</file2>
+		<file3>	</file3>
+		<file4>	</file4>
+		<file5>	</file5>
+		<file6>	</file6>
+		<file7>	</file7>
+		<file8>	</file8>
+		<file9>	</file9>
+	</models>
+	<renderer>
+		<shadows>
+			<quality>	2	</quality>
+		</shadows>
+	</renderer>
+	<ualConfigPath>	resources/ual/ual_config.xml	</ualConfigPath>
+	<fx>
+		<file0>	</file0>
+		<file1>	</file1>
+		<file2>	</file2>
+		<file3>	</file3>
+		<file4>	</file4>
+		<file5>	</file5>
+		<file6>	</file6>
+		<file7>	</file7>
+		<file8>	</file8>
+		<file9>	</file9>
+	</fx>
+	<logging>
+		<file> 
+			<enabled> true </enabled>
+		</file>
+	</logging>	
+</root>

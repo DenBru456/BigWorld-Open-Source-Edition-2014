@@ -1,0 +1,124 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	0.000000 0.000000 -0.000000	</min>
+		<max>	1.400000 0.500000 1.300000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	0.000000 0.500000 0.000000	</point>
+			<point>	1.400000 0.500000 0.000000	</point>
+			<point>	1.400000 0.000000 0.000000	</point>
+			<point>	0.000000 0.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 -0.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 1.300000 0.000000	</point>
+			<point>	0.500000 1.300000 0.000000	</point>
+			<point>	0.500000 0.000000 0.000000	</point>
+			<point>	0.000000 0.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 0.000000	</normal>
+		<d>	-0.500000	</d>
+		<portal>
+			<chunk>	heaven	</chunk>
+			<uAxis>	0.000000 0.000000 1.000000	</uAxis>
+			<point>	0.000000 0.000000 0.000000	</point>
+			<point>	1.300000 0.000000 0.000000	</point>
+			<point>	1.300000 -1.400000 0.000000	</point>
+			<point>	0.000000 -1.400000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-1.400000	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 0.000000 0.000000	</point>
+			<point>	0.500000 0.000000 0.000000	</point>
+			<point>	0.500000 -1.300000 0.000000	</point>
+			<point>	0.000000 -1.300000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	-1.300000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	0.000000 0.000000 0.000000	</point>
+			<point>	1.400000 0.000000 0.000000	</point>
+			<point>	1.400000 -0.500000 0.000000	</point>
+			<point>	0.000000 -0.500000 0.000000	</point>
+		</portal>
+	</boundary>
+	<customHull>	true	</customHull>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	1	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	false	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile>	exporter_test_files/testmayafiles/test_017_use_reference_hierarchy_1.visual	</referenceNodesFile>
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+		</settings>
+	</metaData>
+</root>

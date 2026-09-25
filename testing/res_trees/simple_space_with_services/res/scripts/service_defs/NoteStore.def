@@ -1,0 +1,23 @@
+<root>
+	<Methods>
+		<addNote>
+			<Args>
+				<newNote>	UNICODE_STRING	</newNote>
+			</Args>
+
+			<ReturnValues>
+				<noteID>	NOTE_ID	</noteID>
+			</ReturnValues>
+		</addNote>
+
+		<getNotes>
+			<Args>
+			</Args>
+
+			<ReturnValues>
+				<notes>	NOTES	</notes>
+			</ReturnValues>
+		</getNotes>
+	</Methods>
+</root>
+

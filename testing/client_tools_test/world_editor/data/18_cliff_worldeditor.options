@@ -1,0 +1,518 @@
+<root>
+	<personality>	Personality	</personality>
+	<help>
+		<toolsReferenceGuide>	..\..\doc\content_tools_reference_guide.pdf	</toolsReferenceGuide>
+		<contentCreationManual>	..\..\doc\content_creation.chm	</contentCreationManual>
+		<shortcutsHtml>	resources/html/shortcuts.html	</shortcutsHtml>
+	</help>
+	<undoredo>
+		<limit>	50	</limit>
+	</undoredo>
+	<snaps>
+		<movement>	0.100000 0.100000 0.100000	</movement>
+		<angle>	1.000000	</angle>
+		<xyzEnabled>	0	</xyzEnabled>
+		<itemSnapMode>	0	</itemSnapMode>
+		<itemSnapPivot>	0	</itemSnapPivot>
+		<rotationStep>	30.000000 30.000000 30.000000	</rotationStep>
+		<rotationStepEnabled>	0.000000 0.000000 0.000000	</rotationStepEnabled>
+	</snaps>
+	<shellSnaps>
+		<movement>	0.01 0.01 0.01	</movement>
+		<angle>	0.1	</angle>
+	</shellSnaps>
+	<space>
+		<folder>	spaces	</folder>
+		<folder>	sets	</folder>
+		<mru1>	spaces/PBS_IBL_Stadium	</mru1>
+		<mru2>	spaces/PBS_IBL_Basketball_Court	</mru2>
+		<mru3>	spaces/19_monastery	</mru3>
+		<mru4>	spaces/PBS_IBL_Old_Industrial_Hall	</mru4>
+		<mru5>	spaces/PBS_IBL_Malibu	</mru5>
+		<mru6>	spaces/PBS_IBL_Harbour	</mru6>
+		<mru7>	spaces/37_caucasus	</mru7>
+		<mru8>	spaces/34_redshire	</mru8>
+		<mru9>	spaces/38_mannerheim_line	</mru9>
+		<mru0>	spaces/18_cliff	</mru0>
+		<lastDefaultTexture />
+	</space>
+	<versionControl>
+		<enable>	false	</enable>
+		<system>	svn	</system>
+		<xExtent>	5	</xExtent>
+		<yExtent>	1	</yExtent>
+		<autoupdate>
+			<enable>	true	</enable>
+			<delta>	5	</delta>
+		</autoupdate>
+	</versionControl>
+	<graphics>
+		<graphicsPreferencesXML>	resources/graphics_preferences.xml	</graphicsPreferencesXML>
+		<shadows>	false	</shadows>
+		<cameraHeight>	15.000000	</cameraHeight>
+		<farclip>	1000	</farclip>
+		<timeofday>	159	</timeofday>
+		<preset />
+	</graphics>
+	<statistics>
+		<dips>	2800	</dips>
+		<uniqObj>	300	</uniqObj>
+		<texMem>	300	</texMem>
+		<vertexMem>	40	</vertexMem>
+		<triCount>	1500000	</triCount>
+		<decalCount>	200	</decalCount>
+		<allDecalCount>	1000	</allDecalCount>
+		<primitivesCount>	13500	</primitivesCount>
+		<items>	5600	</items>
+		<FPS>	25	</FPS>
+		<commitSize>	850	</commitSize>
+		<decalsTextureMem>	300	</decalsTextureMem>
+		<floraTextureMem>	300	</floraTextureMem>
+		<floraTriCount>	1500000	</floraTriCount>
+		<floraVertexMem>	40	</floraVertexMem>
+		<objectsTextureMem>	300	</objectsTextureMem>
+		<objectsTriCount>	1500000	</objectsTriCount>
+		<objectsVertexMem>	40	</objectsVertexMem>
+		<speedtreeTextureMem>	300	</speedtreeTextureMem>
+		<speedtreeTriCount>	1500000	</speedtreeTriCount>
+		<speedtreeVertexMem>	40	</speedtreeVertexMem>
+		<terrainTextureMem>	300	</terrainTextureMem>
+		<terrainTriCount>	1500000	</terrainTriCount>
+		<terrainVertexMem>	40	</terrainVertexMem>
+	</statistics>
+	<input>
+		<exclusive>	false	</exclusive>
+		<legacyMouseWheel>	0	</legacyMouseWheel>
+	</input>
+	<consoles>
+		<darkenBackground>	true	</darkenBackground>
+		<numMessageLines>	5	</numMessageLines>
+	</consoles>
+	<precompileEffects>	0	</precompileEffects>
+	<app>
+		<maxTimeDelta>	0.5	</maxTimeDelta>
+		<mainThreadCpuAffinity>	0	</mainThreadCpuAffinity>
+		<timeScale>	1.000000	</timeScale>
+	</app>
+	<itemEditor>
+		<browsePath>	helpers/decal/static_decal.xml	</browsePath>
+		<lastY>	-2.771484	</lastY>
+	</itemEditor>
+	<tools>
+		<alphaTool>	resources/maps/gizmo/disc.bmp	</alphaTool>
+		<alphaToolSize>	30	</alphaToolSize>
+		<alphaToolStrength>	500	</alphaToolStrength>
+		<alphaToolGUISize>	0.25	</alphaToolGUISize>
+		<chunkVisualisation>	resources/maps/gizmo/square.bmp	</chunkVisualisation>
+		<showChunkVisualisation>	true	</showChunkVisualisation>
+		<selectFilter>	All Except Terrain and Shells	</selectFilter>
+		<coordFilter>	World	</coordFilter>
+		<optionsPage>	resources/data/options_page.xml	</optionsPage>
+		<useHangingItemsAutoFix>	0	</useHangingItemsAutoFix>
+		<heightBrushMask>
+			<greyscale>	false	</greyscale>
+			<isActive>	false	</isActive>
+			<randAlphaAmount>	0.150000	</randAlphaAmount>
+			<randFlipHorz>	false	</randFlipHorz>
+			<randFlipVert>	false	</randFlipVert>
+			<randOffsHorzAmount>	0.300000	</randOffsHorzAmount>
+			<randOffsVertAmount>	0.300000	</randOffsVertAmount>
+			<randRescaleAmount>	0.150000	</randRescaleAmount>
+			<randRotationAmount>	0.800000	</randRotationAmount>
+			<rotateByMovement>	false	</rotateByMovement>
+			<selectedTexName />
+			<spacing>	1.000000	</spacing>
+			<useRandomizeParams>	true	</useRandomizeParams>
+		</heightBrushMask>
+		<textureBrushMask>
+			<greyscale>	false	</greyscale>
+			<isActive>	false	</isActive>
+			<randAlphaAmount>	0.150000	</randAlphaAmount>
+			<randFlipHorz>	false	</randFlipHorz>
+			<randFlipVert>	false	</randFlipVert>
+			<randOffsHorzAmount>	0.300000	</randOffsHorzAmount>
+			<randOffsVertAmount>	0.300000	</randOffsVertAmount>
+			<randRescaleAmount>	0.150000	</randRescaleAmount>
+			<randRotationAmount>	0.800000	</randRotationAmount>
+			<rotateByMovement>	false	</rotateByMovement>
+			<selectedTexName />
+			<spacing>	1.000000	</spacing>
+			<useRandomizeParams>	true	</useRandomizeParams>
+		</textureBrushMask>
+	</tools>
+	<camera>
+		<speed>	Medium
+			<Slow>	2
+				<turbo>	40	</turbo>
+			</Slow>
+			<Medium>	30
+				<turbo>	120	</turbo>
+			</Medium>
+			<Fast>	100
+				<turbo>	200	</turbo>
+			</Fast>
+			<SuperFast>	200
+				<turbo>	400	</turbo>
+			</SuperFast>
+		</speed>
+		<rotateSpeedMultiplier>	1.0	</rotateSpeedMultiplier>
+		<ortho>	0	</ortho>
+	</camera>
+	<object>
+		<Model>
+			<directory>	sets/temperate/props/	</directory>
+			<selectFilter>	Models	</selectFilter>
+		</Model>
+		<Shell>
+			<directory />
+			<selectFilter>	Shells + Contents	</selectFilter>
+		</Shell>
+		<Prefabs>
+			<directory />
+			<selectFilter>	All	</selectFilter>
+		</Prefabs>
+		<Entity>
+			<directory>	entities/editor/	</directory>
+			<selectFilter>	Entities	</selectFilter>
+		</Entity>
+		<Lights>
+			<directory />
+			<selectFilter>	All Lights	</selectFilter>
+		</Lights>
+		<Particles>
+			<directory>	particles/	</directory>
+			<selectFilter>	Particles	</selectFilter>
+		</Particles>
+		<Misc>
+			<directory />
+			<selectFilter>	All Except Terrain and Shells	</selectFilter>
+		</Misc>
+		<SpeedTree>
+			<directory>	speedtree/	</directory>
+		</SpeedTree>
+	</object>
+	<dragOnSelect>	1	</dragOnSelect>
+	<drawBSP>	0	</drawBSP>
+	<objects>
+		<readOnlyMode>	0	</readOnlyMode>
+		<materialOverrideMode>	0	</materialOverrideMode>
+	</objects>
+	<render>
+		<gameObjects>	1
+			<drawEntities>	1	</drawEntities>
+			<drawUserDataObjects>	1	</drawUserDataObjects>
+			<drawChunkMetaData>	1	</drawChunkMetaData>
+		</gameObjects>
+		<hideOutsideObjects>	0	</hideOutsideObjects>
+		<lighting>	0	</lighting>
+		<environment>	1
+			<drawFog>	1	</drawFog>
+			<drawClouds>	1	</drawClouds>
+			<drawSky>	1	</drawSky>
+			<drawSunAndMoon>	1	</drawSunAndMoon>
+			<drawSkyBoxes>	1	</drawSkyBoxes>
+			<drawDetailObjects>	1	</drawDetailObjects>
+		</environment>
+		<scenery>	1
+			<wireFrame>	0	</wireFrame>
+			<particle>	1	</particle>
+			<drawWater>	1
+				<reflection>	1	</reflection>
+				<simulation>	1	</simulation>
+			</drawWater>
+			<shells>	1
+				<gameVisibility>	1	</gameVisibility>
+			</shells>
+			<drawChunkFlares>	1	</drawChunkFlares>
+			<drawChunkLights>	1	</drawChunkLights>
+		</scenery>
+		<terrain>	1
+			<wireFrame>	0	</wireFrame>
+			<LOD>	1	</LOD>
+			<terrainVisualizeMode>	0	</terrainVisualizeMode>
+			<chunkGridVisibleThrough>	0	</chunkGridVisibleThrough>
+			<terrainOverlayMode>	0	</terrainOverlayMode>
+		</terrain>
+		<lights>	1
+			<drawStatic>	1	</drawStatic>
+			<drawDynamic>	1	</drawDynamic>
+			<drawSpecular>	1	</drawSpecular>
+		</lights>
+		<misc>	1
+			<shadeReadOnlyAreas>	1	</shadeReadOnlyAreas>
+			<drawHeavenAndEarth>	1	</drawHeavenAndEarth>
+			<drawPatrolGraphs>	0	</drawPatrolGraphs>
+			<drawEditorProxies>	0	</drawEditorProxies>
+			<shadeFrozenObjects>	1	</shadeFrozenObjects>
+			<drawOverlayLocks>	1	</drawOverlayLocks>
+			<drawNavMesh>	0	</drawNavMesh>
+			<drawNavMeshGirth>	0.500000	</drawNavMeshGirth>
+			<actDrawLUTTexture />
+		</misc>
+		<project>
+			<spaceMapAlpha>	1.000000	</spaceMapAlpha>
+			<sunTooDarkThreshold>	80.000000	</sunTooDarkThreshold>
+		</project>
+		<chunk>
+			<vizMode>	0	</vizMode>
+		</chunk>
+		<useUmbra>	0	</useUmbra>
+		<useDefaultWeather />
+		<drawChunkPortals>	true	</drawChunkPortals>
+		<editorObjectsScreenPercentLOD>	0.800000	</editorObjectsScreenPercentLOD>
+		<links>
+			<maxProcessingMillis>	2	</maxProcessingMillis>
+			<maxRecalcsPerFrame>	-1	</maxRecalcsPerFrame>
+			<minLinkLength>	0.200000	</minLinkLength>
+		</links>
+		<maxFarPlane>	5000.000000	</maxFarPlane>
+		<proxys>	1
+			<ambientLightProxyLarge>	1	</ambientLightProxyLarge>
+			<ambientLightProxys>	1	</ambientLightProxys>
+			<dynamicLightProxyLarge>	0	</dynamicLightProxyLarge>
+			<dynamicLightProxys>	1	</dynamicLightProxys>
+			<flareProxyLarge>	1	</flareProxyLarge>
+			<flareProxys>	1	</flareProxys>
+			<lightProxys>	0	</lightProxys>
+			<particleProxyLarge>	1	</particleProxyLarge>
+			<particleProxys>	0	</particleProxys>
+			<pulseLightProxyLarge>	1	</pulseLightProxyLarge>
+			<pulseLightProxys>	1	</pulseLightProxys>
+			<specularLightProxyLarge>	1	</specularLightProxyLarge>
+			<specularLightProxys>	1	</specularLightProxys>
+			<spotLightProxyLarge>	1	</spotLightProxyLarge>
+			<spotLightProxys>	1	</spotLightProxys>
+			<staticLightProxyLarge>	1	</staticLightProxyLarge>
+			<staticLightProxys>	1	</staticLightProxys>
+			<drawChunkSounds>	0	</drawChunkSounds>
+		</proxys>
+		<drawChunkFlares>	true	</drawChunkFlares>
+		<drawChunkStaticDeferredDecals>	true	</drawChunkStaticDeferredDecals>
+		<drawEntities>	true	</drawEntities>
+		<drawParticleSystems>	true	</drawParticleSystems>
+		<decals>	1
+			<autoSize>	0	</autoSize>
+			<showOverdraw>	0	</showOverdraw>
+			<showTextureAtlas>	0	</showTextureAtlas>
+			<showTextureAtlasAlpha>	0	</showTextureAtlasAlpha>
+			<renderCost>	0	</renderCost>
+			<showBumpTextureAtlas>	0	</showBumpTextureAtlas>
+			<showDiffuseTextureAtlas>	0	</showDiffuseTextureAtlas>
+			<showHeightTextureAtlas>	0	</showHeightTextureAtlas>
+		</decals>
+		<drawChunkSounds />
+	</render>
+	<terrain>
+		<texture>
+			<maxsizelimit>	4000	</maxsizelimit>
+			<maxsize>	800.000000	</maxsize>
+			<minsizelimit>	0.3	</minsizelimit>
+			<minsize>	1.000000	</minsize>
+			<size>	10.000000	</size>
+			<maxstrengthlimit>	100	</maxstrengthlimit>
+			<maxstrength>	100.000000	</maxstrength>
+			<minstrengthlimit>	1	</minstrengthlimit>
+			<minstrength>	1.000000	</minstrength>
+			<strength>	100.000000	</strength>
+			<lodregentime>	1.000000	</lodregentime>
+			<maskoverlay>	0	</maskoverlay>
+		</texture>
+		<height>
+			<maxsizelimit>	4000	</maxsizelimit>
+			<maxsize>	800.000000	</maxsize>
+			<minsizelimit>	1	</minsizelimit>
+			<minsize>	1.000000	</minsize>
+			<size>	100.000000	</size>
+			<maxstrengthlimit>	10000	</maxstrengthlimit>
+			<maxstrength>	1000.000000	</maxstrength>
+			<minstrengthlimit>	-2000	</minstrengthlimit>
+			<minstrength>	1.000000	</minstrength>
+			<strength>	100.000000	</strength>
+			<maxheightlimit>	1000	</maxheightlimit>
+			<maxheight>	400.000000	</maxheight>
+			<minheightlimit>	-1000	</minheightlimit>
+			<minheight>	-400.000000	</minheight>
+			<height>	100.000000	</height>
+			<brushFalloff>	1	</brushFalloff>
+			<explicitHeightMode>	0	</explicitHeightMode>
+			<relative />
+		</height>
+		<filter>
+			<maxsizelimit>	4000	</maxsizelimit>
+			<maxsize>	800.000000	</maxsize>
+			<minsizelimit>	1	</minsizelimit>
+			<minsize>	1.000000	</minsize>
+			<size>	100.000000	</size>
+			<index>	4	</index>
+		</filter>
+		<cutRepair>
+			<maxsizelimit>	4000	</maxsizelimit>
+			<maxsize>	800	</maxsize>
+			<minsizelimit>	1	</minsizelimit>
+			<minsize>	1	</minsize>
+			<size>	100.000000	</size>
+			<brushMode>	0	</brushMode>
+		</cutRepair>
+		<sptAutoplace>
+			<brushlimits>	0.000000 1.000000	</brushlimits>
+			<maxsizelimit>	200.000000	</maxsizelimit>
+			<maxstrengthlimit>	1500.000000	</maxstrengthlimit>
+			<minsizelimit>	0.100000	</minsizelimit>
+			<minstrengthlimit>	300.000000	</minstrengthlimit>
+			<overlayopacity>	0.750000	</overlayopacity>
+			<size>	9.417920	</size>
+			<strength>	1500.000000	</strength>
+		</sptAutoplace>
+		<groundTypes>
+			<brushSize>	90.000000	</brushSize>
+			<brushSizeMin>	0.100000	</brushSizeMin>
+			<brushSizeMax>	90.000000	</brushSizeMax>
+			<opacity>	0.500000	</opacity>
+			<type>	1	</type>
+		</groundTypes>
+		<ruler>
+			<worldScale>	1.000000	</worldScale>
+		</ruler>
+	</terrain>
+	<terrain2>
+		<defaults>
+			<heightMapSize>	128	</heightMapSize>
+			<normalMapSize>	128	</normalMapSize>
+			<holeMapSize>	25	</holeMapSize>
+			<shadowMapSize>	32	</shadowMapSize>
+			<blendMapSize>	128	</blendMapSize>
+			<aoMapSize>	16	</aoMapSize>
+			<lodMapSize>	128	</lodMapSize>
+		</defaults>
+		<blendsBuildInterval>	100	</blendsBuildInterval>
+	</terrain2>
+	<enableDynamicUpdating>	1	</enableDynamicUpdating>
+	<import>
+		<lowerBounds>	0.f	</lowerBounds>
+		<upperBounds>	185.f	</upperBounds>
+		<scaleFactor>	500.f	</scaleFactor>
+		<rawWidth>	503	</rawWidth>
+		<rawHeight>	503	</rawHeight>
+	</import>
+	<messages>
+		<showDate>	0	</showDate>
+		<showTime>	0	</showTime>
+		<showPriority>	1	</showPriority>
+		<errorMsgs>	1	</errorMsgs>
+		<warningMsgs>	1	</warningMsgs>
+		<noticeMsgs>	0	</noticeMsgs>
+		<infoMsgs>	0	</infoMsgs>
+		<assetMsgs>	1	</assetMsgs>
+	</messages>
+	<sendCrashDump>	1	</sendCrashDump>
+	<project>
+		<normalFont>	verdana_small.font	</normalFont>
+		<boldFont>	verdana_small.font	</boldFont>
+		<commitKeepLocks>	true	</commitKeepLocks>
+		<discardKeepLocks>	false	</discardKeepLocks>
+		<showForceUnlock>	false	</showForceUnlock>
+		<lockSpace>	1	</lockSpace>
+	</project>
+	<userTag />
+	<placementPreset>	1	</placementPreset>
+	<language>	helpers/languages/files_en.xml	</language>
+	<language>	helpers/languages/files_cn.xml	</language>
+	<language>	helpers/languages/worldeditor_gui_en.xml	</language>
+	<language>	helpers/languages/worldeditor_gui_cn.xml	</language>
+	<language>	helpers/languages/worldeditor_rc_en.xml	</language>
+	<language>	helpers/languages/worldeditor_rc_cn.xml	</language>
+	<checkFileCase>	false	</checkFileCase>
+	<currentCountry />
+	<currentLanguage />
+	<chunkTexture>
+		<autotrack>	0	</autotrack>
+		<latch>	0	</latch>
+		<numLayerWarning>	0	</numLayerWarning>
+		<numLayerWarningShow>	1	</numLayerWarningShow>
+		<showtrack>	1	</showtrack>
+	</chunkTexture>
+	<drawSpecialConsole>	false	</drawSpecialConsole>
+	<panels>
+		<chunkWatcher>	false	</chunkWatcher>
+		<saveLayoutOnExit>	true	</saveLayoutOnExit>
+	</panels>
+	<post_processing>
+		<chainsFolder>	system/post_processing/chains	</chainsFolder>
+		<preview3d>	0	</preview3d>
+		<profile>	0	</profile>
+	</post_processing>
+	<ualConfigPath>	resources/ual/ual_config.xml	</ualConfigPath>
+	<warningMemoryLoadLevel>	90	</warningMemoryLoadLevel>
+	<wires>
+		<radius>	0.050000	</radius>
+		<sag>	0.010000	</sag>
+	</wires>
+	<debugBB>	0	</debugBB>
+	<drawTreeLeafBSP>	0	</drawTreeLeafBSP>
+	<marqueeSelect>
+		<bufferHeight>	1024	</bufferHeight>
+		<bufferWidth>	2048	</bufferWidth>
+	</marqueeSelect>
+	<soundPrefs>
+		<masterVolume />
+	</soundPrefs>
+	<bspBoundingBox>	1	</bspBoundingBox>
+	<fullSave>
+		<warnUndoOnProcessData>	true	</warnUndoOnProcessData>
+	</fullSave>
+	<scenebrowser>
+		<autozoom />
+	</scenebrowser>
+	<autoCheckSpaceTextures>	0	</autoCheckSpaceTextures>
+	<decals>
+		<maxHeight>	1.100000	</maxHeight>
+		<search>	0	</search>
+		<showHeight>	true	</showHeight>
+		<flatOnly>	true	</flatOnly>
+	</decals>
+	<flora>
+		<confirmSpaceReload>	true	</confirmSpaceReload>
+	</flora>
+	<overlayMaterial>
+		<maxLayers>	4	</maxLayers>
+	</overlayMaterial>
+	<showDistance>	false	</showDistance>
+	<showRGB>	false	</showRGB>
+	<watchers>
+		<albedoLightingDebug>
+			<albedoGray25>	false	</albedoGray25>
+			<albedoGray50>	false	</albedoGray50>
+			<albedoGray75>	false	</albedoGray75>
+			<albedoWhite>	false	</albedoWhite>
+		</albedoLightingDebug>
+		<debugLightingVisualization>
+			<showAmbient>	true	</showAmbient>
+			<showDiffuse>	true	</showDiffuse>
+			<showSpecular>	true	</showSpecular>
+			<desaturateLight>	false	</desaturateLight>
+			<showIndirectDiffuse>	true	</showIndirectDiffuse>
+			<showIndirectSpecular>	true	</showIndirectSpecular>
+		</debugLightingVisualization>
+		<lightingDebugMode>	0	</lightingDebugMode>
+		<saveLightingDebug>	false	</saveLightingDebug>
+		<lightingDebugDisplayMode>	-2	</lightingDebugDisplayMode>
+		<lightingAlbedoDebugMode>	-1.000000	</lightingAlbedoDebugMode>
+	</watchers>
+	<hangar>
+		<lastSelectedTank>	scripts/item_defs/vehicles/ussr/T-34-85.xml	</lastSelectedTank>
+	</hangar>
+	<objectsCopying>
+		<copyDecals>	true	</copyDecals>
+		<copyEffects>	true	</copyEffects>
+		<copyModels>	true	</copyModels>
+		<copySpeedtree>	true	</copySpeedtree>
+		<copyTextures>	true	</copyTextures>
+		<createNewMap>	false	</createNewMap>
+		<createTestMap>	true	</createTestMap>
+		<createTextFile>	true	</createTextFile>
+		<dataSourceType>	0	</dataSourceType>
+		<folderName />
+		<setOnMapValue />
+		<textFileName />
+	</objectsCopying>
+</root>

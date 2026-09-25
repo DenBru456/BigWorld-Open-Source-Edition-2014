@@ -1,0 +1,24 @@
+<!-- 
+	This is an template of a server configuration file.
+	Copy this file with the name 'bw_<your_username>.xml'
+	and add your database credentials etc.
+-->
+<root>
+	<parentFile> server/bw.xml </parentFile>
+
+	<db>
+		<type> mysql </type>
+		<!--  Comment in this section if you are running the tests off a Windows mount.  MySql doesn't like having databases on a Windows file system
+		<secondaryDB>
+			<directory> path_to_local_directory </directory>
+		</secondaryDB>
+	-->
+		<mysql>
+			<host> my_mysql_server_machine </host>
+			<username> bigworld </username>
+			<password> my_pass </password>
+			<databaseName> fantasydemo </databaseName>
+		</mysql>
+	</db>
+
+</root>

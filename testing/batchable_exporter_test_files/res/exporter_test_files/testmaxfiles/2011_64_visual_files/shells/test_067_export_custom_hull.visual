@@ -1,0 +1,113 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	initialShadingGroup	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-62.363338 6.948588 -70.955933	</min>
+		<max>	4.905870 48.324104 22.255219	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	6.948588	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.961825 0.000000 0.273664	</normal>
+		<d>	-66.646454	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 -0.000000	</normal>
+		<d>	-4.905869	</d>
+		<portal>
+			<uAxis>	0.000000 0.000000 -1.000000	</uAxis>
+			<point>	3.478291 -6.948587 0.000004	</point>
+			<point>	45.224098 -6.948587 0.000004	</point>
+			<point>	45.224079 -48.324059 -0.000000	</point>
+			<point>	3.475981 -48.324085 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.673696 0.000000 -0.739009	</normal>
+		<d>	-37.504761	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.961826 0.000000 -0.273662	</normal>
+		<d>	-53.318874	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.673695 -0.000000 0.739009	</normal>
+		<d>	-73.495041	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.202255 0.000000 0.979333	</normal>
+		<d>	-72.245857	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.118068 -0.811927 0.571694	</normal>
+		<d>	-66.824844	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.394617 -0.810492 0.432875	</normal>
+		<d>	-67.656845	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 -0.000000	</normal>
+		<d>	-48.324100	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000001 0.000000 -1.000000	</normal>
+		<d>	-22.255215	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.819957 -0.572425	</normal>
+		<d>	-37.633957	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.118068 -0.811927 -0.571694	</normal>
+		<d>	-38.982952	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.202255 0.000000 -0.979333	</normal>
+		<d>	-24.551643	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-70.955925	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.563389 -0.810492 -0.160298	</normal>
+		<d>	-55.838673	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.394617 -0.810492 -0.432874	</normal>
+		<d>	-46.575546	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.563389 -0.810492 0.160298	</normal>
+		<d>	-63.645287	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000001 -0.819965 0.572414	</normal>
+		<d>	-65.510956	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+</root>

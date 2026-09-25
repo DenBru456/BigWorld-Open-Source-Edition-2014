@@ -1,0 +1,129 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# BWT-specific notes:
+# Most comments here are default from `vagrant init`. I've left them there
+# for future easy reference.
+
+# NOTE: Using CentOS 7 1905.1 (CentOS 7.6) because CentOS 7.7 backported a
+#       security fix in systemd that conflicts with the BWT daemon startup.
+#       https://bugzilla.redhat.com/show_bug.cgi?id=1662867
+
+# Once the machine is up, you can connect with, e.g. vagrant ssh, and run:
+# echo "/opt/bigworld/14.4/server;/mnt/host/game/res/fantasydemo:/opt/bigworld/14.4/server/res" > ~/.bwmachined.conf
+# to set up a FantasyDemo res path. The first and last path come from the bigworld-server RPM, the middle
+# one is mounted from the local filesystem; change this to use a different project.
+
+# Then you'll find WebConsole running on port 8080 of the VM's IP address.
+# Log in as "admin", and then create a user with the system-user of "vagrant".
+
+# You'll have to set up your project to operate; i.e. bigworld.key which is
+# not included in the RPM. There's a copy in game/res/bigworld/server, easiest thing
+# is to copy that into game/res/fantasydemo/server.
+
+# You will also need to create a client-server key with openssl:
+# * `openssl genrsa 2048 > game/res/fantasydemo/server/loginapp.privkey`
+# * `openssl rsa -pubout < game/res/fantasydemo/server/loginapp.privkey > game/res/fantasydemo/loginapp.pubkey`
+
+# You can also go ahead and create more local users, mount other stuff, etc.
+
+# END BWT-specific notes.
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure("2") do |config|
+  # The most common configuration options are documented and commented below.
+  # For a complete reference, please see the online documentation at
+  # https://docs.vagrantup.com.
+
+  # Every Vagrant development environment requires a box. You can search for
+  # boxes at https://vagrantcloud.com/search.
+  config.vm.box = "centos/7"
+  config.vm.box_version = "1905.1"
+
+  # Disable automatic box update checking. If you disable this, then
+  # boxes will only be checked for updates when the user runs
+  # `vagrant box outdated`. This is not recommended.
+  # config.vm.box_check_update = false
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine. In the example below,
+  # accessing "localhost:8080" will access port 80 on the guest machine.
+  # NOTE: This will enable public access to the opened port
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine and only allow access
+  # via 127.0.0.1 to disable public access
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+
+  # Create a private network, which allows host-only access to the machine
+  # using a specific IP.
+  # config.vm.network "private_network", ip: "192.168.33.10"
+
+  # Create a public network, which generally matched to bridged network.
+  # Bridged networks make the machine appear as another physical device on
+  # your network.
+  # config.vm.network "public_network"
+
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  # config.vm.synced_folder "../data", "/vagrant_data"
+  
+  config.vm.synced_folder "../../../..", "/mnt/host/game", {
+      type: 'smb',
+      smb_username: ENV["VAGRANT_SMB_USERNAME"],
+      smb_password: ENV["VAGRANT_SMB_PASSWORD"]
+    }
+
+  # Provider-specific configuration so you can fine-tune various
+  # backing providers for Vagrant. These expose provider-specific options.
+  # Example for VirtualBox:
+  #
+  # config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+  #   vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+  #   vb.memory = "1024"
+  # end
+  #
+  # View the documentation for the provider you are using for more
+  # information on available options.
+  config.vm.provider "hyperv" do |h|
+    h.linked_clone = true,
+    h.cpus = 4,
+    h.vm_integration_services = {
+      guest_service_interface: true,
+      heartbeat: true,
+      shutdown: true,
+      time_synchronization: true,
+    }
+  end
+
+  # Enable provisioning with a shell script. Additional provisioners such as
+  # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
+  # documentation for more information about their specific syntax and use.
+  # config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get update
+  #   apt-get install -y apache2
+  # SHELL
+
+  config.vm.provision "shell", inline: <<-SHELL
+      yum install -y mc vim 
+      yum install -y cifs-utils
+      yum install -y epel-release
+      yum install -y initscripts
+      yum localinstall -y /mnt/host/game/tools/bigworld/server/rpm/binary_rpms/bigworld-bwmachined-14.4.1.el7.x86_64.rpm \
+                          /mnt/host/game/tools/bigworld/server/rpm/binary_rpms/bigworld-tools-14.4.1.el7.x86_64.rpm \
+                          /mnt/host/game/tools/bigworld/server/rpm/binary_rpms/bigworld-server-14.4.1.el7.x86_64.rpm
+      yum install -y mariadb-devel
+	  systemctl enable mariadb
+      systemctl start mariadb
+  SHELL
+end
+

@@ -1,0 +1,13 @@
+<root>
+	<ClientServerEntities>
+		<Avatar/>
+		<TestEntity/>
+		<PersistentEntity/>
+	</ClientServerEntities>
+	
+	<ServerOnlyEntities>
+		<Space/>
+		<Simple/>
+		<WithIdentifier/>
+	</ServerOnlyEntities>
+</root>

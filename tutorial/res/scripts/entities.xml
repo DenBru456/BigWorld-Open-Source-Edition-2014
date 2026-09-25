@@ -1,0 +1,14 @@
+<root>
+	<ClientServerEntities>
+		<Avatar/>		
+		<!-- {+BASIC_NPC -->
+		<Greeter/>
+		<!-- +BASIC_NPC} -->
+	</ClientServerEntities>
+
+	<ServerOnlyEntities>
+		<!-- {+CLIENT_SERVER -->
+		<Space/>
+		<!-- +CLIENT_SERVER} -->
+	</ServerOnlyEntities>
+</root>

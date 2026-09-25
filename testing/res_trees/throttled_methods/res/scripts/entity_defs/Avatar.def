@@ -1,0 +1,42 @@
+<root>
+
+	<Implements>
+		<Interface> ThrottledMethods </Interface>
+	</Implements>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<setFriendStatus>
+			<Args>
+				<index>			FRIENDIDX		</index>
+				<isOnline>		BOOL			</isOnline>
+			</Args>
+		</setFriendStatus>
+
+
+	</ClientMethods>
+
+	<CellMethods>
+		<testThrottlingOwnClient>
+			<Exposed> OWN_CLIENT </Exposed>
+		</testThrottlingOwnClient>
+
+		<testThrottlingAllClients>
+			<Exposed> ALL_CLIENTS </Exposed>
+		</testThrottlingAllClients>
+	</CellMethods>
+
+	<BaseMethods>
+		<testThrottlingBase>
+			<Exposed/>
+		</testThrottlingBase>
+	</BaseMethods>
+
+</root>

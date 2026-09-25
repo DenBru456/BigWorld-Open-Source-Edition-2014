@@ -1,0 +1,85 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	225.660629 29.353392 75.951019	</min>
+		<max>	273.660614 59.353390 123.951019	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	225.660614	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	39.353390 102.951035 0.000031	</point>
+			<point>	45.353394 102.951035 0.000031	</point>
+			<point>	45.353394 96.951042 0.000031	</point>
+			<point>	39.353390 96.951042 0.000031	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 -0.000000 -0.000000	</normal>
+		<d>	-273.660583	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	39.353390 -96.951042 -0.000061	</point>
+			<point>	45.353394 -96.951042 -0.000061	</point>
+			<point>	45.353394 -102.951035 -0.000061	</point>
+			<point>	39.353390 -102.951035 -0.000061	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	29.353390	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 -0.000000	</normal>
+		<d>	-59.353386	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	75.951012	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	254.660645 51.353394 0.000008	</point>
+			<point>	260.660614 51.353394 0.000008	</point>
+			<point>	260.660614 45.353390 0.000008	</point>
+			<point>	254.660645 45.353390 0.000008	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.000000 -1.000000	</normal>
+		<d>	-123.951012	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	238.660614 -45.353386 -0.000008	</point>
+			<point>	244.660614 -45.353386 -0.000008	</point>
+			<point>	244.660614 -51.353386 -0.000008	</point>
+			<point>	238.660614 -51.353386 -0.000008	</point>
+		</portal>
+	</boundary>
+	<customHull>	false	</customHull>
+</root>

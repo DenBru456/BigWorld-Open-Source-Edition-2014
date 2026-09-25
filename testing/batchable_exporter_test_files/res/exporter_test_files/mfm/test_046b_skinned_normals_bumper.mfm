@@ -1,0 +1,27 @@
+<test_046b_skinned_normals_bumper.mfm>
+	<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+	<property>	diffuseMap
+		<Texture>	exporter_test_files/maps/diffuse_grey.bmp	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+	</property>
+	<property>	specularMap
+		<Texture>	exporter_test_files/maps/col_white.bmp	</Texture>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<property>	selfIllumination
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	alphaReference
+		<Int>	0	</Int>
+	</property>
+	<property>	texAddressMode
+		<Int>	1	</Int>
+	</property>
+</test_046b_skinned_normals_bumper.mfm>

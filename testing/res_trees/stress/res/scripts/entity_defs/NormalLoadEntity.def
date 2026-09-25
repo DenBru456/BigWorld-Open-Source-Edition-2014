@@ -1,0 +1,43 @@
+<root>
+	<Volatile>
+		<position/>
+	</Volatile>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<spaceBounds>
+			<Type> FIXED_DICT
+				<Properties>
+					<minX>
+						<Type>	FLOAT	</Type>
+					</minX>
+					<minY>
+						<Type>	FLOAT	</Type>
+					</minY>
+					<maxX>
+						<Type>	FLOAT	</Type>
+					</maxX>
+					<maxY>
+						<Type>	FLOAT	</Type>
+					</maxY>
+				</Properties>
+			</Type>
+			<Flags> CELL_PRIVATE </Flags>
+		</spaceBounds>
+		<moveVelocity>
+			<Type>	INT16	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</moveVelocity>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

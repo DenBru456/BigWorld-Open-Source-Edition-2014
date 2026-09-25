@@ -1,0 +1,82 @@
+<root>
+	<client>
+		<type file="game/bin/client/win32/bwclient_h.exe"/>
+		<type file="game/bin/client/win32/bwclient_d.exe"/>
+		<type file="game/bin/client/win32/bwclient_h.pdb"/>
+		<type file="game/bin/client/win32/bwclient_d.pdb"/>
+		<type file="game/bin/client/win32/bwclient.exe"/>
+		<type file="game/bin/client/win32/*.dll"/>
+		<type file="game/bin/client/win32/*_d.dll"/>
+		<type file="game/res/bigworld/scripts/common/Lib"/>
+		<type file="game/bin/tools/res_packer/win64/res_packer.exe"/>
+		<type file="game/bin/tools/res_packer/win64/res_packer.pdb"/>
+		<type file="game/bin/tools/res_packer/win64/res_packer_d.exe"/>
+		<type file="game/bin/tools/res_packer/win64/res_packer_d.pdb"/>
+	</client>
+	<tools>
+		<type file="game/bin/tools/worldeditor/win64/worldeditor.exe"/>
+		<type file="game/bin/tools/worldeditor/win64/worldeditor.pdb"/>
+		<type file="game/bin/tools/worldeditor/win64/worldeditor_d.exe"/>
+		<type file="game/bin/tools/worldeditor/win64/worldeditor_d.pdb"/>
+		<type file="game/bin/tools/worldeditor/win64/*.dll"/>
+		<type file="game/bin/tools/worldeditor/win64/*_d.dll"/>
+		<type file="game/bin/tools/particleeditor/win64/particleeditor.exe"/>
+		<type file="game/bin/tools/particleeditor/win64/particleeditor.pdb"/>
+		<type file="game/bin/tools/particleeditor/win64/particleeditor_d.exe"/>
+		<type file="game/bin/tools/particleeditor/win64/particleeditor_d.pdb"/>
+		<type file="game/bin/tools/particleeditor/win64/*.dll"/>
+		<type file="game/bin/tools/particleeditor/win64/*_d.dll"/>		
+		<type file="game/bin/tools/modeleditor/win64/modeleditor.exe"/>
+		<type file="game/bin/tools/modeleditor/win64/modeleditor.pdb"/>	
+		<type file="game/bin/tools/modeleditor/win64/modeleditor_d.exe"/>
+		<type file="game/bin/tools/modeleditor/win64/modeleditor_d.pdb"/>
+		<type file="game/bin/tools/modeleditor/win64/*.dll"/>
+		<type file="game/bin/tools/modeleditor/win64/*_d.dll"/>
+		<type file="game/bin/tools/navgen/win64/navgen.exe"/>
+		<type file="game/bin/tools/navgen/win64/navgen.pdb"/>
+		<type file="game/bin/tools/navgen/win64/navgen_d.exe"/>
+		<type file="game/bin/tools/navgen/win64/navgen_d.pdb"/>
+		<type file="game/bin/tools/navgen/win64/*.dll"/>
+		<type file="game/bin/tools/navgen/win64/*_d.dll"/>
+		<type file="game/bin/tools/asset_pipeline/win64/jit_compiler.exe"/>
+		<type file="game/bin/tools/asset_pipeline/win64/jit_compiler.pdb"/>
+		<type file="game/bin/tools/asset_pipeline/win64/jit_compiler_d.exe"/>
+		<type file="game/bin/tools/asset_pipeline/win64/jit_compiler_d.pdb"/>
+		<type file="game/bin/tools/asset_pipeline/win64/batch_compiler.exe"/>
+		<type file="game/bin/tools/asset_pipeline/win64/batch_compiler.pdb"/>
+		<type file="game/bin/tools/asset_pipeline/win64/batch_compiler_d.exe"/>
+		<type file="game/bin/tools/asset_pipeline/win64/batch_compiler_d.pdb"/>
+		<type file="game/bin/tools/asset_pipeline/win64/*.dll"/>
+		<type file="game/bin/tools/asset_pipeline/win64/*_d.dll"/>
+		<type file="game/bin/tools/exporter/3dsmax2010/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2010/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2010x64/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2010x64/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2011/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2011/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2011x64/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2011x64/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2012/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2012/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2012x64/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2012x64/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2013/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2013/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2013x64/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2013x64/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2014x64/animationexporter.dle"/>
+		<type file="game/bin/tools/exporter/3dsmax2014x64/visualexporter.dle"/>
+		<type file="game/bin/tools/exporter/maya2010/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2010x64/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2011/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2011x64/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2012/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2012x64/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2013/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2013x64/visual.mll"/>
+		<type file="game/bin/tools/exporter/maya2014x64/visual.mll"/>
+		<type file="game/res/bigworld/scripts/common/Lib"/>
+	</tools>
+	<keep>
+	</keep>
+</root>

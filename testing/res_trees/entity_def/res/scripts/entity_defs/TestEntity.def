@@ -1,0 +1,876 @@
+<root>
+	<Implements>
+		<Interface> ParentInterface </Interface>
+	</Implements>
+	<LoDLevels>
+    	<level>       20  <label>   NEAR    </label></level>
+    	<level>       100 <label>   MEDIUM  </label></level>
+    	<level>       250 <label>   FAR     </label></level>
+	</LoDLevels>
+	<Properties>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</name>
+
+		<int8>
+			<Type>			INT8				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int8>
+
+		<uint8>
+			<Type>			UINT8				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint8>
+
+		<int16>
+			<Type>			INT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int16>
+
+		<uint16>
+			<Type>			UINT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint16>
+
+		<int32>
+			<Type>			INT32			</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int32>
+
+		<uint32>
+			<Type>			UINT32				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint32>
+
+		<int64>
+			<Type>			INT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int64>
+
+		<uint64>
+			<Type>			UINT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint64>
+
+		<float>
+			<Type>			FLOAT				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float>
+
+		<float32>
+			<Type>			FLOAT32				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float32>
+
+		<float64>
+			<Type>			FLOAT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float64>
+
+		<strVarCharLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 1				</DatabaseLength>
+		</strVarCharLowerBound>
+
+		<strVarCharUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 255			</DatabaseLength>
+		</strVarCharUpperBound>
+
+		<strTextLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 256			</DatabaseLength>
+		</strTextLowerBound>
+
+		<strTextUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65535			</DatabaseLength>
+		</strTextUpperBound>
+
+		<strMediumTextLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65536			</DatabaseLength>
+		</strMediumTextLowerBound>
+
+		<strMediumTextUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 16777214		</DatabaseLength>
+		</strMediumTextUpperBound>
+
+		<unicodeString>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</unicodeString>
+
+		<blobTinyLowerBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 1				</DatabaseLength>
+		</blobTinyLowerBound>
+
+		<blobTinyUpperBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 255			</DatabaseLength>
+		</blobTinyUpperBound>
+
+		<blobLowerBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 256			</DatabaseLength>
+		</blobLowerBound>
+
+		<blobUpperBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65535			</DatabaseLength>
+		</blobUpperBound>
+
+		<blobMediumLowerBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65536			</DatabaseLength>
+		</blobMediumLowerBound>
+
+		<blobMediumUpperBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 16777214		</DatabaseLength>
+		</blobMediumUpperBound>
+
+		<pyTinyBlob>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+			<DatabaseLength> 40				</DatabaseLength>
+		</pyTinyBlob>
+
+		<pyBlob>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+			<DatabaseLength> 256			</DatabaseLength>
+		</pyBlob>
+
+		<pyMediumBlob>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+			<DatabaseLength> 65536			</DatabaseLength>
+		</pyMediumBlob>
+
+		<nestedArray>
+			<Type>			ARRAY <of> NestedArray </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Default>		[]						</Default>
+			<Persistent>	true					</Persistent>
+		</nestedArray>
+
+		<nestedArraySingle>
+			<Type>			NestedArray				</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>			
+		</nestedArraySingle>
+
+		<array>
+			<Type>			ARRAY <of> INT32 </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</array>
+
+		<vector2>
+			<Type>			VECTOR2					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</vector2>
+
+		<vector3>
+			<Type>			VECTOR3					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</vector3>
+
+		<vector4>
+			<Type>			VECTOR4					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</vector4>
+
+		<tuple>
+			<Type>			TUPLE <of> INT32 </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</tuple>
+
+		<python>
+			<Type>			PYTHON					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</python>
+
+		<cellArray>
+			<Type>			ARRAY <of> INT32 </of>	</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Persistent>	true					</Persistent>
+		</cellArray>
+
+		<fixedDict>
+			<Type> TEST_FIXED_DICT </Type>
+			<Flags> BASE </Flags>
+			<Persistent> True </Persistent>
+		</fixedDict>
+
+		<userType>
+			<Type> TEST_USER_TYPE </Type>
+			<Flags> BASE </Flags>
+			<Persistent> True </Persistent>
+		</userType>
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</name>
+
+		<int8>
+			<Type>			INT8				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int8>
+
+		<uint8>
+			<Type>			UINT8				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint8>
+
+		<int16>
+			<Type>			INT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int16>
+
+		<uint16>
+			<Type>			UINT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint16>
+
+		<int32>
+			<Type>			INT32			</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int32>
+
+		<uint32>
+			<Type>			UINT32				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint32>
+
+		<int64>
+			<Type>			INT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int64>
+
+		<uint64>
+			<Type>			UINT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint64>
+
+		<float>
+			<Type>			FLOAT				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float>
+
+		<float32>
+			<Type>			FLOAT32				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float32>
+
+		<float64>
+			<Type>			FLOAT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float64>
+
+		<strVarCharLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 1				</DatabaseLength>
+		</strVarCharLowerBound>
+
+		<strVarCharUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 255			</DatabaseLength>
+		</strVarCharUpperBound>
+
+		<strTextLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 256			</DatabaseLength>
+		</strTextLowerBound>
+
+		<strTextUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65535			</DatabaseLength>
+		</strTextUpperBound>
+
+		<strMediumTextLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65536			</DatabaseLength>
+		</strMediumTextLowerBound>
+
+		<strMediumTextUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 16777214		</DatabaseLength>
+		</strMediumTextUpperBound>
+
+		<unicodeString>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</unicodeString>
+
+		<blobTinyLowerBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 1				</DatabaseLength>
+		</blobTinyLowerBound>
+
+		<blobTinyUpperBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 255			</DatabaseLength>
+		</blobTinyUpperBound>
+
+		<blobLowerBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 256			</DatabaseLength>
+		</blobLowerBound>
+
+		<blobUpperBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65535			</DatabaseLength>
+		</blobUpperBound>
+
+		<blobMediumLowerBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65536			</DatabaseLength>
+		</blobMediumLowerBound>
+
+		<blobMediumUpperBound>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 16777214		</DatabaseLength>
+		</blobMediumUpperBound>
+
+		<pyTinyBlob>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+			<DatabaseLength> 40				</DatabaseLength>
+		</pyTinyBlob>
+
+		<pyBlob>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+			<DatabaseLength> 256			</DatabaseLength>
+		</pyBlob>
+
+		<pyMediumBlob>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+			<DatabaseLength> 65536			</DatabaseLength>
+		</pyMediumBlob>
+
+		<nestedArray>
+			<Type>			ARRAY <of> NestedArray </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Default>		[]						</Default>
+			<Persistent>	true					</Persistent>
+		</nestedArray>
+
+		<nestedArraySingle>
+			<Type>			NestedArray				</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>			
+		</nestedArraySingle>
+
+		<array>
+			<Type>			ARRAY <of> INT32 </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</array>
+
+		<vector2>
+			<Type>			VECTOR2					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</vector2>
+
+		<vector3>
+			<Type>			VECTOR3					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</vector3>
+
+		<vector4>
+			<Type>			VECTOR4					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</vector4>
+
+		<tuple>
+			<Type>			TUPLE <of> INT32 </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</tuple>
+
+		<python>
+			<Type>			PYTHON					</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</python>
+
+		<cellArray>
+			<Type>			ARRAY <of> INT32 </of>	</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Persistent>	true					</Persistent>
+		</cellArray>
+
+		<fixedDict>
+			<Type> TEST_FIXED_DICT </Type>
+			<Flags> BASE </Flags>
+			<Persistent> True </Persistent>
+		</fixedDict>
+
+		<userType>
+			<Type> TEST_USER_TYPE </Type>
+			<Flags> BASE </Flags>
+			<Persistent> True </Persistent>
+		</userType>
+		
+				<tp_FLOAT32>
+			<Type>		FLOAT32			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_FLOAT32>
+
+		<tp_FLOAT64>
+			<Type>		FLOAT64			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_FLOAT64>
+		
+		<tp_INT8>
+			<Type>		INT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_INT8>
+
+		<tp_INT16>
+			<Type>		INT16			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_INT16>
+
+		<tp_INT32>
+			<Type>		INT32			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_INT32>
+
+		<tp_INT64>
+			<Type>		INT64			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_INT64>
+
+		<tp_UINT8>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_UINT8>
+
+		<tp_UINT16>
+			<Type>		UINT16			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_UINT16>
+
+		<tp_UINT32>
+			<Type>		UINT32			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_UINT32>
+
+		<tp_UINT64>
+			<Type>		UINT64			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_UINT64>
+
+		<tp_STRING>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_STRING>
+
+		<tp_UNICODE_STRING>
+			<Type>		UNICODE_STRING	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_UNICODE_STRING>
+		
+		<tp_VECTOR2>
+			<Type>		VECTOR2			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_VECTOR2>
+		
+		<tp_VECTOR3>
+			<Type>		VECTOR3			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_VECTOR3>
+
+		<tp_VECTOR4>
+			<Type>		VECTOR4			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_VECTOR4>
+
+		<tp_ARRAY>
+			<Type>	ARRAY <of> INT32 </of>	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_ARRAY>
+
+		<tp_ARRAY_INT32>
+			<Type>		TP_ARRAY_INT32	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_ARRAY_INT32>
+
+		<tp_ARRAY_INT32_WITH_DEFAULT>
+			<Type>		TP_ARRAY_INT32_WITH_DEFAULT	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_ARRAY_INT32_WITH_DEFAULT>
+
+		<tp_PYTHON>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</tp_PYTHON>
+
+		<tp_FIXED_DICT_NO_NONE>
+			<Type>		TP_FIXED_DICT_NO_NONE		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_FIXED_DICT_NO_NONE>
+
+		<tp_FIXED_DICT_ALLOW_NONE>
+			<Type>		TP_FIXED_DICT_ALLOW_NONE		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_FIXED_DICT_ALLOW_NONE>
+
+		<tp_USER_TYPE>
+			<Type>		TP_USER_TYPE	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_USER_TYPE>
+
+		<tp_BLOB>
+			<Type>		BLOB			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tp_BLOB>
+
+
+		<tpd_FLOAT32>
+			<Type>		FLOAT32			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	1.5				</Default>
+		</tpd_FLOAT32>
+
+		<tpd_FLOAT64>
+			<Type>		FLOAT64			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	1.23456789		</Default>
+		</tpd_FLOAT64>
+		
+		<tpd_INT8>
+			<Type>		INT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	-8				</Default>
+		</tpd_INT8>
+
+		<tpd_INT16>
+			<Type>		INT16			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	-16				</Default>
+		</tpd_INT16>
+
+		<tpd_INT32>
+			<Type>		INT32			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	-32				</Default>
+		</tpd_INT32>
+
+		<tpd_INT64>
+			<Type>		INT64			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	-64				</Default>
+		</tpd_INT64>
+
+		<tpd_UINT8>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	8				</Default>
+		</tpd_UINT8>
+
+		<tpd_UINT16>
+			<Type>		UINT16			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	16				</Default>
+		</tpd_UINT16>
+
+		<tpd_UINT32>
+			<Type>		UINT32			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	32				</Default>
+		</tpd_UINT32>
+
+		<tpd_UINT64>
+			<Type>		UINT64			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	64				</Default>
+		</tpd_UINT64>
+
+		<tpd_STRING>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	STRING		</Default>
+		</tpd_STRING>
+
+		<tpd_UNICODE_STRING>
+			<Type>		UNICODE_STRING	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	UNICODE_STRING	</Default>
+		</tpd_UNICODE_STRING>
+		
+		<tpd_VECTOR2>
+			<Type>		VECTOR2			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default> 0.1 -0.2 </Default>
+		</tpd_VECTOR2>
+		
+		<tpd_VECTOR3>
+			<Type>		VECTOR3			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default> 0.1 -0.2 0.3 </Default>
+		</tpd_VECTOR3>
+
+		<tpd_VECTOR4>
+			<Type>		VECTOR4			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default> 0.1 -0.2 0.3 -0.4 </Default>
+		</tpd_VECTOR4>
+
+		<tpd_ARRAY>
+			<Type>	ARRAY <of> INT32 </of>	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default> 
+				<item> 1 </item> 
+				<item> 2 </item> 
+				<item> 3 </item> 
+			</Default>
+		</tpd_ARRAY>
+
+		<tpd_ARRAY_INT32>
+			<Type>		TP_ARRAY_INT32	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default> 
+				<item> 4 </item> 
+				<item> 5 </item> 
+				<item> 6 </item> 
+			</Default>
+		</tpd_ARRAY_INT32>
+
+		<tpd_ARRAY_INT32_WITH_DEFAULT>
+			<Type>		TP_ARRAY_INT32_WITH_DEFAULT	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default> 
+				<item> 7 </item> 
+				<item> 8 </item> 
+				<item> 9 </item> 
+			</Default>
+		</tpd_ARRAY_INT32_WITH_DEFAULT>
+
+		<tpd_PYTHON>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Default>
+				{ "a": 90, "b": 77 }
+			</Default>
+		</tpd_PYTHON>
+
+		<tpd_FIXED_DICT_NO_NONE>
+			<Type>		TP_FIXED_DICT_NO_NONE		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>
+				<a> 7 </a>
+				<b> bbb </b>
+			</Default>
+		</tpd_FIXED_DICT_NO_NONE>
+
+		<tpd_FIXED_DICT_ALLOW_NONE>
+			<Type>		TP_FIXED_DICT_ALLOW_NONE		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>
+				<a> 8 </a>
+				<b> ccc </b>
+			</Default>
+		</tpd_FIXED_DICT_ALLOW_NONE>
+
+		<tpd_USER_TYPE>
+			<Type>		TP_USER_TYPE	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>
+				<a> 33 </a>
+				<b> TestTypeMod </b>
+				<c>
+					<item> 4. </item> 
+					<item> 5. </item> 
+					<item> 6. </item> 
+				</c>
+			</Default>
+		</tpd_USER_TYPE>
+		
+		<tpd_BLOB>
+			<Type>		BLOB			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default> SGVsbG8gV29ybGQhB </Default>
+		</tpd_BLOB>
+
+		<tpp_FIXED_DICT_NO_NONE>
+			<Type>		TP_FIXED_DICT_NO_NONE		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>
+				<a> 77 </a>
+				<b> ddd </b>
+			</Default>
+		</tpp_FIXED_DICT_NO_NONE>
+
+		<tpp_FIXED_DICT_ALLOW_NONE>
+			<Type>		TP_FIXED_DICT_ALLOW_NONE		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tpp_FIXED_DICT_ALLOW_NONE>
+		
+		<tpp_Nested>
+			<Type> TP_ARRAY_OF_FIXED_DICT </Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tpp_Nested>
+
+		<tpp_WRAPPED_FIXED_DICT_NO_DESC>
+			<Type>		TP_WRAPPED_FIXED_DICT_NO_DESC	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tpp_WRAPPED_FIXED_DICT_NO_DESC>
+
+		<tpp_WRAPPED_FIXED_DICT_WITH_DESC>
+			<Type>		TP_WRAPPED_FIXED_DICT_WITH_DESC	</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</tpp_WRAPPED_FIXED_DICT_WITH_DESC>
+		
+		<lodTestProp>
+        	<Type>        INT32           </Type>
+        	<Flags>       OTHER_CLIENTS   </Flags>
+        	<Default> 50              </Default>
+        	<DetailLevel> MEDIUM           </DetailLevel>
+    	</lodTestProp>
+	</Properties>
+
+	<ClientMethods>
+    <chat>
+        <Arg> STRING  </Arg>
+    </chat>
+    <chatLOD> 
+        <Arg> STRING  </Arg>
+        <DetailDistance>  100.0   </DetailDistance>
+    </chatLOD>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

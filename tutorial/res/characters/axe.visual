@@ -1,0 +1,50 @@
+<exporter_003_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_right_hand	</identifier>
+			<transform>
+				<row0>	-0.056134 -0.576828 -0.814934	</row0>
+				<row1>	-0.042332 -0.814112 0.579162	</row1>
+				<row2>	-0.997525 0.067009 0.021281	</row2>
+				<row3>	-0.002579 0.478205 0.241084	</row3>
+			</transform>
+			<node>
+				<identifier>	axe01	</identifier>
+				<transform>
+					<row0>	-0.056134 -0.042332 -0.997526	</row0>
+					<row1>	-0.027483 -0.998657 0.043927	</row1>
+					<row2>	-0.998045 0.029880 0.054895	</row2>
+					<row3>	-0.043704 0.018377 -0.028974	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Shoulders	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	characters/barbarian_armour_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.019460 -0.031130 -0.238236	</min>
+		<max>	0.060197 0.675022 0.542693	</max>
+	</boundingBox>
+</exporter_003_temp.visual>

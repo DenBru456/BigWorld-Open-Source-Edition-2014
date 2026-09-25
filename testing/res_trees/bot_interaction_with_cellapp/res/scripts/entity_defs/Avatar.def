@@ -1,0 +1,33 @@
+<root>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Properties>
+		<botTalked>
+			<Type>INT32</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent> True </Persistent>
+		</botTalked>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<talkToOthers>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<who>INT32</who>
+			</Args>
+		</talkToOthers>
+		<talk>
+		</talk>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>

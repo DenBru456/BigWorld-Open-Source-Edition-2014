@@ -1,0 +1,155 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_muzzle	</identifier>
+				<transform>
+					<row0>	-0.005377 -0.999985 0.000000	</row0>
+					<row1>	0.999985 -0.005377 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	6.154685 1.334411 -0.040555	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_scope	</identifier>
+				<transform>
+					<row0>	0.028356 -0.999598 0.000000	</row0>
+					<row1>	0.999598 0.028356 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.445603 3.699521 -0.040555	</row3>
+				</transform>
+				<node>
+					<identifier>	Cone01	</identifier>
+					<transform>
+						<row0>	-0.008811 0.999961 0.000000	</row0>
+						<row1>	-0.999961 -0.008811 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.463104 2.345171 -0.027151	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	HP_rthand	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-1.958145 0.465442 -0.040555	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Sphere01	</identifier>
+				<transform>
+					<row0>	0.999541 -0.030287 0.000000	</row0>
+					<row1>	0.030287 0.999541 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	6.911142 1.403301 0.010573	</row3>
+				</transform>
+				<node>
+					<identifier>	Sphere02	</identifier>
+					<transform>
+						<row0>	0.999754 0.022200 0.000000	</row0>
+						<row1>	-0.022200 0.999754 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	1.803488 0.000000 0.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_moving	</identifier>
+					<transform>
+						<row0>	0.999754 0.022200 0.000000	</row0>
+						<row1>	-0.022200 0.999754 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	3.737111 0.058591 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Sphere02	</node>
+		<geometry>
+			<vertices>	Sphere02.vertices	</vertices>
+			<primitive>	Sphere02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Sphere01	</node>
+		<geometry>
+			<vertices>	Sphere01.vertices	</vertices>
+			<primitive>	Sphere01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cone01	</node>
+		<geometry>
+			<vertices>	Cone01.vertices	</vertices>
+			<primitive>	Cone01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box01	</node>
+		<geometry>
+			<vertices>	Box01.vertices	</vertices>
+			<primitive>	Box01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.270000 0.000000 -1.270000	</min>
+		<max>	9.447550 4.151073 1.270000	</max>
+	</boundingBox>
+</root>

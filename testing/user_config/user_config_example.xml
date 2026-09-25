@@ -1,0 +1,39 @@
+<!-- 
+	This is an template of a user configuration file.
+	Copy this file with the name 'user_config.xml'
+	and modify required settings.
+-->
+<root>
+    <!-- Settings to run the cluster -->
+	<cluster>
+	    <!-- Username to run the cluster.
+	    	if not specified, defaults to current Linux user. -->
+	    <user> user_to_run_cluster </user>
+	    
+		<!-- List of machines that can be used in tests -->
+	    <machines>
+			<machine> machine01 </machine>
+			<machine> machine02 </machine>
+		</machines>
+		<!-- If you're base machine is not very powerful, enable these machines
+			for load testing.
+		<loadmachines>
+			<machine> loadmachine01 </machine>
+			<machine> loadmachine02 </machine>
+		</loadmachines>
+		-->
+		<!-- Enable this setting if you want to run the tests as a different user
+		<dosudocommands/>
+		-->
+	</cluster>
+
+	<webConsoleAPI>
+		<user> user_to_run_cluster </user>   <!-- User and password to connect to WebConsole -->	
+		<pass> password </pass>
+		<wchost> toolbox </wchost> <!-- WebConsole host and port -->
+		<wcport> 8080 </wcport>
+		<space> 2 </space>		   <!-- Used to test space functionality: must exist -->
+	</webConsoleAPI>
+	
+	<windowsMount> path_to_windows_mount </windowsMount>
+</root>

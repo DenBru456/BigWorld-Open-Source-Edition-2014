@@ -1,0 +1,33 @@
+<root>
+	<terrain>
+		<resource>	00000000o.cdata/terrain2	</resource>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	C4DCD1FB.4D645A85.FA1858B6.706E30ED	</guid>
+		<type>	Greeter	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	2.265825 0.000000 14.081255	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00000000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

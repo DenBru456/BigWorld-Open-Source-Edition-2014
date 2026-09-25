@@ -1,0 +1,54 @@
+<space.settings>
+	<timeOfDay>	system/data/sky.xml	</timeOfDay>
+	<skyGradientDome>	system/data/sky.xml	</skyGradientDome>
+	<bounds>
+		<minX>	-2	</minX>
+		<maxX>	1	</maxX>
+		<minY>	-2	</minY>
+		<maxY>	1	</maxY>
+	</bounds>
+	<navmeshGenerator>	navgen	</navmeshGenerator>
+	<skyDomePartition>	0	</skyDomePartition>
+	<farPlane>	1000.000000	</farPlane>
+	<terrain>
+		<version>	200	</version>
+		<lodMapSize>	128	</lodMapSize>
+		<aoMapSize>	16	</aoMapSize>
+		<heightMapSize>	32	</heightMapSize>
+		<normalMapSize>	32	</normalMapSize>
+		<holeMapSize>	25	</holeMapSize>
+		<shadowMapSize>	32	</shadowMapSize>
+		<blendMapSize>	25	</blendMapSize>
+		<lodInfo>
+			<startBias>	0.800000	</startBias>
+			<endBias>	0.990000	</endBias>
+			<lodTextureStart>	200.000000	</lodTextureStart>
+			<lodTextureDistance>	100.000000	</lodTextureDistance>
+			<blendPreloadDistance>	100.000000	</blendPreloadDistance>
+			<bumpFadingStart>	50.000000	</bumpFadingStart>
+			<bumpFadingDistance>	50.000000	</bumpFadingDistance>
+			<lodNormalStart>	300.000000	</lodNormalStart>
+			<lodNormalDistance>	100.000000	</lodNormalDistance>
+			<normalPreloadDistance>	100.000000	</normalPreloadDistance>
+			<detailHeightMapDistance>	500.000000	</detailHeightMapDistance>
+			<lodDistances>
+				<distance0>	25.000000	</distance0>
+				<distance1>	120.000000	</distance1>
+				<distance2>	250.000000	</distance2>
+				<distance3>	700.000000	</distance3>
+			</lodDistances>
+			<server>
+				<heightMapLod>	0	</heightMapLod>
+			</server>
+		</lodInfo>
+		<soundOcclusion>
+			<directOcclusion>	0.000000	</directOcclusion>
+			<reverbOcclusion>	0.000000	</reverbOcclusion>
+		</soundOcclusion>
+	</terrain>
+	<floraWindFactor>	0.500000	</floraWindFactor>
+	<decals>
+		<fadeStart>	100.000000	</fadeStart>
+		<fadeEnd>	120.000000	</fadeEnd>
+	</decals>
+</space.settings>

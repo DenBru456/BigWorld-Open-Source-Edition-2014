@@ -1,0 +1,164 @@
+<engine_config.xml>
+<!-- This file contains a variety of options to control and
+customise the behaviour of the BigWorld Client Engine. -->
+
+	<renderer>
+	<!-- The render options are used by client engine to detail how
+	the application is to start up. -->
+    
+    <cacheEffects> false	</cacheEffects>
+		<!-- Effects can be optionally cached at startup. This
+		reduces the need for ongoing loading. If false, the client
+    will start up much quicker, but effects will be loaded and
+    perhaps compiled at runtime on demand, causing pauses in
+    the frame-rate. -->
+
+		<gammaCorrectionOutside> 1.0	</gammaCorrectionOutside>
+		<gammaCorrectionInside>  1.0	</gammaCorrectionInside>
+		<gammaCorrectionSpeed>   0.2	</gammaCorrectionSpeed>
+		<!-- Changes the brightness of indoor and outdoor
+		environments & the rate of change between them -->
+
+		<!--	<gammaCorrection>   1.0	</gammaCorrection> -->
+		<!-- A default gamma correction can be specified if
+		distinct indoor and outdoor correction are not required. -->
+
+		<tripleBuffering>	true	</tripleBuffering>
+		<maxFrameRate>		75	</maxFrameRate>
+		<!-- Maximum frame rate can be limited to allow other processes
+		some CPU time. In the fantasydemo example, this is used to provide 
+		more time to the loading of terrain chunks. -->
+	</renderer>
+
+	<animation>
+		<streamCacheSizeKB> 2048 </streamCacheSizeKB>
+		<!-- The size the animation cache will grow too before it                   
+		starts evicting data. (KByts) -->
+	</animation>
+
+	<inputDevices>
+		<exclusive> true	</exclusive>
+		<!-- Used by BigWorld to determine whether the input system
+		uses DirectX exclusive mode or not. -->
+
+	</inputDevices>
+
+	<accessMonitor> false	</accessMonitor>
+	<!-- If true, records access to resource files.  Can be used
+	to build a list of files required for a distribution. -->
+	
+	<alertsEnabled> false	</alertsEnabled>
+	<!-- Logs events in the game, eg, when primitive count or
+	texture memory is over a threshold level, etc. -->
+
+	<!--	<breakOnCritical> false	</breakOnCritical> -->
+	<!-- Displays a dialog box to optionally enter the debugger if
+	a critical error occurs. -->
+
+	<entities>
+		<disablePreloads> false	</disablePreloads>
+		<!-- Models can be optionally pre-loaded into the game.  This
+		reduces the need for ongoing loading. If false, a small preload
+		function must be provided for every entity module that is to be
+		loaded before the game begins.  If true, then preloading is
+		disabled. -->
+
+		<enforcePreloads> false	</enforcePreloads>
+		<!-- If this is true then no models will be loaded after the
+		preloading phase.  They will not exist in the game.  All
+		required entities must have the aforementioned preload
+		function implemented. -->
+
+		<entityCollision> true	</entityCollision>
+		<!-- Enables/Disables collision detection. -->
+
+		<particlesActive>	true	</particlesActive>
+		<!-- Activates/Deactives the BigWorld Particle System  -->
+
+		<movementThreshold> 0.25	</movementThreshold>
+		<!-- If the players movement is less than this value, the Physics
+		Engine assumes player has stopped.  This saves unnecessary
+		processing for very slow moving objects.  The server updates will
+		compensate for change in position over time. -->
+
+	</entities>
+
+	<ui>
+	<!-- User interface settings. eg: GUI information,
+	movement/camera related settings, etc... -->
+	
+		<alertTexture>	system/maps/icon_tex_frame.bmp	</alertTexture>
+		<alertTexture>	system/maps/icon_poly.bmp	</alertTexture>
+		<alertTexture>	system/maps/icon_tex_total.bmp	</alertTexture>
+		<alertTexture>	system/maps/icon_anim.bmp	</alertTexture>
+		<alertTexture>	system/maps/icon_mesh.bmp	</alertTexture>
+		<alertTexture>	system/maps/icon_framerate_warning.bmp	</alertTexture>
+		
+		<straferate>	5.0		</straferate>
+
+		<loadingText> 151 231 233	</loadingText>
+		<!-- Colour of the loading text progress info -->
+		
+	</ui>
+
+	<camera>
+		<lookTable>				0.00	0.00		</lookTable>
+		<lookTable>				0.10	0.05		</lookTable>
+		<lookTable>				0.30	0.10		</lookTable>
+		<lookTable>				0.50	0.15		</lookTable>
+		<lookTable>				0.70	0.30		</lookTable>
+		<lookTable>				0.90	1.00		</lookTable>
+		<lookAxisMin>				0.10			</lookAxisMin>
+		<lookAxisMax>				0.91			</lookAxisMax>
+		<cameraYawSpeed>			90				</cameraYawSpeed>
+		<cameraPitchSpeed>			60				</cameraPitchSpeed>
+		<accelerateStart>			0.00			</accelerateStart>
+		<accelerateRate>			2.00			</accelerateRate>
+		<accelerateEnd>				1.00			</accelerateEnd>
+	</camera>
+
+	<directionCursor>
+		<!-- The direction cursor aims the player based upon user input, 
+		providing lifelike movement to the character. It is also used by 
+		the attached cursor camera to provide the correct viewing direction. 
+		See BigWorld Python Interface Documentation for possible values.
+		-->
+	
+		<invertVerticalMovement> false </invertVerticalMovement>
+		<!-- vertical mouse movement is inverted? -->
+		
+		<mouseSensitivity> 0.005 </mouseSensitivity>
+		<!-- Determines how sensitive the direction cursor is to mouse
+		movement,  ie, how quickly the mouse movement affects the
+		direction cursor. -->
+		
+		<mouseHVBias> 0.667 </mouseHVBias>
+		<!-- Specifies the degree to which the vertical mouse movement
+		is greater than the horizontal. Numbers greater than 1 make
+		vertical more sensitive, less than one makes favours the
+		horizontal. -->
+
+		<maxPitch>  50.0 </maxPitch>
+		<minPitch> -65.0 </minPitch>
+		<!-- Limits on the pitch of the direction cursor -->
+		
+		<yaw> 0.000 </yaw>	<!-- Initial yaw of the direction cursor. -->
+		<pitch> 0.000 </pitch> <!-- Initial pitch of the direction cursor. -->
+		
+		<lookSpring> false </lookSpring>
+		<lookSpringRate> 0.75 </lookSpringRate>
+		<!-- Determines whether the direction cursor returns to
+		looking straight ahead after a period of non movement, and
+		the rate at which it will return to the forward position. -->
+		
+		<lookSpringIdleTime> 3600.0 </lookSpringIdleTime>
+		<!-- Specifies the time before the direction cursor starts
+		returning to the front. -->
+		
+		<lookSpringOnMove> true </lookSpringOnMove>
+		<!-- If set, the lookspring will come into effect if the
+		associated entity begins to move. -->
+		
+	</directionCursor>
+
+</engine_config.xml>

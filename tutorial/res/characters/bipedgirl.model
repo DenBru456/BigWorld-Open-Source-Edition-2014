@@ -1,0 +1,79 @@
+<root>
+	<nodefullVisual>	characters/bipedgirl	</nodefullVisual>
+	<animation>
+		<name>	idle	</name>
+		<frameRate>	5.000000	</frameRate>
+		<nodes>	characters/animations/idle	</nodes>
+	</animation>
+	<animation>
+		<name>	run	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/animations/run	</nodes>
+	</animation>
+	<action>
+		<name>	Idle	</name>
+		<animation>	idle	</animation>
+		<blendInTime>	0.300000	</blendInTime>
+		<blendOutTime>	0.300000	</blendOutTime>
+		<filler>	true	</filler>
+		<track>	0	</track>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0	</minEntitySpeed>
+				<maxEntitySpeed>	0.1	</maxEntitySpeed>
+				<minEntityAux1>	-1000	</minEntityAux1>
+				<maxEntityAux1>	1000	</maxEntityAux1>
+				<minModelYaw>	-1000	</minModelYaw>
+				<maxModelYaw>	1000	</maxModelYaw>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+		</match>
+	</action>
+	<action>
+		<name>	Run	</name>
+		<animation>	run	</animation>
+		<blendInTime>	0.300000	</blendInTime>
+		<blendOutTime>	0.300000	</blendOutTime>
+		<filler>	false	</filler>
+		<track>	0	</track>
+		<isMovement>	true	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.1	</minEntitySpeed>
+				<maxEntitySpeed>	1000	</maxEntitySpeed>
+				<minEntityAux1>	-1000	</minEntityAux1>
+				<maxEntityAux1>	1000	</maxEntityAux1>
+				<minModelYaw>	-1000	</minModelYaw>
+				<maxModelYaw>	1000	</maxModelYaw>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+			<scalePlaybackSpeed>	true	</scalePlaybackSpeed>
+		</match>
+	</action>
+	<animation>
+		<name>	spell	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/animations/spell	</nodes>
+	</animation>
+	<action>
+		<name>	Spell	</name>
+		<animation>	spell	</animation>
+		<blendInTime>	0.300000	</blendInTime>
+		<blendOutTime>	0.300000	</blendOutTime>
+		<filler>	false	</filler>
+		<track>	0	</track>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.354221 -0.092065 -0.933361	</min>
+		<max>	0.354241 1.998989 0.500990	</max>
+	</visibilityBox>
+</root>

@@ -1,0 +1,78 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.478630 -0.878017 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -1.000000	</row1>
+				<row2>	0.878017 0.478630 0.000000	</row2>
+				<row3>	-1.522039 3.312245 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	-0.431564 0.000000 0.902082	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.902082 -0.000000 -0.431564	</row2>
+					<row3>	3.469916 -0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.000000 -0.000000 1.000000	</row2>
+						<row3>	3.663145 0.000000 0.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneSphere01	</identifier>
+					<transform>
+						<row0>	0.585484 0.000000 -0.810684	</row0>
+						<row1>	0.810684 -0.000000 0.585484	</row1>
+						<row2>	-0.000000 -1.000000 -0.000000	</row2>
+						<row3>	-0.296564 0.000000 -0.043009	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneSphere01	</identifier>
+				<transform>
+					<row0>	0.478630 0.000000 0.878017	</row0>
+					<row1>	-0.878017 -0.000000 0.478630	</row1>
+					<row2>	0.000000 -1.000000 0.000000	</row2>
+					<row3>	3.636700 -0.000000 -0.248964	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneSphere01	</node>
+		<node>	Bone02BlendBoneSphere01	</node>
+		<geometry>
+			<vertices>	Sphere01.vertices	</vertices>
+			<primitive>	Sphere01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-2.460253 -0.045678 -2.470687	</min>
+		<max>	2.485705 3.550682 2.475399	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,1215 @@
+<bipedgirl.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	0.004022 -0.000084 0.999992	</row0>
+				<row1>	0.004857 0.999988 0.000064	</row1>
+				<row2>	-0.999980 0.004857 0.004023	</row2>
+				<row3>	0.000044 1.075623 0.001474	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Footsteps	</identifier>
+				<transform>
+					<row0>	0.004022 0.004857 -0.999980	</row0>
+					<row1>	-0.000084 0.999988 0.004857	</row1>
+					<row2>	0.999992 0.000064 0.004023	</row2>
+					<row3>	0.000090 -1.075553 -0.005224	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.013801 -0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	0.998602 0.000001 0.052865	</row0>
+						<row1>	-0.000002 1.000000 0.000004	</row1>
+						<row2>	-0.052865 -0.000004 0.998602	</row2>
+						<row3>	0.111661 0.000000 -0.000201	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	-0.000000 -0.000000 1.000000	</row2>
+							<row3>	0.252427 -0.000000 -0.000201	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Neck	</identifier>
+							<transform>
+								<row0>	1.000000 -0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 -0.000000 1.000000	</row2>
+								<row3>	0.252427 0.000000 -0.000058	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Head	</identifier>
+								<transform>
+									<row0>	0.997551 0.012149 0.068875	</row0>
+									<row1>	-0.011068 0.999810 -0.016053	</row1>
+									<row2>	-0.069057 0.015252 0.997496	</row2>
+									<row3>	0.072815 -0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	biped L Clavicle	</identifier>
+								<transform>
+									<row0>	0.078459 0.996917 -0.000065	</row0>
+									<row1>	0.996917 -0.078459 -0.000794	</row1>
+									<row2>	-0.000796 -0.000003 -1.000000	</row2>
+									<row3>	-0.000000 0.033981 0.000058	</row3>
+								</transform>
+								<node>
+									<identifier>	biped L UpperArm	</identifier>
+									<transform>
+										<row0>	0.103731 -0.994322 0.023750	</row0>
+										<row1>	0.990437 0.101083 -0.093894	</row1>
+										<row2>	0.090961 0.033262 0.995299	</row2>
+										<row3>	0.126214 0.000000 -0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	biped L Forearm	</identifier>
+										<transform>
+											<row0>	0.969318 0.000000 -0.245808	</row0>
+											<row1>	0.000000 1.000000 0.000000	</row1>
+											<row2>	0.245808 0.000000 0.969319	</row2>
+											<row3>	0.291262 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped L Hand	</identifier>
+											<transform>
+												<row0>	0.998750 0.049979 -0.000000	</row0>
+												<row1>	-0.000040 0.000795 1.000000	</row1>
+												<row2>	0.049979 -0.998750 0.000796	</row2>
+												<row3>	0.291262 -0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped L Finger0	</identifier>
+												<transform>
+													<row0>	0.777146 -0.000501 0.629320	</row0>
+													<row1>	0.000000 1.000000 0.000796	</row1>
+													<row2>	-0.629321 -0.000619 0.777146	</row2>
+													<row3>	0.121359 0.000000 0.000000	</row3>
+												</transform>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped R Clavicle	</identifier>
+								<transform>
+									<row0>	0.078459 -0.996917 -0.000060	</row0>
+									<row1>	-0.996917 -0.078459 0.000794	</row1>
+									<row2>	-0.000796 -0.000003 -1.000000	</row2>
+									<row3>	0.000000 -0.033981 0.000058	</row3>
+								</transform>
+								<node>
+									<identifier>	biped R UpperArm	</identifier>
+									<transform>
+										<row0>	0.103731 0.994322 0.023750	</row0>
+										<row1>	-0.990437 0.101083 0.093894	</row1>
+										<row2>	0.090961 -0.033262 0.995299	</row2>
+										<row3>	0.126214 0.000000 -0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	biped R Forearm	</identifier>
+										<transform>
+											<row0>	0.969319 0.000000 -0.245808	</row0>
+											<row1>	-0.000000 1.000000 0.000000	</row1>
+											<row2>	0.245808 0.000000 0.969319	</row2>
+											<row3>	0.291262 -0.000000 -0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped R Hand	</identifier>
+											<transform>
+												<row0>	0.998750 -0.049979 0.000000	</row0>
+												<row1>	0.000040 0.000795 -1.000000	</row1>
+												<row2>	0.049979 0.998750 0.000796	</row2>
+												<row3>	0.291262 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped R Finger0	</identifier>
+												<transform>
+													<row0>	0.777146 0.000501 0.629320	</row0>
+													<row1>	0.000000 1.000000 -0.000796	</row1>
+													<row2>	-0.629320 0.000619 0.777146	</row2>
+													<row3>	0.121359 -0.000000 0.000000	</row3>
+												</transform>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped L Thigh	</identifier>
+					<transform>
+						<row0>	-0.996349 0.069391 0.049739	</row0>
+						<row1>	-0.063513 -0.991752 0.111331	</row1>
+						<row2>	0.057054 0.107765 0.992538	</row2>
+						<row3>	-0.000000 0.097087 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped L Calf	</identifier>
+						<transform>
+							<row0>	0.986847 0.000000 -0.161658	</row0>
+							<row1>	-0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.161658 0.000000 0.986847	</row2>
+							<row3>	0.485437 -0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped L Foot	</identifier>
+							<transform>
+								<row0>	0.992087 0.065526 0.107101	</row0>
+								<row1>	-0.076593 0.991758 0.102714	</row1>
+								<row2>	-0.099487 -0.110105 0.988928	</row2>
+								<row3>	0.485437 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped L Toe0	</identifier>
+								<transform>
+									<row0>	0.000383 0.007291 0.999973	</row0>
+									<row1>	0.000253 0.999973 -0.007292	</row1>
+									<row2>	-1.000000 0.000256 0.000381	</row2>
+									<row3>	0.111650 -0.000000 0.143689	</row3>
+								</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped R Thigh	</identifier>
+					<transform>
+						<row0>	-0.994814 -0.078093 0.065168	</row0>
+						<row1>	0.070400 -0.991100 -0.112979	</row1>
+						<row2>	0.073410 -0.107805 0.991458	</row2>
+						<row3>	0.000000 -0.097087 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped R Calf	</identifier>
+						<transform>
+							<row0>	0.981180 0.000000 -0.193094	</row0>
+							<row1>	-0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.193094 0.000000 0.981180	</row2>
+							<row3>	0.485437 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped R Foot	</identifier>
+							<transform>
+								<row0>	0.989961 -0.067754 0.124040	</row0>
+								<row1>	0.079410 0.992628 -0.091564	</row1>
+								<row2>	-0.116922 0.100495 0.988044	</row2>
+								<row3>	0.485437 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped R Toe0	</identifier>
+								<transform>
+									<row0>	0.000383 -0.007291 0.999973	</row0>
+									<row1>	-0.000253 0.999973 0.007292	</row1>
+									<row2>	-1.000000 -0.000256 0.000381	</row2>
+									<row3>	0.111650 0.000000 0.143689	</row3>
+								</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Toe0	</node>
+		<geometry>
+			<vertices>	biped R Toe0.vertices	</vertices>
+			<primitive>	biped R Toe0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Foot	</node>
+		<geometry>
+			<vertices>	biped R Foot.vertices	</vertices>
+			<primitive>	biped R Foot.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Calf	</node>
+		<geometry>
+			<vertices>	biped R Calf.vertices	</vertices>
+			<primitive>	biped R Calf.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Thigh	</node>
+		<geometry>
+			<vertices>	biped R Thigh.vertices	</vertices>
+			<primitive>	biped R Thigh.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Toe0	</node>
+		<geometry>
+			<vertices>	biped L Toe0.vertices	</vertices>
+			<primitive>	biped L Toe0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Foot	</node>
+		<geometry>
+			<vertices>	biped L Foot.vertices	</vertices>
+			<primitive>	biped L Foot.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Calf	</node>
+		<geometry>
+			<vertices>	biped L Calf.vertices	</vertices>
+			<primitive>	biped L Calf.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Thigh	</node>
+		<geometry>
+			<vertices>	biped L Thigh.vertices	</vertices>
+			<primitive>	biped L Thigh.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Finger0	</node>
+		<geometry>
+			<vertices>	biped R Finger0.vertices	</vertices>
+			<primitive>	biped R Finger0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Hand	</node>
+		<geometry>
+			<vertices>	biped R Hand.vertices	</vertices>
+			<primitive>	biped R Hand.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Forearm	</node>
+		<geometry>
+			<vertices>	biped R Forearm.vertices	</vertices>
+			<primitive>	biped R Forearm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R UpperArm	</node>
+		<geometry>
+			<vertices>	biped R UpperArm.vertices	</vertices>
+			<primitive>	biped R UpperArm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped R Clavicle	</node>
+		<geometry>
+			<vertices>	biped R Clavicle.vertices	</vertices>
+			<primitive>	biped R Clavicle.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Finger0	</node>
+		<geometry>
+			<vertices>	biped L Finger0.vertices	</vertices>
+			<primitive>	biped L Finger0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Hand	</node>
+		<geometry>
+			<vertices>	biped L Hand.vertices	</vertices>
+			<primitive>	biped L Hand.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Forearm	</node>
+		<geometry>
+			<vertices>	biped L Forearm.vertices	</vertices>
+			<primitive>	biped L Forearm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L UpperArm	</node>
+		<geometry>
+			<vertices>	biped L UpperArm.vertices	</vertices>
+			<primitive>	biped L UpperArm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped L Clavicle	</node>
+		<geometry>
+			<vertices>	biped L Clavicle.vertices	</vertices>
+			<primitive>	biped L Clavicle.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped Head	</node>
+		<geometry>
+			<vertices>	biped Head.vertices	</vertices>
+			<primitive>	biped Head.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped Neck	</node>
+		<geometry>
+			<vertices>	biped Neck.vertices	</vertices>
+			<primitive>	biped Neck.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped Spine1	</node>
+		<geometry>
+			<vertices>	biped Spine1.vertices	</vertices>
+			<primitive>	biped Spine1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped Spine	</node>
+		<geometry>
+			<vertices>	biped Spine.vertices	</vertices>
+			<primitive>	biped Spine.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped Pelvis	</node>
+		<geometry>
+			<vertices>	biped Pelvis.vertices	</vertices>
+			<primitive>	biped Pelvis.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped Footsteps	</node>
+		<geometry>
+			<vertices>	biped Footsteps.vertices	</vertices>
+			<primitive>	biped Footsteps.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	biped	</node>
+		<geometry>
+			<vertices>	biped.vertices	</vertices>
+			<primitive>	biped.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Body	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/reflect.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.295800 -0.001200 -0.144600	</min>
+		<max>	0.295700 1.998200 0.165400	</max>
+	</boundingBox>
+</bipedgirl.visual>

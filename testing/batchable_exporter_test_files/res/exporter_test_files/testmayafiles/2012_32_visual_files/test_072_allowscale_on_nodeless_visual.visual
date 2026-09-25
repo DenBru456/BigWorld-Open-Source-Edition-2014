@@ -1,0 +1,105 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	group	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.378147 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	pasted__pCube1	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.002855 0.103758 0.002227	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	pCube1	</identifier>
+			<transform>
+				<row0>	0.459252 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.459252 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.459252	</row2>
+				<row3>	0.002855 0.103758 0.002227	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	pasted__pCube1	</node>
+		<geometry>
+			<vertices>	pasted__pCubeShape1.vertices	</vertices>
+			<primitive>	pasted__pCubeShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	pCube1	</node>
+		<geometry>
+			<vertices>	pCubeShape1.vertices	</vertices>
+			<primitive>	pCubeShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.484321 0.000000 -0.108360	</min>
+		<max>	0.052927 0.207516 0.112813	</max>
+	</boundingBox>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	0	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	true	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile>	exporter_test_files/testmayafiles/test_017_use_reference_hierarchy_1.visual	</referenceNodesFile>
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+			<copyExternalTextures>	true	</copyExternalTextures>
+			<copyTexturesTo />
+		</settings>
+	</metaData>
+</root>

@@ -1,0 +1,56 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	thisBIGWmatHAScaps	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/folder_with_CAPS/IhaveCAPS.BmP	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	THISdefaulMAThasCAPS	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/folder_with_CAPS/IhaveCAPS.BmP	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-12.178167 -0.196222 -2.661776	</min>
+		<max>	2.698406 5.310480 2.844926	</max>
+	</boundingBox>
+</root>

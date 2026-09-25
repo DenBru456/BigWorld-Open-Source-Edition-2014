@@ -1,0 +1,173 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	-0.017588 0.999845 -0.000000	</row0>
+				<row1>	0.000005 -0.000000 -1.000000	</row1>
+				<row2>	-0.999845 -0.017588 -0.000005	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	0.503999 0.356182 -0.786841	</row0>
+					<row1>	-0.223730 0.933752 0.279378	</row1>
+					<row2>	0.834224 0.035234 0.550299	</row2>
+					<row3>	0.810896 -0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone02BlendBonePlane08	</identifier>
+					<transform>
+						<row0>	0.777857 -0.275395 -0.564886	</row0>
+						<row1>	0.517760 -0.228609 0.824416	</row1>
+						<row2>	-0.356178 -0.933753 -0.035237	</row2>
+						<row3>	-0.408691 0.181422 -0.676469	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone04	</identifier>
+				<transform>
+					<row0>	0.783437 -0.585247 -0.209073	</row0>
+					<row1>	0.573588 0.810421 -0.119224	</row1>
+					<row2>	0.239213 -0.026517 0.970605	</row2>
+					<row3>	0.810691 0.000098 -0.011386	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone04BlendBonePlane08	</identifier>
+					<transform>
+						<row0>	0.195258 0.109122 -0.974662	</row0>
+						<row1>	0.786993 0.575596 0.222105	</row1>
+						<row2>	0.585248 -0.810421 0.026512	</row2>
+						<row3>	-0.637448 -0.466439 -0.182874	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone06	</identifier>
+				<transform>
+					<row0>	0.794371 0.575614 -0.194021	</row0>
+					<row1>	-0.588504 0.808418 -0.011100	</row1>
+					<row2>	0.150460 0.123000 0.980935	</row2>
+					<row3>	0.810701 0.000098 -0.011386	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone06BlendBonePlane08	</identifier>
+					<transform>
+						<row0>	0.180022 0.021453 -0.983429	</row0>
+						<row1>	0.797660 -0.588218 0.133184	</row1>
+						<row2>	-0.575613 -0.808418 -0.123005	</row2>
+						<row3>	-0.646262 0.476895 -0.110822	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone08	</identifier>
+				<transform>
+					<row0>	0.662803 0.562740 0.493979	</row0>
+					<row1>	-0.445038 0.826590 -0.344514	</row1>
+					<row2>	-0.602190 0.008506 0.798307	</row2>
+					<row3>	0.810704 0.000098 -0.011386	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone08BlendBonePlane08	</identifier>
+					<transform>
+						<row0>	-0.505558 0.352293 -0.787592	</row0>
+						<row1>	0.654012 -0.438910 -0.616138	</row1>
+						<row2>	-0.562743 -0.826588 -0.008510	</row2>
+						<row3>	-0.531768 0.356790 0.497287	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone10	</identifier>
+				<transform>
+					<row0>	0.743800 -0.279129 -0.607330	</row0>
+					<row1>	0.235590 0.959798 -0.152595	</row1>
+					<row2>	0.625508 -0.029581 0.779657	</row2>
+					<row3>	0.810704 0.000098 -0.011386	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone10BlendBonePlane08	</identifier>
+					<transform>
+						<row0>	0.594152 0.148433 -0.790538	</row0>
+						<row1>	0.754366 0.238237 0.611698	</row1>
+						<row2>	0.279132 -0.959797 0.029576	</row2>
+						<row3>	-0.609889 -0.192825 -0.498221	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone12	</identifier>
+				<transform>
+					<row0>	0.542792 -0.177829 0.820825	</row0>
+					<row1>	0.094458 0.984052 0.150729	</row1>
+					<row2>	-0.834539 -0.004281 0.550933	</row2>
+					<row3>	0.810708 0.000098 -0.011386	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone12BlendBonePlane08	</identifier>
+					<transform>
+						<row0>	-0.830246 -0.152362 -0.536170	</row0>
+						<row1>	0.528271 0.091792 -0.844099	</row1>
+						<row2>	0.177825 -0.984053 0.004279	</row2>
+						<row3>	-0.430683 -0.074958 0.682840	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone14	</identifier>
+				<transform>
+					<row0>	0.778550 -0.503868 0.374134	</row0>
+					<row1>	0.509239 0.855626 0.092626	</row1>
+					<row2>	-0.366790 0.118410 0.922738	</row2>
+					<row3>	0.810709 0.000098 -0.011386	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone14BlendBonePlane08	</identifier>
+					<transform>
+						<row0>	-0.387772 -0.101563 -0.916143	</row0>
+						<row1>	0.771849 0.507532 -0.382962	</row1>
+						<row2>	0.503866 -0.855627 -0.118415	</row2>
+						<row3>	-0.626868 -0.411874 0.307854	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone14BlendBonePlane08	</node>
+		<node>	Bone12BlendBonePlane08	</node>
+		<node>	Bone08BlendBonePlane08	</node>
+		<node>	Bone04BlendBonePlane08	</node>
+		<node>	Bone10BlendBonePlane08	</node>
+		<node>	Bone06BlendBonePlane08	</node>
+		<node>	Bone02BlendBonePlane08	</node>
+		<geometry>
+			<vertices>	Plane08.vertices	</vertices>
+			<primitive>	Plane08.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #67_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.867885 0.787126 -1.034593	</min>
+		<max>	1.169733 2.268823 1.020928	</max>
+	</boundingBox>
+</root>

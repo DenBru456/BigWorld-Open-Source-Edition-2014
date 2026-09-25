@@ -1,0 +1,108 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	joint1	</identifier>
+			<transform>
+				<row0>	0.000000 0.999839 -0.017961	</row0>
+				<row1>	-0.000000 0.017961 0.999839	</row1>
+				<row2>	1.000000 -0.000000 0.000000	</row2>
+				<row3>	0.000000 0.000515 0.001229	</row3>
+			</transform>
+			<node>
+				<identifier>	joint2	</identifier>
+				<transform>
+					<row0>	0.999479 0.032040 0.003904	</row0>
+					<row1>	0.032040 -0.999486 -0.000000	</row1>
+					<row2>	0.003902 0.000125 -0.999992	</row2>
+					<row3>	0.441240 -0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	joint3	</identifier>
+					<transform>
+						<row0>	0.000000 0.000000 -1.000000	</row0>
+						<row1>	0.999901 0.014083 -0.000000	</row1>
+						<row2>	0.014083 -0.999901 0.000000	</row2>
+						<row3>	0.562744 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	joint4	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	0.000000 0.103027 0.044909	</row3>
+						</transform>
+						<node>
+							<identifier>	joint4_BlendBone	</identifier>
+							<transform>
+								<row0>	0.999992 0.003903 0.000055	</row0>
+								<row1>	-0.003903 0.999992 -0.000000	</row1>
+								<row2>	0.000055 0.000000 -1.000000	</row2>
+								<row3>	0.001724 -1.107397 -0.046138	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	joint3_BlendBone	</identifier>
+						<transform>
+							<row0>	0.999992 0.003903 0.000055	</row0>
+							<row1>	-0.003903 0.999992 -0.000000	</row1>
+							<row2>	0.000055 0.000000 -1.000000	</row2>
+							<row3>	0.001724 -1.004369 -0.001229	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	joint2_BlendBone	</identifier>
+					<transform>
+						<row0>	0.003904 0.000000 -0.999992	</row0>
+						<row1>	0.999893 0.014083 0.003903	</row1>
+						<row2>	-0.014083 0.999901 -0.000055	</row2>
+						<row3>	-0.441543 -0.012916 -0.001724	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	joint1_BlendBone	</identifier>
+				<transform>
+					<row0>	0.000000 -0.000000 1.000000	</row0>
+					<row1>	0.999839 0.017961 -0.000000	</row1>
+					<row2>	0.017961 -0.999839 -0.000000	</row2>
+					<row3>	-0.000493 -0.001238 -0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint1_BlendBone	</node>
+		<node>	joint2_BlendBone	</node>
+		<node>	joint3_BlendBone	</node>
+		<node>	joint4_BlendBone	</node>
+		<geometry>
+			<vertices>	pCylinderShape1.vertices	</vertices>
+			<primitive>	pCylinderShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	phong1_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.107608 0.002495 -0.107520	</min>
+		<max>	0.109707 1.002912 0.107520	</max>
+	</boundingBox>
+</root>

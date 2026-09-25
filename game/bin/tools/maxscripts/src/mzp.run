@@ -1,0 +1,6 @@
+name "BigWorld MAXScripts"
+description "Drag and drop installer for BigWorld MAXScripts"
+version 1
+
+run "BigWorld_Installer.ms"
+drop "BigWorld_Installer.ms"
