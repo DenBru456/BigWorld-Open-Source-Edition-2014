@@ -1,0 +1,64 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<density>
+			<Type>		INT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	5				</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>	true			</Editable>			
+		</density>
+		<innerRadius>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	35				</Default>	<!-- See Fog -->
+			<Persistent>	true			</Persistent>
+			<Editable>	true			</Editable>
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	1	</gizmoRadius>
+			</Widget>
+		</innerRadius>
+		<outerRadius>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	50				</Default>	<!-- See Fog -->
+			<Persistent>	true			</Persistent>
+			<Editable>	true			</Editable>
+			<Widget>	RADIUS
+				<colour>	0 255 0 192	</colour>
+				<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+		</outerRadius>
+		<red>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	127				</Default>	<!-- See Fog -->
+			<Persistent>	true			</Persistent>
+			<Editable>	true			</Editable>
+		</red>
+		<green>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	127				</Default>	<!-- See Fog -->
+			<Persistent>	true			</Persistent>
+			<Editable>	true			</Editable>
+		</green>
+		<blue>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	127				</Default>	<!-- See Fog -->
+			<Persistent>	true			</Persistent>
+			<Editable>	true			</Editable>
+		</blue>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

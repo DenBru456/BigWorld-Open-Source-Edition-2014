@@ -1,0 +1,44 @@
+<door.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	door	</identifier>
+			<transform>
+				<row0>	-1.000000 -0.000000 -0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 -0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<materialKind>	1	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	door	</node>
+		<geometry>
+			<vertices>	door.vertices	</vertices>
+			<primitive>	door.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	house	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/props/house/maps/house.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.015104 0.002694 -0.141904	</min>
+		<max>	2.816977 3.194669 0.032031	</max>
+	</boundingBox>
+</door.visual>

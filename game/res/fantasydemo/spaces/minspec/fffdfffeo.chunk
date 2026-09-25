@@ -1,0 +1,68 @@
+<fffdfffeo.chunk>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288073004	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288073021	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	1.517969 0.000000 -0.517101	</row0>
+			<row1>	-0.033685 1.600223 -0.098884	</row1>
+			<row2>	0.516003 0.104464 1.514744	</row2>
+			<row3>	65.744156 204.101532 98.043190	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffdfffeo.cdata/terrain2	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	82.962357 196.936462 93.737343	</row3>
+		</transform>
+		<guid>	E78E4B8C.4E6550F9.CC49BD84.C75BBC55	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	3525C120.40F0F42E.637C59BB.16C42020	</guid>
+					<chunkId>	fffdffffo	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	3.409292	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	80A728D9.4637C722.B2B68DA8.93EB54B5	</guid>
+				<chunkId>	fffefffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	fffdfffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffdfffeo.chunk>

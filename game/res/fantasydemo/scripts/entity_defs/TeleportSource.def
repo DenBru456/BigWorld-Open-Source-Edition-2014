@@ -1,0 +1,38 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<modelType>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</modelType>
+
+		
+		<!-- Optional Space Label -->
+		<spaceLabel>
+			<Type>			STRING			</Type>
+			<Flags>			OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</spaceLabel>
+		
+		<!-- Destination Label -->
+		<destination>
+			<Type>			STRING			</Type>
+			<Flags>			OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</destination>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

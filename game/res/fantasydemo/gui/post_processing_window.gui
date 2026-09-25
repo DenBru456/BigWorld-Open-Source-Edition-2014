@@ -1,0 +1,1560 @@
+<post_processing_window.gui>
+	<WindowGUIComponent>	1000
+		<position>	-0.731250 0.398489 0.475000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	344.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	512.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/window_post_processing.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	0.673000 1.000000	</coords2>
+			<coords3>	0.673000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.PostProcessingWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	true	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>			
+			<effectsGrid>	2000	</effectsGrid>
+			<closeBox>		2001	</closeBox>
+			<windowLabel>	2002	</windowLabel>
+			<slider1>		9001	</slider1>      
+			<slider2>		9002	</slider2>
+			<slider3>		9003	</slider3>
+			<slLabel1>	12001	</slLabel1>
+			<slLabel2>	12002	</slLabel2>
+			<slLabel3>	12003	</slLabel3>
+			<slAmount1>	13001	</slAmount1>
+			<slAmount2>	13002	</slAmount2>
+			<slAmount3>	13003	</slAmount3>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	2000
+		<position>	14.000000 224.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	317.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	263.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Grid&quot;
+			<horizontalFirst>	true	</horizontalFirst>
+			<gridWidth>	2.000000	</gridWidth>
+			<gridHeight>	4.000000	</gridHeight>
+			<borderTop>	0.000000	</borderTop>
+			<borderBottom>	0.000000	</borderBottom>
+			<borderLeft>	10.000000	</borderLeft>
+			<borderRight>	0.000000	</borderRight>
+			<horizontalGap>	0.000000	</horizontalGap>
+			<verticalGap>	0.000000	</verticalGap>
+		</script>
+		<children>
+			<effect1Button>	5001	</effect1Button>
+			<effect2Button> 5002	</effect2Button>
+			<effect3Button>	5003	</effect3Button>
+			<effect4Button> 5004	</effect4Button>
+			<effect5Button>	5005	</effect5Button>
+			<effect6Button> 5006	</effect6Button>
+			<effect7Button>	5007	</effect7Button>
+			<effect8Button> 5008	</effect8Button>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5001
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>		
+		<children>
+			<box>	6001	</box>
+			<label>	7001	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+		<WindowGUIComponent>	5002
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>		
+		<children>
+			<box>	6002	</box>
+			<label>	7002	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5003
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<children>
+			<box>	6003	</box>
+			<label>	7003	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5004
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<children>
+			<box>	6004	</box>
+			<label>	7004	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5005
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>		
+		<children>
+			<box>	6005	</box>
+			<label>	7005	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5006
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>	
+		<children>
+			<box>	6006	</box>
+			<label>	7006	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5007
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>	
+		<children>
+			<box>	6007	</box>
+			<label>	7007	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5008
+		<position>	30.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>		
+		<children>
+			<box>	6008	</box>
+			<label>	7008	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<SimpleGUIComponent>	6001
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7001
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Colour Mixing	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+<SimpleGUIComponent>	6002
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7002
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Depth of Field	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+<SimpleGUIComponent>	6003
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7003
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Night Vision	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+<SimpleGUIComponent>	6004
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7004
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Cel Shading	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+<SimpleGUIComponent>	6005
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7005
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Effect 5	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+<SimpleGUIComponent>	6006
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7006
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Effect 6	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+<SimpleGUIComponent>	6007
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7007
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Effect 7	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+<SimpleGUIComponent>	6008
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	38.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	38.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	Presets	</groupName>
+			<groupDepth>	2 </groupDepth>
+			<visualStates>
+				<external>	gui/visual_states/post_processing_effect.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	7008
+		<position>	40.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Effect 8	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	9001
+		<position>	170.000000 71.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	241.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Slider&quot;
+			<isHorizontal>	true	</isHorizontal>
+			<minValue>	0.000000	</minValue>
+			<maxValue>	1.000000	</maxValue>
+			<stepSize>	0.050000	</stepSize>
+			<visualStates>
+				<external>	gui/visual_states/slider.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<thumb>	10001	</thumb>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+<WindowGUIComponent>	9002
+		<position>	170.000000 122.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	241.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Slider&quot;
+			<isHorizontal>	true	</isHorizontal>
+			<minValue>	-1.00000	</minValue>
+			<maxValue>	1.000000	</maxValue>
+			<stepSize>	0.050000	</stepSize>
+			<visualStates>
+				<external>	gui/visual_states/slider.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<thumb>	10002	</thumb>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+<WindowGUIComponent>	9003
+		<position>	170.000000 173.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	241.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Slider&quot;
+			<isHorizontal>	true	</isHorizontal>
+			<minValue>	0.000000	</minValue>
+			<maxValue>	1.000000	</maxValue>
+			<stepSize>	0.050000	</stepSize>
+			<visualStates>
+				<external>	gui/visual_states/slider.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<thumb>	10003	</thumb>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	10001
+		<position>	0.497994 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	13.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.253906	</coords0>
+			<coords1>	0.000000 0.335938	</coords1>
+			<coords2>	0.050781 0.335938	</coords2>
+			<coords3>	0.050781 0.253906	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.SliderThumb&quot;	</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	10002
+		<position>	0.497994 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	13.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.253906	</coords0>
+			<coords1>	0.000000 0.335938	</coords1>
+			<coords2>	0.050781 0.335938	</coords2>
+			<coords3>	0.050781 0.253906	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.SliderThumb&quot;	</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	10003
+		<position>	0.497994 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	13.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.253906	</coords0>
+			<coords1>	0.000000 0.335938	</coords1>
+			<coords2>	0.050781 0.335938	</coords2>
+			<coords3>	0.050781 0.253906	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.SliderThumb&quot;	</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+  <TextGUIComponent>
+    12001
+    <position>	40.000000 50.000000 1.000000	</position>
+    <horizontalPositionMode>	1	</horizontalPositionMode>
+    <verticalPositionMode>	1	</verticalPositionMode>
+    <widthMode>	2	</widthMode>
+    <width>	0.073438	</width>
+    <heightMode>	2	</heightMode>
+    <height>	0.039063	</height>
+    <colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+    <angle>	0	</angle>
+    <flip>	0	</flip>
+    <visible>	true	</visible>
+    <horizontalAnchor>	0	</horizontalAnchor>
+    <verticalAnchor>	0	</verticalAnchor>
+    <textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+    <materialFX>	1	</materialFX>
+    <filterType>	1	</filterType>
+    <tiled>	false	</tiled>
+    <tileWidth>	16	</tileWidth>
+    <tileHeight>	16	</tileHeight>
+    <pixelSnap>	true	</pixelSnap>
+    <focus>	false	</focus>
+    <moveFocus>	false	</moveFocus>
+    <crossFocus>	false	</crossFocus>
+    <dragFocus>	false	</dragFocus>
+    <dropFocus>	false	</dropFocus>
+    <label>	Sharpness	</label>
+    <font>	Label.font	</font>
+    <explicitSize>	false	</explicitSize>
+  </TextGUIComponent>
+  <TextGUIComponent>
+    12002
+    <position>	40.000000 100.000000 1.000000	</position>
+    <horizontalPositionMode>	1	</horizontalPositionMode>
+    <verticalPositionMode>	1	</verticalPositionMode>
+    <widthMode>	2	</widthMode>
+    <width>	0.073438	</width>
+    <heightMode>	2	</heightMode>
+    <height>	0.039063	</height>
+    <colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+    <angle>	0	</angle>
+    <flip>	0	</flip>
+    <visible>	true	</visible>
+    <horizontalAnchor>	0	</horizontalAnchor>
+    <verticalAnchor>	0	</verticalAnchor>
+    <textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+    <materialFX>	1	</materialFX>
+    <filterType>	1	</filterType>
+    <tiled>	false	</tiled>
+    <tileWidth>	16	</tileWidth>
+    <tileHeight>	16	</tileHeight>
+    <pixelSnap>	true	</pixelSnap>
+    <focus>	false	</focus>
+    <moveFocus>	false	</moveFocus>
+    <crossFocus>	false	</crossFocus>
+    <dragFocus>	false	</dragFocus>
+    <dropFocus>	false	</dropFocus>
+    <label>	Saturation	</label>
+    <font>	Label.font	</font>
+    <explicitSize>	false	</explicitSize>
+  </TextGUIComponent>
+  <TextGUIComponent>
+    12003
+    <position>	40.000000 150.000000 1.000000	</position>
+    <horizontalPositionMode>	1	</horizontalPositionMode>
+    <verticalPositionMode>	1	</verticalPositionMode>
+    <widthMode>	2	</widthMode>
+    <width>	0.073438	</width>
+    <heightMode>	2	</heightMode>
+    <height>	0.039063	</height>
+    <colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+    <angle>	0	</angle>
+    <flip>	0	</flip>
+    <visible>	true	</visible>
+    <horizontalAnchor>	0	</horizontalAnchor>
+    <verticalAnchor>	0	</verticalAnchor>
+    <textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+    <materialFX>	1	</materialFX>
+    <filterType>	1	</filterType>
+    <tiled>	false	</tiled>
+    <tileWidth>	16	</tileWidth>
+    <tileHeight>	16	</tileHeight>
+    <pixelSnap>	true	</pixelSnap>
+    <focus>	false	</focus>
+    <moveFocus>	false	</moveFocus>
+    <crossFocus>	false	</crossFocus>
+    <dragFocus>	false	</dragFocus>
+    <dropFocus>	false	</dropFocus>
+    <label>	Colour correction	</label>
+    <font>	Label.font	</font>
+    <explicitSize>	false	</explicitSize>
+  </TextGUIComponent>
+  <WindowGUIComponent>	2001
+		<position>	330.000000 10.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	21.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.171875	</coords0>
+			<coords1>	0.000000 0.253906	</coords1>
+			<coords2>	0.082031 0.253906	</coords2>
+			<coords3>	0.082031 0.171875	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/close_box.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<label>	3001	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	3001
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	default_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	2002
+		<position>	16.000000 8.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.323438	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.046875	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Black_18.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Post Processing	</label>
+		<font>	Heading.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+
+  <TextGUIComponent>
+    13001
+    <position>	300.000000 50.000000 1.000000	</position>
+    <horizontalPositionMode>	1	</horizontalPositionMode>
+    <verticalPositionMode>	1	</verticalPositionMode>
+    <widthMode>	2	</widthMode>
+    <width>	0.073438	</width>
+    <heightMode>	2	</heightMode>
+    <height>	0.039063	</height>
+    <colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+    <angle>	0	</angle>
+    <flip>	0	</flip>
+    <visible>	true	</visible>
+    <horizontalAnchor>	2	</horizontalAnchor>
+    <verticalAnchor>	0	</verticalAnchor>
+    <textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+    <materialFX>	1	</materialFX>
+    <filterType>	1	</filterType>
+    <tiled>	false	</tiled>
+    <tileWidth>	16	</tileWidth>
+    <tileHeight>	16	</tileHeight>
+    <pixelSnap>	true	</pixelSnap>
+    <focus>	false	</focus>
+    <moveFocus>	false	</moveFocus>
+    <crossFocus>	false	</crossFocus>
+    <dragFocus>	false	</dragFocus>
+    <dropFocus>	false	</dropFocus>
+    <label>	value	</label>
+    <font>	Label.font	</font>
+    <explicitSize>	false	</explicitSize>
+  </TextGUIComponent>
+  <TextGUIComponent>
+    13002
+    <position>	300.000000 100.000000 1.000000	</position>
+    <horizontalPositionMode>	1	</horizontalPositionMode>
+    <verticalPositionMode>	1	</verticalPositionMode>
+    <widthMode>	2	</widthMode>
+    <width>	0.073438	</width>
+    <heightMode>	2	</heightMode>
+    <height>	0.039063	</height>
+    <colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+    <angle>	0	</angle>
+    <flip>	0	</flip>
+    <visible>	true	</visible>
+    <horizontalAnchor>	2	</horizontalAnchor>
+    <verticalAnchor>	0	</verticalAnchor>
+    <textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+    <materialFX>	1	</materialFX>
+    <filterType>	1	</filterType>
+    <tiled>	false	</tiled>
+    <tileWidth>	16	</tileWidth>
+    <tileHeight>	16	</tileHeight>
+    <pixelSnap>	true	</pixelSnap>
+    <focus>	false	</focus>
+    <moveFocus>	false	</moveFocus>
+    <crossFocus>	false	</crossFocus>
+    <dragFocus>	false	</dragFocus>
+    <dropFocus>	false	</dropFocus>
+    <label>	value	</label>
+    <font>	Label.font	</font>
+    <explicitSize>	false	</explicitSize>
+  </TextGUIComponent>
+  <TextGUIComponent>
+    13003
+    <position>	300.000000 150.000000 1.000000	</position>
+    <horizontalPositionMode>	1	</horizontalPositionMode>
+    <verticalPositionMode>	1	</verticalPositionMode>
+    <widthMode>	2	</widthMode>
+    <width>	0.073438	</width>
+    <heightMode>	2	</heightMode>
+    <height>	0.039063	</height>
+    <colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+    <angle>	0	</angle>
+    <flip>	0	</flip>
+    <visible>	true	</visible>
+    <horizontalAnchor>	2	</horizontalAnchor>
+    <verticalAnchor>	0	</verticalAnchor>
+    <textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+    <materialFX>	1	</materialFX>
+    <filterType>	1	</filterType>
+    <tiled>	false	</tiled>
+    <tileWidth>	16	</tileWidth>
+    <tileHeight>	16	</tileHeight>
+    <pixelSnap>	true	</pixelSnap>
+    <focus>	false	</focus>
+    <moveFocus>	false	</moveFocus>
+    <crossFocus>	false	</crossFocus>
+    <dragFocus>	false	</dragFocus>
+    <dropFocus>	false	</dropFocus>
+    <label>	value	</label>
+    <font>	Label.font	</font>
+    <explicitSize>	false	</explicitSize>
+  </TextGUIComponent>
+
+
+</post_processing_window.gui>

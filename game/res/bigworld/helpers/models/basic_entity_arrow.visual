@@ -1,0 +1,73 @@
+<basic_entity_arrow.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<fx>	shaders/std_effects/colourise_normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.dds	</Texture>
+					</property>
+					<property>	clothesColour4
+						<Vector4>	0.094118 1.000000 0.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour3
+						<Vector4>	0.298039 1.000000 0.192157 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.733333 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	1.000000 0.156863 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	maskMap
+						<Texture>	system/maps/col_black.dds	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	EnvironmentCubeMap	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	system/maps/col_white.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	system/maps/col_white.dds	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.243755 0.000000 -1.000000	</min>
+		<max>	0.243755 1.502115 2.106787	</max>
+	</boundingBox>
+</basic_entity_arrow.visual>

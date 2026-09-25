@@ -1,0 +1,37 @@
+<shadows.xml>
+<!-- Shadowing switches -->
+
+	<enabled> true </enabled>
+	<!-- Game supports shadow? If off, shadows 
+	will not be available in the engine, at all -->
+
+	<intensity> 0.9 </intensity>
+	<!-- Max Shadow intensity -->
+
+	<distance> 15.0 </distance>
+	<!-- Shadow cutoff distance -->
+
+	<fadeStart> 13.0 </fadeStart>
+	<!-- Shadows fade out from this distance to the cutoff distance -->
+
+	<bufferSize> 1024 </bufferSize>
+	<!-- Size of the shadow texture -->
+
+	<maxCount> 32 </maxCount>
+	<!-- Max number of entity shadows. This is the default value, but it 
+	is possible to set a smaller ammount via graphics settings. The options 
+	available are derived by bit shifting this value towards zero. -->
+	
+	<modelCasters> shaders/std_effects/shadows/caster </modelCasters>
+	<!-- The prefix of the model caster fx files -->
+
+	<modelReceivers> shaders/std_effects/shadows/receiver </modelReceivers>
+	<!-- The prefix of the model receiver fx files -->
+
+	<terrainReceiver> shaders/std_effects/shadows/receiver_terrain.fx </terrainReceiver>
+	<!-- The terrain receiver fx file -->
+
+  	<terrain2Receiver> shaders/terrain/terrain_shadow_receiver.fx </terrain2Receiver>
+	<!-- The terrain2 receiver fx file -->
+
+</shadows.xml>

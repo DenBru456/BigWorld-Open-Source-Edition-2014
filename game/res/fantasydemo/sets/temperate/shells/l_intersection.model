@@ -1,0 +1,23 @@
+<l_intersection.model>
+	<materialNames>
+		<material>
+			<original>	floor	</original>
+			<display>	wall	</display>
+		</material>
+		<material>
+			<original>	wall	</original>
+			<display>	floor	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-2.000000 0.000000 -2.000000	</min>
+		<max>	2.000000 4.025500 2.000000	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/shells/l_intersection	</nodelessVisual>
+	<extent>	100.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1268952359	</modified_on>
+	</metaData>
+</l_intersection.model>

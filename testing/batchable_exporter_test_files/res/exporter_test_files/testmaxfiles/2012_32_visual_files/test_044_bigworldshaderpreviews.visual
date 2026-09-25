@@ -1,0 +1,4192 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	normalmap_glow	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-6.893606 0.000000 8.666774	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	normalmap_glow_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-5.111908 0.000000 8.666774	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	normalmap_chrome_glow	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-3.121753 0.000000 8.666774	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	normalmap_specmap	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-1.161260 0.000000 8.476998	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	colourise_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-6.810859 0.000000 3.689804	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	colourise_normalmap_specmap_skinned	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-4.803565 0.000000 3.803698	</row3>
+			</transform>
+			<node>
+				<identifier>	colourise_normalmap_specmap_skinnedBlendBonecolourise_normalmap_specmap_skinned	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-5.016508 -0.000000 -5.042237	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	lightonly	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-6.839499 0.000000 1.105826	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-5.473292 0.000000 1.095725	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-4.163481 0.000000 1.206117	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_chrome	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	6.456818 0.000000 1.252600	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_chrome_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-6.209268 0.000000 -1.230968	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_chrome_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-4.084314 0.000000 -1.205861	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_glow	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-2.685121 0.000000 1.175836	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_glow_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-1.126564 0.000000 1.149683	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_normal	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.526450 0.000000 1.265667	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_normal_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	2.186603 0.000000 1.273591	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_normal_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	4.304982 0.000000 1.114013	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_projection	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-6.284680 0.000000 -3.321943	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_projection_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-3.992411 0.000000 -3.282377	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_projection_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-1.549277 0.000000 -3.493773	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_uvtransform	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-6.104668 0.000000 -5.782015	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_uvtransform_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-4.087987 0.000000 -5.838706	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_uvtransform_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-1.819105 0.000000 -5.985058	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	parallax_lighting_specmap	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-5.928947 0.000000 -8.560102	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	shimmer2	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-0.858033 -0.223704 -8.417808	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	spintoface_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	2.487441 -0.166428 -8.450235	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Bone04	</identifier>
+			<transform>
+				<row0>	0.420009 0.000000 -0.907520	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.907520 0.000000 0.420009	</row2>
+				<row3>	-1.087202 0.000000 4.182176	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone05	</identifier>
+				<transform>
+					<row0>	-0.726444 0.000000 0.687225	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.687225 0.000000 -0.726444	</row2>
+					<row3>	0.993337 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone06	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.958877 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone06BlendBonecolourise_subsurface_skinned	</identifier>
+						<transform>
+							<row0>	0.318558 0.000000 -0.947903	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.947903 -0.000000 0.318558	</row2>
+							<row3>	-2.583085 -0.000000 -3.663688	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone05BlendBonecolourise_subsurface_skinned	</identifier>
+					<transform>
+						<row0>	0.318558 0.000000 -0.947903	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.947903 -0.000000 0.318558	</row2>
+						<row3>	-1.624208 -0.000000 -3.663687	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone04BlendBonecolourise_subsurface_skinned	</identifier>
+				<transform>
+					<row0>	0.420009 0.000000 0.907520	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.907520 0.000000 0.420009	</row2>
+					<row3>	4.691013 -0.000000 1.545268	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone07	</identifier>
+			<transform>
+				<row0>	0.377297 0.000000 -0.926092	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.926092 0.000000 0.377297	</row2>
+				<row3>	-3.009353 0.000000 4.197084	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone08	</identifier>
+				<transform>
+					<row0>	-0.633894 0.000000 0.773420	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.773420 0.000000 -0.633894	</row2>
+					<row3>	0.868834 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone09	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.890109 0.000000 -0.000018	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone09BlendBonecolourise_lightonly_skinned	</identifier>
+						<transform>
+							<row0>	0.477092 0.000000 -0.878853	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.878853 0.000000 0.477092	</row2>
+							<row3>	-0.997411 -0.000000 -5.709881	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone08BlendBonecolourise_lightonly_skinned	</identifier>
+					<transform>
+						<row0>	0.477092 0.000000 -0.878853	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.878853 0.000000 0.477092	</row2>
+						<row3>	-0.107302 -0.000000 -5.709898	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone07BlendBonecolourise_lightonly_skinned	</identifier>
+				<transform>
+					<row0>	0.377297 0.000000 0.926092	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.926092 0.000000 0.377297	</row2>
+					<row3>	5.353002 -0.000000 3.536481	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone10	</identifier>
+			<transform>
+				<row0>	0.320314 0.000000 -0.947311	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.947311 0.000000 0.320314	</row2>
+				<row3>	-5.081199 0.000000 4.229311	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone11	</identifier>
+				<transform>
+					<row0>	-0.771984 0.000000 0.635642	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.635642 0.000000 -0.771984	</row2>
+					<row3>	0.805006 0.000000 -0.000025	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone12	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.803953 0.000000 -0.000001	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone12BlendBonecolourise_normalmap_specmap_skinned	</identifier>
+						<transform>
+							<row0>	0.354873 0.000000 -0.934914	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.934914 -0.000000 0.354873	</row2>
+							<row3>	-6.976156 -0.000000 3.001723	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone11BlendBonecolourise_normalmap_specmap_skinned	</identifier>
+					<transform>
+						<row0>	0.354873 0.000000 -0.934914	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.934914 -0.000000 0.354873	</row2>
+						<row3>	-6.172202 -0.000000 3.001724	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone10BlendBonecolourise_normalmap_specmap_skinned	</identifier>
+				<transform>
+					<row0>	0.320314 0.000000 0.947311	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.947311 0.000000 0.320314	</row2>
+					<row3>	3.661829 -0.000000 -6.240619	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone16	</identifier>
+			<transform>
+				<row0>	0.322901 0.000000 -0.946433	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.946433 0.000000 0.322901	</row2>
+				<row3>	0.486399 0.000000 -3.001132	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone17	</identifier>
+				<transform>
+					<row0>	-0.637324 0.000000 0.770596	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.770596 0.000000 -0.637324	</row2>
+					<row3>	0.836937 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone18	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.907807 0.000000 -0.000002	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone18BlendBonelightonly_skinned	</identifier>
+						<transform>
+							<row0>	0.523525 0.000000 -0.852010	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.852010 0.000000 0.523525	</row2>
+							<row3>	2.303211 -0.000000 0.765839	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone17BlendBonelightonly_skinned	</identifier>
+					<transform>
+						<row0>	0.523525 0.000000 -0.852011	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.852011 0.000000 0.523525	</row2>
+						<row3>	3.211020 -0.000000 0.765836	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone16BlendBonelightonly_skinned	</identifier>
+				<transform>
+					<row0>	0.322901 0.000000 0.946433	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.946433 0.000000 0.322901	</row2>
+					<row3>	-1.799673 -0.000000 1.986312	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone19	</identifier>
+			<transform>
+				<row0>	0.445983 -0.685641 -0.575321	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.895041 0.341643 0.286673	</row2>
+				<row3>	3.971612 0.079923 -8.243522	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone20	</identifier>
+				<transform>
+					<row0>	-0.567870 0.000000 0.823119	</row0>
+					<row1>	-0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.823119 0.000000 -0.567870	</row2>
+					<row3>	0.702206 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone21	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	-0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.589707 -0.000001 0.000010	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone21BlendBonesubsurface_skinned	</identifier>
+						<transform>
+							<row0>	0.483464 0.000000 -0.875364	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.875364 -0.000000 0.483464	</row2>
+							<row3>	1.533078 -0.000000 6.970002	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone20BlendBonesubsurface_skinned	</identifier>
+					<transform>
+						<row0>	0.483464 0.000000 -0.875364	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.875364 -0.000000 0.483464	</row2>
+						<row3>	2.122785 -0.000000 6.970012	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone19BlendBonesubsurface_skinned	</identifier>
+				<transform>
+					<row0>	0.445983 0.000000 0.895041	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.895041 0.000000 0.445983	</row2>
+					<row3>	-6.240407 -0.000000 -2.210757	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Text33	</identifier>
+			<transform>
+				<row0>	0.831134 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.831134 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.831134	</row2>
+				<row3>	0.846482 0.000000 -2.837609	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text39	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-0.978727 0.238269 -8.030167	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text40	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	2.406424 0.249964 -8.100841	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text42	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	4.264342 0.297504 -8.060950	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	colourise_normalmap_specmap	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	1.677444 0.000000 3.794848	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	colourise_normalmap_specmap_chrome	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	4.780346 0.000000 3.724955	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	colourise_normalmap_specmap_chrome_glow	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	8.109777 0.000000 3.702622	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text47	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-2.417226 0.222954 -8.043017	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	distort	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-2.336209 -0.193437 -8.392410	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_dual	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-1.819385 0.000000 -1.174693	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_uvtransform2	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	0.711338 -0.086788 -5.781535	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_uvtransform2_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	2.777738 -0.086788 -5.781535	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_uvtransform2_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	5.195754 -0.086788 -5.781535	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_vertexcolour	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.316428 0.000000 -1.186429	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	mesh_particle	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-6.707747 -0.085946 10.575426	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	mesh_particle_add	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-5.111514 -0.085946 10.575426	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	mesh_particle_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-3.183239 -0.085946 10.575426	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	normalmap	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	0.661950 -0.093470 8.626445	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	normalmap_chrome	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	2.314255 -0.093470 8.626445	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Bone24	</identifier>
+			<transform>
+				<row0>	0.420009 -0.641714 -0.641714	</row0>
+				<row1>	-0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.907520 0.296991 0.296991	</row2>
+				<row3>	0.046890 0.151477 6.474604	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone23	</identifier>
+				<transform>
+					<row0>	-0.726444 -0.000000 0.687225	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.687226 -0.000000 -0.726444	</row2>
+					<row3>	0.993337 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone22	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.958878 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone22BlendBonenormalmap_chrome_skinned	</identifier>
+						<transform>
+							<row0>	0.318558 0.000000 -0.947903	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.947903 -0.000000 0.318558	</row2>
+							<row3>	-2.583085 -0.000000 -3.663688	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone23BlendBonenormalmap_chrome_skinned	</identifier>
+					<transform>
+						<row0>	0.318558 0.000000 -0.947903	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.947903 -0.000000 0.318558	</row2>
+						<row3>	-1.624208 -0.000000 -3.663687	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone24BlendBonenormalmap_chrome_skinned	</identifier>
+				<transform>
+					<row0>	0.420009 0.000000 0.907520	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.907520 0.000000 0.420009	</row2>
+					<row3>	4.691013 -0.000000 1.545268	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Text58	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	0.508172 0.355594 6.678722	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text59	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	2.973659 0.355594 6.678722	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Bone27	</identifier>
+			<transform>
+				<row0>	0.420009 -0.641714 -0.641714	</row0>
+				<row1>	-0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.907520 0.296991 0.296991	</row2>
+				<row3>	2.512376 0.151477 6.474604	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone26	</identifier>
+				<transform>
+					<row0>	-0.726444 -0.000000 0.687225	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.687226 -0.000000 -0.726444	</row2>
+					<row3>	0.993337 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone25	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.958878 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone25BlendBonenormalmap_skinned	</identifier>
+						<transform>
+							<row0>	0.318558 0.000000 -0.947903	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.947903 -0.000000 0.318558	</row2>
+							<row3>	-2.583085 -0.000000 -3.663688	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone26BlendBonenormalmap_skinned	</identifier>
+					<transform>
+						<row0>	0.318558 0.000000 -0.947903	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.947903 -0.000000 0.318558	</row2>
+						<row3>	-1.624208 -0.000000 -3.663687	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone27BlendBonenormalmap_skinned	</identifier>
+				<transform>
+					<row0>	0.420009 0.000000 0.907520	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.907520 0.000000 0.420009	</row2>
+					<row3>	4.691013 -0.000000 1.545268	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	normalmap_specmap_alpha	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	10.480750 -0.069909 8.650005	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	normalmap_specmap_chrome	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	4.614380 -0.069909 8.650005	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	normalmap_specmap_chrome_glow	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	7.608062 -0.069909 8.650005	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text63	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	5.793346 0.357748 6.680876	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Bone30	</identifier>
+			<transform>
+				<row0>	0.420009 -0.641714 -0.641714	</row0>
+				<row1>	-0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.907520 0.296991 0.296991	</row2>
+				<row3>	5.627830 0.065054 6.388182	</row3>
+			</transform>
+			<node>
+				<identifier>	normalmap_specmap_chrome_glow_skinned	</identifier>
+				<transform>
+					<row0>	-0.726444 -0.000000 0.687225	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.687226 -0.000000 -0.726444	</row2>
+					<row3>	0.993337 0.000000 -0.000001	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone29	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.958877 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone29BlendBonenormalmap_specmap_chrome_glow_skinned	</identifier>
+						<transform>
+							<row0>	0.318558 0.000000 -0.947903	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.947903 -0.000000 0.318558	</row2>
+							<row3>	-2.583085 -0.000000 -3.663688	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	normalmap_specmap_chrome_glow_skinnedBlendBonenormalmap_specmap_chrome_glow_skinned	</identifier>
+					<transform>
+						<row0>	0.318558 0.000000 -0.947903	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.947903 -0.000000 0.318558	</row2>
+						<row3>	-1.624208 -0.000000 -3.663687	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone30BlendBonenormalmap_specmap_chrome_glow_skinned	</identifier>
+				<transform>
+					<row0>	0.420009 0.000000 0.907520	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.907520 0.000000 0.420009	</row2>
+					<row3>	4.691013 -0.000000 1.545268	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone31	</identifier>
+			<transform>
+				<row0>	0.420009 -0.641714 -0.641714	</row0>
+				<row1>	-0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.907520 0.296991 0.296991	</row2>
+				<row3>	9.584112 0.064001 6.387128	</row3>
+			</transform>
+			<node>
+				<identifier>	normalmap_specmap_chrome_skinned	</identifier>
+				<transform>
+					<row0>	-0.726444 -0.000000 0.687225	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.687226 -0.000000 -0.726444	</row2>
+					<row3>	0.993337 0.000000 -0.000001	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone32	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.958878 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone32BlendBonenormalmap_specmap_chrome_skinned	</identifier>
+						<transform>
+							<row0>	0.318558 0.000000 -0.947903	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.947903 -0.000000 0.318558	</row2>
+							<row3>	-2.583085 -0.000000 -3.663688	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	normalmap_specmap_chrome_skinnedBlendBonenormalmap_specmap_chrome_skinned	</identifier>
+					<transform>
+						<row0>	0.318558 0.000000 -0.947903	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.947903 -0.000000 0.318558	</row2>
+						<row3>	-1.624208 -0.000000 -3.663687	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone31BlendBonenormalmap_specmap_chrome_skinned	</identifier>
+				<transform>
+					<row0>	0.420009 0.000000 0.907520	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.907520 0.000000 0.420009	</row2>
+					<row3>	4.691013 -0.000000 1.545268	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Text64	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.707107 -0.707107	</row1>
+				<row2>	0.000000 0.707107 0.707107	</row2>
+				<row3>	9.749630 0.356694 6.679821	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	water_surface	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-3.906695 -0.137562 -8.345526	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text65	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	-4.028570 0.227822 -8.038932	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text66	</identifier>
+			<transform>
+				<row0>	0.554489 0.000000 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -1.000000	</row1>
+				<row2>	0.000000 0.554489 -0.000000	</row2>
+				<row3>	-2.674525 0.433223 3.853396	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text67	</identifier>
+			<transform>
+				<row0>	0.628862 0.000000 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -0.628862	</row1>
+				<row2>	0.000000 0.628862 -0.000000	</row2>
+				<row3>	-0.569489 0.389341 3.767752	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text69	</identifier>
+			<transform>
+				<row0>	0.831134 0.000000 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -0.831134	</row1>
+				<row2>	0.000000 0.831134 -0.000000	</row2>
+				<row3>	0.871779 0.313672 -3.462801	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.653909 0.000000 0.756573	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.756573 0.000000 0.653909	</row2>
+				<row3>	-6.837281 0.000000 6.093122	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.584423 0.000000 -0.000001	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone02BlendBonenormalmap_chrome_glow_skinned	</identifier>
+					<transform>
+						<row0>	0.653909 0.000000 -0.756573	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.756573 0.000000 0.653909	</row2>
+						<row3>	-2.167177 -0.000000 -7.829632	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBonenormalmap_chrome_glow_skinned	</identifier>
+				<transform>
+					<row0>	0.653909 0.000000 -0.756573	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.756573 0.000000 0.653909	</row2>
+					<row3>	-1.582755 -0.000000 -7.829633	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone03	</identifier>
+			<transform>
+				<row0>	0.564416 0.000000 0.825490	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.825490 0.000000 0.564416	</row2>
+				<row3>	-4.858716 0.000000 6.072368	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone13	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.673986 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone13BlendBonenormalmap_glow_skinned	</identifier>
+					<transform>
+						<row0>	0.564416 0.000000 -0.825490	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.825490 0.000000 0.564416	</row2>
+						<row3>	-4.229222 -0.000000 -5.956191	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone03BlendBonenormalmap_glow_skinned	</identifier>
+				<transform>
+					<row0>	0.564416 0.000000 -0.825490	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.825490 0.000000 0.564416	</row2>
+					<row3>	-3.555237 -0.000000 -5.956191	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone14	</identifier>
+			<transform>
+				<row0>	0.368516 0.000000 0.929622	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.929622 0.000000 0.368516	</row2>
+				<row3>	-2.657085 0.000000 5.852837	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone15	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.786535 0.000000 -0.000001	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone15BlendBonenormalmap_specmap_skinned	</identifier>
+					<transform>
+						<row0>	0.368516 0.000000 -0.929622	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.929622 0.000000 0.368516	</row2>
+						<row3>	-6.174796 -0.000000 -2.898140	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone14BlendBonenormalmap_specmap_skinned	</identifier>
+				<transform>
+					<row0>	0.368516 0.000000 -0.929622	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.929622 0.000000 0.368516	</row2>
+					<row3>	-5.388260 -0.000000 -2.898141	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Bone33	</identifier>
+			<transform>
+				<row0>	0.322901 0.000000 -0.946433	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.946433 0.000000 0.322901	</row2>
+				<row3>	-6.377546 0.000000 -9.668651	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone34	</identifier>
+				<transform>
+					<row0>	-0.637324 0.000000 0.770596	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.770596 0.000000 -0.637324	</row2>
+					<row3>	0.836938 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone35	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.907808 0.000000 -0.000002	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone35BlendBonelightonly_skinned01	</identifier>
+						<transform>
+							<row0>	0.523525 0.000000 -0.852010	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.852010 0.000000 0.523525	</row2>
+							<row3>	2.303211 -0.000000 0.765839	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone34BlendBonelightonly_skinned01	</identifier>
+					<transform>
+						<row0>	0.523525 0.000000 -0.852011	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.852011 0.000000 0.523525	</row2>
+						<row3>	3.211020 -0.000000 0.765836	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone33BlendBonelightonly_skinned01	</identifier>
+				<transform>
+					<row0>	0.322901 0.000000 0.946433	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.946433 0.000000 0.322901	</row2>
+					<row3>	-1.799673 -0.000000 1.986312	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Text01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.819152 -0.573576	</row1>
+				<row2>	0.000000 0.573576 0.819152	</row2>
+				<row3>	-6.032065 0.000000 -9.432643	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text70	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -1.000000	</row1>
+				<row2>	0.000000 1.000000 -0.000000	</row2>
+				<row3>	-6.032065 0.441039 -10.091749	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text071	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.819152 -0.573576	</row1>
+				<row2>	0.000000 0.573576 0.819152	</row2>
+				<row3>	2.875753 0.000000 -0.618507	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_dual_multiply	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	2.576243 0.000000 -1.375175	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	lightonly_uvtransform2_alpha_mask	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.642788 -0.766044	</row1>
+				<row2>	0.000000 0.766044 0.642788	</row2>
+				<row3>	7.645222 -0.086788 -5.781535	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	no_lighting	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-3.606608 0.000000 -10.028442	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Text073	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.766044 -0.642788	</row1>
+				<row2>	0.000000 0.642788 0.766044	</row2>
+				<row3>	-3.604525 0.000000 -9.494007	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone34BlendBonelightonly_skinned01	</node>
+		<node>	Bone35BlendBonelightonly_skinned01	</node>
+		<node>	Bone33BlendBonelightonly_skinned01	</node>
+		<geometry>
+			<vertices>	lightonly_skinned01.vertices	</vertices>
+			<primitive>	lightonly_skinned01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	ambient_skylight_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/ambient_skylight_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	maskMap
+						<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	exporter_test_files/maps/sub_surface.tga	</Texture>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.027451 0.180392 0.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour3
+						<Vector4>	0.623529 0.898039 0.094118 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour4
+						<Vector4>	1.000000 0.521569 0.007843 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.960000	</Float>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.140000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	1.360000	</Float>
+					</property>
+					<property>	rimStrength
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	89	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	normalmap_specmap_chrome_skinnedBlendBonenormalmap_specmap_chrome_skinned	</node>
+		<node>	Bone32BlendBonenormalmap_specmap_chrome_skinned	</node>
+		<node>	Bone31BlendBonenormalmap_specmap_chrome_skinned	</node>
+		<geometry>
+			<vertices>	normalmap_specmap_chrome_skinned.vertices	</vertices>
+			<primitive>	normalmap_specmap_chrome_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_specmap_chrome_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	2.140000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.390000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.370000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.080000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	27	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	normalmap_specmap_chrome_glow_skinnedBlendBonenormalmap_specmap_chrome_glow_skinned	</node>
+		<node>	Bone29BlendBonenormalmap_specmap_chrome_glow_skinned	</node>
+		<node>	Bone30BlendBonenormalmap_specmap_chrome_glow_skinned	</node>
+		<geometry>
+			<vertices>	normalmap_specmap_chrome_glow_skinned.vertices	</vertices>
+			<primitive>	normalmap_specmap_chrome_glow_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_specmap_chrome_glow_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_glow_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 0.047059 0.898039 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.580000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.190000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	59	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone26BlendBonenormalmap_skinned	</node>
+		<node>	Bone25BlendBonenormalmap_skinned	</node>
+		<node>	Bone27BlendBonenormalmap_skinned	</node>
+		<geometry>
+			<vertices>	normalmap_skinned.vertices	</vertices>
+			<primitive>	normalmap_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.200000 1.000000 0.725490 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.250000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	35	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone23BlendBonenormalmap_chrome_skinned	</node>
+		<node>	Bone22BlendBonenormalmap_chrome_skinned	</node>
+		<node>	Bone24BlendBonenormalmap_chrome_skinned	</node>
+		<geometry>
+			<vertices>	normalmap_chrome_skinned.vertices	</vertices>
+			<primitive>	normalmap_chrome_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_chrome_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.752941 0.000000 0.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	3.090000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.480000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.580000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	51	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone20BlendBonesubsurface_skinned	</node>
+		<node>	Bone21BlendBonesubsurface_skinned	</node>
+		<node>	Bone19BlendBonesubsurface_skinned	</node>
+		<geometry>
+			<vertices>	subsurface_skinned.vertices	</vertices>
+			<primitive>	subsurface_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	subsurface_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	exporter_test_files/maps/col_green.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.220000	</Float>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.040000	</Float>
+					</property>
+					<property>	rimStrength
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	36	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone17BlendBonelightonly_skinned	</node>
+		<node>	Bone18BlendBonelightonly_skinned	</node>
+		<node>	Bone16BlendBonelightonly_skinned	</node>
+		<geometry>
+			<vertices>	lightonly_skinned.vertices	</vertices>
+			<primitive>	lightonly_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.060000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	14	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone05BlendBonecolourise_subsurface_skinned	</node>
+		<node>	Bone06BlendBonecolourise_subsurface_skinned	</node>
+		<node>	Bone04BlendBonecolourise_subsurface_skinned	</node>
+		<geometry>
+			<vertices>	colourise_subsurface_skinned.vertices	</vertices>
+			<primitive>	colourise_subsurface_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	colourise_subsurface_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/colourise_subsurface_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	maskMap
+						<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	0.380392 0.066667 0.705882 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.913726 0.152941 0.776471 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour3
+						<Vector4>	1.000000 0.674510 0.674510 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour4
+						<Vector4>	0.015686 0.270588 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.560000	</Float>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	0.190000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.470000	</Float>
+					</property>
+					<property>	rimStrength
+						<Float>	0.510000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	53	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone08BlendBonecolourise_lightonly_skinned	</node>
+		<node>	Bone09BlendBonecolourise_lightonly_skinned	</node>
+		<node>	Bone07BlendBonecolourise_lightonly_skinned	</node>
+		<geometry>
+			<vertices>	colourise_lightonly_skinned.vertices	</vertices>
+			<primitive>	colourise_lightonly_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	colourise_lightonly_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/colourise_lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	maskMap
+						<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+					</property>
+					<property>	skinColour
+						<Vector4>	0.000000 0.286275 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	hairColour
+						<Vector4>	0.282353 1.000000 0.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	1.000000 0.443137 0.443137 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.211765 0.000000 0.282353 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.210000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	8	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone11BlendBonecolourise_normalmap_specmap_skinned	</node>
+		<node>	Bone12BlendBonecolourise_normalmap_specmap_skinned	</node>
+		<node>	Bone10BlendBonecolourise_normalmap_specmap_skinned	</node>
+		<node>	colourise_normalmap_specmap_skinnedBlendBonecolourise_normalmap_specmap_skinned	</node>
+		<geometry>
+			<vertices>	colourise_normalmap_specmap_skinned.vertices	</vertices>
+			<primitive>	colourise_normalmap_specmap_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	colourise_normalmap_specmap_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/colourise_normalmap_specmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	maskMap
+						<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	0.858824 1.000000 0.145098 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.015686 0.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour3
+						<Vector4>	0.400000 1.000000 0.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour4
+						<Vector4>	1.000000 1.000000 0.057554 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.920000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	20	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone14BlendBonenormalmap_specmap_skinned	</node>
+		<node>	Bone15BlendBonenormalmap_specmap_skinned	</node>
+		<geometry>
+			<vertices>	normalmap_specmap_skinned.vertices	</vertices>
+			<primitive>	normalmap_specmap_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_specmap_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.480000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	9	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone03BlendBonenormalmap_glow_skinned	</node>
+		<node>	Bone13BlendBonenormalmap_glow_skinned	</node>
+		<geometry>
+			<vertices>	normalmap_glow_skinned.vertices	</vertices>
+			<primitive>	normalmap_glow_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_glow_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_glow_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.807843 0.058824 0.705882 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.310000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.480000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	42	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBonenormalmap_chrome_glow_skinned	</node>
+		<node>	Bone02BlendBonenormalmap_chrome_glow_skinned	</node>
+		<geometry>
+			<vertices>	normalmap_chrome_glow_skinned.vertices	</vertices>
+			<primitive>	normalmap_chrome_glow_skinned.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_chrome_glow_skinned_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome_glow_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.439216 1.000000 0.058824 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.480000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.740000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	33	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text073	</node>
+		<geometry>
+			<vertices>	Text073.vertices	</vertices>
+			<primitive>	Text073.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #27	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	no_lighting	</node>
+		<geometry>
+			<vertices>	no_lighting.vertices	</vertices>
+			<primitive>	no_lighting.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	no_lighting	</identifier>
+					<fx>	shaders/std_effects/no_lighting.fx	</fx>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_uvtransform2_alpha_mask	</node>
+		<geometry>
+			<vertices>	lightonly_uvtransform2_alpha_mask.vertices	</vertices>
+			<primitive>	lightonly_uvtransform2_alpha_mask.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_uvtransform2_alpha_mask	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha_mask.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_dual_multiply	</node>
+		<geometry>
+			<vertices>	lightonly_dual_multiply.vertices	</vertices>
+			<stream>	lightonly_dual_multiply.uv2	</stream>
+			<stream>	lightonly_dual_multiply.colour	</stream>
+			<primitive>	lightonly_dual_multiply.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_dual_multiply	</identifier>
+					<fx>	shaders/std_effects/lightonly_dual_multiply.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	diffuseMap2
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.310000	</Float>
+					</property>
+					<property>	diffuseMapmapChannel
+						<Int>	1	</Int>
+					</property>
+					<property>	diffuseMap2mapChannel
+						<Int>	2	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	64	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text071	</node>
+		<geometry>
+			<vertices>	Text071.vertices	</vertices>
+			<primitive>	Text071.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text70	</node>
+		<geometry>
+			<vertices>	Text70.vertices	</vertices>
+			<primitive>	Text70.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text01	</node>
+		<geometry>
+			<vertices>	Text01.vertices	</vertices>
+			<primitive>	Text01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text69	</node>
+		<geometry>
+			<vertices>	Text69.vertices	</vertices>
+			<primitive>	Text69.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text67	</node>
+		<geometry>
+			<vertices>	Text67.vertices	</vertices>
+			<primitive>	Text67.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text66	</node>
+		<geometry>
+			<vertices>	Text66.vertices	</vertices>
+			<primitive>	Text66.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text65	</node>
+		<geometry>
+			<vertices>	Text65.vertices	</vertices>
+			<primitive>	Text65.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	water_surface	</node>
+		<geometry>
+			<vertices>	water_surface.vertices	</vertices>
+			<primitive>	water_surface.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	water_surface	</identifier>
+					<fx>	shaders/std_effects/water_surface.fx	</fx>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	waveAnimation
+						<Vector4>	0.100000 0.100000 0.100000 0.100000	</Vector4>
+					</property>
+					<property>	reflectionTint
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	invertFresnel
+						<Bool>	false	</Bool>
+					</property>
+					<property>	vertexExtrusion
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	rippleScale
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	waveTiling
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	smoothness
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	sunPower
+						<Float>	32.000000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelScale
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	reflectionScale
+						<Float>	1.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text64	</node>
+		<geometry>
+			<vertices>	Text64.vertices	</vertices>
+			<primitive>	Text64.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text63	</node>
+		<geometry>
+			<vertices>	Text63.vertices	</vertices>
+			<primitive>	Text63.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_specmap_chrome_glow	</node>
+		<geometry>
+			<vertices>	normalmap_specmap_chrome_glow.vertices	</vertices>
+			<primitive>	normalmap_specmap_chrome_glow.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_specmap_chrome_glow	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_glow.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.035294 0.662745 0.858824 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.690000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	4.070000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.280000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.030000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.400000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	65	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_specmap_chrome	</node>
+		<geometry>
+			<vertices>	normalmap_specmap_chrome.vertices	</vertices>
+			<primitive>	normalmap_specmap_chrome.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_specmap_chrome	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.570000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.610000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.350000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	7	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_specmap_alpha	</node>
+		<geometry>
+			<vertices>	normalmap_specmap_alpha.vertices	</vertices>
+			<primitive>	normalmap_specmap_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_specmap_alpha	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	60	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text59	</node>
+		<geometry>
+			<vertices>	Text59.vertices	</vertices>
+			<primitive>	Text59.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text58	</node>
+		<geometry>
+			<vertices>	Text58.vertices	</vertices>
+			<primitive>	Text58.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_chrome	</node>
+		<geometry>
+			<vertices>	normalmap_chrome.vertices	</vertices>
+			<primitive>	normalmap_chrome.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_crhome	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.894118 0.698039 0.164706 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	7.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.320000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.190000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	11	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap	</node>
+		<geometry>
+			<vertices>	normalmap.vertices	</vertices>
+			<primitive>	normalmap.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap	</identifier>
+					<fx>	shaders/std_effects/normalmap.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.866667 0.000000 0.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.230000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	15	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mesh_particle_alpha	</node>
+		<geometry>
+			<vertices>	mesh_particle_alpha.vertices	</vertices>
+			<primitive>	mesh_particle_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	mesh_particle_alpha	</identifier>
+					<fx>	shaders/std_effects/mesh_particle_alpha.fx	</fx>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mesh_particle_add	</node>
+		<geometry>
+			<vertices>	mesh_particle_add.vertices	</vertices>
+			<primitive>	mesh_particle_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	mesh_particle_add	</identifier>
+					<fx>	shaders/std_effects/mesh_particle_add.fx	</fx>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	mesh_particle	</node>
+		<geometry>
+			<vertices>	mesh_particle.vertices	</vertices>
+			<primitive>	mesh_particle.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	mesh_particle	</identifier>
+					<fx>	shaders/std_effects/mesh_particle.fx	</fx>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_vertexcolour	</node>
+		<geometry>
+			<vertices>	lightonly_vertexcolour.vertices	</vertices>
+			<stream>	lightonly_vertexcolour.colour	</stream>
+			<primitive>	lightonly_vertexcolour.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_vertexcolour	</identifier>
+					<fx>	shaders/std_effects/lightonly_vertexcolour.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.470000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	31	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_uvtransform2_alpha	</node>
+		<geometry>
+			<vertices>	lightonly_uvtransform2_alpha.vertices	</vertices>
+			<primitive>	lightonly_uvtransform2_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_uvtransform2_alpha	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.360784 0.431373 0.424460 0.352518	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.402878 0.604317	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_uvtransform2_add	</node>
+		<geometry>
+			<vertices>	lightonly_uvtransform2_add.vertices	</vertices>
+			<primitive>	lightonly_uvtransform2_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_uvtransform2_add	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_add.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.619608 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	0.000000 0.501961 1.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	146	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_uvtransform2	</node>
+		<geometry>
+			<vertices>	lightonly_uvtransform2.vertices	</vertices>
+			<primitive>	lightonly_uvtransform2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_uvtransform2	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.000000 1.000000 0.545098 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.300000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	12	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_dual	</node>
+		<geometry>
+			<vertices>	lightonly_dual.vertices	</vertices>
+			<stream>	lightonly_dual.uv2	</stream>
+			<stream>	lightonly_dual.colour	</stream>
+			<primitive>	lightonly_dual.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_dual	</identifier>
+					<fx>	shaders/std_effects/lightonly_dual.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	diffuseMap2
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.310000	</Float>
+					</property>
+					<property>	diffuseMapmapChannel
+						<Int>	1	</Int>
+					</property>
+					<property>	diffuseMap2mapChannel
+						<Int>	2	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	64	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	distort	</node>
+		<geometry>
+			<vertices>	distort.vertices	</vertices>
+			<primitive>	distort.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	distort	</identifier>
+					<fx>	shaders/std_effects/distort.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	tint
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	useDiffuse
+						<Bool>	false	</Bool>
+					</property>
+					<property>	useOverlay
+						<Bool>	false	</Bool>
+					</property>
+					<property>	useReflection
+						<Bool>	false	</Bool>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	scale
+						<Float>	0.010000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text47	</node>
+		<geometry>
+			<vertices>	Text47.vertices	</vertices>
+			<primitive>	Text47.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	colourise_normalmap_specmap_chrome_glow	</node>
+		<geometry>
+			<vertices>	colourise_normalmap_specmap_chrome_glow.vertices	</vertices>
+			<primitive>	colourise_normalmap_specmap_chrome_glow.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	colourise_normalmap_specmap_chrome_glow	</identifier>
+					<fx>	shaders/std_effects/colourise_normalmap_specmap_chrome_glow.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.211765 0.027451 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	5.820000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.400000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.460000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	10	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	colourise_normalmap_specmap_chrome	</node>
+		<geometry>
+			<vertices>	colourise_normalmap_specmap_chrome.vertices	</vertices>
+			<primitive>	colourise_normalmap_specmap_chrome.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	colourise_normalmap_specmap_chrome	</identifier>
+					<fx>	shaders/std_effects/colourise_normalmap_specmap_chrome.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.310000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	4.800000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.020000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	colourise_normalmap_specmap	</node>
+		<geometry>
+			<vertices>	colourise_normalmap_specmap.vertices	</vertices>
+			<primitive>	colourise_normalmap_specmap.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	colourise_normalmap_specmap	</identifier>
+					<fx>	shaders/std_effects/colourise_normalmap_specmap.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	maskMap
+						<Texture>	exporter_test_files/maps/checkeredmap.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	clothesColour1
+						<Vector4>	0.192157 0.600000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour2
+						<Vector4>	0.376471 0.827451 0.196078 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour3
+						<Vector4>	0.227451 0.211765 0.945098 1.000000	</Vector4>
+					</property>
+					<property>	clothesColour4
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.870000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	30	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text42	</node>
+		<geometry>
+			<vertices>	Text42.vertices	</vertices>
+			<primitive>	Text42.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text40	</node>
+		<geometry>
+			<vertices>	Text40.vertices	</vertices>
+			<primitive>	Text40.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text39	</node>
+		<geometry>
+			<vertices>	Text39.vertices	</vertices>
+			<primitive>	Text39.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Text33	</node>
+		<geometry>
+			<vertices>	Text33.vertices	</vertices>
+			<primitive>	Text33.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	name	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	spintoface_add	</node>
+		<geometry>
+			<vertices>	spintoface_add.vertices	</vertices>
+			<primitive>	spintoface_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	spintoface_add	</identifier>
+					<fx>	shaders/std_effects/spintoface_add.fx	</fx>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	shimmer2	</node>
+		<geometry>
+			<vertices>	shimmer2.vertices	</vertices>
+			<primitive>	shimmer2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	shimmer	</identifier>
+					<fx>	shaders/std_effects/shimmer.fx	</fx>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	parallax_lighting_specmap	</node>
+		<geometry>
+			<vertices>	parallax_lighting_specmap.vertices	</vertices>
+			<primitive>	parallax_lighting_specmap.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	parallax_lighting_specmap	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.250000	</Float>
+					</property>
+					<property>	parallaxScale
+						<Float>	0.150000	</Float>
+					</property>
+					<property>	parallaxAspectRatio
+						<Float>	1.670000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	26	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_uvtransform_alpha	</node>
+		<geometry>
+			<vertices>	lightonly_uvtransform_alpha.vertices	</vertices>
+			<primitive>	lightonly_uvtransform_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_uvtransform_alpha	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.996078 0.533333 1.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 1.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	74	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_uvtransform_add	</node>
+		<geometry>
+			<vertices>	lightonly_uvtransform_add.vertices	</vertices>
+			<primitive>	lightonly_uvtransform_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_uvtransform_add	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform_add.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.435294 1.000000 0.674510 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 1.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.120000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	70	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	16	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_uvtransform	</node>
+		<geometry>
+			<vertices>	lightonly_uvtransform.vertices	</vertices>
+			<primitive>	lightonly_uvtransform.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_uvtransform	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.172549 0.670588 0.631373 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.062745 0.960784 0.321569 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.310000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	3	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_projection_alpha	</node>
+		<geometry>
+			<vertices>	lightonly_projection_alpha.vertices	</vertices>
+			<primitive>	lightonly_projection_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_projection_alpha	</identifier>
+					<fx>	shaders/std_effects/lightonly_projection_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.533333 0.788235 0.431373 0.345324	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	41	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_projection_add	</node>
+		<geometry>
+			<vertices>	lightonly_projection_add.vertices	</vertices>
+			<primitive>	lightonly_projection_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_projection_add	</identifier>
+					<fx>	shaders/std_effects/lightonly_projection_add.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.356863 0.356863 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	43	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_projection	</node>
+		<geometry>
+			<vertices>	lightonly_projection.vertices	</vertices>
+			<primitive>	lightonly_projection.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_projection	</identifier>
+					<fx>	shaders/std_effects/lightonly_projection.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.556863 0.791367 0.403922 0.359712	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.400000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	17	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_normal_alpha	</node>
+		<geometry>
+			<vertices>	lightonly_normal_alpha.vertices	</vertices>
+			<primitive>	lightonly_normal_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_normal_alpha	</identifier>
+					<fx>	shaders/std_effects/lightonly_normal_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	52	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_normal_add	</node>
+		<geometry>
+			<vertices>	lightonly_normal_add.vertices	</vertices>
+			<primitive>	lightonly_normal_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_normal_add	</identifier>
+					<fx>	shaders/std_effects/lightonly_normal_add.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.060000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	20	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_normal	</node>
+		<geometry>
+			<vertices>	lightonly_normal.vertices	</vertices>
+			<primitive>	lightonly_normal.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_normal	</identifier>
+					<fx>	shaders/std_effects/lightonly_normal.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.231373 1.000000 0.352941 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.350000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	23	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_glow_alpha	</node>
+		<geometry>
+			<vertices>	lightonly_glow_alpha.vertices	</vertices>
+			<primitive>	lightonly_glow_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_glow_alpha	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.300000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.330000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	19	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_glow	</node>
+		<geometry>
+			<vertices>	lightonly_glow.vertices	</vertices>
+			<primitive>	lightonly_glow.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_glow	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.540000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_chrome_alpha	</node>
+		<geometry>
+			<vertices>	lightonly_chrome_alpha.vertices	</vertices>
+			<primitive>	lightonly_chrome_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_chrome_alpha	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.100000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.340000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	1.890000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.240000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	32	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_chrome_add	</node>
+		<geometry>
+			<vertices>	lightonly_chrome_add.vertices	</vertices>
+			<primitive>	lightonly_chrome_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_chrome_add	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome_add.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.040000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.170000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	1.560000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	2	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	18	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_chrome	</node>
+		<geometry>
+			<vertices>	lightonly_chrome.vertices	</vertices>
+			<primitive>	lightonly_chrome.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_chrome	</identifier>
+					<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	exporter_test_files/maps/ref_bwclouds.bmp	</Texture>
+					</property>
+					<property>	uTransform
+						<Vector4>	0.000000 0.278431 0.847059 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.260000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	0.530000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	3.080000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.430000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	11	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	textureOperation
+						<Int>	18	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_alpha	</node>
+		<geometry>
+			<vertices>	lightonly_alpha.vertices	</vertices>
+			<primitive>	lightonly_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_alpha	</identifier>
+					<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.400000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	58	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly_add	</node>
+		<geometry>
+			<vertices>	lightonly_add.vertices	</vertices>
+			<primitive>	lightonly_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly_add	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lightonly	</node>
+		<geometry>
+			<vertices>	lightonly.vertices	</vertices>
+			<primitive>	lightonly.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lightonly	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.120000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	5	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	colourise_add	</node>
+		<geometry>
+			<vertices>	colourise_add.vertices	</vertices>
+			<primitive>	colourise_add.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	colourise_add	</identifier>
+					<fx>	shaders/std_effects/colourise_add.fx	</fx>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_specmap	</node>
+		<geometry>
+			<vertices>	normalmap_specmap.vertices	</vertices>
+			<primitive>	normalmap_specmap.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_specmap	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.100000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	37	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_chrome_glow	</node>
+		<geometry>
+			<vertices>	normalmap_chrome_glow.vertices	</vertices>
+			<primitive>	normalmap_chrome_glow.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_chrome_glow	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	exporter_test_files/maps/cube_map.dds	</Texture>
+					</property>
+					<property>	reflectionMask
+						<Texture>	exporter_test_files/maps/checkered_mask.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.580000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	7.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.130000	</Float>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.740000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_glow_alpha	</node>
+		<geometry>
+			<vertices>	normalmap_glow_alpha.vertices	</vertices>
+			<primitive>	normalmap_glow_alpha.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_glow_alpha	</identifier>
+					<fx>	shaders/std_effects/normalmap_glow_alpha.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/glow.tga	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	0.920000	</Float>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	alphaReference
+						<Int>	39	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	normalmap_glow	</node>
+		<geometry>
+			<vertices>	normalmap_glow.vertices	</vertices>
+			<primitive>	normalmap_glow.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	normalmap_glow	</identifier>
+					<fx>	shaders/std_effects/normalmap_glow.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	exporter_test_files/maps/specular.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.964706 0.368627 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	1.490000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	14	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-7.377523 -0.549252 -10.413386	</min>
+		<max>	11.479176 0.904172 10.967978	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,205 @@
+<striff_gib.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	fd_c_strif_lod2	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.209971 0.726777 0.003748	</row3>
+			</transform>
+			<node>
+				<identifier>	fd_c_strif_lod2BlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-0.209971 -0.750703 -0.003748	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.146868 0.931121 -0.027914	</row3>
+			</transform>
+			<node>
+				<identifier>	ObjectBlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.146868 -0.955047 0.027914	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object02	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.209492 0.618356 -0.022712	</row3>
+			</transform>
+			<node>
+				<identifier>	Object02BlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.209492 -0.642281 0.022712	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object03	</identifier>
+			<transform>
+				<row0>	0.993426 -0.105301 0.044896	</row0>
+				<row1>	0.114473 0.913834 -0.389619	</row1>
+				<row2>	-0.000000 0.392197 0.919881	</row2>
+				<row3>	-0.190398 0.248341 0.295713	</row3>
+			</transform>
+			<node>
+				<identifier>	Object03BlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	0.993426 0.114473 0.000000	</row0>
+					<row1>	-0.105301 0.913834 0.392197	</row1>
+					<row2>	0.044896 -0.389619 0.919881	</row2>
+					<row3>	0.204541 -0.111796 -0.378803	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object04	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.188144 0.296227 0.224969	</row3>
+			</transform>
+			<node>
+				<identifier>	Object04BlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-0.188144 -0.320153 -0.224969	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.003073 1.075962 0.070213	</row3>
+			</transform>
+			<node>
+				<identifier>	Object01BlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.003073 -1.099887 -0.070213	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object05	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.002783 1.027746 -0.149111	</row3>
+			</transform>
+			<node>
+				<identifier>	Object05BlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.002783 -1.051671 0.149111	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	bone1	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.765592 0.339122	</row3>
+			</transform>
+			<node>
+				<identifier>	bone1BlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.042033 -0.783283 -0.265142	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	bone_head	</identifier>
+			<transform>
+				<row0>	0.906308 0.422618 0.000000	</row0>
+				<row1>	-0.422618 0.906308 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.147736 1.269294 0.499044	</row3>
+			</transform>
+			<node>
+				<identifier>	bone_headBlendBonefd_c_strif_lod01	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000161 -1.293219 -0.499044	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<materialKind>	11	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	fd_c_strif_lod2BlendBonefd_c_strif_lod01	</node>
+		<node>	Object02BlendBonefd_c_strif_lod01	</node>
+		<node>	Object04BlendBonefd_c_strif_lod01	</node>
+		<node>	bone1BlendBonefd_c_strif_lod01	</node>
+		<node>	ObjectBlendBonefd_c_strif_lod01	</node>
+		<node>	bone_headBlendBonefd_c_strif_lod01	</node>
+		<node>	Object01BlendBonefd_c_strif_lod01	</node>
+		<node>	Object05BlendBonefd_c_strif_lod01	</node>
+		<node>	Object03BlendBonefd_c_strif_lod01	</node>
+		<geometry>
+			<vertices>	fd_c_strif_lod01.vertices	</vertices>
+			<primitive>	fd_c_strif_lod01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #0_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	characters/npc/fd_striff/maps/strif_dif_gibbs.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.305873 0.105080 -0.233070	</min>
+		<max>	0.297242 1.464114 0.729315	</max>
+	</boundingBox>
+</striff_gib.visual>

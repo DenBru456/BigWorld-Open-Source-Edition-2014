@@ -1,0 +1,83 @@
+<dungeon_tunnel_stairs.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	tunnel_stairs_straight_tunnel_shader	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.000045 -3.333364 -5.457182	</min>
+		<max>	15.007099 5.760000 0.498373	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	-0.000000 1.000000 0.000000	</uAxis>
+			<point>	-0.000000 -0.000010 0.000001	</point>
+			<point>	4.999999 -0.000010 0.000001	</point>
+			<point>	4.999999 -5.000009 -0.000000	</point>
+			<point>	0.000000 -5.000009 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-15.000000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	-3.000000 5.000009 0.000000	</point>
+			<point>	2.000001 5.000009 0.000000	</point>
+			<point>	2.000001 0.000010 0.000000	</point>
+			<point>	-3.000000 0.000010 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.000000 -1.000000	</normal>
+		<d>	-0.237500	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.000000 1.000000	</normal>
+		<d>	-5.237499	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-3.320000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.225689 0.974199 0.000000	</normal>
+		<d>	-0.526067	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.259682 -0.965694 0.000000	</normal>
+		<d>	-6.637807	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.126209 -0.992004 0.000000	</normal>
+		<d>	-5.713942	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</dungeon_tunnel_stairs.visual>

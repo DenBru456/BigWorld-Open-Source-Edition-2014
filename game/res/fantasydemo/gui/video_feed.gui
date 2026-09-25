@@ -1,0 +1,68 @@
+<video_feed.gui>
+	<SimpleGUIComponent>	64765960
+		<position>	0.00000 0.000000 0.500000	</position>
+		<width>	0.425	</width>
+		<height>	0.31875	</height>
+		<colour>	192.000000 255.000000 192.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	4	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<children>
+			<scene>	64769488	</scene>
+			<select>	64994176	</select>
+		</children>
+		<script>	&quot;PyGUI.VideoFeed&quot;	</script>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	64769488
+		<position>	0.0000 0.000000 0.300000	</position>
+		<width>	0.425	</width>
+		<height>	0.31875	</height>
+		<colour>	255.0 255.0 255.0 255.0	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	4	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<transform>	75519760	</transform>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	64994176
+		<position>	0.0000 0.000000 0.20000	</position>
+		<width>	0.425	</width>
+		<height>	0.31875	</height>
+		<colour>	0.0 0.0 0.0 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<MatrixGUIShader>	75519760
+		<eta>	0.0	</eta>
+		<blend>	true	</blend>
+	</MatrixGUIShader>
+</video_feed.gui>

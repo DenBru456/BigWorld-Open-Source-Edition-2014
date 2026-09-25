@@ -1,0 +1,267 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/t_intersection.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	13140	</size>
+		</staticLighting>
+	</shell>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.356083 1.448603 -3.950001	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	0.883823 2.812423 -3.647926	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.860428	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.419304 0.516922 -1.850710	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<pulseLight>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+		<position>	0.800220 2.076277 -3.998028	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.909316	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+	<model>
+		<resource>	sets/dungeon/props/web01.model	</resource>
+		<transform>
+			<row0>	-0.229683 0.223364 -0.281283	</row0>
+			<row1>	0.061708 0.353450 0.230285	</row1>
+			<row2>	0.353841 0.083350 -0.222743	</row2>
+			<row3>	1.839886 1.645261 -2.918070	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13140	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/web03.model	</resource>
+		<transform>
+			<row0>	-0.486297 -0.868629 -0.094806	</row0>
+			<row1>	-0.412666 0.323947 -0.851326	</row1>
+			<row2>	0.770203 -0.374875 -0.515991	</row2>
+			<row3>	1.659065 0.209071 -2.369854	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13156	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/web03.model	</resource>
+		<transform>
+			<row0>	0.276825 -0.868628 0.410901	</row0>
+			<row1>	-0.310178 0.323946 0.893775	</row1>
+			<row2>	-0.909475 -0.374874 -0.179755	</row2>
+			<row3>	-1.489502 0.169762 -3.859278	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13172	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/web03.model	</resource>
+		<transform>
+			<row0>	-0.046721 -0.983567 -0.174369	</row0>
+			<row1>	-0.965922 0.000000 0.258818	</row1>
+			<row2>	-0.254565 0.180521 -0.950053	</row2>
+			<row3>	-1.984320 1.609365 -2.811043	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13188	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/web03.model	</resource>
+		<transform>
+			<row0>	0.273073 -0.307465 -0.153696	</row0>
+			<row1>	0.134046 0.276002 -0.313975	</row1>
+			<row2>	0.316526 0.148372 0.265562	</row2>
+			<row3>	-1.555347 0.283281 -3.807753	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13204	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	characters/npc/spider/spider.model	</resource>
+		<animation>
+			<name>	spider_idle	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.010822 0.008670 0.029358	</row0>
+			<row1>	0.028665 0.013796 0.006492	</row1>
+			<row2>	-0.010741 0.028084 -0.012252	</row2>
+			<row3>	-1.513279 0.250868 -3.926662	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	thomasc	</modified_by>
+			<modified_on>	1265344268	</modified_on>
+		</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.943251 0.038529 -0.329831	</row0>
+			<row1>	-0.031241 0.978542 0.203649	</row1>
+			<row2>	0.330600 0.202398 -0.921809	</row2>
+			<row3>	-1.491844 0.315335 -1.167122	</row3>
+		</transform>
+		<guid>	B2C1AC2E.4843640B.35695BA0.D3219BA8	</guid>
+		<properties>
+			<next>
+				<guid>	</guid>
+				<chunkId>	</chunkId>
+			</next>
+			<name>	MenuCamera_fantasy	</name>
+			<fov>	31.510000	</fov>
+		</properties>
+		<backLinks>	</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	thomasc	</modified_by>
+			<modified_on>	1265344268	</modified_on>
+		</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.943251 0.038529 -0.329831	</row0>
+			<row1>	-0.031241 0.978542 0.203649	</row1>
+			<row2>	0.330600 0.202398 -0.921809	</row2>
+			<row3>	-1.491844 0.315335 -1.167122	</row3>
+		</transform>
+		<guid>	C2C1AC2D.5843640A.45695B9F.E3219BA7	</guid>
+		<properties>
+			<next>
+				<guid>	</guid>
+				<chunkId>	</chunkId>
+			</next>
+			<name>	MenuCamera_tankfield	</name>
+			<fov>	31.510000	</fov>
+		</properties>
+		<backLinks>	</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>	</metaData>
+		<type>	CameraNode	</type>
+		<Domain>	4	</Domain>
+		<transform>
+			<row0>	-0.943251 0.038529 -0.329831	</row0>
+			<row1>	-0.031241 0.978542 0.203649	</row1>
+			<row2>	0.330600 0.202398 -0.921809	</row2>
+			<row3>	-1.491844 0.315335 -1.167122	</row3>
+		</transform>
+		<guid>	A8CBD72D.4CEDCDD0.E1A4FCB8.58C935B0	</guid>
+		<properties>
+			<next>
+				<guid>	</guid>
+				<chunkId>	</chunkId>
+			</next>
+			<name>	MenuCamera	</name>
+			<fov>	31.510000	</fov>
+		</properties>
+		<backLinks>	</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	29.009289 7.325303 49.151875	</row3>
+	</transform>
+	<boundingBox>
+		<min>	24.909283 6.852818 45.051872	</min>
+		<max>	33.109283 11.825302 53.251873	</max>
+	</boundingBox>
+</root>

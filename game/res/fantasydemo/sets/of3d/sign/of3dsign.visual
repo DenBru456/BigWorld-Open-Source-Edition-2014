@@ -1,0 +1,49 @@
+<of3dsign.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	R_Chain01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.996195 0.087156	</row1>
+				<row2>	0.000000 -0.087156 0.996195	</row2>
+				<row3>	-0.760830 1.731479 -0.003039	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Chain01	</node>
+		<geometry>
+			<vertices>	R_Chain01.vertices	</vertices>
+			<primitive>	R_Chain01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	metal_chain	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/sign/of3dsign_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/sign/of3dsign_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/sign/of3dsign.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.024296 0.004060 -0.066631	</min>
+		<max>	1.018906 1.812766 0.092658	</max>
+	</boundingBox>
+</of3dsign.visual>

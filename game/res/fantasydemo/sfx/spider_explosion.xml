@@ -1,0 +1,14 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/spider_take_damage.xml  </ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+</SFXFile>

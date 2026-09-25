@@ -1,0 +1,108 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+
+		<!--
+		<propertyTemplate>
+			<Type>			
+				ARRAY <of> </of>
+				BLOB
+				FIXED_DICT
+				INT8
+				INT16
+				INT32
+				INT64
+				MAILBOX
+				PYTHON
+				STRING
+				TUPLE
+				UINT8
+				UINT16
+				UINT32
+				UINT64
+				USER_TYPE
+				VECTOR2
+				VECTOR3
+				VECTOR4
+				PATROL_PATH
+			</Type>
+			<Flags>			
+				ALL_CLIENTS
+				BASE
+				BASE_AND_CLIENT
+				CELL_PRIVATE
+				CELL_PUBLIC
+				CELL_PUBLIC_AND_OWN
+				DATA_EDITOR_ONLY
+				OTHER_CLIENTS
+				OWN_CLIENT
+			</Flags>
+			<Default>							</Default>
+			<Editable>		false				</Editable>
+			<Persistent>	false				</Persistent>
+		</propertyTemplate>
+		-->
+		
+		<!--
+		<propertyExample>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>							</Default>
+			<Editable>		false				</Editable>
+			<Persistent>	false				</Persistent>
+		</propertyExample>
+		
+		-->
+		
+		
+		
+
+
+	</Properties>
+	
+
+	<ClientMethods>
+		<!--
+		<exampleMethod>
+			<Args>
+				<arg1>		OBJECT_ID		</arg1>
+				<arg2>		FLOAT			</arg2>
+			</Args>
+		</exampleMethod>
+		-->	
+	
+	</ClientMethods>
+	
+
+	<CellMethods>
+		<!--
+		<exampleMethod>
+			<Args>
+				<arg1>		OBJECT_ID		</arg1>
+				<arg2>		FLOAT			</arg2>
+			</Args>
+		</exampleMethod>
+		-->
+	
+	</CellMethods>
+
+
+	<BaseMethods>
+		<!--
+		<exampleMethod>
+			<Args>
+				<arg1>		OBJECT_ID		</arg1>
+				<arg2>		FLOAT			</arg2>
+			</Args>
+		</exampleMethod>
+		-->		
+
+	</BaseMethods>
+</root>
+

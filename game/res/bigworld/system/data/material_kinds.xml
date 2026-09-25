@@ -1,0 +1,208 @@
+<root>
+	<kind>
+		<id>	1	</id>
+		<desc>	Wood	</desc>
+		<desc>	Wood	</desc>
+		<sound> wood    </sound>
+		<help> Dull surfaces, not very reactive. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_wood.xml </sfx>
+	</kind>
+	<kind>
+		<id>	2	</id>
+		<desc>	Stone	</desc>
+		<sound> stone    </sound>
+		<weight>	1.0	</weight> <!--Multiplier for the flora blend map, parent tag -->
+		<help> Hard surfaces that aren't metallic. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_stone.xml </sfx>
+		<terrain> helpers/maps/aid_builder </terrain>
+		<terrain> sets/desert/maps/des_baserock </terrain>
+		<terrain> sets/desert/maps/des_rock_01 </terrain>
+		<terrain> sets/desert/maps/des_rock_03 </terrain>
+		<terrain> sets/t_ice/maps/terrain/ice_rock_01 </terrain>
+		<terrain> sets/t_ice/maps/terrain/ice_rock_02 </terrain>
+		<terrain> sets/t_ice/maps/terrain/ice_rock_03 </terrain>
+		<terrain> maps/landscape/lev_path01 </terrain>
+		<terrain> maps/landscape/lev_path02 </terrain>
+		<terrain> maps/landscape/lev_path03 </terrain>
+		<terrain> maps/landscape/lev_path05 
+			<weight>	1.7	</weight> <!--Multiplier for the flora blend map, individual weight tags override the parent tag -->
+		</terrain>		
+		<terrain> maps/landscape/lev_path06 </terrain>
+		<terrain> maps/landscape/lev_path07 </terrain>
+		<terrain> maps/landscape/lev_path08 </terrain>
+		<terrain> maps/landscape/lev_path09 </terrain>
+		<terrain> maps/landscape/lev_rock01 </terrain>
+		<terrain> maps/landscape/lev_rock02 </terrain>
+		<terrain> maps/landscape/lev_rocks </terrain>
+		<terrain> maps/landscape/ls2_flagstone </terrain>
+		<terrain> maps/landscape/stonewall_natural_a </terrain>
+		<terrain> maps/landscape/rock06 </terrain>
+		<terrain> maps/landscape/rock07 </terrain>
+		<terrain> maps/landscape/rock_face03 </terrain>
+		<terrain> maps/landscape/bridge_stones </terrain>
+		<terrain> maps/landscape/hard_rock </terrain>
+		<terrain> maps/landscape/sediment </terrain>
+		<terrain> maps/landscape/sediment_hard_rock </terrain>
+		<terrain> maps/landscape/rock_sand </terrain>		
+		<terrain> maps/landscape/rock_sand03 
+		<weight>	1.1	</weight> 
+		</terrain>
+		<terrain> maps/landscape/rock_sand04 </terrain>
+		<terrain> maps/landscape/minspec_rock </terrain>
+		<terrain> maps/landscape/minspec_Rock </terrain>
+		<terrain> maps/landscape/minspec_path </terrain>
+	</kind>
+	<kind>
+		<id>	3	</id>
+		<desc>	Chain	</desc>
+		<help> Lightweight meshes, often loose (eg. link fence, wire crate). </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_chain.xml </sfx>
+	</kind>
+	<kind>
+		<id>	4	</id>
+		<desc>	Light Metal </desc>
+		<help> Lightweight or thin metal surfaces (often hollow). </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_light_metal.xml </sfx>
+	</kind>
+	<kind>
+		<id>	5	</id>
+		<desc>	Heavy Metal </desc>
+		<help> Solid (or thick) metal surfaces. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_heavy_metal.xml </sfx>
+	</kind>
+	<kind>
+		<id>	6	</id>
+		<desc>	Glass	</desc>
+		<help> Any kind of glass. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_glass.xml </sfx>
+	</kind>
+	<kind>
+		<id>	7	</id>
+		<desc>	Dirt	</desc>
+		<sound> dirt    </sound>
+		<weight>	1.0	</weight>
+		<help> Hard outside surfaces, often crunchy. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_dirt.xml </sfx>
+		<terrain> sets/desert/maps/des_sand </terrain>
+		<terrain> sets/desert/maps/des_sand_02 </terrain>
+		<terrain> sets/t_ice/maps/terrain/ice_dirtyice </terrain>
+		<terrain> maps/landscape/a_burnt_ground </terrain>
+		<terrain> maps/landscape/a_cracked_mud01 </terrain>
+		<terrain> maps/landscape/a_cracked_mud04 </terrain>
+		<terrain> maps/landscape/a_cracked_mud06 
+		<weight>	0.7	</weight> 
+		</terrain>
+		<terrain> maps/landscape/a_cracked_mud </terrain>
+		<terrain> maps/landscape/a_desertsand01 </terrain>
+		<terrain> maps/landscape/a_sand02 </terrain>
+		<terrain> maps/landscape/lev_burntground </terrain>
+		<terrain> maps/landscape/bullrush_litter03 </terrain>
+		<terrain> maps/landscape/lev_dirt01 </terrain>
+		<terrain> maps/landscape/lev_dirt02 </terrain>
+		<terrain> maps/landscape/lev_drymoss 
+		<weight>	0.9	</weight> 
+		</terrain> 
+		<terrain> maps/landscape/lev_dust_02 </terrain>
+		<terrain> maps/landscape/lev_graroots01 </terrain>
+		<terrain> maps/landscape/lev_graroots02 </terrain>
+		<terrain> maps/landscape/lev_lichen01 </terrain>
+		<terrain> maps/landscape/lev_litter01 </terrain>
+		<terrain> maps/landscape/lev_litter02 </terrain>
+		<terrain> maps/landscape/lev_litter03 </terrain>
+		<terrain> maps/landscape/lev_moss </terrain>
+		<terrain> maps/landscape/lev_pinedecay </terrain>
+		<terrain> maps/landscape/lev_sand </terrain>
+		<terrain> maps/landscape/lev_treeroots </terrain>
+		<terrain> maps/landscape/litter02 </terrain>
+		<terrain> maps/landscape/litter03 </terrain>
+		<terrain> maps/landscape/litter05 </terrain>
+		<terrain> maps/landscape/litter06 </terrain>
+		<terrain> maps/landscape/ls2_dust </terrain>
+		<terrain> maps/landscape/pineneedles </terrain>
+		<terrain> maps/landscape/woodchips </terrain>
+		<terrain> maps/landscape/dirt 
+			<weight>	0.5	</weight> 
+		</terrain>
+		<terrain> maps/landscape/sand_01 
+			<weight>	4	</weight>
+		</terrain>
+		<terrain> maps/landscape/darken </terrain>
+	</kind>
+	<kind>
+		<id>	8	</id>
+		<desc>	Grass	</desc>
+		<sound> grass    </sound>
+		<help> Soft outside surfaces, may not be grassy. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_grass.xml </sfx>
+		<terrain> sets/desert/maps/des_drygrass </terrain>
+		<terrain> maps/landscape/clover </terrain>
+		<terrain> maps/landscape/gra_grass_02 </terrain>
+		<terrain> maps/landscape/gra_roots_02 </terrain>
+		<terrain> maps/landscape/lev_clover </terrain>
+		<terrain> maps/landscape/lev_fern02 </terrain>
+		<terrain> maps/landscape/lev_grass_01 </terrain>
+		<terrain> maps/landscape/lev_grass_02 </terrain>
+		<terrain> maps/landscape/lev_grassflowers </terrain>
+		<terrain> maps/landscape/lev_grassrocks </terrain>
+		<terrain> maps/landscape/lev_hay </terrain>
+		<terrain> maps/landscape/lev_leaflitter </terrain>
+		<terrain> maps/landscape/lev_leaflitter02 </terrain>
+		<terrain> maps/landscape/lev_litter04 </terrain>
+		<terrain> maps/landscape/lev_purpleflowers </terrain>
+		<terrain> maps/landscape/grasslands </terrain>
+		<terrain> maps/landscape/grass_patchy </terrain>
+	</kind>
+	<kind>
+		<id>	9	</id>
+		<desc>	Snow	</desc>
+		<sound> snow    </sound>
+		<help> Hard crunchy snow. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_snow.xml </sfx>
+		<terrain> sets/t_ice/maps/terrain/ice_snow </terrain>
+		<terrain> sets/t_ice/maps/terrain/ice_snow_pure
+			<weight>	5 </weight>
+		</terrain>
+		<terrain> sets/t_ice/maps/terrain/ice_snow_pure02 </terrain>
+		<terrain> sets/t_ice/maps/terrain/snow_grass </terrain>
+		<terrain> maps/landscape/ls2_snow01 </terrain>
+		<terrain> maps/landscape/minspec_snow </terrain>
+		<terrain> maps/landscape/minspec_mud </terrain>
+		<terrain> sets/t_ice/maps/terrain/snow_grass.tga </terrain>
+	</kind>
+	<kind>
+		<id>	10	</id>
+		<desc>	Water	</desc>
+		<sound> water    </sound>
+		<help> Wet surfaces, including mud and wet ground and water pools. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_water.xml </sfx>
+		<terrain> maps/landscape/ls_dddd_riverbed
+			<weight>	5 </weight>
+		</terrain>
+	</kind>
+	<kind>
+		<id>	11	</id>
+		<desc> Flesh </desc>
+		<help> People, bodyparts etc </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_flesh.xml </sfx>
+	</kind>
+	<kind>
+		<id>	12	</id>
+		<desc> Plastic </desc>
+		<help> Thick plastic (used often in research area for walls) </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_plastic.xml </sfx>
+	</kind>
+	<kind>
+		<id>	119	</id>
+		<desc>	SpeedTree Leaves	</desc>
+		<sound> grass    </sound>
+		<help> Speedtree Leaves. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_grass.xml </sfx>
+	</kind>
+	<kind>
+		<id>	120	</id>
+		<desc>	SpeedTree Trunks	</desc>
+		<sound> wood    </sound>
+		<help> Speedtree Trunks. </help>
+		<sfx>	sets/global/fx/sfx/sfx_pchang_wood.xml </sfx>
+	</kind>
+</root>

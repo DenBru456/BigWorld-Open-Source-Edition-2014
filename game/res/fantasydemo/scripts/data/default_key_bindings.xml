@@ -1,0 +1,429 @@
+<keyBindings>
+	<action>
+		<name> LeftMouseButton </name>
+		<keys>	LEFTMOUSE </keys>
+	</action>
+	<action>
+		<name> RightMouseButton </name>
+		<keys>	RIGHTMOUSE </keys>
+	</action>
+	<action>
+		<name> MiddleMouseButton </name>
+		<keys>	MIDDLEMOUSE </keys>
+	</action>
+
+	<action>
+		<name> EscapeKey </name>
+		<keys>	ESCAPE </keys>
+	</action>
+	<action>
+		<name> LastResortEscapeKey </name>
+		<keys>	CONTROL ESCAPE </keys>
+	</action>
+	<action>
+		<name> FreeCameraMode </name>
+	</action>
+
+	<action>
+		<name> MoveForward </name>
+		<keys>	W </keys>
+		<keys>	UPARROW </keys>
+	</action>
+	<action>
+		<name> MoveBackward </name>
+		<keys>	S </keys>
+		<keys>	DOWNARROW </keys>
+	</action>
+	<action>
+		<name> TurnLeft </name>
+		<keys>	A </keys>
+		<keys>	LEFTARROW </keys>
+	</action>
+	<action>
+		<name> TurnRight </name>
+		<keys>	D </keys>
+		<keys>	RIGHTARROW </keys>
+	</action>
+	<action>
+		<name> StrafeLeft </name>
+	</action>
+	<action>
+		<name> StrafeRight </name>
+	</action>
+	<action>
+		<name> AutoMove </name>
+		<keys>	MOUSE3 </keys>
+	</action>
+	<action>
+		<name> SwitchToRun </name>
+		<keys>	LSHIFT </keys>
+	</action>
+	<action>
+		<name> SwitchToDash </name>
+		<keys>	LCONTROL </keys>
+	</action>
+	<action>
+		<name> TurboMovementMode </name>
+		<keys>	CONTROL U </keys>
+	</action>
+
+	<action>
+		<name> Jump </name>
+		<keys>	SPACE </keys>
+	</action>
+	<action>
+		<name> MoveUpward </name>
+		<keys>	SPACE </keys>
+	</action>
+	<action>
+		<name> ToggleMinimap </name>
+		<keys>	M	</keys>
+	</action>
+	<action>
+		<name> MinimiseMinimap </name>
+		<keys>	CONTROL F4	</keys>
+	</action>
+	<action>
+		<name> Teleport </name>
+		<keys>	MIDDLEMOUSE </keys>
+		<keys>	SHIFT LEFTMOUSE </keys>
+	</action>
+	<action>
+		<name> DemoKey1 </name>
+	</action>
+	<action>
+		<name> DemoKey2 </name>
+		<keys>	CONTROL 1 </keys>
+	</action>
+	<action>
+		<name> DemoKey3 </name>
+		<keys>	CONTROL 2 </keys>
+	</action>
+	<action>
+		<name> DemoKey4 </name>
+		<keys>	CONTROL 3 </keys>
+	</action>
+	<action>
+		<name> DemoKey5 </name>
+		<keys>	CONTROL 4 </keys>
+	</action>
+	<action>
+		<name> DemoKey0 </name>
+	</action>
+	<action>
+		<name> DemoKeyMinus </name>
+	</action>
+	<action>
+		<name> DemoKeyEquals </name>
+	</action>
+
+	<action>
+		<name> CellBoundaryVisualisation </name>
+		<keys>	CONTROL C </keys>
+	</action>
+	<action>
+		<name> FlyMode </name>
+		<keys>	CONTROL F </keys>
+	</action>
+	<action>
+		<name> NextPresetModel </name>
+		<keys>	B </keys>
+	</action>
+	<action>
+		<name> PreviousPresetModel </name>
+		<keys>	V </keys>
+	</action>
+	<action>
+		<name> NewRandomModel </name>
+		<keys>	CONTROL B </keys>
+	</action>
+	<action>
+		<name> RandomiseModelCustomisations </name>
+		<keys>	CONTROL V </keys>
+	</action>
+	<action>
+		<name> NextItem </name>
+		<keys>	E </keys>
+	</action>
+	<action>
+		<name> PreviousItem </name>
+		<keys>	Q </keys>
+	</action>
+	<action>
+		<name> PickDrop </name>
+		<keys>	X </keys>
+	</action>
+	<action>
+		<name> Crouch </name>
+		<keys>	C </keys>
+	</action>
+	<action>
+		<name> Character </name>
+		<keys>	 </keys>
+	</action>
+	<action>
+		<name> Equipment </name>
+		<keys>	 </keys>
+	</action>
+	<action>
+		<name> Inventory </name>
+		<keys>	I </keys>
+	</action>
+	<action>
+		<name> Environment </name>
+		<keys>	T </keys>
+	</action>
+	<action>
+		<name> PostProcessing </name>
+		<keys>	P </keys>
+	</action>
+	<action>
+		<name> JobSystem </name>
+		<keys>	J </keys>
+	</action>
+	<action>
+		<name> Help </name>
+		<keys>	F1 </keys>
+	</action>
+	<action>
+		<name> Web </name>
+		<keys>	F2 </keys>
+	</action>
+	<action>
+		<name> Friends </name>
+		<keys> F3 </keys>
+	</action>
+	<action>
+		<name> Chat </name>
+		<keys> F4 </keys>
+	</action>
+	<action>
+		<name> FlashChat </name>
+		<keys> F5 </keys>
+	</action>
+	<action>
+		<name> ClientServerStats </name>
+		<keys>	BACKSPACE </keys>
+	</action>
+	<action>
+		<name> WoWMode </name>
+	</action>
+	<action>
+		<name> StowToShoulder </name>
+		<keys>	1 </keys>
+	</action>
+	<action>
+		<name> StowToRightHip </name>
+		<keys>	2 </keys>
+	</action>
+	<action>
+		<name> StowToLeftHip </name>
+		<keys>	3 </keys>
+	</action>
+	<action>
+		<name> Gesture20 </name>
+		<keys>	NUMPAD0 </keys>
+	</action>
+	<action>
+		<name> Gesture29 </name>
+		<keys>	ALT NUMPAD0 </keys>
+	</action>
+	<action>
+		<name> Gesture30 </name>
+		<keys>	CONTROL NUMPAD0 </keys>
+	</action>
+	<action>
+		<name> Gesture14 </name>
+		<keys>	NUMPAD1 </keys>
+	</action>
+	<action>
+		<name> Gesture31 </name>
+		<keys>	LALT NUMPAD1 </keys>
+	</action>
+	<action>
+		<name> Gesture05 </name>
+		<keys>	LCONTROL NUMPAD1 </keys>
+	</action>
+	<action>
+		<name> Gesture32 </name>
+		<keys>	LCONTROL LALT NUMPAD1 </keys>
+	</action>
+	<action>
+		<name> Gesture00 </name>
+		<keys>	NUMPAD2 </keys>
+	</action>
+	<action>
+		<name> Gesture01 </name>
+		<keys>	ALT NUMPAD2 </keys>
+	</action>
+	<action>
+		<name> Gesture02 </name>
+		<keys>	CONTROL NUMPAD2 </keys>
+	</action>
+	<action>
+		<name> Gesture33 </name>
+		<keys>	CONTROL ALT NUMPAD2 </keys>
+	</action>
+	<action>
+		<name> Gesture18 </name>
+		<keys>	NUMPAD3 </keys>
+	</action>
+	<action>
+		<name> Gesture21 </name>
+		<keys>	ALT NUMPAD3 </keys>
+	</action>
+	<action>
+		<name> Gesture22 </name>
+		<keys>	CONTROL NUMPAD3 </keys>
+	</action>
+	<action>
+		<name> Gesture04 </name>
+		<keys>	NUMPAD4 </keys>
+	</action>
+	<action>
+		<name> Gesture27 </name>
+		<keys>	ALT NUMPAD4 </keys>
+	</action>
+	<action>
+		<name> Gesture10 </name>
+		<keys>	CONTROL NUMPAD4 </keys>
+	</action>
+	<action>
+		<name> Gesture25 </name>
+		<keys>	NUMPAD5 </keys>
+	</action>
+	<action>
+		<name> Gesture12 </name>
+		<keys>	CONTROL NUMPAD5 </keys>
+	</action>
+	<action>
+		<name> Gesture24 </name>
+		<keys>	NUMPAD6 </keys>
+	</action>
+	<action>
+		<name> Gesture26 </name>
+		<keys>	ALT NUMPAD6 </keys>
+	</action>
+	<action>
+		<name> Gesture11 </name>
+		<keys>	CONTROL NUMPAD6 </keys>
+	</action>
+	<action>
+		<name> ShonkPaper </name>
+		<keys>	NUMPAD7 </keys>
+	</action>
+	<action>
+		<name> Gesture16 </name>
+		<keys>	ALT NUMPAD7 </keys>
+	</action>
+	<action>
+		<name> Gesture17 </name>
+		<keys>	CONTROL NUMPAD7 </keys>
+	</action>
+	<action>
+		<name> ShonkScissors </name>
+		<keys>	NUMPAD8 </keys>
+	</action>
+	<action>
+		<name> Gesture03 </name>
+		<keys>	ALT NUMPAD8 </keys>
+	</action>
+	<action>
+		<name> Gesture6 </name>
+		<keys>	CONTROL NUMPAD8 </keys>
+	</action>
+	<action>
+		<name> ShonkRock </name>
+		<keys>	NUMPAD9 </keys>
+	</action>
+	<action>
+		<name> Gesture28 </name>
+		<keys>	ALT NUMPAD9 </keys>
+	</action>
+	<action>
+		<name> Gesture23 </name>
+		<keys>	CONTROL NUMPAD9 </keys>
+	</action>
+	<action>
+		<name> Commerce </name>
+		<keys>	ADD </keys>
+	</action>
+	<action>
+		<name> Handshake </name>
+		<keys>	NUMPADPERIOD </keys>
+	</action>
+	<action>
+		<name> PullUp </name>
+		<keys>	NUMPADSLASH </keys>
+	</action>
+	<action>
+		<name> PushUp </name>
+		<keys>	NUMPADSTAR </keys>
+	</action>
+	<action>
+		<name> GammaGui </name>
+		<keys>	CONTROL G </keys>
+	</action>
+	<action>
+		<name> CameraKey </name>
+		<keys>	TAB </keys>
+	</action>
+
+	<action>
+		<name> ToggleUmbra </name>
+		<keys>	ALT U </keys>
+	</action>
+	<action>
+		<name> HideGUI </name>
+		<keys>	CONTROL 9 </keys>
+		<keys>  ALT Z </keys>
+	</action>
+	<action>
+		<name> ToggleHistogram </name>
+		<keys>	ALT H </keys>
+	</action>
+	<action>
+		<name> TogglePythonConsole </name>
+		<keys>	ALT P </keys>
+	</action>
+	<action>
+		<name> ToggleWatcherConsole </name>
+		<keys>	ALT W </keys>
+	</action>
+	<action>
+		<name> ToggleStatsConsole </name>
+		<keys>	ALT F </keys>
+	</action>
+	<action>
+		<name> ToggleTerrainWireframe </name>
+		<keys> CONTROL P </keys>
+	</action>
+	<action>
+		<name> ToggleObjectWireframe </name>
+		<keys> CONTROL O </keys>
+	</action>
+	<action>
+		<name> ToggleFlyThroughMode </name>
+		<keys> CONTROL 7 </keys>
+	</action>
+	<action>
+		<name> DisconnectFromServer </name>
+		<keys> ALT F12 </keys>
+	</action>
+	<action>
+		<name> CancelLoading </name>
+		<keys> F10 </keys>
+	</action>
+	<action>
+		<name> DefaultWebScreens </name>
+		<keys> ALT B </keys>
+	</action>
+	<action>
+		<name> DSLRKey </name>
+		<keys> CONTROL L </keys>
+	</action>
+	<action>
+		<name> ScaleformDemo </name>
+		<keys> CONTROL K </keys>
+	</action>
+</keyBindings>

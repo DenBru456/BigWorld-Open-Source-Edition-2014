@@ -1,0 +1,22 @@
+# message_logger logs (both server logs and process logs) will be rotated
+# in the /etc/logrotate.d/bw_message_logger script. Please refer to the
+# comments in that script for more details on bw_message_logger log
+# rotation.
+
+/var/log/bigworld/stat_logger.log {
+	daily
+	rotate 7
+	missingok
+	lastaction
+		###bigworld_initrd_dir###/bw_stat_logger logrotate > /dev/null 2>&1 || true
+	endscript
+}
+
+/var/log/bigworld/web_console.log {
+	daily
+	rotate 7
+	missingok
+	lastaction
+		###bigworld_initrd_dir###/bw_web_console logrotate > /dev/null 2>&1 || true
+	endscript
+}

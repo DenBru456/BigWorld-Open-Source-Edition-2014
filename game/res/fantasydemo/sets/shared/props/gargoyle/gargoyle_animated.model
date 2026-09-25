@@ -1,0 +1,43 @@
+<gargoyle_animated.model>
+	<action>
+		<name>	Dead	</name>
+		<animation>	Dead	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	wake_up	</name>
+		<animation>	wake_up	</animation>
+	</action>
+	<action>
+		<name>	idle	</name>
+		<animation>	idle	</animation>
+	</action>
+	<nodefullVisual>	sets/shared/props/gargoyle/gargoyle_animated	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	idle	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/shared/props/gargoyle/idle	</nodes>
+	</animation>
+	<animation>
+		<name>	wake_up	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/shared/props/gargoyle/wake_up	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-1.391462 1.442244 -1.056675	</min>
+		<max>	1.400372 4.795553 1.512879	</max>
+	</visibilityBox>
+	<animation>
+		<name>	Dead	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/shared/props/gargoyle/wake_up	</nodes>
+		<firstFrame>	1	</firstFrame>
+		<lastFrame>	1	</lastFrame>
+	</animation>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281491994	</modified_on>
+	</metaData>
+</gargoyle_animated.model>

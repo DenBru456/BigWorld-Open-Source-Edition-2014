@@ -1,0 +1,38 @@
+<root>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	00030004o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190614	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190618	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-1.148797 -0.000001 -0.568876	</row0>
+			<row1>	-0.000002 1.281933 -0.000001	</row1>
+			<row2>	0.568876 -0.000001 -1.148797	</row2>
+			<row3>	98.613403 216.542938 96.197388	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	00030004o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

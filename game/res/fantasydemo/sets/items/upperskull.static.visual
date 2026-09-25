@@ -1,0 +1,35 @@
+<upperskull.static.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	sets/items/upperskull.static.vertices	</vertices>
+			<primitive>	sets/items/upperskull.static.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/items/upperskull.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.10 -0.02 -0.13	</min>
+		<max>	0.09 0.19 0.12	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</upperskull.static.visual>

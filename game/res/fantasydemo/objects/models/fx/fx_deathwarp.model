@@ -1,0 +1,39 @@
+<fx_deathwarp.model>
+	<animation>
+		<name>	anim:1	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	15	</lastFrame>
+		<nodes>	objects/models/fx/fx_deathwarp_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	anim:2	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	15	</firstFrame>
+		<lastFrame>	-1	</lastFrame>
+		<nodes>	objects/models/fx/fx_deathwarp_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Go	</name>
+		<animation>	anim:1	</animation>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<action>
+		<name>	Continue	</name>
+		<animation>	anim:2	</animation>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-14.026423 -17.892160 -14.215922	</min>
+		<max>	13.091534 97.138588 13.096972	</max>
+	</visibilityBox>
+	<nodefullVisual>	objects/models/fx/fx_deathwarp	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378378	</modified_on>
+	</metaData>
+</fx_deathwarp.model>

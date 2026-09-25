@@ -1,0 +1,102 @@
+<tower_door.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	hinge_out	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Object001	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-0.011903 0.333920 0.110395	</row3>
+				</transform>
+				<node>
+					<identifier>	hinge_in	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.011903 -0.333920 -0.001062	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object004	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 -0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 -0.000000 1.000000	</row2>
+				<row3>	0.007361 0.003231 0.747065	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Object004	</node>
+		<geometry>
+			<vertices>	Object004.vertices	</vertices>
+			<primitive>	Object004.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	door	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/shared/props/door/maps/door_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/shared/props/door/maps/door_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/door/maps/door.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Object001	</node>
+		<geometry>
+			<vertices>	Object001.vertices	</vertices>
+			<primitive>	Object001.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	door	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/shared/props/door/maps/door_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/shared/props/door/maps/door_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/door/maps/door.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.000000 0.000000 -0.085735	</min>
+		<max>	2.011092 3.774432 0.195755	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</tower_door.visual>

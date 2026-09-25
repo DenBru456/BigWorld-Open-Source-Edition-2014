@@ -1,0 +1,59 @@
+<root>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	-0.798104 -0.000001 0.029271	</row0>
+			<row1>	0.000000 0.798640 0.000003	</row1>
+			<row2>	-0.029271 0.000003 -0.798104	</row2>
+			<row3>	94.313965 215.244812 62.770218	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	-0.798104 -0.000001 0.029271	</row0>
+			<row1>	0.000000 0.798640 0.000003	</row1>
+			<row2>	-0.029271 0.000003 -0.798104	</row2>
+			<row3>	6.851074 221.408325 12.654053	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0002fffdo.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.663442 0.000000 0.047096	</row0>
+			<row1>	0.000000 0.665112 0.000000	</row1>
+			<row2>	-0.047096 0.000000 -0.663442	</row2>
+			<row3>	89.766235 216.618774 51.184418	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	0002fffdo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

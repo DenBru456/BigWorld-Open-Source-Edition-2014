@@ -1,0 +1,126 @@
+<fireworks_box.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	cracker_flying	</identifier>
+			<transform>
+				<row0>	0.989072 -0.147435 0.000000	</row0>
+				<row1>	0.147435 0.989072 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.107218 1.007733 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	wick	</identifier>
+				<transform>
+					<row0>	1.000000 -0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	HP_wick	</identifier>
+					<transform>
+						<row0>	0.621301 -0.783205 0.023958	</row0>
+						<row1>	0.020595 0.046887 0.998688	</row1>
+						<row2>	-0.783301 -0.619992 0.045262	</row2>
+						<row3>	-0.104292 -0.252899 -0.002314	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	HP_exhaust	</identifier>
+				<transform>
+					<row0>	-0.148421 -0.004068 -0.988916	</row0>
+					<row1>	-0.001797 -0.999989 0.004383	</row1>
+					<row2>	-0.988923 0.002428 0.148412	</row2>
+					<row3>	0.003456 0.084548 -0.001671	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Object05	</identifier>
+			<transform>
+				<row0>	-0.019960 -0.405732 -0.913774	</row0>
+				<row1>	0.185337 0.896614 -0.402161	</row1>
+				<row2>	0.982472 -0.177383 0.057301	</row2>
+				<row3>	-0.188338 0.135119 0.069971	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	box_bone	</identifier>
+			<transform>
+				<row0>	-0.010462 0.999191 -0.038820	</row0>
+				<row1>	0.995521 0.006760 -0.094299	</row1>
+				<row2>	-0.093961 -0.039632 -0.994787	</row2>
+				<row3>	0.083603 0.092584 -0.000712	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Object05	</node>
+		<geometry>
+			<vertices>	Object05.vertices	</vertices>
+			<primitive>	Object05.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/crackerbox.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	wick	</node>
+		<geometry>
+			<vertices>	wick.vertices	</vertices>
+			<primitive>	wick.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/crackerbox.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	cracker_flying	</node>
+		<geometry>
+			<vertices>	cracker_flying.vertices	</vertices>
+			<primitive>	cracker_flying.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/crackerbox.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.540641 -0.009601 -0.248743	</min>
+		<max>	0.355999 1.456247 0.383536	</max>
+	</boundingBox>
+</fireworks_box.visual>

@@ -1,0 +1,86 @@
+<root>
+	<!-- TradeLog defined in alias.xml -->
+
+	<Properties>
+		<recentTrades>
+			<Type>			ARRAY <of>	TradeLog	</of>			</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</recentTrades>
+
+		<globalName>
+			<Type>			STRING				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		TradingSupervisor	</Default>
+			<Persistent>	true				</Persistent>
+		</globalName>
+
+		<playerName>
+			<Type>			STRING				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		TradingSupervisor	</Default>
+			<Persistent>	true				</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</playerName>
+
+		<outstandingTrades>
+			<Type> ARRAY <of> OBJECT_ID_PAIR </of> </Type>
+			<Flags>			BASE				</Flags>
+		</outstandingTrades>
+
+		<replaying>
+			<Type>			BOOL				</Type>
+			<Flags>			BASE				</Flags>
+		</replaying>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<!--
+			both partners must reserve their items and not make any other
+			trades from when they call the method below on the supervisor
+			(the reservation ought to be non-persistent state!)
+		-->
+
+		<commenceTrade>
+			<Args>
+				<A>			MAILBOX			</A>		<!-- partnerA -->
+				<paramsA>	TradeParams		</paramsA>	<!-- partnerA trade params-->
+				<B>			MAILBOX			</B>		<!-- partnerB -->
+				<paramsB>	TradeParams		</paramsB>	<!-- partnerB trade params-->
+			</Args>
+		</commenceTrade>
+
+
+		<!--
+			calls 'makeTrade( supervisor, tradeID, othItem )' on both
+			partners when recentTrades successfully written to database
+		-->
+
+		<completeTrade>
+			<Args>
+				<who>			MAILBOX			</who>		<!-- partner -->
+				<tradeID>		TRADEID			</tradeID>
+			</Args>
+		</completeTrade>
+
+		<isAPendingTrade>
+			<Args>
+				<avatarID>			OBJECT_ID		</avatarID>
+				<lockHandle>		LOCKHANDLE		</lockHandle>
+			</Args>
+		</isAPendingTrade>
+
+		<!--
+			supervisor can remove entry from its recent log list when it
+			has heard back from both parties that they have written themselves
+			to the database
+		-->
+
+		<cleanup>
+		</cleanup>
+	</BaseMethods>
+</root>

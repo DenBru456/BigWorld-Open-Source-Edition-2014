@@ -1,0 +1,30 @@
+<!--
+	This file stores the names and bit ids of the action Matcher Capabilities
+	The tags are as follows:
+	state: an integer in the range 0-31
+	name: display name in ModelEditor
+	id: internal name of the capability
+-->
+<capabilities.xml>
+
+	<state>	0
+		<name>	HoldingStaff </name>
+		<id> STAFF </id>
+	</state>
+	
+	<state> 2
+		<name> OnLand </name>
+		<id> ONLAND </id>
+	</state>
+
+	<state>	8
+		<name>	CloseCombat </name>
+		<id> CLOSE_COMBAT </id>
+	</state>
+
+	<state>	16
+		<name>	Swimming </name>
+		<id> SWIMMING </id>
+	</state>
+	
+</capabilities.xml>

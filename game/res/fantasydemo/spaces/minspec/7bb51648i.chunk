@@ -1,0 +1,76 @@
+<root>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288052855	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288052878	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/shells/house/house_foyer.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	1644	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288052855	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288052855	</modified_on>
+		</metaData>
+		<colour>	95.000000 51.000019 3.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288052855	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288052855	</modified_on>
+		</metaData>
+		<colour>	255.000000 247.000031 225.000031	</colour>
+		<position>	0.407715 2.188469 -4.559814	</position>
+		<innerRadius>	1.214653	</innerRadius>
+		<outerRadius>	3.817205	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	0.998558 0.000000 0.053678	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-0.053678 0.000000 0.998558	</row2>
+		<row3>	-213.078964 203.612686 184.810226	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-214.978210 204.875854 179.106033	</min>
+		<max>	-210.153229 208.740143 182.573654	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	7bb51648i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

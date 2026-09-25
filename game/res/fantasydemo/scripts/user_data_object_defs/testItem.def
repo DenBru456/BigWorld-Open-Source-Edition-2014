@@ -1,0 +1,37 @@
+<root>
+	<Parent>			testParent			</Parent>
+	<Domain>			CELL				</Domain> <!-- This CCI lives on the CELL -->
+	<Implements>
+		<Interface> testInterface </Interface>
+	</Implements>
+	<Properties>
+		<testProperty>
+			<Type>	STRING	</Type>
+			<Default>	Test	</Default>
+			<Editable>	True	</Editable>
+		</testProperty>
+
+		<testProperty2>
+			<Type>	FLOAT </Type>
+			<Default>	5.0 </Default>
+			<Editable>	True	</Editable>
+		</testProperty2>
+
+		<testOverrideProperty>
+			<Type>	STRING </Type>
+			<Default> Overriden	 </Default>
+			<Editable>	True	</Editable>
+		</testOverrideProperty>
+
+		<nextNode>
+			<Type>	UDO_REF </Type>
+			<Editable>	True	</Editable>
+		</nextNode>
+		
+		<nodeArray>
+			<Type>	ARRAY <of> UDO_REF </of> </Type>
+			<Editable>	True	</Editable>
+		</nodeArray>
+		
+	</Properties>
+</root>

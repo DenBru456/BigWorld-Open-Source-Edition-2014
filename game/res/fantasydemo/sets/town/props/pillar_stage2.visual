@@ -1,0 +1,65 @@
+<pillar_stage2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	pillar 2	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000	</row2>
+				<row3>	0.3614 4.2217 0.2601	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	pillar 2	</node>
+		<geometry>
+			<vertices>	sets/town/props/pillar_stage2.pillar 2.vertices	</vertices>
+			<primitive>	sets/town/props/pillar_stage2.pillar 2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dun_block	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/pillar/maps/dun_block.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	t_outerwood	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/t_wood_outer.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	dun_pillar	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/pillar/maps/dun_pillar.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-2.081512 -0.284435 -2.145142	</min>
+		<max>	2.804345 8.727786 2.665290	</max>
+	</boundingBox>
+</pillar_stage2.visual>

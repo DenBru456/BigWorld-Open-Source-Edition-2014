@@ -1,0 +1,231 @@
+<job_system_window.gui>
+	<WindowGUIComponent>	507612544
+		<position>	0.377331 0.398585 0.500000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	433.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	512.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/window_job_system.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	0.673000 1.000000	</coords2>
+			<coords3>	0.673000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.JobSystemWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	true	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>
+			<windowLabel>	507615952	</windowLabel>
+			<closeBox>	507619488	</closeBox>
+			<jobSystemDisabledLabel>	507620064	</jobSystemDisabledLabel>
+			<coreCountLabel>	507621888	</coreCountLabel>
+			<container>	507622384	</container>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	507615952
+		<position>	16.000000 8.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.437500	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.052083	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	Heading_medium.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Job System Core Utilisation	</label>
+		<font>	Heading_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+	</TextGUIComponent>
+	<WindowGUIComponent>	507619488
+		<position>	417.000000 10.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	21.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.171875	</coords0>
+			<coords1>	0.000000 0.253906	</coords1>
+			<coords2>	0.082031 0.253906	</coords2>
+			<coords3>	0.082031 0.171875	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/close_box.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	507620064
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.273438	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.041667	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	false	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	Label_medium.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Job system is disabled	</label>
+		<font>	Label_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+	</TextGUIComponent>
+	<TextGUIComponent>	507621888
+		<position>	0.000000 468.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.232422	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.041667	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	Label_medium.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Number of CPU cores:	</label>
+		<font>	Heading_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+	</TextGUIComponent>
+	<WindowGUIComponent>	507622384
+		<position>	25.000000 50.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	383.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	375.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>		
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+</job_system_window.gui>

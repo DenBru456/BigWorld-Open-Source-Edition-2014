@@ -1,0 +1,49 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		
+		<eventName>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>							</Default>
+			<Editable>		true				</Editable>
+		</eventName>
+		
+		<initialDelay>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.0					</Default>
+			<Editable>		true				</Editable>
+		</initialDelay>
+		
+		<replayDelay>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.0					</Default>
+			<Editable>		true				</Editable>
+		</replayDelay>
+		
+		<delayVariation>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0.0					</Default>
+			<Editable>		true				</Editable>
+		</delayVariation>
+		
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+	
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

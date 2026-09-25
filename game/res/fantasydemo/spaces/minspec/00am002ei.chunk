@@ -1,0 +1,83 @@
+<root>
+	<shell>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	4652	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<colour>	67.000000 51.000015 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/dungeon_misc/models/dungeon_broken_rocks.model	</resource>
+		<transform>
+			<row0>	-0.789345 0.000472 -0.455731	</row0>
+			<row1>	0.000425 0.911458 0.000209	</row1>
+			<row2>	0.455730 -0.000032 -0.789346	</row2>
+			<row3>	1.949987 0.100006 0.020004	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	4652	</offset>
+			<size>	1308	</size>
+		</staticLighting>
+	</model>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	BB0A15ED.40D00F19.53DD909D.7AE08A31	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	3.304825 -0.000015 -2.397659	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Note that if you turn around you can see behind you into the outside world.  Seamless indoor and outdoor integration for a more lifelike world.	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	114.909996 122.629997 179.330002	</row3>
+	</transform>
+	<boundingBox>
+		<min>	105.716187 122.393257 174.298080	</min>
+		<max>	115.944679 129.433502 180.220078	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am002ei.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

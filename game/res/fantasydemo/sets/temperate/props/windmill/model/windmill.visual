@@ -1,0 +1,134 @@
+<exporter_000_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Object012	</identifier>
+			<transform>
+				<row0>	0.934863 0.000000 0.355008	</row0>
+				<row1>	0.226125 0.770898 -0.595470	</row1>
+				<row2>	-0.273675 0.636959 0.720684	</row2>
+				<row3>	11.858319 -17.538168 2.178495	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Object026	</identifier>
+			<transform>
+				<row0>	0.904156 0.385763 -0.183543	</row0>
+				<row1>	-0.393535 0.919287 -0.006487	</row1>
+				<row2>	0.166226 0.078096 0.982990	</row2>
+				<row3>	16.069044 -16.825199 16.168081	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Object027	</identifier>
+			<transform>
+				<row0>	-0.385274 0.921966 -0.039276	</row0>
+				<row1>	-0.052304 0.020676 0.998417	</row1>
+				<row2>	0.921319 0.386719 0.040256	</row2>
+				<row3>	16.106279 -17.458878 16.017664	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	blades	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.061701 18.864185 4.305780	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	windmill	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-3.112960 0.165238 -6.615023	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	windows	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-3.112960 0.165238 -6.615023	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	windows	</node>
+		<geometry>
+			<vertices>	windows.vertices	</vertices>
+			<primitive>	windows.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	window	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	glowFactor
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/temperate/props/windmill/maps/windmill_window_glow.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/windmill/maps/windmill_window_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	windmill	</node>
+		<geometry>
+			<vertices>	windmill.vertices	</vertices>
+			<stream>	windmill.uv2	</stream>
+			<primitive>	windmill.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	windmill	</identifier>
+					<fx>	shaders/std_effects/lightonly_dual_multiply.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap2
+						<Texture>	sets/temperate/props/windmill/maps/windmill_shadow_b.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/windmill/maps/windmill_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	blades	</node>
+		<geometry>
+			<vertices>	blades.vertices	</vertices>
+			<primitive>	blades.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	windmill_blades	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/windmill/maps/windmill_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-11.751600 -0.376953 -9.263816	</min>
+		<max>	11.182701 30.028418 5.382579	</max>
+	</boundingBox>
+</exporter_000_temp.visual>

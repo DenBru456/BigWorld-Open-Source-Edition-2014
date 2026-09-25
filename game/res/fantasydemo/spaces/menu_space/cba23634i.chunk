@@ -1,0 +1,245 @@
+<cba23634i.chunk>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800404	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800404	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_basic.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	12736	</size>
+		</staticLighting>
+	</shell>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	0.757980 2.435473 -1.648842	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	1.870600	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	2.754646 2.149220 -2.985481	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	2.342192	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.999737 0.000000 0.022831	</row0>
+			<row1>	0.000000 0.999997 -0.000001	</row1>
+			<row2>	-0.022831 0.000001 0.999737	</row2>
+			<row3>	2.771763 1.979889 -3.288704	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.999737 0.000000 0.022831	</row0>
+			<row1>	0.000000 0.999998 -0.000001	</row1>
+			<row2>	-0.022831 0.000001 0.999737	</row2>
+			<row3>	10.771778 1.999892 -3.288696	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.412094 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.412094 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.412094	</row2>
+			<row3>	2.771763 1.959889 -3.268707	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	12736	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.412094 0.000000 -0.000000	</row0>
+			<row1>	0.000000 0.412094 0.000000	</row1>
+			<row2>	0.000000 0.000000 -0.412094	</row2>
+			<row3>	10.771778 1.969891 -3.268700	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	12772	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	1.499368 0.000018 -0.000659	</row0>
+			<row1>	0.000659 0.000000 1.499368	</row1>
+			<row2>	0.000018 -1.499368 0.000000	</row2>
+			<row3>	2.761768 1.429892 -3.598709	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	12808	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273800847	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273800890	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	1.499369 0.000018 0.000238	</row0>
+			<row1>	-0.000238 0.000000 1.499369	</row1>
+			<row2>	0.000018 -1.499369 0.000000	</row2>
+			<row3>	10.781780 1.439890 -3.598701	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	17168	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273822580	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273822585	</modified_on>
+		</metaData>
+		<colour>	84.000000 252.000061 151.000000	</colour>
+		<position>	13.429741 1.755736 -1.760231	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	9.728013	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	40.879604 7.299998 69.150070	</row3>
+	</transform>
+	<boundingBox>
+		<min>	40.878975 6.878867 63.692879	</min>
+		<max>	55.879715 21.342321 69.648438	</max>
+	</boundingBox>
+</cba23634i.chunk>

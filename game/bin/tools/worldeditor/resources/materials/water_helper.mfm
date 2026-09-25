@@ -1,0 +1,9 @@
+<water_helper.mfm>
+	<fx>	shaders/std_effects/lightonly.fx	</fx>
+	
+	<property>	diffuseMap
+		<Texture>	resources/maps/gizmo/square.dds	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+</water_helper.mfm>

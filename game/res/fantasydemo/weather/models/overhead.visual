@@ -1,0 +1,55 @@
+<overhead.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/environment/dual_cloud_layer.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	lowerShadowContrast
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	textureTile2
+						<Vector4>	2.000000 2.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	fogMap2
+						<Texture>	weather/maps/overhead_fog.bmp	</Texture>
+					</property>
+					<property>	diffuseMap2
+						<Texture>	weather/maps/cumulus_overhead_cloud.tga	</Texture>
+					</property>
+					<property>	upperShadowContrast
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	textureTile1
+						<Vector4>	3.000000 3.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	fogMap1
+						<Texture>	weather/maps/overhead_fog.bmp	</Texture>
+					</property>
+					<property>	diffuseMap1
+						<Texture>	weather/maps/stratus_overhead_cloud.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-50.000000 5.000000 -50.000000	</min>
+		<max>	50.000000 5.000000 50.000000	</max>
+	</boundingBox>
+</overhead.visual>

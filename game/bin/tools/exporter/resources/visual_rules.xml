@@ -1,0 +1,548 @@
+<visual_rules.xml>
+
+	<!--
+	This is used for verifying visuals, both at export time and via
+	resourcechecker.
+
+	Visuals are matched to rules based on their path and file name: it will
+	search through all the matching rules (ordered longest <path> first), and
+	use the first matching one (one with either no <filespec> or one that
+	matches vs the filename using standard wildcard matching).
+
+	Rules may have parents (via the <parent> tag): for each of the options, it
+	searches up the hierarchy till it finds a match. The set of hard points to
+	check against is all hard points mentioned in all parents.
+
+	Tags:
+		<identifier>:	Name of the rule
+		<parent>:		Name of the parent of the rule
+		<exportAs>:		One of "normal", "static", or "static with nodes".
+						It's the default type to use when exporting.
+
+		<path>:			The directory this rule applies to. Not inherited.
+		<filespec>:		The files in the directory this rule applies to. None
+						means all. Not inherited.
+
+	Options: (NOTE: A value of 0 in any numeric field means to not check it)
+
+
+		<minSize>: 			Minimum size of the visual, in metres
+		<maxSize>: 			Maximum size of the visual, in metres
+		<maxTriangles>:			Maximum number of triangles in the visual
+		<minTriangles>:			Minimum number of triangles in the visual
+		
+		<maxHierarchyDepth>	Maximum depth of the node hierarchy in the visual
+
+		<portals>: 			If the visual may have portals or not
+		<portalSnap>: 		The bounding box of the portal must reside on
+							multiples of this. (One value for each dimension)
+		<portalDistance>: 	The distance from the origin to the portal must
+							reside on a multiple of this.
+		<portalOffset>:		The centre of the portal must be a multiple of
+							portalOffset metres on the portals plane.
+
+		<hardPoint>:		The set of hard points the visual must have. May
+							appear many times.
+
+		<checkUnknownHardPoints>:	If true, any hard points not in the above
+									list will be flagged as an error.
+	-->
+
+
+	<rule>
+		<identifier>	base	</identifier>
+
+		<exportAs>	normal	</exportAs>
+
+		<minSize>	.001 .001 .001	</minSize>
+		<maxSize>	100 200 100	</maxSize>
+		<portals>	false	</portals>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+		
+		<maxHierarchyDepth> 128 </maxHierarchyDepth>
+	</rule>
+
+	<rule>
+		<identifier>	gui	</identifier>
+		<parent>	base	</parent>
+
+		<path>	gui/	</path>
+
+		<minSize>	0 0 0	</minSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	flora	</identifier>
+		<parent>	base	</parent>
+		<exportAs>	static	</exportAs>
+
+		<path>	flora/	</path>
+
+		<minSize>	0 0 0	</minSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	actor	</identifier>
+		<parent>	base	</parent>
+
+		<path>	/actors/	</path>
+
+		<maxSize>	100 100 100	</maxSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	prop	</identifier>
+		<parent>	base	</parent>
+
+		<exportAs>	static	</exportAs>
+
+		<path>	/props/	</path>
+
+		<maxSize>	100 200 100	</maxSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	entry	</identifier>
+		<parent>	base	</parent>
+		<exportAs>	static	</exportAs>
+
+		<path>	/entry/	</path>
+
+		<maxSize>	100 200 100	</maxSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	fx	</identifier>
+		<parent>	base	</parent>
+		<exportAs>	static	</exportAs>
+
+		<path>	/fx/	</path>
+
+		<minSize>	0 0 0	</minSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	fx actor	</identifier>
+		<parent>	fx	</parent>
+		<path>	/fx/actors/	</path>
+		<exportAs>	static	</exportAs>
+	</rule>
+
+	<rule>
+		<identifier>	rock	</identifier>
+		<parent>	base	</parent>
+		<exportAs>	static	</exportAs>
+
+		<path>	/rocks/	</path>
+
+		<maxSize>	100 200 100	</maxSize>
+		<minSize>	.1 0 .1	</minSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	bsp	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/shells/	</path>
+		<filespec>	*_bsp*	</filespec>
+
+		<exportAs>	static	</exportAs>
+
+		<portals>	false	</portals>
+		<minSize>	.1 .1 .1	</minSize>
+		<maxSize>	100 200 100	</maxSize>
+
+		<checkUnknownHardPoints>	true	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	shell	</identifier>
+		<parent>	base	</parent>
+
+		<path>	/shells/	</path>
+
+		<exportAs>	static	</exportAs>
+
+		<portals>	true	</portals>
+
+		<!--
+		<portalSnap>	.0 .0 .0	</portalSnap>
+		<portalDistance>	4	</portalDistance>
+		<portalOffset>	4	</portalOffset>
+		-->
+		<portalSnap>	.0 .0 .0	</portalSnap>
+		<portalDistance>	0	</portalDistance>
+		<portalOffset>	0	</portalOffset>
+
+		<minSize>	.1 .1 .1	</minSize>
+		<maxSize>	100 200 100	</maxSize>
+
+		<checkUnknownHardPoints>	true	</checkUnknownHardPoints>
+	</rule>
+	<rule>
+		<identifier>	shell2	</identifier>
+		<parent>	shell	</parent>
+
+		<path>	shells/	</path>
+	</rule>
+
+	<rule>
+		<identifier>	creatures	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/Creatures/	</path>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+
+	<!-- ************* Section: Items  ****************** -->
+
+
+	<rule>
+		<identifier>	items	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/items/	</path>
+
+		<exportAs>	static with nodes	</exportAs>
+
+		<hardPoint> HP_left_hand </hardPoint>
+		<!--	<hardPoint> HP_left_hip </hardPoint>	-->
+		<hardPoint> HP_right_hand </hardPoint>
+		<hardPoint> HP_right_hip </hardPoint>
+		<!--	<hardPoint> HP_left_boot </hardPoint>	-->
+		<!--	<hardPoint> HP_right_boot </hardPoint>	-->
+		<hardPoint> HP_shoulder </hardPoint>
+		<!--	<hardPoint> HP_shoulder2 </hardPoint>	-->
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	wasps	</identifier>
+		<parent>	items	</parent>
+
+		<path>	objects/models/items/06_wasps/	</path>
+
+		<exportAs>	static with nodes	</exportAs>
+
+		<hardPoint> HP_ass </hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	wasps	</identifier>
+		<parent>	items	</parent>
+
+		<path>	objects/models/items/06_wasps/	</path>
+
+		<exportAs>	static with nodes	</exportAs>
+
+		<hardPoint> HP_ass </hardPoint>
+	</rule>
+
+	<!-- loot pad isn't a true item -->
+	<rule>
+		<identifier>	loot pad	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/items/05_loot/03_loot_pad	</path>
+		<filespec>	loot_pad.visual	</filespec>
+
+		<exportAs>	normal	</exportAs>
+		<checkUnknownHardPoints>	true	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	hw_0008_projector.visual	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/items/hardware	</path>
+		<filespec>	hw_0008_projector.visual	</filespec>
+
+		<exportAs>	normal	</exportAs>
+
+		<hardPoint>	HP_screen	</hardPoint>
+
+		<checkUnknownHardPoints>	true	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	hw_0008a_projectiongrid.visual	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/items/hardware	</path>
+		<filespec>	hw_0008a_projectiongrid.visual	</filespec>
+
+		<exportAs>	normal	</exportAs>
+
+		<hardPoint>	HP_screen	</hardPoint>
+		<hardPoint>	HP_text	</hardPoint>
+
+		<checkUnknownHardPoints>	true	</checkUnknownHardPoints>
+	</rule>
+
+	<!-- *************** Section: Level Items ******************* -->
+
+	<rule>
+		<identifier>	level object	</identifier>
+		<parent>	base	</parent>
+
+		<exportAs>	static	</exportAs>
+
+		<path>	objects/models/level/	</path>
+
+		<maxSize>	100 200 100	</maxSize>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	spawn point	</identifier>
+		<parent>	level object	</parent>
+
+		<exportAs>	static with nodes	</exportAs>
+
+		<path>	objects/models/level/	</path>
+		<filespec>	*spawnpoint*	</filespec>
+
+		<maxSize>	50 50 50	</maxSize>
+
+		<hardPoint> HP_mount </hardPoint>
+	</rule>
+
+	<!-- ******************  Section: Guns ****************  -->
+
+	<rule>
+		<identifier>	scope </identifier>
+		<parent>	items </parent>
+
+		<path>	objects/models/items/00_guns/	</path>
+		<filespec>	*scope*	</filespec>
+
+		<hardPoint> HP_scope </hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	clip	</identifier>
+		<parent>	items	</parent>
+
+		<path>	objects/models/items/00_guns/	</path>
+		<filespec>	*clip*	</filespec>
+
+		<maxSize>	1 1 1	</maxSize>
+
+		<hardPoint> HP_clip	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	muzzle	</identifier>
+		<parent>	items	</parent>
+
+		<path>	objects/models/items/00_guns/	</path>
+		<filespec>	*muzzle*	</filespec>
+
+		<maxSize>	2 2 2	</maxSize>
+
+		<hardPoint> HP_flash	</hardPoint>
+		<hardPoint> HP_muzzle	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	gun base </identifier>
+		<parent>	items	</parent>
+
+		<path>	objects/models/items/00_guns/	</path>
+		<filespec>	*base*	</filespec>
+
+		<hardPoint> HP_muzzle </hardPoint>
+		<hardPoint> HP_scope	</hardPoint>
+		<hardPoint> HP_clip	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	cannon muzzle	</identifier>
+		<parent>	muzzle	</parent>
+
+		<path>	objects/models/items/00_guns/04_cannon/00_muzzle/	</path>
+		<filespec>	*muzzle*	</filespec>
+
+		<hardPoint> HP_chargeup	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	cannon base </identifier>
+		<parent>	gun base	</parent>
+
+		<path>	objects/models/items/00_guns/04_cannon/	</path>
+		<filespec>	*base*	</filespec>
+
+		<hardPoint> HP_pack	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	cannon pack </identifier>
+		<parent>	items	</parent>
+
+		<path>	objects/models/items/00_guns/04_cannon/	</path>
+		<filespec>	*pack*	</filespec>
+
+		<hardPoint> HP_pack	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	plasma muzzle	</identifier>
+		<parent>	muzzle	</parent>
+
+		<path>	objects/models/items/00_guns/06_plasma	</path>
+		<filespec>	*muzzle*	</filespec>
+
+		<hardPoint> HP_chargeup	</hardPoint>
+	</rule>
+
+
+	<!-- ****************  Section: Vehicles **************** -->
+
+	<rule>
+		<identifier>	razor2	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/vehicles/	</path>
+		<filespec>	razor2.visual	</filespec>
+
+		<hardPoint> HP_flare </hardPoint>
+		<hardPoint> HP_mount </hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	razor_flare	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/vehicles/	</path>
+		<filespec>	razor_flare.visual	</filespec>
+
+		<hardPoint> HP_flare </hardPoint>
+	</rule>
+
+
+	<!-- *********************** Section: FX ******************** -->
+
+	<rule>
+		<identifier>	fx	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/fx/	</path>
+
+		<minSize>	0 0 0	</minSize>
+		<maxSize>	0 0 0	</maxSize>
+	</rule>
+
+	<rule>
+		<identifier>	flashes	</identifier>
+		<parent>	fx	</parent>
+
+		<path>	objects/models/fx/	</path>
+		<filespec>	flashes.visual	</filespec>
+
+		<hardPoint>	HP_flash	</hardPoint>
+		<hardPoint>	HP_flash01	</hardPoint>
+		<hardPoint>	HP_flash02	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	flash_autofire	</identifier>
+		<parent>	fx	</parent>
+
+		<path>	objects/models/fx/	</path>
+		<filespec>	flash_autofire.visual	</filespec>
+
+		<hardPoint>	HP_flash	</hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	flash_heavy	</identifier>
+		<parent>	fx	</parent>
+
+		<path>	objects/models/fx/	</path>
+		<filespec>	flash_heavy.visual	</filespec>
+
+		<hardPoint>	HP_flash	</hardPoint>
+		<hardPoint>	HP_flash01	</hardPoint>
+		<hardPoint>	HP_flash02	</hardPoint>
+	</rule>
+
+
+	<!-- ******************** Section: Characters ******************* -->
+
+	<rule>
+		<identifier>	character misc	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/Characters/	</path>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	set character	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/Characters/sets/	</path>
+
+		<checkUnknownHardPoints>	false	</checkUnknownHardPoints>
+	</rule>
+
+	<rule>
+		<identifier>	hands	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/Characters/	</path>
+		<filespec>	*hands*	</filespec>
+
+		<hardPoint> HP_left_hand </hardPoint>
+		<hardPoint> HP_right_hand </hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	torso	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/Characters/	</path>
+		<filespec>	*torso*	</filespec>
+
+		<hardPoint> HP_shoulder </hardPoint>
+		<hardPoint> HP_shoulder2 </hardPoint>
+	</rule>
+
+	<rule>
+		<identifier>	legs	</identifier>
+		<parent>	base	</parent>
+
+		<path>	objects/models/Characters/	</path>
+		<filespec>	*legs*	</filespec>
+
+		<hardPoint> HP_left_hip </hardPoint>
+		<hardPoint> HP_right_hip </hardPoint>
+		<hardPoint> HP_left_boot </hardPoint>
+		<hardPoint> HP_right_boot </hardPoint>
+		<hardPoint> HP_mount </hardPoint>
+		<hardPoint> HP_shield </hardPoint>
+	</rule>
+
+
+</visual_rules.xml>

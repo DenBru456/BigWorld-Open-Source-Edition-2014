@@ -1,0 +1,33 @@
+# /etc/bigworld.conf
+[tools]
+
+# Username must be the owner of the server tools directory
+# and files located within. This user will be used to run
+# the server tool processes at system startup
+username = bwtools
+groupname = bwtools
+
+
+# Absolute path to the server tools directory. This directory
+# should contain at a minimium:
+#
+# install/
+# message_logger/
+# pycommon/
+# stat_logger/
+# web_console/
+location = /home/bwtools/mf/bigworld/tools/server
+
+
+# The PID directory will be used to place .pid files in for
+# the server tools and init scripts to identify if an existing
+# process instance is running.
+piddir = /var/run/bigworld
+
+
+#[snapshot]
+#datadir = /var/lib/mysql
+#lvgroup = VolGroup00
+#lvorigin = LogVol00
+#lvsnapshot = bwsnapshot
+#lvsizegb = 2

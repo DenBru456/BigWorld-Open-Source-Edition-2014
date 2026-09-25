@@ -1,0 +1,135 @@
+<root>
+	<bees>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<capacity>	50	</capacity>
+		<windFactor_>	0.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.059265 0.000000	</localOffset_>
+		<maxLod_>	25.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 5.801000 0.000000	</centre_>
+						<maxRadius_>	4.889207	</maxRadius_>
+						<minRadius_>	0.719903	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 1.346000 0.000000	</centre_>
+						<maxRadius_>	2.208627	</maxRadius_>
+						<minRadius_>	1.463330	</minRadius_>
+					</SphereVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	true	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	14.000000	</rate_>
+				<sensitivity_>	100000.000000	</sensitivity_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	-1.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.030000	</minimumSize_>
+				<maximumSize_>	0.050000	</maximumSize_>
+				<forcedUnitSize_>	5	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Force>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<vector_>	0.000000 0.643000 0.000000	</vector_>
+			</Force>
+			<Collide>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<spriteBased_>	true	</spriteBased_>
+				<elasticity_>	0.800000	</elasticity_>
+				<minAddedRotation_>	0.000000	</minAddedRotation_>
+				<maxAddedRotation_>	1.000000	</maxAddedRotation_>
+				<entityID_>	52	</entityID_>
+				<soundTag_>	no sound	</soundTag_>
+				<soundEnabled_>	false	</soundEnabled_>
+				<soundSrcIdx_>	0	</soundSrcIdx_>
+			</Collide>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<maximumAge_>	5.882353	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+			</Sink>
+			<Magnet>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<strength_>	45.000000	</strength_>
+				<minDist_>	10.000000	</minDist_>
+			</Magnet>
+			<Orbitor>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<point_>	0.666000 1.608000 -0.659000	</point_>
+				<angularVelocity_>	0.349066	</angularVelocity_>
+				<affectVelocity_>	false	</affectVelocity_>
+			</Orbitor>
+			<Jitter>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<affectPosition_>	true	</affectPosition_>
+				<affectVelocity_>	false	</affectVelocity_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 0.061115 -0.040371	</centre_>
+						<maxRadius_>	2.376938	</maxRadius_>
+						<minRadius_>	0.000000	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.001751 -0.026996 -0.001035	</centre_>
+						<maxRadius_>	0.509848	</maxRadius_>
+						<minRadius_>	0.000000	</minRadius_>
+					</SphereVectorGenerator>
+				</pVelocitySrc>
+			</Jitter>
+		</Actions>
+		<Renderer>
+			<SpriteParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<textureName_>	sets/temperate/particles/maps/gnat.bmp	</textureName_>
+				<materialFX_>	0	</materialFX_>
+				<frameCount_>	4	</frameCount_>
+				<frameRate_>	120.000000	</frameRate_>
+			</SpriteParticleRenderer>
+		</Renderer>
+		<boundingBox>
+			<min>	-5.902614 -2.964792 -5.614634	</min>
+			<max>	5.661558 7.488924 6.357438	</max>
+		</boundingBox>
+	</bees>
+</root>

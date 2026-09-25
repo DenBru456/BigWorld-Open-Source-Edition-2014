@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# This script accesses WebConsole to prevent the MySQL connection from
+# dropping out. This can occur under CentOS 5 or older versions of
+# Fedora due to a MySQLdb 1.2.1 bug.
+
+/usr/bin/wget -o /dev/null -O /dev/null  http://localhost:8080

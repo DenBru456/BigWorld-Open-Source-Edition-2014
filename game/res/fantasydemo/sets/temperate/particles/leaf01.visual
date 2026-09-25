@@ -1,0 +1,32 @@
+<exporter_001_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	leafparticles	</identifier>
+					<fx>	shaders/std_effects/mesh_particle.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/particles/maps/leafparticles.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	1.364413 -0.072330 -0.299610	</min>
+		<max>	6.550666 0.099173 0.299610	</max>
+	</boundingBox>
+</exporter_001_temp.visual>

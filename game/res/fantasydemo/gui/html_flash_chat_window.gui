@@ -1,0 +1,259 @@
+<chat_window.gui>
+	<WindowGUIComponent>	162480932
+		<position>	0.000000 0.000000 0.500000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	430.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	470.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	0.673000 1.000000	</coords2>
+			<coords3>	0.673000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.HTMLFlashChatWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	true	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>
+			<textureWindow>  162427154 	</textureWindow>
+			<windowLabel>	162487152	</windowLabel>
+			<closeBox>	162494816	</closeBox>
+			<internalBrowser>	162492304	</internalBrowser>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	162487152
+		<position>	24.000000 10.000000 0.500000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.147638	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.049046	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Black_18.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Flash Chat </label>
+		<font>	Heading.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	162494816
+		<position>	417.000000 10.000000 0.500000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	21.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.171875	</coords0>
+			<coords1>	0.000000 0.253906	</coords1>
+			<coords2>	0.082031 0.253906	</coords2>
+			<coords3>	0.082031 0.171875	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<groupDepth>	1	</groupDepth>
+			<visualStates>	&quot;PyGUI.ButtonVisualState&quot;
+				<disabled>
+					<textStyle>	ButtonDisabled	</textStyle>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	0.000000 44.000000	</coords0>
+							<coords1>	0.000000 65.000000	</coords1>
+							<coords2>	21.000000 65.000000	</coords2>
+							<coords3>	21.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<hover>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	0.000000 44.000000	</coords0>
+							<coords1>	0.000000 65.000000	</coords1>
+							<coords2>	21.000000 65.000000	</coords2>
+							<coords3>	21.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	22.000000 44.000000	</coords0>
+							<coords1>	22.000000 65.000000	</coords1>
+							<coords2>	43.000000 65.000000	</coords2>
+							<coords3>	43.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	0.000000 44.000000	</coords0>
+							<coords1>	0.000000 65.000000	</coords1>
+							<coords2>	21.000000 65.000000	</coords2>
+							<coords3>	21.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	162492304
+		<position>	20.000000 36.000000 1.0000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	403.000000	</width> 
+		<heightMode>	1	</heightMode>
+		<height>	432.000000	</height> 
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	4	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.InternalBrowser&quot; 
+			<exactWidth>	403	</exactWidth>
+			<exactHeight>	432	</exactHeight>
+		</script> 
+		<children>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	162427154
+		<position>	8.000000 3.000000 0.5000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	423.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	480.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_chat.dds	</textureName> 
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	0.673000 1.000000	</coords2>
+			<coords3>	0.673000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.PyGUIBase&quot;
+			<horzDrag>	false	</horzDrag>
+			<vertDrag>	false	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll> 
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+</chat_window.gui>

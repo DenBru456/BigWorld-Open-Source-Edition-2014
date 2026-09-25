@@ -1,0 +1,98 @@
+<tunnel_damaged.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	tunnel_02_shader1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_norms1.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	maya_export_tunnel_shader1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_norms1.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.131951 -0.421130 -5.457190	</min>
+		<max>	15.112812 5.653540 0.498371	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-15.000000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 5.000009 0.000000	</point>
+			<point>	4.999999 5.000009 0.000000	</point>
+			<point>	4.999999 0.000010 0.000000	</point>
+			<point>	-0.000000 0.000010 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 -0.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-5.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.000000 -1.000000	</normal>
+		<d>	-0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	0.000000 -0.000000 1.000000	</uAxis>
+			<point>	-5.000009 -0.000001 0.000001	</point>
+			<point>	-0.000010 -0.000001 0.000001	</point>
+			<point>	-0.000011 -4.999999 0.000000	</point>
+			<point>	-5.000010 -4.999999 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 0.000000	</normal>
+		<d>	-5.000000	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</tunnel_damaged.visual>

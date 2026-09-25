@@ -1,0 +1,24 @@
+<fx_warp.model>
+	<animation>
+		<name>	fx_warp_anim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	objects/models/fx/fx_warp_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Go	</name>
+		<animation>	fx_warp_anim	</animation>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<nodefullVisual>	objects/models/fx/fx_warp	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-3.029855 -2.453436 -3.007069	</min>
+		<max>	3.011576 4.896712 3.012481	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378407	</modified_on>
+	</metaData>
+</fx_warp.model>

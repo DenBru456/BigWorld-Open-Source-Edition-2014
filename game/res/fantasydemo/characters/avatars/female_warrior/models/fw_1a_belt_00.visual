@@ -1,0 +1,76 @@
+<fw_1a_belt_00.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000001	</row2>
+				<row3>	-0.000000 1.039428 -0.024950	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.031719 0.000416 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped PelvisBlendBone1A_Belt_00	</identifier>
+					<transform>
+						<row0>	0.000001 -1.000000 -0.000003	</row0>
+						<row1>	1.000000 0.000001 0.000000	</row1>
+						<row2>	0.000000 -0.000003 1.000000	</row2>
+						<row3>	-1.039844 -0.000002 0.056669	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped PelvisBlendBone1A_Belt_00	</node>
+		<geometry>
+			<vertices>	1A_Belt_00.vertices	</vertices>
+			<primitive>	1A_Belt_00.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	legs_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_refmask.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.164605 1.012762 -0.190669	</min>
+		<max>	0.186580 1.140939 0.084625	</max>
+	</boundingBox>
+</fw_1a_belt_00.visual>

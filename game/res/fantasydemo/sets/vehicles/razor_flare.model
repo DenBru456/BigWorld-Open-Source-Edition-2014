@@ -1,0 +1,67 @@
+<razor_flare.model>
+	<animation>
+		<name>	anim	</name>
+		<frameRate>	10.000000	</frameRate>
+		<firstFrame>	1	</firstFrame>
+		<lastFrame>	-1	</lastFrame>
+		<nodes>	sets/vehicles/razor_flare_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	anim:rev	</name>
+		<frameRate>	10.000000	</frameRate>
+		<firstFrame>	-1	</firstFrame>
+		<lastFrame>	1	</lastFrame>
+		<nodes>	sets/vehicles/razor_flare_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	anim:firstframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	1	</firstFrame>
+		<lastFrame>	1	</lastFrame>
+		<nodes>	sets/vehicles/razor_flare_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	anim:lastframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	-1	</firstFrame>
+		<lastFrame>	-1	</lastFrame>
+		<nodes>	sets/vehicles/razor_flare_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Go	</name>
+		<animation>	anim	</animation>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<action>
+		<name>	On	</name>
+		<animation>	anim:lastframe	</animation>
+		<filler>	true	</filler>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<action>
+		<name>	Stop	</name>
+		<animation>	anim:rev	</animation>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<action>
+		<name>	Off	</name>
+		<animation>	anim:firstframe	</animation>
+		<filler>	true	</filler>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<nodefullVisual>	sets/vehicles/razor_flare	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.179740 0.268213 -3.064652	</min>
+		<max>	1.165942 2.613895 -1.174901	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	phillipj	</modified_by>
+		<modified_on>	1263253424	</modified_on>
+	</metaData>
+</razor_flare.model>

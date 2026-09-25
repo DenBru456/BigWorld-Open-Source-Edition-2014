@@ -1,0 +1,26 @@
+<root>
+	<Material>
+		<Identifier>	portal	</Identifier>
+		<Src_Blend_type>	2	</Src_Blend_type>
+		<Dest_Blend_type>	1	</Dest_Blend_type>
+		<Self_Illumination>	0.000000	</Self_Illumination>
+		<Alpha_Reference>	0	</Alpha_Reference>
+		<Z-Buffer_write>	false	</Z-Buffer_write>
+		<Z-Buffer_read>	true	</Z-Buffer_read>
+		<Alpha_blended>	true	</Alpha_blended>
+		<Alpha_test>	false	</Alpha_test>
+		<Sorted>	true	</Sorted>
+		<Double_sided>	false	</Double_sided>
+		<UV2Generator>	0	</UV2Generator>
+		<UV2Angle>	0	</UV2Angle>
+		<Texture_Factor>	-1	</Texture_Factor>
+		<Texture_Stage>
+			<Colour_Op>	1	</Colour_Op>
+			<Colour_Arg1>	1	</Colour_Arg1>
+			<Colour_Arg2>	2	</Colour_Arg2>
+			<Alpha_Op>	1	</Alpha_Op>
+			<Alpha_Arg1>	1	</Alpha_Arg1>
+			<Alpha_Arg2>	2	</Alpha_Arg2>
+		</Texture_Stage>
+	</Material>
+</root>

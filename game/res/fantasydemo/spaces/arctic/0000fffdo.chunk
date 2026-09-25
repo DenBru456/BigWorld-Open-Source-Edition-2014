@@ -1,0 +1,60 @@
+<root>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	4.002579 0.000006 3.258986	</row0>
+			<row1>	-0.000007 5.161553 -0.000001	</row1>
+			<row2>	-3.258986 -0.000003 4.002579	</row2>
+			<row3>	4.642288 10.349445 84.296036	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29734721	</hi>
+		<lo>	773221834	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-1.988793 -0.000003 -1.738190	</row0>
+			<row1>	-0.000003 2.641326 -0.000001	</row1>
+			<row2>	1.738190 0.000002 -1.988793	</row2>
+			<row3>	37.380257 1.481663 102.470703	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.598807 -0.000001 -0.505194	</row0>
+			<row1>	-0.000001 0.783448 -0.000000	</row1>
+			<row2>	0.505194 0.000001 -0.598807	</row2>
+			<row3>	53.623787 -4.007641 61.239655	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.793427 -0.000001 0.685999	</row0>
+			<row1>	-0.000001 1.048868 -0.000000	</row1>
+			<row2>	-0.685999 -0.000001 -0.793427	</row2>
+			<row3>	40.780846 -0.949352 70.620270	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0000fffdo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0000fffdo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

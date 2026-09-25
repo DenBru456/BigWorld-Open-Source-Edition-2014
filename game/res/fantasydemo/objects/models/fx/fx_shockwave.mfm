@@ -1,0 +1,23 @@
+<fx_shockwave.mfm>
+	<fx>	objects/models/fx/fx_shockwave.fx </fx>
+	<property>	selfIllumination
+		<Float>	1.0	</Float>
+	</property>
+	<property>	uTransform
+		<Vector4>	1.0 0.0 0.0 0.0	</Vector4>
+	</property>
+	<property>	vTransform
+		<Vector4>	0.0 1.0 0.0 0.0	</Vector4>
+	</property>
+	<property>	colour
+		<Vector4>	0.5 0.20 0.0 1.0	</Vector4>
+	</property>
+	<property>	diffuseMap
+		<Texture>	maps/system/col_black.dds	</Texture>
+	</property>
+	<property>	otherMap
+		<Texture>	maps/fx/fx_plasmadistortsphere01.texanim	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+</fx_shockwave.mfm>

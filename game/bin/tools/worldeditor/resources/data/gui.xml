@@ -1,0 +1,1317 @@
+<GUI>
+	<item>
+		<name>	AppToolbars </name>
+		<type>	GROUP	</type>
+		<item>
+			<name>	MainToolbar </name>
+		</item>
+<!--	The commented toolbars are examples of additional toolbars that can be
+		configured. They duplicate functionality from tne Object panel.
+		<item>	
+			<name>	SnapModeToolbar </name>
+		</item>
+		<item>	
+			<name>	FiltersToolbar </name>
+		</item> -->
+		<item>	
+			<name>	ToolModeToolbar </name>
+		</item>
+	</item>
+	<item>
+		<name> MainMenu </name>
+		<type>	GROUP	</type>
+		<item>
+			<name> File </name>
+			<type>	GROUP	</type>
+			<displayName> MENU/FILE </displayName>
+			<description> MENU/FILE/DESC </description>
+
+			<item>
+				<name> CreateNewSpace </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/FILE/CREATE_NEW_SPACE </displayName>
+				<description> MENU/FILE/CREATE_NEW_SPACE/DESC </description>
+				<action> newSpace </action>
+			</item>
+
+			<item>
+				<name> ChangeSpace </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/FILE/CHANGE_SPACE </displayName>
+				<description> MENU/FILE/CHANGE_SPACE/DESC </description>
+				<action> changeSpace </action>
+			</item>
+
+      <item>
+        <name> EditSpace </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/FILE/EDIT_SPACE </displayName>
+        <description> MENU/FILE/EDIT_SPACE/DESC </description>
+        <action> editSpace </action>
+      </item>
+
+      <item>
+				<name> RecreateSpace </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/FILE/RECREATE_SPACE </displayName>
+				<description> MENU/FILE/RECREATE_SPACE/DESC </description>
+				<action> recreateSpace </action>
+				<updater> updateRecreateSpace </updater>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name> ReloadAllChunks	</name>
+				<type>	ACTION	</type>
+				<displayName> MENU/FILE/RELOAD_ALL_CHUNKS </displayName>
+				<shortcut> CTRL+K </shortcut>
+				<description> MENU/FILE/RELOAD_ALL_CHUNKS/DESC </description>
+				<action> doReloadAllChunks </action>
+			</item>
+
+			<item>
+				<name> ReloadAllTexture	</name>
+				<type>	ACTION	</type>
+				<displayName> MENU/FILE/RELOAD_ALL_TEXTURES </displayName>
+				<shortcut> CTRL+R </shortcut>
+				<description> MENU/FILE/RELOAD_ALL_TEXTURES/DESC </description>
+				<action> doReloadAllTextures </action>
+			</item>
+
+			<item>
+				<name> RegenerateLODs </name>
+				<type> ACTION </type>
+				<displayName> MENU/FILE/REGEN_TERRAIN_LODS </displayName>
+				<description> MENU/FILE/REGEN_TERRAIN_LODS/DESC </description>
+				<action> doRegenerateTerrainLODs </action>
+				<updater> canRegenerateTerrainLODs </updater>
+			</item>
+			
+			<item>
+				<name> RegenerateThumbnails </name>
+				<type> ACTION </type>
+				<displayName> MENU/FILE/REGEN_THUMBNAILS </displayName>
+				<description> MENU/FILE/REGEN_THUMBNAILS/DESC </description>
+				<action> doRegenerateThumbnails </action>
+				<updater> canRegenerateThumbnails </updater>
+			</item>
+			
+			<item>
+				<name> TouchAllChunks </name>
+				<type> ACTION </type>
+				<displayName> MENU/FILE/TOUCH_ALL_CHUNKS </displayName>
+				<description> MENU/FILE/TOUCH_ALL_CHUNKS/DESC </description>
+				<action> doTouchAllChunks </action>
+				<updater> canTouchAllChunks </updater>
+			</item>
+			
+			<item>
+				<name> CreateSpaceImage </name>
+				<type> ACTION </type>
+				<displayName> MENU/FILE/CREATE_SPACE_IMAGE </displayName>
+				<description> MENU/FILE/CREATE_SPACE_IMAGE/DESC </description>
+				<action> doCreateSpaceImage </action>
+				<updater> canCreateSpaceImage </updater>
+			</item>
+			
+			<item>
+				<name> ExpandCurrentSpace </name>
+				<type> ACTION </type>
+				<displayName> MENU/FILE/EXPAND_SPACE </displayName>
+				<description> MENU/FILE/EXPAND_SPACE/DESC </description>
+				<action> doExpandCurrentSpace </action>
+				<updater> canExpandCurrentSpace </updater>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+			<!--
+			Save and quick save use the same key, but different modifiers.
+			Do the one with more modifiers first.
+			-->
+			<item>
+				<name> Save </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/FILE/FULL_SAVE </displayName>
+				<description> MENU/FILE/FULL_SAVE/DESC </description>
+				<shortcut> CTRL+ALT+S </shortcut>
+				<action> doFullSave </action>
+			</item>
+			
+			<item>
+				<name> QuickSave </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/FILE/QUICK_SAVE </displayName>
+				<description> MENU/FILE/QUICK_SAVE/DESC </description>
+				<shortcut> CTRL+S </shortcut>
+				<action> doQuickSave </action>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name> RecentFiles </name>
+				<type>	GROUP	</type>
+				<displayName>	MENU/FILE/RECENT_FILES	</displayName>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+			
+			<item>
+				<name> Exit </name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/FILE/EXIT	</displayName>
+				<shortcut>	ALT+F4	</shortcut>
+				<action>	doExit	</action>
+				<commandID>	57665	</commandID>
+			</item>
+		</item>
+
+		<item>
+			<name> Edit </name>
+			<type>	GROUP	</type>
+			<displayName> MENU/EDIT </displayName>
+			<description> MENU/EDIT/DESC </description>
+
+			<item>
+				<name> Undo </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/EDIT/UNDO </displayName>
+				<description> MENU/EDIT/UNDO/DESC </description>
+				<shortcut> CTRL+Z </shortcut>
+				<action> doUndo </action>
+				<updater> updateUndo </updater>
+			</item>
+
+			<item>
+				<name> Redo </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/EDIT/REDO </displayName>
+				<description> MENU/EDIT/REDO/DESC </description>
+				<shortcut> CTRL+Y </shortcut>
+				<action> doRedo </action>
+				<updater> updateRedo </updater>
+			</item>
+
+			<item>
+				<name> clearUndoRedoHistory </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/EDIT/CLEAR_UNDO_REDO_HISTORY </displayName>
+				<description> MENU/EDIT/CLEAR_UNDO_REDO_HISTORY/DESC </description>
+				<action> clearUndoRedoHistory </action>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name> SelectAll </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/EDIT/SELECT_ALL </displayName>
+				<description> MENU/EDIT/SELECT_ALL/DESC </description>
+				<shortcut> CTRL+A </shortcut>
+				<action> doSelectAll </action>
+			</item>
+
+			<item>
+				<name> DeselectAll </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/EDIT/DESELECT_ALL </displayName>
+				<description> MENU/EDIT/DESELECT_ALL/DESC </description>
+				<shortcut> CTRL+D </shortcut>
+				<action> doDeselectAll </action>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name> SaveShellAsTemplate </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/EDIT/SAVE_SHELL_AS_TEMPLATE </displayName>
+				<shortcut> CTRL+T </shortcut>
+				<action> doSaveChunkTemplate </action>
+			</item>
+
+			<item>
+				<name> SaveSelectionAsPrefab </name>
+				<type>	ACTION	</type>
+				<displayName> MENU/EDIT/SAVE_SELECTION_AS_PREFAB </displayName>
+				<shortcut> CTRL+B </shortcut>
+				<action> doSaveSelectionAsPrefab </action>
+			</item>
+
+      <item>
+        <type>	SEPARATOR	</type>
+      </item>
+
+      <item>
+        <name> HideSelection </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/HIDE_SELECTION </displayName>
+        <action> doHideSelection </action>
+      </item>
+      
+      <item>
+        <name> UnhideSelection </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/UNHIDE_SELECTION </displayName>
+        <action> doUnhideSelection </action>
+      </item>
+
+      <item>
+        <name> UnhideAllFilter </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/UNHIDE_ALL_FILTER </displayName>
+        <action> doUnhideAllFilter </action>
+      </item>
+	  
+      <item>
+        <name> UnhideAll </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/UNHIDE_ALL </displayName>
+        <action> doUnhideAll </action>
+      </item>
+
+      <item>
+        <type>	SEPARATOR	</type>
+      </item>
+
+      <item>
+        <name> FreezeSelection </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/FREEZE_SELECTION </displayName>
+        <action> doFreezeSelection </action>
+      </item>
+      
+      <item>
+        <name> UnfreezeSelection </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/UNFREEZE_SELECTION </displayName>
+        <action> doUnfreezeSelection </action>
+      </item>
+
+      <item>
+        <name> UnfreezeAllFilter </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/UNFREEZE_ALL_FILTER </displayName>
+        <action> doUnfreezeAllFilter </action>
+      </item>       
+	  
+      <item>
+        <name> UnfreezeAll </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/UNFREEZE_ALL </displayName>
+        <action> doUnfreezeAll </action>
+      </item>       
+
+    </item>
+
+		<item>
+			<name> View </name>
+			<type>	GROUP	</type>
+			<displayName> MENU/VIEW </displayName>
+			<description> MENU/VIEW/DESC </description>
+
+      <item>
+				<!-- The app will look for the item called ShowToolbarsSubmenu
+				and will fill it with the toolbars loaded from the AppToolbars
+				section above. -->
+				<name>	ShowToolbarsSubmenu	</name>
+				<type>	GROUP	</type>
+				<displayName>	MENU/VIEW/TOOLBARS </displayName>
+			</item>
+
+			<item>
+				<name>	ShowStatusBar	</name>
+				<type>	TOGGLE	</type>
+				<displayName>	MENU/VIEW/SHOW_STATUS_BAR	</displayName>
+				<item>
+					<type>	CHILD	</type>
+					<action> doShowStatusBar </action>
+					<updater> updateStatusBar </updater>
+				</item>
+				<item>
+					<type>	CHILD	</type>
+					<action> doHideStatusBar </action>
+				</item>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name>	ShowPanelTools	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_TOOLS	</displayName>
+				<action> doShowTools </action>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name>	ShowPanelUAL	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_UAL	</displayName>
+				<action> doShowPanelUAL </action>
+			</item>
+			
+			<item>
+				<name>	ShowPanelSceneBrowser	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_SCENEBROWSER	</displayName>
+				<action> doShowPanelSceneBrowser </action>
+			</item>
+			
+			<item>
+				<name>	ShowPanelPostProcessing	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_POSTPROCESSING	</displayName>
+				<action> doShowPanelPostProcessing </action>
+			</item>
+			
+			<item>
+				<name>	ShowPanelProperties	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_PROPERTIES	</displayName>
+				<action> doShowPanelProperties </action>
+			</item>
+
+      <item>
+        <name>	ShowPanelOptionsGeneral	</name>
+        <type>	ACTION	</type>
+        <displayName>	MENU/VIEW/SHOW_PANEL_GENERAL	</displayName>
+        <action> doShowPanelOptionsGeneral </action>
+      </item>
+
+      <item>
+        <name>	ShowPanelOptionsNavigation	</name>
+        <type>	ACTION	</type>
+        <displayName>	MENU/VIEW/SHOW_PANEL_NAVIGATION	</displayName>
+        <action> doShowPanelOptionsNavigation </action>
+      </item>
+			
+			<item>
+				<name>	ShowPanelOptionsWeather	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_WEATHER	</displayName>
+				<action> doShowPanelOptionsWeather </action>
+			</item>
+			
+			<item>
+				<name>	ShowPanelOptionsEnvironment	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_ENVIRONMENT	</displayName>
+				<action> doShowPanelOptionsEnvironment </action>
+			</item>			
+			
+			<item>
+				<name>	ShowPanelOptionsHDRLighting	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_HDR_LIGHTING	</displayName>
+				<action> doShowPanelOptionsHDRLighting </action>
+			</item>
+			
+			<item>
+				<name>	ShowPanelOptionsDecals	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_DECALS	</displayName>
+				<action> doShowPanelOptionsDecals </action>
+			</item>
+			
+			<item>
+				<name>	ShowPanelHistogram	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_HISTOGRAM	</displayName>
+				<action> doShowPanelHistogram </action>
+			</item>
+
+      <item>
+          <name>	ShowPanelMessages	</name>
+          <type>	ACTION	</type>
+          <displayName>	MENU/VIEW/SHOW_PANEL_MESSAGES	</displayName>
+          <action> doShowPanelMessages </action>
+      </item>
+			<item>
+				<name>	ShowPanelChunkTexture	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_TEXTURES	</displayName>
+				<action> doShowPanelChunkTexture </action>
+			</item>	
+
+			<item>
+				<name>	ShowFloraSetting	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/SHOW_PANEL_FLORA_SETTING	</displayName>
+				<action> doShowPanelFloraSetting </action>
+			</item>	
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name>	ShowSidePanel	</name>
+				<type>	TOGGLE	</type>
+				<displayName>	MENU/VIEW/SHOW_SIDE_PANEL	</displayName>
+				<shortcut>	CTRL+H	</shortcut>
+				<item>
+					<type>	CHILD	</type>
+					<action> doShowSidePanel </action>
+					<updater> updateSidePanel </updater>
+				</item>
+				<item>
+					<type>	CHILD	</type>
+					<action> doHideSidePanel </action>
+				</item>
+			</item>
+			
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name>	DefaultPanelLayout	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/DEFAULT_PANELS	</displayName>
+				<action>	doDefaultPanelLayout	</action>
+			</item>
+			<item>
+				<name>	LoadPanelLayout	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/VIEW/LOAD_PANELS	</displayName>
+				<action>	doLoadPanelLayout	</action>
+			</item>
+		</item>
+
+		<item>
+			<name> Options </name>
+			<type>	GROUP	</type>
+			<displayName> MENU/OPTIONS </displayName>
+
+			<item>
+				<name>	SaveCameraPosition	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/OPTIONS/SAVE_CAMERA	</displayName>
+				<action>	doSaveCameraPosition	</action>
+			</item>
+
+			<item>
+				<name>	SaveStartPosition	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/OPTIONS/START_CAMERA	</displayName>
+				<action>	doSaveStartPosition	</action>
+			</item>
+			<item>
+				<name>	EnableUmbra	</name>
+				<type>	TOGGLE	</type>
+				<displayName>	MENU/OPTIONS/ENABLE_UMBRA	</displayName>
+				<item>
+		          <name> EnableUmbraMode </name>
+        		  <type>	CHILD	</type>
+		          <action> onEnableUmbraMode </action>
+				  <updater> updateUmbraDisabled </updater>
+		        </item>
+		        <item>
+        		  <name> DisableUmbraMode </name>
+		          <type>	CHILD	</type>
+        		  <action> onDisableUmbraMode </action>
+		          <updater> updateUmbraEnabled</updater>
+        		</item>
+			</item>
+
+			<item>
+				<name>	EnableDefaultWeather	</name>
+				<type>	TOGGLE	</type>
+				<displayName>	MENU/OPTIONS/ENABLE_DEFAULT_WEATHER	</displayName>
+				<item>
+		          <name> EnableDefaultWeather </name>
+        		  <type>	CHILD	</type>
+		          <action> onEnableDefaultWeather </action>
+				  <updater> updateDefaultWeatherDisabled </updater>
+		        </item>
+		        <item>
+        		  <name> DisableDefaultWeather </name>
+		          <type>	CHILD	</type>
+        		  <action> onDisableDefaultWeather </action>
+		          <updater> updateDefaultWeatherEnabled</updater>
+        		</item>
+			</item>
+    </item>
+
+		<item>
+			<name> Help	</name>
+			<type>	GROUP	</type>
+			<displayName> MENU/HELP </displayName>
+
+			<item>
+				<name>	AboutWorldEditor	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/HELP/ABOUT	</displayName>
+				<description> MENU/HELP/ABOUT/DESC </description>
+				<action>	doAboutWorldEditor	</action>
+			</item>
+
+			<item>
+				<name>	ToolsReferenceGuide	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/HELP/TOOLSREF_GUIDE	</displayName>
+				<description> MENU/HELP/TOOLSREF_GUIDE/DESC </description>
+				<action>	doToolsReferenceGuide	</action>
+			</item>
+
+			<item>
+				<name>	ContentCreation	</name>
+				<type>	ACTION	</type>
+				<displayName> MENU/HELP/CONTENTCREATION_GUIDE </displayName>
+				<description> MENU/HELP/CONTENTCREATION_GUIDE/DESC </description>
+				<action>	doContentCreation	</action>
+			</item>
+
+			<item>
+				<name>	Shortcuts	</name>
+				<type>	ACTION	</type>
+				<shortcut>	F1	</shortcut>
+				<displayName>	MENU/HELP/SHORTCUTS </displayName>
+				<description> MENU/HELP/SHORTCUTS_WORLDEDITOR/DESC </description>
+				<action>	doShortcuts	</action>
+			</item>
+
+			<item>
+				<name>	SEPARATOR	</name>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name>	RequestFeature	</name>
+				<type>	ACTION	</type>
+				<displayName>	MENU/HELP/REQUEST_FEATURE </displayName>
+				<description> MENU/HELP/REQUEST_FEATURE/DESC</description>
+				<action>	doRequestFeature	</action>
+			</item>
+		</item>
+	</item>
+
+  <item>
+    <name> MainToolbar </name>
+    <type> GROUP </type>
+    <displayName>	MAINTOOLBAR/NAME	</displayName>
+    <item>
+      <name> File </name>
+      <type>	GROUP	</type>
+      <displayName> MENU/FILE </displayName>
+      <description> MENU/FILE/DESC </description>
+
+      <item>
+        <name> QuickSave </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/FILE/QUICK_SAVE </displayName>
+        <description> MENU/FILE/QUICK_SAVE/DESC </description>
+        <shortcut> CTRL+S </shortcut>
+        <action> doQuickSave </action>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/main_toolbar.bmp:0,0,24,24	</imageNormal>
+      </item>
+
+      <item>
+        <name> Save </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/FILE/FULL_SAVE </displayName>
+        <description> MENU/FILE/FULL_SAVE/DESC </description>
+        <shortcut> CTRL+ALT+S </shortcut>
+        <action> doFullSave </action>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/main_toolbar.bmp:24,0,48,24	</imageNormal>
+      </item>
+
+      <item>
+        <type>	SEPARATOR	</type>
+      </item>
+
+    </item>
+    <item>
+      <name> Edit </name>
+      <type>	GROUP	</type>
+      <displayName> MENU/EDIT </displayName>
+      <description> MENU/EDIT/DESC </description>
+
+      <item>
+        <name> Undo </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/UNDO </displayName>
+        <description> MENU/EDIT/UNDO/DESC </description>
+        <shortcut> CTRL+Z </shortcut>
+        <action> doUndo </action>
+        <updater> updateUndo </updater>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/main_toolbar.bmp:48,0,72,24 </imageNormal>
+      </item>
+
+      <item>
+        <name> Redo </name>
+        <type>	ACTION	</type>
+        <displayName> MENU/EDIT/REDO </displayName>
+        <description> MENU/EDIT/REDO/DESC </description>
+        <shortcut> CTRL+Y </shortcut>
+        <action> doRedo </action>
+        <updater> updateRedo </updater>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/main_toolbar.bmp:72,0,96,24 </imageNormal>
+      </item>
+
+      <item>
+        <type>	SEPARATOR	</type>
+      </item>
+
+      <item>
+        <name> ViewOrtho </name>
+        <type>	TOGGLE	</type>
+        <displayName> MAINTOOLBAR/VIEWORTHO </displayName>
+        <description> MAINTOOLBAR/VIEWORTHO_DESC </description>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/main_toolbar.bmp:96,0,120,24 </imageNormal>
+        <item>
+          <name> ShowOrthoMode </name>
+          <type>	CHILD	</type>
+          <action> onShowOrthoMode </action>
+          <updater> camera/ortho == 0 </updater>
+        </item>
+        <item>
+          <name> HideOrthoMode </name>
+          <type>	CHILD	</type>
+          <action> onHideOrthoMode </action>
+          <updater> camera/ortho == 1 </updater>
+        </item>
+      </item>
+
+      <item>
+        <name> PlayerPreviewMode </name>
+        <type>	TOGGLE	</type>
+        <displayName> MAINTOOLBAR/PLAYER_PREVIEW</displayName>
+        <description> MAINTOOLBAR/PLAYER_PREVIEW_DESC </description>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/main_toolbar.bmp:120,0,144,24 </imageNormal>
+        <shortcut>	`	</shortcut>
+        <item>
+          <type>	CHILD	</type>
+          <action> doShowPlayerPreview </action>
+          <updater> updatePlayerPreview </updater>
+        </item>
+        <item>
+          <type>	CHILD	</type>
+          <action> doHidePlayerPreview </action>
+        </item>
+      </item>
+
+      <item>
+        <type>	SEPARATOR	</type>
+      </item>
+
+      <item>
+        <name>	CameraSpeed	</name>
+        <type>	CHOICE	</type>
+        <displayName>	MAINTOOLBAR/CAMERA_SPEED/NAME	</displayName>
+        <shortcut> CTRL+I </shortcut>
+        <item>
+          <type>	CHILD	</type>
+          <name> Slow </name>
+          <shortcut> CTRL+1 </shortcut>
+          <displayName> MAINTOOLBAR/CAMERA_SPEED/SLOW </displayName>
+          <action>	doSlowCamera	</action>
+          <updater> camera/speed	== Slow </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/main_toolbar.bmp:144,0,168,24 </imageNormal>
+        </item>
+        <item>
+          <type>	CHILD	</type>
+          <name> Medium </name>
+          <shortcut> CTRL+2 </shortcut>
+          <displayName> MAINTOOLBAR/CAMERA_SPEED/MEDIUM </displayName>
+          <action>	doMediumCamera	</action>
+          <updater> camera/speed	== Medium </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/main_toolbar.bmp:168,0,192,24 </imageNormal>
+        </item>
+        <item>
+          <type>	CHILD	</type>
+          <name> Fast </name>
+          <shortcut> CTRL+3 </shortcut>
+          <displayName> MAINTOOLBAR/CAMERA_SPEED/FAST </displayName>
+          <action>	doFastCamera	</action>
+          <updater> camera/speed	== Fast </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/main_toolbar.bmp:192,0,216,24 </imageNormal>
+        </item>
+        <item>
+          <type>	CHILD	</type>
+          <name> SuperFast </name>
+          <shortcut> CTRL+4 </shortcut>
+          <displayName> MAINTOOLBAR/CAMERA_SPEED/SUPER_FAST </displayName>
+          <action>	doSuperFastCamera	</action>
+          <updater> camera/speed	== SuperFast </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/main_toolbar.bmp:216,0,240,24 </imageNormal>
+        </item>
+      </item>
+
+      <item>
+        <type>	SEPARATOR	</type>
+      </item>
+
+      <item>
+        <name>	Chunk Vizualization Mode	</name>
+        <type>	CHOICE	</type>
+        <displayName>	MAINTOOLBAR/CHUNK_VIZ/NAME </displayName>
+        <shortcut> F6 </shortcut>
+        <item>
+          <type>	CHILD	</type>
+          <name> Normal </name>
+          <displayName> MAINTOOLBAR/CHUNK_VIZ/NORMAL </displayName>
+          <action>	normalMode	</action>
+          <updater> render/chunk/vizMode == 0 </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/terrain_modes.bmp:0,0,24,24 </imageNormal>
+        </item>
+        <item>
+          <type>	CHILD	</type>
+          <name> Boundary Box </name>
+          <displayName> MAINTOOLBAR/CHUNK_VIZ/BOUNDARY </displayName>
+          <action>	boundaryBox	</action>
+          <updater> render/chunk/vizMode == 1 </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/terrain_modes.bmp:24,0,48,24 </imageNormal>
+        </item>
+        <item>
+          <type>	CHILD	</type>
+          <name> Height Map </name>
+          <displayName>MAINTOOLBAR/CHUNK_VIZ/HEIGHT </displayName>
+          <action>	heightMap	</action>
+          <updater> render/chunk/vizMode == 2 </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/terrain_modes.bmp:48,0,72,24 </imageNormal>
+        </item>
+        <item>
+          <type>	CHILD	</type>
+          <name> Mesh Mode </name>
+          <displayName> MAINTOOLBAR/CHUNK_VIZ/MESH </displayName>
+          <action>	meshMode	</action>
+          <updater> render/chunk/vizMode == 3 </updater>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal>	resources/data/terrain_modes.bmp:72,0,96,24 </imageNormal>
+        </item>
+      </item>
+
+      <!--
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+
+			<item>
+				<name>	LightMode	</name>
+				<type>	CHOICE	</type>
+				<displayName>	Light Mode	</displayName>
+				<shortcut> CTRL+L </shortcut>
+				<item>
+					<type>	CHILD	</type>
+					<name> StandardLights </name>
+					<displayName> Standard Lights </displayName>
+					<action>	render/lighting = 0	</action>
+					<updater> render/lighting == 0 </updater>
+					<transparency> 255,0,255 </transparency>
+					<imageNormal>	resources/data/main_toolbar.bmp:240,0,264,24 </imageNormal>
+				</item>
+				<item>
+					<type>	CHILD	</type>
+					<name> DynamicLights </name>
+					<displayName> Dynamic Lights </displayName>
+					<action>	render/lighting = 1	</action>
+					<updater> render/lighting == 1 </updater>
+					<transparency> 255,0,255 </transparency>
+					<imageNormal>	resources/data/main_toolbar.bmp:264,0,288,24 </imageNormal>
+				</item>
+				<item>
+					<type>	CHILD	</type>
+					<name> SpecularLights </name>
+					<displayName> Specular Lights </displayName>
+					<action>	render/lighting = 2	</action>
+					<updater> render/lighting == 2 </updater>
+					<transparency> 255,0,255 </transparency>
+					<imageNormal>	resources/data/main_toolbar.bmp:288,0,312,24 </imageNormal>
+				</item>
+			</item>
+
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+			-->
+    </item>
+
+    <item>
+      <type>	SEPARATOR	</type>
+    </item>
+
+    <item>
+      <name> ExternalEditor </name>
+      <type>	ACTION	</type>
+      <displayName> MAINTOOLBAR/EXTERNAL_EDITOR </displayName>
+      <description> MAINTOOLBAR/EXTERNAL_EDITOR_DESC </description>
+      <shortcut> CTRL+E </shortcut>
+      <action> doExternalEditor </action>
+      <updater> updateExternalEditor </updater>
+      <transparency> 255,0,255 </transparency>
+      <imageNormal>	resources/data/main_toolbar.bmp:456,0,480,24	</imageNormal>
+    </item>
+
+    <item>
+      <name> TerrainWireframe </name>
+      <type>	TOGGLE	</type>
+      <displayName> MAINTOOLBAR/TERRAIN_WIREFRAME </displayName>
+      <description> MAINTOOLBAR/TERRAIN_WIREFRAME_DESC </description>
+      <transparency> 255,0,255 </transparency>
+      <imageNormal>	resources/data/main_toolbar.bmp:480,0,504,24	</imageNormal>
+      <item>
+        <name> ShowTerrainWireframe </name>
+        <type>	CHILD	</type>
+        <action> render/terrain/wireFrame = 1 </action>
+        <updater> render/terrain/wireFrame == 0 </updater>
+      </item>
+      <item>
+        <name> HideTerrainWireframe </name>
+        <type>	CHILD	</type>
+        <action> render/terrain/wireFrame = 0 </action>
+        <updater> render/terrain/wireFrame == 1 </updater>
+      </item>
+    </item>
+    <item>
+      <name> HideOutsideObjects </name>
+      <type>	TOGGLE	</type>
+      <displayName> MAINTOOLBAR/HIDE_OUTSIDE </displayName>
+      <description> MAINTOOLBAR/HIDE_OUTSIDE_DESC </description>
+      <transparency> 255,0,255 </transparency>
+      <imageNormal>	resources/data/main_toolbar.bmp:504,0,528,24	</imageNormal>
+      <item>
+        <name> HideOutsideObjects </name>
+        <type>	CHILD	</type>
+        <action> doHideAllOutside </action>
+        <updater> render/hideOutsideObjects == 0 </updater>
+      </item>
+      <item>
+        <name> ShowOutsideObjects </name>
+        <type>	CHILD	</type>
+        <action> doShowAllOutside </action>
+        <updater> render/hideOutsideObjects == 1 </updater>
+      </item>
+    </item>
+    <item>
+      <name> ShowDetourMesh </name>
+      <type>	TOGGLE	</type>
+      <displayName> MAINTOOLBAR/SHOW_NAVMESH </displayName>
+      <description> MAINTOOLBAR/SHOW_NAVMESH_DESC </description>
+      <transparency> 255,0,255 </transparency>
+      <imageNormal>	resources/data/main_toolbar.bmp:552,0,576,24	</imageNormal>
+      <item>
+        <name> ShowNavMesh </name>
+        <type>	CHILD	</type>
+        <action> render/misc/drawNavMesh = 1 </action>
+        <updater> render/misc/drawNavMesh == 0 </updater>
+      </item>
+      <item>
+        <name> HideNavMesh </name>
+        <type>	CHILD	</type>
+        <action> render/misc/drawNavMesh = 0 </action>
+        <updater> render/misc/drawNavMesh == 1 </updater>
+      </item>
+    </item>
+  </item>
+
+  <item>
+    <name> ToolModeToolbar </name>
+    <type> GROUP </type>
+    <displayName>	TOOLMODETOOLBAR/NAME	</displayName>
+    <item>
+      <name>	ToolMode	</name>
+      <type>	CHOICE	</type>
+      <displayName>	TOOLMODETOOLBAR/TOOLMODE/NAME	</displayName>
+      <item>
+        <type>	CHILD	</type>
+        <name> Object </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/OBJECT </description>
+        <action>	doToolModeObject	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> Objects </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:0,0,24,24	</imageNormal>
+      </item>
+      <item>
+        <type>	CHILD	</type>
+        <name> Texture </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/TEXTURE </description>
+        <action>	doToolModeTerrainTexture	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> TerrainTexture </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:24,0,48,24	</imageNormal>
+      </item>
+      <item>
+        <type>	CHILD	</type>
+        <name> Height </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/HEIGHT </description>
+        <action>	doToolModeTerrainHeight	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> TerrainHeight </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:48,0,72,24	</imageNormal>
+      </item>
+      <item>
+        <type>	CHILD	</type>
+        <name> Filter </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/FILTER </description>
+        <action>	doToolModeTerrainFilter	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> TerrainFilter </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:72,0,96,24	</imageNormal>
+      </item>
+      <item>
+        <type>	CHILD	</type>
+        <name> Mesh </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/MESH </description>
+        <action>	doToolModeTerrainMesh	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> TerrainMesh </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:96,0,120,24	</imageNormal>
+      </item>
+      <item>
+        <type>	CHILD	</type>
+        <name> Import </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/IMPORT </description>
+        <action>	doToolModeTerrainImpExp	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> TerrainImpExp </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:120,0,144,24	</imageNormal>
+      </item>
+      <item>
+        <type>	CHILD	</type>
+        <name> Project </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/PROJECT </description>
+        <action>	doToolModeProject	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> Project </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:144,0,168,24	</imageNormal>
+      </item>
+
+	  <item>
+		<type>	CHILD	</type>
+		<name> Ruler </name>
+		<description> TOOLMODETOOLBAR/TOOLMODE/RULER </description>
+		<action>	doToolModeRuler	</action>
+		<updater> updateToolMode </updater>
+		<toolMode> TerrainRuler </toolMode>
+		<transparency> 255,0,255 </transparency>
+		<imageNormal>	resources/data/tools_toolbar.bmp:168,0,192,24	</imageNormal>
+	  </item>
+	  <item>
+        <type>	CHILD	</type>
+        <name> Fences </name>
+        <description> TOOLMODETOOLBAR/TOOLMODE/FENCES </description>
+        <action>	doToolModeFences	</action>
+        <updater> updateToolMode </updater>
+        <toolMode> Fences </toolMode>
+        <transparency> 255,0,255 </transparency>
+        <imageNormal>	resources/data/tools_toolbar.bmp:192,0,216,24	</imageNormal>
+	  </item>
+    </item>
+  </item>
+  
+	<item>
+		<name> SnapModeToolbar </name>
+		<type>	GROUP	</type>
+		<displayName> SNAPMODETOOLBAR/NAME </displayName>
+		
+		<item>
+			<name>	SnapMode	</name>
+			<type>	CHOICE	</type>
+			<displayName>	SNAPMODETOOLBAR/SNAP_MODE/NAME	</displayName>
+			<shortcut> F4 </shortcut>
+			<item>
+				<type>	CHILD	</type>
+				<name> FreePositioning </name>
+				<displayName> SNAPMODETOOLBAR/SNAP_MODE/FREEPOS </displayName>
+				<action>	doSnapFreePositioning	</action>
+				<updater> snaps/itemSnapMode == 0 </updater>
+				<transparency> 255,0,255 </transparency>
+				<imageNormal>	resources/data/snapmode_toolbar.bmp:0,0,24,24	</imageNormal>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> TerrainLock </name>
+				<displayName> SNAPMODETOOLBAR/SNAP_MODE/TERRAINLOCK </displayName>
+				<action>	doSnapTerrainLock	</action>
+				<updater> snaps/itemSnapMode == 1 </updater>
+				<transparency> 255,0,255 </transparency>
+				<imageNormal>	resources/data/snapmode_toolbar.bmp:24,0,48,24	</imageNormal>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> ObstacleLock </name>
+				<displayName> SNAPMODETOOLBAR/SNAP_MODE/OBSTACKLOCK</displayName>
+				<action>	doSnapObstacleLock	</action>
+				<updater> snaps/itemSnapMode == 2 </updater>
+				<transparency> 255,0,255 </transparency>
+				<imageNormal>	resources/data/snapmode_toolbar.bmp:48,0,72,24	</imageNormal>
+			</item>
+		</item>
+	</item>
+
+
+	<item>
+		<name> FiltersToolbar </name>
+		<type>	GROUP	</type>
+		<displayName> FILTERSTOOLBAR/NAME </displayName>
+		
+		<item>
+			<name>	CoordinateFilter	</name>
+			<type>	CHOICE	</type>
+			<displayName>	FILTERSTOOLBAR/COORDINTATE/NAME </displayName>
+			<shortcut> F8 </shortcut>
+			<item>
+				<type>	CHILD	</type>
+				<name> World </name>
+				<displayName> FILTERSTOOLBAR/COORDINTATE/WORLD </displayName>
+				<transparency> 255,0,255 </transparency>
+				<imageNormal>	resources/data/coords_toolbar.bmp:0,0,24,24	</imageNormal>
+				<action>	doWorldCoordFilter	</action>
+				<updater> tools/coordFilter == World </updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Local </name>
+				<displayName> FILTERSTOOLBAR/COORDINTATE/LOCAL </displayName>
+				<transparency> 255,0,255 </transparency>
+				<imageNormal>	resources/data/coords_toolbar.bmp:48,0,72,24	</imageNormal>
+				<action>	doLocalCoordFilter	</action>
+				<updater> tools/coordFilter == Local </updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> View </name>
+				<displayName> FILTERSTOOLBAR/COORDINTATE/VIEW </displayName>
+				<transparency> 255,0,255 </transparency>
+				<imageNormal>	resources/data/coords_toolbar.bmp:24,0,48,24	</imageNormal>
+				<action>	doViewCoordFilter	</action>
+				<updater> tools/coordFilter == View </updater>
+			</item>
+		</item>
+	</item>
+	
+	<!--<item>
+		<name> FiltersToolbar </name>
+		<type>	GROUP	</type>
+		
+		<item>
+			<name>	CoordinationFilter	</name>
+			<type>	EXPANDED_CHOICE	</type>
+			<width>	80	</width>
+			<displayName>	Reference Coordination System	</displayName>
+			<shortcut> F8 </shortcut>
+			<item>
+				<type>	CHILD	</type>
+				<name> World </name>
+				<displayName> World </displayName>
+				<action>	tools/coordFilter = World	</action>
+				<updater> tools/coordFilter == World </updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Local </name>
+				<displayName> Local </displayName>
+				<action>	tools/coordFilter = Local	</action>
+				<updater> tools/coordFilter == Local </updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> View </name>
+				<displayName> View </displayName>
+				<action>	tools/coordFilter = View	</action>
+				<updater> tools/coordFilter == View </updater>
+			</item>
+		</item>
+		
+		<item>
+			<type>	SEPARATOR	</type>
+		</item>
+
+		<item>
+			<name>	SelectionFilter	</name>
+			<type>	EXPANDED_CHOICE	</type>
+			<width>	250	</width>
+			<displayName>	Selection Filter	</displayName>
+			<item>
+				<type>	CHILD	</type>
+				<name> All </name>
+				<displayName> All </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> AllExceptTerrainAndShells </name>
+				<displayName> All Except Terrain and Shells </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> ShellsPlusContents </name>
+				<displayName> Shells + Contents </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> AllLights </name>
+				<displayName> All Lights </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> OmniLights </name>
+				<displayName> Omni Lights </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> AmbientLights </name>
+				<displayName> Ambient Lights </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> DirectionalLights </name>
+				<displayName> Directional Lights </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> SpotLights </name>
+				<displayName> Spot Lights </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Models </name>
+				<displayName> Models </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Trees </name>
+				<displayName> Trees </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Entities </name>
+				<displayName> Entities </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> ClustersAndMarkers </name>
+				<displayName> Clusters and Markers </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Particles </name>
+				<displayName> Particles </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> WaypointStations </name>
+				<displayName> Waypoint Stations </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Terrain </name>
+				<displayName> Terrain </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Sounds </name>
+				<displayName> Sounds </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Water </name>
+				<displayName> Water </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Portals </name>
+				<displayName> Portals </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Hidden </name>
+				<displayName> Hidden Objects </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<name> Frozen </name>
+				<displayName> Frozen Objects </displayName>
+				<action>	UIAdapter.doSetSelectionFilter	</action>
+				<updater>	UIAdapter.updateSelectionFilter	</updater>
+			</item>			
+		</item>
+		
+		<item>
+			<name> Dummy </name>
+			<type>	ACTION	</type>
+			<transparency> 255,0,255 </transparency>
+			<imageNormal>	resources/data/main_toolbar.bmp:0,0,0,24	</imageNormal>
+		</item>
+		
+	</item>-->
+		
+</GUI>
+

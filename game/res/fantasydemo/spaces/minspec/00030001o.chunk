@@ -1,0 +1,80 @@
+<root>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	00030001o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190622	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190630	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.098346 0.000000 -0.634131	</row0>
+			<row1>	0.000000 1.268261 0.000000	</row1>
+			<row2>	0.634131 0.000000 1.098346	</row2>
+			<row3>	98.251709 205.060516 63.733940	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190622	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190630	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.460139 0.000001 1.142971	</row0>
+			<row1>	-0.000000 1.232116 0.000001	</row1>
+			<row2>	-1.142971 -0.000002 0.460139	</row2>
+			<row3>	89.914978 203.301727 85.095634	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1280190622	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1280190630	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.633200 0.000000 -0.274396	</row0>
+			<row1>	0.000000 1.656089 0.000000	</row1>
+			<row2>	0.274396 0.000000 1.633200	</row2>
+			<row3>	96.227844 204.373993 74.910606	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	00030001o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

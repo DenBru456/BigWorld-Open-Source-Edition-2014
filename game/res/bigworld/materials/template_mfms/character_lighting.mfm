@@ -1,0 +1,20 @@
+<character_lighting.mfm>
+	<property>	glowMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	helpers\maps\aid_builder_norms.bmp	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<property>	materialSpecular
+		<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+	</property>
+	<property>	glowFactor
+		<Float>	0.000000	</Float>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<fx>	shaders/std_effects/normalmap_glow.fx	</fx>
+</character_lighting.mfm>

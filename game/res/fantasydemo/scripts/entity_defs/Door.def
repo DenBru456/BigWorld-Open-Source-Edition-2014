@@ -1,0 +1,68 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<doorType>
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	0				</Default>
+		</doorType>
+		
+		<reuseDelay>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	true			</Editable>
+			<Default>	2.0				</Default>
+		</reuseDelay>
+		
+		<autoCloseDelay>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Editable>	true			</Editable>
+			<Default>	0.0				</Default>	<!-- default to no close -->
+		</autoCloseDelay>
+		
+		<state>
+			<Type>		INT8		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default> 	0 			</Default>
+		</state>
+		
+		<lastUseTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</lastUseTime>
+		
+		<autoCloseTimerID>
+			<Type>		CONTROLLER_ID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</autoCloseTimerID>
+		
+		<retryFindPortalCount>
+			<Type>		INT8	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</retryFindPortalCount>
+	</Properties>
+	
+
+	<ClientMethods>
+	</ClientMethods>
+	
+
+	<CellMethods>
+		<use>
+			<Exposed/>
+		</use>
+	</CellMethods>
+
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

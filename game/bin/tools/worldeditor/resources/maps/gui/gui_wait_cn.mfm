@@ -1,0 +1,23 @@
+<gui_wait.mfm>
+	<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	texAddressMode
+		<Int>	1	</Int>
+	</property>
+	<property>	alphaReference
+		<Int>	0	</Int>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	selfIllumination
+		<Float>	0.500000	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	resources/maps/gui/3d_wait2_cn.bmp	</Texture>
+	</property>
+</gui_wait.mfm>

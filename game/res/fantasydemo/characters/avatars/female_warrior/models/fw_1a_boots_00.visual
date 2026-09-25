@@ -1,0 +1,218 @@
+<fw_1a_boots_00.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000001	</row2>
+				<row3>	-0.000000 1.039428 -0.024950	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.031719 0.000416 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped L Thigh	</identifier>
+					<transform>
+						<row0>	-0.984361 0.176032 0.006830	</row0>
+						<row1>	-0.162665 -0.893361 -0.418863	</row1>
+						<row2>	-0.067632 -0.413424 0.908024	</row2>
+						<row3>	-0.000000 0.097549 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped L Calf	</identifier>
+						<transform>
+							<row0>	0.983663 0.000000 -0.180018	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.180018 0.000000 0.983663	</row2>
+							<row3>	0.500619 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped L Foot	</identifier>
+							<transform>
+								<row0>	0.903778 0.355744 -0.237972	</row0>
+								<row1>	-0.212488 0.855592 0.472029	</row1>
+								<row2>	0.371528 -0.376044 0.848857	</row2>
+								<row3>	0.429240 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped L Toe0	</identifier>
+								<transform>
+									<row0>	-0.452989 -0.077038 0.888182	</row0>
+									<row1>	-0.097526 0.994563 0.036525	</row1>
+									<row2>	-0.886166 -0.070075 -0.458039	</row2>
+									<row3>	0.103840 0.010795 0.157983	</row3>
+								</transform>
+								<node>
+									<identifier>	biped L Toe0BlendBone1A_Boots_00	</identifier>
+									<transform>
+										<row0>	-0.176121 0.984083 -0.023708	</row0>
+										<row1>	-0.049623 0.015178 0.998653	</row1>
+										<row2>	0.983117 0.177060 0.046161	</row2>
+										<row3>	-0.018589 0.300186 0.027309	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped L FootBlendBone1A_Boots_00	</identifier>
+								<transform>
+									<row0>	0.004816 0.993961 -0.109624	</row0>
+									<row1>	-0.863973 -0.051062 -0.500942	</row1>
+									<row2>	-0.503515 0.097125 0.858510	</row2>
+									<row3>	0.058785 0.308867 0.139929	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped L CalfBlendBone1A_Boots_00	</identifier>
+							<transform>
+								<row0>	-0.247581 0.893362 0.374978	</row0>
+								<row1>	-0.956104 -0.162666 -0.243730	</row1>
+								<row2>	-0.156743 -0.418861 0.894420	</row2>
+								<row3>	0.468726 0.232557 0.250585	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	biped L ThighBlendBone1A_Boots_00	</identifier>
+						<transform>
+							<row0>	-0.176033 0.893362 0.413421	</row0>
+							<row1>	-0.984361 -0.162666 -0.067632	</row1>
+							<row2>	0.006829 -0.418861 0.908025	</row2>
+							<row3>	1.006797 0.232557 0.162112	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped R Thigh	</identifier>
+					<transform>
+						<row0>	-0.984360 -0.176035 0.006829	</row0>
+						<row1>	0.162667 -0.893362 0.418861	</row1>
+						<row2>	-0.067633 0.413421 0.908025	</row2>
+						<row3>	0.000000 -0.097549 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped R Calf	</identifier>
+						<transform>
+							<row0>	0.983663 -0.000000 -0.180018	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.180018 0.000000 0.983663	</row2>
+							<row3>	0.500619 0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	biped R Foot	</identifier>
+							<transform>
+								<row0>	0.903778 -0.355745 -0.237972	</row0>
+								<row1>	0.212489 0.855592 -0.472029	</row1>
+								<row2>	0.371528 0.376044 0.848857	</row2>
+								<row3>	0.429240 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	biped R Toe0	</identifier>
+								<transform>
+									<row0>	-0.452989 0.077038 0.888182	</row0>
+									<row1>	0.097526 0.994563 -0.036525	</row1>
+									<row2>	-0.886166 0.070075 -0.458039	</row2>
+									<row3>	0.103840 -0.010795 0.157983	</row3>
+								</transform>
+								<node>
+									<identifier>	biped R Toe0BlendBone1A_Boots_00	</identifier>
+									<transform>
+										<row0>	0.176118 0.984084 0.023708	</row0>
+										<row1>	-0.049623 -0.015178 0.998653	</row1>
+										<row2>	0.983118 -0.177057 0.046161	</row2>
+										<row3>	-0.018589 -0.300186 0.027309	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped R FootBlendBone1A_Boots_00	</identifier>
+								<transform>
+									<row0>	-0.004815 0.993962 0.109621	</row0>
+									<row1>	-0.863973 0.051062 -0.500942	</row1>
+									<row2>	-0.503515 -0.097122 0.858510	</row2>
+									<row3>	0.058785 -0.308867 0.139929	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped R CalfBlendBone1A_Boots_00	</identifier>
+							<transform>
+								<row0>	0.247581 0.893361 -0.374980	</row0>
+								<row1>	-0.956104 0.162666 -0.243730	</row1>
+								<row2>	-0.156742 0.418863 0.894419	</row2>
+								<row3>	0.468726 -0.232557 0.250585	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	biped R ThighBlendBone1A_Boots_00	</identifier>
+						<transform>
+							<row0>	0.176033 0.893361 -0.413423	</row0>
+							<row1>	-0.984361 0.162666 -0.067632	</row1>
+							<row2>	0.006830 0.418863 0.908024	</row2>
+							<row3>	1.006797 -0.232557 0.162112	</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped L Toe0BlendBone1A_Boots_00	</node>
+		<node>	biped L FootBlendBone1A_Boots_00	</node>
+		<node>	biped L CalfBlendBone1A_Boots_00	</node>
+		<node>	biped L ThighBlendBone1A_Boots_00	</node>
+		<node>	biped R Toe0BlendBone1A_Boots_00	</node>
+		<node>	biped R CalfBlendBone1A_Boots_00	</node>
+		<node>	biped R FootBlendBone1A_Boots_00	</node>
+		<node>	biped R ThighBlendBone1A_Boots_00	</node>
+		<geometry>
+			<vertices>	1A_Boots_00.vertices	</vertices>
+			<primitive>	1A_Boots_00.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	legs_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_refmask.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_legs_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.359845 -0.060704 -0.207686	</min>
+		<max>	0.361304 0.711646 0.045763	</max>
+	</boundingBox>
+</fw_1a_boots_00.visual>

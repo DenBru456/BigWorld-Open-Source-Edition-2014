@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="480" height="300" creationComplete="registerCallback();">
+
+<mx:Script>
+<![CDATA[
+import mx.core.UIComponent;
+
+private function callbackFunc(event:Event) :void
+{
+	event.target.play();
+}  
+ 
+private function registerCallback():void 
+{
+	this.videoDisplay.addEventListener("complete", callbackFunc);
+}
+]]>
+</mx:Script>
+
+	<mx:VideoDisplay id="videoDisplay" x="0" y="0" width="480" height="300" autoPlay="true" autoRewind="true">
+		<mx:source>transformers.mp4</mx:source>
+	</mx:VideoDisplay>
+	
+</mx:Application>

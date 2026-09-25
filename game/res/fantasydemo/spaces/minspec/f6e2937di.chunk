@@ -1,0 +1,108 @@
+<f6e2937di.chunk>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288240138	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288240171	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_exit.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	4652	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288240138	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288240138	</modified_on>
+		</metaData>
+		<colour>	67.000000 51.000027 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288240138	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288327153	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/dungeon_broken_rocks.model	</resource>
+		<transform>
+			<row0>	-0.235541 -0.013108 0.880400	</row0>
+			<row1>	-0.052375 0.909951 -0.000465	</row1>
+			<row2>	-0.878939 -0.050711 -0.235903	</row2>
+			<row3>	3.130737 0.130005 -0.041176	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	4652	</offset>
+			<size>	1308	</size>
+		</staticLighting>
+	</model>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288240138	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288240138	</modified_on>
+		</metaData>
+		<guid>	088B725E.46D2E6F0.0BDB129F.CAAF3D68	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	3.304825 -0.000015 -2.397659	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Note that if you turn around you can see behind you into the outside world.  Seamless indoor and outdoor integration for a more lifelike world.	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	-43.208099 199.979767 -138.367783	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-52.401909 199.743027 -143.399704	</min>
+		<max>	-42.173416 206.783279 -137.477707	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	f6e2937di.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</f6e2937di.chunk>

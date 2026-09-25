@@ -1,0 +1,7 @@
+# /etc/default/message_logger
+
+# If set, log only messages destined for this LoggerID.
+#LOGGER_ID="$(hostname -s)"
+
+# The summary period - this defaults to 1 day
+#LOGROTATE_SUMMARY_DAYS=1

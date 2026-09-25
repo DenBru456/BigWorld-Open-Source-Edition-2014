@@ -1,0 +1,500 @@
+<player_model_data.xml>
+	<!--
+	This file contains information about what models can be used as player
+	models. Player models use the avatar model system and so all model files
+	referenced must be included in the file avatar_model_data.xml
+
+	The structure of the player model is such that a base model is chosen
+	which will then have a list of available customisations.
+	Customisations can be either model customisations or material
+	customisations. One option is chosen from each customisation.
+
+	A material customisation contains a list of tint options to be applied to a
+	set of material groups(aka matters). Note that the material group must have
+	at least one tint in Model Editor to be used in a material customisation.
+
+	Example:
+	<materialCustomisation>
+		<name>	Pants Colour		</name>
+		<materialGroups>
+			<materialGroup>		Legs_skinned	</materialGroup>
+		</materialGroups>
+		<tints>
+			<tint>
+				<name>	Red Pants	</name>
+				<tintName>	Default	</tintName>
+				<customisations>
+				</customisations>
+			</tint>
+			<tint>
+				<name>	Merchant Pants	</name>
+				<tintName>	Merchant	</tintName>
+				<customisations>
+				</customisations>
+			</tint>
+		</tints>
+	</materialCustomisation>
+
+	Model customisations contain a list of model options in the same format as
+	the base model. They may include additional customisations possibilities
+	that only exist when that model is selected.
+
+	Example:
+	<modelCustomisation>
+		<name>	Head	</name>
+		<models>
+			<model>
+				<name>	Warrior Hair - Short	</name>
+				<models>
+					<resPath>	characters/avatars/warrior/hair.model </resPath>
+				</models>
+				<customisations>
+				</customisations>
+			</model>
+			<model>
+				<name>	Warrior Hair - Long	</name>
+				<models>
+					<resPath>	characters/avatars/warrior/hair00.model </resPath>
+				</models>
+				<customisations>
+				</customisations>
+			</model>
+		</models>
+	</modelCustomisation>
+	-->
+
+	<baseModels>
+		<baseModel>
+			<name>		Ranger	</name>
+			<realm>		fantasy	</realm>
+			<models>
+				<resPath>	characters/avatars/ranger/ranger_body.model </resPath>
+			</models>
+			<customisations>
+				<modelCustomisation>
+					<name>	Head	</name>
+					<models>
+						<model>
+							<name>	Ranger Head	</name>
+							<models>
+								<resPath>	characters/avatars/ranger/ranger_head.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+
+				<materialCustomisation>
+					<name>	Body Colour		</name>
+					<materialGroups>
+						<materialGroup>	Single_material_skinned	</materialGroup>
+					</materialGroups>
+					<tints>
+						<tint>
+							<name>	Red Tunic	</name>
+							<tintName>	Default	</tintName>
+							<customisations>
+							</customisations>
+						</tint>
+						<tint>
+							<name>	Colourful Tunic	</name>
+							<tintName>	CustomTorso	</tintName>
+							<customisations>
+							</customisations>
+						</tint>
+					</tints>
+				</materialCustomisation>
+				<materialCustomisation>
+					<name>	Pants Colour		</name>
+					<materialGroups>
+						<materialGroup>		Legs_skinned	</materialGroup>
+					</materialGroups>
+					<tints>
+						<tint>
+							<name>	Red Pants	</name>
+							<tintName>	Default	</tintName>
+							<customisations>
+							</customisations>
+						</tint>
+						<tint>
+							<name>	Merchant Pants	</name>
+							<tintName>	Merchant	</tintName>
+							<customisations>
+							</customisations>
+						</tint>
+					</tints>
+				</materialCustomisation>
+			</customisations>
+		</baseModel>
+		<baseModel>
+			<name>		Barbarian	</name>
+			<realm>		minspec		</realm>
+			<models>
+				<resPath>	sets/minspec/characters/avatars/barbarian/models/barbarian_body.model </resPath>
+			</models>
+			<customisations>
+				<modelCustomisation>
+					<name>	Head	</name>
+					<models>
+						<model>
+							<name>	Barbarian Head 1	</name>
+							<models>
+								<resPath>	sets/minspec/characters/avatars/barbarian/models/barbarian_head.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+						<model>
+							<name>	Barbarian Head 2	</name>
+							<models>
+								<resPath>	sets/minspec/characters/avatars/barbarian/models/helmet.model </resPath>
+								<resPath>	sets/minspec/characters/avatars/barbarian/models/barbarian_head_helmet.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+				<modelCustomisation>
+					<name>	armour	</name>
+					<models>
+						<model>
+							<name>	shoulder armour </name>
+							<models>
+								<resPath>	sets/minspec/characters/avatars/barbarian/models/shoulder_armour.model </resPath>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+						<model>
+							<name>	no armour </name>
+							<models>
+							</models>
+							<customisations>
+							</customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+ 			</customisations>
+		</baseModel>
+		<baseModel>
+			<name>		FemaleWarrior	</name>
+			<!-- disable this model from the character creation screen -->
+			<realm>		disabled	</realm>
+			<models>
+				<resPath>	characters/avatars/female_warrior/models/fw_body_00.model </resPath>
+			</models>
+			<customisations>
+                <modelCustomisation>
+					<name>	Head	</name>
+					<models>
+						<model>
+							<name>	Warrior Head	</name>
+							<models>
+								<resPath>	characters/avatars/female_warrior/models/fw_head_00.model </resPath>
+							</models>
+							<customisations>
+                            </customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+                <modelCustomisation>
+					<name>	Hair	</name>
+					<models>
+						<model>
+							<name>	Warrior Hair 1	</name>
+							<models>
+								<resPath>	characters/avatars/female_warrior/models/fw_hair_short_thick_00.model </resPath>
+							</models>
+							<customisations>
+                            </customisations>
+						</model>
+						<model>
+							<name>	Warrior Hair 2	</name>
+							<models>
+								<resPath>	characters/avatars/female_warrior/models/fw_hair_long_00.model  </resPath>
+							</models>
+							<customisations>
+                            </customisations>
+						</model>
+					</models>
+				</modelCustomisation>
+				<materialCustomisation>
+					<name>	Body Colour		</name>
+					<materialGroups>
+						<materialGroup>	_1B_Body_skinned	</materialGroup>
+					</materialGroups>
+					<tints>
+						<tint>
+							<name>	1a	</name>
+							<tintName>	1a	</tintName>
+							<customisations>
+								<modelCustomisation>
+									<name>	Clothing	</name>
+									<models>
+										<model>
+											<name>	Minimal Clothing1 </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_belt_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_boots_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_forearmarmour_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_ribarmour_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_rightlegarmour_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_shoulderarmour_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_upperarmarmour_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+								<modelCustomisation>
+									<name>	Left Leg Armour	</name>
+									<models>
+										<model>
+											<name>	With Armour </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_leftlegarmour_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+										<model>
+											<name> No Armour </name>
+												<models>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+								<modelCustomisation>
+									<name>	Breast Armour	</name>
+									<models>
+										<model>
+											<name>	With Armour </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_breastarmour_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+										<model>
+											<name> No Armour </name>
+												<models>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+								<modelCustomisation>
+									<name>	Chest Armour	</name>
+									<models>
+										<model>
+											<name>	With Armour </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_chestarmour01_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+										<model>
+											<name> No Armour </name>
+												<models>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+								<modelCustomisation>
+									<name>	Gloves	</name>
+									<models>
+										<model>
+											<name>	With Gloves </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1a_gloves_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+										<model>
+											<name> No Gloves </name>
+												<models>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+							</customisations>
+						</tint>
+						<tint>
+							<name>	Default	</name>
+							<tintName>	Default	</tintName>
+							<customisations>
+								<modelCustomisation>
+									<name>	Clothing	</name>
+									<models>
+										<model>
+											<name>	Minimal Clothing1 </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1b_boots_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1b_chestarmour_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1b_pantsarmour_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+								<modelCustomisation>
+									<name>	ArmArmour	</name>
+									<models>
+										<model>
+											<name>	With Arm Armour </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1b_armarmour_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+										<model>
+											<name>	No Arm Armour </name>
+												<models>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+								<modelCustomisation>
+									<name>	Earrings	</name>
+									<models>
+										<model>
+											<name>	With Earrings </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1b_earrings_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+										<model>
+											<name>	No Earrings </name>
+												<models>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+								<modelCustomisation>
+									<name>	Clip	</name>
+									<models>
+										<model>
+											<name>	With Clip </name>
+												<models>
+													<resPath> characters/avatars/female_warrior/models/fw_1b_pantsclip_00.model </resPath>
+													<resPath> characters/avatars/female_warrior/models/fw_1b_pantsclipdecoration_00.model </resPath>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+										<model>
+											<name>	No Clip </name>
+												<models>
+												</models>
+										<customisations>
+			                            </customisations>
+										</model>
+									</models>
+								</modelCustomisation>
+							</customisations>
+						</tint>
+					</tints>
+				</materialCustomisation> 
+ 			</customisations>
+		</baseModel>
+	</baseModels>
+
+	<defaultModel>
+		<model>	characters/avatars/ranger/ranger_body.model	</model>
+		<model>	characters/avatars/ranger/ranger_head.model	</model>
+	</defaultModel>
+
+	<presetModel>
+		<model>	characters/avatars/ranger/ranger_body.model	</model>
+		<model>	characters/avatars/ranger/ranger_head.model	</model>
+		<dye>
+			<tint>	Default	</tint>
+			<materialGroup>	Single_material_skinned	</materialGroup>
+		</dye>
+		<dye>
+			<tint>	Merchant	</tint>
+			<materialGroup>	Legs_skinned	</materialGroup>
+		</dye>
+	</presetModel>
+
+	<presetModel>
+		<model>	characters/avatars/ranger/ranger_body.model	</model>
+		<model>	characters/avatars/ranger/ranger_head.model	</model>
+		<dye>
+			<tint>	CustomTorso	</tint>
+			<materialGroup>	Single_material_skinned	</materialGroup>
+		</dye>
+		<dye>
+			<tint>	Default	</tint>
+			<materialGroup>	Legs_skinned	</materialGroup>
+		</dye>
+	</presetModel>
+
+	<presetModel>
+		<model>	characters/avatars/female_warrior/models/fw_body_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_head_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_hair_short_thick_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1b_tiara_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1b_pantsclipdecoration_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1b_pantsarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1b_chestarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1b_boots_00.model	</model>
+		<dye>
+			<tint>	Default	</tint>
+			<materialGroup>	_1B_Body_skinned	</materialGroup>
+		</dye>
+	</presetModel>
+
+	<presetModel>
+		<model>	characters/avatars/female_warrior/models/fw_body_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_head_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_hair_long_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_belt_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_boots_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_breastarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_chestarmour01_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_forearmarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_gloves_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_leftlegarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_ribarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_rightlegarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_shoulderarmour_00.model	</model>
+		<model>	characters/avatars/female_warrior/models/fw_1a_upperarmarmour_00.model	</model>
+		<dye>
+			<tint>	1a	</tint>
+			<materialGroup>	_1B_Body_skinned	</materialGroup>
+		</dye>
+	</presetModel>
+
+	<presetModel>
+		<model>	sets/minspec/characters/avatars/barbarian/models/barbarian_body.model	</model>
+		<model>	sets/minspec/characters/avatars/barbarian/models/barbarian_head.model	</model>
+	</presetModel>
+
+	<presetModel>
+		<model>	sets/minspec/characters/avatars/barbarian/models/barbarian_body.model	</model>
+		<model>	sets/minspec/characters/avatars/barbarian/models/barbarian_head.model	</model>
+		<model>	sets/minspec/characters/avatars/barbarian/models/helmet.model	</model>
+		<model>	sets/minspec/characters/avatars/barbarian/models/shoulder_armour.model	</model>
+	</presetModel>
+</player_model_data.xml>

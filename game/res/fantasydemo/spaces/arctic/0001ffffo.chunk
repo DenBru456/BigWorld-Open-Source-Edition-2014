@@ -1,0 +1,134 @@
+<root>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-4.862128 0.000001 1.732435	</row0>
+			<row1>	0.000001 5.161553 0.000001	</row1>
+			<row2>	-1.732435 0.000001 -4.862128	</row2>
+			<row3>	31.281296 3.478836 68.334801	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-3.496472 0.000000 1.245835	</row0>
+			<row1>	0.000001 3.711796 0.000000	</row1>
+			<row2>	-1.245835 0.000001 -3.496472	</row2>
+			<row3>	57.034058 5.352615 40.342560	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-0.857060 0.000000 -2.121296	</row0>
+			<row1>	0.000000 2.287892 0.000000	</row1>
+			<row2>	2.121296 0.000000 -0.857060	</row2>
+			<row3>	56.466492 2.077728 79.634399	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-1.478392 0.000000 -3.659145	</row0>
+			<row1>	0.000000 3.946517 0.000000	</row1>
+			<row2>	3.659145 0.000000 -1.478392	</row2>
+			<row3>	49.326004 2.178391 95.947662	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-3.496472 0.000000 1.245835	</row0>
+			<row1>	0.000001 3.711796 0.000000	</row1>
+			<row2>	-1.245835 0.000001 -3.496472	</row2>
+			<row3>	3.271561 -0.168823 45.862930	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-1.390464 0.000000 -3.441517	</row0>
+			<row1>	0.000000 3.711796 0.000000	</row1>
+			<row2>	3.441517 0.000000 -1.390464	</row2>
+			<row3>	20.589470 3.374590 48.308975	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_substitute_snow.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-2.414472 0.000000 -2.500259	</row0>
+			<row1>	0.000000 3.475769 0.000000	</row1>
+			<row2>	2.500259 0.000000 -2.414472	</row2>
+			<row3>	11.199997 2.400000 28.500000	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_substitute_snow.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-2.414472 0.000000 -2.500259	</row0>
+			<row1>	0.000000 3.475769 0.000000	</row1>
+			<row2>	2.500259 0.000000 -2.414472	</row2>
+			<row3>	16.500000 0.100000 62.600002	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_substitute_snow.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-2.414472 0.000000 -2.500259	</row0>
+			<row1>	0.000000 3.475769 0.000000	</row1>
+			<row2>	2.500259 0.000000 -2.414472	</row2>
+			<row3>	23.199997 -1.600000 80.300003	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29734718	</hi>
+		<lo>	1503904972	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0001ffffo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0001ffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

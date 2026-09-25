@@ -1,0 +1,145 @@
+<sword_bastard.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	sword	</identifier>
+			<transform>
+				<row0>	-0.342020 -0.939693 0.000000	</row0>
+				<row1>	0.000000 0.000000 1.000000	</row1>
+				<row2>	0.939693 -0.342020 -0.000000	</row2>
+				<row3>	0.216657 0.621268 0.223319	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_left_hand	</identifier>
+			<transform>
+				<row0>	-0.342020 -0.939693 0.000000	</row0>
+				<row1>	-0.939693 0.342020 -0.000000	</row1>
+				<row2>	0.000000 -0.000000 -1.000000	</row2>
+				<row3>	0.275148 0.651220 0.021307	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_right_hand	</identifier>
+			<transform>
+				<row0>	-0.342020 -0.939693 0.000000	</row0>
+				<row1>	-0.939693 0.342020 -0.000000	</row1>
+				<row2>	0.000000 -0.000000 -1.000000	</row2>
+				<row3>	0.275148 0.651220 -0.022112	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_right_hip	</identifier>
+			<transform>
+				<row0>	-0.420469 0.905929 -0.049990	</row0>
+				<row1>	-0.903238 -0.423160 -0.071394	</row1>
+				<row2>	-0.085832 0.015134 0.996195	</row2>
+				<row3>	0.185149 0.651220 0.026047	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_shoulder	</identifier>
+			<transform>
+				<row0>	0.996195 -0.087156 -0.000000	</row0>
+				<row1>	-0.087156 -0.996195 0.000000	</row1>
+				<row2>	-0.000000 -0.000000 -1.000000	</row2>
+				<row3>	0.195037 0.631193 0.035110	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_blood	</identifier>
+			<transform>
+				<row0>	0.939691 -0.342025 0.000000	</row0>
+				<row1>	-0.342020 -0.939693 0.000000	</row1>
+				<row2>	0.000005 0.000002 -1.000000	</row2>
+				<row3>	0.025327 0.067171 -0.004455	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_sheath	</identifier>
+			<transform>
+				<row0>	0.939691 -0.342025 0.000000	</row0>
+				<row1>	-0.342020 -0.939693 0.000000	</row1>
+				<row2>	0.000005 0.000002 -1.000000	</row2>
+				<row3>	0.205365 0.586021 -0.000312	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	bladepart2	</identifier>
+			<transform>
+				<row0>	-0.342020 -0.939693 0.000000	</row0>
+				<row1>	0.000000 -0.000000 1.000000	</row1>
+				<row2>	0.939693 -0.342020 -0.000000	</row2>
+				<row3>	0.216657 0.621268 0.223319	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_left_hip	</identifier>
+			<transform>
+				<row0>	-0.420469 0.905929 -0.049990	</row0>
+				<row1>	-0.903238 -0.423160 -0.071394	</row1>
+				<row2>	-0.085832 0.015134 0.996195	</row2>
+				<row3>	0.185149 0.651220 -0.030301	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_tip	</identifier>
+			<transform>
+				<row0>	0.939691 -0.342025 0.000000	</row0>
+				<row1>	-0.342020 -0.939693 0.000000	</row1>
+				<row2>	0.000005 0.000002 -1.000000	</row2>
+				<row3>	-0.098020 -0.244533 0.000123	</row3>
+			</transform>
+		</node>
+	</node>
+	<materialKind>	5	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	flat	</identifier>
+					<fx>	shaders/std_effects/lightonly_normal.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/items/sword_bastard_steel.tga	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.0 1.0 0.0 0.0	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.0 0.0 0.0 0.0	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	maps/fx/reflect/ref_spot8_catch.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	blade	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/items/sword_bastard_steel.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.098575 -0.244693 -0.029446	</min>
+		<max>	0.358991 0.969232 0.028822	</max>
+	</boundingBox>
+</sword_bastard.visual>

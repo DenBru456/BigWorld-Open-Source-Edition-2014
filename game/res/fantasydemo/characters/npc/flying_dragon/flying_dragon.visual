@@ -1,0 +1,3279 @@
+<flying_dragon.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	English Dragon	</identifier>
+			<transform>
+				<row0>	-0.000000 1.000000 0.000000	</row0>
+				<row1>	-1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 -0.000000 1.000000	</row2>
+				<row3>	0.123779 -0.000000 -2.990177	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	English DragonPelvis	</identifier>
+			<transform>
+				<row0>	-0.000000 0.262693 0.964880	</row0>
+				<row1>	-1.000000 0.000000 -0.000000	</row1>
+				<row2>	-0.000000 -0.964880 0.262693	</row2>
+				<row3>	0.000000 4.224776 -3.869441	</row3>
+			</transform>
+			<node>
+				<identifier>	CATRigBLLeg1	</identifier>
+				<transform>
+					<row0>	0.471076 0.334735 0.816113	</row0>
+					<row1>	-0.102512 -0.898156 0.427558	</row1>
+					<row2>	0.876116 -0.285074 -0.388786	</row2>
+					<row3>	0.008808 0.796377 -0.049423	</row3>
+				</transform>
+				<node>
+					<identifier>	CATRigBLLeg2	</identifier>
+					<transform>
+						<row0>	-0.472202 0.158405 -0.867141	</row0>
+						<row1>	-0.007553 0.982958 0.183674	</row1>
+						<row2>	0.881458 0.093281 -0.462959	</row2>
+						<row3>	2.436537 0.000000 -0.000001	</row3>
+					</transform>
+					<node>
+						<identifier>	CATRigBLLeg3	</identifier>
+						<transform>
+							<row0>	0.219935 0.015889 0.975385	</row0>
+							<row1>	0.058612 0.997846 -0.029471	</row1>
+							<row2>	-0.973752 0.063651 0.218531	</row2>
+							<row3>	1.820870 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	CATRigBLLegBLLegPalm	</identifier>
+							<transform>
+								<row0>	0.991988 0.014534 0.125493	</row0>
+								<row1>	-0.013182 0.999846 -0.011603	</row1>
+								<row2>	-0.125643 0.009856 0.992027	</row2>
+								<row3>	0.918017 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	CATRigBLLegDigit01	</identifier>
+								<transform>
+									<row0>	0.798190 -0.256545 -0.545048	</row0>
+									<row1>	0.300735 0.953670 -0.008468	</row1>
+									<row2>	0.521968 -0.157157 0.838362	</row2>
+									<row3>	0.428931 -0.337586 0.028210	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBLLegDigit02	</identifier>
+									<transform>
+										<row0>	0.636593 -0.036363 -0.770342	</row0>
+										<row1>	0.087734 0.995818 0.025495	</row1>
+										<row2>	0.766193 -0.083815 0.637122	</row2>
+										<row3>	0.638816 -0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBLLegDigit03	</identifier>
+										<transform>
+											<row0>	0.520688 -0.115991 -0.845831	</row0>
+											<row1>	0.060805 0.993250 -0.098775	</row1>
+											<row2>	0.851579 -0.000000 0.524226	</row2>
+											<row3>	0.456858 -0.000000 -0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBLLegDigit03BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	0.406697 0.818729 -0.405315	</row0>
+												<row1>	0.571083 -0.574135 -0.586714	</row1>
+												<row2>	-0.713065 0.007146 -0.701061	</row2>
+												<row3>	-2.256309 2.183819 -4.247481	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBLLegDigit02BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	-0.083613 0.766030 -0.637344	</row0>
+											<row1>	-0.237188 -0.636500 -0.733900	</row1>
+											<row2>	-0.967859 0.089807 0.234912	</row2>
+											<row3>	-4.202253 2.430789 -0.533892	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBLLegDigit01BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	-0.474348 0.819286 -0.322125	</row0>
+										<row1>	-0.769144 -0.563701 -0.301096	</row1>
+										<row2>	-0.428266 0.104936 0.897539	</row2>
+										<row3>	-2.232112 2.618177 2.958992	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBLLegDigit11	</identifier>
+								<transform>
+									<row0>	0.810657 0.190383 -0.553706	</row0>
+									<row1>	-0.209601 0.977352 0.029179	</row1>
+									<row2>	0.546720 0.092403 0.832201	</row2>
+									<row3>	0.513480 -0.064223 0.074694	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBLLegDigit12	</identifier>
+									<transform>
+										<row0>	0.671076 0.045199 -0.740010	</row0>
+										<row1>	-0.048384 0.998682 0.017122	</row1>
+										<row2>	0.739808 0.024314 0.672378	</row2>
+										<row3>	0.715792 -0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBLLegDigit13	</identifier>
+										<transform>
+											<row0>	0.777112 -0.000000 -0.629363	</row0>
+											<row1>	0.000000 1.000000 -0.000000	</row1>
+											<row2>	0.629363 -0.000000 0.777112	</row2>
+											<row3>	0.498790 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBLLegDigit13BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	0.108115 0.994091 -0.009695	</row0>
+												<row1>	0.345126 -0.046677 -0.937395	</row1>
+												<row2>	-0.932308 0.098001 -0.348133	</row2>
+												<row3>	-3.933863 2.431970 -1.899467	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBLLegDigit12BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	0.077916 0.994091 -0.075578	</row0>
+											<row1>	-0.321760 -0.046677 -0.945670	</row1>
+											<row2>	-0.943610 0.098001 0.316222	</row2>
+											<row3>	-3.753715 2.431970 0.999728	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBLLegDigit11BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	-0.051723 0.994465 -0.091455	</row0>
+										<row1>	-0.913281 -0.084152 -0.398542	</row1>
+										<row2>	-0.404032 0.062910 0.912579	</row2>
+										<row3>	-1.181295 2.283409 3.491621	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBLLegDigit21	</identifier>
+								<transform>
+									<row0>	0.724623 0.537025 -0.431887	</row0>
+									<row1>	-0.585637 0.810193 0.024842	</row1>
+									<row2>	0.363251 0.234927 0.901586	</row2>
+									<row3>	0.433033 0.302224 0.058293	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBLLegDigit22	</identifier>
+									<transform>
+										<row0>	0.754049 -0.018311 -0.656563	</row0>
+										<row1>	0.016483 0.999824 -0.008953	</row1>
+										<row2>	0.656611 -0.004071 0.754219	</row2>
+										<row3>	0.562080 0.000000 -0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBLLegDigit23	</identifier>
+										<transform>
+											<row0>	0.308632 0.079663 -0.947840	</row0>
+											<row1>	-0.063444 0.995992 0.063052	</row1>
+											<row2>	0.949064 0.040675 0.312449	</row2>
+											<row3>	0.457278 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBLLegDigit23BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	-0.133885 0.955887 0.261448	</row0>
+												<row1>	0.614183 0.287083 -0.735094	</row1>
+												<row2>	-0.777724 0.062158 -0.625525	</row2>
+												<row3>	-3.400953 1.688611 -2.556311	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBLLegDigit22BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	0.146164 0.952024 0.268862	</row0>
+											<row1>	-0.526308 0.304960 -0.793725	</row1>
+											<row2>	-0.837637 -0.025490 0.545632	</row2>
+											<row3>	-3.125597 1.306934 2.531312	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBLLegDigit21BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	0.302445 0.948085 0.098291	</row0>
+										<row1>	-0.913004 0.317775 -0.255818	</row1>
+										<row2>	-0.273771 -0.012369 0.961715	</row2>
+										<row3>	-0.111141 1.353630 3.949611	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBLLegPalm01	</identifier>
+								<transform>
+									<row0>	0.330011 0.748305 -0.575441	</row0>
+									<row1>	0.907523 -0.083733 0.411572	</row1>
+									<row2>	0.259797 -0.658049 -0.706737	</row2>
+									<row3>	-0.233070 0.250844 0.131323	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBLLegPalm02	</identifier>
+									<transform>
+										<row0>	0.996487 0.000000 -0.083746	</row0>
+										<row1>	0.000000 1.000000 0.000000	</row1>
+										<row2>	0.083746 0.000000 0.996487	</row2>
+										<row3>	0.331692 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBLLegPalm03	</identifier>
+										<transform>
+											<row0>	0.490326 -0.000000 0.871539	</row0>
+											<row1>	0.000000 1.000000 0.000000	</row1>
+											<row2>	-0.871539 -0.000000 0.490326	</row2>
+											<row3>	0.394113 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBLLegPalm03BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	-0.214095 -0.340577 -0.915516	</row0>
+												<row1>	-0.513108 -0.758317 0.402089	</row1>
+												<row2>	-0.831194 0.555844 -0.012401	</row2>
+												<row3>	-3.326568 2.494268 -1.262703	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBLLegPalm02BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	0.692932 -0.340577 -0.635494	</row0>
+											<row1>	-0.602026 -0.758317 -0.250039	</row1>
+											<row2>	-0.396748 0.555844 -0.730499	</row2>
+											<row3>	-0.136496 2.494269 -3.518370	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBLLegPalm01BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	0.637278 -0.340577 -0.691292	</row0>
+										<row1>	-0.620851 -0.758317 -0.198743	</row1>
+										<row2>	-0.456531 0.555844 -0.694707	</row2>
+										<row3>	-0.098974 2.494269 -3.494579	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBLLegBLLegPalmBlendBoneDragon_Mesh	</identifier>
+								<transform>
+									<row0>	-0.278368 0.960300 -0.018327	</row0>
+									<row1>	-0.944711 -0.270307 0.185621	</row1>
+									<row2>	0.173297 0.068984 0.982451	</row2>
+									<row3>	1.089990 2.267534 3.684594	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	CATRigBLLeg3BlendBoneDragon_Mesh	</identifier>
+							<transform>
+								<row0>	-0.286494 0.955925 -0.064256	</row0>
+								<row1>	-0.956901 -0.282167 0.068722	</row1>
+								<row2>	0.047562 0.081175 0.995564	</row2>
+								<row3>	1.506441 2.319340 3.765692	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	CATRigBLLeg2BlendBoneDragon_Mesh	</identifier>
+						<transform>
+							<row0>	0.019722 0.945366 -0.325413	</row0>
+							<row1>	-0.394189 -0.291759 -0.871488	</row1>
+							<row2>	-0.918817 0.145462 0.366899	</row2>
+							<row3>	-1.107951 2.578387 2.569644	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	CATRigBLLeg1BlendBoneDragon_Mesh	</identifier>
+					<transform>
+						<row0>	-0.321397 0.912448 0.253266	</row0>
+						<row1>	-0.705853 -0.409132 0.578258	</row1>
+						<row2>	0.631249 0.007082 0.775548	</row2>
+						<row3>	5.206823 2.503037 0.734183	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CATRigBRLeg1	</identifier>
+				<transform>
+					<row0>	0.425483 -0.314694 0.848488	</row0>
+					<row1>	0.098146 -0.916014 -0.388955	</row1>
+					<row2>	0.899629 0.248770 -0.358862	</row2>
+					<row3>	0.008808 -0.796377 -0.049423	</row3>
+				</transform>
+				<node>
+					<identifier>	CATRigBRLeg2	</identifier>
+					<transform>
+						<row0>	-0.291326 -0.173871 -0.940690	</row0>
+						<row1>	0.005936 0.982996 -0.183529	</row1>
+						<row2>	0.956606 -0.059050 -0.285340	</row2>
+						<row3>	2.436537 0.000000 -0.000001	</row3>
+					</transform>
+					<node>
+						<identifier>	CATRigBRLeg3	</identifier>
+						<transform>
+							<row0>	0.338396 -0.015185 0.940881	</row0>
+							<row1>	-0.055166 0.997830 0.035944	</row1>
+							<row2>	-0.939385 -0.064067 0.336825	</row2>
+							<row3>	1.820871 0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	CATRigBRLegBRLegPalm	</identifier>
+							<transform>
+								<row0>	0.991988 -0.014534 0.125493	</row0>
+								<row1>	0.013182 0.999846 0.011603	</row1>
+								<row2>	-0.125643 -0.009856 0.992027	</row2>
+								<row3>	0.918016 -0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	CATRigBRLegDigit01	</identifier>
+								<transform>
+									<row0>	0.777352 0.284290 -0.561162	</row0>
+									<row1>	-0.330222 0.943678 0.020635	</row1>
+									<row2>	0.535422 0.169268 0.827449	</row2>
+									<row3>	0.428930 0.337586 0.028210	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBRLegDigit02	</identifier>
+									<transform>
+										<row0>	0.636593 0.036363 -0.770342	</row0>
+										<row1>	-0.087734 0.995818 -0.025495	</row1>
+										<row2>	0.766193 0.083815 0.637121	</row2>
+										<row3>	0.638816 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBRLegDigit03	</identifier>
+										<transform>
+											<row0>	0.520688 0.115991 -0.845831	</row0>
+											<row1>	-0.060805 0.993250 0.098775	</row1>
+											<row2>	0.851579 0.000000 0.524226	</row2>
+											<row3>	0.456858 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBRLegDigit03BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	-0.406697 0.818729 0.405315	</row0>
+												<row1>	0.571083 0.574135 -0.586714	</row1>
+												<row2>	-0.713065 -0.007146 -0.701061	</row2>
+												<row3>	-2.246068 -2.156353 -4.241495	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBRLegDigit02BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	0.083613 0.766030 0.637343	</row0>
+											<row1>	-0.237188 0.636500 -0.733900	</row1>
+											<row2>	-0.967859 -0.089807 0.234912	</row2>
+											<row3>	-4.193494 -2.402321 -0.536703	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBRLegDigit01BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	0.474348 0.819286 0.322125	</row0>
+										<row1>	-0.769144 0.563701 -0.301096	</row1>
+										<row2>	-0.428266 -0.104936 0.897539	</row2>
+										<row3>	-2.231187 -2.589745 2.949726	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBRLegDigit11	</identifier>
+								<transform>
+									<row0>	0.803628 -0.161974 -0.572666	</row0>
+									<row1>	0.178150 0.983599 -0.028203	</row1>
+									<row2>	0.567842 -0.079355 0.819304	</row2>
+									<row3>	0.513480 0.064223 0.074694	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBRLegDigit12	</identifier>
+									<transform>
+										<row0>	0.671076 -0.045199 -0.740010	</row0>
+										<row1>	0.048384 0.998682 -0.017122	</row1>
+										<row2>	0.739808 -0.024314 0.672378	</row2>
+										<row3>	0.715792 -0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBRLegDigit13	</identifier>
+										<transform>
+											<row0>	0.777112 0.000000 -0.629363	</row0>
+											<row1>	-0.000000 1.000000 0.000000	</row1>
+											<row2>	0.629363 0.000000 0.777112	</row2>
+											<row3>	0.498790 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBRLegDigit13BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	-0.108115 0.994091 0.009695	</row0>
+												<row1>	0.345126 0.046677 -0.937395	</row1>
+												<row2>	-0.932308 -0.098001 -0.348133	</row2>
+												<row3>	-3.919444 -2.408428 -1.910411	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBRLegDigit12BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	-0.077916 0.994091 0.075577	</row0>
+											<row1>	-0.321760 0.046677 -0.945670	</row1>
+											<row2>	-0.943610 -0.098001 0.316222	</row2>
+											<row3>	-3.749398 -2.408429 0.982150	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBRLegDigit11BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	0.051723 0.994465 0.091455	</row0>
+										<row1>	-0.913281 0.084152 -0.398542	</row1>
+										<row2>	-0.404032 -0.062910 0.912579	</row2>
+										<row3>	-1.190264 -2.259666 3.476204	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBRLegDigit21	</identifier>
+								<transform>
+									<row0>	0.731253 -0.511764 -0.450963	</row0>
+									<row1>	0.559244 0.828339 -0.033184	</row1>
+									<row2>	0.390531 -0.227932 0.891926	</row2>
+									<row3>	0.433033 -0.302224 0.058293	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBRLegDigit22	</identifier>
+									<transform>
+										<row0>	0.754049 0.018311 -0.656563	</row0>
+										<row1>	-0.016483 0.999824 0.008953	</row1>
+										<row2>	0.656611 0.004071 0.754219	</row2>
+										<row3>	0.562080 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBRLegDigit23	</identifier>
+										<transform>
+											<row0>	0.308632 -0.079663 -0.947840	</row0>
+											<row1>	0.063444 0.995992 -0.063052	</row1>
+											<row2>	0.949064 -0.040675 0.312449	</row2>
+											<row3>	0.457278 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBRLegDigit23BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	0.133886 0.955887 -0.261448	</row0>
+												<row1>	0.614183 -0.287083 -0.735094	</row1>
+												<row2>	-0.777724 -0.062158 -0.625525	</row2>
+												<row3>	-3.380363 -1.670970 -2.565002	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBRLegDigit22BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	-0.146164 0.952024 -0.268862	</row0>
+											<row1>	-0.526308 -0.304960 -0.793725	</row1>
+											<row2>	-0.837637 0.025490 0.545632	</row2>
+											<row3>	-3.126372 -1.290650 2.507968	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBRLegDigit21BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	-0.302445 0.948085 -0.098291	</row0>
+										<row1>	-0.913004 -0.317775 -0.255818	</row1>
+										<row2>	-0.273771 0.012369 0.961715	</row2>
+										<row3>	-0.127322 -1.337459 3.932660	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBRLegPalm01	</identifier>
+								<transform>
+									<row0>	0.330011 -0.748305 -0.575441	</row0>
+									<row1>	-0.907523 -0.083733 -0.411572	</row1>
+									<row2>	0.259797 0.658049 -0.706737	</row2>
+									<row3>	-0.233071 -0.250844 0.131323	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigBRLegPalm02	</identifier>
+									<transform>
+										<row0>	0.996487 -0.000000 -0.083746	</row0>
+										<row1>	0.000000 1.000000 0.000000	</row1>
+										<row2>	0.083746 -0.000000 0.996487	</row2>
+										<row3>	0.331692 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigBRLegPalm03	</identifier>
+										<transform>
+											<row0>	0.490326 0.000000 0.871539	</row0>
+											<row1>	0.000000 1.000000 -0.000000	</row1>
+											<row2>	-0.871539 0.000000 0.490326	</row2>
+											<row3>	0.394113 0.000000 -0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigBRLegPalm03BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	0.211592 -0.335244 0.918063	</row0>
+												<row1>	-0.517136 0.758667 0.396226	</row1>
+												<row2>	-0.829337 -0.558601 -0.012839	</row2>
+												<row3>	-3.306370 -2.503905 -1.239953	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigBRLegPalm02BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	-0.696379 -0.335244 0.634561	</row0>
+											<row1>	-0.598891 0.758667 -0.256424	</row1>
+											<row2>	-0.395456 -0.558601 -0.729095	</row2>
+											<row3>	-0.146420 -2.503905 -3.489613	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigBRLegPalm01BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	-0.640791 -0.335244 0.690651	</row0>
+										<row1>	-0.618262 0.758667 -0.205369	</row1>
+										<row2>	-0.455126 -0.558601 -0.693416	</row2>
+										<row3>	-0.106454 -2.503905 -3.465092	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigBRLegBRLegPalmBlendBoneDragon_Mesh	</identifier>
+								<transform>
+									<row0>	0.272202 0.962060 0.018606	</row0>
+									<row1>	-0.945896 0.263980 0.188669	</row1>
+									<row2>	0.176599 -0.068955 0.981865	</row2>
+									<row3>	1.103927 -2.241725 3.672025	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	CATRigBRLeg3BlendBoneDragon_Mesh	</identifier>
+							<transform>
+								<row0>	0.280365 0.957772 0.063780	</row0>
+								<row1>	-0.958542 0.275828 0.071524	</row1>
+								<row2>	0.050911 -0.081189 0.995398	</row2>
+								<row3>	1.522186 -2.293615 3.755272	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	CATRigBRLeg2BlendBoneDragon_Mesh	</identifier>
+						<transform>
+							<row0>	-0.020265 0.947339 0.319591	</row0>
+							<row1>	-0.400133 0.285256 -0.870932	</row1>
+							<row2>	-0.916233 -0.145529 0.373281	</row2>
+							<row3>	-1.085110 -2.552304 2.592453	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	CATRigBRLeg1BlendBoneDragon_Mesh	</identifier>
+					<transform>
+						<row0>	0.316434 0.915174 -0.249652	</row0>
+						<row1>	-0.707174 0.402993 0.580949	</row1>
+						<row2>	0.632277 -0.007285 0.774708	</row2>
+						<row3>	5.220404 -2.479751 0.716550	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CATRigSpine01	</identifier>
+				<transform>
+					<row0>	0.998930 -0.000000 -0.046238	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	0.046238 0.000000 0.998930	</row2>
+					<row3>	-0.006013 0.000000 -0.172849	</row3>
+				</transform>
+				<node>
+					<identifier>	CATRigSpine02	</identifier>
+					<transform>
+						<row0>	0.999594 -0.000000 -0.028493	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.028493 -0.000000 0.999594	</row2>
+						<row3>	0.625831 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	CATRigSpine03	</identifier>
+						<transform>
+							<row0>	0.996804 -0.000000 0.079891	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	-0.079891 0.000000 0.996804	</row2>
+							<row3>	0.625830 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	CATRigSpine04	</identifier>
+							<transform>
+								<row0>	0.999798 -0.000000 0.020083	</row0>
+								<row1>	-0.000000 1.000000 0.000000	</row1>
+								<row2>	-0.020083 -0.000000 0.999798	</row2>
+								<row3>	0.579856 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	CATRigSpine05	</identifier>
+								<transform>
+									<row0>	0.986924 0.000000 0.161184	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	-0.161184 -0.000000 0.986924	</row2>
+									<row3>	0.670475 -0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigSpine06	</identifier>
+									<transform>
+										<row0>	0.991218 -0.000000 0.132241	</row0>
+										<row1>	0.000000 1.000000 -0.000000	</row1>
+										<row2>	-0.132240 0.000000 0.991218	</row2>
+										<row3>	0.625830 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	English DragonRibcage	</identifier>
+										<transform>
+											<row0>	0.998120 0.000000 0.061290	</row0>
+											<row1>	-0.000000 1.000000 0.000000	</row1>
+											<row2>	-0.061290 -0.000000 0.998120	</row2>
+											<row3>	1.180866 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigFLLegCollarbone	</identifier>
+											<transform>
+												<row0>	-0.315178 0.932093 0.178509	</row0>
+												<row1>	0.174731 0.241873 -0.954445	</row1>
+												<row2>	-0.932808 -0.269630 -0.239099	</row2>
+												<row3>	0.281600 0.795932 0.262592	</row3>
+											</transform>
+											<node>
+												<identifier>	CATRigFLLeg1	</identifier>
+												<transform>
+													<row0>	0.475989 -0.871687 -0.116601	</row0>
+													<row1>	-0.870593 -0.485805 0.077858	</row1>
+													<row2>	-0.124513 0.064453 -0.990122	</row2>
+													<row3>	0.558352 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	CATRigFLLeg2	</identifier>
+													<transform>
+														<row0>	-0.001638 0.010220 0.999946	</row0>
+														<row1>	0.077347 0.996953 -0.010062	</row1>
+														<row2>	-0.997003 0.077327 -0.002424	</row2>
+														<row3>	2.366705 -0.000001 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	CATRigFLLeg3	</identifier>
+														<transform>
+															<row0>	0.887537 0.115014 -0.446149	</row0>
+															<row1>	-0.081431 0.992255 0.093803	</row1>
+															<row2>	0.453481 -0.046923 0.890030	</row2>
+															<row3>	1.470796 0.000000 0.000001	</row3>
+														</transform>
+														<node>
+															<identifier>	CATRigFLLegPalm	</identifier>
+															<transform>
+																<row0>	0.982642 -0.030743 0.182948	</row0>
+																<row1>	0.011437 0.994336 0.105660	</row1>
+																<row2>	-0.185160 -0.101734 0.977428	</row2>
+																<row3>	0.826288 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigFLLegDigit01	</identifier>
+																<transform>
+																	<row0>	-0.009859 0.774073 -0.633021	</row0>
+																	<row1>	-0.467453 -0.563189 -0.681400	</row1>
+																	<row2>	-0.883963 0.289189 0.367393	</row2>
+																	<row3>	-0.428592 0.237732 -0.091606	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFLLegDigit02	</identifier>
+																	<transform>
+																		<row0>	0.985428 -0.113371 0.126803	</row0>
+																		<row1>	0.124213 0.988934 -0.081123	</row1>
+																		<row2>	-0.116203 0.095691 0.988605	</row2>
+																		<row3>	0.362830 -0.000000 -0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFLLegDigit03	</identifier>
+																		<transform>
+																			<row0>	0.781128 -0.015984 -0.624166	</row0>
+																			<row1>	-0.002994 0.999565 -0.029344	</row1>
+																			<row2>	0.624364 0.024790 0.780740	</row2>
+																			<row3>	0.549161 0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFLLegDigit03BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	0.416746 -0.508716 0.753347	</row0>
+																				<row1>	-0.896849 -0.365275 0.249469	</row1>
+																				<row2>	0.148270 -0.779604 -0.608469	</row2>
+																				<row3>	1.079892 0.469541 0.467433	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFLLegDigit02BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.797417 -0.496480 0.342977	</row0>
+																			<row1>	-0.543701 -0.344597 0.765273	</row1>
+																			<row2>	-0.261755 -0.796719 -0.544724	</row2>
+																			<row3>	1.683137 0.463664 -0.322867	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFLLegDigit01BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.684273 -0.548570 0.480460	</row0>
+																		<row1>	-0.667508 -0.205914 0.715564	</row1>
+																		<row2>	-0.293604 -0.810352 -0.507076	</row2>
+																		<row3>	2.116551 0.236819 -0.143375	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFLLegDigit11	</identifier>
+																<transform>
+																	<row0>	0.609905 0.773664 -0.171637	</row0>
+																	<row1>	-0.782501 0.622188 0.023961	</row1>
+																	<row2>	0.125329 0.119691 0.984869	</row2>
+																	<row3>	0.439610 0.566390 0.043199	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFLLegDigit12	</identifier>
+																	<transform>
+																		<row0>	0.619114 -0.046618 -0.783916	</row0>
+																		<row1>	0.317961 0.927633 0.195953	</row1>
+																		<row2>	0.718052 -0.370572 0.589134	</row2>
+																		<row3>	0.589309 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFLLegDigit13	</identifier>
+																		<transform>
+																			<row0>	0.548399 0.053118 -0.834528	</row0>
+																			<row1>	-0.128017 0.991549 -0.021012	</row1>
+																			<row2>	0.826360 0.118357 0.550564	</row2>
+																			<row3>	0.536933 0.000000 -0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFLLegDigit13BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	-0.095544 0.896760 0.432080	</row0>
+																				<row1>	-0.405647 0.361313 -0.839585	</row1>
+																				<row2>	-0.909022 -0.255490 0.329247	</row2>
+																				<row3>	1.549830 0.737608 -0.174649	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFLLegDigit12BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.189857 0.935246 0.298779	</row0>
+																			<row1>	-0.962510 0.237342 -0.131314	</row1>
+																			<row2>	-0.193724 -0.262647 0.945245	</row2>
+																			<row3>	1.148110 0.793028 -1.405031	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFLLegDigit11BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.629454 0.747995 0.210453	</row0>
+																		<row1>	-0.614729 0.313697 0.723673	</row1>
+																		<row2>	0.475286 -0.584891 0.657272	</row2>
+																		<row3>	0.543387 1.202781 -1.572377	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFLLegDigit21	</identifier>
+																<transform>
+																	<row0>	0.839165 0.335997 -0.427678	</row0>
+																	<row1>	-0.294489 0.941809 0.162084	</row1>
+																	<row2>	0.457252 -0.010071 0.889281	</row2>
+																	<row3>	0.568985 0.258836 0.116334	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFLLegDigit22	</identifier>
+																	<transform>
+																		<row0>	0.570785 0.070071 -0.818104	</row0>
+																		<row1>	0.062944 0.989686 0.128682	</row1>
+																		<row2>	0.818684 -0.124945 0.560487	</row2>
+																		<row3>	0.727358 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFLLegDigit23	</identifier>
+																		<transform>
+																			<row0>	0.699768 0.024666 -0.713945	</row0>
+																			<row1>	0.006236 0.999155 0.040631	</row1>
+																			<row2>	0.714343 -0.032884 0.699022	</row2>
+																			<row3>	0.481493 0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFLLegDigit23BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	0.123216 0.990767 0.056548	</row0>
+																				<row1>	-0.303189 0.091842 -0.948494	</row1>
+																				<row2>	-0.944931 0.099725 0.311707	</row2>
+																				<row3>	1.797314 0.873285 -0.494207	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFLLegDigit22BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.132796 0.991110 -0.008185	</row0>
+																			<row1>	-0.889140 0.115476 -0.442826	</row1>
+																			<row2>	-0.437945 0.066084 0.896570	</row2>
+																			<row3>	1.391609 0.933131 -1.593162	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFLLegDigit21BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.131481 0.991215 0.014309	</row0>
+																		<row1>	-0.862774 0.107311 0.494071	</row1>
+																		<row2>	0.488195 -0.077307 0.869304	</row2>
+																		<row3>	0.276106 1.220075 -1.911350	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFLLegDigit31	</identifier>
+																<transform>
+																	<row0>	0.854196 0.050213 -0.517519	</row0>
+																	<row1>	0.073018 0.973878 0.215011	</row1>
+																	<row2>	0.514798 -0.221451 0.828218	</row2>
+																	<row3>	0.495294 -0.129367 -0.008855	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFLLegDigit32	</identifier>
+																	<transform>
+																		<row0>	0.486166 0.112977 -0.866532	</row0>
+																		<row1>	0.157236 0.964114 0.213917	</row1>
+																		<row2>	0.859604 -0.240249 0.450956	</row2>
+																		<row3>	0.554287 -0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFLLegDigit33	</identifier>
+																		<transform>
+																			<row0>	0.754557 -0.198163 -0.625600	</row0>
+																			<row1>	0.021469 0.960262 -0.278275	</row1>
+																			<row2>	0.655884 0.196543 0.728826	</row2>
+																			<row3>	0.377264 0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFLLegDigit33BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	0.280479 0.959376 -0.030469	</row0>
+																				<row1>	-0.266756 0.047417 -0.962597	</row1>
+																				<row2>	-0.922048 0.278116 0.269219	</row2>
+																				<row3>	1.906221 1.114877 -0.278297	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFLLegDigit32BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.212250 0.859683 -0.464645	</row0>
+																			<row1>	-0.831616 -0.090798 -0.547878	</row1>
+																			<row2>	-0.513191 0.502693 0.695654	</row2>
+																			<row3>	1.657021 0.638133 -1.705606	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFLLegDigit31BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.161049 0.964443 -0.209555	</row0>
+																		<row1>	-0.889539 -0.049866 0.454130	</row1>
+																		<row2>	0.427533 0.259545 0.865940	</row2>
+																		<row3>	-0.005933 1.212209 -2.068507	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFLLegPalmBlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.016730 0.999358 -0.031686	</row0>
+																	<row1>	-0.669237 0.034736 0.742237	</row1>
+																	<row2>	0.742861 0.008787 0.669388	</row2>
+																	<row3>	0.088926 1.425590 -1.787954	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigFLLeg3BlendBoneDragon_Mesh	</identifier>
+															<transform>
+																<row0>	0.033604 0.996418 0.077602	</row0>
+																<row1>	-0.792606 -0.020730 0.609382	</row1>
+																<row2>	0.608808 -0.081986 0.789070	</row2>
+																<row3>	1.255093 1.596900 -1.582097	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	CATRigFLLeg2BlendBoneDragon_Mesh	</identifier>
+														<transform>
+															<row0>	-0.016660 0.988774 0.148489	</row0>
+															<row1>	-0.417595 -0.141819 0.897498	</row1>
+															<row2>	0.908481 -0.047056 0.415269	</row2>
+															<row3>	1.718584 1.805072 -1.818983	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	CATRigFLLeg1BlendBoneDragon_Mesh	</identifier>
+													<transform>
+														<row0>	-0.071705 0.997012 -0.028746	</row0>
+														<row1>	-0.890456 -0.076974 -0.448512	</row1>
+														<row2>	-0.449384 -0.006564 0.893315	</row2>
+														<row3>	4.256846 1.677509 1.770265	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	CATRigFLLegCollarboneBlendBoneDragon_Mesh	</identifier>
+												<transform>
+													<row0>	-0.932093 -0.241873 0.269629	</row0>
+													<row1>	-0.141049 0.927994 0.344867	</row1>
+													<row2>	-0.333629 0.283417 -0.899092	</row2>
+													<row3>	0.110520 -4.789714 -0.962647	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	CATRigFRLegCollarbone	</identifier>
+											<transform>
+												<row0>	-0.315178 -0.932093 0.178509	</row0>
+												<row1>	-0.174731 0.241873 0.954445	</row1>
+												<row2>	-0.932808 0.269630 -0.239099	</row2>
+												<row3>	0.305470 -0.725339 0.249073	</row3>
+											</transform>
+											<node>
+												<identifier>	CATRigFRLeg1	</identifier>
+												<transform>
+													<row0>	0.325250 0.943514 -0.063203	</row0>
+													<row1>	0.915060 -0.330888 -0.230604	</row1>
+													<row2>	-0.238491 0.017169 -0.970993	</row2>
+													<row3>	0.558352 -0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	CATRigFRLeg2	</identifier>
+													<transform>
+														<row0>	-0.059356 -0.051895 0.996887	</row0>
+														<row1>	-0.077846 0.995847 0.047206	</row1>
+														<row2>	-0.995197 -0.074802 -0.063149	</row2>
+														<row3>	2.366706 0.000001 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	CATRigFRLeg3	</identifier>
+														<transform>
+															<row0>	0.888577 -0.001177 -0.458726	</row0>
+															<row1>	-0.029823 0.997733 -0.060328	</row1>
+															<row2>	0.457755 0.067286 0.886528	</row2>
+															<row3>	1.510897 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	CATRigFRLegPalm	</identifier>
+															<transform>
+																<row0>	0.981946 -0.048814 0.182756	</row0>
+																<row1>	0.068957 0.992021 -0.105542	</row1>
+																<row2>	-0.176146 0.116238 0.977477	</row2>
+																<row3>	0.778653 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigFRLegDigit01	</identifier>
+																<transform>
+																	<row0>	0.112917 -0.672401 -0.731525	</row0>
+																	<row1>	0.582343 -0.551744 0.597039	</row1>
+																	<row2>	-0.805064 -0.493414 0.329264	</row2>
+																	<row3>	-0.428592 -0.237732 -0.091606	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFRLegDigit02	</identifier>
+																	<transform>
+																		<row0>	0.985428 0.113371 0.126803	</row0>
+																		<row1>	-0.124213 0.988934 0.081123	</row1>
+																		<row2>	-0.116203 -0.095691 0.988605	</row2>
+																		<row3>	0.362829 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFRLegDigit03	</identifier>
+																		<transform>
+																			<row0>	0.781128 0.015984 -0.624167	</row0>
+																			<row1>	0.002994 0.999565 0.029344	</row1>
+																			<row2>	0.624364 -0.024790 0.780740	</row2>
+																			<row3>	0.549161 -0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFRLegDigit03BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	-0.416746 -0.508716 -0.753347	</row0>
+																				<row1>	-0.896849 0.365275 0.249469	</row1>
+																				<row2>	0.148269 0.779604 -0.608469	</row2>
+																				<row3>	1.095734 -0.486006 0.449489	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFRLegDigit02BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.797417 -0.496480 -0.342977	</row0>
+																			<row1>	-0.543701 0.344597 0.765273	</row1>
+																			<row2>	-0.261755 0.796719 -0.544724	</row2>
+																			<row3>	1.684259 -0.479424 -0.347248	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFRLegDigit01BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.684273 -0.548570 -0.480459	</row0>
+																		<row1>	-0.667508 0.205914 0.715564	</row1>
+																		<row2>	-0.293604 0.810352 -0.507076	</row2>
+																		<row3>	2.122447 -0.249944 -0.168614	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFRLegDigit11	</identifier>
+																<transform>
+																	<row0>	0.618735 -0.735103 -0.277112	</row0>
+																	<row1>	0.781683 0.611255 0.123853	</row1>
+																	<row2>	0.078341 -0.293244 0.952822	</row2>
+																	<row3>	0.439609 -0.566390 0.043198	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFRLegDigit12	</identifier>
+																	<transform>
+																		<row0>	0.502968 -0.010162 -0.864245	</row0>
+																		<row1>	-0.317961 0.927633 -0.195953	</row1>
+																		<row2>	0.803695 0.373354 0.463338	</row2>
+																		<row3>	0.589309 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFRLegDigit13	</identifier>
+																		<transform>
+																			<row0>	0.586567 -0.058613 -0.807778	</row0>
+																			<row1>	0.128017 0.991549 0.021012	</row1>
+																			<row2>	0.799720 -0.115734 0.589112	</row2>
+																			<row3>	0.536933 0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFRLegDigit13BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	0.095544 0.896760 -0.432080	</row0>
+																				<row1>	-0.405647 -0.361313 -0.839585	</row1>
+																				<row2>	-0.909022 0.255490 0.329247	</row2>
+																				<row3>	1.557273 -0.726897 -0.161825	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFRLegDigit12BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.189857 0.935246 -0.298779	</row0>
+																			<row1>	-0.962510 -0.237342 -0.131314	</row1>
+																			<row2>	-0.193724 0.262647 0.945245	</row2>
+																			<row3>	1.164161 -0.784320 -1.403957	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFRLegDigit11BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.629454 0.747995 -0.210453	</row0>
+																		<row1>	-0.614729 -0.313697 0.723673	</row1>
+																		<row2>	0.475286 0.584891 0.657272	</row2>
+																		<row3>	0.551327 -1.193558 -1.586033	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFRLegDigit21	</identifier>
+																<transform>
+																	<row0>	0.907660 -0.095196 -0.408766	</row0>
+																	<row1>	0.121884 0.991751 0.039678	</row1>
+																	<row2>	0.401618 -0.085835 0.911776	</row2>
+																	<row3>	0.568985 -0.258836 0.116334	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFRLegDigit22	</identifier>
+																	<transform>
+																		<row0>	0.437941 -0.088471 -0.894640	</row0>
+																		<row1>	-0.062944 0.989686 -0.128682	</row1>
+																		<row2>	0.896798 0.112667 0.427855	</row2>
+																		<row3>	0.727358 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFRLegDigit23	</identifier>
+																		<transform>
+																			<row0>	0.634010 -0.027471 -0.772837	</row0>
+																			<row1>	-0.006236 0.999155 -0.040631	</row1>
+																			<row2>	0.773299 0.030580 0.633302	</row2>
+																			<row3>	0.481493 0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFRLegDigit23BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	-0.123216 0.990767 -0.056549	</row0>
+																				<row1>	-0.303189 -0.091842 -0.948494	</row1>
+																				<row2>	-0.944931 -0.099725 0.311707	</row2>
+																				<row3>	1.801800 -0.868003 -0.473177	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFRLegDigit22BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.132796 0.991110 0.008185	</row0>
+																			<row1>	-0.889140 -0.115476 -0.442826	</row1>
+																			<row2>	-0.437945 -0.066084 0.896570	</row2>
+																			<row3>	1.409737 -0.927271 -1.581879	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFRLegDigit21BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.131482 0.991215 -0.014309	</row0>
+																		<row1>	-0.862774 -0.107312 0.494070	</row1>
+																		<row2>	0.488195 0.077307 0.869304	</row2>
+																		<row3>	0.295322 -1.214136 -1.920611	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFRLegDigit31	</identifier>
+																<transform>
+																	<row0>	0.806074 0.177789 -0.564478	</row0>
+																	<row1>	-0.261247 0.962743 -0.069832	</row1>
+																	<row2>	0.531032 0.203760 0.822489	</row2>
+																	<row3>	0.495294 0.129367 -0.008855	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigFRLegDigit32	</identifier>
+																	<transform>
+																		<row0>	0.470151 -0.110382 -0.875656	</row0>
+																		<row1>	-0.163891 0.963973 -0.209511	</row1>
+																		<row2>	0.867236 0.242014 0.435123	</row2>
+																		<row3>	0.554287 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigFRLegDigit33	</identifier>
+																		<transform>
+																			<row0>	0.962573 0.054785 -0.265427	</row0>
+																			<row1>	0.051831 0.924068 0.378697	</row1>
+																			<row2>	0.266019 -0.378281 0.886644	</row2>
+																			<row3>	0.377264 0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigFRLegDigit33BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	-0.280479 0.959376 0.030469	</row0>
+																				<row1>	-0.266756 -0.047417 -0.962597	</row1>
+																				<row2>	-0.922048 -0.278116 0.269219	</row2>
+																				<row3>	1.909212 -1.111366 -0.250332	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigFRLegDigit32BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.212250 0.859683 0.464645	</row0>
+																			<row1>	-0.831616 0.090798 -0.547878	</row1>
+																			<row2>	-0.513191 -0.502693 0.695654	</row2>
+																			<row3>	1.677544 -0.639666 -1.686118	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigFRLegDigit31BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.161049 0.964443 0.209555	</row0>
+																		<row1>	-0.889539 0.049866 0.454130	</row1>
+																		<row2>	0.427533 -0.259545 0.865940	</row2>
+																		<row3>	0.021037 -1.211323 -2.077175	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigFRLegPalmBlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.003286 0.999707 0.023973	</row0>
+																	<row1>	-0.671521 -0.019969 0.740716	</row1>
+																	<row2>	0.740978 -0.013663 0.671390	</row2>
+																	<row3>	0.093950 -1.429739 -1.795060	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigFRLeg3BlendBoneDragon_Mesh	</identifier>
+															<transform>
+																<row0>	0.060256 0.994735 -0.082895	</row0>
+																<row1>	-0.789453 0.098313 0.605887	</row1>
+																<row2>	0.610846 0.028934 0.791220	</row2>
+																<row3>	1.085137 -1.631313 -1.587484	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	CATRigFRLeg2BlendBoneDragon_Mesh	</identifier>
+														<transform>
+															<row0>	-0.013324 0.986793 -0.161436	</row0>
+															<row1>	-0.432790 0.139853 0.890581	</row1>
+															<row2>	0.901396 0.081735 0.425211	</row2>
+															<row3>	1.809082 -1.736006 -1.804490	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	CATRigFRLeg1BlendBoneDragon_Mesh	</identifier>
+													<transform>
+														<row0>	0.084546 0.995568 0.041190	</row0>
+														<row1>	-0.883737 0.094017 -0.458443	</row1>
+														<row2>	-0.460283 0.002358 0.887769	</row2>
+														<row3>	4.239045 -1.685286 1.787967	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	CATRigFRLegCollarboneBlendBoneDragon_Mesh	</identifier>
+												<transform>
+													<row0>	0.932093 -0.241873 -0.269629	</row0>
+													<row1>	-0.141049 -0.927994 0.344867	</row1>
+													<row2>	-0.333628 -0.283417 -0.899092	</row2>
+													<row3>	0.186255 4.789713 -0.962647	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	English DragonLArmCollarbone	</identifier>
+											<transform>
+												<row0>	-0.053560 0.885110 -0.462290	</row0>
+												<row1>	-0.998478 -0.053560 0.013135	</row1>
+												<row2>	-0.013135 0.462290 0.886632	</row2>
+												<row3>	-0.325045 0.246584 -0.359953	</row3>
+											</transform>
+											<node>
+												<identifier>	English DragonLArm1	</identifier>
+												<transform>
+													<row0>	0.923312 0.319984 -0.212380	</row0>
+													<row1>	0.378067 -0.854532 0.356146	</row1>
+													<row2>	-0.067525 -0.409128 -0.909975	</row2>
+													<row3>	0.907727 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	English DragonLArm2	</identifier>
+													<transform>
+														<row0>	0.296353 0.954711 0.026501	</row0>
+														<row1>	-0.885011 0.264074 0.383433	</row1>
+														<row2>	0.359069 -0.137085 0.923189	</row2>
+														<row3>	1.962034 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	English DragonLArmPalm	</identifier>
+														<transform>
+															<row0>	0.779325 -0.534413 -0.327194	</row0>
+															<row1>	0.544335 0.836027 -0.068980	</row1>
+															<row2>	0.310406 -0.124345 0.942436	</row2>
+															<row3>	6.562046 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	CATRigLArmDigit01	</identifier>
+															<transform>
+																<row0>	0.967754 -0.149078 -0.203044	</row0>
+																<row1>	0.139993 0.988424 -0.058473	</row1>
+																<row2>	0.209410 0.028163 0.977422	</row2>
+																<row3>	5.101060 0.022184 0.018835	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigLArmDigit02	</identifier>
+																<transform>
+																	<row0>	0.994205 -0.101739 -0.034728	</row0>
+																	<row1>	0.103204 0.993714 0.043368	</row1>
+																	<row2>	0.030097 -0.046700 0.998455	</row2>
+																	<row3>	2.607349 -0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigLArmDigit03	</identifier>
+																	<transform>
+																		<row0>	0.998132 -0.060919 0.004595	</row0>
+																		<row1>	0.060644 0.997094 0.046101	</row1>
+																		<row2>	-0.007390 -0.045736 0.998926	</row2>
+																		<row3>	1.507632 -0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigLArmDigit03BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.940366 -0.178711 -0.289437	</row0>
+																			<row1>	-0.203423 -0.386519 0.899568	</row1>
+																			<row2>	-0.272634 0.904802 0.327116	</row2>
+																			<row3>	-12.937274 -4.275535 -10.952830	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigLArmDigit02BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.947309 -0.107667 -0.301686	</row0>
+																		<row1>	-0.233131 -0.414147 0.879848	</row1>
+																		<row2>	-0.219672 0.903820 0.367224	</row2>
+																		<row3>	-11.583817 -2.974040 -11.197626	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigLArmDigit01BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.962010 0.003476 -0.272991	</row0>
+																	<row1>	-0.248040 -0.428914 0.868625	</row1>
+																	<row2>	-0.114069 0.903339 0.413482	</row2>
+																	<row3>	-9.553287 -1.253889 -10.907023	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigLArmDigit11	</identifier>
+															<transform>
+																<row0>	0.958473 -0.273334 -0.081347	</row0>
+																<row1>	0.280541 0.954956 0.096730	</row1>
+																<row2>	0.051243 -0.115533 0.991981	</row2>
+																<row3>	0.295468 0.048386 -0.040298	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigLArmDigit12	</identifier>
+																<transform>
+																	<row0>	0.987366 -0.149959 -0.051196	</row0>
+																	<row1>	0.150257 0.988645 0.002005	</row1>
+																	<row2>	0.050313 -0.009672 0.998687	</row2>
+																	<row3>	4.316044 -0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigLArmDigit13	</identifier>
+																	<transform>
+																		<row0>	0.995702 -0.070803 -0.059695	</row0>
+																		<row1>	0.068870 0.997051 -0.033851	</row1>
+																		<row2>	0.061916 0.029595 0.997642	</row2>
+																		<row3>	1.783951 0.000000 -0.000001	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigLArmDigit13BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.900670 -0.354128 -0.251768	</row0>
+																			<row1>	-0.128767 -0.335867 0.933066	</row1>
+																			<row2>	-0.414985 0.872805 0.256904	</row2>
+																			<row3>	-10.038026 -4.849565 -10.116221	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigLArmDigit12BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.936776 -0.296764 -0.185422	</row0>
+																		<row1>	-0.093573 -0.298145 0.949923	</row1>
+																		<row2>	-0.337185 0.907216 0.251525	</row2>
+																		<row3>	-9.171279 -4.423926 -9.328987	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigLArmDigit11BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.978861 -0.151123 -0.137814	</row0>
+																	<row1>	-0.089395 -0.289915 0.952868	</row1>
+																	<row2>	-0.183954 0.945046 0.270276	</row2>
+																	<row3>	-5.873461 -2.908143 -8.856077	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigLArmDigit21	</identifier>
+															<transform>
+																<row0>	0.853159 -0.501519 -0.143519	</row0>
+																<row1>	0.521073 0.832259 0.189285	</row1>
+																<row2>	0.024515 -0.236273 0.971378	</row2>
+																<row3>	-0.066501 0.036083 -0.029652	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigLArmDigit22	</identifier>
+																<transform>
+																	<row0>	0.960871 -0.272969 -0.047058	</row0>
+																	<row1>	0.273732 0.961749 0.010480	</row1>
+																	<row2>	0.042397 -0.022951 0.998837	</row2>
+																	<row3>	4.802284 0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigLArmDigit23	</identifier>
+																	<transform>
+																		<row0>	0.998383 -0.052697 -0.021295	</row0>
+																		<row1>	0.052483 0.998567 -0.010472	</row1>
+																		<row2>	0.021816 0.009337 0.999718	</row2>
+																		<row3>	1.608315 -0.000001 0.000001	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigLArmDigit23BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.709804 -0.681622 -0.177680	</row0>
+																			<row1>	-0.055519 -0.197321 0.978766	</row1>
+																			<row2>	-0.702208 0.704597 0.102215	</row2>
+																			<row3>	-7.929708 -7.869356 -8.991798	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigLArmDigit22BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.748306 -0.644900 -0.155377	</row0>
+																		<row1>	-0.044432 -0.184973 0.981739	</row1>
+																		<row2>	-0.661863 0.741545 0.109761	</row2>
+																		<row3>	-6.917751 -7.524168 -8.737995	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigLArmDigit21BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.902143 -0.412401 -0.126741	</row0>
+																	<row1>	-0.051704 -0.188301 0.980749	</row1>
+																	<row2>	-0.428327 0.891330 0.148551	</row2>
+																	<row3>	-4.274847 -5.147487 -8.481154	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigLArmDigit31	</identifier>
+															<transform>
+																<row0>	0.668224 -0.721474 -0.181524	</row0>
+																<row1>	0.740526 0.668453 0.069233	</row1>
+																<row2>	0.071390 -0.180686 0.980947	</row2>
+																<row3>	0.063699 0.042989 -0.058040	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigLArmDigit32	</identifier>
+																<transform>
+																	<row0>	0.992377 -0.113914 -0.047028	</row0>
+																	<row1>	0.110766 0.991728 -0.064863	</row1>
+																	<row2>	0.054028 0.059159 0.996785	</row2>
+																	<row3>	4.028498 0.000000 -0.000001	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigLArmDigit33	</identifier>
+																	<transform>
+																		<row0>	0.984752 -0.161604 -0.064393	</row0>
+																		<row1>	0.165386 0.984494 0.058478	</row1>
+																		<row2>	0.053945 -0.068235 0.996210	</row2>
+																		<row3>	1.220284 0.000000 0.000001	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigLArmDigit33BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.520064 -0.822534 -0.230155	</row0>
+																			<row1>	-0.008863 -0.264249 0.964414	</row1>
+																			<row2>	-0.854081 0.503597 0.130136	</row2>
+																			<row3>	-5.284997 -7.376403 -9.475649	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigLArmDigit32BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.660585 -0.710031 -0.243894	</row0>
+																		<row1>	-0.000406 -0.324527 0.945876	</row1>
+																		<row2>	-0.750751 0.624931 0.214089	</row2>
+																		<row3>	-5.715243 -5.761374 -9.530768	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigLArmDigit31BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.747373 -0.643336 -0.165989	</row0>
+																	<row1>	0.014754 -0.265839 0.963905	</row1>
+																	<row2>	-0.664240 0.717948 0.208173	</row2>
+																	<row3>	-2.796268 -5.626499 -8.857656	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigLArmDigit41	</identifier>
+															<transform>
+																<row0>	0.451985 -0.862845 -0.226290	</row0>
+																<row1>	0.886875 0.461897 0.010205	</row1>
+																<row2>	0.095717 -0.205304 0.974007	</row2>
+																<row3>	0.039425 0.044776 -0.196329	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigLArmDigit42	</identifier>
+																<transform>
+																	<row0>	0.988785 -0.132759 -0.068399	</row0>
+																	<row1>	0.140851 0.981245 0.131606	</row1>
+																	<row2>	0.049644 -0.139764 0.988940	</row2>
+																	<row3>	3.846236 -0.000001 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigLArmDigit43	</identifier>
+																	<transform>
+																		<row0>	0.983821 -0.159012 -0.082530	</row0>
+																		<row1>	0.149904 0.982912 -0.106836	</row1>
+																		<row2>	0.098107 0.092736 0.990846	</row2>
+																		<row3>	1.704289 0.000000 0.000001	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigLArmDigit43BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.264448 -0.936915 -0.228597	</row0>
+																			<row1>	-0.043858 -0.225106 0.973347	</row1>
+																			<row2>	-0.963402 0.267426 0.018437	</row2>
+																			<row3>	-3.072883 -7.528933 -9.258875	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigLArmDigit42BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.423043 -0.900054 -0.104584	</row0>
+																		<row1>	0.018600 -0.124021 0.992105	</row1>
+																		<row2>	-0.905919 0.417758 0.069207	</row2>
+																		<row3>	-3.355856 -7.770278 -8.116151	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigLArmDigit41BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.550264 -0.812393 -0.192944	</row0>
+																	<row1>	0.050175 -0.262825 0.963538	</row1>
+																	<row2>	-0.833482 0.520519 0.185385	</row2>
+																	<row3>	-0.969355 -6.044680 -8.819462	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigLArmDigit51	</identifier>
+															<transform>
+																<row0>	0.147664 -0.943570 -0.296430	</row0>
+																<row1>	0.987750 0.155981 -0.004466	</row1>
+																<row2>	0.050451 -0.292138 0.955045	</row2>
+																<row3>	-0.091560 -0.007637 -0.126943	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigLArmDigit52	</identifier>
+																<transform>
+																	<row0>	0.986831 -0.138174 -0.084099	</row0>
+																	<row1>	0.141440 0.989357 0.034172	</row1>
+																	<row2>	0.078482 -0.045616 0.995871	</row2>
+																	<row3>	3.210012 -0.000001 0.000001	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigLArmDigit53	</identifier>
+																	<transform>
+																		<row0>	0.996578 -0.080773 0.017567	</row0>
+																		<row1>	0.081340 0.996093 -0.034379	</row1>
+																		<row2>	-0.014722 0.035691 0.999254	</row2>
+																		<row3>	1.175279 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigLArmDigit53BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.029844 -0.985273 -0.168365	</row0>
+																			<row1>	0.020080 -0.168996 0.985412	</row1>
+																			<row2>	-0.999353 0.026030 0.024826	</row2>
+																			<row3>	-0.712245 -6.631927 -8.438647	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigLArmDigit52BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.107405 -0.985022 -0.134891	</row0>
+																		<row1>	-0.008242 -0.134787 0.990840	</row1>
+																		<row2>	-0.994181 0.107535 0.006357	</row2>
+																		<row3>	0.050264 -6.849669 -8.216866	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigLArmDigit51BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.255899 -0.953544 -0.158961	</row0>
+																	<row1>	0.050566 -0.177413 0.982837	</row1>
+																	<row2>	-0.965380 0.243470 0.093615	</row2>
+																	<row3>	1.645918 -6.408888 -8.421233	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigLArmDigit61	</identifier>
+															<transform>
+																<row0>	-0.193140 -0.926348 -0.323383	</row0>
+																<row1>	0.977274 -0.152278 -0.147467	</row1>
+																<row2>	0.087361 -0.344515 0.934707	</row2>
+																<row3>	-0.221969 -0.022923 -0.048928	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigLArmDigit62	</identifier>
+																<transform>
+																	<row0>	0.994217 -0.099853 -0.039537	</row0>
+																	<row1>	0.096809 0.992651 -0.072613	</row1>
+																	<row2>	0.046497 0.068366 0.996576	</row2>
+																	<row3>	3.481178 0.000001 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigLArmDigit63	</identifier>
+																	<transform>
+																		<row0>	0.995295 -0.095781 -0.014641	</row0>
+																		<row1>	0.096537 0.993199 0.065090	</row1>
+																		<row2>	0.008307 -0.066197 0.997772	</row2>
+																		<row3>	1.209630 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigLArmDigit63BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.283493 -0.938197 -0.198542	</row0>
+																			<row1>	0.050914 -0.192018 0.980070	</row1>
+																			<row2>	-0.957622 -0.287950 -0.006669	</row2>
+																			<row3>	0.752642 -4.769572 -8.530190	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigLArmDigit62BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.189939 -0.945826 -0.263318	</row0>
+																		<row1>	0.040279 -0.260467 0.964642	</row1>
+																		<row2>	-0.980970 -0.193828 -0.011377	</row2>
+																		<row3>	1.427430 -4.244545 -8.832657	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigLArmDigit61BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.085033 -0.975843 -0.201247	</row0>
+																	<row1>	0.059683 -0.196626 0.978660	</row1>
+																	<row2>	-0.994589 -0.095228 0.041521	</row2>
+																	<row3>	4.078750 -4.959733 -8.550643	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	English DragonLArmPalmBlendBoneDragon_Mesh	</identifier>
+															<transform>
+																<row0>	-0.987670 0.139163 -0.071700	</row0>
+																<row1>	-0.118188 -0.362509 0.924456	</row1>
+																<row2>	0.102659 0.921532 0.374487	</row2>
+																<row3>	-6.603752 -0.100176 -8.628876	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	English DragonLArm2BlendBoneDragon_Mesh	</identifier>
+														<transform>
+															<row0>	-0.716221 0.653083 0.245988	</row0>
+															<row1>	-0.002476 -0.354858 0.934917	</row1>
+															<row2>	0.697869 0.668998 0.255774	</row2>
+															<row3>	-1.317407 4.518340 -5.964549	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	English DragonLArm1BlendBoneDragon_Mesh	</identifier>
+													<transform>
+														<row0>	-0.701913 -0.545043 0.458526	</row0>
+														<row1>	0.649019 -0.224236 0.726975	</row1>
+														<row2>	-0.293414 0.807865 0.511137	</row2>
+														<row3>	-4.568848 0.753080 -3.808834	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	English DragonLArmCollarboneBlendBoneDragon_Mesh	</identifier>
+												<transform>
+													<row0>	-0.885110 0.053560 -0.462290	</row0>
+													<row1>	0.465382 0.101866 -0.879228	</row1>
+													<row2>	0.000000 -0.993355 -0.115089	</row2>
+													<row3>	-2.768840 -0.547187 4.704484	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	English DragonRArmCollarbone	</identifier>
+											<transform>
+												<row0>	-0.053488 -0.882567 -0.467134	</row0>
+												<row1>	0.998478 -0.053560 -0.013135	</row1>
+												<row2>	-0.013427 -0.467126 0.884089	</row2>
+												<row3>	-0.325045 -0.246584 -0.359953	</row3>
+											</transform>
+											<node>
+												<identifier>	English DragonRArm1	</identifier>
+												<transform>
+													<row0>	0.924460 -0.319984 -0.207326	</row0>
+													<row1>	-0.376113 -0.854532 -0.358209	</row1>
+													<row2>	-0.062545 0.409128 -0.910331	</row2>
+													<row3>	0.907727 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	English DragonRArm2	</identifier>
+													<transform>
+														<row0>	0.296353 -0.954711 0.026501	</row0>
+														<row1>	0.885011 0.264074 -0.383433	</row1>
+														<row2>	0.359069 0.137085 0.923189	</row2>
+														<row3>	1.962034 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	English DragonRArmPalm	</identifier>
+														<transform>
+															<row0>	0.779325 0.534413 -0.327194	</row0>
+															<row1>	-0.544335 0.836027 0.068980	</row1>
+															<row2>	0.310406 0.124345 0.942436	</row2>
+															<row3>	6.562047 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	CATRigRArmDigit01	</identifier>
+															<transform>
+																<row0>	0.967754 0.149078 -0.203044	</row0>
+																<row1>	-0.139993 0.988425 0.058473	</row1>
+																<row2>	0.209410 -0.028163 0.977422	</row2>
+																<row3>	5.101061 -0.022184 0.018835	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigRArmDigit02	</identifier>
+																<transform>
+																	<row0>	0.994205 0.101739 -0.034728	</row0>
+																	<row1>	-0.103204 0.993714 -0.043368	</row1>
+																	<row2>	0.030097 0.046700 0.998456	</row2>
+																	<row3>	2.607351 -0.000000 0.000001	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigRArmDigit03	</identifier>
+																	<transform>
+																		<row0>	0.998132 0.060919 0.004595	</row0>
+																		<row1>	-0.060644 0.997094 -0.046101	</row1>
+																		<row2>	-0.007390 0.045736 0.998926	</row2>
+																		<row3>	1.507632 -0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigRArmDigit03BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.940366 -0.178711 0.289437	</row0>
+																			<row1>	-0.203423 0.386520 0.899568	</row1>
+																			<row2>	-0.272634 -0.904801 0.327116	</row2>
+																			<row3>	-12.937274 4.275535 -10.952830	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigRArmDigit02BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.947309 -0.107667 0.301686	</row0>
+																		<row1>	-0.233131 0.414147 0.879848	</row1>
+																		<row2>	-0.219672 -0.903820 0.367224	</row2>
+																		<row3>	-11.583816 2.974040 -11.197624	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigRArmDigit01BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.962010 0.003476 0.272991	</row0>
+																	<row1>	-0.248040 0.428914 0.868625	</row1>
+																	<row2>	-0.114069 -0.903339 0.413482	</row2>
+																	<row3>	-9.553288 1.253890 -10.907025	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigRArmDigit11	</identifier>
+															<transform>
+																<row0>	0.958473 0.273334 -0.081347	</row0>
+																<row1>	-0.280540 0.954956 -0.096730	</row1>
+																<row2>	0.051243 0.115533 0.991981	</row2>
+																<row3>	0.295469 -0.048386 -0.040298	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigRArmDigit12	</identifier>
+																<transform>
+																	<row0>	0.987366 0.149959 -0.051196	</row0>
+																	<row1>	-0.150257 0.988645 -0.002005	</row1>
+																	<row2>	0.050313 0.009672 0.998687	</row2>
+																	<row3>	4.316044 0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigRArmDigit13	</identifier>
+																	<transform>
+																		<row0>	0.995702 0.070803 -0.059695	</row0>
+																		<row1>	-0.068870 0.997051 0.033851	</row1>
+																		<row2>	0.061916 -0.029595 0.997643	</row2>
+																		<row3>	1.783951 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigRArmDigit13BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.900670 -0.354128 0.251769	</row0>
+																			<row1>	-0.128767 0.335867 0.933066	</row1>
+																			<row2>	-0.414985 -0.872805 0.256904	</row2>
+																			<row3>	-10.038026 4.849566 -10.116221	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigRArmDigit12BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.936776 -0.296764 0.185422	</row0>
+																		<row1>	-0.093573 0.298145 0.949923	</row1>
+																		<row2>	-0.337185 -0.907216 0.251525	</row2>
+																		<row3>	-9.171279 4.423927 -9.328987	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigRArmDigit11BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.978861 -0.151123 0.137814	</row0>
+																	<row1>	-0.089395 0.289915 0.952868	</row1>
+																	<row2>	-0.183954 -0.945046 0.270276	</row2>
+																	<row3>	-5.873461 2.908143 -8.856076	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigRArmDigit21	</identifier>
+															<transform>
+																<row0>	0.853159 0.501519 -0.143519	</row0>
+																<row1>	-0.521073 0.832259 -0.189285	</row1>
+																<row2>	0.024515 0.236273 0.971378	</row2>
+																<row3>	-0.066501 -0.036083 -0.029652	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigRArmDigit22	</identifier>
+																<transform>
+																	<row0>	0.960871 0.272969 -0.047058	</row0>
+																	<row1>	-0.273732 0.961749 -0.010480	</row1>
+																	<row2>	0.042397 0.022951 0.998837	</row2>
+																	<row3>	4.802284 -0.000000 -0.000001	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigRArmDigit23	</identifier>
+																	<transform>
+																		<row0>	0.998383 0.052697 -0.021295	</row0>
+																		<row1>	-0.052483 0.998567 0.010472	</row1>
+																		<row2>	0.021816 -0.009337 0.999718	</row2>
+																		<row3>	1.608315 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigRArmDigit23BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.709804 -0.681622 0.177680	</row0>
+																			<row1>	-0.055519 0.197321 0.978766	</row1>
+																			<row2>	-0.702208 -0.704596 0.102215	</row2>
+																			<row3>	-7.929705 7.869358 -8.991798	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigRArmDigit22BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.748306 -0.644900 0.155377	</row0>
+																		<row1>	-0.044432 0.184974 0.981739	</row1>
+																		<row2>	-0.661863 -0.741545 0.109761	</row2>
+																		<row3>	-6.917750 7.524168 -8.737996	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigRArmDigit21BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.902143 -0.412401 0.126741	</row0>
+																	<row1>	-0.051704 0.188301 0.980749	</row1>
+																	<row2>	-0.428327 -0.891330 0.148551	</row2>
+																	<row3>	-4.274846 5.147488 -8.481154	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigRArmDigit31	</identifier>
+															<transform>
+																<row0>	0.668224 0.721474 -0.181524	</row0>
+																<row1>	-0.740525 0.668453 -0.069233	</row1>
+																<row2>	0.071390 0.180686 0.980947	</row2>
+																<row3>	0.063699 -0.042989 -0.058040	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigRArmDigit32	</identifier>
+																<transform>
+																	<row0>	0.992377 0.113914 -0.047028	</row0>
+																	<row1>	-0.110766 0.991728 0.064863	</row1>
+																	<row2>	0.054028 -0.059159 0.996786	</row2>
+																	<row3>	4.028499 -0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigRArmDigit33	</identifier>
+																	<transform>
+																		<row0>	0.984752 0.161604 -0.064393	</row0>
+																		<row1>	-0.165386 0.984494 -0.058478	</row1>
+																		<row2>	0.053945 0.068235 0.996210	</row2>
+																		<row3>	1.220282 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigRArmDigit33BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.520064 -0.822534 0.230155	</row0>
+																			<row1>	-0.008863 0.264249 0.964414	</row1>
+																			<row2>	-0.854082 -0.503597 0.130136	</row2>
+																			<row3>	-5.284996 7.376405 -9.475649	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigRArmDigit32BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.660585 -0.710031 0.243894	</row0>
+																		<row1>	-0.000406 0.324527 0.945876	</row1>
+																		<row2>	-0.750751 -0.624931 0.214089	</row2>
+																		<row3>	-5.715242 5.761376 -9.530768	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigRArmDigit31BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.747373 -0.643336 0.165989	</row0>
+																	<row1>	0.014754 0.265839 0.963905	</row1>
+																	<row2>	-0.664240 -0.717948 0.208173	</row2>
+																	<row3>	-2.796268 5.626499 -8.857656	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigRArmDigit41	</identifier>
+															<transform>
+																<row0>	0.451985 0.862845 -0.226290	</row0>
+																<row1>	-0.886875 0.461898 -0.010205	</row1>
+																<row2>	0.095717 0.205304 0.974007	</row2>
+																<row3>	0.039425 -0.044777 -0.196328	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigRArmDigit42	</identifier>
+																<transform>
+																	<row0>	0.988785 0.132759 -0.068399	</row0>
+																	<row1>	-0.140851 0.981245 -0.131606	</row1>
+																	<row2>	0.049644 0.139764 0.988940	</row2>
+																	<row3>	3.846236 -0.000001 -0.000001	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigRArmDigit43	</identifier>
+																	<transform>
+																		<row0>	0.983821 0.159012 -0.082530	</row0>
+																		<row1>	-0.149904 0.982912 0.106836	</row1>
+																		<row2>	0.098107 -0.092736 0.990846	</row2>
+																		<row3>	1.704288 0.000000 0.000001	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigRArmDigit43BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.264448 -0.936915 0.228597	</row0>
+																			<row1>	-0.043858 0.225106 0.973347	</row1>
+																			<row2>	-0.963402 -0.267426 0.018437	</row2>
+																			<row3>	-3.072882 7.528932 -9.258872	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigRArmDigit42BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.423043 -0.900054 0.104584	</row0>
+																		<row1>	0.018600 0.124021 0.992105	</row1>
+																		<row2>	-0.905919 -0.417758 0.069207	</row2>
+																		<row3>	-3.355855 7.770278 -8.116152	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigRArmDigit41BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.550264 -0.812393 0.192944	</row0>
+																	<row1>	0.050175 0.262825 0.963538	</row1>
+																	<row2>	-0.833482 -0.520519 0.185385	</row2>
+																	<row3>	-0.969354 6.044681 -8.819463	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigRArmDigit51	</identifier>
+															<transform>
+																<row0>	0.060214 0.957895 -0.280733	</row0>
+																<row1>	-0.997251 0.069895 0.024594	</row1>
+																<row2>	0.043180 0.278480 0.959471	</row2>
+																<row3>	-0.091559 0.007636 -0.126943	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigRArmDigit52	</identifier>
+																<transform>
+																	<row0>	0.986831 0.138174 -0.084099	</row0>
+																	<row1>	-0.141440 0.989357 -0.034172	</row1>
+																	<row2>	0.078482 0.045617 0.995871	</row2>
+																	<row3>	3.210012 -0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigRArmDigit53	</identifier>
+																	<transform>
+																		<row0>	0.996578 0.080773 0.017567	</row0>
+																		<row1>	-0.081340 0.996093 0.034379	</row1>
+																		<row2>	-0.014722 -0.035691 0.999254	</row2>
+																		<row3>	1.175279 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigRArmDigit53BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.029844 -0.985273 0.168365	</row0>
+																			<row1>	0.020080 0.168996 0.985412	</row1>
+																			<row2>	-0.999353 -0.026030 0.024826	</row2>
+																			<row3>	-0.712245 6.631929 -8.438647	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigRArmDigit52BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.107405 -0.985022 0.134891	</row0>
+																		<row1>	-0.008242 0.134787 0.990840	</row1>
+																		<row2>	-0.994181 -0.107535 0.006357	</row2>
+																		<row3>	0.050264 6.849670 -8.216865	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigRArmDigit51BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.255899 -0.953544 0.158961	</row0>
+																	<row1>	0.050566 0.177413 0.982837	</row1>
+																	<row2>	-0.965380 -0.243470 0.093615	</row2>
+																	<row3>	1.645918 6.408889 -8.421233	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigRArmDigit61	</identifier>
+															<transform>
+																<row0>	-0.277580 0.909551 -0.309300	</row0>
+																<row1>	-0.956722 -0.232435 0.175091	</row1>
+																<row2>	0.087361 0.344515 0.934707	</row2>
+																<row3>	-0.221969 0.022923 -0.048928	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigRArmDigit62	</identifier>
+																<transform>
+																	<row0>	0.994216 0.099853 -0.039537	</row0>
+																	<row1>	-0.096809 0.992650 0.072613	</row1>
+																	<row2>	0.046497 -0.068366 0.996576	</row2>
+																	<row3>	3.481177 -0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigRArmDigit63	</identifier>
+																	<transform>
+																		<row0>	0.995295 0.095781 -0.014641	</row0>
+																		<row1>	-0.096537 0.993199 -0.065090	</row1>
+																		<row2>	0.008307 0.066197 0.997772	</row2>
+																		<row3>	1.209630 0.000000 0.000001	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigRArmDigit63BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.283493 -0.938197 0.198542	</row0>
+																			<row1>	0.050914 0.192018 0.980070	</row1>
+																			<row2>	-0.957622 0.287950 -0.006669	</row2>
+																			<row3>	0.752642 4.769571 -8.530191	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigRArmDigit62BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.189939 -0.945826 0.263318	</row0>
+																		<row1>	0.040279 0.260467 0.964642	</row1>
+																		<row2>	-0.980970 0.193828 -0.011377	</row2>
+																		<row3>	1.427430 4.244545 -8.832657	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigRArmDigit61BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.085033 -0.975843 0.201247	</row0>
+																	<row1>	0.059684 0.196626 0.978660	</row1>
+																	<row2>	-0.994589 0.095228 0.041521	</row2>
+																	<row3>	4.078750 4.959732 -8.550642	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	English DragonRArmPalmBlendBoneDragon_Mesh	</identifier>
+															<transform>
+																<row0>	0.987670 0.139163 0.071700	</row0>
+																<row1>	-0.118188 0.362509 0.924456	</row1>
+																<row2>	0.102659 -0.921532 0.374487	</row2>
+																<row3>	-6.603753 0.100176 -8.628877	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	English DragonRArm2BlendBoneDragon_Mesh	</identifier>
+														<transform>
+															<row0>	0.716221 0.653083 -0.245987	</row0>
+															<row1>	-0.002477 0.354858 0.934917	</row1>
+															<row2>	0.697869 -0.668998 0.255774	</row2>
+															<row3>	-1.317407 -4.518339 -5.964550	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	English DragonRArm1BlendBoneDragon_Mesh	</identifier>
+													<transform>
+														<row0>	0.701913 -0.545043 -0.458526	</row0>
+														<row1>	0.649019 0.224236 0.726975	</row1>
+														<row2>	-0.293414 -0.807865 0.511137	</row2>
+														<row3>	-4.568848 -0.753081 -3.808835	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	English DragonRArmCollarboneBlendBoneDragon_Mesh	</identifier>
+												<transform>
+													<row0>	0.885110 0.053560 0.462290	</row0>
+													<row1>	0.465382 -0.101866 -0.879228	</row1>
+													<row2>	0.000000 0.993355 -0.115089	</row2>
+													<row3>	-2.768839 0.547187 4.704484	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	CATRigNeck01	</identifier>
+											<transform>
+												<row0>	0.975789 0.000000 0.218715	</row0>
+												<row1>	0.000000 1.000000 0.000000	</row1>
+												<row2>	-0.218715 0.000000 0.975789	</row2>
+												<row3>	0.019065 0.000000 -0.092933	</row3>
+											</transform>
+											<node>
+												<identifier>	CATRigNeck02	</identifier>
+												<transform>
+													<row0>	0.999533 -0.000000 -0.030565	</row0>
+													<row1>	0.000000 1.000000 0.000000	</row1>
+													<row2>	0.030565 0.000000 0.999533	</row2>
+													<row3>	0.998856 -0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	CATRigNeck03	</identifier>
+													<transform>
+														<row0>	0.994744 -0.000000 -0.102396	</row0>
+														<row1>	0.000000 1.000000 -0.000000	</row1>
+														<row2>	0.102396 0.000000 0.994744	</row2>
+														<row3>	1.004045 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	CATRigNeck04	</identifier>
+														<transform>
+															<row0>	0.988248 0.000000 -0.152861	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	0.152861 0.000000 0.988248	</row2>
+															<row3>	1.001333 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	CATRigNeck05	</identifier>
+															<transform>
+																<row0>	0.996910 -0.000000 -0.078555	</row0>
+																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.078555 0.000000 0.996910	</row2>
+																<row3>	1.001334 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	English DragonHead	</identifier>
+																<transform>
+																	<row0>	0.999324 0.000000 -0.036775	</row0>
+																	<row1>	-0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.036775 0.000000 0.999324	</row2>
+																	<row3>	1.001334 -0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	English DragonHeadBone01	</identifier>
+																	<transform>
+																		<row0>	0.884328 0.000000 0.466865	</row0>
+																		<row1>	0.000000 1.000000 0.000000	</row1>
+																		<row2>	-0.466865 -0.000000 0.884328	</row2>
+																		<row3>	0.281348 -0.000000 0.011337	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	HP_mouth	</identifier>
+																		<transform>
+																			<row0>	0.999859 0.000000 0.016774	</row0>
+																			<row1>	0.016774 0.000000 -0.999859	</row1>
+																			<row2>	-0.000000 1.000000 0.000000	</row2>
+																			<row3>	-0.073697 0.000001 0.435559	</row3>
+																		</transform>
+																	</node>
+																	<node>
+																		<identifier>	English DragonHeadBone01BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	0.000000 -1.000000 -0.000000	</row0>
+																			<row1>	-0.407357 0.000000 -0.913269	</row1>
+																			<row2>	0.913269 0.000000 -0.407357	</row2>
+																			<row3>	-3.233204 -0.000001 6.187190	</row3>
+																		</transform>
+																	</node>
+																	<node>
+																		<identifier>	English DragonHeadBone01BlendBoneTeeth	</identifier>
+																		<transform>
+																			<row0>	0.000000 -1.000000 -0.000000	</row0>
+																			<row1>	-0.407357 0.000000 -0.913269	</row1>
+																			<row2>	0.913269 0.000000 -0.407357	</row2>
+																			<row3>	-3.234174 -0.000001 6.184542	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	Jaw	</identifier>
+																	<transform>
+																		<row0>	0.000000 -1.000000 -0.000000	</row0>
+																		<row1>	0.393747 0.000000 -0.919219	</row1>
+																		<row2>	0.919219 0.000000 0.393747	</row2>
+																		<row3>	0.048408 0.054945 0.458529	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	tongueBone01	</identifier>
+																		<transform>
+																			<row0>	0.000001 0.314352 0.949307	</row0>
+																			<row1>	-0.000000 0.949307 -0.314352	</row1>
+																			<row2>	-1.000000 0.000000 0.000001	</row2>
+																			<row3>	0.054945 -0.232040 0.684050	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	tongueBone02	</identifier>
+																			<transform>
+																				<row0>	0.994165 -0.107841 -0.002560	</row0>
+																				<row1>	0.107841 0.994168 -0.000278	</row1>
+																				<row2>	0.002575 0.000000 0.999997	</row2>
+																				<row3>	0.489221 -0.000000 0.000000	</row3>
+																			</transform>
+																			<node>
+																				<identifier>	tongueBone02BlendBoneDragon_Mesh	</identifier>
+																				<transform>
+																					<row0>	0.002561 0.000278 -0.999997	</row0>
+																					<row1>	-0.212432 0.977176 -0.000273	</row1>
+																					<row2>	0.977172 0.212432 0.002562	</row2>
+																					<row3>	-5.399222 -4.532618 -0.015086	</row3>
+																				</transform>
+																			</node>
+																		</node>
+																		<node>
+																			<identifier>	tongueBone01BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	0.000001 -0.000000 -1.000000	</row0>
+																				<row1>	-0.105814 0.994386 -0.000000	</row1>
+																				<row2>	0.994386 0.105814 0.000001	</row2>
+																				<row3>	-5.367335 -3.923925 -0.000003	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	JawBlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	1.000000 -0.000000 -0.000000	</row0>
+																			<row1>	0.000000 0.871250 -0.490839	</row1>
+																			<row2>	0.000000 0.490839 0.871250	</row2>
+																			<row3>	0.054944 -5.960258 -2.691302	</row3>
+																		</transform>
+																	</node>
+																	<node>
+																		<identifier>	JawBlendBoneTeeth	</identifier>
+																		<transform>
+																			<row0>	1.000000 -0.000000 -0.000000	</row0>
+																			<row1>	0.000000 0.943247 -0.332091	</row1>
+																			<row2>	0.000000 0.332091 0.943247	</row2>
+																			<row3>	0.054944 -5.399652 -3.686155	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	English DragonHeadBlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	0.000000 -1.000000 -0.000000	</row0>
+																		<row1>	0.066137 0.000000 -0.997811	</row1>
+																		<row2>	0.997811 0.000000 0.066137	</row2>
+																		<row3>	-5.466449 -0.000001 3.973373	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigNeck05BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	0.000000 -1.000000 -0.000000	</row0>
+																	<row1>	0.029699 0.000000 -0.999559	</row1>
+																	<row2>	0.999559 0.000000 0.029700	</row2>
+																	<row3>	-4.316559 -0.000000 4.170107	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigNeck04BlendBoneDragon_Mesh	</identifier>
+															<transform>
+																<row0>	0.000000 -1.000000 -0.000000	</row0>
+																<row1>	-0.047796 0.000000 -0.998857	</row1>
+																<row2>	0.998857 0.000000 -0.047796	</row2>
+																<row3>	-2.979327 -0.000000 4.491862	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	CATRigNeck03BlendBoneDragon_Mesh	</identifier>
+														<transform>
+															<row0>	0.000000 -1.000000 -0.000000	</row0>
+															<row1>	-0.199703 -0.000000 -0.979857	</row1>
+															<row2>	0.979857 0.000000 -0.199703	</row2>
+															<row3>	-1.257440 -0.000000 4.893992	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	HP_mount	</identifier>
+													<transform>
+														<row0>	-0.000000 1.000000 -0.000000	</row0>
+														<row1>	0.923908 0.000000 -0.382615	</row1>
+														<row2>	-0.382615 -0.000000 -0.923908	</row2>
+														<row3>	-0.004630 -0.000000 -1.095663	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	CATRigNeck02BlendBoneDragon_Mesh	</identifier>
+													<transform>
+														<row0>	0.000000 -1.000000 -0.000000	</row0>
+														<row1>	-0.300149 0.000000 -0.953892	</row1>
+														<row2>	0.953892 0.000000 -0.300149	</row2>
+														<row3>	0.260429 -0.000000 4.997935	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	CATRigNeck01BlendBoneDragon_Mesh	</identifier>
+												<transform>
+													<row0>	0.000000 -1.000000 -0.000000	</row0>
+													<row1>	-0.330494 0.000000 -0.943808	</row1>
+													<row2>	0.943808 0.000000 -0.330494	</row2>
+													<row3>	1.418949 -0.000000 4.987052	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	English DragonRibcageBlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	-0.000000 -1.000000 -0.000000	</row0>
+												<row1>	-0.115089 0.000000 -0.993355	</row1>
+												<row2>	0.993355 -0.000000 -0.115089	</row2>
+												<row3>	0.307818 -0.000000 5.084009	</row3>
+											</transform>
+										</node>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigSpine05BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	-0.000000 -1.000000 0.000000	</row0>
+										<row1>	0.078533 -0.000000 -0.996912	</row1>
+										<row2>	0.996912 -0.000000 0.078533	</row2>
+										<row3>	1.118457 0.000000 5.204168	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigSpine04BlendBoneDragon_Mesh	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 -0.000000	</row0>
+									<row1>	0.238192 -0.000000 -0.971218	</row1>
+									<row2>	0.971218 -0.000000 0.238192	</row2>
+									<row3>	0.935481 0.000000 5.316398	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	CATRigSpine03BlendBoneDragon_Mesh	</identifier>
+							<transform>
+								<row0>	-0.000000 -1.000000 -0.000000	</row0>
+								<row1>	0.257648 0.000000 -0.966239	</row1>
+								<row2>	0.966239 -0.000000 0.257648	</row2>
+								<row3>	1.408382 -0.000000 5.334113	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	CATRigSpine02BlendBoneDragon_Mesh	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 -0.000000	</row0>
+							<row1>	0.334018 0.000000 -0.942567	</row1>
+							<row2>	0.942567 -0.000000 0.334018	</row2>
+							<row3>	1.603566 -0.000000 5.429579	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	CATRigSpine01BlendBoneDragon_Mesh	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.307026 0.000000 -0.951701	</row1>
+						<row2>	0.951701 -0.000000 0.307026	</row2>
+						<row3>	2.383452 -0.000000 5.381684	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CATRigTail01	</identifier>
+				<transform>
+					<row0>	-0.999892 0.000000 -0.014665	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.014665 0.000000 -0.999892	</row2>
+					<row3>	-0.067842 0.000000 0.044485	</row3>
+				</transform>
+				<node>
+					<identifier>	CATRigTail02	</identifier>
+					<transform>
+						<row0>	0.967666 0.000000 -0.252235	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.252235 -0.000000 0.967666	</row2>
+						<row3>	2.382798 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	CATRigTail03	</identifier>
+						<transform>
+							<row0>	0.999823 0.000000 -0.018822	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.018822 0.000000 0.999823	</row2>
+							<row3>	2.382797 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	CATRigTail04	</identifier>
+							<transform>
+								<row0>	0.996027 -0.000000 0.089056	</row0>
+								<row1>	0.000000 1.000000 -0.000000	</row1>
+								<row2>	-0.089056 0.000000 0.996027	</row2>
+								<row3>	2.382798 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	CATRigTail05	</identifier>
+								<transform>
+									<row0>	0.989773 0.000000 0.142653	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	-0.142653 -0.000000 0.989773	</row2>
+									<row3>	2.382798 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigTail06	</identifier>
+									<transform>
+										<row0>	0.998706 0.000000 0.050855	</row0>
+										<row1>	-0.000000 1.000000 -0.000000	</row1>
+										<row2>	-0.050855 0.000000 0.998706	</row2>
+										<row3>	0.569027 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CATRigTail07	</identifier>
+										<transform>
+											<row0>	0.999998 -0.000000 0.002219	</row0>
+											<row1>	0.000000 1.000000 0.000000	</row1>
+											<row2>	-0.002219 -0.000000 0.999998	</row2>
+											<row3>	0.569027 -0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigTail08	</identifier>
+											<transform>
+												<row0>	0.998460 0.000000 0.055474	</row0>
+												<row1>	-0.000000 1.000000 0.000000	</row1>
+												<row2>	-0.055474 -0.000000 0.998460	</row2>
+												<row3>	0.569028 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	CATRigTail09	</identifier>
+												<transform>
+													<row0>	0.999987 -0.000000 -0.005064	</row0>
+													<row1>	0.000000 1.000000 0.000000	</row1>
+													<row2>	0.005064 0.000000 0.999987	</row2>
+													<row3>	0.569026 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	CATRigTail10	</identifier>
+													<transform>
+														<row0>	0.999372 -0.000000 0.035424	</row0>
+														<row1>	0.000000 1.000000 -0.000000	</row1>
+														<row2>	-0.035424 -0.000000 0.999372	</row2>
+														<row3>	0.569026 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	CATRigTail11	</identifier>
+														<transform>
+															<row0>	0.999893 0.000000 0.014592	</row0>
+															<row1>	-0.000000 1.000000 0.000000	</row1>
+															<row2>	-0.014592 -0.000000 0.999894	</row2>
+															<row3>	0.569028 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	CATRigTail12	</identifier>
+															<transform>
+																<row0>	0.998021 0.000000 0.062888	</row0>
+																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																<row2>	-0.062888 -0.000000 0.998021	</row2>
+																<row3>	0.569025 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	CATRigTail13	</identifier>
+																<transform>
+																	<row0>	0.999983 -0.000000 0.005867	</row0>
+																	<row1>	0.000000 1.000000 -0.000000	</row1>
+																	<row2>	-0.005866 0.000000 0.999983	</row2>
+																	<row3>	0.569028 0.000000 -0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	CATRigTail14	</identifier>
+																	<transform>
+																		<row0>	0.999981 -0.000000 0.006202	</row0>
+																		<row1>	-0.000000 1.000000 0.000000	</row1>
+																		<row2>	-0.006203 -0.000000 0.999981	</row2>
+																		<row3>	0.569026 -0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	CATRigTail15	</identifier>
+																		<transform>
+																			<row0>	0.999466 -0.000000 0.032663	</row0>
+																			<row1>	0.000000 1.000000 -0.000000	</row1>
+																			<row2>	-0.032663 0.000000 0.999466	</row2>
+																			<row3>	0.569028 0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	CATRigTail15BlendBoneDragon_Mesh	</identifier>
+																			<transform>
+																				<row0>	-0.000000 -1.000000 0.000000	</row0>
+																				<row1>	-0.031410 0.000000 0.999507	</row1>
+																				<row2>	-0.999507 0.000000 -0.031410	</row2>
+																				<row3>	-18.147987 -0.000000 0.145525	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	CATRigTail14BlendBoneDragon_Mesh	</identifier>
+																		<transform>
+																			<row0>	-0.000000 -1.000000 0.000000	</row0>
+																			<row1>	-0.064036 0.000000 0.997948	</row1>
+																			<row2>	-0.997948 0.000000 -0.064036	</row2>
+																			<row3>	-17.574034 -0.000000 -0.447253	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	CATRigTail13BlendBoneDragon_Mesh	</identifier>
+																	<transform>
+																		<row0>	-0.000000 -1.000000 0.000000	</row0>
+																		<row1>	-0.070221 0.000000 0.997531	</row1>
+																		<row2>	-0.997531 0.000000 -0.070221	</row2>
+																		<row3>	-17.001896 -0.000000 -0.556183	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	CATRigTail12BlendBoneDragon_Mesh	</identifier>
+																<transform>
+																	<row0>	-0.000000 -1.000000 0.000000	</row0>
+																	<row1>	-0.076068 0.000000 0.997103	</row1>
+																	<row2>	-0.997103 0.000000 -0.076068	</row2>
+																	<row3>	-16.429316 -0.000000 -0.655848	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigTail11BlendBoneDragon_Mesh	</identifier>
+															<transform>
+																<row0>	-0.000000 -1.000000 0.000000	</row0>
+																<row1>	-0.138619 0.000000 0.990346	</row1>
+																<row2>	-0.990346 0.000000 -0.138619	</row2>
+																<row3>	-15.786530 -0.000000 -1.687683	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	CATRigTail10BlendBoneDragon_Mesh	</identifier>
+														<transform>
+															<row0>	-0.000000 -1.000000 0.000000	</row0>
+															<row1>	-0.153050 0.000000 0.988218	</row1>
+															<row2>	-0.988218 0.000000 -0.153050	</row2>
+															<row3>	-15.191205 -0.000000 -1.917785	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	CATRigTail09BlendBoneDragon_Mesh	</identifier>
+													<transform>
+														<row0>	-0.000000 -1.000000 -0.000000	</row0>
+														<row1>	-0.187955 -0.000000 0.982178	</row1>
+														<row2>	-0.982178 0.000000 -0.187955	</row2>
+														<row3>	-14.544724 -0.000000 -2.454621	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	CATRigTail08BlendBoneDragon_Mesh	</identifier>
+												<transform>
+													<row0>	-0.000000 -1.000000 0.000000	</row0>
+													<row1>	-0.183007 0.000000 0.983112	</row1>
+													<row2>	-0.983112 0.000000 -0.183007	</row2>
+													<row3>	-13.987874 -0.000000 -2.381351	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	CATRigTail07BlendBoneDragon_Mesh	</identifier>
+											<transform>
+												<row0>	-0.000000 -1.000000 0.000000	</row0>
+												<row1>	-0.237262 0.000000 0.971446	</row1>
+												<row2>	-0.971446 0.000000 -0.237262	</row2>
+												<row3>	-13.265205 -0.000000 -3.153644	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	CATRigTail06BlendBoneDragon_Mesh	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000000	</row0>
+											<row1>	-0.239417 0.000000 0.970917	</row1>
+											<row2>	-0.970917 0.000000 -0.239417	</row2>
+											<row3>	-12.689147 -0.000000 -3.183074	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigTail05BlendBoneDragon_Mesh	</identifier>
+									<transform>
+										<row0>	-0.000000 -1.000000 0.000000	</row0>
+										<row1>	-0.288483 0.000000 0.957485	</row1>
+										<row2>	-0.957485 0.000000 -0.288483	</row2>
+										<row3>	-11.941826 -0.000000 -3.824265	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigTail04BlendBoneDragon_Mesh	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 0.000000	</row0>
+									<row1>	-0.422121 0.000000 0.906539	</row1>
+									<row2>	-0.906539 0.000000 -0.422121	</row2>
+									<row3>	-8.891353 -0.000000 -5.488689	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	CATRigTail03BlendBoneDragon_Mesh	</identifier>
+							<transform>
+								<row0>	-0.000000 -1.000000 0.000000	</row0>
+								<row1>	-0.501177 0.000000 0.865345	</row1>
+								<row2>	-0.865345 0.000000 -0.501177	</row2>
+								<row3>	-5.984424 0.000000 -6.258711	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	CATRigTail02BlendBoneDragon_Mesh	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 -0.000000	</row0>
+							<row1>	-0.484801 0.000000 0.874625	</row1>
+							<row2>	-0.874625 0.000000 -0.484801	</row2>
+							<row3>	-3.718367 0.000000 -6.144966	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	CATRigTail01BlendBoneDragon_Mesh	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	-0.248515 -0.000000 0.968628	</row1>
+						<row2>	-0.968628 0.000000 -0.248515	</row2>
+						<row3>	-2.765313 0.000001 -5.008374	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	English DragonPelvisBlendBoneDragon_Mesh	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.000000 -0.000000	</row0>
+					<row1>	0.262693 0.000000 -0.964880	</row1>
+					<row2>	0.964880 -0.000000 0.262693	</row2>
+					<row3>	2.623727 -0.000000 5.092874	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	CATRigBLLegPlatform	</identifier>
+			<transform>
+				<row0>	-0.000000 1.000000 0.000000	</row0>
+				<row1>	-1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 -0.000000 1.000000	</row2>
+				<row3>	-0.787540 0.315862 -3.629944	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	CATRigBRLegPlatform	</identifier>
+			<transform>
+				<row0>	-0.000000 1.000000 0.000000	</row0>
+				<row1>	-1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 -0.000000 1.000000	</row2>
+				<row3>	1.035099 -0.020484 -3.610565	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	CATRigFLLegPlatform	</identifier>
+			<transform>
+				<row0>	-0.000000 1.000000 0.000000	</row0>
+				<row1>	-1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 -0.000000 1.000000	</row2>
+				<row3>	-2.130744 0.314489 1.442615	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	CATRigFRLegPlatform	</identifier>
+			<transform>
+				<row0>	-0.000000 1.000000 0.000000	</row0>
+				<row1>	-1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 -0.000000 1.000000	</row2>
+				<row3>	1.471311 0.251638 1.473313	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	English DragonHeadBone01BlendBoneTeeth	</node>
+		<node>	JawBlendBoneTeeth	</node>
+		<geometry>
+			<vertices>	Teeth.vertices	</vertices>
+			<primitive>	Teeth.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	English DragonRArm1BlendBoneDragon_Mesh	</node>
+		<node>	English DragonRArmCollarboneBlendBoneDragon_Mesh	</node>
+		<node>	English DragonRibcageBlendBoneDragon_Mesh	</node>
+		<node>	CATRigNeck01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLeg1BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegCollarboneBlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArmCollarboneBlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArm1BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLeg1BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegCollarboneBlendBoneDragon_Mesh	</node>
+		<node>	CATRigSpine05BlendBoneDragon_Mesh	</node>
+		<node>	CATRigSpine04BlendBoneDragon_Mesh	</node>
+		<node>	CATRigSpine03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigNeck02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigNeck03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigNeck04BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLeg2BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0a.vertices	</vertices>
+			<primitive>	Dragon_Mesh0a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	English DragonRArm1BlendBoneDragon_Mesh	</node>
+		<node>	English DragonRArm2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail04BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail01BlendBoneDragon_Mesh	</node>
+		<node>	English DragonPelvisBlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLeg1BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLeg2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLeg1BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLeg2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigSpine01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigSpine02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigSpine03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigSpine04BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit23BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit22BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0b.vertices	</vertices>
+			<primitive>	Dragon_Mesh0b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigBRLegPalm02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegPalm01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegPalm03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit22BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit12BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLeg3BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit31BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit32BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit33BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLegDigit01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFLLeg2BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0c.vertices	</vertices>
+			<primitive>	Dragon_Mesh0c.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigBRLeg3BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLeg2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegPalm01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegPalm02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegBRLegPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit12BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit22BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit23BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit12BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit22BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0d.vertices	</vertices>
+			<primitive>	Dragon_Mesh0d.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigBRLegDigit02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBRLegDigit03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit23BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit22BlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArm1BlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArm2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit23BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit22BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit12BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLeg3BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit31BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0e.vertices	</vertices>
+			<primitive>	Dragon_Mesh0e.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigRArmDigit62BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit52BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit63BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit51BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit53BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit61BlendBoneDragon_Mesh	</node>
+		<node>	English DragonRArm2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLeg2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLeg1BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit41BlendBoneDragon_Mesh	</node>
+		<node>	English DragonRArmPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit31BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit42BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0f.vertices	</vertices>
+			<primitive>	Dragon_Mesh0f.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigRArmDigit01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit12BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit11BlendBoneDragon_Mesh	</node>
+		<node>	English DragonRArmPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit22BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit23BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit32BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit33BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit31BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit42BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit43BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit41BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0g.vertices	</vertices>
+			<primitive>	Dragon_Mesh0g.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigRArmDigit52BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit41BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit42BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit43BlendBoneDragon_Mesh	</node>
+		<node>	CATRigRArmDigit53BlendBoneDragon_Mesh	</node>
+		<node>	tongueBone01BlendBoneDragon_Mesh	</node>
+		<node>	tongueBone02BlendBoneDragon_Mesh	</node>
+		<node>	JawBlendBoneDragon_Mesh	</node>
+		<node>	English DragonHeadBlendBoneDragon_Mesh	</node>
+		<node>	English DragonHeadBone01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigNeck05BlendBoneDragon_Mesh	</node>
+		<node>	CATRigNeck04BlendBoneDragon_Mesh	</node>
+		<node>	CATRigNeck03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail14BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail15BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0h.vertices	</vertices>
+			<primitive>	Dragon_Mesh0h.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigFRLegPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLeg3BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLeg2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegBLLegPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLeg3BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegPalm01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegPalm02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLeg2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigBLLegPalm03BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0i.vertices	</vertices>
+			<primitive>	Dragon_Mesh0i.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigFRLegDigit32BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit33BlendBoneDragon_Mesh	</node>
+		<node>	CATRigFRLegDigit31BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail06BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail07BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail04BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail05BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail08BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail09BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail10BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail12BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigTail14BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0j.vertices	</vertices>
+			<primitive>	Dragon_Mesh0j.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigLArmDigit41BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit52BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit42BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit43BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit53BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit51BlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArm2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit61BlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArmPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit31BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit11BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit32BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit33BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit22BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit23BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0k.vertices	</vertices>
+			<primitive>	Dragon_Mesh0k.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigLArmDigit02BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit03BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit01BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit12BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit13BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit11BlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArmPalmBlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit21BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit22BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit23BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit61BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit62BlendBoneDragon_Mesh	</node>
+		<node>	English DragonLArm2BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit63BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit53BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit52BlendBoneDragon_Mesh	</node>
+		<node>	CATRigLArmDigit51BlendBoneDragon_Mesh	</node>
+		<geometry>
+			<vertices>	Dragon_Mesh0l.vertices	</vertices>
+			<primitive>	Dragon_Mesh0l.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dragon_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-17.476301 -0.942258 -19.496801	</min>
+		<max>	17.476301 7.623150 7.374500	</max>
+	</boundingBox>
+</flying_dragon.visual>

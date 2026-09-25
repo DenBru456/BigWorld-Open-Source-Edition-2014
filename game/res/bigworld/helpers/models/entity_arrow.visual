@@ -1,0 +1,95 @@
+<entity_arrow.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	-0.000000 0.000000 1.000000	</row0>
+				<row1>	1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 1.000000 -0.000000	</row2>
+				<row3>	0.000000 2.412981 -0.563597	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.351906 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone02BlendBoneBox01	</identifier>
+					<transform>
+						<row0>	-0.000000 1.000000 0.000000	</row0>
+						<row1>	0.000000 -0.000000 1.000000	</row1>
+						<row2>	1.000000 0.000000 -0.000000	</row2>
+						<row3>	0.211689 0.000000 -2.412981	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneBox01	</identifier>
+				<transform>
+					<row0>	-0.000000 1.000000 0.000000	</row0>
+					<row1>	0.000000 -0.000000 1.000000	</row1>
+					<row2>	1.000000 0.000000 -0.000000	</row2>
+					<row3>	0.563595 0.000000 -2.412981	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneBox01	</node>
+		<node>	Bone02BlendBoneBox01	</node>
+		<geometry>
+			<vertices>	Box01.vertices	</vertices>
+			<primitive>	Box01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.dds	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	EnvironmentCubeMap	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	system/maps/col_white.dds	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	system/maps/col_white.dds	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.735558 1.061296 -1.000000	</min>
+		<max>	0.735558 3.158846 2.106787	</max>
+	</boundingBox>
+</entity_arrow.visual>

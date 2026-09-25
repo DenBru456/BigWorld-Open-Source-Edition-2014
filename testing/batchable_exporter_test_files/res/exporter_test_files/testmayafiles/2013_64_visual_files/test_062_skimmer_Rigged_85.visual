@@ -1,0 +1,1271 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_base	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Master_CTRL	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Front_Root_JNT	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.090000 0.132000	</row3>
+				</transform>
+				<node>
+					<identifier>	FrontWheel_Pivot_JNT	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.000000 -0.000000 1.000000	</row2>
+						<row3>	0.000000 -0.029400 0.012000	</row3>
+					</transform>
+					<node>
+						<identifier>	FrontWheel_JNT	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	-0.000000 -0.000000 1.000000	</row2>
+							<row3>	-0.000000 0.013402 -0.049028	</row3>
+						</transform>
+						<node>
+							<identifier>	Front_Wheel	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	-0.000000 -0.000000 1.000000	</row2>
+								<row3>	0.000000 -0.081402 -0.094972	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Front_Axle	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	-0.000000 -0.000000 1.000000	</row2>
+							<row3>	0.000000 -0.068000 -0.144000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Grill_Root_JNT	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.000000 -0.000000 1.000000	</row2>
+						<row3>	0.000000 0.017756 0.060092	</row3>
+					</transform>
+					<node>
+						<identifier>	Grill_Collapse_JNT	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	-0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	0.000008 -0.031381 -0.037505	</row3>
+						</transform>
+						<node>
+							<identifier>	Grill_Collapse_JNT_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000	</row2>
+								<row3>	-0.000008 -0.076376 -0.154586	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Grill_Root_JNT_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000	</row2>
+							<row3>	-0.000000 -0.107756 -0.192092	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Handlebars	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.000000 -0.000000 1.000000	</row2>
+						<row3>	0.000000 -0.090000 -0.132000	</row3>
+					</transform>
+					<node>
+						<identifier>	L_Handlebar	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	0.000000 0.000000 0.000000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	R_Handlebar	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	0.000000 0.000000 0.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	L_High_StrutRoot_JNT	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.000000 -0.000000 1.000000	</row2>
+						<row3>	-0.016000 0.008000 -0.026000	</row3>
+					</transform>
+					<node>
+						<identifier>	L_High_StrutCollapse_JNT	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	-0.076000 0.064000 0.032000	</row3>
+						</transform>
+						<node>
+							<identifier>	L_High_Wing_Trans	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 -0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000	</row2>
+								<row3>	0.092000 -0.162000 -0.138000	</row3>
+							</transform>
+							<node>
+								<identifier>	L_High_Back_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	L_High_Main_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	L_High_Mid_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	L_High_Tip_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	L_High_Wing_Connect	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	L_Shield	</identifier>
+								<transform>
+									<row0>	-0.979934 0.197596 -0.026169	</row0>
+									<row1>	0.199322 0.971452 -0.128655	</row1>
+									<row2>	-0.000000 -0.131289 -0.991344	</row2>
+									<row3>	-0.294779 0.048857 0.290938	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	L_High_StrutCollapse_JNT_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000	</row2>
+								<row3>	0.092000 -0.162000 -0.138000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	L_High_StrutRoot_JNT_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000	</row2>
+							<row3>	0.016000 -0.098000 -0.106000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	L_Low_StrutRoot_JNT	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	-0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.000000 -0.000000 1.000000	</row2>
+						<row3>	-0.008000 -0.010000 -0.030000	</row3>
+					</transform>
+					<node>
+						<identifier>	L_Low_StrutCollapse_JNT	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	-0.076000 -0.034000 0.004000	</row3>
+						</transform>
+						<node>
+							<identifier>	L_Low_Main_Wing	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 -0.000000 1.000000	</row2>
+								<row3>	0.084000 -0.046000 -0.106000	</row3>
+							</transform>
+							<node>
+								<identifier>	L_Low_Back_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	L_Low_Mid_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	L_Low_Tip_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	L_Low_StrutCollapse_JNT_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000	</row2>
+								<row3>	0.084000 -0.046000 -0.106000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	L_Low_StrutRoot_JNT_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000	</row2>
+							<row3>	0.008000 -0.080000 -0.102000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	R_High_StrutRoot_JNT	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 -1.000000 0.000000	</row1>
+						<row2>	0.000000 -0.000000 -1.000000	</row2>
+						<row3>	0.016000 0.008000 -0.026000	</row3>
+					</transform>
+					<node>
+						<identifier>	R_High_StrutCollapse_JNT	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	-0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	0.076000 -0.064000 -0.032000	</row3>
+						</transform>
+						<node>
+							<identifier>	R_High_Wing_Trans	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 -0.000000	</row0>
+								<row1>	0.000000 -1.000000 0.000000	</row1>
+								<row2>	-0.000000 0.000000 -1.000000	</row2>
+								<row3>	-0.092000 0.162000 0.138000	</row3>
+							</transform>
+							<node>
+								<identifier>	R_High_Back_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	R_High_Main_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	R_High_Mid_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	R_High_Tip_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	R_High_Wing_Connect	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	R_Shield	</identifier>
+								<transform>
+									<row0>	-0.968815 -0.215072 -0.123054	</row0>
+									<row1>	-0.199317 0.971453 -0.128655	</row1>
+									<row2>	0.147211 -0.100116 -0.984025	</row2>
+									<row3>	0.292248 0.103870 0.331544	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	R_High_StrutCollapse_JNT_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 -1.000000 -0.000000	</row1>
+								<row2>	0.000000 -0.000000 1.000000	</row2>
+								<row3>	-0.092000 0.162000 0.138000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	R_High_StrutRoot_JNT_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 -1.000000 -0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	-0.016000 0.098000 0.106000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	R_Low_StrutRoot_JNT	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 -1.000000 0.000000	</row1>
+						<row2>	0.000000 -0.000000 -1.000000	</row2>
+						<row3>	0.008000 -0.010000 -0.030000	</row3>
+					</transform>
+					<node>
+						<identifier>	R_Low_StrutCollapse_JNT	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	0.076000 0.034000 -0.004000	</row3>
+						</transform>
+						<node>
+							<identifier>	R_Low_Main_Wing	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 -1.000000 -0.000000	</row1>
+								<row2>	-0.000000 0.000000 -1.000000	</row2>
+								<row3>	-0.084000 0.046000 0.106000	</row3>
+							</transform>
+							<node>
+								<identifier>	R_Low_Back_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	R_Low_Mid_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	R_Low_Tip_Wing	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	R_Low_StrutCollapse_JNT_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 0.000000	</row0>
+								<row1>	0.000000 -1.000000 -0.000000	</row1>
+								<row2>	0.000000 -0.000000 1.000000	</row2>
+								<row3>	-0.084000 0.046000 0.106000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	R_Low_StrutRoot_JNT_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 -1.000000 -0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	-0.008000 0.080000 0.102000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Root_JNT	</identifier>
+					<transform>
+						<row0>	0.000000 -0.443908 -0.896072	</row0>
+						<row1>	0.000000 0.896072 -0.443908	</row1>
+						<row2>	1.000000 -0.000000 0.000000	</row2>
+						<row3>	-0.000000 0.004000 -0.158000	</row3>
+					</transform>
+					<node>
+						<identifier>	Main_Body	</identifier>
+						<transform>
+							<row0>	0.000000 -0.000000 1.000000	</row0>
+							<row1>	-0.443908 0.896072 0.000000	</row1>
+							<row2>	-0.896072 -0.443908 0.000000	</row2>
+							<row3>	0.018429 -0.095772 0.000000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	RearWheel_Pivot_JNT	</identifier>
+						<transform>
+							<row0>	0.969646 0.244515 0.000000	</row0>
+							<row1>	-0.244515 0.969646 -0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	0.038175 0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	L_FootPedal	</identifier>
+							<transform>
+								<row0>	0.000000 -0.000000 1.000000	</row0>
+								<row1>	-0.211330 0.977415 0.000000	</row1>
+								<row2>	-0.977415 -0.211330 0.000000	</row2>
+								<row3>	-0.000124 0.000020 -0.033072	</row3>
+							</transform>
+							<node>
+								<identifier>	L_Pedal	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 -0.000000	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.033072 -0.077100 0.060091	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	R_FootPedal	</identifier>
+							<transform>
+								<row0>	0.000000 -0.000000 1.000000	</row0>
+								<row1>	-0.211330 0.977415 0.000000	</row1>
+								<row2>	-0.977415 -0.211330 0.000000	</row2>
+								<row3>	-0.000124 0.000020 0.033072	</row3>
+							</transform>
+							<node>
+								<identifier>	R_Pedal	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 -0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 -0.000000 1.000000	</row2>
+									<row3>	-0.033072 -0.077100 0.060091	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	RearWheel_JNT	</identifier>
+							<transform>
+								<row0>	0.000000 -0.000000 1.000000	</row0>
+								<row1>	-0.211330 0.977415 0.000000	</row1>
+								<row2>	-0.977415 -0.211330 0.000000	</row2>
+								<row3>	0.109069 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	Rear_Wheel	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 -0.000000	</row1>
+									<row2>	0.000000 -0.000000 1.000000	</row2>
+									<row3>	0.000000 -0.054004 0.166813	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Rear_Axle	</identifier>
+							<transform>
+								<row0>	0.000000 -0.000000 1.000000	</row0>
+								<row1>	-0.211330 0.977415 0.000000	</row1>
+								<row2>	-0.977415 -0.211330 0.000000	</row2>
+								<row3>	-0.042564 -0.088037 0.000000	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	Rear_Wheel_Guards	</identifier>
+							<transform>
+								<row0>	0.000000 -0.000000 1.000000	</row0>
+								<row1>	-0.211330 0.977415 0.000000	</row1>
+								<row2>	-0.977415 -0.211330 0.000000	</row2>
+								<row3>	-0.042564 -0.088037 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	Wheel_Guard_1	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 0.000000	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	Wheel_Guard_2	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 0.000000	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	Wheel_Guard_3	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 0.000000	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+					</node>
+					<node>
+						<identifier>	Thruster_Pivot_JNT	</identifier>
+						<transform>
+							<row0>	0.490114 -0.871658 0.000000	</row0>
+							<row1>	0.871658 0.490114 0.000000	</row1>
+							<row2>	0.000000 -0.000000 1.000000	</row2>
+							<row3>	0.047924 0.052969 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	L_Thruster_JNT	</identifier>
+							<transform>
+								<row0>	0.000000 0.000000 1.000000	</row0>
+								<row1>	-0.998635 0.052242 0.000000	</row1>
+								<row2>	-0.052242 -0.998634 0.000000	</row2>
+								<row3>	0.016878 -0.000840 -0.042994	</row3>
+							</transform>
+							<node>
+								<identifier>	L_Thruster	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 -0.000000 1.000000	</row2>
+									<row3>	0.042994 -0.134058 0.102114	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	R_Thruster_JNT	</identifier>
+							<transform>
+								<row0>	0.000000 0.000000 1.000000	</row0>
+								<row1>	0.998635 -0.052242 -0.000000	</row1>
+								<row2>	0.052242 0.998634 -0.000000	</row2>
+								<row3>	0.016878 -0.000839 0.042994	</row3>
+							</transform>
+							<node>
+								<identifier>	R_Thruster	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 0.000000	</row0>
+									<row1>	0.000000 -1.000000 -0.000000	</row1>
+									<row2>	-0.000000 0.000000 -1.000000	</row2>
+									<row3>	-0.042994 0.134058 -0.102114	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Thruster_Struts	</identifier>
+							<transform>
+								<row0>	0.000000 -0.000000 1.000000	</row0>
+								<row1>	0.847998 0.529999 -0.000000	</row1>
+								<row2>	-0.529999 0.847998 0.000000	</row2>
+								<row3>	-0.150923 0.014703 0.000000	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Grill_Root_JNT_BlendBone	</node>
+		<node>	Grill_Collapse_JNT_BlendBone	</node>
+		<geometry>
+			<vertices>	GrillShape.vertices	</vertices>
+			<primitive>	GrillShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	L_Low_StrutRoot_JNT_BlendBone	</node>
+		<node>	R_Low_StrutRoot_JNT_BlendBone	</node>
+		<node>	L_High_StrutRoot_JNT_BlendBone	</node>
+		<node>	L_Low_StrutCollapse_JNT_BlendBone	</node>
+		<geometry>
+			<vertices>	L_Low_WingstrutShape.vertices	</vertices>
+			<primitive>	L_Low_WingstrutShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	L_High_StrutCollapse_JNT_BlendBone	</node>
+		<node>	L_High_StrutRoot_JNT_BlendBone	</node>
+		<node>	L_Low_StrutRoot_JNT_BlendBone	</node>
+		<node>	R_Low_StrutRoot_JNT_BlendBone	</node>
+		<geometry>
+			<vertices>	L_High_WingstrutShape.vertices	</vertices>
+			<primitive>	L_High_WingstrutShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	R_High_StrutCollapse_JNT_BlendBone	</node>
+		<node>	R_High_StrutRoot_JNT_BlendBone	</node>
+		<node>	R_Low_StrutRoot_JNT_BlendBone	</node>
+		<node>	L_Low_StrutRoot_JNT_BlendBone	</node>
+		<geometry>
+			<vertices>	R_High_WingstrutShape.vertices	</vertices>
+			<primitive>	R_High_WingstrutShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	R_Low_StrutRoot_JNT_BlendBone	</node>
+		<node>	L_Low_StrutRoot_JNT_BlendBone	</node>
+		<node>	R_High_StrutRoot_JNT_BlendBone	</node>
+		<node>	R_Low_StrutCollapse_JNT_BlendBone	</node>
+		<geometry>
+			<vertices>	R_Low_WingstrutShape.vertices	</vertices>
+			<primitive>	R_Low_WingstrutShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Thruster_Struts	</node>
+		<geometry>
+			<vertices>	Thruster_StrutsShape.vertices	</vertices>
+			<primitive>	Thruster_StrutsShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Thruster	</node>
+		<geometry>
+			<vertices>	R_ThrusterShape.vertices	</vertices>
+			<primitive>	R_ThrusterShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Thruster	</node>
+		<geometry>
+			<vertices>	L_ThrusterShape.vertices	</vertices>
+			<primitive>	L_ThrusterShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rear_Axle	</node>
+		<geometry>
+			<vertices>	Rear_AxleShape.vertices	</vertices>
+			<primitive>	Rear_AxleShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Wheel_Guard_1	</node>
+		<geometry>
+			<vertices>	Wheel_Guard_Shape1.vertices	</vertices>
+			<primitive>	Wheel_Guard_Shape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Wheel_Guard_2	</node>
+		<geometry>
+			<vertices>	Wheel_Guard_Shape2.vertices	</vertices>
+			<primitive>	Wheel_Guard_Shape2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Wheel_Guard_3	</node>
+		<geometry>
+			<vertices>	Wheel_Guard_Shape3.vertices	</vertices>
+			<primitive>	Wheel_Guard_Shape3.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Pedal	</node>
+		<geometry>
+			<vertices>	L_PedalShape.vertices	</vertices>
+			<primitive>	L_PedalShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Pedal	</node>
+		<geometry>
+			<vertices>	R_PedalShape.vertices	</vertices>
+			<primitive>	R_PedalShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rear_Wheel	</node>
+		<geometry>
+			<vertices>	Rear_WheelShape.vertices	</vertices>
+			<primitive>	Rear_WheelShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Main_Body	</node>
+		<geometry>
+			<vertices>	Main_BodyShape.vertices	</vertices>
+			<primitive>	Main_BodyShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Handlebar	</node>
+		<geometry>
+			<vertices>	R_HandlebarShape.vertices	</vertices>
+			<primitive>	R_HandlebarShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Handlebar	</node>
+		<geometry>
+			<vertices>	L_HandlebarShape.vertices	</vertices>
+			<primitive>	L_HandlebarShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Shield	</node>
+		<geometry>
+			<vertices>	R_ShieldShape.vertices	</vertices>
+			<primitive>	R_ShieldShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_High_Wing_Connect	</node>
+		<geometry>
+			<vertices>	R_High_Wing_ConnectShape.vertices	</vertices>
+			<primitive>	R_High_Wing_ConnectShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_High_Main_Wing	</node>
+		<geometry>
+			<vertices>	R_High_Main_WingShape.vertices	</vertices>
+			<primitive>	R_High_Main_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_High_Tip_Wing	</node>
+		<geometry>
+			<vertices>	R_High_Tip_WingShape.vertices	</vertices>
+			<primitive>	R_High_Tip_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_High_Mid_Wing	</node>
+		<geometry>
+			<vertices>	R_High_Mid_WingShape.vertices	</vertices>
+			<primitive>	R_High_Mid_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_High_Back_Wing	</node>
+		<geometry>
+			<vertices>	R_High_Back_WingShape.vertices	</vertices>
+			<primitive>	R_High_Back_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Low_Tip_Wing	</node>
+		<geometry>
+			<vertices>	R_Low_Tip_WingShape.vertices	</vertices>
+			<primitive>	R_Low_Tip_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Low_Mid_Wing	</node>
+		<geometry>
+			<vertices>	R_Low_Mid_WingShape.vertices	</vertices>
+			<primitive>	R_Low_Mid_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Low_Back_Wing	</node>
+		<geometry>
+			<vertices>	R_Low_Back_WingShape.vertices	</vertices>
+			<primitive>	R_Low_Back_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	R_Low_Main_Wing	</node>
+		<geometry>
+			<vertices>	R_Low_Main_WingShape.vertices	</vertices>
+			<primitive>	R_Low_Main_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Low_Tip_Wing	</node>
+		<geometry>
+			<vertices>	L_Low_Tip_WingShape.vertices	</vertices>
+			<primitive>	L_Low_Tip_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Low_Mid_Wing	</node>
+		<geometry>
+			<vertices>	L_Low_Mid_WingShape.vertices	</vertices>
+			<primitive>	L_Low_Mid_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Low_Back_Wing	</node>
+		<geometry>
+			<vertices>	L_Low_Back_WingShape.vertices	</vertices>
+			<primitive>	L_Low_Back_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Low_Main_Wing	</node>
+		<geometry>
+			<vertices>	L_Low_Main_WingShape.vertices	</vertices>
+			<primitive>	L_Low_Main_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_High_Wing_Connect	</node>
+		<geometry>
+			<vertices>	L_High_Wing_ConnectShape.vertices	</vertices>
+			<primitive>	L_High_Wing_ConnectShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_High_Main_Wing	</node>
+		<geometry>
+			<vertices>	L_High_Main_WingShape.vertices	</vertices>
+			<primitive>	L_High_Main_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_Shield	</node>
+		<geometry>
+			<vertices>	L_ShieldShape.vertices	</vertices>
+			<primitive>	L_ShieldShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_High_Tip_Wing	</node>
+		<geometry>
+			<vertices>	L_High_Tip_WingShape.vertices	</vertices>
+			<primitive>	L_High_Tip_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_High_Mid_Wing	</node>
+		<geometry>
+			<vertices>	L_High_Mid_WingShape.vertices	</vertices>
+			<primitive>	L_High_Mid_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	L_High_Back_Wing	</node>
+		<geometry>
+			<vertices>	L_High_Back_WingShape.vertices	</vertices>
+			<primitive>	L_High_Back_WingShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Front_Axle	</node>
+		<geometry>
+			<vertices>	Front_AxleShape.vertices	</vertices>
+			<primitive>	Front_AxleShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Front_Wheel	</node>
+		<geometry>
+			<vertices>	Front_WheelShape.vertices	</vertices>
+			<primitive>	Front_WheelShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn2	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.431494 -0.009415 -0.231581	</min>
+		<max>	0.431494 0.244535 0.195383	</max>
+	</boundingBox>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	0	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	false	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile>	exporter_test_files/testmayafiles/test_017_use_reference_hierarchy_1.visual	</referenceNodesFile>
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+			<copyExternalTextures>	true	</copyExternalTextures>
+			<copyTexturesTo />
+		</settings>
+	</metaData>
+</root>

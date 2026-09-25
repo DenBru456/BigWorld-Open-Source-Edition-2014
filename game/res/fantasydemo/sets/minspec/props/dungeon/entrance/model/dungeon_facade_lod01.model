@@ -1,0 +1,24 @@
+<dungeon_facade_lod01.model>
+	<extent>	560.000000	</extent>
+	<nodelessVisual>	sets/minspec/props/dungeon/entrance/model/dungeon_facade_lod01	</nodelessVisual>
+	<materialNames>
+		<material>
+			<original>	07 - Default	</original>
+			<display>	frame	</display>
+		</material>
+		<material>
+			<original>	02 - Default	</original>
+			<display>	stairs	</display>
+		</material>
+	</materialNames>
+	<batched>	true	</batched>
+	<visibilityBox>
+		<min>	-3.369938 -0.244998 -2.830947	</min>
+		<max>	3.881757 6.859599 2.778383	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281489793	</modified_on>
+	</metaData>
+</dungeon_facade_lod01.model>

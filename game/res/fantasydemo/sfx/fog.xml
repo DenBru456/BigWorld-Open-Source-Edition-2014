@@ -1,0 +1,20 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>	particles/fog.xml	</ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+		<Camera/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	
+	<Event> particles
+		<RampTimeTriggeredParticles>
+			<fadeTime>	2.0	</fadeTime>
+		</RampTimeTriggeredParticles>
+	</Event>
+
+</SFXFile>

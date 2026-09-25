@@ -1,0 +1,282 @@
+<falling_feathers.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Plane03	</identifier>
+			<transform>
+				<row0>	0.892603 -0.450843 0.000000	</row0>
+				<row1>	0.450843 0.892603 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.621066 1.393080 0.130595	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Dummy01	</identifier>
+			<transform>
+				<row0>	-0.652876 0.000000 -0.757465	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.757465 0.000000 -0.652876	</row2>
+				<row3>	-0.746947 0.376343 0.190772	</row3>
+			</transform>
+			<node>
+				<identifier>	Plane04	</identifier>
+				<transform>
+					<row0>	0.993504 -0.113800 0.000000	</row0>
+					<row1>	0.113800 0.993504 -0.000000	</row1>
+					<row2>	-0.000000 -0.000000 1.000000	</row2>
+					<row3>	0.407405 1.178935 -0.199802	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Dummy02	</identifier>
+			<transform>
+				<row0>	0.433807 0.000000 0.901006	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.901006 0.000000 0.433807	</row2>
+				<row3>	-0.154185 0.000000 0.853902	</row3>
+			</transform>
+			<node>
+				<identifier>	Plane05	</identifier>
+				<transform>
+					<row0>	-0.582759 -0.450843 -0.676116	</row0>
+					<row1>	-0.294344 0.892604 -0.341497	</row1>
+					<row2>	0.757465 0.000000 -0.652876	</row2>
+					<row3>	0.545208 1.113666 0.091620	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Dummy03	</identifier>
+			<transform>
+				<row0>	-0.638536 0.000000 -0.769592	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.769592 0.000000 -0.638536	</row2>
+				<row3>	0.293089 -0.479980 0.620363	</row3>
+			</transform>
+			<node>
+				<identifier>	Plane06	</identifier>
+				<transform>
+					<row0>	0.821443 0.570291 0.000000	</row0>
+					<row1>	-0.570291 0.821443 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	1.004163 1.062151 0.024682	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Dummy04	</identifier>
+			<transform>
+				<row0>	0.377500 0.000000 -0.926010	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.926010 0.000000 0.377500	</row2>
+				<row3>	0.408183 0.377552 -0.311572	</row3>
+			</transform>
+			<node>
+				<identifier>	Plane07	</identifier>
+				<transform>
+					<row0>	0.993672 0.112320 0.000000	</row0>
+					<row1>	-0.112320 0.993672 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.512561 1.101755 -0.077656	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Dummy05	</identifier>
+			<transform>
+				<row0>	-0.624631 0.000000 0.780920	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.780920 0.000000 -0.624631	</row2>
+				<row3>	0.826852 0.218396 0.410614	</row3>
+			</transform>
+			<node>
+				<identifier>	Plane08	</identifier>
+				<transform>
+					<row0>	0.940392 -0.340091 -0.000000	</row0>
+					<row1>	0.340091 0.940393 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.120141 1.307992 -0.113333	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane08	</node>
+		<geometry>
+			<vertices>	Plane08.vertices	</vertices>
+			<primitive>	Plane08.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	138	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	objects/models/fx/feather.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane07	</node>
+		<geometry>
+			<vertices>	Plane07.vertices	</vertices>
+			<primitive>	Plane07.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	138	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	objects/models/fx/feather.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane06	</node>
+		<geometry>
+			<vertices>	Plane06.vertices	</vertices>
+			<primitive>	Plane06.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	138	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	objects/models/fx/feather.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane05	</node>
+		<geometry>
+			<vertices>	Plane05.vertices	</vertices>
+			<primitive>	Plane05.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	138	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	objects/models/fx/feather.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane04	</node>
+		<geometry>
+			<vertices>	Plane04.vertices	</vertices>
+			<primitive>	Plane04.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	138	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	objects/models/fx/feather.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane03	</node>
+		<geometry>
+			<vertices>	Plane03.vertices	</vertices>
+			<primitive>	Plane03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	138	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	objects/models/fx/feather.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.273100 -2.165300 -0.556900	</min>
+		<max>	1.645200 -0.983700 2.355400	</max>
+	</boundingBox>
+</falling_feathers.visual>

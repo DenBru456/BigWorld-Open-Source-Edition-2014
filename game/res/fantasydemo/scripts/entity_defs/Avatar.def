@@ -1,0 +1,1370 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Implements>
+		<Interface> Avatar 		</Interface>
+		<Interface> Trader 		</Interface>
+		<Interface> NoteReporter </Interface>
+		<Interface> XMPPClient </Interface>
+		<Interface> KeepAlive </Interface>
+		<Interface> ThrottledMethods </Interface>
+	</Implements>
+
+	<!-- Data LoD'ing example.
+	<LoDLevels>
+		<level> 20	<hyst>  4 </hyst> <label> NEAR	</label>	</level>
+		<level> 100	<hyst> 10 </hyst> <label> MEDIUM</label>	</level>
+		<level> 250	<hyst> 20 </hyst> <label> FAR	</label>	</level>
+	</LoDLevels>
+	-->
+
+	<Properties>
+		<basePlayerName>
+			<!-- Base copy of the player name, for fault tolerance -->
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</basePlayerName>
+
+		<realm>
+			<Type>			REALM_ID		</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		fantasy				</Default>
+		</realm>
+
+		<initialTeleportPoint>
+			<Type>			MAILBOX			</Type>
+			<Flags>			BASE			</Flags>
+		</initialTeleportPoint>
+
+		<lastTradeID>
+			<Type>			TRADEID			</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</lastTradeID>
+
+		<tradeSelfAccepted>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0					</Default>
+		</tradeSelfAccepted>
+
+		<tradePartnerAccepted>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0					</Default>
+		</tradePartnerAccepted>
+
+		<tradeOutboundLock>
+			<Type>			LOCKHANDLE		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		-1					</Default>
+		</tradeOutboundLock>
+
+		<friendsList>
+			<!-- List of tuples: ( unicode, DBID ) -->
+			<Type>			PYTHON				</Type>
+			<Flags>			BASE					</Flags>
+			<Default>		[]						</Default>
+			<Persistent>	true					</Persistent>
+		</friendsList>
+
+		<admirersList>
+			<Type>			ARRAY <of> DBID </of>	</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</admirersList>
+
+		<inventoryItems>
+			<Type>			ARRAY <of> InventoryEntry </of>	</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Default>
+				<item>
+					<itemType>	2	</itemType>
+					<serial>	2001	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	3	</itemType>
+					<serial>	2007	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	4	</itemType>
+					<serial>	2002	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	6	</itemType>
+					<serial>	2003	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	7	</itemType>
+					<serial>	2004	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	9	</itemType>
+					<serial>	2005	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	10	</itemType>
+					<serial>	2006	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	17	</itemType>
+					<serial>	2007	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+			</Default>
+			<Persistent>	true					</Persistent>
+		</inventoryItems>
+
+		<inventoryLocks>
+			<Type> ARRAY <of> LockedEntry </of>	</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true					</Persistent>
+		</inventoryLocks>
+
+		<inventoryGoldPieces>
+			<Type>			INT32					</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Default>		100					</Default>
+			<Persistent>	true					</Persistent>
+		</inventoryGoldPieces>
+
+		<outItemsLock>
+			<Type>			LOCKHANDLE	</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		-1			</Default>
+		</outItemsLock>
+
+		<account>
+			<Type>			MAILBOX				</Type>
+			<Flags>			BASE					</Flags>
+		</account>
+
+		<loadGenTimer>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</loadGenTimer>
+
+		<cellBounds>
+			<Type>			ARRAY <of> FLOAT </of>	</Type>
+			<Flags>			OWN_CLIENT				</Flags>
+			<Default>		[]						</Default>
+			<Persistent>	false					</Persistent>
+			<VariableLengthHeaderSize> 2 			</VariableLengthHeaderSize>
+		</cellBounds>
+
+		<cellAppID>
+			<Type>			INT32					</Type>
+			<Flags>			OWN_CLIENT				</Flags>
+			<Default>		1						</Default>
+			<Persistent>	false					</Persistent>
+		</cellAppID>
+
+		<cellBoundsCaptureTimerHandle>
+			<Type>			OBJECT_ID				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0						</Default>
+		</cellBoundsCaptureTimerHandle>
+
+		<entityInfo>
+			<Type>			UINT32					</Type>		<!-- current stores just entity count on cell -->
+			<Flags>			OWN_CLIENT				</Flags>
+			<Default>		1						</Default>
+			<Persistent>	false					</Persistent>
+		</entityInfo>
+
+		<entityInfoCaptureTimerHandle>
+			<Type>			OBJECT_ID				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		0						</Default>
+		</entityInfoCaptureTimerHandle>
+
+		<!-- XMPP Interface -->
+		<xmppTransportDetails>
+			<Type>			XMPP_TRANSPORT_DETAILS	</Type>
+			<Flags>			BASE_AND_CLIENT			</Flags>
+			<Persistent>	true					</Persistent>
+		</xmppTransportDetails>
+
+		<xmppName>
+			<Type>			UNICODE_STRING			</Type>
+			<Flags>			BASE					</Flags>
+			<Persistent>	true					</Persistent>
+		</xmppName>
+
+	</Properties>
+
+	<TempProperties>
+		<!-- The connection must be re-established as the socket to the
+		     XMPP server will no longer be valid. -->
+		<xmppConnection/>
+
+		<!-- The friends bases are a currently actively list of mailboxes
+		     to other Avatars in the friends list. This makes looking up
+		     entities fast when we need to perform friend operations. -->
+		<friendBases/>
+
+		<!-- The inventory manager refers to the current Python object instance
+		     so needs to be recreated on a restoration. -->
+		<inventoryMgr/>
+
+		<!-- A set of trade related callbacks that will be invalid on entity
+		     restoration. -->
+		<tradingCallbacks/>
+
+		<!-- This list of callbacks stores a set of callbacks for the web
+		     integration modules. -->
+		<playerInfoCallbacks/>
+	</TempProperties>
+
+	<ClientMethods>
+		<clientOnCreateCellFailure>
+		</clientOnCreateCellFailure>
+
+		<newFriendsList>
+			<Args>
+				<friendsList>	ARRAY <of> UNICODE_STRING </of>	</friendsList>
+			</Args>
+		</newFriendsList>
+
+		<onAddedFriend>
+			<Args>
+				<friendName>	UNICODE_STRING	</friendName>
+				<online>		BOOL			</online>
+			</Args>
+		</onAddedFriend>
+
+		<setFriendStatus>
+			<Args>
+				<index>			FRIENDIDX		</index>
+				<isOnline>		BOOL			</isOnline>
+			</Args>
+		</setFriendStatus>
+
+		<onReceiveMessageFromAdmirer>
+			<Args>
+				<admirerName>	UNICODE_STRING	</admirerName>
+				<message>		UNICODE_STRING	</message>
+			</Args>
+		</onReceiveMessageFromAdmirer>
+
+		<onRcvFriendInfo>
+			<Args>
+				<friendName>	UNICODE_STRING		</friendName>
+				<info>			UNICODE_STRING		</info>
+			</Args>
+		</onRcvFriendInfo>
+
+		<showMessage>
+			<Args>
+				<type>		UINT8			</type>
+				<source>	STRING			</source>
+				<message>	UNICODE_STRING	</message>
+			</Args>
+		</showMessage>
+
+	<!-- ITEM TRADING (CLIENT) -->
+
+		<tradeDeny>
+		</tradeDeny>
+
+		<tradeOfferItemNotify>
+			<Args>
+				<itemType>		ITEMTYPE		</itemType>
+			</Args>
+		</tradeOfferItemNotify>
+
+		<tradeOfferItemDeny>
+			<Args>
+				<tradeItemLock>		LOCKHANDLE	</tradeItemLock>
+			</Args>
+		</tradeOfferItemDeny>
+
+		<tradeCommitNotify>
+			<Args>
+				<success>			BOOL						</success>
+				<outItemsLock>		LOCKHANDLE					</outItemsLock>
+				<outItemsSerial>	ARRAY <of> ITEMSERIAL </of>	</outItemsSerial>
+				<outGoldPieces>		GOLDPIECES					</outGoldPieces>
+				<inItemsTypes>		ARRAY <of> ITEMTYPE </of>	</inItemsTypes>
+				<inItemsSerials>	ARRAY <of> ITEMSERIAL </of>	</inItemsSerials>
+				<inGoldPieces>		GOLDPIECES					</inGoldPieces>
+			</Args>
+		</tradeCommitNotify>
+
+		<tradeAcceptNotify>
+			<Args>
+				<accepted>		BOOL	</accepted>
+			</Args>
+		</tradeAcceptNotify>
+
+	<!-- ITEM LOCKING (CLIENT) -->
+
+		<itemsLockNotify>
+			<Args>
+				<lockHandle>	LOCKHANDLE					</lockHandle>
+				<itemsSerials>	ARRAY <of> ITEMSERIAL </of>	</itemsSerials>
+				<goldPieces>	GOLDPIECES					</goldPieces>
+			</Args>
+		</itemsLockNotify>
+
+		<itemsUnlockNotify>
+			<Args>
+				<success>		BOOL			</success>
+				<lockHandle>	LOCKHANDLE		</lockHandle>
+			</Args>
+		</itemsUnlockNotify>
+
+	<!-- ITEM COMMERCE (CLIENT) -->
+
+		<commerceStartDeny>
+		</commerceStartDeny>
+
+		<commerceItemsNotify>
+			<Args>
+				<items>		ARRAY <of> InventoryEntry </of>		</items>
+			</Args>
+		</commerceItemsNotify>
+
+	<!-- ITEM PICK-UP AND DROP (CLIENT) -->
+
+		<pickUpNotify>
+			<Args>
+				<droppedItemID>		OBJECT_ID	</droppedItemID>
+			</Args>
+		</pickUpNotify>
+
+		<pickUpResponse>
+			<Args>
+				<success>		BOOL			</success>
+				<droppedItemID>		OBJECT_ID	</droppedItemID>
+				<itemSerial>		ITEMSERIAL	</itemSerial>
+			</Args>
+		</pickUpResponse>
+
+		<dropDeny>
+		</dropDeny>
+
+	<!-- LOAD GENERATION METHODS FOR STRESS TESTING PURPOSES -->
+
+		<loadGenMeth1>
+			<Args>
+				<strArg>		STRING		</strArg>
+			</Args>
+		</loadGenMeth1>
+
+		<loadGenMeth2>
+			<Args>
+				<intArg>		UINT32		</intArg>
+				<strArg>		STRING		</strArg>
+			</Args>
+		</loadGenMeth2>
+
+		<loadGenMeth3>
+			<Args>
+				<floatArg1>		FLOAT		</floatArg1>
+				<floatArg2>		FLOAT		</floatArg2>
+				<floatArg3>		FLOAT		</floatArg3>
+			</Args>
+		</loadGenMeth3>
+
+		<loadGenMeth4>
+			<Args>
+				<arrayArg>		ARRAY <of> UINT8 </of> </arrayArg>
+			</Args>
+		</loadGenMeth4>
+
+		<entitySummoned>
+			<Args>
+				<entityID>		OBJECT_ID	</entityID>
+				<typeName>		STRING		</typeName>
+			</Args>
+		</entitySummoned>
+
+		<teleportTo>
+			<Args>
+				<spaceName>		STRING		</spaceName>
+				<pointName>		STRING		</pointName>
+			</Args>
+		</teleportTo>
+
+		<addInfoMsg>
+			<Args>
+				<msg>	UNICODE_STRING	</msg>	<!-- Chat error msg -->
+			</Args>
+		</addInfoMsg>
+
+		<!--
+		<testTime>
+			<Args>
+				<time>	FLOAT			</time>
+			</Args>
+		</testTime>
+		-->
+
+		<!-- XMPP Interface -->
+		<onXmppRegisterWithTransport>
+			<Args>
+				<transport>	XMPP_TRANSPORT	</transport>
+			</Args>
+		</onXmppRegisterWithTransport>
+
+		<onXmppDeregisterWithTransport>
+			<Args>
+				<transport>	XMPP_TRANSPORT	</transport>
+			</Args>
+		</onXmppDeregisterWithTransport>
+
+		<onXmppMessage>
+			<Args>
+				<friendID>	XMPP_FRIEND_ID	</friendID>
+				<transport>	XMPP_TRANSPORT	</transport>
+				<message>	XMPP_MESSAGE	</message>
+			</Args>
+		</onXmppMessage>
+
+		<onXmppPresence>
+			<Args>
+				<friendID>	XMPP_FRIEND_ID	</friendID>
+				<transport>	XMPP_TRANSPORT	</transport>
+				<presence>	XMPP_PRESENCE	</presence>
+			</Args>
+		</onXmppPresence>
+
+		<onXmppRoster>
+			<Args>
+				<roster>	ARRAY <of> XMPP_FRIEND </of> </roster>
+			</Args>
+		</onXmppRoster>
+
+		<onXmppRosterItemAdd>
+			<Args>
+				<friendID>	XMPP_FRIEND_ID		</friendID>
+				<transport>	XMPP_TRANSPORT		</transport>
+			</Args>
+		</onXmppRosterItemAdd>
+
+		<onXmppRosterItemDelete>
+			<Args>
+				<friendID>	XMPP_FRIEND_ID		</friendID>
+				<transport>	XMPP_TRANSPORT		</transport>
+			</Args>
+		</onXmppRosterItemDelete>
+
+		<onXmppError>
+			<Args>
+				<message>	STRING	</message> <!-- error message -->
+			</Args>
+		</onXmppError>
+
+		<!-- Stream a map of a space-geometry mapping to the client -->
+		<!-- The description of the stream will be the space-geometry -->
+		<!-- mapping to which the stream applies.                     -->
+		<!-- The data of the stream will be a JPG file                -->
+		<mapStreamResponse>
+			<Args>
+				<streamID>	INT16	</streamID>
+				<minX>		FLOAT	</minX>			<!-- The world bounds of -->
+				<minY>		FLOAT	</minY>			<!-- the streamed map    -->
+				<maxX>		FLOAT	</maxX>			<!-- in geometry-local   -->
+				<maxY>		FLOAT	</maxY>			<!-- coordinates         -->
+			</Args>
+		</mapStreamResponse>
+	</ClientMethods>
+
+	<BaseMethods>
+		<logOff>
+			<Exposed/>
+		</logOff>
+
+		<setRightHand>
+			<Exposed/>
+			<Args>
+				<item>	ITEMTYPE				</item>
+			</Args>
+		</setRightHand>
+
+		<tryToTeleport>
+			<Exposed/>
+			<Args>
+				<spaceName>	STRING			</spaceName>
+				<pointName>	STRING			</pointName>
+				<spaceID>   SPACE_ID		</spaceID>
+			</Args>
+		</tryToTeleport>
+
+		<teleportTo>
+			<Exposed/>
+			<Args>
+				<space>	STRING			</space>	<!-- Space name -->
+				<label>	STRING			</label>	<!-- TeleportPoint -->
+			</Args>
+		</teleportTo>
+
+		<addFriend>
+			<Exposed/>
+			<Args>
+				<friendName>		UNICODE_STRING	</friendName>
+			</Args>
+		</addFriend>
+		<delFriend>
+			<Exposed/>
+			<Args>
+				<friendIdx>		FRIENDIDX	</friendIdx>	<!-- friend's list index -->
+			</Args>
+		</delFriend>
+		<addAdmirer>
+			<Args>
+				<admirerDBID>		DBID			</admirerDBID>
+				<admirerBase>		MAILBOX			</admirerBase>
+				<online>			BOOL			</online>	<!-- are we online? -->
+			</Args>
+		</addAdmirer>
+		<onAddedAdmirerToFriend>
+			<Args>
+				<friendName>		UNICODE_STRING		</friendName>
+				<friendDBID>		DBID			</friendDBID>
+				<friendBase>		MAILBOX		</friendBase>
+			</Args>
+		</onAddedAdmirerToFriend>
+		<delAdmirer>
+			<Args>
+				<admirerDBID>		DBID			</admirerDBID>
+			</Args>
+		</delAdmirer>
+		<onFriendStatusChange>
+			<Args>
+				<friendDBID>		DBID			</friendDBID>
+				<friendBase>		MAILBOX			</friendBase>
+			</Args>
+		</onFriendStatusChange>
+		<sendMessageToFriend>
+			<Exposed/>
+			<Args>
+				<friendIdx>		FRIENDIDX		</friendIdx>	<!-- friend's list index -->
+				<message>		UNICODE_STRING	</message>
+			</Args>
+		</sendMessageToFriend>
+		<getFriendInfo>
+			<Exposed/>
+			<Args>
+				<friendIdx>		FRIENDIDX	</friendIdx>	<!-- friend's list index -->
+			</Args>
+		</getFriendInfo>
+		<getInfoForAdmirer>
+			<Args>
+				<admirerBase>		MAILBOX		</admirerBase>
+			</Args>
+		</getInfoForAdmirer>
+		<setBandwidthPerSecond>
+			<Exposed/>
+			<Args>
+				<bps>		UINT16		</bps>	<!-- bytes per second -->
+			</Args>
+		</setBandwidthPerSecond>
+
+		<writeCreatedEntity>
+			<Args>
+				<shouldDestroy>		BOOL		</shouldDestroy>
+			</Args>
+
+			<ReturnValues>
+				<dbID>		DBID		</dbID>	<!-- Avatar DatabaseID -->
+				<modelData>	PERSISTENT_AVATAR_MODEL	</modelData>	<!-- model data -->
+			</ReturnValues>
+		</writeCreatedEntity>
+
+		<associateAccount>
+			<Args>
+				<accountMB>		MAILBOX		</accountMB>	<!-- Account mailbox -->
+			</Args>
+		</associateAccount>
+
+		<checkTeleportPointForAccount>
+		</checkTeleportPointForAccount>
+
+		<!-- Allow the Account to destroy us -->
+		<destroySelf>
+		</destroySelf>
+
+	<!-- ITEM TRADING (BASE) -->
+		<!-- Some base methods inherited from the Trader interface -->
+
+		<tradeCommitActive>
+			<Args>
+				<outItemsLock>		LOCKHANDLE	</outItemsLock>
+			</Args>
+		</tradeCommitActive>
+
+		<tradeSyncFail>
+		</tradeSyncFail>
+
+		<tradeCommitPassive>
+			<Args>
+				<outItemsLock>		LOCKHANDLE	</outItemsLock>
+				<activeBase>		MAILBOX		</activeBase> <!-- base mailbox of partner -->
+			</Args>
+		</tradeCommitPassive>
+
+		<tradeSyncRequest>
+			<Args>
+				<partnerBase>			MAILBOX			</partnerBase>
+				<partnerTradeParams>	TradeParams		</partnerTradeParams>
+			</Args>
+		</tradeSyncRequest>
+
+		<tradeSyncReject>
+		</tradeSyncReject>
+
+	<!-- ITEM LOCKING (BASE) -->
+
+		<itemsLockRequest>
+			<Args>
+				<lockHandle>		LOCKHANDLE					</lockHandle>
+				<itemsSerials>		ARRAY <of> ITEMSERIAL </of>	</itemsSerials>
+				<goldPieces>		GOLDPIECES					</goldPieces>
+			</Args>
+		</itemsLockRequest>
+
+		<itemsUnlockRequest>
+			<Args>
+				<lockHandle>		LOCKHANDLE	</lockHandle>
+			</Args>
+		</itemsUnlockRequest>
+
+	<!-- ITEM COMMERCE (BASE) -->
+
+		<commerceSellRequest>
+			<Args>
+				<itemsLock>			LOCKHANDLE	</itemsLock>
+				<itemSerial>		ITEMSERIAL	</itemSerial>
+				<merchantBase>		MAILBOX		</merchantBase>
+			</Args>
+		</commerceSellRequest>
+
+		<commerceBuyRequest>
+			<Args>
+				<avatarLock>		LOCKHANDLE						</avatarLock>
+				<merchantBase>		MAILBOX							</merchantBase>
+				<merchantDBID>		INT64							</merchantDBID>
+				<merchantTradeID>	TRADEID							</merchantTradeID>
+				<merchantLock>		LOCKHANDLE						</merchantLock>
+				<itemsSerials>		ARRAY <of> ITEMSERIAL </of>		</itemsSerials>
+				<itemsTypes>		ARRAY <of> ITEMTYPE </of>		</itemsTypes>
+			</Args>
+		</commerceBuyRequest>
+
+	<!-- ITEM PICK-UP AND DROP (BASE) -->
+
+		<pickUpResponse>
+			<Args>
+				<success>			BOOL			</success>
+				<droppedItemID>		OBJECT_ID		</droppedItemID>
+				<itemType>			ITEMTYPE		</itemType>
+			</Args>
+		</pickUpResponse>
+
+		<dropRequest>
+			<Exposed/>
+			<Args>
+				<itemSerial>		ITEMSERIAL	</itemSerial>
+			</Args>
+		</dropRequest>
+
+	<!-- WEB INTERFACE (BASE) -->
+
+		<!-- 	Retrieves the player name and other player info.
+		-->
+		<remoteTakeDamage>
+			<Args>
+				<damage>	INT32	</damage>
+			</Args>
+			<ReturnValues>
+				<health>	INT32	</health>
+			</ReturnValues>
+		</remoteTakeDamage>
+
+		<webGetPlayerInfo>
+			<ReturnValues>
+				<databaseID>	DBID	</databaseID>
+
+				<!-- 	Character class (derived from the model name) -->
+				<charClass> 	STRING 	</charClass>
+
+				<!-- 	Are they currently playing in-game? -->
+				<online>	BOOL	</online>
+
+				<playerName> 	UNICODE_STRING 	</playerName>
+
+				<!-- 	The player's position, as a list of floats (x, y, z) -->
+				<position>	ARRAY<of>FLOAT</of>	</position>
+
+				<!-- 	The player's direction, as a list of floats
+						(roll, pitch, yaw).  -->
+				<direction>	ARRAY<of>FLOAT</of>	</direction>
+
+				<health>	INT32	</health>
+				<maxHealth>	INT32	</maxHealth> <!-- maxHealth -->
+
+				<!-- 	The player's kill count.  -->
+				<frags>	INT32	</frags>
+			</ReturnValues>
+		</webGetPlayerInfo>
+
+		<!-- 	Retrieves the available gold pieces and the inventory state.
+		-->
+		<webGetGoldAndInventory>
+			<ReturnValues>
+				<!-- The Avatar's available gold pieces. -->
+				<goldPieces>	GOLDPIECES	</goldPieces>
+
+				<!-- List of item descriptions as dictionaries with keys:
+					 'serial': the serial number of the item
+					 'itemType': the item type
+					 'lockHandle' : lock handle associated with this item
+				-->
+				<inventoryItems>	PYTHON		</inventoryItems>
+
+				<!-- List of dictionary with keys:
+					 'serials': a list of serial numbers of locked items
+					 'goldPieces': the gold pieces locked
+				-->
+				<lockedItems>	PYTHON		</lockedItems> <!-- lockedItems -->
+			</ReturnValues>
+		</webGetGoldAndInventory>
+
+
+		<!-- 	Web method to create an auction.
+		-->
+		<webCreateAuction>
+
+			<Args>
+				<itemSerial> 	ITEMSERIAL		</itemSerial>
+
+				<!-- Expiry in seconds from when the auction is created. -->
+				<expiry>	UINT32			</expiry>
+
+				<!-- Starting bid. Must be greater than zero. -->
+				<startBid>	GOLDPIECES		</startBid>
+
+				<!-- Buyout amount, or -1 if none. -->
+				<buyout> 	GOLDPIECES		</buyout>
+			</Args>
+
+			<ReturnValues>
+				<auctionID>	AUCTIONID	</auctionID> <!-- auctionID -->
+			</ReturnValues>
+		</webCreateAuction>
+
+
+		<!-- 	Web method to bid on, or to buyout, an auction. Buyouts can be
+				indicated the buying out boolean value, in which case the
+				maximum bid value is ignored.
+		-->
+		<webBidOnAuction>
+			<Args>
+				<auctionID>		AUCTIONID	</auctionID>
+				<isBuyingOut>	BOOL		</isBuyingOut>
+				<bidAmount>		UINT32		</bidAmount>
+			</Args>
+
+			<ReturnValues>
+				<status> STRING </status> <!-- status -->
+			</ReturnValues>
+		</webBidOnAuction>
+
+		<!-- 	A request method for the AuctionHouse to (re)lock an amount of
+				gold to complete an auction.
+				If there is an existing lock that needs to be unlocked
+				prior to the new lock, it can be provided, and it is unlocked
+				before relocking the given gold amount.
+				Calls back on AuctionHouse.completeAuction when complete.
+		-->
+		<lockAuctionGold>
+			<Args>
+				<auctionID>	AUCTIONID	</auctionID>
+				
+				<!-- The gold amount to lock. -->
+				<goldAmount>	GOLDPIECES	</goldAmount>
+				<existingLock>	LOCKHANDLE	</existingLock>
+			</Args>
+
+			<ReturnValues>
+				<lockHandle>	LOCKHANDLE	</lockHandle>
+			</ReturnValues>
+		</lockAuctionGold>
+
+
+		<!--	Callback from the AuctionHouse when an auction sold by this
+				player expires without a bid having been placed.
+		-->
+		<onAuctionExpired>
+			<Args>
+				<auctionID>	AUCTIONID	</auctionID>
+				<itemLock>	LOCKHANDLE	</itemLock>
+			</Args>
+		</onAuctionExpired>
+
+
+		<!--	Callback method from the AuctionHouse when this Avatar has won
+				an auction. Calls back on the AuctionHouse.completeAuction
+				to complete the trade with the new lock handle for the
+				auction bid amount at expiry (which may be different from the
+				maximum bid amount made by this player).
+		-->
+		<onAuctionWon>
+			<!-- The auction ID. -->
+			<Args>
+				<auctionID>	AUCTIONID	</auctionID>
+				
+				<!-- The lock handle for the gold locked at bid-time. -->		
+				<itemLock>	LOCKHANDLE	</itemLock>
+				
+				<!-- Amount for which the auction was won. -->
+				<bidPrice>	GOLDPIECES	</bidPrice>
+			</Args>
+		</onAuctionWon>
+
+
+		<!-- 	Callback method from the AuctionHouse when this Avatar has been
+				outbid by another bidder for the speciified auction.
+		-->
+		<onAuctionOutbid>
+			<Args>
+				<auctionID>	AUCTIONID 	</auctionID>
+				
+				<!-- The lock handle for the gold locked at bid-time. -->
+				<itemLock>	LOCKHANDLE	</itemLock>
+			</Args>
+		</onAuctionOutbid>
+
+		<setAvatarModel>
+			<Exposed/>
+			<!-- The new value for the persistentAvatarModel. This will
+			automatically be decoded and propagated to all clients. -->
+			<Args>
+				<encodedAvatarModel>	PACKED_AVATAR_MODEL	</encodedAvatarModel>
+			</Args>
+		</setAvatarModel>
+
+		<spawnGuardsInSpace>
+			<Exposed/>
+			<Args>
+				<spaceID>			SPACE_ID	</spaceID>
+				<numberOfGuards>	UINT32		</numberOfGuards>
+				<maxGuards>			UINT32		</maxGuards>
+				<spawnDuration>		FLOAT		</spawnDuration>
+				<timeToLive>		FLOAT		</timeToLive>
+			</Args>
+		</spawnGuardsInSpace>
+
+		<removeGuardsFromSpace>
+			<Exposed/>
+			<Args>
+				<spaceID>			SPACE_ID	</spaceID>
+				<numberOfGuards>	UINT32		</numberOfGuards>
+			</Args>
+		</removeGuardsFromSpace>
+
+ 		<summonEntity>
+ 			<Args>
+				<typeName>		STRING		</typeName>
+				<position>		VECTOR3		</position>
+				<direction>		VECTOR3		</direction>
+				<spaceID>   	SPACE_ID	</spaceID>
+				<properties>	SUMMON_INFO	</properties>
+			</Args>
+		</summonEntity>
+
+
+		<!-- XMPP Interface -->
+		<xmppTransportAccountRegister>
+			<Exposed/>
+			<Args>
+				<transport>	XMPP_TRANSPORT	</transport>
+				<username>	STRING			</username>
+				<password>	STRING			</password>
+			</Args>
+		</xmppTransportAccountRegister>
+
+		<xmppTransportAccountDeregister>
+			<Exposed/>
+			<Args>
+				<transport>	XMPP_TRANSPORT	</transport>
+			</Args>
+		</xmppTransportAccountDeregister>
+
+		<!-- Request that images of the named geometry be streamed -->
+		<!-- The server will reply with 0 or more mapStreamResponse messages -->
+		<mapStreamRequest>
+			<Exposed/>
+			<Args>
+				<geometryName>	STRING	</geometryName>
+				<depth>		UINT8	</depth>
+			</Args>
+		</mapStreamRequest>
+
+		<testThrottlingBase>
+			<Exposed/>
+		</testThrottlingBase>
+
+	</BaseMethods>
+
+	<CellMethods>
+		<enterMode>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<mode>			INT8					</mode>
+				<modeTarget>	OBJECT_ID				</modeTarget>
+				<modeIntParam>	INT32					</modeIntParam>
+			</Args>
+		</enterMode>
+
+		<answerMode>
+			<Exposed> ALL_CLIENTS </Exposed>
+			<Args>
+				<mode>			INT8			</mode>
+				<sourceID>		OBJECT_ID		</sourceID>	<!-- respondent -->
+				<responseParam>	INT32			</responseParam>
+			</Args>
+		</answerMode>
+
+		<cancelMode>
+			<Exposed> ALL_CLIENTS </Exposed>
+		</cancelMode>
+
+		<enterCombat>
+			<Exposed> OWN_CLIENT </Exposed>
+		</enterCombat>
+
+		<leaveCombat>
+			<Exposed> OWN_CLIENT </Exposed>
+		</leaveCombat>
+		
+		<setCustomColour>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<colourIndex>	INT8				</colourIndex>
+			</Args>
+		</setCustomColour>
+
+		<didGesture>
+			<Exposed> ALL_CLIENTS </Exposed>
+			<Args>
+				<gestureNumber>	UINT8					</gestureNumber>
+			</Args>
+		</didGesture>
+
+		<setRightHand>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<itemType>	ITEMTYPE				</itemType>
+			</Args>
+		</setRightHand>
+
+		<setShoulder>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<itemType>	ITEMTYPE				</itemType>
+			</Args>
+		</setShoulder>
+
+		<setRightHip>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<itemType>	ITEMTYPE				</itemType>
+			</Args>
+		</setRightHip>
+
+		<setLeftHip>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<itemType>	ITEMTYPE				</itemType>
+			</Args>
+		</setLeftHip>
+
+		<fireWeapon> 
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<who>	OBJECT_ID					</who>
+				<!-- TODO: Need to implement float types properly -->
+				<accuracy>	FLOAT					</accuracy>
+			</Args>
+		</fireWeapon>
+		
+		<castSpell>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<targetID>			OBJECT_ID		</targetID>
+				<hitLocation>		VECTOR3			</hitLocation>
+				<materialKind>		UINT8			</materialKind>
+				<timeToHit>			FLOAT			</timeToHit>
+				<explodeRadius>		FLOAT			</explodeRadius>
+			</Args>
+		</castSpell>
+
+		<rangedHit>
+			<Args>
+				<shooterID>	OBJECT_ID			</shooterID>
+				<!-- TODO: Need to implement float types properly -->
+				<damage>	FLOAT				</damage>	<!-- accuracy -->
+			</Args>
+		</rangedHit>
+
+
+
+		<gotFrag>
+			<Args>
+				<victimID>	OBJECT_ID			</victimID>
+			</Args>
+		</gotFrag>
+
+		<eat>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<itemType>	ITEMTYPE				</itemType>
+			</Args>
+		</eat>
+
+
+		<reincarnate>
+			<Exposed> OWN_CLIENT </Exposed>
+		</reincarnate>
+
+		<assail>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<targetID>	OBJECT_ID				</targetID>
+			</Args>
+		</assail>
+
+		<closeCombatNotify>
+			<Args>
+				<assailant>	OBJECT_ID				</assailant>
+			</Args>
+		</closeCombatNotify>
+
+		<setStance>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<stance>	INT8						</stance>
+			</Args>
+		</setStance>
+
+		<closeHit>
+			<Args>
+				<damage>	INT32					</damage>
+				<whoid>		OBJECT_ID				</whoid>
+			</Args>
+		</closeHit>
+
+		<reduceDefence>
+			<Args>
+				<amount>	INT8						</amount>
+			</Args>
+		</reduceDefence>
+
+		<chat>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<msg>	UNICODE_STRING					</msg>
+			</Args>
+		</chat>
+
+		<!-- Called by a player when they change their name. -->
+		<setPlayerName>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<name> STRING </name>
+			</Args>
+		</setPlayerName>
+
+		<syncServTime>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<spaceID>				SPACE_ID			</spaceID>
+				<timeOfDayInSeconds>	FLOAT				</timeOfDayInSeconds>
+				<gameSecondsPerSecond>	FLOAT				</gameSecondsPerSecond>
+			</Args>
+		</syncServTime>
+
+		<resyncServTime>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<spaceID>	SPACE_ID			</spaceID>
+			</Args>
+		</resyncServTime>
+
+		<syncServWeather>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<spaceID>	SPACE_ID			</spaceID>
+				<weather>	STRING				</weather>
+			</Args>
+		</syncServWeather>
+
+
+		<sayToMe>
+			<Args>
+				<who>	OBJECT_ID		</who>	<!-- ID of the entity talking to me-->
+				<msg>	UNICODE_STRING	</msg>
+			</Args>
+		</sayToMe>
+
+		<requestBoardVehicle>
+			<Args>
+				<sourceVehicleID>		OBJECT_ID		</sourceVehicleID>
+			</Args>
+		</requestBoardVehicle>
+
+		<requestAlightVehicle>
+			<Args>
+				<sourceVehicleID>		OBJECT_ID		</sourceVehicleID>
+			</Args>
+		</requestAlightVehicle>
+
+		<getInfoForAdmirer>
+			<Args>
+				<baseInfo>			UNICODE_STRING	</baseInfo>
+				<admirerBase>		MAILBOX			</admirerBase>
+			</Args>
+		</getInfoForAdmirer>
+
+	<!-- ITEM TRADING (CELL) -->
+		<tradeStartRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<partnerID>		OBJECT_ID	</partnerID>
+			</Args>
+		</tradeStartRequest>
+
+		<tradeCancelRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+		</tradeCancelRequest>
+
+		<tradeCancel>
+		</tradeCancel>
+
+		<tradeOfferItemRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<lockHandle>		LOCKHANDLE	</lockHandle>
+				<itemSerial>		ITEMSERIAL	</itemSerial>
+			</Args>
+		</tradeOfferItemRequest>
+
+		<tradeOfferItem>
+			<Args>
+				<itemType>		ITEMTYPE		</itemType>
+			</Args>
+		</tradeOfferItem>
+
+		<tradeAcceptRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<accepted>		BOOL		</accepted>
+			</Args>
+		</tradeAcceptRequest>
+
+		<tradeAcceptNotify>
+			<Args>
+				<accepted>		BOOL		</accepted>
+			</Args>
+		</tradeAcceptNotify>
+
+		<tradeCommitPassive>
+			<Args>
+				<activeBase>		MAILBOX		</activeBase>	<!-- base mailbox of partner -->
+			</Args>
+		</tradeCommitPassive>
+
+		<tradeCommitNotify>
+			<Args>
+				<success>			BOOL						</success>
+				<outItemsLock>		LOCKHANDLE					</outItemsLock>
+				<outItemsSerials>	ARRAY <of> ITEMSERIAL </of>	</outItemsSerials>
+				<outGoldPieces>		GOLDPIECES					</outGoldPieces>
+				<inItemsTypes>		ARRAY <of> ITEMTYPE </of>	</inItemsTypes>
+				<inItemsSerials>	ARRAY <of> ITEMSERIAL </of>	</inItemsSerials>
+				<inGoldPieces>		GOLDPIECES					</inGoldPieces>
+			</Args>
+		</tradeCommitNotify>
+
+	<!-- ITEM LOCKING (CELL) -->
+
+		<itemsLockNotify>
+			<Args>
+				<success>			BOOL						</success>
+				<lockHandle>		LOCKHANDLE					</lockHandle>
+				<itemsSerials>		ARRAY <of> ITEMSERIAL </of>	</itemsSerials>
+				<itemsTypes>		ARRAY <of> ITEMTYPE </of>	</itemsTypes>
+				<goldPieces>		GOLDPIECES					</goldPieces>
+			</Args>
+		</itemsLockNotify>
+
+		<itemsUnlockRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<lockHandle>		LOCKHANDLE		</lockHandle>
+			</Args>
+		</itemsUnlockRequest>
+
+		<itemsUnlockNotify>
+			<Args>
+				<success>		BOOL			</success>
+				<lockHandle>	LOCKHANDLE		</lockHandle>
+			</Args>
+		</itemsUnlockNotify>
+
+	<!-- ITEM COMMERCE (CELL) -->
+
+		<commerceStartRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<merchantID>		OBJECT_ID	</merchantID>
+			</Args>
+		</commerceStartRequest>
+
+		<commerceStartResponse>
+			<Args>
+				<success>			BOOL		</success>
+				<merchantID>		OBJECT_ID	</merchantID>
+			</Args>
+		</commerceStartResponse>
+
+		<commerceCancelRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+		</commerceCancelRequest>
+
+		<finaliseCommerceCancel>
+			<Exposed> OWN_CLIENT </Exposed>
+		</finaliseCommerceCancel>
+
+		<commerceBuyRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<lockHandle>	LOCKHANDLE	</lockHandle>
+				<itemIndex>		ITEMIDX		</itemIndex>
+			</Args>
+		</commerceBuyRequest>
+
+		<commerceSellRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<lockHandle>		LOCKHANDLE	</lockHandle>
+				<itemIndex>			ITEMSERIAL	</itemIndex>
+			</Args>
+		</commerceSellRequest>
+
+	<!-- ITEM PICK-UP AND DROP (CELL) -->
+
+		<pickUpRequest>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<droppedItemID>		OBJECT_ID	</droppedItemID>
+			</Args>
+		</pickUpRequest>
+
+		<pickUpResponse>
+			<Args>
+				<success>			BOOL		</success>
+				<droppedItemID>		OBJECT_ID	</droppedItemID>
+				<itemType>			ITEMTYPE 	</itemType>
+				<itemSerial>		ITEMSERIAL	</itemSerial>
+			</Args>
+		</pickUpResponse>
+
+		<dropNotify>
+			<Args>
+				<itemSerial>	ITEMSERIAL	</itemSerial>
+				<itemType>		ITEMTYPE 	</itemType>
+			</Args>
+		</dropNotify>
+
+	<!-- LOAD GENERATION FOR STRESS TESTING -->
+
+		<summonEntity>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<typeName>		STRING		</typeName>
+				<properties>	SUMMON_INFO		</properties>
+			</Args>
+		</summonEntity>
+
+		<!-- 	A method from the base requesting information about the player.
+				See BaseMethod/onPlayerInfo.
+		-->
+		<getPlayerInfo>
+			<ReturnValues>
+				<playerName> 	UNICODE_STRING	</playerName>
+
+				<!-- 	The player's position, as a list of floats (x, y, z) -->
+				<position>	ARRAY <of> FLOAT </of>	</position>
+
+				<!-- 	The player's direction, as a list of floats
+						(roll, pitch, yaw).  -->
+				<direction>	ARRAY<of>FLOAT</of>	</direction>
+
+				<health>	INT32	</health>
+				<maxHealth>	INT32	</maxHealth>
+
+				<!-- 	The player's kill count.  -->
+				<frags>	INT32	</frags>
+			</ReturnValues>
+		</getPlayerInfo>
+
+		<takeDamage>
+			<Args>
+				<damage>	INT32	</damage>
+			</Args>
+			<ReturnValues>
+				<health>	INT32	</health>
+				<maxHealth>	INT32	</maxHealth>
+			</ReturnValues>
+		</takeDamage>
+
+		<enableCellBoundsCapture>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<enabled>		BOOL	</enabled>
+			</Args>
+		</enableCellBoundsCapture>
+
+		<enableEntityInfoCapture>
+			<Exposed> OWN_CLIENT </Exposed>
+			<Args>
+				<enabled>		BOOL	</enabled>
+			</Args>
+		</enableEntityInfoCapture>
+
+		<setAvatarModel>
+			<!-- The new value for the avatarModel for propagation to all
+			clients. -->
+			<Args>
+				<avatarModel>	PACKED_AVATAR_MODEL	</avatarModel>
+			</Args>
+		</setAvatarModel>
+
+		<testThrottlingOwnClient>
+			<Exposed> OWN_CLIENT </Exposed>
+		</testThrottlingOwnClient>
+
+		<testThrottlingAllClients>
+			<Exposed> ALL_CLIENTS </Exposed>
+		</testThrottlingAllClients>
+
+	</CellMethods>
+</root>

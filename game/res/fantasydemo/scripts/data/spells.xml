@@ -1,0 +1,62 @@
+<!--	This is the list of spells launchable by items in game	-->
+<root>
+	<Fireball>
+	
+		<range>			50.0		</range>
+		<damage>		25.0		</damage>
+		<explodeRadius>	10.0		</explodeRadius>
+		
+		<Idle>		sfx/staff_idle.xml			</Idle>
+	
+		<Prepare>
+			<playerAction>		BeginFire
+				<continues>		True		</continues>
+			</playerAction>
+			<itemAction>		BeginFire
+				<continues>		True		</continues>
+			</itemAction>
+			<itemFX>			sfx/staff_spell.xml			</itemFX>
+		</Prepare>
+		
+		<Fire>			
+			<playerAction>		ExecuteFire			</playerAction>			
+			<itemAction>		ExecuteFire			</itemAction>
+		</Fire>		
+		
+		<Projectile>	sfx/staff_fireball.xml
+			<baseExplosion>		sfx/staff_explosion.xml		</baseExplosion>			
+			<personExplosion>	sfx/person_explosion.xml	</personExplosion>
+			<airExplosion>		sfx/air_explosion.xml		</airExplosion>
+			<groundExplosion>	sfx/ground_explosion.xml	</groundExplosion>
+		</Projectile>
+		
+	</Fireball>
+	
+	<Lightning>
+
+		<range>		50.0		</range>
+		<damage>	25.0		</damage>
+		
+		<Idle>		sfx/staff_lightning_idle.xml			</Idle>
+
+		<Prepare>
+		<!--
+			<playerAction>		BeginLightning
+				<continues>		True		</continues>
+			</playerAction>			
+			<itemSFX>			sfx/staff_lightning_spell.xml		</itemSFX>-->
+		</Prepare>
+		
+		<Fire>			
+			<playerAction>		ExecuteLightning		</playerAction>				
+		</Fire>		
+		
+		<InstantHit>	sfx/staff_lightning.xml
+			<baseExplosion>		sfx/staff_explosion.xml		</baseExplosion>			
+			<personExplosion>	sfx/person_explosion.xml	</personExplosion>
+			<airExplosion>		sfx/air_explosion.xml		</airExplosion>
+			<groundExplosion>	sfx/ground_explosion.xml	</groundExplosion>
+		</InstantHit>
+		
+	</Lightning>
+</root>

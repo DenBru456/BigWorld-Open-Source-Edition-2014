@@ -1,0 +1,400 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch>	20	</pitch>
+	</Volatile>
+
+
+	<Implements>
+		<Interface> Avatar </Interface>
+	</Implements>
+	
+
+	<HasDBNameKey> false </HasDBNameKey>
+
+	<Properties>
+
+		<!-- Any entity type that wish to be respawn should
+			have following property and have its value set to
+			non-zero -->
+
+		<health> <!-- Overrides 'health' defined in interfaces/Avatar.def -->
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		40					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</health>
+
+		<maxHealth> <!-- Overrides 'maxHealth' defined in interfaces/Avatar.def -->
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		40					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</maxHealth>
+
+
+		<respawnInterval>
+			<Type>			UINT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default> <!-- respawn time in minutes -->
+		</respawnInterval>
+
+		<hateList>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</hateList>
+
+		<visibleList>
+			<Type>			ARRAY <of>OBJECT_ID</of>	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</visibleList>
+
+		<visionController>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</visionController>
+
+		<visionChangesInProgress>
+			<Type>			BOOL 				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</visionChangesInProgress>
+
+		<patrolling>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</patrolling>
+
+		<waypointOffset>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</waypointOffset>
+
+		<aggro>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</aggro>
+
+		<target>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</target>
+
+		<controllerId>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</controllerId>
+
+		<stopTime>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</stopTime>
+
+		<aim>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</aim>
+
+		<aimTime>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</aimTime>
+
+		<ownerId>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		-1					</Default>
+		</ownerId>
+
+		<!-- Patrol internals -->
+		<nextPatrolNode>
+			<Type>			PATROL_NODE			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</nextPatrolNode>
+
+		<lastPatrolNode>
+			<Type>			PATROL_NODE			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</lastPatrolNode>
+
+		<destination>
+			<Type>			VECTOR3				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</destination>
+
+		<speed>
+			<Type>			FLOAT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</speed>
+		<!-- End Patrol internals -->
+
+		<initialPatrolNode>
+			<Type>			PATROL_NODE			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</initialPatrolNode>
+
+		<stopOffsetX>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</stopOffsetX>
+
+		<stopOffsetZ>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</stopOffsetZ>
+
+		<moving>
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</moving>
+
+		<campCentre>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</campCentre>
+
+		<campPosition>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</campPosition>
+
+		<campRadius>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</campRadius>
+
+		<campItem>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</campItem>
+
+		<initialWait>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+			<Editable>		true				</Editable>
+		</initialWait>
+
+		<scaredTime>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</scaredTime>
+
+		<fleePos>
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</fleePos>
+
+		<timeToLive>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		-1.0				</Default>
+		</timeToLive>
+
+
+		<guardType>
+			<Type>			UINT8				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+			<Editable>		true				</Editable>
+		</guardType>
+
+		<modelScale>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		1.0					</Default>
+		</modelScale>
+
+		<owner>
+			<Type>			MAILBOX				</Type>
+			<Flags>			BASE				</Flags>
+		</owner>
+
+		<lastStuckPosition>
+			<Type>			VECTOR3				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</lastStuckPosition>
+
+		<cachedPosition>
+			<Type>
+				ARRAY <of> VECTOR3 </of>			
+			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</cachedPosition>
+
+		<isStuck>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</isStuck>
+		
+	</Properties>
+
+	<ClientMethods>
+
+		<scanForTargets>
+			<Args>
+				<amplitude>			FLOAT				</amplitude>
+				<period>			FLOAT				</period>
+				<offset>			FLOAT				</offset>
+			</Args>
+		</scanForTargets>
+
+		<trackTarget>
+			<Args>
+				<targetID>			OBJECT_ID			</targetID>
+			</Args>
+		</trackTarget>
+
+		<resetFilter>
+		</resetFilter>
+
+	</ClientMethods>
+
+	<CellMethods>
+		<answerMode>
+			<Exposed/>
+			<Args>
+				<mode>			INT8			</mode>
+				<sourceID>		OBJECT_ID		</sourceID>	<!-- respondent -->
+				<responseParam>	INT32			</responseParam>
+			</Args>
+		</answerMode>
+
+		<cancelMode>
+			<Exposed/>
+		</cancelMode>
+
+		<didGesture>
+			<Exposed/>
+			<Args>
+				<gestureNumber>	UINT8					</gestureNumber>
+			</Args>
+		</didGesture>
+
+		<setRightHand>
+			<Exposed/>
+			<Args>
+				<itemType>	ITEMTYPE				</itemType>
+			</Args>
+		</setRightHand>
+
+		<fireWeapon> 
+			<Exposed/>
+			<Args>
+				<who>	OBJECT_ID					</who>
+				<!-- TODO: Need to implement float types properly -->
+				<accuracy>	FLOAT					</accuracy>
+			</Args>
+		</fireWeapon>
+		
+		<castSpell>
+			<Args>
+				<targetID>			OBJECT_ID		</targetID>
+				<hitLocation>		VECTOR3			</hitLocation>
+				<materialKind>		UINT8			</materialKind>
+				<timeToHit>			FLOAT			</timeToHit>
+				<explodeRadius>		FLOAT			</explodeRadius>
+			</Args>
+		</castSpell>
+
+		<rangedHit>
+			<Args>
+				<shooterID>	OBJECT_ID			</shooterID>
+				<!-- TODO: Need to implement float types properly -->
+				<damage>	FLOAT				</damage>	<!-- accuracy -->
+			</Args>
+		</rangedHit>
+
+		<gotFrag>
+			<Args>
+				<victimID>	OBJECT_ID			</victimID>
+			</Args>
+		</gotFrag>
+
+		<eat>
+			<Exposed/>
+			<Args>
+				<itemType>	ITEMTYPE				</itemType>
+			</Args>
+		</eat>
+
+		<reincarnate>
+			<Exposed/>
+		</reincarnate>
+
+		<assail>
+			<Args>
+				<targetID>	OBJECT_ID				</targetID>
+			</Args>
+		</assail>
+
+		<closeCombatNotify>
+			<Args>
+				<assailant>	OBJECT_ID				</assailant>
+			</Args>
+		</closeCombatNotify>
+
+		<closeHit>
+			<Args>
+				<damage>	INT32					</damage>
+				<whoid>		OBJECT_ID				</whoid>
+			</Args>
+		</closeHit>
+
+		<reduceDefence>
+			<Args>
+				<amount>	INT8						</amount>
+			</Args>
+		</reduceDefence>
+
+		<chat>
+			<Exposed/>
+			<Args>
+				<msg>	UNICODE_STRING					</msg>
+			</Args>
+		</chat>
+
+
+		<startFollow>
+			<Exposed/>
+		</startFollow>
+
+		<stopFollow>
+			<Exposed/>
+		</stopFollow>
+
+		<hate>
+			<Args>
+				<target>	OBJECT_ID	</target>
+				<amount>	FLOAT		</amount>
+			</Args>
+		</hate>
+
+	</CellMethods>
+
+	<BaseMethods>
+
+		<destroyGuard>
+		</destroyGuard>
+
+	</BaseMethods>
+</root>
+

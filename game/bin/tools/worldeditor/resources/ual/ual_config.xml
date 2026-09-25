@@ -1,0 +1,654 @@
+<ual_config.xml>
+<!--
+Asset Browser configuration file
+
+In this file, all paths are relative to the BigWorld search paths
+as defined in the BW_RES_PATH environment variable or the paths.xml
+file.
+-->
+
+	<!-- Main Configuration Section:
+	Contains global dialog configuration parameters. -->
+	<Config>
+		<preferredWidth>	290	</preferredWidth>
+		<!-- Preferred width of the Asset Browser's dialog. -->
+
+		<preferredHeight>	380	</preferredHeight>
+		<!-- Preferred height of the Asset Browser's dialog. -->
+
+		<shortCaption>	UAL/UAL_DIALOG/SHORT_CAPTION	</shortCaption>
+		<!-- Default short caption text that is displayed on a tab when the
+		Asset Browser is a tab inside a panel. The actual caption texts for
+		each panel are stored in the tear-off tabs layout file, and is editable
+		via right-click in the application. This field is the default used when
+		the panels are loaded with default values, as opposed as loading a saved
+		tear-off tabs panel layout. -->
+
+		<longCaption>	UAL/UAL_DIALOG/LONG_CAPTION	</longCaption>
+		<!-- Default long caption text that is displayed on the title bar when
+		the Asset Browser is docked as a tab into a panel. The actual caption
+		texts are stored in the tear-off tabs layout file, and is editable via
+		right-click in the application. This field is the default used when
+		the panels are loaded with default values, as opposed as loading a saved
+		tear-off tabs panel layout. -->
+		
+		<layoutVertical>	true	</layoutVertical>
+		<!-- Default tree view and list view layout orientation. A value of true 
+		means that the tree view is located on top of the list view, while
+		false means that the list view will be to the right of the tree view.
+		The value of this field is stored in the tear-off tabs layout file, and
+		is modified via the layout button of the Asset Browser's toolbar. -->
+
+		<filtersVisible>	false	</filtersVisible>
+		<!-- Default visibility for the filters. The value of this field is
+		stored in the tear-off tabs layout file, and is modified via the
+		magnifying glass icon next to the search box. -->
+		
+		<sortVFolders>	false	</sortVFolders>
+		<!-- Enable/Disable Virtual Folder alphabetical sorting. Its default
+		value is false, which means no sorting will be done, and the actual
+		order of the virtual folders is set by the order virtual folders appear
+		in this file, and the order the user sets via drag & drop of virtual
+		folders. -->
+		
+		<sortSubFolders>	true	</sortSubFolders>
+		<!-- Enable/Disable Virtual Folder alphabetical sorting. Its default
+		value is false, which means no sorting will be done, and the actual
+		order of the virtual folders is set by the order virtual folders appear
+		in this file, and the order the user sets via drag & drop of virtual
+		folders. -->
+		
+		<maxCacheItems>	1000	</maxCacheItems>
+		<!-- Sets the maximum number of item images to be cached in memory for
+		faster access. A value too small might compromise browsing performance,
+		while big values might greatly increment memory usage. To get an
+		estimate of the memory required in KB for the item cache, multiply this
+		value by 16. -->
+		
+		<initialTreeSize>	195	</initialTreeSize>
+		<!-- Default initial size for the tree view pane. The value of this
+		field is stored in the tear-off tab layout file, and is modified via the
+		drag and drop of the line that separates the tree view from the list
+		view. -->
+	
+		<pushlikeFilters>	false	</pushlikeFilters>
+		<!-- Sets the visual style of the filters to be push-like buttons when
+		set to true. When set to false, the filters are created as check boxes.
+		-->
+		
+		<iconSpacingX>	86	</iconSpacingX>
+		<!-- Horizontal icon spacing in pixels when in "Big Icons" view mode.-->
+		
+		<iconSpacingY>	100	</iconSpacingY>
+		<!-- Vertical icon spacing in pixels when in "Big Icons" view mode. -->
+		
+		<threadPriority> 1 </threadPriority>
+		<threadYieldMsec> 125 </threadYieldMsec>
+		<!-- Asset Browser performance fine-tunning tags. These tags work
+		together to balance the speed of the Asset Browser's loading thread
+		against the app's main thread.
+		'threadPriority' acceptable values are:
+			-1: loading thread priority low (app more responsive)
+			 0: loading thread priority normal (faster Asset Browser, app still
+				responsive)
+			 1: loading thread priority high (fastest speed, app not very
+				responsive)
+		When using thread priority 1, the loading thread might get too much
+		priority, making the application too unresponsive. To make the app more
+		responsive while keeping the Asset Browser fast, use priority 1 and set
+		the threadYieldMsec to somewhere between 20 to 250 (making the loading
+		thread yield time to the main thread every threadYieldMsec milliseconds)
+		'threadYieldMsec' should be a positive number. The higher it is, the
+		faster the Asset Browser finds files and the less responsive the app
+		will be. -->
+		
+	</Config>
+	
+	<!-- Embedded Toolbar Section:
+	Contains the toolbar buttons description, according to the GUI Manager
+	toolbar XML specification, which is also used in the tools menus and
+	toolbars. -->
+	<Toolbar>
+		<item>
+			<name>	UalToolbar	</name>
+			<type>	GROUP	</type>
+			<item>
+				<!-- Asset Browser Refresh button -->
+				<type>	ACTION	</type>
+				<description>	UAL/UAL_DIALOG/FRESH_ITEM_LIST	</description>
+				<action>	UalActionRefresh	</action>
+				<imageNormal>	resources/ual/toolbar.bmp:0,0,16,16	</imageNormal>
+			</item>
+			<item>
+				<!-- Asset Browser layout vertical/horizontal toggle button
+				-->
+				<type>	TOGGLE	</type>
+				<description>	UAL/UAL_DIALOG/TREE_LAYOUT	</description>
+				<imageNormal>	resources/ual/toolbar.bmp:16,0,32,16	</imageNormal>
+				<item>
+					<type>	CHILD	</type>
+					<action>	UalActionLayout	</action>
+					<updater>	UalUpdateLayout	</updater>
+				</item>
+				<item>
+					<type>	CHILD	</type>
+					<action>	UalActionLayout	</action>
+				</item>
+			</item>
+		</item>
+	</Toolbar>
+
+	<!-- Filters Section:
+	This section contains the UAL filters displayed when the magnifying glass
+	icon is clicked. -->
+	<Filters>
+		<!-- See the Models filter below for detailed documentation of the
+		fields of a filter. -->
+		<Filter>	FantasyDemo
+			<group>	Project	</group>
+			<include>	*res/fantasydemo*	</include>
+		</Filter>
+		<Filter>	Bigworld
+			<group>	Project	</group>
+			<include>	*res/bigworld*	</include>
+		</Filter>
+		<Filter>
+			<separator>	true	</separator>
+		</Filter>
+		<Filter>	Shared
+			<group>	Sets	</group>
+			<include>	*res/fantasydemo/sets/shared*	</include>
+		</Filter>
+		<Filter>	Minspec
+			<group>	Sets	</group>
+			<include>	*res/fantasydemo/sets/minspec*	</include>
+			<include>	*res/fantasydemo/sets/shared*	</include>
+		</Filter>
+		<Filter>	Highspec
+			<group>	Sets	</group>
+			<exclude>	*res/fantasydemo/sets/minspec*	</exclude>
+		</Filter>
+		<Filter>	Urban
+			<group>	Sets	</group>
+			<include>	*res/fantasydemo/sets/urban*	</include>
+			<include>	*res/fantasydemo/sets/shared*	</include>
+		</Filter>
+		<Filter>
+			<separator>	true	</separator>
+		</Filter>
+		<Filter>	Hide LODs
+			<group>	Child	</group>
+			<exclude>	*_lod*	</exclude>
+		</Filter>
+		<Filter>
+			<separator>	true	</separator>
+		</Filter>
+		<!-- Documented filter. The name of the section is displayed as the
+		filter's name ( Models in this case ). -->
+		<Filter>	Models
+			<group>	Extension	</group>
+			<!-- Filter group. Groups make different filters work together, so
+			that filters in the same group are tested together using OR logic,
+			and the results of each group are tested against each other using
+			AND logic: an item is displayed if it satisfies one or more checked
+			filters of each group, or if no filters are checked. -->
+			
+			<include>	*.model	</include>
+			<!-- The include field sets which items/files to include when this
+			filter is checked/active. DOS-style wildcards can be used, and if an
+			exclamation sign ! is used as the first character, comparisons will
+			be case-sensitive. -->
+			
+			<exclude>	!*shells*	</exclude>
+			<!-- The exclude field specifies which items/files to exclude when
+			this filter is checked/active. DOS-style wildcards can be used,	and
+			if an exclamation sign ! is used as the first character, comparisons
+			will be case-sensitive. -->
+			
+		</Filter>
+		<Filter>	Shells
+			<group>	Extension	</group>
+			<include>	!*shells*.model	</include>
+		</Filter>
+		<Filter>	Prefabs
+			<group>	Extension	</group>
+			<include>	*.prefab	</include>
+		</Filter>
+		<Filter>	Trees
+			<group>	Extension	</group>
+			<include>	*.spt	</include>
+		</Filter>
+		<Filter>	Entities
+			<group>	Extension	</group>
+			<include>	*/scripts/entity_defs/*.def	</include>
+		</Filter>
+		<Filter>	UserDataObject	
+			<group>	Extension	</group>
+			<include>	*/scripts/user_data_object_defs/*.def	</include>
+		</Filter>
+		<Filter> Brushes
+			<group>	Extension	</group>
+			<include>	*.brush	</include>		
+		</Filter>
+		<Filter>
+			<separator>	true	</separator>
+		</Filter>
+		<Filter>	XML
+			<group>	Extension	</group>
+			<include>	*.xml	</include>
+		</Filter>
+		<Filter>	TGA
+			<group>	Extension	</group>
+			<include>	*.tga	</include>
+		</Filter>
+		<Filter>	DDS
+			<group>	Extension	</group>
+			<include>	*.dds	</include>
+		</Filter>
+		<Filter>	BMP
+			<group>	Extension	</group>
+			<include>	*.bmp	</include>
+		</Filter>
+		<Filter>	PNG
+			<group>	Extension	</group>
+			<include>	*.png	</include>
+		</Filter>
+		<Filter>	JPG
+			<group>	Extension	</group>
+			<include>	*.jpg	</include>
+		</Filter>
+	</Filters>
+	
+	<!-- Virtual Folders Section:
+	This is the most important section of the file. Contains the description of
+	each folder that appears in the Asset Browser's tree view pane. -->	
+	<VFolders>
+		<!-- See the All, Favourites, History, Shells and Entities VFolders
+		below for detailed documentation of the fields of the different kinds of
+		Virtual Folders. -->
+		
+		<!-- All VFolder: This virtual folder is a MultiVFolder, which contains
+		one or more data providers, combining different sources in a single
+		folder. These sources are referred to as the Providers, and use a subset
+		of the tags of their corresponding VFolders. In this case, files and
+		entities are specified. See the VFolders below for more detailed
+		documentation about each type.
+		* NOTE: At the moment, only one 'Files' provider is supported in a
+		MultiVFolder folder.
+		-->
+		<MultiVFolder>	All
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showItems>	true	</showItems>
+			<Providers>
+				<Files> <!--All files-->
+					<path>	./	</path>
+					<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+					<folderExclude>	*/server	</folderExclude>
+					<extension>	model;prefab;spt;brush	</extension>
+					<extension>	xml;bmp;tga;png;dds;jpg;fx;texanim	</extension>
+					<showSubfolders>	true	</showSubfolders>
+					<showFiles>	true	</showFiles>
+				</Files>
+				<Entities> <!--Entities, which are not files-->
+					<thumbnail> icon_entity.bmp </thumbnail>
+					<showSubfolders>	true	</showSubfolders>
+					<showItems>	true	</showItems>
+				</Entities>
+				<UserDataObject> <!--UDOs, which are not files-->
+					<thumbnail> icon_entity.bmp </thumbnail>
+					<showSubfolders>	true	</showSubfolders>
+					<showItems>	true	</showItems>
+				</UserDataObject>
+				<PostProcessingRenderTargets> Post-Processing Render Targets
+					<thumbnail> icon_pp_render_target.bmp </thumbnail>
+					<showItems>	true	</showItems>
+				</PostProcessingRenderTargets>
+				<PostProcessingEffects> Post-Processing Effects
+					<thumbnail> icon_pp_effect.bmp </thumbnail>
+					<showItems>	true	</showItems>
+				</PostProcessingEffects>
+				<PostProcessingPhases> Post-Processing Phases
+					<thumbnail> icon_pp_phase.bmp </thumbnail>
+					<showItems>	true	</showItems>
+				</PostProcessingPhases>
+			</Providers>
+		</MultiVFolder>
+		
+		<!-- Favourites VFolder. It's a dedicated XmlList virtual folder, so
+		this effectively documents the XmlList VFolder type as well. An XmlList
+		VFolder contains the same fields as a Favourites VFolder, for the tag
+		name should be XmlList instead of Favourites.
+		The name of the VFolder is used as the VFolder's name in the tree view
+		(in this case, Favourites). -->
+		<Favourites>	Favourites
+			<path>	resources/ual/favourites.xml	</path>
+			<!-- Path of the XML file that contains the items to be displayed
+			inside this VFolder. The favourites file is generated by the Asset
+			Browser so it shouldn't be modified directly. An XmlList file simply
+			contains a series of <item> tags as follows:
+			"<item>	Item Name
+				<type>	FILE	</type>
+				<longText>	sets/itemIsAModel.model	</longText>
+				<thumbnail>	sets/itemIsAModel.bmp	</thumbnail>
+			</item>"
+			where "Item Name" is the item's name displayed in the tree and list
+			views, "type" is currently ignored in WorldEditor, "longText"
+			is used by the application and is usually a path, and "thumbnail" is
+			optional, and point to the path of a thumbnail. By using this
+			information and looking at a History or Favourites file as an
+			example, it's posible to create an xml list file and define the
+			corresponding XmlList VFolder entry in this file. -->
+			
+			<icon>	resources/ual/fav.ico	</icon>
+			<!-- icon of the VFolder in the tree view -->
+
+			<iconSel>	resources/ual/favsel.ico	</iconSel>
+			<!-- icon of the VFolder when selected in the tree view -->
+			
+			<showItems>	true	</showItems>
+			<!-- Set to true to show the items in the tree view as well. -->
+			
+			<showInList>	true	</showInList>
+			<!-- Set to true to show the items in the list view. -->
+			
+			<multiItemDrag>	false	</multiItemDrag>
+			<!-- Set to true to allow the selection and drag & drop of multiple
+			items at once. -->
+			
+		</Favourites>
+
+		<!-- History VFolder. It's an extension of a XmlList virtual folder, so
+		it has some History-specific fields in addition to the standard XmlList
+		fields. The name of the VFolder is used as the VFolder's name in the
+		tree view (in this case, History). -->
+		<History>	History
+			<path>	resources/ual/history.xml	</path>
+			<!-- Path of the XML file that contains the items to be displayed
+			inside this VFolder. The history file is generated by the Asset
+			Browser so it shouldn't be modified directly. -->
+			
+			<icon>	resources/ual/history.ico	</icon>
+			<!-- icon of the VFolder in the tree view -->
+
+			<iconSel>	resources/ual/historysel.ico	</iconSel>
+			<!-- icon of the VFolder when selected in the tree view -->
+
+			<showItems>	true	</showItems>
+			<!-- Set to true to show the items in the tree view as well. -->
+			
+			<showInList>	true	</showInList>
+			<!-- Set to true to show the items in the list view. -->
+			
+			<multiItemDrag>	false	</multiItemDrag>
+			<!-- Set to true to allow the selection and drag & drop of multiple
+			items at once. -->
+			
+			<maxItems>	20	</maxItems>
+			<!-- History-specific. Maximum number of items to keep in history.
+			When this number of items is reached and a new one needs to be
+			added, the oldest one is deleted to make space for the new one. -->
+			
+			<clearOnLoad>	false	</clearOnLoad>
+			<!-- History-specific. Clears the history list when the application
+			is opened. -->
+			
+		</History>
+		
+		<Files>	Models
+			<path>	./	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<folderExclude>	!*shells	</folderExclude>
+			<extension>	model	</extension>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+
+		<!-- Files VFolder.
+		The name of the VFolder is used as the folder's name in the tree view (
+		in this case, Shells). -->
+		<Files>	Shells
+			<path>	./	</path>
+			<!-- Path(s) to search for when looking for items for this VFolder.
+			Multiple tags or semicolon-separated lists can be used. To search
+			from the root paths, just add a path field containing only ./ -->
+
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG	</disableFilter>
+			<!-- Name of the filters that don't make sense when this VFolder is
+			selected. Since this VFolder already filters by extension, filters
+			from the group Extensions should be disabled. -->
+
+			<thumbnailSize>	2	</thumbnailSize>
+			<!-- Sets the style of the list view. 0 means a list with no icons,
+			1 a list with small (16x16) icons, and 2 big (64x64) icons. -->
+			
+			<folderInclude>	!*/shells*	</folderInclude>
+			<!-- Folders to include when looking for items for this VFolder.
+			Multiple tags or semicolon-separated lists can be used. DOS-style
+			wildcards can be used, and if an exclamation sign ! is used as the
+			first character, comparisons will be case-sensitive. -->
+			
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<!-- Folders to exclude/ignore when looking for items for this
+			VFolder. Multiple tags or semicolon-separated lists can be used.
+			DOS-style wildcards can be used, and if an exclamation sign ! is
+			used as the first character, comparisons will be case-sensitive. -->
+			
+			<extension>	model	</extension>
+			<!-- Desired file name extensions of the files be to include in this
+			VFolder. Multiple tags or semicolon-separated lists can be used. -->
+			
+			<showSubfolders>	true	</showSubfolders>
+			<!-- Set to true to show the subfolder structure in the tree view.
+			-->
+			
+			<showFiles>	true	</showFiles>
+			<!-- Set to true to show the found files in the tree view as well.
+			-->
+			
+			<multiItemDrag>	false	</multiItemDrag>
+			<!-- Set to true to allow the selection and drag & drop of multiple
+			items at once. -->
+			
+			<!-- Additionally, the Files VFolder type also supports the icon and 
+			iconSel tags as documented in the History and Favourites VFolders
+			above. -->
+
+		</Files>
+		
+		<Files> Decals
+			<path>	helpers/decal	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension>	xml	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+
+		<Files>	Trees
+			<path>	./	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;Hide LODs;XML;Brushes;TGA;DDS;BMP;PNG;JPG	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension>	spt	</extension>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		
+		<Files>	Prefabs
+			<path>	./	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension>	prefab	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+
+		<!-- Entities VFolder.
+		Special VFolder that contains entities declared in the entities.xml file.
+		The name of the VFolder is used as the folder's name in the tree view (
+		in this case, Entities). -->
+		<Entities>	Entities
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<thumbnailSize>	1	</thumbnailSize>
+			
+			<thumbnail> icon_entity.bmp </thumbnail>
+			<!-- This is the only Entitites-specific field, which sets the
+			image file to be used in the asset browser for entities. This file
+			must be located next to this config ual_config.xml file. -->
+			
+			<showSubfolders>	true	</showSubfolders>
+			<showItems>	true	</showItems>
+		</Entities>
+		
+		<UserDataObject>	User Data Objects
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<thumbnailSize>	1	</thumbnailSize>
+			<thumbnail> icon_entity.bmp </thumbnail>
+			<!-- This is the only Entitites-specific field, which sets the
+			image file to be used in the asset browser for entities. This file
+			must be located next to this config ual_config.xml file. -->
+			<showSubfolders>	true	</showSubfolders>
+			<showItems>	true	</showItems>
+		</UserDataObject>
+
+		<Files>	Lights
+			<path>	objects/lights	</path>
+			<path>	helpers/lights	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension>	xml	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		
+		<Files>	Particles
+			<path>	particles	</path>
+			<path>	sets/temperate/particles	</path>
+			<path>	sets/desert/particles	</path>
+			<path>	sets/urban/particles	</path>
+			<path>	sets/t_ice/particles	</path>
+			<path>	sets/minspec/particles	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension>	xml	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		
+		<Files>	Textures
+			<internalTag>	TexturesVFolder	</internalTag>
+			<path>	maps/landscape;maps/terrain	</path>
+			<path> sets/t_ice/maps/terrain		</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;Hide LODs	</disableFilter>
+			<folderExclude>	*/wales/res/maps/landscape;*.svn;*CVS;*/spaces;*/.bwthumbs;*thumbnail.bmp	</folderExclude>
+			<extension>	bmp;tga;png;jpg;dds;texanim	</extension>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		
+		<Files>	Brushes
+			<path>	./	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension> brush	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+
+		<Files>	Special Effects
+			<path>	sfx	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension>	xml	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>		
+		
+		<PostProcessingRenderTargets> Post-Processing Render Targets
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<thumbnailSize>	1	</thumbnailSize>
+			<thumbnail> icon_pp_render_target.bmp </thumbnail>
+			<showItems>	true	</showItems>
+		</PostProcessingRenderTargets>
+		
+		<PostProcessingEffects> Post-Processing Effects
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<thumbnailSize>	1	</thumbnailSize>
+			<thumbnail> icon_pp_effect.bmp </thumbnail>
+			<showItems>	true	</showItems>
+		</PostProcessingEffects>
+		
+		<PostProcessingPhases> Post-Processing Phases
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<thumbnailSize>	1	</thumbnailSize>
+			<thumbnail> icon_pp_phase.bmp </thumbnail>
+			<showItems>	true	</showItems>
+		</PostProcessingPhases>
+		
+		<Files>	Post-Processing FX Files
+			<path>	./shaders/post_processing	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<thumbnailSize>	1	</thumbnailSize>
+			<extension>	fx	</extension>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		
+		<Files>	Post-Processing Textures
+			<path>	./system/maps/post_processing	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;Hide LODs	</disableFilter>
+			<extension>	bmp;tga;png;dds;jpg;texanim	</extension>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		
+		<Files>	Misc
+			<path>	helpers/misc	</path>
+			<disableFilter>	Models;Shells;Prefabs;Trees;Entities;UserDataObject;XML;Brushes;TGA;DDS;BMP;PNG;JPG;Hide LODs	</disableFilter>
+			<folderExclude>	*.svn;*CVS;*/spaces;*/.bwthumbs	</folderExclude>
+			<extension>	xml	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+	</VFolders>
+	
+	<!-- Icon Thumbnail Provider Section:
+	This section includes information to match file types with generic thumbnail
+	images. Matching is done using the file extension and an optional DOS-style
+	specification 'match' to filter the full path of the file. Image files must
+	be stored next to this config file. -->	
+	<IconThumbnailProvider>
+		<Thumbnail>
+			<extension> prefab </extension>
+			<image> icon_prefab.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> animation </extension>
+			<image> icon_animation.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> texanim </extension>
+			<image> icon_texanim.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> mvl </extension>
+			<image> icon_mvl.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> mfm </extension>
+			<image> icon_mfm.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> fx </extension>
+			<image> icon_fx.bmp </image>
+		</Thumbnail>
+	</IconThumbnailProvider>
+</ual_config.xml>

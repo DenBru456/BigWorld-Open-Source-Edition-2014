@@ -1,0 +1,73 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	standard_portal	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	0.000000 0.000000 -6.000000	</min>
+		<max>	7.000000 6.000000 0.000000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 -0.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	-0.000000 -2.000000 -0.000000	</point>
+			<point>	4.000000 -2.000000 0.000000	</point>
+			<point>	4.000000 -4.000000 0.000000	</point>
+			<point>	-0.000000 -4.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 -0.000000	</normal>
+		<d>	-5.999999	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.000000 -1.000000	</normal>
+		<d>	0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.000000 1.000000	</normal>
+		<d>	-5.999999	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.970142 0.000000 -0.242536	</normal>
+		<d>	-5.820855	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.970142 -0.242536 0.000000	</normal>
+		<d>	-7.276068	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-6.999999	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+</root>

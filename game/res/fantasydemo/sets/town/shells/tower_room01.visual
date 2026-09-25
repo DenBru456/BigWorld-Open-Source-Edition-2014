@@ -1,0 +1,212 @@
+<tower_room01.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	arch	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/arch.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	stonewall_inside	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.020000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/town/props/stone_wall_spec.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/stone_wall_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/stone_wall.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	floor	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.025000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/town/props/tevern_floor_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/tevern_floor_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/tevern_floor.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	Material #641	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/steps.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	4
+				<material>
+					<identifier>	stone wall	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.020000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/town/props/stone_wall_spec.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/town/props/stone_wall_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/stone_wall.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-3.364073 -0.354286 -3.562794	</min>
+		<max>	3.364073 9.307253 3.312966	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 -1.000000 0.000000	</normal>
+		<d>	-9.000845	</d>
+		<portal>
+			<uAxis>	0.173648 0.000000 0.984808	</uAxis>
+			<point>	-0.584164 3.312965 0.000002	</point>
+			<point>	0.584166 3.312966 0.000002	</point>
+			<point>	1.682037 2.913373 0.000002	</point>
+			<point>	2.577030 2.162385 0.000002	</point>
+			<point>	3.161195 1.150581 0.000002	</point>
+			<point>	3.354055 -0.017846 0.000002	</point>
+			<point>	3.161195 -1.150581 0.000002	</point>
+			<point>	2.577029 -2.162385 0.000002	</point>
+			<point>	1.682036 -2.913373 0.000002	</point>
+			<point>	0.584165 -3.312965 0.000002	</point>
+			<point>	-0.584168 -3.312965 0.000002	</point>
+			<point>	-1.682039 -2.913371 0.000002	</point>
+			<point>	-3.186355 -2.084980 0.000002	</point>
+			<point>	-3.707299 0.869444 0.000002	</point>
+			<point>	-2.577028 2.162385 0.000002	</point>
+			<point>	-1.682035 2.913373 0.000002	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-3.500000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-1.000000 4.499999 -0.000000	</point>
+			<point>	1.000000 4.499999 -0.000000	</point>
+			<point>	1.000000 0.000000 0.000000	</point>
+			<point>	-1.000000 0.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-0.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.010948 -0.000000 -0.999940	</normal>
+		<d>	-3.306371	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.984808 0.000000 0.173648	</normal>
+		<d>	-3.312965	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.342020 0.000000 -0.939693	</normal>
+		<d>	-3.312966	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.866025 0.000000 -0.500000	</normal>
+		<d>	-3.312966	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.642788 -0.000000 -0.766044	</normal>
+		<d>	-3.312965	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.336480 -0.000000 -0.941691	</normal>
+		<d>	-3.309468	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.984808 0.000000 0.173648	</normal>
+		<d>	-3.312966	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.984808 0.000000 -0.173648	</normal>
+		<d>	-3.312966	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.984808 -0.000000 -0.173648	</normal>
+		<d>	-3.312965	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.642788 0.000000 -0.766044	</normal>
+		<d>	-3.312966	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.866026 -0.000000 -0.500000	</normal>
+		<d>	-3.312966	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.778894 0.000000 0.627155	</normal>
+		<d>	-3.363384	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.866025 0.000000 0.500001	</normal>
+		<d>	-3.312966	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.778895 0.000000 0.627155	</normal>
+		<d>	-3.363384	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.866025 0.000000 0.500000	</normal>
+		<d>	-3.312965	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</tower_room01.visual>

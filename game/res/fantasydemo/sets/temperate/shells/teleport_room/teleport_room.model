@@ -1,0 +1,42 @@
+<teleport_room.model>
+	<materialNames>
+		<material>
+			<original>	Material #1	</original>
+			<display>	tunnel_connector	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_02	</original>
+			<display>	floor_path	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_03	</original>
+			<display>	wall	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_01	</original>
+			<display>	bell	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_04	</original>
+			<display>	pillars	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_05	</original>
+			<display>	roof	</display>
+		</material>
+		<material>
+			<original>	fd_s_particle_room_06	</original>
+			<display>	dome	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-8.983492 -0.305108 -19.997698	</min>
+		<max>	8.954466 12.863946 18.309523	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/temperate/shells/teleport_room/teleport_room	</nodelessVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254382500	</modified_on>
+	</metaData>
+</teleport_room.model>

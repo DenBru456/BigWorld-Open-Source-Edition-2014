@@ -1,0 +1,155 @@
+This file outlines the basic assumptions / files and directories required by the
+install_tools.py script.
+
+* $USER
+ Dedicated linux user account for running the tools. This should be created
+prior to running install_tools.py
+
+
+* $GROUP
+ Generally a dedicated group for the user account $USER, however this may be a
+special group with slightly more access privileges for log viewing.  This should
+be created prior to running install_tools.py
+
+
+* $HOME
+
+ Home directory for $USER. Generally /home/$USER, owned by $USER:$GROUP. This
+should be created prior to running install_tools.py
+
+
+* $HOME/bigworld/tools/server
+
+ This directory contains all the binaries and python files required to run the
+server tools from the BigWorld package. You will most probably only require the
+directories  install, message_logger, pycommon, stat_logger, web_console as well
+as the script 'control_cluster.py'.
+
+
+* $HOME/bigworld/src/server/tools/redist
+
+ This directory contains a copy of MySQL-python that will need to be installed
+on the local system to prevent a reconnection failure with long running MySQL
+connections. For more instructions see the Server Tools Installation Guide
+Section 5 - MySQLdb.
+
+
+* Distribution packages.
+
+ There are a few packages required by the distribution. These are outlined in
+the Server Tools Installation Guide in Section 3 - Post-installation Setup,
+Section 6 - Installing TurboGears
+
+
+* bwmachined
+
+ Generally installed with the script
+'bigworld/tools/server/install/bwmachined.sh install'
+
+Copies:
+bigworld/tools/server/install/bwmachined2.sh -> /etc/init.d/bwmachined2
+bigworld/tools/server/install/bwmachined2    -> /usr/local/sbin/bwmachined2
+
+
+* /etc/bigworld.conf
+
+Generated file from the install_tools.py script. See
+bigworld/tools/server/install/bigworld.conf.sample for an example.
+
+
+* pid directory
+
+ This directory is used by Stat Logger and Web Console to store a .pid file in
+so the init.d scripts know if a process is currently active. This can be
+customised if required and should be written to /etc/bigworld.conf as the line
+'piddir'. The default we use is /var/run/bigworld. This directory should be
+writeable by $USER:$GROUP.
+
+ As a side note, the Message Logger process stores its pid file in the active
+message logger log directory. This is done so (if necessary) multiple instances
+of Message Logger can be active on the same machine using different log
+directories and only one Message Logger instance will be able to write to a
+single log directory at a time.
+
+
+
+* init.d scripts
+
+ Copied from bigworld/tools/server/install  to  /etc/init.d
+
+stat_logger.sh    -> /etc/init.d/bw_stat_logger
+message_logger.sh -> /etc/init.d/bw_message_logger
+web_console.sh    -> /etc/init.d/bw_web_console
+bw_functions.sh   -> /etc/init.d/bw_functions
+
+
+* Tools log directory
+
+ A log directory is generally created for the all the server tools to log into.
+Unfortunately this is hard-coded at the moment at the top of the init.d/bw_*
+scripts as the variable LOGDIR. This defaults to /var/log/bigworld/
+
+ $LOGDIR should be owned by the user $USER and group $GROUP.
+
+
+* Message Logger log directory and configuration files
+
+ Message Logger also requires a log directory which can be independent of
+$LOGDIR. To avoid confusion I will refer to this directory as ML_LOGDIR from
+hereon.
+
+ $ML_LOGDIR should be owned by the user $USER and group $GROUP.
+
+ The Message Logger configuration file
+(bigworld/tools/server/message_logger/message_logger.conf) is updated to reflect
+the desired $ML_LOGDIR. The line 'logdir' simply refers to $ML_LOGDIR, and the
+line 'default_archive' gives a path to the file that should be used when
+performing log culling and log rotation.
+
+ The file bigworld/tools/server/message_logger/message_logger.logrotate is
+copied to the system logrotate directory (/etc/logrotate.d) as
+bw_message_logger, and the string '<default_archive>' is replaced with the
+'default_archive' as specified in message_logger.conf. You may wish to tweak the
+log rotation script based on the amount of logs you generate / length of time
+you want to archive for and hard disk capacity available for storage.
+
+ This logrotation script also takes care of rotating the log file from
+message_logger, so if you modify $LOGDIR you will need to make sure this file is
+updated as well.
+
+
+* Stat Logger and Web Console Configuration files
+
+ The database username / password, host and port are required by both Stat
+Logger and WebConsole.
+
+ install_tools.py updates Stat Logger's configuration file located in
+bigworld/tools/server/stat_logger/preferences.xml. See the entries (dbHost,
+dbUser, dbPass, dbPort).
+
+ Configuration for WebConsole is performed by copying the file
+bigworld/tools/server/install/web_console.cfg   to
+bigworld/tools/server/web_console/prod.cfg. During this copy the line
+'###BW_SQLURI###' is replaced with a string describing how to connect to the
+database. From the install_tools.py script, the string looks as follows
+(obviously replacing the db* components with your own settings).
+
+  sqlobject.dburi="notrans_mysql://dbUser:dbPass@dbHost:dbPort/bw_web_console"
+
+ The final part of that string 'bw_web_console' is the database name used by
+WebConsole and is created by install_tools.py if it doesn't exist, so you will
+need to ensure that this is created prior to running WebConsole.
+
+The line '###BW_STAT_LOGGER_CONF###' is replaced with a string describing
+how WebConsole's stat_logger module can locate the StatLogger configuration.
+install_tools.py produces the following value, which is also the default
+value if this string is not present. Relative paths are relative to the
+directory WebConsole is running from.
+
+  stat_logger.preferences = "../stat_logger/preferences.xml"
+
+ There is also a separate log rotation script for StatLogger and WebConsole
+located in bigworld/tools/server/install/bw_server_tools.logrotate which is
+copied to  /etc/logrotate.d/bw_server_tools. Again if you modify $LOGDIR you
+will need to update this script.
+

@@ -1,0 +1,87 @@
+<fx_electricity.xml>
+	<human_electrocution>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	0.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	70.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<CylinderVectorGenerator>
+						<nameID_>	CylinderVectorGenerator	</nameID_>
+						<origin_>	0.000000 -0.008000 -0.005000	</origin_>
+						<direction_>	0.000000 7.290000 0.000000	</direction_>
+						<maxRadius_>	2.261630	</maxRadius_>
+						<minRadius_>	0.000000	</minRadius_>
+						<basisU_>	0.000000 0.000000 1.000000	</basisU_>
+						<basisV_>	1.000000 0.000000 0.000000	</basisV_>
+					</CylinderVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	0.000000 0.000000 0.000000	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	2.000000	</rate_>
+				<sensitivity_>	100000.000000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	0.500000	</sleepPeriod_>
+				<sleepPeriodMax_>	2.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.100000	</minimumSize_>
+				<maximumSize_>	0.100000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 1	</name_>
+				<maximumAge_>	0.500000	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	false	</outsideOnly_>
+			</Sink>
+		</Actions>
+		<Renderer>
+			<AmpParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<textureName_>	maps/fx/fx_arc.bmp	</textureName_>
+				<width_>	0.060000	</width_>
+				<height_>	4.000000	</height_>
+				<steps_>	4	</steps_>
+				<variation_>	0.300000	</variation_>
+				<circular_>	false	</circular_>
+			</AmpParticleRenderer>
+		</Renderer>
+		<capacity>	5	</capacity>
+		<boundingBox>
+			<min>	-2.187042 -0.109184 -1.827331	</min>
+			<max>	2.182036 6.787922 2.092497	</max>
+		</boundingBox>
+	</human_electrocution>
+	<metaData>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1253074681	</modified_on>
+	</metaData>
+</fx_electricity.xml>

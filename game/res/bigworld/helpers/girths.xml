@@ -1,0 +1,23 @@
+<root>
+	<girth>	0.5
+		<!-- Navmesh for this girth is always generated -->
+		<always>	</always>
+		<!-- The width of the agent -->
+		<width>	0.50	</width>
+		<!-- The height of the agent -->
+		<height>	1.95	</height>
+		<!-- The depth of the agent -->
+		<depth>	0.25	</depth>
+		<!-- The max walkable slope in degree, default to 45, used only in recast -->
+		<maxSlope>	45	</maxSlope>
+		<!-- The max climb of agent, used only in recast -->
+		<maxClimb>	0.65	</maxClimb>
+	</girth>
+	<girth>	4.0
+		<width>	4.0	</width>
+		<height>	4.0	</height>
+		<depth>	2.0	</depth>
+		<maxSlope>	45	</maxSlope>
+		<maxClimb>	1.33	</maxClimb>
+	</girth>
+</root>

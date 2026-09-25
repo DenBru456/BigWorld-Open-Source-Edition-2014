@@ -1,0 +1,85 @@
+<root>
+	<!--
+	This document contains a list of all the model resourceIDs that can be used
+	as part of an avatar model. This list exists so that these models can be
+	efficiently indexed for transmission across the network.
+	ALL model files listed MUST EXIST in the resource tree. Errors related to
+	this list will be prefixed with "ASSET ERROR:" when printed to the python
+	log.
+
+	Example:
+	<models>
+		<model>	</model> # Empty model is a special case that should always be included.
+		<model> characters/avatars/ranger/ranger_body.model	</model>
+		<model>	characters/avatars/ranger/ranger_head.model	</model>
+	</models>
+
+	Note that special effects are not currently supported but the
+	section <specialEffects> should be included.
+
+		<specialEffects>
+		</specialEffects>
+	-->
+
+	<models>
+		<model>	</model>
+		<model> characters/avatars/ranger/ranger_body.model	</model>
+		<model>	characters/avatars/ranger/ranger_head.model	</model>
+		<model>	characters/npc/fd_orc_guard/orc.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_belt_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_belt_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_boots_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_boots_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_breastarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_breastarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_chestarmour01_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_chestarmour01_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_chestarmour02_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_forearmarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_forearmarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_gloves_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_gloves_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_leftlegarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_leftlegarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_ribarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_ribarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_rightlegarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_rightlegarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_shoulderarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_shoulderarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_upperarmarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1a_upperarmarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_armarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_armarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_boots_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_boots_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_chestarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_chestarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_earrings_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_pantsarmour_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_pantsarmour_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_pantsclip_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_pantsclip_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_pantsclipdecoration_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_pantsclipdecoration_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_tiara_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_1b_tiara_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_body_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_body_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_hair_long_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_hair_long_03.model </model>
+		<model> characters/avatars/female_warrior/models/fw_hair_short_thick_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_hair_short_thin_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_head_00.model </model>
+		<model> characters/avatars/female_warrior/models/fw_head_03.model </model>
+		<model> sets/minspec/characters/npc/orcguard/model/orcguard.model </model>
+		<model> sets/minspec/characters/avatars/barbarian/models/barbarian_body.model </model>
+		<model> sets/minspec/characters/avatars/barbarian/models/barbarian_head.model </model>
+		<model> sets/minspec/characters/avatars/barbarian/models/barbarian_head_helmet.model </model>
+		<model> sets/minspec/characters/avatars/barbarian/models/shoulder_armour.model </model>
+		<model> sets/minspec/characters/avatars/barbarian/models/helmet.model </model>
+	</models>
+
+	<specialEffects>
+	</specialEffects>
+</root>

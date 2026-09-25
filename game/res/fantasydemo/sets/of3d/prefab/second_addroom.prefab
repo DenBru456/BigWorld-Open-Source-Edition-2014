@@ -1,0 +1,163 @@
+<second_addroom.prefab>
+	<chunks>
+		<chunk0.chunk>
+			<shell>
+				<resource>	sets/of3d/shells/second_add.model	</resource>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<editorOnly>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<reflectionVisible>	true	</reflectionVisible>
+				<lighting>	lighting/second_add-0	</lighting>
+			</shell>
+			<model>
+				<resource>	sets/of3d/plugs/second_addroom_prop.model	</resource>
+				<transform>
+					<row0>	0.999999 0.000000 0.000000	</row0>
+					<row1>	0.000000 0.999999 0.000000	</row1>
+					<row2>	0.000000 0.000000 0.999999	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<editorOnly>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<reflectionVisible>	false	</reflectionVisible>
+				<lighting>	lighting/second_addroom_prop-0	</lighting>
+			</model>
+			<model>
+				<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+				<transform>
+					<row0>	0.999993 0.000000 0.000000	</row0>
+					<row1>	0.000000 0.000698 0.999992	</row1>
+					<row2>	0.000000 -0.999992 0.000698	</row2>
+					<row3>	1.800000 1.600000 0.000000	</row3>
+				</transform>
+				<editorOnly>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<reflectionVisible>	false	</reflectionVisible>
+				<lighting>	lighting/torch_dungeon-2	</lighting>
+			</model>
+			<model>
+				<resource>	sets/dungeon/props/flameplane.model	</resource>
+				<transform>
+					<row0>	0.399998 0.000000 0.000000	</row0>
+					<row1>	0.000000 0.299998 0.000000	</row1>
+					<row2>	0.000000 0.000000 0.399998	</row2>
+					<row3>	1.747503 1.972639 0.252293	</row3>
+				</transform>
+				<editorOnly>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<reflectionVisible>	false	</reflectionVisible>
+				<lighting>	lighting/flameplane-2	</lighting>
+			</model>
+			<model>
+				<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+				<transform>
+					<row0>	-0.999993 0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000698 -0.999992	</row1>
+					<row2>	-0.000000 -0.999992 -0.000698	</row2>
+					<row3>	1.800000 1.600000 4.199999	</row3>
+				</transform>
+				<editorOnly>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<reflectionVisible>	false	</reflectionVisible>
+				<lighting>	lighting/torch_dungeon-0	</lighting>
+			</model>
+			<model>
+				<resource>	sets/dungeon/props/flameplane.model	</resource>
+				<transform>
+					<row0>	0.399998 0.000000 0.000000	</row0>
+					<row1>	0.000000 0.299998 0.000000	</row1>
+					<row2>	0.000000 0.000000 0.399998	</row2>
+					<row3>	1.823383 1.967438 3.918365	</row3>
+				</transform>
+				<editorOnly>
+					<castsShadow>	true	</castsShadow>
+				</editorOnly>
+				<reflectionVisible>	false	</reflectionVisible>
+				<lighting>	lighting/flameplane-0	</lighting>
+			</model>
+			<ambientLight>
+				<colour>	62.000015 57.000015 47.000000	</colour>
+				<multiplier>	1.000000	</multiplier>
+			</ambientLight>
+			<flare>
+				<resource>	environments/fx/corona.xml	</resource>
+				<position>	1.800000 2.139584 0.231564	</position>
+				<colour>	255.000000 128.000000 64.000000	</colour>
+			</flare>
+			<flare>
+				<resource>	environments/fx/corona.xml	</resource>
+				<position>	1.791913 2.128988 3.950314	</position>
+				<colour>	255.000000 128.000000 64.000000	</colour>
+			</flare>
+			<omniLight>
+				<colour>	252.000061 223.000061 137.000000	</colour>
+				<position>	1.587616 1.957985 2.028934	</position>
+				<innerRadius>	1.055859	</innerRadius>
+				<outerRadius>	4.576972	</outerRadius>
+				<dynamic>	false	</dynamic>
+				<static>	true	</static>
+				<specular>	false	</specular>
+				<multiplier>	1.000000	</multiplier>
+			</omniLight>
+			<omniLight>
+				<colour>	169.000000 148.000000 92.000000	</colour>
+				<position>	1.196368 2.000000 1.810099	</position>
+				<innerRadius>	1.267772	</innerRadius>
+				<outerRadius>	2.781008	</outerRadius>
+				<dynamic>	false	</dynamic>
+				<static>	false	</static>
+				<specular>	true	</specular>
+				<multiplier>	3.000000	</multiplier>
+			</omniLight>
+			<omniLight>
+				<colour>	253.000076 234.000076 208.000076	</colour>
+				<position>	1.787579 1.981676 3.981739	</position>
+				<innerRadius>	1.000000	</innerRadius>
+				<outerRadius>	4.392797	</outerRadius>
+				<dynamic>	true	</dynamic>
+				<static>	false	</static>
+				<specular>	false	</specular>
+				<multiplier>	1.000000	</multiplier>
+			</omniLight>
+			<omniLight>
+				<colour>	253.000092 234.000092 208.000092	</colour>
+				<position>	1.815853 1.987382 0.225296	</position>
+				<innerRadius>	1.000000	</innerRadius>
+				<outerRadius>	4.392797	</outerRadius>
+				<dynamic>	true	</dynamic>
+				<static>	false	</static>
+				<specular>	false	</specular>
+				<multiplier>	1.000000	</multiplier>
+			</omniLight>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000001 -0.000003 0.000011	</row3>
+			</transform>
+			<boundingBox>
+				<min>	0.000000 -0.151439 0.000015	</min>
+				<max>	3.499999 26.675045 4.200016	</max>
+			</boundingBox>
+		</chunk0.chunk>
+	</chunks>
+	<items>	</items>
+	<boundingBox>
+		<min>	0.000000 -0.151439 0.000015	</min>
+		<max>	3.499999 26.675045 4.200016	</max>
+	</boundingBox>
+	<snaps>
+		<position>	0.010000 0.010000 0.010000	</position>
+		<angle>	0.100000	</angle>
+	</snaps>
+</second_addroom.prefab>

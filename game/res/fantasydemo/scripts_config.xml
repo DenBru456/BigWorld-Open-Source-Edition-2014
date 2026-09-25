@@ -1,0 +1,94 @@
+<scripts_config.xml>
+<!-- The contents of this files are passed to the personality script 
+as the first argument in the init function (as a data section). It's 
+grammar is solely defined by the personality script. -->
+
+	<pydevd>
+		<ide>eclipse</ide>
+		<host>127.0.0.1</host>
+		<port>5678</port>
+		<autoConnect>
+			<client> False </client>
+		</autoConnect>
+	</pydevd>
+	<!-- PyDev configuration, you can specify "eclipse" or "pycharm" for the IDE
+	The client will attempt to connect to localhost (127.0.0.1) on
+	the default port 5678 -->
+
+	<login>
+	<!-- This login data is used by the scripts to connect to the server. -->
+
+		<host> bwdeploy01.bigworldtech.com:20013 </host>
+		<!-- Hosts listed here will appear in the main 
+		menu under the 'Connect to Demo Server' entry. 
+		More entries can be listed just by adding more
+		<host></host> tags -->
+
+		<!-- The host server to connect the client to. -->
+
+		<defaultUsername> Guest </defaultUsername>
+		<!-- Default name of user logging in (can be changed via GUI). -->
+
+		<inactivityTimeout> 60 </inactivityTimeout>
+		<!-- The amount of time the client should wait for a response from 
+		the server before assuming that the connection has failed. -->
+
+		<transport> udp </transport>
+		<!-- The transport to use to communicate with the server. Valid values
+		are "udp" (default), "tcp" and "websockets". -->
+	</login>
+
+	<offline>
+		<timeOfDay>14:00</timeOfDay>
+		<!-- Used by the personality script to 
+		set time-of-day in offline mode -->
+		
+	</offline>
+		
+	<player>
+		<class>	Avatar	</class>
+		<!-- Used to identify which Python class is to be 
+		the player. This entity must have an associated 
+		Player Implementation Class (eg, playerAvatar). -->
+
+		<startPosition>	0.0	1.25 0.0	</startPosition>
+		<startDirection>	0.0 0.0 0.0		</startDirection>
+		<!-- Used by the personality script to provide a start position and
+		facing dir for players if there is no space specific spawn point. -->
+
+	</player>
+	
+	<physics>
+		<oldStyleCollision> true </oldStyleCollision>
+	</physics>
+
+	<camera>
+		<!-- Used by the to customise camera control. -->
+		
+		<defTargetOffset>			0.0 1.8  0.0	</defTargetOffset>
+		<maxDistanceFromPivot>		3.0				</maxDistanceFromPivot>
+		<indoorDistanceFromPivot>	3.0				</indoorDistanceFromPivot>
+		<faceDistanceFromPivot>		1.8				</faceDistanceFromPivot>
+		<minDistanceFromPivot>		1.0				</minDistanceFromPivot>
+		<minDistanceFromTerrain>	0.4				</minDistanceFromTerrain>
+		<movementHalfLife>			0.75			</movementHalfLife>
+		<turningHalfLife>			0.1				</turningHalfLife>
+		<mouseMoveThreshold>		5				</mouseMoveThreshold>
+	</camera>
+	
+	<dcFirstPersonOverrides>
+		<!-- Different mouse cursors settings applied 
+		when view switches to first-person. -->
+		
+		<mouseSensitivity> 0.010 </mouseSensitivity>
+		<mouseHVBias>      0.667 </mouseHVBias>
+		<maxPitch>        80.0   </maxPitch>
+		<minPitch>       -80.0   </minPitch>
+	</dcFirstPersonOverrides>
+
+	<replay>
+		<!-- Used to specify the server to query for replays. -->
+		<!-- host> 10.175.32.101:14500 </host-->
+	</replay>
+	
+</scripts_config.xml>

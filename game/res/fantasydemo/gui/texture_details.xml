@@ -1,0 +1,9 @@
+<fantasydemo_gui>
+  <rule pattern=".*">
+    <lodMode>0</lodMode>
+    <streamable>false</streamable>
+  </rule>
+  <rule pattern=".*(\.tga)$">
+    <format> DXT5 </format>
+  </rule>
+</fantasydemo_gui>

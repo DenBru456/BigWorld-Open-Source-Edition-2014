@@ -1,0 +1,23 @@
+<dragon_saddle.model>
+	<action>
+		<name>	test_flight	</name>
+		<animation>	test_flight	</animation>
+		<filler>	true	</filler>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.329263 3.338723 -2.724193	</min>
+		<max>	1.381738 6.983632 3.291204	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1280295723	</modified_on>
+	</metaData>
+	<nodefullVisual>	characters/npc/flying_dragon/dragon_saddle	</nodefullVisual>
+	<animation>
+		<name>	test_flight	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/test_flight	</nodes>
+	</animation>
+</dragon_saddle.model>

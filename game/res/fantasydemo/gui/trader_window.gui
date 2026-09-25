@@ -1,0 +1,866 @@
+<root>
+	<WindowGUIComponent>	211257904
+		<position>	0.680664 0.107422 0.500000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	345.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	301.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/window_trader.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.58984375	</coords1>
+			<coords2>	0.67578125 0.58984375	</coords2>
+			<coords3>	0.67578125 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.TraderWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	true	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>
+			<windowLabel>	175642752	</windowLabel>
+			<closeBox>	175850560	</closeBox>
+			<goldLable> 7799 </goldLable>
+			<instructionLabel> 88 </instructionLabel>
+			<slot0001>	1	</slot0001>
+			<slot0002>	2	</slot0002>
+			<slot0003>	3	</slot0003>
+			<slot0004>	4	</slot0004>
+			<slot0005>	5	</slot0005>
+			<slot0006>	6	</slot0006>
+			<slot0007>	7	</slot0007>
+			<slot0008>	8	</slot0008>
+			<slot0009>	9	</slot0009>
+			<slot0010>	10	</slot0010>
+			<slot0011>	11	</slot0011>
+			<slot0012>	12	</slot0012>
+			<slot0013>	13	</slot0013>
+			<slot0014>	14	</slot0014>
+			<slot0015>	15	</slot0015>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	175642752
+		<position>	16.000000 8.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.370313	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.060417	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_21.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<label>	Merchant Store	</label>
+		<font>	Heading.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	175850560
+		<position>	330.000000 10.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	21.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.001953 0.173828	</coords0>
+			<coords1>	0.001953 0.255859	</coords1>
+			<coords2>	0.083984 0.255859	</coords2>
+			<coords3>	0.083984 0.173828	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Cancel Trade	</text>
+					<shortcut>	(ESC)	</shortcut>
+				</items>
+			</toolTipInfo>
+			<visualStates>	&quot;PyGUI.ButtonVisualState&quot;
+				<disabled>
+					<textStyle>	ButtonDisabled	</textStyle>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	0.000000 44.000000	</coords0>
+							<coords1>	0.000000 65.000000	</coords1>
+							<coords2>	21.000000 65.000000	</coords2>
+							<coords3>	21.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<hover>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	0.000000 44.000000	</coords0>
+							<coords1>	0.000000 65.000000	</coords1>
+							<coords2>	21.000000 65.000000	</coords2>
+							<coords3>	21.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	22.000000 44.000000	</coords0>
+							<coords1>	22.000000 65.000000	</coords1>
+							<coords2>	43.000000 65.000000	</coords2>
+							<coords3>	43.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	0.000000 44.000000	</coords0>
+							<coords1>	0.000000 65.000000	</coords1>
+							<coords2>	21.000000 65.000000	</coords2>
+							<coords3>	21.000000 44.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+			</visualStates>
+		</script>
+		<children>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>175492224
+	<TextGUIComponent>	7799
+		<position>	300.000000 265.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.065625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.050000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	false	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>		</label>
+		<font>	Label.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	88
+		<position>	0.000000 265.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.065625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.050000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Drag and drop items to trade them.	</label>
+		<font>	Label.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	1
+		<position>	52.000000 85.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	1	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	2
+		<position>	111.000000 85.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	2	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	3
+		<position>	170.000000 85.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	3	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	4
+		<position>	229.000000 85.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	4	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	5
+		<position>	288.000000 85.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	5	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	6
+		<position>	52.000000 144.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	6	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	7
+		<position>	111.000000 144.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	7	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	8
+		<position>	170.000000 144.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	8	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	9
+		<position>	229.000000 144.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	9	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	10
+		<position>	288.000000 144.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	10	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	11
+		<position>	52.000000 203.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	11	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	12
+		<position>	111.000000 203.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	12	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	13
+		<position>	170.000000 203.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	13	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	14
+		<position>	229.000000 203.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	14	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	15
+		<position>	288.000000 203.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	50.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	50.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	true	</dragFocus>
+		<dropFocus>	true	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.InventorySlot&quot;
+			<InventorySlot>
+				<slotNumber>	15	</slotNumber>
+			</InventorySlot>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+</root>

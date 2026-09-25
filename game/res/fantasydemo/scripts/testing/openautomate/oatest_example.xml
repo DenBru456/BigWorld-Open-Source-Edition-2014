@@ -1,0 +1,36 @@
+<oatest_example.xml>
+<!-- must be the first tag -->
+<currentLocation> 1 </currentLocation>
+<command> CMD_RUN_BENCHMARK
+<benchmark> RunProfilerMinspec </benchmark>
+</command>
+<command>	CMD_SET_OPTIONS
+	<option>	SKY_LIGHT_MAP
+		<optionValue>	ON	</optionValue>
+	</option>
+	<option>	SKY_LIGHT_MAP
+		<optionValue>	OFF	</optionValue>
+	</option>
+	<option>	CLASSIC_TERRAIN_QUALITY
+		<optionValue>	TERRAIN_SHADER_MODEL_2	</optionValue>
+	</option>
+	<option>	FAR_PLANE
+		<optionValue>	Far	</optionValue>
+	</option>
+	<option>	FLORA_DENSITY
+		<optionValue>	High	</optionValue>
+	</option>
+	<option>	WATER_QUALITY
+		<optionValue>	HIGH	</optionValue>
+	</option>
+	<option>	WATER_SIMULATION
+		<optionValue>	LOW	</optionValue>
+	</option>
+	<option>	VideoMode
+		<optionValue>	848x480x32	</optionValue>
+	</option>
+	<option>	WATER_SIMULATION
+		<optionValue>	HIGH	</optionValue>
+	</option>
+</command>
+</oatest_example.xml>

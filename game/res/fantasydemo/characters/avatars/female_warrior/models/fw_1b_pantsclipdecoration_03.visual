@@ -1,0 +1,70 @@
+<fw_1b_pantsclipdecoration_03.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000001	</row2>
+				<row3>	-0.000000 1.039428 -0.024950	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.031719 0.000416 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped R Thigh	</identifier>
+					<transform>
+						<row0>	-0.984360 -0.176035 0.006829	</row0>
+						<row1>	0.162667 -0.893362 0.418861	</row1>
+						<row2>	-0.067633 0.413421 0.908025	</row2>
+						<row3>	0.000000 -0.097549 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	biped R ThighBlendBone1B_PantClipDecoration_03	</identifier>
+						<transform>
+							<row0>	0.176033 0.893361 -0.413423	</row0>
+							<row1>	-0.984361 0.162666 -0.067632	</row1>
+							<row2>	0.006830 0.418863 0.908024	</row2>
+							<row3>	1.006797 -0.232557 0.162112	</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped R ThighBlendBone1B_PantClipDecoration_03	</node>
+		<geometry>
+			<vertices>	1B_PantClipDecoration_03.vertices	</vertices>
+			<primitive>	1B_PantClipDecoration_03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	pants_clip_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	11	</materialKind>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	0.126495 0.815072 -0.145045	</min>
+		<max>	0.216871 1.034210 0.050828	</max>
+	</boundingBox>
+</fw_1b_pantsclipdecoration_03.visual>

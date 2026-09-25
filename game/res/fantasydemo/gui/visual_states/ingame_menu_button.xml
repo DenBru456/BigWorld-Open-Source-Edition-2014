@@ -1,0 +1,58 @@
+<ingame_menu_button.xml> &quot;PyGUI.ButtonVisualState&quot;
+	<hover>
+		<textStyle>	ButtonHover	</textStyle>
+		<icon>
+			<textureName>	gui/maps/button_large.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+   				<coords0 >	1.000000 111.000000	</coords0>
+				<coords1>	1.000000 156.000000</coords1>
+				<coords2>	241.000000 156.000000	</coords2>
+				<coords3>	241.000000 111.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	<pressed>
+		<textStyle>	ButtonPressed	</textStyle>
+		<icon>
+			<textureName>	gui/maps/button_large.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0 >	1.000000 165.000000	</coords0>
+				<coords1>	1.000000 209.000000</coords1>
+				<coords2>	241.000000 209.000000	</coords2>
+				<coords3>	241.000000 165.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<normal>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	gui/maps/button_large.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0 >	1.000000 55.000000	</coords0>
+				<coords1>	1.000000 100.000000</coords1>
+				<coords2>	240.000000 100.000000	</coords2>
+				<coords3>	241.000000 55.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+	<disabled>
+		<textStyle>	ButtonDisabled	</textStyle>
+		<icon>
+			<textureName>	gui/maps/button_large.dds</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0 >	1.000000 55.000000	</coords0>
+				<coords1>	1.000000 100.000000</coords1>
+				<coords2>	240.000000 100.000000	</coords2>
+				<coords3>	241.000000 55.000000	</coords3>
+			</mapping>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+	</disabled>
+</ingame_menu_button.xml>

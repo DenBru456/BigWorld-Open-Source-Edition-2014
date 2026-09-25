@@ -1,0 +1,16 @@
+<root>
+		<realm>
+			<name>				fantasy	</name>
+			<displayName>		Fantasy Realm	</displayName>
+			<spaces>
+				<space>		spaces/highlands	</space>
+				<space>		spaces/arctic		</space>
+			</spaces>
+		</realm>
+
+	<offlineModeIgnoredSpaces>
+		<space>		spaces/menu_space	</space>
+	</offlineModeIgnoredSpaces>
+
+	<gameSecondsPerSecond>	6	</gameSecondsPerSecond>
+</root>

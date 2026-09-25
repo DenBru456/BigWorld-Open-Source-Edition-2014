@@ -1,0 +1,30 @@
+<root>&quot;PyGUI.ButtonVisualState&quot;
+	<normal>
+		<textStyle>	MainMenuButtonNormal	</textStyle>
+		<icon>
+			<textureName>	gui/maps/arrow_down.tga	</textureName>
+			<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+	<hover>
+		<textStyle>	MainMenuButtonHover	</textStyle>
+		<icon>
+			<textureName>	gui/maps/arrow_down.tga	</textureName>
+			<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	<pressed>
+		<textStyle>	MainMenuButtonPressed	</textStyle>
+		<icon>
+			<textureName>	gui/maps/arrow_down_pressed.tga	</textureName>
+			<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<disabled>
+		<textStyle>	MainMenuButtonDisabled	</textStyle>
+		<icon>
+			<textureName>	gui/maps/arrow_down.tga	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+	</disabled>
+</root>

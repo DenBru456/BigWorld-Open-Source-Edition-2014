@@ -1,0 +1,55 @@
+<close_box.xml> &quot;PyGUI.ButtonVisualState&quot;
+	<disabled>
+		<textStyle>	ButtonDisabled	</textStyle>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	64.000000 133.000000	</coords0>
+				<coords1>	64.000000 154.000000	</coords1>
+				<coords2>	85.000000 154.000000	</coords2>
+				<coords3>	85.000000 133.000000	</coords3>
+			</mapping>
+			<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+		</icon>
+	</disabled>
+	<hover>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 133.000000	</coords0>
+				<coords1>	0.000000 154.000000	</coords1>
+				<coords2>	21.000000 154.000000	</coords2>
+				<coords3>	21.000000 133.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>close
+	</hover>
+	<pressed>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	22.000000 133.000000	</coords0>
+				<coords1>	22.000000 154.000000	</coords1>
+				<coords2>	43.000000 154.000000	</coords2>
+				<coords3>	43.000000 133.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<normal>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 133.000000	</coords0>
+				<coords1>	0.000000 154.000000	</coords1>
+				<coords2>	21.000000 154.000000	</coords2>
+				<coords3>	21.000000 133.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+</close_box.xml>

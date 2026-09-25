@@ -1,0 +1,124 @@
+<html>
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body background="we.bmp" style="background-repeat:no-repeat; background-position-x:right; background-position-y:bottom;">
+    <h2>Debug (Watchers) Console <span style="font-size:70%;">(activated by  <code>Ctrl</code>+<code>F7</code> )</span></h2>
+
+    <table border=0 cellspacing=0 cellpadding=0>
+          <td align=left valign=top>
+          <p style="margin-left:2pt;"><b>When Selecting:</b></p>
+          <table class="normal" cellspacing=0 >
+          <tbody>
+          <tr><th class="FirstCol">Key   </th>
+              <th>                 Action</th></tr>
+
+          <tr><td class="oddRow1stCol"> <code>Esc</code>                       </td>
+              <td class="oddRow">             Exits the console.               </td></tr>
+
+          <tr><td class="evnRow1stCol"> <code>Backspace                        </td>
+              <td class="evnRow">             Returns to the tree's previous 
+                                              level.                           </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Enter                             </td>
+              <td class="oddRow">            <b>If the selected node is not a leaf:</b>
+                                             <p class="lvl2">
+                                             Navigates one level down in the watcher tree.</p>
+                                             <p>
+                                             <b>If the selected node is a leaf:</b>
+                                             <p class="lvl2">
+                                             Opens the selected watcher for 
+                                             editing.                          </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Home                              </td>
+              <td class="evnRow">            Returns the list to the root of
+                                             the watcher tree.                 </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Page Down</code>                  </td>
+              <td class="oddRow">            Moves the selection to the next 
+                                             item in the list.                 </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Page Up</code>                  </td>
+              <td class="evnRow">            Moves the selection to the previous 
+                                             item in the list.                 </td></tr>
+
+          <tr><td class="oddRow1stCol">      Numpad +<br>(Plus sign)           </td>
+              <td class="oddRow">            Scrolls the watcher list down.    </td></tr>
+
+          <tr><td class="evnRow1stCol">      Numpad -<br>(Minus sign)          </td>
+              <td class="evnRow">            Scrolls the watcher list up.      </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>0-9</code>                        </td>
+              <td class="oddRow">            Selects item 0-9.                 </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Alt+(0-9)</code>                  </td>
+              <td class="evnRow">            Selects item 40-49.               </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Alt+Shift+(0-9)</code>            </td>
+              <td class="oddRow">            Selects item 50-59.              </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Ctrl+(0-9)</code>                 </td>
+              <td class="evnRow">            Selects item 20-29.               </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Ctrl+Shift+(0-9)</code>           </td>
+              <td class="oddRow">            Selects item 30-39.               </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Shift+(0-9)</code>                </td>
+              <td class="evnRow">            Selects item 10-19.               </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Shift+Enter</code>                </td>
+              <td class="oddRow">            Displays modification history.    </td></tr>
+
+           </tbody>
+          </table>
+          </td>
+
+          <td width=10></td>
+
+          <td align=left valign=top>
+          <p style="margin-left:2pt;"><b>When Editing:</b></p>
+          <table class="normal" cellspacing=0>
+          <tbody>
+          <tr><th class="FirstCol">Key</th>
+              <th>                 Action<br>
+                                   <span style="font-weight:normal; font-size:80%">
+                                   (Changes watcher value by:)</span></th></tr>
+
+          <tr><td class="oddRow1stCol"><code>Esc</code>            </td>
+              <td class="oddRow">            Exits the Edit mode.  </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Enter</code>          </td>
+              <td class="evnRow">            Accepts the value typed
+                                             for the watcher.      </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Page Up</code>        </td>
+              <td class="oddRow">            +1                    </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Page Down</code>      </td>
+              <td class="evnRow">            -1                    </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Alt+Page Up</code>    </td>
+              <td class="oddRow">            +1,000                </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Alt+Page Down</code>  </td>
+              <td class="evnRow">            -1,000                </td></tr>
+         
+          <tr><td class="oddRow1stCol"><code>Ctrl+Page Up</code>   </td>
+              <td class="oddRow">            +100                  </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Ctrl+Page Down</code> </td>
+              <td class="evnRow">            -100                  </td></tr>
+
+          <tr><td class="oddRow1stCol"><code>Shift+Page Up</code>  </td>
+              <td class="oddRow">            +10                   </td></tr>
+
+          <tr><td class="evnRow1stCol"><code>Shift+Page Down</code></td>
+              <td class="evnRow">            -10                   </td></tr>
+
+          </tbody>
+          </table>
+          </td>
+        </tr>
+
+      </tbody>
+      </table>
+  </body>
+</html>

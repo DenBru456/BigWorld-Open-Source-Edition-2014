@@ -1,0 +1,114 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<lookAtTarget>
+			<Type>			ENTITY_ID			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</lookAtTarget>
+
+		<effectRadius>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		25.0					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+			<Widget> RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	1.5	</gizmoRadius>
+			</Widget>
+		</effectRadius>
+
+		<thinkTimer>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</thinkTimer>
+		
+		<loadTimer>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</loadTimer>
+		
+		<lookAtTimeoutTimer>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</lookAtTimeoutTimer>
+		
+		<rageTimer>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</rageTimer>
+
+
+		<knownAvatars>
+			<Type>	ARRAY <of> ENTITY_ID </of>	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</knownAvatars>
+
+		<pointsOfInterest>
+			<Type>	ARRAY <of> ENTITY_ID </of>	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</pointsOfInterest>
+
+
+		<scanVisionHandle>
+			<Type>			CONTROLLER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</scanVisionHandle>
+
+
+		<dustTriggerRadius>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		50.0				</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+			<Widget>	RADIUS
+				<colour>	128 128 255 192	</colour>
+				<gizmoRadius>	2.0	</gizmoRadius>
+			</Widget>
+		</dustTriggerRadius>
+
+	</Properties>
+	
+
+	<ClientMethods>
+	
+		<initiateRage>
+		</initiateRage>	
+	
+	</ClientMethods>
+	
+
+	<CellMethods>
+	
+		<initiateRage>
+			<Exposed/>
+		</initiateRage>	
+
+		<addKnownEntity>
+			<Exposed/>
+			<Args>
+				<entityID>	ENTITY_ID </entityID>
+			</Args>
+		</addKnownEntity>
+		
+		<removeKnownEntity>
+			<Exposed/>
+			<Args>
+				<entityID>	ENTITY_ID </entityID>
+			</Args>
+		</removeKnownEntity>
+
+	</CellMethods>
+
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

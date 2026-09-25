@@ -1,0 +1,375 @@
+<dragon_animated.model>
+	<dye>
+		<matter>	m_01__Default_skinned	</matter>
+		<replaces>	01 - Default_skinned	</replaces>
+		<tint>
+			<name>	dragon_chrome_green	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_skinned.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	system/maps/col_white.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/dungeon/props/tangent_dragon_cracks_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/props/dragon_cracked_jade.bmp	</Texture>
+				</property>
+				<property>	materialSpecular
+					<Vector4>	0.500000 1.000000 0.500000 1.000000	</Vector4>
+				</property>
+				<property>	reflectionAmount
+					<Float>	1.310000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.052000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	1.000000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_chrome_gold	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_skinned.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	system/maps/col_white.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/dungeon/props/tangent_dragon_cracks_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/props/dragon_gold.bmp	</Texture>
+				</property>
+				<property>	materialSpecular
+					<Vector4>	1.000000 1.000000 0.300000 1.000000	</Vector4>
+				</property>
+				<property>	reflectionAmount
+					<Float>	1.920000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.306000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	4.490000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_normal_mapped	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_skinned.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	materialSpecular
+					<Vector4>	0.800000 0.750000 0.750000 1.000000	</Vector4>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/dungeon/props/tangent_dragon_cracks_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/props/dragon_cracked_jade.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_toon	</name>
+			<material>
+				<fx>	materials/cartoon01_skinned.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	Ambient_Amount
+					<Float>	0.400000	</Float>
+				</property>
+				<property>	Color
+					<Vector4>	0.900000 0.600000 1.000000 1.000000	</Vector4>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_distortion01	</name>
+			<material>
+				<identifier>	01 - Default_skinned	</identifier>
+				<fx>	shaders/std_effects/distort.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	tint
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	useReflection
+					<Bool>	true	</Bool>
+				</property>
+				<property>	scale
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	useOverlay
+					<Bool>	false	</Bool>
+				</property>
+				<property>	distortionMap
+					<Texture>	sets/dungeon/props/tangent_dragon_cracks_norms.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.200000	</Float>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/props/dragon_cracked_jade.bmp	</Texture>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.100000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_distortion02	</name>
+			<material>
+				<fx>	shaders/std_effects/distort.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.100000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.100000 0.000000	</Vector4>
+				</property>
+				<property>	tint
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	useReflection
+					<Bool>	true	</Bool>
+				</property>
+				<property>	scale
+					<Float>	0.216220	</Float>
+				</property>
+				<property>	useOverlay
+					<Bool>	false	</Bool>
+				</property>
+				<property>	distortionMap
+					<Texture>	system/maps/waves1_norms.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.200000	</Float>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/props/dragon_cracked_jade.bmp	</Texture>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.101400	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_specular	</name>
+			<material>
+				<identifier>	01 - Default_skinned	</identifier>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/dungeon/props/dragon_gold.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	characters/npc/fish/fish_spec.bmp	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/dungeon/props/tangent_dragon_cracks_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/props/dragon_cracked_jade.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	reflectionAmount
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	1.150000	</Float>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_subsurface	</name>
+			<material>
+				<identifier>	01 - Default_skinned	</identifier>
+				<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	rimStrength
+					<Float>	0.270000	</Float>
+				</property>
+				<property>	rimWidth
+					<Float>	0.270000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	subSurfaceBlendPower
+					<Float>	0.600000	</Float>
+				</property>
+				<property>	subSurfaceMap
+					<Texture>	sets/dungeon/props/dragon_cracks.tga	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	sets/dungeon/props/dragon_gold.bmp	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/dungeon/props/tangent_dragon_cracks_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/props/dragon_cracked_jade.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	dragon_metal	</name>
+			<material>
+				<identifier>	01 - Default_skinned	</identifier>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+				<collisionFlags>	16	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	helpers/maps/system/col_white.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	helpers/maps/system/col_white.bmp	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	system/maps/default_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	helpers/maps/system/col_black.bmp	</Texture>
+				</property>
+				<property>	reflectionAmount
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	1.420000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<animation>
+		<name>	dragon_roar	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_roar	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_fly	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_fly	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_relive01	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_relive01	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_rest01	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_rest01	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_rest02	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_rest02	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_rest03	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_rest03	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_fly02	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_fly02	</nodes>
+	</animation>
+	<extent>	40.000000	</extent>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.720961 -0.931991 -2.092629	</min>
+		<max>	1.707070 2.860902 1.760280	</max>
+	</visibilityBox>
+	<nodefullVisual>	sets/dungeon/props/dragon_animated	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281336859	</modified_on>
+	</metaData>
+</dragon_animated.model>

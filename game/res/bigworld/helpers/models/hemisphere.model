@@ -1,0 +1,290 @@
+<hemisphere.model>
+	<nodelessVisual>	helpers/models/hemisphere	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.500000 0.010000 -0.500000	</min>
+		<max>	0.500000 0.020000 0.500000	</max>
+	</visibilityBox>
+	<extent>	40.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	phillipj	</modified_by>
+		<modified_on>	1259736226	</modified_on>
+	</metaData>
+	<dye>
+		<matter>	gen_shadow	</matter>
+		<replaces>	gen_shadow	</replaces>
+		<tint>
+			<name>	rotate	</name>
+			<material>
+				<identifier>	gen_shadow	</identifier>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	4	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	helpers/maps/hemisphere.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	helpers/maps/hemisphere.tga	</Texture>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	4	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	3	</Int>
+				</property>
+			</material>
+			<property>
+				<name>	uTransform	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	uTransform_diffuse	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform_diffuse	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+		</tint>
+		<tint>
+			<name>	red	</name>
+			<material>
+				<identifier>	gen_shadow	</identifier>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	4	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	helpers/maps/red_hemisphere.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	helpers/maps/red_hemisphere.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	3	</Int>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	4	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	3	</Int>
+				</property>
+			</material>
+			<property>
+				<name>	uTransform_diffuse	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform_diffuse	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	uTransform	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+		</tint>
+		<tint>
+			<name>	green	</name>
+			<material>
+				<identifier>	gen_shadow	</identifier>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	4	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	helpers/maps/green_hemisphere.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	helpers/maps/green_hemisphere.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	3	</Int>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	4	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	3	</Int>
+				</property>
+			</material>
+			<property>
+				<name>	uTransform_diffuse	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform_diffuse	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	uTransform	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+		</tint>
+		<tint>
+			<name>	red_hollow	</name>
+			<material>
+				<identifier>	gen_shadow	</identifier>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	4	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	helpers/maps/red_hemisphere_ring.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	helpers/maps/red_hemisphere_ring.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	3	</Int>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	4	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	3	</Int>
+				</property>
+			</material>
+			<property>
+				<name>	uTransform_diffuse	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform_diffuse	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	uTransform	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+		</tint>
+		<tint>
+			<name>	green_hollow	</name>
+			<material>
+				<identifier>	gen_shadow	</identifier>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	4	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	true	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	helpers/maps/green_hemisphere_ring.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	helpers/maps/green_hemisphere_ring.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	3	</Int>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	4	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	3	</Int>
+				</property>
+			</material>
+			<property>
+				<name>	uTransform_diffuse	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform_diffuse	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	uTransform	</name>
+				<default>	1.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+			<property>
+				<name>	vTransform	</name>
+				<default>	0.000000 1.000000 0.000000 0.000000	</default>
+			</property>
+		</tint>
+	</dye>
+</hemisphere.model>

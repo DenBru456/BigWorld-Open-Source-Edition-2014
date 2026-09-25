@@ -1,0 +1,58 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<!-- Should have a Vector type -->
+		<xorigin>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</xorigin>
+		<yorigin>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</yorigin>
+		<zorigin>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</zorigin>
+
+		<treeGroup>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</treeGroup>	
+		
+		<stateChangeTime>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</stateChangeTime>
+		
+		<maxFlightTime>
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		15					</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</maxFlightTime>
+
+		<state>
+			<Type>			INT8				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		0					</Default>
+		</state>
+		
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

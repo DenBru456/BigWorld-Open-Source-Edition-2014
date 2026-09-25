@@ -1,0 +1,84 @@
+<striff_lod3.model>
+	<animation>
+		<name>	fd_striff_walk	</name>
+		<frameRate>	35.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_walk	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_attack	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_attack	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_death	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_death	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_got_hit	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_got_hit	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_look	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_look	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_pick_food	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_pick_food	</nodes>
+		<alpha>
+			<biped..L..Thigh>	0.010000	</biped..L..Thigh>
+			<biped..R..Thigh>	0.010000	</biped..R..Thigh>
+		</alpha>
+	</animation>
+	<animation>
+		<name>	fd_striff_run	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_run	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_turn_left	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_turn_left	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_turn_right	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_turn_right	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_wait	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_wait	</nodes>
+	</animation>
+	<animation>
+		<name>	fd_striff_death:lastframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_death	</nodes>
+		<firstFrame>	60	</firstFrame>
+		<lastFrame>	60	</lastFrame>
+	</animation>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.924922 -0.177980 -1.065855	</min>
+		<max>	1.006456 1.862988 1.586371	</max>
+	</visibilityBox>
+	<animation>
+		<name>	fd_striff_stretch	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_striff/animations/fd_striff_stretch	</nodes>
+		<alpha>
+			<biped..L..Thigh>	0.010000	</biped..L..Thigh>
+			<biped..R..Thigh>	0.010000	</biped..R..Thigh>
+		</alpha>
+	</animation>
+	<nodefullVisual>	characters/npc/fd_striff/striff_lod3	</nodefullVisual>
+	<extent>	160.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380496	</modified_on>
+	</metaData>
+</striff_lod3.model>

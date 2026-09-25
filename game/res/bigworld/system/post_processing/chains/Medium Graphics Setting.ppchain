@@ -1,0 +1,438 @@
+<root>
+	<Effect>	heatShimmer
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	heat shimmer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyVisualTransferMesh>
+					<resourceID>	system/models/fx_shimmer_transfer.visual	</resourceID>
+				</PyVisualTransferMesh>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/heat_shimmer.fx	</fx>
+				<property>	fullscreenAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	waveSpeed
+					<Vector4>	0.200000 0.150000 0.400000 0.400000	</Vector4>
+				</property>
+				<property>	freqT
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	freqS
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	spreadY
+					<Float>	0.400000	</Float>
+				</property>
+				<property>	spreadX
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	speed
+					<Float>	121.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Player Fader	</Effect>
+	<Effect>	Colour Correct
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	colour correct	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct.fx	</fx>
+				<property>	alpha
+					<Float>	0.140000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	lookupTexture
+					<Texture>	system/maps/post_processing/colour_correct3.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Sharpen
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	9-tap filter	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/nine-tap_filter.fx	</fx>
+				<property>	tap9
+					<Vector4>	1.000000 1.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap8
+					<Vector4>	0.000000 1.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap7
+					<Vector4>	-1.000000 1.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap6
+					<Vector4>	1.000000 0.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap5
+					<Vector4>	0.000000 0.000000 9.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap4
+					<Vector4>	-1.000000 0.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap3
+					<Vector4>	1.000000 -1.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap2
+					<Vector4>	0.000000 -1.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	tap1
+					<Vector4>	-1.000000 -1.000000 -1.000000 0.000000	</Vector4>
+				</property>
+				<property>	brightness
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Down Sample
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	down sample	</name>
+			<renderTarget>	downSample1	</renderTarget>
+			<clearRenderTarget>	true	</clearRenderTarget>
+			<filterQuad>
+				<PyFilterQuad>
+					<srcTextureName>	backBufferCopy	</srcTextureName>
+					<filterTap>	-1.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	-1.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	-1.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+				</PyFilterQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/four-tap_filter.fx	</fx>
+				<property>	brightness
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	down sample	</name>
+			<renderTarget>	downSample2	</renderTarget>
+			<clearRenderTarget>	true	</clearRenderTarget>
+			<filterQuad>
+				<PyFilterQuad>
+					<srcTextureName>	downSample1	</srcTextureName>
+					<filterTap>	-1.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	-1.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	-1.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+				</PyFilterQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/four-tap_filter.fx	</fx>
+				<property>	brightness
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample1	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	down sample	</name>
+			<renderTarget>	downSample3	</renderTarget>
+			<clearRenderTarget>	true	</clearRenderTarget>
+			<filterQuad>
+				<PyFilterQuad>
+					<srcTextureName>	downSample2	</srcTextureName>
+					<filterTap>	-1.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	-1.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	-1.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 -1.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 0.000000 0.111111	</filterTap>
+					<filterTap>	1.000000 1.000000 0.111111	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+					<filterTap>	0.000000 0.000000 0.000000	</filterTap>
+				</PyFilterQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/four-tap_filter.fx	</fx>
+				<property>	brightness
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample2	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Bloom
+		<PyPhase>
+			<name>	colour scale	</name>
+			<renderTarget>	computeBuffer2	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/colour_scale.fx	</fx>
+				<property>	power
+					<Float>	8.000000	</Float>
+				</property>
+				<property>	blur
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample3	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	4-tap blur horizontal	</name>
+			<renderTarget>	computeBuffer1	</renderTarget>
+			<clearRenderTarget>	true	</clearRenderTarget>
+			<filterQuad>
+				<PyFilterQuad>
+					<srcTextureName>	computeBuffer2	</srcTextureName>
+					<filterTap>	-2.500000 0.000000 0.166667	</filterTap>
+					<filterTap>	-0.500000 0.000000 0.333333	</filterTap>
+					<filterTap>	0.500000 0.000000 0.333333	</filterTap>
+					<filterTap>	2.500000 0.000000 0.166667	</filterTap>
+				</PyFilterQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/gaussian_blur.fx	</fx>
+				<property>	attenuation
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	brightness
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	computeBuffer2	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	4-tap blur vertical	</name>
+			<renderTarget>	computeBuffer2	</renderTarget>
+			<clearRenderTarget>	true	</clearRenderTarget>
+			<filterQuad>
+				<PyFilterQuad>
+					<srcTextureName>	computeBuffer1	</srcTextureName>
+					<filterTap>	0.000000 -2.500000 0.166667	</filterTap>
+					<filterTap>	0.000000 -0.500000 0.333333	</filterTap>
+					<filterTap>	0.000000 0.500000 0.333333	</filterTap>
+					<filterTap>	0.000000 2.500000 0.166667	</filterTap>
+				</PyFilterQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/gaussian_blur.fx	</fx>
+				<property>	attenuation
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	brightness
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	computeBuffer1	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	computeBuffer2	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+</root>

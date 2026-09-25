@@ -1,0 +1,131 @@
+<action_bar_button.xml>	PyGUI.ButtonVisualState
+	
+	<!-- HOVER -->
+	<hover>
+		<textStyle>	ButtonHover	</textStyle>
+		<icon>
+			<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+			<materialFX>	ADD_SIGNED	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 45.000000	</coords1>
+				<coords2>	45.000000 45.000000	</coords2>
+				<coords3>	45.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	
+	<!-- NORMAL -->
+	<normal>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+			<materialFX>	ADD_SIGNED	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	90.000000 0.000000	</coords0>
+				<coords1>	90.000000 45.000000	</coords1>
+				<coords2>	135.000000 45.000000	</coords2>
+				<coords3>	135.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+	
+	<!-- HOVER ACTIVE -->
+	<hover_active>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+			<materialFX>	ADD_SIGNED	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	135.000000 45.000000	</coords0>
+				<coords1>	135.000000 90.000000	</coords1>
+				<coords2>	180.000000 90.000000	</coords2>
+				<coords3>	180.000000 45.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover_active>
+	
+	<!-- DISABLED -->
+	<disabled>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+			<materialFX>	ADD_SIGNED	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	90.000000 45.000000	</coords0>
+				<coords1>	90.000000 90.000000	</coords1>
+				<coords2>	135.000000 90.000000	</coords2>
+				<coords3>	135.000000 45.000000	</coords3>				
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</disabled>
+	
+	<!-- PRESSED -->
+	<pressed>
+		<textStyle>	ButtonPressed	</textStyle>
+		<icon>
+			<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+			<materialFX>	ADD_SIGNED	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	45.000000 0.000000	</coords0>
+				<coords1>	45.000000 45.000000	</coords1>
+				<coords2>	90.000000 45.000000	</coords2>
+				<coords3>	90.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	
+	<!-- ACTIVE -->
+	<active>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+			<materialFX>	ADD_SIGNED	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	135.000000 0.000000	</coords0>
+				<coords1>	135.000000 45.000000	</coords1>
+				<coords2>	180.000000 45.000000	</coords2>
+				<coords3>	180.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</active>
+	
+	<!-- PRESSED ACTIVE -->
+	<pressed_active>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+			<materialFX>	ADD_SIGNED	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	135.000000 0.000000	</coords0>
+				<coords1>	135.000000 45.000000	</coords1>
+				<coords2>	180.000000 45.000000	</coords2>
+				<coords3>	180.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed_active>
+	
+	<!-- DISABLE ACTIVE -->
+	<disabled_active>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	system/maps/col_white.dds	</textureName>
+			<materialFX>	ADD	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 45.000000	</coords1>
+				<coords2>	45.000000 45.000000	</coords2>
+				<coords3>	45.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</disabled_active>
+	
+</action_bar_button.xml>

@@ -1,0 +1,8 @@
+"""
+This module defines the space data keys used in FantasyDemo.
+"""
+
+from BigWorld import SPACE_DATA_FIRST_CELL_ONLY_KEY
+
+SPACE_DATA_GEOMETRY_LOADED = SPACE_DATA_FIRST_CELL_ONLY_KEY
+SPACE_DATA_SPACE_LOADER = SPACE_DATA_FIRST_CELL_ONLY_KEY + 1

@@ -1,0 +1,13 @@
+<fantasydemo_characters_avatars_ranger>
+  <rule pattern=".*">
+    <streamingPriority> 10 </streamingPriority>
+    <format> A8R8G8B8 </format>
+    <formatCompressed> DXT1 </formatCompressed>
+  </rule>
+  <rule pattern=".*(\.bmp)$">
+    <format> X8R8G8B8 </format>
+  </rule>
+  <rule pattern=".*(\.tga)$">
+    <formatCompressed> DXT5 </formatCompressed>
+  </rule>
+</fantasydemo_characters_avatars_ranger>

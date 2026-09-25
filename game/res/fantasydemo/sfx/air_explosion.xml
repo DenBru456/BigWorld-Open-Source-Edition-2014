@@ -1,0 +1,26 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_airburst.xml  </ParticleSystem>
+	</Actor>
+	<Actor> shockwave
+		<ShockWaveModel/>
+	</Actor>
+	
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>
+	<Joint>	shockwave
+		<ModelRoot/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	<Event> shockwave
+		<ShockWave>
+			<colour>	0.0364 0.0632 0.094 1.0 	</colour>
+			<actionName>	GoFrag				</actionName>
+			<shimmerStyle>	1				</shimmerStyle>
+		</ShockWave>
+	</Event>
+</SFXFile>

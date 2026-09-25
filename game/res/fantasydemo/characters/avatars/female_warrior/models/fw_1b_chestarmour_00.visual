@@ -1,0 +1,264 @@
+<fw_1b_chestarmour_00.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000001	</row2>
+				<row3>	-0.000000 1.039428 -0.024950	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.031719 0.000416 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	0.965720 0.000001 0.259588	</row0>
+						<row1>	-0.000002 1.000000 0.000004	</row1>
+						<row2>	-0.259588 -0.000004 0.965720	</row2>
+						<row3>	0.064957 -0.000000 0.026584	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	0.947772 -0.000001 -0.318950	</row0>
+							<row1>	0.000001 1.000000 -0.000000	</row1>
+							<row2>	0.318950 -0.000000 0.947772	</row2>
+							<row3>	0.136475 -0.000000 -0.000103	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Spine2	</identifier>
+							<transform>
+								<row0>	0.939693 -0.000001 -0.342020	</row0>
+								<row1>	0.000001 1.000000 -0.000000	</row1>
+								<row2>	0.342020 -0.000000 0.939693	</row2>
+								<row3>	0.136468 -0.000000 -0.000115	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Neck	</identifier>
+								<transform>
+									<row0>	0.733122 0.040302 0.678902	</row0>
+									<row1>	-0.146589 0.984143 0.099873	</row1>
+									<row2>	-0.664111 -0.172739 0.727405	</row2>
+									<row3>	0.202632 0.000000 -0.012916	</row3>
+								</transform>
+								<node>
+									<identifier>	biped Head	</identifier>
+									<transform>
+										<row0>	0.984764 -0.068390 -0.159887	</row0>
+										<row1>	0.040301 0.984143 -0.172738	</row1>
+										<row2>	0.169165 0.163663 0.971904	</row2>
+										<row3>	0.062487 -0.002811 -0.001435	</row3>
+									</transform>
+									<node>
+										<identifier>	biped HeadBlendBone1B_ChestArmour_00	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000001	</row0>
+											<row1>	0.986286 -0.000000 -0.165046	</row1>
+											<row2>	0.165046 0.000001 0.986286	</row2>
+											<row3>	-1.578195 0.000001 0.342495	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped L Clavicle	</identifier>
+									<transform>
+										<row0>	-0.253833 0.952222 -0.169831	</row0>
+										<row1>	0.694479 0.057206 -0.717235	</row1>
+										<row2>	-0.673251 -0.300002 -0.675819	</row2>
+										<row3>	-0.025028 0.060507 0.011496	</row3>
+									</transform>
+									<node>
+										<identifier>	biped L UpperArm	</identifier>
+										<transform>
+											<row0>	0.989328 -0.139581 -0.041794	</row0>
+											<row1>	0.109094 0.899761 -0.422527	</row1>
+											<row2>	0.096581 0.413458 0.905386	</row2>
+											<row3>	0.101040 -0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped L UpperArmBlendBone1B_ChestArmour_00	</identifier>
+											<transform>
+												<row0>	-0.925561 -0.378520 0.007752	</row0>
+												<row1>	-0.378599 0.925379 -0.018346	</row1>
+												<row2>	-0.000229 -0.019915 -0.999802	</row2>
+												<row3>	0.423309 -1.441086 -0.065998	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	biped L ClavicleBlendBone1B_ChestArmour_00	</identifier>
+										<transform>
+											<row0>	-0.956229 -0.208182 0.205637	</row0>
+											<row1>	-0.275378 0.877879 -0.391784	</row1>
+											<row2>	-0.098962 -0.431263 -0.896782	</row2>
+											<row3>	0.356244 -1.383006 0.531452	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped R Clavicle	</identifier>
+									<transform>
+										<row0>	-0.330906 -0.929910 0.160529	</row0>
+										<row1>	-0.677700 0.352557 0.645312	</row1>
+										<row2>	-0.656677 0.104747 -0.746862	</row2>
+										<row3>	-0.029586 -0.050805 0.031034	</row3>
+									</transform>
+									<node>
+										<identifier>	biped R UpperArm	</identifier>
+										<transform>
+											<row0>	0.989328 0.139581 -0.041794	</row0>
+											<row1>	-0.109094 0.899761 0.422527	</row1>
+											<row2>	0.096581 -0.413458 0.905386	</row2>
+											<row3>	0.101040 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped R UpperArmBlendBone1B_ChestArmour_00	</identifier>
+											<transform>
+												<row0>	0.925561 -0.378520 -0.007749	</row0>
+												<row1>	-0.378599 -0.925379 -0.018346	</row1>
+												<row2>	-0.000227 0.019914 -0.999802	</row2>
+												<row3>	0.423309 1.441086 -0.065998	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	biped R ClavicleBlendBone1B_ChestArmour_00	</identifier>
+										<transform>
+											<row0>	0.956229 -0.208183 -0.205634	</row0>
+											<row1>	-0.275378 -0.877879 -0.391784	</row1>
+											<row2>	-0.098959 0.431263 -0.896783	</row2>
+											<row3>	0.356244 1.383006 0.531452	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped NeckBlendBone1B_ChestArmour_00	</identifier>
+									<transform>
+										<row0>	-0.040301 -0.984143 0.172740	</row0>
+										<row1>	0.943338 -0.094464 -0.318103	</row1>
+										<row2>	0.329376 0.150132 0.932187	</row2>
+										<row3>	-1.433724 0.161177 0.583769	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped Spine2BlendBone1B_ChestArmour_00	</identifier>
+								<transform>
+									<row0>	0.000001 -1.000000 0.000001	</row0>
+									<row1>	0.916685 0.000001 0.399610	</row1>
+									<row2>	-0.399610 0.000001 0.916685	</row2>
+									<row3>	-1.259778 -0.000001 -0.545541	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped Spine1BlendBone1B_ChestArmour_00	</identifier>
+							<transform>
+								<row0>	0.000000 -1.000000 0.000001	</row0>
+								<row1>	0.998077 0.000000 0.061986	</row1>
+								<row2>	-0.061986 0.000001 0.998077	</row2>
+								<row3>	-1.233922 -0.000000 -0.081886	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	biped SpineBlendBone1B_ChestArmour_00	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 0.000001	</row0>
+							<row1>	0.965720 -0.000001 -0.259588	</row1>
+							<row2>	0.259588 0.000001 0.965720	</row2>
+							<row3>	-1.059119 0.000001 0.315847	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	biped PelvisBlendBone1B_ChestArmour_00	</identifier>
+					<transform>
+						<row0>	0.000001 -1.000000 -0.000003	</row0>
+						<row1>	1.000000 0.000001 0.000000	</row1>
+						<row2>	0.000000 -0.000003 1.000000	</row2>
+						<row3>	-1.039844 -0.000002 0.056669	</row3>
+					</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped Spine2BlendBone1B_ChestArmour_00	</node>
+		<node>	biped NeckBlendBone1B_ChestArmour_00	</node>
+		<node>	biped HeadBlendBone1B_ChestArmour_00	</node>
+		<node>	biped Spine1BlendBone1B_ChestArmour_00	</node>
+		<node>	biped R ClavicleBlendBone1B_ChestArmour_00	</node>
+		<node>	biped SpineBlendBone1B_ChestArmour_00	</node>
+		<node>	biped R UpperArmBlendBone1B_ChestArmour_00	</node>
+		<node>	biped L ClavicleBlendBone1B_ChestArmour_00	</node>
+		<node>	biped L UpperArmBlendBone1B_ChestArmour_00	</node>
+		<node>	biped PelvisBlendBone1B_ChestArmour_00	</node>
+		<geometry>
+			<vertices>	1B_ChestArmour_00.vertices	</vertices>
+			<primitive>	1B_ChestArmour_00.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	chest_armor_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	11	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_s.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	metal_armour_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	5	</materialKind>
+					<property>	reflectionMask
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_refmask.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_s.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1b_chestarmor_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.157637 1.189020 -0.174401	</min>
+		<max>	0.154875 1.628071 0.115799	</max>
+	</boundingBox>
+</fw_1b_chestarmour_00.visual>

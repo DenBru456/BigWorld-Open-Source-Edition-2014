@@ -1,0 +1,153 @@
+<third.model.template>
+	<omniLight>
+		<colour>	219.000061 160.000000 125.000031	</colour>
+		<position>	4.599998 2.412892 5.699986	</position>
+		<innerRadius>	2.032880	</innerRadius>
+		<outerRadius>	5.248118	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	255.000000 255.000000 0.000000	</colour>
+		<position>	2.775833 1.649565 5.693907	</position>
+		<innerRadius>	0.425463	</innerRadius>
+		<outerRadius>	1.241899	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	4.564004 1.200680 2.025326	</position>
+		<innerRadius>	0.763526	</innerRadius>
+		<outerRadius>	1.818164	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	255.000000 160.000000 66.000000	</colour>
+		<position>	5.728095 2.591530 2.093639	</position>
+		<innerRadius>	1.141650	</innerRadius>
+		<outerRadius>	2.915474	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	3.154985 2.530174 2.334393	</position>
+		<innerRadius>	0.780611	</innerRadius>
+		<outerRadius>	2.097046	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	169.000000 148.000000 92.000000	</colour>
+		<position>	4.799999 2.599999 4.199997	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	12.000000	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	false	</static>
+		<specular>	true	</specular>
+		<multiplier>	3.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	253.000076 234.000076 208.000076	</colour>
+		<position>	4.546505 3.182974 5.569519	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	4.392797	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	false	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	253.000092 234.000092 208.000092	</colour>
+		<position>	4.510872 0.535891 0.945648	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	4.392797	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	false	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	252.000061 223.000061 137.000000	</colour>
+		<position>	2.748215 2.285177 9.088825	</position>
+		<innerRadius>	0.572948	</innerRadius>
+		<outerRadius>	4.038704	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	254.000061 223.000061 129.000000	</colour>
+		<position>	6.250472 2.283255 8.988087	</position>
+		<innerRadius>	0.410401	</innerRadius>
+		<outerRadius>	3.793200	</outerRadius>
+		<dynamic>	false	</dynamic>
+		<static>	true	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<colour>	253.000122 234.000122 208.000122	</colour>
+		<position>	4.523249 2.299465 10.551685	</position>
+		<innerRadius>	1.964075	</innerRadius>
+		<outerRadius>	4.392797	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	false	</static>
+		<specular>	false	</specular>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<ambientLight>
+		<colour>	62.000008 57.000008 47.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	6.852647 2.254656 11.145216	</position>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	2.243557 2.269554 11.180063	</position>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	3.164731 2.130661 1.441853	</position>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	5.830112 2.216576 1.341869	</position>
+		<colour>	255.000000 128.000000 64.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.595679 4.182095 5.653025	</position>
+		<colour>	252.000015 147.000000 3.000000	</colour>
+	</flare>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.506342 0.599998 0.891079	</position>
+		<colour>	253.000015 171.000000 2.000000	</colour>
+	</flare>
+	<pulseLight>
+		<colour>	255.000000 148.000000 96.000046	</colour>
+		<position>	4.622100 1.359440 3.711899	</position>
+		<innerRadius>	0.849063	</innerRadius>
+		<outerRadius>	6.569832	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+</third.model.template>

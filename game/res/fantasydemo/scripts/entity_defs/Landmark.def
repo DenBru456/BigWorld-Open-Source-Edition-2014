@@ -1,0 +1,45 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<initialTriggerDelay>
+			<Type>		INT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	2				</Default>
+			<Editable>	true			</Editable>
+		</initialTriggerDelay>
+		<retriggerDelay>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	180				</Default>
+			<Editable>	true			</Editable>
+		</retriggerDelay>
+		<radius>
+			<Type>		FLOAT			</Type>
+			<!-- this property uses the RADIUS widget to enable interaction with
+			the radius gizmo in World Editor. This same result could be achieved
+			by using the type RADIUS defined in alias.xml, without needing to
+			define the widget here. -->			
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	100.0			</Default>
+			<Editable>	true			</Editable>
+		</radius>			
+		<description>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Editable>	true			</Editable>
+		</description>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

@@ -1,0 +1,81 @@
+<html>
+<html>
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body onload="var x=document.getElementsByTagName('TD'); x[0].click();" background="menubackground.bmp" bgcolor="#D9F0FF" style="margin:0; padding:0; border-right:solid 1pt darkslateblue; background-repeat:no-repeat; background-position-y:bottom;">
+  <script>
+    function highlight() {
+       if (window.event.type == 'click' && window.event.srcElement.tagName == 'TD')
+          window.event.srcElement.firstChild.click();
+      // Initialise variable
+      if (window.event.srcElement.tagName == 'A')
+        var triggerObj = window.event.srcElement;
+      else 
+        if (window.event.srcElement.tagName == 'TD')
+          var triggerObj = window.event.srcElement.firstChild;
+        else
+          return;
+      // If triggering event was 'click'
+      if (window.event.type == 'click')
+      {
+        // Clear highlight from current item
+        var TBODYobj=triggerObj.parentElement.parentElement.parentElement;
+        var TBODYrows=TBODYobj.childNodes.length-1;
+        for (; TBODYrows>=0; TBODYrows--)
+        {
+           if (TBODYobj.childNodes[TBODYrows].tagName == 'TR')
+           {
+             TBODYobj.childNodes[TBODYrows].firstChild.style.backgroundColor='';
+             TBODYobj.childNodes[TBODYrows].firstChild.style.border='';
+             TBODYobj.childNodes[TBODYrows].firstChild.firstChild.style.color='black';
+          }
+        }
+      }    
+      // If triggering event was 'click'
+      if (window.event.type == 'click')
+      {
+        // Highlight item that was clicked/hovered
+        triggerObj.parentElement.style.backgroundColor='darkslateblue';
+        triggerObj.style.color=((window.event.type=='click')?'white':'#FFFFFE');
+        triggerObj.blur();
+      }
+      // If triggering event was 'mouseover'
+      if (window.event.type == 'mouseover')
+      {
+         // If this is NOT the active link
+         if (triggerObj.style.color != 'white')
+         {
+            triggerObj.parentElement.style.border='solid 2pt darkslateblue';
+            triggerObj.parentElement.style.padding='0pt';
+         }
+      }
+      // If triggering event was 'mouseout'
+      if (window.event.type == 'mouseout')
+      {
+        // If this is the active link (in wich case font color will be 'white', instead of '#FFFFFE')
+        if (triggerObj.style.color != 'white')
+        {
+          // Clear highlight from item highlighted just because it was hovered
+            triggerObj.parentElement.style.border='';
+            triggerObj.parentElement.style.padding='';
+        }
+      }
+    }
+  </script>
+
+  <table class="menu" width="100%" cellspacing=3 onclick="highlight()" onmouseover="highlight()" onmouseout="highlight()">
+    <tr><td align=right><a href="consoles.html"       target="content">Console and Help Pages</a>     </td></tr> 
+    <tr><td align=right><a href="general.html"        target="content">Menu Shortcuts</a>             </td></tr> 
+    <tr><td align=right><a href="editing.html"        target="content">Editing</a>                    </td></tr> 
+    <tr><td align=right><a href="movement.html"       target="content">Movement Control</a>           </td></tr> 
+    <tr><td align=right><a href="shells.html"         target="content">Shells Objects</a>             </td></tr>
+    <tr><td align=right><a href="objects.html"        target="content">Object Mode</a>                </td></tr> 
+    <tr><td align=right><a href="terrain.html"        target="content">Terrain Mode</a>               </td></tr> 
+    <tr><td align=right><a href="terrain_import.html" target="content">Terrain Import/Export Mode</a>               </td></tr> 
+    <tr><td align=right><a href="project.html"        target="content">Project Mode</a>               </td></tr> 
+    <tr><td align=right><a href="statistics.html"     target="content">Realtime Profiling Console</a> </td></tr> 
+    <tr><td align=right><a href="histogram.html"      target="content">Histogram Console</a>          </td></tr> 
+    <tr><td align=right><a href="debug.html"          target="content">Debug (Watchers) Console</a>   </td></tr> 
+    <tr><td align=right><a href="python.html"         target="content">Python Console</a>             </td></tr> 
+   </b>
+  </body>
+</html>

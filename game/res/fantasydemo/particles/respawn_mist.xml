@@ -1,0 +1,116 @@
+<root>
+	<respawn_mist>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<capacity>	200	</capacity>
+		<windFactor_>	0.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	90.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<pPositionSrc>
+					<CylinderVectorGenerator>
+						<nameID_>	CylinderVectorGenerator	</nameID_>
+						<origin_>	0.000000 0.000000 0.000000	</origin_>
+						<direction_>	0.000000 0.500000 0.000000	</direction_>
+						<maxRadius_>	1.000000	</maxRadius_>
+						<minRadius_>	0.000000	</minRadius_>
+						<basisU_>	0.000000 0.000000 1.000000	</basisU_>
+						<basisV_>	1.000000 0.000000 0.000000	</basisV_>
+					</CylinderVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<CylinderVectorGenerator>
+						<nameID_>	CylinderVectorGenerator	</nameID_>
+						<origin_>	0.000000 0.500000 0.000000	</origin_>
+						<direction_>	0.000000 0.500000 0.000000	</direction_>
+						<maxRadius_>	9.000000	</maxRadius_>
+						<minRadius_>	7.000000	</minRadius_>
+						<basisU_>	0.000000 0.000000 1.000000	</basisU_>
+						<basisV_>	1.000000 0.000000 0.000000	</basisV_>
+					</CylinderVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	false	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	0.000000	</rate_>
+				<sensitivity_>	100000.000000	</sensitivity_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	-1.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.500000	</minimumSize_>
+				<maximumSize_>	1.000000	</maximumSize_>
+				<forcedUnitSize_>	200	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<maximumAge_>	0.500000	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+			</Sink>
+			<TintShader>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<repeat_>	false	</repeat_>
+				<period_>	0.500000	</period_>
+				<tints_>
+					<Tint>
+						<time>	0.000000	</time>
+						<color>	1.000000 1.000000 1.000000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	0.500000	</time>
+						<color>	0.100000 0.800000 0.800000 0.000000	</color>
+					</Tint>
+				</tints_>
+			</TintShader>
+			<Orbitor>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<point_>	0.000000 0.000000 0.000000	</point_>
+				<angularVelocity_>	6.283185	</angularVelocity_>
+				<affectVelocity_>	true	</affectVelocity_>
+			</Orbitor>
+			<Scaler>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	</name_>
+				<size_>	3.000000	</size_>
+				<rate_>	1.000000	</rate_>
+			</Scaler>
+		</Actions>
+		<Renderer>
+			<SpriteParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<textureName_>	maps/fx/environment/dust.tga	</textureName_>
+				<materialFX_>	0	</materialFX_>
+				<frameCount_>	0	</frameCount_>
+				<frameRate_>	0.000000	</frameRate_>
+			</SpriteParticleRenderer>
+		</Renderer>
+		<boundingBox>
+			<min>	-18.810642 -1.258598 -18.978874	</min>
+			<max>	19.258459 2.827061 18.989847	</max>
+		</boundingBox>
+	</respawn_mist>
+</root>

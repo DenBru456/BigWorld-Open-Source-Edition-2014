@@ -1,0 +1,85 @@
+# 
+# File list for server binaries and base resources.
+# 
+# If editing this, note that more specific file paths should come before
+# shorter file paths.
+# 
+# For example, if you are including game/tools/bigworld/server/space_viewer with
+# mode of 644, but you want space_viewer.py within that directory to be mode
+# 0755, add it before the space_viewer directory.
+#
+
+excludePathPatterns \.swp$
+excludePathPatterns \.svn
+excludePathPatterns \.nfs
+excludePathPatterns /\.
+excludePathPatterns svn-commit\.tmp
+
+excludePathPatterns game/bin/server/.*/(assert|core).*
+excludePathPatterns game/res/bigworld/(materials|particles|shaders|helpers)
+# Do not exclude res/system/data, as we use the terrain and material_kinds
+# XML on the server
+excludePathPatterns game/res/bigworld/system/(animation|fonts|maps|materials|models|post_processing)
+excludePathPatterns game/res/bigworld/scripts/(client|data)
+excludePathPatterns game/res/bigworld/scripts/common/lib-dynload/
+excludePathPatterns game/res/bigworld/scripts/common/lib-dynload64/
+# The bigworld.key has been excluded from the RPM intentionally to avoid
+# unintentionally distributing the key. Simply comment the following line to
+# re-include the file.
+excludePathPatterns game/res/bigworld/server/bigworld\.key
+excludePathPatterns game/res/bigworld/loginapp\.pubkey
+# The loginapp.privkey has been intentionally excluded from the RPM to
+# ensure that for a commercial release of your game, you have generated a
+# game specific key pair as outlined in the Server Programming Guide,
+# Chapter Encrypting Client-Server Traffic.
+excludePathPatterns game/res/bigworld/server/loginapp\.privkey
+excludePathPatterns game/bin/server/%{platform_config}/server/dbapp_indie
+excludePathPatterns game/bin/server/%{platform_config}/server/dbapp_customer
+
+addConfig game/tools/bigworld/server/install/profile.server.sh,%{_sysconfdir}/profile.d/bw-server.sh,0755
+
+# NB: The server binaries are listed individually as the DBApp binary needs
+#     to be renamed depending on which package is being built.
+add game/bin/server/%{platform_config}/server/baseapp,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/baseapp,0555,bwserver,bwserver
+link %{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/baseapp,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/serviceapp,0777,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/baseappmgr,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/baseappmgr,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/bots,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/bots,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/cellapp,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/cellapp,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/cellappmgr,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/cellappmgr,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/dbapp,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/dbapp,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/dbappmgr,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/dbappmgr,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/loginapp,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/loginapp,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/reviver,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/reviver,0555,bwserver,bwserver
+# NB: snapshot_helper must be listed before the rule to include the commands
+#     directory, otherwise it will receive the permissions of 555 rather than
+#     4511
+add game/bin/server/%{platform_config}/server/commands/_helpers/snapshot_helper,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/commands/_helpers/snapshot_helper,4511,root,root
+add game/bin/server/%{platform_config}/server/commands,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/commands,0555,bwserver,bwserver
+add game/bin/server/%{platform_config}/server/dbapp-extensions,%{bigworld_server_dir}/bigworld/bin/%{platform_config}/server/dbapp-extensions,0555,bwserver,bwserver
+
+add game/res/bigworld,%{bigworld_server_dir}/res,0444,bwserver,bwserver
+add game/bin/tools/process_defs,%{bigworld_server_dir}/bin/tools/process_defs,0444,bwserver,bwserver
+add game/tools/bigworld/server/bw_configure,%{bigworld_server_dir}/bin/bw_configure,0555,bwserver,bwserver
+add game/tools/bigworld/server/install/setup_win_dev.py,%{bigworld_server_dir}/bin/setup_win_dev,0555,bwserver,bwserver
+
+# Adding tutorial scripts and resources to the to server bin directory to
+# enable a fresh installation of a working res tree.
+add tutorial/res,%{bigworld_server_dir}/bin/res,0444,bwserver,bwserver
+add tutorial/bw_create_new_project.py,%{bigworld_server_dir}/bin/bw_create_new_project.py,0555,bwserver,bwserver
+add tutorial/bw_generate_res_trees.py,%{bigworld_server_dir}/bin/bw_generate_res_trees.py,0555,bwserver,bwserver
+link %{bigworld_server_dir}/bin/bw_create_new_project.py,%{bigworld_server_dir}/bin/bw_create_new_project,0555,bwserver,bwserver
+link %{bigworld_server_dir}/bin/bw_generate_res_trees.py,%{bigworld_server_dir}/bin/bw_generate_res_trees,0555,bwserver,bwserver
+
+
+link %{bigworld_server_dir},%{bigworld_current_dir}/server,0555,bwserver,bwserver
+
+dir %{bigworld_dir},555
+dir %{bigworld_current_dir},555
+dir /opt/bigworld,555
+
+dir %{bigworld_server_dir},555,bwserver,bwserver
+dir %{bigworld_server_dir}/bigworld,555,bwserver,bwserver
+dir %{bigworld_server_dir}/bigworld/bin,555,bwserver,bwserver
+dir %{bigworld_server_dir}/bigworld/bin/%{platform_config},555,bwserver,bwserver
+dir %{bigworld_server_dir}/bigworld/bin/%{platform_config}/server,555,bwserver,bwserver
+dir %{bigworld_server_dir}/bin,555,bwserver,bwserver

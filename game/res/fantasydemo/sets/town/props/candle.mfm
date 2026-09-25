@@ -1,0 +1,14 @@
+<candle.mfm>
+	<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+	<property>	selfIllumination
+		<Float>	1.0	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	maps/fx/fire/candleflame.bmp	</Texture>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+</candle.mfm>

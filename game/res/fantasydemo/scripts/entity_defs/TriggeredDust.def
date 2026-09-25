@@ -1,0 +1,32 @@
+<root>
+
+	<!-- Client only -->
+
+	<Volatile>
+	</Volatile>
+
+	<Properties>
+
+		<effectName>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>							</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</effectName>
+	
+	</Properties>
+	
+
+	<ClientMethods>
+	</ClientMethods>
+	
+
+	<CellMethods>
+	</CellMethods>
+
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

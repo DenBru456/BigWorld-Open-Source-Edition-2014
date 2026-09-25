@@ -1,0 +1,49 @@
+<root>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.216581 -0.000000 -1.031575	</row0>
+			<row1>	-0.000000 1.054067 -0.000001	</row1>
+			<row2>	1.031575 -0.000000 -0.216581	</row2>
+			<row3>	92.977203 205.365234 2.559814	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.702477 -0.000000 -0.847880	</row0>
+			<row1>	-0.000000 1.101080 -0.000001	</row1>
+			<row2>	0.847880 -0.000000 0.702477	</row2>
+			<row3>	82.522034 201.909180 5.527924	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	00030003o.cdata/terrain2	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	00030003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

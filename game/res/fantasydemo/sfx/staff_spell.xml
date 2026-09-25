@@ -1,0 +1,32 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_spell.xml  </ParticleSystem>
+	</Actor>
+
+	<Actor> particles2
+		<ParticleSystem>  particles/staff_pre_spell.xml  </ParticleSystem>
+	</Actor>
+	
+	
+	
+	<Joint>	particles
+		<Node>  HP_Spell  </Node>
+	</Joint>
+
+	<Joint>	particles2
+		<Node>  HP_Spell  </Node>
+	</Joint>
+
+
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+	<Event> particles2
+		<ClearParticles/>
+	</Event>
+
+
+
+</SFXFile>

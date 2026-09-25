@@ -1,0 +1,78 @@
+<root>
+	<waypointGenerationTime>
+		<hi>	29734715	</hi>
+		<lo>	-1627722936	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.251447 0.000000 -0.938415	</row0>
+			<row1>	0.000000 0.971519 0.000000	</row1>
+			<row2>	0.938415 0.000000 0.251447	</row2>
+			<row3>	72.226326 4.644985 61.921776	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.867166 0.000000 -0.480678	</row0>
+			<row1>	0.000000 0.991478 0.000000	</row1>
+			<row2>	0.480678 0.000000 0.867166	</row2>
+			<row3>	78.323006 4.518888 51.636051	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.669294 0.000000 0.669293	</row0>
+			<row1>	0.000000 0.946524 0.000000	</row1>
+			<row2>	-0.669293 0.000000 0.669294	</row2>
+			<row3>	13.120445 -10.440448 37.066925	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.684557 0.000000 -0.815823	</row0>
+			<row1>	0.000000 1.064982 0.000000	</row1>
+			<row2>	0.815823 0.000000 0.684557	</row2>
+			<row3>	76.047272 5.646059 40.822315	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	00000000o.cdata/terrain2	</resource>
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	4B4A48EA.4109840D.9C645588.16075B7D	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	73.884323 1.356445 11.826538	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo2	</label>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00000000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

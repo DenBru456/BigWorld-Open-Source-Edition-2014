@@ -1,0 +1,48 @@
+<exporter_008_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone04	</identifier>
+			<transform>
+				<row0>	0.856291 0.000000 -0.516493	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.516493 0.000000 0.856291	</row2>
+				<row3>	0.000750 0.000000 0.005007	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone04BlendBoneTeapot01	</identifier>
+				<transform>
+					<row0>	0.856291 -0.000000 0.516493	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.516493 0.000000 0.856291	</row2>
+					<row3>	0.001944 -0.000000 -0.004675	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone04BlendBoneTeapot01	</node>
+		<geometry>
+			<vertices>	Teapot01.vertices	</vertices>
+			<stream>	Teapot01.uv2	</stream>
+			<stream>	Teapot01.colour	</stream>
+			<primitive>	Teapot01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.684973 0.000000 -1.123315	</min>
+		<max>	1.925433 1.769222 1.123315	</max>
+	</boundingBox>
+</exporter_008_temp.visual>

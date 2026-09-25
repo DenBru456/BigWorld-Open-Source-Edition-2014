@@ -1,0 +1,265 @@
+<fffe0003o.chunk>
+	<model>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	1.551613 -0.576969 2.421313	</row0>
+			<row1>	0.138276 2.868801 0.594990	</row1>
+			<row2>	-2.485262 -0.200599 1.544794	</row2>
+			<row3>	8.233337 95.788605 93.555573	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/rock_large-0	</lighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287728367	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287728369	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree_stump/model/tree_stump.model	</resource>
+		<transform>
+			<row0>	0.491071 -0.085004 0.901297	</row0>
+			<row1>	-0.010655 1.024744 0.102452	</row1>
+			<row2>	-0.905234 -0.058174 0.487730	</row2>
+			<row3>	30.376526 118.726158 32.760223	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287728373	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287728377	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	0.200200 0.288274 0.767555	</row0>
+			<row1>	-0.103562 0.792669 -0.270694	</row1>
+			<row2>	-0.813338 -0.029973 0.223398	</row2>
+			<row3>	32.956680 118.279709 29.065399	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287728385	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287728392	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.966627 -0.044675 0.746563	</row0>
+			<row1>	-0.048813 1.221164 0.009873	</row1>
+			<row2>	-0.746303 -0.022009 -0.967609	</row2>
+			<row3>	26.723129 118.141449 36.840546	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287705274	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287705292	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	0.994870 -0.101098 0.003594	</row0>
+			<row1>	0.101098 0.992352 -0.070827	</row1>
+			<row2>	0.003594 0.070827 0.997482	</row2>
+			<row3>	0.615646 113.042656 79.428436	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffe0003o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288066739	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288066765	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/sign_post/models/sign_post.model	</resource>
+		<transform>
+			<row0>	-1.160865 0.000000 -1.777742	</row0>
+			<row1>	0.000000 2.123198 0.000000	</row1>
+			<row2>	1.777742 0.000000 -1.160865	</row2>
+			<row3>	4.374176 108.996552 78.131287	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288066739	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288066783	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/sign_post/models/sign_dungeon.model	</resource>
+		<transform>
+			<row0>	-1.230489 -0.052390 -1.941983	</row0>
+			<row1>	-0.246473 2.284395 0.094544	</row1>
+			<row2>	1.926993 0.258733 -1.227971	</row2>
+			<row3>	5.286453 115.337433 77.535461	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288066739	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288066815	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/sign_post/models/sign_town.model	</resource>
+		<transform>
+			<row0>	0.908242 -0.104765 1.729305	</row0>
+			<row1>	0.050022 1.953306 0.092063	</row1>
+			<row2>	-1.731756 0.001476 0.909618	</row2>
+			<row3>	3.619644 114.628944 78.603729	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	4.169266 111.971664 65.295349	</row3>
+		</transform>
+		<guid>	FD1198A3.433A5B86.7B3BDEAB.74AE89AA	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	09756E52.45846AC3.0513B08A.55F4324B	</guid>
+					<chunkId>	fffd0004o	</chunkId>
+				</item>
+			</patrolLinks>
+			<radius>	12.248992	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	30CD6993.43B28856.D839AA9E.498F4576	</guid>
+				<chunkId>	fffe0002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PlatformNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	82.719810 131.939804 9.107513	</row3>
+		</transform>
+		<guid>	6CCCA794.48225570.F34B97A2.9A75E36D	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	50B7AE4E.4AD823DF.D4E0DD91.890333FE	</guid>
+					<chunkId>	00000002o	</chunkId>
+				</item>
+			</links>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0C9A8456.4AC836DA.5E66FCB5.AA61D25D	</guid>
+				<chunkId>	fffd0003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	-0.941484 -0.177373 -0.286609	</row0>
+			<row1>	-0.167420 0.984113 -0.059076	</row1>
+			<row2>	0.292535 -0.007635 -0.956223	</row2>
+			<row3>	12.240250 119.472847 49.640015	</row3>
+		</transform>
+		<guid>	9F65DF4A.4907B6C6.B33B2B97.584A8FFD	</guid>
+		<properties>
+			<next>
+				<guid>	C98C56AD.47998A04.898FC783.7529D306	</guid>
+				<chunkId>	fffe0002o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0E06C03B.4A339509.8C6CB7A5.25350A33	</guid>
+				<chunkId>	fffd0004o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	fffe0003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffe0003o.chunk>

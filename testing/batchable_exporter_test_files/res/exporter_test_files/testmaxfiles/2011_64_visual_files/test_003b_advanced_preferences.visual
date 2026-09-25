@@ -1,0 +1,582 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.000057 1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 -1.000000	</row1>
+				<row2>	-1.000000 0.000057 -0.000000	</row2>
+				<row3>	-0.010378 0.007399 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	0.995663 -0.000000 0.093034	</row0>
+					<row1>	-0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.093034 -0.000000 0.995663	</row2>
+					<row3>	0.066593 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	0.974739 -0.000000 -0.223346	</row0>
+						<row1>	0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.223346 0.000000 0.974739	</row2>
+						<row3>	0.082145 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone04	</identifier>
+						<transform>
+							<row0>	0.981254 -0.000000 0.192718	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	-0.192718 0.000000 0.981254	</row2>
+							<row3>	0.089482 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bone05	</identifier>
+							<transform>
+								<row0>	0.997302 -0.000000 -0.073412	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.073412 0.000000 0.997302	</row2>
+								<row3>	0.096261 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	Bone06	</identifier>
+								<transform>
+									<row0>	0.999636 -0.000000 -0.026966	</row0>
+									<row1>	0.000000 1.000000 -0.000000	</row1>
+									<row2>	0.026966 0.000000 0.999636	</row2>
+									<row3>	0.107289 0.000000 -0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Bone07	</identifier>
+									<transform>
+										<row0>	0.999234 -0.000000 0.039127	</row0>
+										<row1>	0.000000 1.000000 0.000000	</row1>
+										<row2>	-0.039127 0.000000 0.999234	</row2>
+										<row3>	0.081727 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	Bone08	</identifier>
+										<transform>
+											<row0>	0.998743 -0.000000 -0.050131	</row0>
+											<row1>	0.000000 1.000000 -0.000000	</row1>
+											<row2>	0.050131 0.000000 0.998743	</row2>
+											<row3>	0.107544 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	Bone09	</identifier>
+											<transform>
+												<row0>	0.969683 0.000000 0.244365	</row0>
+												<row1>	0.000000 1.000000 0.000000	</row1>
+												<row2>	-0.244365 -0.000000 0.969683	</row2>
+												<row3>	0.103655 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	Bone10	</identifier>
+												<transform>
+													<row0>	0.998913 0.000000 -0.046602	</row0>
+													<row1>	-0.000000 1.000000 0.000000	</row1>
+													<row2>	0.046602 0.000000 0.998913	</row2>
+													<row3>	0.085412 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	Bone11	</identifier>
+													<transform>
+														<row0>	0.984276 -0.000000 -0.176639	</row0>
+														<row1>	0.000000 1.000000 -0.000000	</row1>
+														<row2>	0.176639 0.000000 0.984276	</row2>
+														<row3>	0.078043 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Bone12	</identifier>
+														<transform>
+															<row0>	0.989158 -0.000000 0.146853	</row0>
+															<row1>	0.000000 1.000000 0.000000	</row1>
+															<row2>	-0.146853 0.000000 0.989158	</row2>
+															<row3>	0.100163 -0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Bone13	</identifier>
+															<transform>
+																<row0>	0.975939 -0.000000 -0.218044	</row0>
+																<row1>	0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.218044 0.000000 0.975939	</row2>
+																<row3>	0.122589 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	Bone14	</identifier>
+																<transform>
+																	<row0>	0.999237 -0.000000 -0.039047	</row0>
+																	<row1>	0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.039047 0.000000 0.999237	</row2>
+																	<row3>	0.111543 0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	Bone15	</identifier>
+																	<transform>
+																		<row0>	0.963807 0.000000 0.266601	</row0>
+																		<row1>	-0.000000 1.000000 -0.000000	</row1>
+																		<row2>	-0.266601 0.000000 0.963807	</row2>
+																		<row3>	0.078043 0.000000 -0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	Bone16	</identifier>
+																		<transform>
+																			<row0>	0.932239 -0.000000 -0.361844	</row0>
+																			<row1>	-0.000000 1.000000 -0.000000	</row1>
+																			<row2>	0.361844 0.000000 0.932239	</row2>
+																			<row3>	0.105228 0.000000 -0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	Bone17	</identifier>
+																			<transform>
+																				<row0>	0.925649 -0.000000 0.378384	</row0>
+																				<row1>	-0.000000 1.000000 0.000000	</row1>
+																				<row2>	-0.378384 0.000000 0.925649	</row2>
+																				<row3>	0.094322 0.000000 -0.000000	</row3>
+																			</transform>
+																			<node>
+																				<identifier>	Bone18	</identifier>
+																				<transform>
+																					<row0>	0.995162 -0.000000 -0.098244	</row0>
+																					<row1>	0.000000 1.000000 -0.000000	</row1>
+																					<row2>	0.098244 -0.000000 0.995162	</row2>
+																					<row3>	0.141362 0.000000 0.000000	</row3>
+																				</transform>
+																				<node>
+																					<identifier>	Bone19	</identifier>
+																					<transform>
+																						<row0>	0.996852 0.000000 -0.079279	</row0>
+																						<row1>	0.000000 1.000000 0.000000	</row1>
+																						<row2>	0.079279 0.000000 0.996852	</row2>
+																						<row3>	0.111235 0.000000 -0.000000	</row3>
+																					</transform>
+																					<node>
+																						<identifier>	Bone20	</identifier>
+																						<transform>
+																							<row0>	0.999950 0.000000 0.010055	</row0>
+																							<row1>	-0.000000 1.000000 0.000000	</row1>
+																							<row2>	-0.010055 -0.000000 0.999950	</row2>
+																							<row3>	0.092490 0.000000 -0.000000	</row3>
+																						</transform>
+																						<node>
+																							<identifier>	Bone21	</identifier>
+																							<transform>
+																								<row0>	0.999980 -0.000000 -0.006384	</row0>
+																								<row1>	0.000000 1.000000 -0.000000	</row1>
+																								<row2>	0.006384 0.000000 0.999980	</row2>
+																								<row3>	0.118446 0.000000 -0.000000	</row3>
+																							</transform>
+																							<node>
+																								<identifier>	Bone22	</identifier>
+																								<transform>
+																									<row0>	0.997191 -0.000000 0.074897	</row0>
+																									<row1>	0.000000 1.000000 -0.000000	</row1>
+																									<row2>	-0.074897 0.000000 0.997191	</row2>
+																									<row3>	0.125841 -0.000000 -0.000000	</row3>
+																								</transform>
+																								<node>
+																									<identifier>	Bone23	</identifier>
+																									<transform>
+																										<row0>	0.984897 -0.000000 -0.173141	</row0>
+																										<row1>	-0.000000 1.000000 -0.000000	</row1>
+																										<row2>	0.173141 0.000000 0.984897	</row2>
+																										<row3>	0.096474 0.000000 0.000000	</row3>
+																									</transform>
+																									<node>
+																										<identifier>	Bone24	</identifier>
+																										<transform>
+																											<row0>	0.964971 -0.000000 0.262355	</row0>
+																											<row1>	0.000000 1.000000 0.000000	</row1>
+																											<row2>	-0.262355 0.000000 0.964971	</row2>
+																											<row3>	0.093154 0.000000 -0.000000	</row3>
+																										</transform>
+																										<node>
+																											<identifier>	Bone25	</identifier>
+																											<transform>
+																												<row0>	0.973426 0.000000 -0.229000	</row0>
+																												<row1>	-0.000000 1.000000 -0.000000	</row1>
+																												<row2>	0.229000 0.000000 0.973426	</row2>
+																												<row3>	0.103853 0.000000 0.000000	</row3>
+																											</transform>
+																											<node>
+																												<identifier>	Bone26	</identifier>
+																												<transform>
+																													<row0>	0.981068 -0.000000 0.193662	</row0>
+																													<row1>	0.000000 1.000000 -0.000000	</row1>
+																													<row2>	-0.193662 0.000000 0.981068	</row2>
+																													<row3>	0.108304 0.000000 0.000001	</row3>
+																												</transform>
+																												<node>
+																													<identifier>	Bone27	</identifier>
+																													<transform>
+																														<row0>	0.998918 -0.000000 -0.046497	</row0>
+																														<row1>	0.000000 1.000000 -0.000000	</row1>
+																														<row2>	0.046497 0.000000 0.998918	</row2>
+																														<row3>	0.111970 0.000000 -0.000000	</row3>
+																													</transform>
+																													<node>
+																														<identifier>	Bone27BlendBoneCylinder01	</identifier>
+																														<transform>
+																															<row0>	-0.132158 0.000000 -0.991229	</row0>
+																															<row1>	0.991229 -0.000000 -0.132158	</row1>
+																															<row2>	-0.000000 -1.000000 0.000000	</row2>
+																															<row3>	-2.586234 -0.000000 0.338078	</row3>
+																														</transform>
+																													</node>
+																												</node>
+																												<node>
+																													<identifier>	Bone26BlendBoneCylinder01	</identifier>
+																													<transform>
+																														<row0>	-0.132158 0.000000 -0.991229	</row0>
+																														<row1>	0.991229 -0.000000 -0.132158	</row1>
+																														<row2>	-0.000000 -1.000000 0.000000	</row2>
+																														<row3>	-2.474263 -0.000000 0.338078	</row3>
+																													</transform>
+																												</node>
+																											</node>
+																											<node>
+																												<identifier>	Bone25BlendBoneCylinder01	</identifier>
+																												<transform>
+																													<row0>	0.136638 0.000000 -0.990621	</row0>
+																													<row1>	0.990621 -0.000000 0.136638	</row1>
+																													<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																													<row3>	-2.366623 -0.000000 -0.333173	</row3>
+																												</transform>
+																											</node>
+																										</node>
+																										<node>
+																											<identifier>	Bone24BlendBoneCylinder01	</identifier>
+																											<transform>
+																												<row0>	-0.071251 0.000000 -0.997459	</row0>
+																												<row1>	0.997459 -0.000000 -0.071251	</row1>
+																												<row2>	-0.000000 -1.000000 0.000000	</row2>
+																												<row3>	-2.280500 -0.000000 0.163625	</row3>
+																											</transform>
+																										</node>
+																									</node>
+																									<node>
+																										<identifier>	Bone23BlendBoneCylinder01	</identifier>
+																										<transform>
+																											<row0>	0.119148 0.000000 -0.992877	</row0>
+																											<row1>	0.992877 -0.000000 0.119148	</row1>
+																											<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																											<row3>	-2.177007 -0.000000 -0.271699	</row3>
+																										</transform>
+																									</node>
+																								</node>
+																								<node>
+																									<identifier>	Bone22BlendBoneCylinder01	</identifier>
+																									<transform>
+																										<row0>	-0.076697 0.000000 -0.997055	</row0>
+																										<row1>	0.997055 -0.000000 -0.076697	</row1>
+																										<row2>	-0.000000 -1.000000 0.000000	</row2>
+																										<row3>	-2.091731 -0.000000 0.157916	</row3>
+																									</transform>
+																								</node>
+																							</node>
+																							<node>
+																								<identifier>	Bone21BlendBoneCylinder01	</identifier>
+																								<transform>
+																									<row0>	-0.029400 0.000000 -0.999568	</row0>
+																									<row1>	0.999568 -0.000000 -0.029400	</row1>
+																									<row2>	-0.000000 -1.000000 0.000000	</row2>
+																									<row3>	-1.971021 -0.000000 0.058694	</row3>
+																								</transform>
+																							</node>
+																						</node>
+																						<node>
+																							<identifier>	Bone20BlendBoneCylinder01	</identifier>
+																							<transform>
+																								<row0>	0.031235 0.000000 -0.999512	</row0>
+																								<row1>	0.999512 -0.000000 0.031235	</row1>
+																								<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																								<row3>	-1.852509 -0.000000 -0.060871	</row3>
+																							</transform>
+																						</node>
+																					</node>
+																					<node>
+																						<identifier>	Bone19BlendBoneCylinder01	</identifier>
+																						<transform>
+																							<row0>	0.000000 0.000000 -1.000000	</row0>
+																							<row1>	1.000000 -0.000000 0.000000	</row1>
+																							<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																							<row3>	-1.761017 -0.000000 -0.002979	</row3>
+																						</transform>
+																					</node>
+																				</node>
+																				<node>
+																					<identifier>	Bone18BlendBoneCylinder01	</identifier>
+																					<transform>
+																						<row0>	0.066520 0.000000 -0.997785	</row0>
+																						<row1>	0.997785 -0.000000 0.066520	</row1>
+																						<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																						<row3>	-1.645683 -0.000000 -0.120115	</row3>
+																					</transform>
+																				</node>
+																			</node>
+																			<node>
+																				<identifier>	Bone17BlendBoneCylinder01	</identifier>
+																				<transform>
+																					<row0>	-0.104685 0.000000 -0.994505	</row0>
+																					<row1>	0.994505 -0.000000 -0.104685	</row1>
+																					<row2>	-0.000000 -1.000000 0.000000	</row2>
+																					<row3>	-1.500686 -0.000000 0.162412	</row3>
+																				</transform>
+																			</node>
+																		</node>
+																		<node>
+																			<identifier>	Bone16BlendBoneCylinder01	</identifier>
+																			<transform>
+																				<row0>	0.196115 0.000000 -0.980581	</row0>
+																				<row1>	0.980581 -0.000000 0.196115	</row1>
+																				<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																				<row3>	-1.386675 -0.000000 -0.291690	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	Bone15BlendBoneCylinder01	</identifier>
+																		<transform>
+																			<row0>	-0.175792 0.000000 -0.984428	</row0>
+																			<row1>	0.984428 -0.000000 -0.175792	</row1>
+																			<row2>	-0.000000 -1.000000 0.000000	</row2>
+																			<row3>	-1.292134 -0.000000 0.235230	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	Bone14BlendBoneCylinder01	</identifier>
+																	<transform>
+																		<row0>	0.094809 0.000000 -0.995495	</row0>
+																		<row1>	0.995495 -0.000000 0.094809	</row1>
+																		<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																		<row3>	-1.229823 -0.000000 -0.120119	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	Bone13BlendBoneCylinder01	</identifier>
+																<transform>
+																	<row0>	0.099501 0.000000 -0.995037	</row0>
+																	<row1>	0.995037 -0.000000 0.099501	</row1>
+																	<row2>	-0.000000 -1.000000 -0.000000	</row2>
+																	<row3>	-1.117699 -0.000000 -0.125915	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	Bone12BlendBoneCylinder01	</identifier>
+															<transform>
+																<row0>	-0.090536 0.000000 -0.995893	</row0>
+																<row1>	0.995893 -0.000000 -0.090536	</row1>
+																<row2>	-0.000000 -1.000000 0.000000	</row2>
+																<row3>	-0.998748 0.000000 0.087804	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Bone11BlendBoneCylinder01	</identifier>
+														<transform>
+															<row0>	0.073873 0.000000 -0.997268	</row0>
+															<row1>	0.997268 -0.000000 0.073873	</row1>
+															<row2>	-0.000000 -1.000000 -0.000000	</row2>
+															<row3>	-0.899473 -0.000000 -0.077035	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Bone10BlendBoneCylinder01	</identifier>
+													<transform>
+														<row0>	-0.094809 0.000000 -0.995496	</row0>
+														<row1>	0.995496 -0.000000 -0.094809	</row1>
+														<row2>	-0.000000 -1.000000 0.000000	</row2>
+														<row3>	-0.821580 -0.000000 0.075253	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Bone09BlendBoneCylinder01	</identifier>
+												<transform>
+													<row0>	-0.086629 0.000000 -0.996241	</row0>
+													<row1>	0.996241 -0.000000 -0.086629	</row1>
+													<row2>	-0.000000 -1.000000 0.000000	</row2>
+													<row3>	-0.736758 -0.000000 0.068503	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	Bone08BlendBoneCylinder01	</identifier>
+											<transform>
+												<row0>	0.035692 0.000000 -0.999363	</row0>
+												<row1>	0.999363 -0.000000 0.035692	</row1>
+												<row2>	-0.000000 -1.000000 -0.000000	</row2>
+												<row3>	-0.635954 -0.000000 -0.021992	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	Bone07BlendBoneCylinder01	</identifier>
+										<transform>
+											<row0>	0.068802 0.000000 -0.997630	</row0>
+											<row1>	0.997630 -0.000000 0.068802	</row1>
+											<row2>	-0.000000 -1.000000 -0.000000	</row2>
+											<row3>	-0.527332 -0.000000 -0.043062	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	Bone06BlendBoneCylinder01	</identifier>
+									<transform>
+										<row0>	0.090536 0.000000 -0.995893	</row0>
+										<row1>	0.995893 -0.000000 0.090536	</row1>
+										<row2>	-0.000000 -1.000000 -0.000000	</row2>
+										<row3>	-0.444541 -0.000000 -0.054549	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Bone05BlendBoneCylinder01	</identifier>
+								<transform>
+									<row0>	-0.000000 0.000000 -1.000000	</row0>
+									<row1>	1.000000 -0.000000 -0.000000	</row1>
+									<row2>	-0.000000 -1.000000 0.000000	</row2>
+									<row3>	-0.340365 -0.000000 -0.014078	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Bone04BlendBoneCylinder01	</identifier>
+							<transform>
+								<row0>	-0.038433 0.000000 -0.999261	</row0>
+								<row1>	0.999261 -0.000000 -0.038433	</row1>
+								<row2>	-0.000000 -1.000000 0.000000	</row2>
+								<row3>	-0.244393 0.000000 -0.000986	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Bone03BlendBoneCylinder01	</identifier>
+						<transform>
+							<row0>	0.124035 0.000000 -0.992278	</row0>
+							<row1>	0.992278 -0.000000 0.124035	</row1>
+							<row2>	-0.000000 -1.000000 -0.000000	</row2>
+							<row3>	-0.151520 -0.000000 -0.040584	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneCylinder01	</identifier>
+					<transform>
+						<row0>	-0.135114 -0.000000 -0.990830	</row0>
+						<row1>	0.990830 -0.000000 -0.135114	</row1>
+						<row2>	-0.000000 -1.000000 0.000000	</row2>
+						<row3>	-0.074716 -0.000000 -0.000286	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneCylinder01	</identifier>
+				<transform>
+					<row0>	0.000000 0.000000 -1.000000	</row0>
+					<row1>	1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 -1.000000 -0.000000	</row2>
+					<row3>	-0.007399 0.000000 -0.010378	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone07BlendBoneCylinder01	</node>
+		<node>	Bone08BlendBoneCylinder01	</node>
+		<node>	Bone06BlendBoneCylinder01	</node>
+		<node>	Bone09BlendBoneCylinder01	</node>
+		<node>	Bone10BlendBoneCylinder01	</node>
+		<node>	Bone05BlendBoneCylinder01	</node>
+		<node>	Bone04BlendBoneCylinder01	</node>
+		<node>	Bone03BlendBoneCylinder01	</node>
+		<node>	Bone02BlendBoneCylinder01	</node>
+		<node>	Bone01BlendBoneCylinder01	</node>
+		<geometry>
+			<vertices>	Cylinder01_split_2.vertices	</vertices>
+			<primitive>	Cylinder01_split_2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone15BlendBoneCylinder01	</node>
+		<node>	Bone16BlendBoneCylinder01	</node>
+		<node>	Bone14BlendBoneCylinder01	</node>
+		<node>	Bone17BlendBoneCylinder01	</node>
+		<node>	Bone18BlendBoneCylinder01	</node>
+		<node>	Bone13BlendBoneCylinder01	</node>
+		<node>	Bone12BlendBoneCylinder01	</node>
+		<node>	Bone11BlendBoneCylinder01	</node>
+		<node>	Bone10BlendBoneCylinder01	</node>
+		<node>	Bone09BlendBoneCylinder01	</node>
+		<node>	Bone08BlendBoneCylinder01	</node>
+		<geometry>
+			<vertices>	Cylinder01_split_1.vertices	</vertices>
+			<primitive>	Cylinder01_split_1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone24BlendBoneCylinder01	</node>
+		<node>	Bone25BlendBoneCylinder01	</node>
+		<node>	Bone23BlendBoneCylinder01	</node>
+		<node>	Bone26BlendBoneCylinder01	</node>
+		<node>	Bone27BlendBoneCylinder01	</node>
+		<node>	Bone22BlendBoneCylinder01	</node>
+		<node>	Bone21BlendBoneCylinder01	</node>
+		<node>	Bone20BlendBoneCylinder01	</node>
+		<node>	Bone19BlendBoneCylinder01	</node>
+		<node>	Bone18BlendBoneCylinder01	</node>
+		<node>	Bone17BlendBoneCylinder01	</node>
+		<node>	Bone16BlendBoneCylinder01	</node>
+		<geometry>
+			<vertices>	Cylinder01_split_0.vertices	</vertices>
+			<primitive>	Cylinder01_split_0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.323382 0.000000 -0.323382	</min>
+		<max>	0.323382 2.581722 0.323382	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,24 @@
+<spider_leg.model>
+	<action>
+		<name>	spider_leg_twitch	</name>
+		<animation>	spider_leg_twitch	</animation>
+		<filler>	true	</filler>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.806948 -0.009348 -0.787750	</min>
+		<max>	0.439241 0.138386 0.732273	</max>
+	</visibilityBox>
+	<animation>
+		<name>	spider_leg_twitch	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_leg_twitch	</nodes>
+	</animation>
+	<nodefullVisual>	characters/npc/spider/spider_leg	</nodefullVisual>
+	<extent>	80.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380435	</modified_on>
+	</metaData>
+</spider_leg.model>

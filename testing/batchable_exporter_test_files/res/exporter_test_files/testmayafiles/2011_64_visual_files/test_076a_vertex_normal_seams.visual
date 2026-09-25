@@ -1,0 +1,175 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	joint1	</identifier>
+			<transform>
+				<row0>	0.000000 0.159861 -0.987140	</row0>
+				<row1>	-0.000000 0.987140 0.159861	</row1>
+				<row2>	1.000000 0.000000 0.000000	</row2>
+				<row3>	0.000000 -0.054924 0.397652	</row3>
+			</transform>
+			<node>
+				<identifier>	joint2	</identifier>
+				<transform>
+					<row0>	-0.521840 0.853043 0.000000	</row0>
+					<row1>	0.853043 0.521840 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000	</row2>
+					<row3>	0.366481 -0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	joint3	</identifier>
+					<transform>
+						<row0>	-0.987603 0.156975 -0.000000	</row0>
+						<row1>	0.156975 0.987603 0.000000	</row1>
+						<row2>	0.000000 0.000000 -1.000000	</row2>
+						<row3>	0.341715 -0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	joint4	</identifier>
+						<transform>
+							<row0>	-0.203529 0.979069 -0.000000	</row0>
+							<row1>	-0.979069 -0.203529 -0.000000	</row1>
+							<row2>	-0.000000 -0.000000 1.000000	</row2>
+							<row3>	0.316936 -0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	joint5	</identifier>
+							<transform>
+								<row0>	0.000000 -0.000000 1.000000	</row0>
+								<row1>	0.878228 0.478243 -0.000000	</row1>
+								<row2>	-0.478243 0.878228 0.000000	</row2>
+								<row3>	0.336882 -0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	joint6	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 -0.000000	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.000000 -0.036616 -0.109849	</row3>
+								</transform>
+								<node>
+									<identifier>	joint6_BlendBone	</identifier>
+									<transform>
+										<row0>	1.000000 -0.000000 0.000000	</row0>
+										<row1>	0.000000 1.000000 -0.000000	</row1>
+										<row2>	0.000000 0.000000 -1.000000	</row2>
+										<row3>	-0.000000 -0.317096 0.254116	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	joint5_BlendBone	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 -0.000000	</row1>
+									<row2>	0.000000 0.000000 -1.000000	</row2>
+									<row3>	-0.000000 -0.353712 0.144268	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	joint4_BlendBone	</identifier>
+							<transform>
+								<row0>	-0.000000 0.000000 1.000000	</row0>
+								<row1>	0.878228 0.478243 0.000000	</row1>
+								<row2>	0.478243 -0.878228 0.000000	</row2>
+								<row3>	-0.042753 -0.042460 -0.000000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	joint3_BlendBone	</identifier>
+						<transform>
+							<row0>	0.000000 -0.000000 1.000000	</row0>
+							<row1>	-0.646977 0.762509 0.000000	</row1>
+							<row2>	0.762509 0.646977 0.000000	</row2>
+							<row3>	0.367209 -0.033217 -0.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	joint2_BlendBone	</identifier>
+					<transform>
+						<row0>	-0.000000 0.000000 -1.000000	</row0>
+						<row1>	0.758651 0.651497 0.000000	</row1>
+						<row2>	-0.651497 0.758651 0.000000	</row2>
+						<row3>	-0.026156 0.024838 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	joint1_BlendBone	</identifier>
+				<transform>
+					<row0>	0.000000 -0.000000 1.000000	</row0>
+					<row1>	0.159861 0.987140 0.000000	</row1>
+					<row2>	0.987140 -0.159861 -0.000000	</row2>
+					<row3>	0.401318 -0.009351 -0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint1_BlendBone	</node>
+		<node>	joint2_BlendBone	</node>
+		<node>	joint3_BlendBone	</node>
+		<node>	joint4_BlendBone	</node>
+		<node>	joint5_BlendBone	</node>
+		<node>	joint6_BlendBone	</node>
+		<geometry>
+			<vertices>	polySurfaceShape1.vertices	</vertices>
+			<primitive>	polySurfaceShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.495524 -0.500000 -0.496058	</min>
+		<max>	0.504476 0.500000 0.503942	</max>
+	</boundingBox>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	0	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	false	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile>	exporter_test_files/testmayafiles/test_017_use_reference_hierarchy_1.visual	</referenceNodesFile>
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+		</settings>
+	</metaData>
+</root>

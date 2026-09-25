@@ -1,0 +1,215 @@
+<preset_night_vision.ppchain>
+	<Effect>	Colour Correct
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	colour correct	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct.fx	</fx>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	lookupTexture
+					<Texture>	system/maps/post_processing/night vision/night_vision.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Scotopic Vision
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	colour correct	</name>
+			<renderTarget>	backBufferCopyB	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct.fx	</fx>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	lookupTexture
+					<Texture>	system/maps/post_processing/scotopic_vision.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	Scotopic Vision	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/scotopic_vision.fx	</fx>
+				<property>	noiseScale
+					<Float>	5.960000	</Float>
+				</property>
+				<property>	noiseLevel
+					<Float>	3.480000	</Float>
+				</property>
+				<property>	noiseThreshold
+					<Float>	0.660000	</Float>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	colouredTexture
+					<Texture>	backBufferCopyB	</Texture>
+				</property>
+				<property>	noiseTexture
+					<Texture>	system/maps/post_processing/noise.texanim	</Texture>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Vignette
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/hatching.fx	</fx>
+				<property>	power
+					<Float>	32.000000	</Float>
+				</property>
+				<property>	speed
+					<Float>	2.700000	</Float>
+				</property>
+				<property>	scale
+					<Float>	0.900000	</Float>
+				</property>
+				<property>	tint
+					<Vector4>	0.940000 0.940000 0.780000 1.000000	</Vector4>
+				</property>
+				<property>	tile
+					<Float>	5.600000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	0.050000	</Float>
+				</property>
+				<property>	offsetTexture
+					<Texture>	system/maps/post_processing/hatch_offset.dds	</Texture>
+				</property>
+				<property>	hatchTexture
+					<Texture>	system/maps/post_processing/night vision/scanlines.dds	</Texture>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	system/maps/post_processing/film_grain/vignette.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+</preset_night_vision.ppchain>

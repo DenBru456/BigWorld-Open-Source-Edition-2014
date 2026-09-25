@@ -1,0 +1,64 @@
+<ffff0002o.chunk>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-1.602631 0.000000 -3.966650	</row0>
+			<row1>	0.000000 4.278169 0.000000	</row1>
+			<row2>	3.966650 0.000000 -1.602631	</row2>
+			<row3>	10.808083 -0.013504 27.446915	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_substitute_snow.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-2.414472 0.000000 -2.500259	</row0>
+			<row1>	0.000000 3.475769 0.000000	</row1>
+			<row2>	2.500259 0.000000 -2.414472	</row2>
+			<row3>	5.900002 0.000000 7.000000	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29734719	</hi>
+		<lo>	-76654620	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	ffff0002o.cdata/terrain2	</resource>
+	</terrain>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	1B603B75.49C08023.9EF82FA4.884005BF	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	76.914658 36.970089 85.869019	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo4	</label>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	ffff0002o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</ffff0002o.chunk>

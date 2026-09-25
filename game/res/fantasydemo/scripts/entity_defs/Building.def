@@ -1,0 +1,41 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<modelName>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	false		</Persistent>
+		</modelName>
+
+		<models>
+			<Type>		ARRAY	<of>	STRING	</of>		</Type>
+			<Flags>		CELL_PRIVATE						</Flags>
+			<Persistent>	true							</Persistent>
+			<Editable>		true							</Editable>
+		</models>
+
+		<stage>
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+			<Editable>		true		</Editable>
+		</stage>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<construct>
+			<Exposed/>
+		</construct>
+
+		<destruct>
+			<Exposed/>
+		</destruct>
+	</CellMethods>
+</root>

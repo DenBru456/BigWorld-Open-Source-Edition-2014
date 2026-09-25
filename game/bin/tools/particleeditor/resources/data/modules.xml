@@ -1,0 +1,35 @@
+<modules.xml>
+	<!--
+		This file contains the global module list available
+		from the development menu.
+
+		Also, it contains a start module in case you want
+		to bypass the dev menu altogether.
+	-->
+
+	<startup>
+		<!-- NOTE:  you can have several startup modules					-->
+
+		<module>		PeModule	</module>
+		<amodule>		ParticleEditorDirector	</amodule>
+		
+	</startup>
+
+	<Bases>
+		<ScriptedModule>
+		</ScriptedModule>
+	</Bases>
+
+	<Extensions>
+		<ParticleEditorDirector>
+			ScriptedModule
+			<script>
+				<module>ParticleEditorDirector</module>
+				<class>ParticleEditorDirector</class>
+			</script>
+		</ParticleEditorDirector>
+		<PeModule>
+			PeModule
+		</PeModule>
+	</Extensions>
+</modules.xml>

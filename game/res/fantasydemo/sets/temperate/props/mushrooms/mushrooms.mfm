@@ -1,0 +1,14 @@
+<mushrooms.mfm>
+	<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+	<collisionFlags>	16	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<property>	specularMap
+		<Texture>	sets/temperate/props/mushrooms/mushroom01_spec.bmp	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	sets/temperate/props/mushrooms/mushroom01_norms.tga	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	sets/temperate/props/mushrooms/mushroom01_dif.bmp	</Texture>
+	</property>
+</mushrooms.mfm>

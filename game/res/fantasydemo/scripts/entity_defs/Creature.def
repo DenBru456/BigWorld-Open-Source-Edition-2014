@@ -1,0 +1,155 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<creatureName>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	Unnamed			</Default>
+			<Persistent>	false		</Persistent>
+		</creatureName>
+		<creatureType>
+			<Type>		ENUM			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	3				</Default>
+			<Persistent>	true		</Persistent>
+			<Editable>	true			</Editable>
+		</creatureType>
+		<creatureMonthOfBirth>
+			<Type>		ENUM			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true		</Persistent>
+			<Editable>	true			</Editable>
+		</creatureMonthOfBirth>
+		<creatureRecoverRate>
+			<Type>		FLOAT			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	0.5				</Default>
+			<Persistent>	true		</Persistent>
+			<Editable>	true			</Editable>
+		</creatureRecoverRate>
+		<creatureState>
+			<Type>		INT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	2				</Default>	<!-- ALIVE -->
+			<Persistent>	true		</Persistent>
+		</creatureState>
+		<lookAtTarget>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	0				</Default>
+		</lookAtTarget>
+		<health>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		100			</Default>
+			<Persistent>	true		</Persistent>
+		</health>
+		<broadcast>
+			<Type>			FLOAT		</Type>
+			<Widget>		RADIUS		</Widget>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		5			</Default>
+			<Persistent>	true		</Persistent>
+			<Editable>		true				</Editable>
+		</broadcast>
+		<maxHealth>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Default>		100			</Default>
+			<Persistent>	true		</Persistent>
+		</maxHealth>
+		<healthPercent>
+			<Type>			INT8		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		100			</Default>
+		</healthPercent>
+		<controllerId>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</controllerId>
+		<enemyList>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</enemyList>
+		<friendList>
+			<Type>		PYTHON			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</friendList>
+		<xorigin>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</xorigin>
+		<zorigin>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</zorigin>
+		<ownerId>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</ownerId>
+		<moving>
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+		</moving>
+		<moveRange>
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</moveRange>
+	</Properties>
+
+	<ClientMethods>
+		<performAction>
+			<Args>
+				<actionID>		INT8			</actionID>
+			</Args>
+		</performAction>
+	</ClientMethods>
+
+	<CellMethods>
+		<die>
+			<Exposed/>
+		</die>
+
+		<rangedHit>
+			<Args>
+				<shooterID>		OBJECT_ID	</shooterID>
+				<damage>		FLOAT		</damage>		<!-- Hit Accuracy -->
+			</Args>
+		</rangedHit>
+
+		<fearEntity>	
+			<Args>
+				<id>		OBJECT_ID		</id>	<!-- EntityID -->
+			</Args>
+		</fearEntity>
+		
+		<startFollow>
+			<Exposed/>
+		</startFollow>
+
+		<stopFollow>
+			<Exposed/>
+		</stopFollow>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+</root>
+
+
+

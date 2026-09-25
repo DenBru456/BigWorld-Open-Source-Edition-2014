@@ -1,0 +1,261 @@
+<ual_config.xml>
+<!--
+Asset Browser configuration file
+
+Please see WorldEditor's Asset Browser configuration file for more details.
+-->
+	<Config>
+		<icon> </icon>
+		<preferredWidth>	290	</preferredWidth>
+		<preferredHeight>	380	</preferredHeight>
+		<shortCaption>	UAL/UAL_DIALOG/SHORT_CAPTION	</shortCaption>
+		<longCaption>	UAL/UAL_DIALOG/LONG_CAPTION	</longCaption>
+		<layoutVertical>	false	</layoutVertical>
+		<filtersVisible>	false	</filtersVisible>
+		<sortVFolders>	false	</sortVFolders>
+		<sortSubFolders>	true	</sortSubFolders>
+		<maxCacheItems>	1000	</maxCacheItems>
+		<initialTreeSize>	164	</initialTreeSize>
+		<pushlikeFilters>	false	</pushlikeFilters>
+		
+		<threadPriority> 1 </threadPriority>
+		<threadYieldMsec> 125 </threadYieldMsec>
+		<!-- Asset Browser performance fine-tunning tags. These tags work
+		together to balance the speed of the Asset Browser's loading thread
+		against the app's main thread.
+		'threadPriority' acceptable values are:
+			-1: loading thread priority low (app more responsive)
+			 0: loading thread priority normal (faster Asset Browser, app still
+				responsive)
+			 1: loading thread priority high (fastest speed, app not very
+				responsive)
+		When using thread priority 1, the loading thread might get too much
+		priority, making the application too unresponsive. To make the app more
+		responsive while keeping the Asset Browser fast, use priority 1 and set
+		the threadYieldMsec to somewhere between 20 to 250 (making the loading
+		thread yield time to the main thread every threadYieldMsec milliseconds)
+		'threadYieldMsec' should be a positive number. The higher it is, the
+		faster the Asset Browser finds files and the less responsive the app
+		will be. -->
+	</Config>
+	<Toolbar>
+		<item>
+			<name>	UalToolbar	</name>
+			<type>	GROUP	</type>
+			<item>
+				<type>	GROUP	</type>
+				<description>	</description>
+				<!--<item>
+					<type>	CHOICE	</type>
+					<item>
+						<type>	CHILD	</type>
+						<description>	Normal Placement	</description>
+						<imageNormal>	resources/ual/toolbar.bmp:32,0,48,16	</imageNormal>
+						<action>	actionPlacement	</action>
+						<updater>	updatePlacement	</updater>
+						<placementMethod>	0	</placementMethod>
+					</item>
+					<item>
+						<type>	CHILD	</type>
+						<description>	Random Rotation	</description>
+						<imageNormal>	resources/ual/toolbar.bmp:48,0,64,16	</imageNormal>
+						<action>	actionPlacement	</action>
+						<updater>	updatePlacement	</updater>
+						<placementMethod>	1	</placementMethod>
+					</item>
+					<item>
+						<type>	CHILD	</type>
+						<description>	Random Rotation and Scale	</description>
+						<imageNormal>	resources/ual/toolbar.bmp:64,0,80,16	</imageNormal>
+						<action>	actionPlacement	</action>
+						<updater>	updatePlacement	</updater>
+						<placementMethod>	2	</placementMethod>
+					</item>
+				</item>
+				<item>
+					<type>	SEPARATOR	</type>
+				</item>-->
+				<item>
+					<type>	ACTION	</type>
+					<description>	UAL/UAL_DIALOG/FRESH_ITEM_LIST	</description>
+					<action>	UalActionRefresh	</action>
+					<imageNormal>	resources/ual/toolbar.bmp:0,0,16,16	</imageNormal>
+				</item>
+				<item>
+					<type>	TOGGLE	</type>
+					<description>	UAL/UAL_DIALOG/TREE_LAYOUT	</description>
+					<imageNormal>	resources/ual/toolbar.bmp:16,0,32,16	</imageNormal>
+					<item>
+						<type>	CHILD	</type>
+						<action>	UalActionLayout	</action>
+						<updater>	UalUpdateLayout	</updater>
+					</item>
+					<item>
+						<type>	CHILD	</type>
+						<action>	UalActionLayout	</action>
+					</item>
+				</item>
+			</item>
+		</item>
+	</Toolbar>
+	<Filters>
+		<Filter>	FantasyDemo
+			<group>	Project	</group>
+			<include>	*res/fantasydemo*	</include>
+		</Filter>
+		<Filter>	Bigworld
+			<group>	Project	</group>
+			<include>	*res/bigworld*	</include>
+		</Filter>
+		<Filter>
+			<separator>	true	</separator>
+		</Filter>
+		<Filter>	Shared
+			<group>	Sets	</group>
+			<include>	*res/fantasydemo/sets/minspec*	</include>
+		</Filter>
+		<Filter>	Minspec
+			<group>	Sets	</group>
+			<include>	*res/fantasydemo/sets/minspec*	</include>
+			<include>	*res/fantasydemo/sets/shared*	</include>
+		</Filter>
+		<Filter>	Highspec
+			<group>	Sets	</group>
+			<exclude>	*res/fantasydemo/sets/minspec*	</exclude>
+		</Filter>
+		<Filter>
+			<separator>	true	</separator>
+		</Filter>
+		<Filter>	TGA
+			<group>	Extension	</group>
+			<include>	*.tga	</include>
+		</Filter>
+		<Filter>	DDS
+			<group>	Extension	</group>
+			<include>	*.dds	</include>
+		</Filter>
+		<Filter>	BMP
+			<group>	Extension	</group>
+			<include>	*.bmp	</include>
+		</Filter>
+		<Filter>	PNG
+			<group>	Extension	</group>
+			<include>	*.png	</include>
+		</Filter>
+		<Filter>	JPG
+			<group>	Extension	</group>
+			<include>	*.jpg	</include>
+		</Filter>
+		<Filter>	Texanim
+			<group>	Extension	</group>
+			<include>	*.texanim	</include>
+		</Filter>			
+		<Filter>	XML
+			<group>	Extension	</group>
+			<include>	*.xml	</include>
+		</Filter>
+	</Filters>
+	<VFolders>
+		<Files>	All
+			<path>	./	</path>
+			<folderExclude>	*particleeditor*;*CVS;*.svn;*.bwthumbs;*/spaces	</folderExclude>
+			<extension>	xml;mfm	</extension>
+			<extension>	bmp;tga;png;jpg;dds;texanim	</extension>
+			<extension> visual	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		<Favourites>	Favourites
+			<path>	resources/ual/favourites.xml	</path>
+			<icon>	resources/ual/fav.ico	</icon>
+			<iconSel>	resources/ual/favsel.ico	</iconSel>
+			<showItems>	true	</showItems>
+			<showInList>	true	</showInList>
+		</Favourites>
+		<History>	History
+			<path>	resources/ual/history.xml	</path>
+			<icon>	resources/ual/history.ico	</icon>
+			<iconSel>	resources/ual/historysel.ico	</iconSel>
+			<showItems>	true	</showItems>
+			<showInList>	true	</showInList>
+			<maxItems>	20	</maxItems>
+			<clearOnLoad>	false	</clearOnLoad>
+		</History>
+		<Files>	Particles
+			<path>	particles	</path>
+			<path>	sets/temperate/particles	</path>
+			<path>	sets/desert/particles	</path>
+			<path>	sets/t_ice/particles	</path>
+			<path>	sets/urban/particles	</path>
+			<path>	sets/minspec/particles	</path>
+			<disableFilter>	TGA;DDS;BMP;PNG;JPG;XML;Texanim </disableFilter>
+			<folderExclude>	*particleeditor*;*CVS;*.svn;*.bwthumbs;*/spaces	</folderExclude>
+			<folderExclude>	*shells	</folderExclude>
+			<extension>	XML	</extension>
+			<thumbnailSize>	2	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>		
+		<Files>	Textures
+			<path>	./	</path>
+			<disableFilter>	XML	</disableFilter>
+			<folderExclude>	*particleeditor*;*CVS;*.svn;*.bwthumbs;*/spaces	</folderExclude>
+			<extension>	tga;bmp;png;dds;jpg;texanim	</extension>
+			<thumbnailSize>	2	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		<Files>	Visuals
+			<path>	./	</path>
+			<disableFilter>	TGA;DDS;BMP;PNG;JPG;XML;Texanim </disableFilter>
+			<folderExclude>	*particleeditor*;*CVS;*.svn;*.bwthumbs;*/spaces	</folderExclude>
+			<folderExclude>	*shells	</folderExclude>
+			<extension>	visual	</extension>
+			<thumbnailSize>	2	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>
+		<Files>	MFMs
+			<path>	./	</path>
+			<disableFilter>	TGA;DDS;BMP;PNG;JPG;XML;Texanim </disableFilter>
+			<folderExclude>	*particleeditor*;*CVS;*.svn;*.bwthumbs;*/spaces	</folderExclude>
+			<extension>	mfm	</extension>
+			<thumbnailSize>	1	</thumbnailSize>
+			<showSubfolders>	true	</showSubfolders>
+			<showFiles>	true	</showFiles>
+		</Files>						
+	</VFolders>
+
+	<IconThumbnailProvider>
+		<Thumbnail>
+			<extension> prefab </extension>
+			<image> icon_prefab.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> animation </extension>
+			<image> icon_animation.bmp </image>
+		</Thumbnail>
+    <Thumbnail>
+      <extension> texanim </extension>
+      <image> icon_texanim.bmp </image>
+    </Thumbnail>
+		<Thumbnail>
+			<extension> mvl </extension>
+			<image> icon_mvl.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> mfm </extension>
+			<image> icon_mfm.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> py </extension>
+			<match> *entities/editor/* </match>
+			<image> icon_entity.bmp </image>
+		</Thumbnail>
+		<Thumbnail>
+			<extension> fx </extension>
+			<image> icon_fx.bmp </image>
+		</Thumbnail>
+	</IconThumbnailProvider>
+</ual_config.xml>

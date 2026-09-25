@@ -1,0 +1,71 @@
+<fd_peasant_hut.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	1	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	fd_s_peasant_hut_1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/props/map/fd_s_peasant_hut_1_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_peasant_hut_1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_peasant_hut_1_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	fd_s_peasant_hut_2	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/props/map/fd_s_peasant_hut_2_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_peasant_hut_2_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_peasant_hut_2_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-4.644573 -0.086323 -7.617322	</min>
+		<max>	9.838150 12.857521 10.893703	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</fd_peasant_hut.visual>

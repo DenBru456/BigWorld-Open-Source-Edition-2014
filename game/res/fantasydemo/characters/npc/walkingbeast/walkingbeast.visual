@@ -1,0 +1,2210 @@
+<walkingbeast.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Base Human	</identifier>
+			<transform>
+				<row0>	-0.000000 1.000000 0.000000	</row0>
+				<row1>	-1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Base HumanPelvis	</identifier>
+			<transform>
+				<row0>	0.000524 0.999994 -0.003449	</row0>
+				<row1>	-0.988667 -0.000000 -0.150123	</row1>
+				<row2>	-0.150122 0.003489 0.988661	</row2>
+				<row3>	-0.000000 7.891207 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Base HumanLThigh	</identifier>
+				<transform>
+					<row0>	-0.946529 0.265352 0.183498	</row0>
+					<row1>	-0.240344 -0.959399 0.147607	</row1>
+					<row2>	0.215215 0.095611 0.971875	</row2>
+					<row3>	0.053014 1.023846 0.008302	</row3>
+				</transform>
+				<node>
+					<identifier>	Base HumanLCalf	</identifier>
+					<transform>
+						<row0>	-0.239729 -0.036357 -0.970159	</row0>
+						<row1>	0.000155 0.999297 -0.037487	</row1>
+						<row2>	0.970840 -0.009137 -0.239554	</row2>
+						<row3>	3.976287 0.000001 0.000002	</row3>
+					</transform>
+					<node>
+						<identifier>	Base HumanLFoot	</identifier>
+						<transform>
+							<row0>	-0.316168 0.163938 0.934431	</row0>
+							<row1>	0.009345 0.985447 -0.169726	</row1>
+							<row2>	-0.948657 -0.044930 -0.313099	</row2>
+							<row3>	3.855898 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Base HumanLDigit1F1	</identifier>
+							<transform>
+								<row0>	0.472124 0.286494 0.833679	</row0>
+								<row1>	-0.211602 0.954897 -0.208317	</row1>
+								<row2>	-0.855759 -0.078057 0.511452	</row2>
+								<row3>	3.472659 0.620028 -0.733138	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanLDigit1F2	</identifier>
+								<transform>
+									<row0>	0.998662 -0.005597 0.051401	</row0>
+									<row1>	0.005605 0.999984 0.000003	</row1>
+									<row2>	-0.051400 0.000285 0.998678	</row2>
+									<row3>	1.417381 0.000000 -0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanLDigit1F2BlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	0.016534 0.998002 -0.060976	</row0>
+										<row1>	-0.007565 0.061107 0.998103	</row1>
+										<row2>	0.999835 -0.016041 0.008560	</row2>
+										<row3>	-1.793049 0.872036 -0.303618	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanLDigit1F1BlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	0.022080 0.997894 -0.060986	</row0>
+									<row1>	-0.006452 0.061142 0.998108	</row1>
+									<row2>	0.999735 -0.021645 0.007788	</row2>
+									<row3>	-0.471484 0.882074 -0.302232	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Base HumanLDigit2F1	</identifier>
+							<transform>
+								<row0>	0.507270 -0.017266 0.861614	</row0>
+								<row1>	-0.044623 0.997932 0.046269	</row1>
+								<row2>	-0.860631 -0.061918 0.505450	</row2>
+								<row3>	3.426357 -0.007643 -0.526072	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanLDigit2F2	</identifier>
+								<transform>
+									<row0>	0.998778 0.018115 0.045992	</row0>
+									<row1>	-0.018136 0.999836 0.000050	</row1>
+									<row2>	-0.045983 -0.000884 0.998942	</row2>
+									<row3>	1.338109 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanLDigit2F2BlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	-0.265247 0.962251 -0.060976	</row0>
+										<row1>	-0.024471 0.056502 0.998103	</row1>
+										<row2>	0.963870 0.266236 0.008560	</row2>
+										<row3>	-2.186083 1.351393 -0.503577	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanLDigit2F1BlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	-0.283027 0.957278 -0.059286	</row0>
+									<row1>	-0.019315 0.056112 0.998238	</row1>
+									<row2>	0.958917 0.283674 0.002609	</row2>
+									<row3>	-0.875198 1.311491 -0.489974	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Base HumanLDigit3F1	</identifier>
+							<transform>
+								<row0>	0.491173 -0.313096 0.812847	</row0>
+								<row1>	0.122682 0.948731 0.291304	</row1>
+								<row2>	-0.862380 -0.043359 0.504402	</row2>
+								<row3>	3.508423 -0.630853 -0.687554	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanLDigit3F2	</identifier>
+								<transform>
+									<row0>	0.997583 0.056013 0.041125	</row0>
+									<row1>	-0.056071 0.998427 0.000263	</row1>
+									<row2>	-0.041045 -0.002568 0.999154	</row2>
+									<row3>	1.267561 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanLDigit3F2BlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	-0.507586 0.859441 -0.060976	</row0>
+										<row1>	-0.038391 0.048140 0.998103	</row1>
+										<row2>	0.860745 0.508964 0.008560	</row2>
+										<row3>	-2.508003 1.763724 -0.390742	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanLDigit3F1BlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	-0.555620 0.829607 -0.055133	</row0>
+									<row1>	-0.029993 0.046269 0.998479	</row1>
+									<row2>	0.830895 0.556428 -0.000826	</row2>
+									<row3>	-1.339556 1.620185 -0.362520	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	HP_left_foot	</identifier>
+							<transform>
+								<row0>	-0.149415 0.962983 -0.224365	</row0>
+								<row1>	-0.844683 -0.006361 0.535229	</row1>
+								<row2>	0.513990 0.269488 0.814365	</row2>
+								<row3>	3.704718 -0.017024 0.111684	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	Base HumanLFootBlendBonebeast_mesh	</identifier>
+							<transform>
+								<row0>	-0.149415 0.962983 -0.224362	</row0>
+								<row1>	-0.844682 -0.006358 0.535231	</row1>
+								<row2>	0.513992 0.269487 0.814365	</row2>
+								<row3>	3.293326 1.344138 -1.464712	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Base HumanLCalfBlendBonebeast_mesh	</identifier>
+						<transform>
+							<row0>	0.258834 0.939004 -0.226444	</row0>
+							<row1>	-0.472800 -0.081266 -0.877415	</row1>
+							<row2>	-0.842298 0.334167 0.422926	</row2>
+							<row3>	5.112362 1.640528 3.244695	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Base HumanLThighBlendBonebeast_mesh	</identifier>
+					<transform>
+						<row0>	-0.277929 0.930716 -0.237747	</row0>
+						<row1>	-0.751823 -0.056700 0.656923	</row1>
+						<row2>	0.597928 0.361321 0.715492	</row2>
+						<row3>	6.016011 1.425514 -5.758736	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Base HumanRThigh	</identifier>
+				<transform>
+					<row0>	-0.219941 -0.403609 0.888102	</row0>
+					<row1>	-0.171986 -0.880091 -0.442561	</row1>
+					<row2>	0.960233 -0.250078 0.124154	</row2>
+					<row3>	0.053014 -1.023847 0.008302	</row3>
+				</transform>
+				<node>
+					<identifier>	Base HumanRCalf	</identifier>
+					<transform>
+						<row0>	-0.199456 0.036866 -0.979213	</row0>
+						<row1>	0.000010 0.999292 0.037620	</row1>
+						<row2>	0.979907 0.007494 -0.199315	</row2>
+						<row3>	3.976290 -0.000001 0.000002	</row3>
+					</transform>
+					<node>
+						<identifier>	Base HumanRFoot	</identifier>
+						<transform>
+							<row0>	0.520971 0.092963 0.848497	</row0>
+							<row1>	-0.136656 0.990313 -0.024595	</row1>
+							<row2>	-0.842564 -0.103139 0.528628	</row2>
+							<row3>	3.855897 0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Base HumanRDigit1F1	</identifier>
+							<transform>
+								<row0>	0.493512 -0.313861 0.811133	</row0>
+								<row1>	0.224621 0.946972 0.229758	</row1>
+								<row2>	-0.840233 0.068809 0.537842	</row2>
+								<row3>	3.472659 -0.620028 -0.733138	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanRDigit1F2	</identifier>
+								<transform>
+									<row0>	0.999789 0.005604 0.019765	</row0>
+									<row1>	-0.005605 0.999984 -0.000003	</row1>
+									<row2>	-0.019765 -0.000108 0.999804	</row2>
+									<row3>	1.316882 0.000000 -0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanRDigit1F2BlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	-0.016534 0.998002 0.060976	</row0>
+										<row1>	-0.007565 -0.061107 0.998103	</row1>
+										<row2>	0.999835 0.016041 0.008560	</row2>
+										<row3>	-1.793069 -0.872006 -0.303596	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanRDigit1F1BlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	-0.022080 0.997894 0.060986	</row0>
+									<row1>	-0.006452 -0.061142 0.998108	</row1>
+									<row2>	0.999735 0.021645 0.007788	</row2>
+									<row3>	-0.471506 -0.882044 -0.302210	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Base HumanRDigit2F1	</identifier>
+							<transform>
+								<row0>	0.534518 0.015376 0.845017	</row0>
+								<row1>	0.044461 0.997938 -0.046283	</row1>
+								<row2>	-0.843987 0.062310 0.532732	</row2>
+								<row3>	3.426358 0.007643 -0.526072	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanRDigit2F2	</identifier>
+								<transform>
+									<row0>	0.999733 -0.018134 0.014350	</row0>
+									<row1>	0.018136 0.999836 -0.000050	</row1>
+									<row2>	-0.014347 0.000310 0.999897	</row2>
+									<row3>	1.338109 -0.000000 -0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanRDigit2F2BlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	0.265247 0.962251 0.060976	</row0>
+										<row1>	-0.024471 -0.056502 0.998103	</row1>
+										<row2>	0.963870 -0.266236 0.008560	</row2>
+										<row3>	-2.186095 -1.351358 -0.503555	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanRDigit2F1BlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	0.283027 0.957278 0.059286	</row0>
+									<row1>	-0.019315 -0.056112 0.998238	</row1>
+									<row2>	0.958917 -0.283674 0.002609	</row2>
+									<row3>	-0.875209 -1.311456 -0.489952	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Base HumanRDigit3F1	</identifier>
+							<transform>
+								<row0>	0.515000 0.336584 0.788344	</row0>
+								<row1>	-0.136543 0.940153 -0.312200	</row1>
+								<row2>	-0.846245 0.053141 0.530137	</row2>
+								<row3>	3.508424 0.630853 -0.687554	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanRDigit3F2	</identifier>
+								<transform>
+									<row0>	0.998382 -0.056066 0.009479	</row0>
+									<row1>	0.056071 0.998427 -0.000263	</row1>
+									<row2>	-0.009449 0.000794 0.999955	</row2>
+									<row3>	1.267561 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanRDigit3F2BlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	0.507586 0.859441 0.060976	</row0>
+										<row1>	-0.038391 -0.048140 0.998103	</row1>
+										<row2>	0.860745 -0.508964 0.008560	</row2>
+										<row3>	-2.508006 -1.763687 -0.390720	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanRDigit3F1BlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	0.555620 0.829606 0.055133	</row0>
+									<row1>	-0.029993 -0.046269 0.998479	</row1>
+									<row2>	0.830895 -0.556428 -0.000826	</row2>
+									<row3>	-1.339556 -1.620149 -0.362498	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	HP_right_foot	</identifier>
+							<transform>
+								<row0>	0.149415 0.962983 0.224361	</row0>
+								<row1>	-0.844684 0.006356 0.535228	</row1>
+								<row2>	0.513990 -0.269486 0.814366	</row2>
+								<row3>	3.786192 0.020808 0.041676	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	Base HumanRFootBlendBonebeast_mesh	</identifier>
+							<transform>
+								<row0>	0.149415 0.962983 0.224363	</row0>
+								<row1>	-0.844682 0.006358 0.535231	</row1>
+								<row2>	0.513992 -0.269487 0.814365	</row2>
+								<row3>	3.293303 -1.344102 -1.464711	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Base HumanRCalfBlendBonebeast_mesh	</identifier>
+						<transform>
+							<row0>	-0.258842 0.939000 0.226453	</row0>
+							<row1>	-0.472805 0.081268 -0.877412	</row1>
+							<row2>	-0.842292 -0.334179 0.422928	</row2>
+							<row3>	5.112396 -1.640503 3.244657	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Base HumanRThighBlendBonebeast_mesh	</identifier>
+					<transform>
+						<row0>	0.277929 0.930716 0.237747	</row0>
+						<row1>	-0.751823 0.056700 0.656923	</row1>
+						<row2>	0.597928 -0.361321 0.715492	</row2>
+						<row3>	6.016010 -1.425514 -5.758737	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Base HumanSpine1	</identifier>
+				<transform>
+					<row0>	0.997413 0.000771 0.071875	</row0>
+					<row1>	-0.000773 1.000000 -0.000002	</row1>
+					<row2>	-0.071875 -0.000053 0.997414	</row2>
+					<row3>	0.887911 -0.000001 0.482629	</row3>
+				</transform>
+				<node>
+					<identifier>	Base HumanSpine2	</identifier>
+					<transform>
+						<row0>	0.999795 -0.006592 -0.019150	</row0>
+						<row1>	0.008914 0.992265 0.123815	</row1>
+						<row2>	0.018186 -0.123960 0.992120	</row2>
+						<row3>	1.112802 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Base HumanSpine3	</identifier>
+						<transform>
+							<row0>	0.999824 -0.005676 -0.017877	</row0>
+							<row1>	0.007964 0.991402 0.130612	</row1>
+							<row2>	0.016982 -0.130731 0.991272	</row2>
+							<row3>	1.112797 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Base HumanRibcage	</identifier>
+							<transform>
+								<row0>	0.999481 0.001134 -0.032178	</row0>
+								<row1>	0.001106 0.997582 0.069491	</row1>
+								<row2>	0.032179 -0.069491 0.997064	</row2>
+								<row3>	1.738287 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanLCollarbone	</identifier>
+								<transform>
+									<row0>	-0.000049 1.000000 0.000048	</row0>
+									<row1>	0.999970 0.000049 -0.007797	</row1>
+									<row2>	-0.007797 0.000048 -0.999970	</row2>
+									<row3>	-0.326093 0.297299 -0.550113	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanLUpperarm	</identifier>
+									<transform>
+										<row0>	0.594513 -0.750051 0.289789	</row0>
+										<row1>	0.799372 0.590279 -0.112142	</row1>
+										<row2>	-0.086945 0.298319 0.950498	</row2>
+										<row3>	1.971867 0.000000 -0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	Base HumanLForearm	</identifier>
+										<transform>
+											<row0>	0.547991 -0.000001 -0.836484	</row0>
+											<row1>	0.000000 1.000000 0.000000	</row1>
+											<row2>	0.836483 0.000000 0.547992	</row2>
+											<row3>	3.010621 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	Base HumanLPalm	</identifier>
+											<transform>
+												<row0>	0.890666 -0.349046 0.291343	</row0>
+												<row1>	0.238193 -0.187593 -0.952928	</row1>
+												<row2>	0.387269 0.918137 -0.083943	</row2>
+												<row3>	2.260469 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	Base HumanLDigit11	</identifier>
+												<transform>
+													<row0>	0.436166 0.775804 -0.455946	</row0>
+													<row1>	0.853016 -0.195098 0.484048	</row1>
+													<row2>	0.286571 -0.600055 -0.746868	</row2>
+													<row3>	0.667124 0.405205 -0.216584	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanLDigit12	</identifier>
+													<transform>
+														<row0>	0.946683 -0.000002 0.322168	</row0>
+														<row1>	0.000002 1.000000 0.000000	</row1>
+														<row2>	-0.322168 0.000000 0.946682	</row2>
+														<row3>	0.360816 0.000001 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanLDigit13	</identifier>
+														<transform>
+															<row0>	0.847935 0.000001 0.530100	</row0>
+															<row1>	-0.000001 1.000000 -0.000000	</row1>
+															<row2>	-0.530100 -0.000000 0.847935	</row2>
+															<row3>	0.367458 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanLDigit13BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	0.605942 -0.620088 -0.498323	</row0>
+																<row1>	-0.795321 -0.485839 -0.362526	</row1>
+																<row2>	-0.017307 0.615996 -0.787559	</row2>
+																<row3>	9.112679 0.335316 2.774215	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanLDigit12BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	0.777945 -0.620087 -0.101458	</row0>
+															<row1>	-0.482319 -0.485840 -0.728922	</row1>
+															<row2>	0.402703 0.615997 -0.677037	</row2>
+															<row3>	6.624938 0.335325 7.182003	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanLDigit11BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	0.769177 -0.620088 0.154459	</row0>
+														<row1>	-0.221901 -0.485840 -0.845411	</row1>
+														<row2>	0.599272 0.615996 -0.511295	</row2>
+														<row3>	4.320123 0.335316 8.932796	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanLDigit21	</identifier>
+												<transform>
+													<row0>	0.968542 0.136009 0.208395	</row0>
+													<row1>	0.148280 -0.987950 -0.044363	</row1>
+													<row2>	0.199850 0.073868 -0.977038	</row2>
+													<row3>	1.371102 0.309964 0.076514	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanLDigit22	</identifier>
+													<transform>
+														<row0>	0.742035 0.000001 0.670361	</row0>
+														<row1>	-0.000001 1.000000 -0.000001	</row1>
+														<row2>	-0.670360 -0.000000 0.742036	</row2>
+														<row3>	0.537662 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanLDigit23	</identifier>
+														<transform>
+															<row0>	0.892070 -0.000002 0.451897	</row0>
+															<row1>	0.000002 1.000000 -0.000000	</row1>
+															<row2>	-0.451898 0.000001 0.892070	</row2>
+															<row3>	0.401939 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanLDigit23BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	0.635009 -0.605724 0.479439	</row0>
+																<row1>	-0.768505 -0.558407 0.312381	</row1>
+																<row2>	0.078506 -0.566816 -0.820095	</row2>
+																<row3>	8.709041 2.939566 2.318017	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanLDigit22BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	0.349926 -0.605725 0.714598	</row0>
+															<row1>	-0.826736 -0.558405 -0.068490	</row1>
+															<row2>	0.440521 -0.566817 -0.696175	</row2>
+															<row3>	7.124452 2.939554 6.002369	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanLDigit21BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	-0.219260 -0.605724 0.764868	</row0>
+														<row1>	-0.567649 -0.558407 -0.604944	</row1>
+														<row2>	0.793537 -0.566816 -0.221403	</row2>
+														<row3>	1.801952 2.939563 9.229727	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanLDigit31	</identifier>
+												<transform>
+													<row0>	0.970737 -0.146110 0.190585	</row0>
+													<row1>	-0.132155 -0.987659 -0.084055	</row1>
+													<row2>	0.200514 0.056408 -0.978066	</row2>
+													<row3>	1.358699 -0.015798 0.034286	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanLDigit32	</identifier>
+													<transform>
+														<row0>	0.714642 -0.000000 0.699490	</row0>
+														<row1>	0.000001 1.000000 0.000000	</row1>
+														<row2>	-0.699490 0.000000 0.714643	</row2>
+														<row3>	0.670699 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanLDigit33	</identifier>
+														<transform>
+															<row0>	0.808934 -0.000000 0.587899	</row0>
+															<row1>	0.000000 1.000000 0.000000	</row1>
+															<row2>	-0.587900 0.000000 0.808935	</row2>
+															<row3>	0.418691 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanLDigit33BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	0.680094 -0.533298 0.503056	</row0>
+																<row1>	-0.721764 -0.366729 0.586997	</row1>
+																<row2>	-0.128559 -0.762301 -0.634326	</row2>
+																<row3>	9.091941 1.831096 -0.007413	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanLDigit32BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	0.254532 -0.533298 0.806726	</row0>
+															<row1>	-0.928947 -0.366729 0.050664	</row1>
+															<row2>	0.268831 -0.762301 -0.588750	</row2>
+															<row3>	7.778667 1.831093 5.337988	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanLDigit31BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	-0.382279 -0.533298 0.754623	</row0>
+														<row1>	-0.699400 -0.366729 -0.613473	</row1>
+														<row2>	0.603906 -0.762302 -0.232796	</row2>
+														<row3>	2.497250 1.831091 9.255569	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanLDigit41	</identifier>
+												<transform>
+													<row0>	0.920826 -0.383145 0.072665	</row0>
+													<row1>	-0.349776 -0.893838 -0.280551	</row1>
+													<row2>	0.172442 0.232923 -0.957084	</row2>
+													<row3>	1.322525 -0.385510 0.037931	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanLDigit42	</identifier>
+													<transform>
+														<row0>	0.762311 -0.000002 0.647210	</row0>
+														<row1>	0.000002 1.000000 0.000001	</row1>
+														<row2>	-0.647210 0.000001 0.762312	</row2>
+														<row3>	0.571817 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanLDigit43	</identifier>
+														<transform>
+															<row0>	0.852697 0.000002 0.522405	</row0>
+															<row1>	-0.000002 1.000000 0.000000	</row1>
+															<row2>	-0.522406 -0.000001 0.852698	</row2>
+															<row3>	0.366557 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanLDigit43BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	0.675347 -0.291648 0.677383	</row0>
+																<row1>	-0.737479 -0.260188 0.623239	</row1>
+																<row2>	-0.005519 -0.920458 -0.390802	</row2>
+																<row3>	8.960746 2.170583 0.043155	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanLDigit42BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	0.222145 -0.291648 0.930373	</row0>
+															<row1>	-0.954406 -0.260190 0.146321	</row1>
+															<row2>	0.199400 -0.920458 -0.336150	</row2>
+															<row3>	7.985548 2.170597 4.716737	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanLDigit41BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	-0.432669 -0.291647 0.853076	</row0>
+														<row1>	-0.822335 -0.260188 -0.506030	</row1>
+														<row2>	0.369543 -0.920458 -0.127256	</row2>
+														<row3>	3.607954 2.170585 8.763481	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanLDigit51	</identifier>
+												<transform>
+													<row0>	0.802356 -0.594067 -0.057535	</row0>
+													<row1>	-0.521024 -0.650143 -0.553035	</row1>
+													<row2>	0.291134 0.473708 -0.831169	</row2>
+													<row3>	1.231491 -0.632122 -0.148453	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanLDigit52	</identifier>
+													<transform>
+														<row0>	0.664555 0.000000 0.747239	</row0>
+														<row1>	-0.000002 1.000000 0.000001	</row1>
+														<row2>	-0.747239 -0.000002 0.664556	</row2>
+														<row3>	0.425513 -0.000000 0.000001	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanLDigit53	</identifier>
+														<transform>
+															<row0>	0.840748 0.000001 0.541427	</row0>
+															<row1>	-0.000001 1.000000 -0.000000	</row1>
+															<row2>	-0.541427 -0.000000 0.840748	</row2>
+															<row3>	0.282428 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanLDigit53BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	0.809684 0.094994 0.579126	</row0>
+																<row1>	-0.561433 -0.161973 0.811516	</row1>
+																<row2>	0.170892 -0.982212 -0.077815	</row2>
+																<row3>	8.117332 3.229410 -2.612781	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanLDigit52BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	0.367331 0.094995 0.925227	</row0>
+															<row1>	-0.911341 -0.161973 0.378448	</row1>
+															<row2>	0.185813 -0.982212 0.027074	</row2>
+															<row3>	8.522028 3.229416 2.196954	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanLDigit51BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	-0.447114 0.094993 0.889418	</row0>
+														<row1>	-0.888495 -0.161974 -0.429350	</row1>
+														<row2>	0.103278 -0.982212 0.156821	</row2>
+														<row3>	4.448442 3.229414 7.827363	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	HP_left_hand	</identifier>
+												<transform>
+													<row0>	-0.000001 1.000000 -0.000000	</row0>
+													<row1>	1.000000 -0.000001 0.000000	</row1>
+													<row2>	-0.000001 -0.000001 -1.000000	</row2>
+													<row3>	1.132489 -0.000002 -0.279785	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	Base HumanLPalmBlendBonebeast_mesh	</identifier>
+												<transform>
+													<row0>	-0.149165 0.625125 -0.766139	</row0>
+													<row1>	-0.753542 0.429822 0.497422	</row1>
+													<row2>	0.640254 0.651515 0.406944	</row2>
+													<row3>	5.398042 -1.667395 -8.695583	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	Base HumanLForearmBlendBonebeast_mesh	</identifier>
+											<transform>
+												<row0>	-0.280630 -0.768558 -0.574949	</row0>
+												<row1>	-0.655450 0.591048 -0.470157	</row1>
+												<row2>	0.701165 0.244910 -0.669617	</row2>
+												<row3>	6.060794 -9.370755 2.297573	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	Base HumanLUpperarmBlendBonebeast_mesh	</identifier>
+										<transform>
+											<row0>	-0.634744 -0.768558 -0.080117	</row0>
+											<row1>	-0.752364 0.591049 0.290877	</row1>
+											<row2>	-0.176203 0.244910 -0.953400	</row2>
+											<row3>	8.252514 -9.370755 -3.812425	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	Base HumanLCollarboneBlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	-1.000000 -0.000000 0.000001	</row0>
+										<row1>	0.000000 0.999969 -0.007846	</row1>
+										<row2>	-0.000001 -0.007846 -0.999969	</row2>
+										<row3>	-0.297301 -12.855120 0.215213	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	Base HumanLCollarboneBlendBonehead01	</identifier>
+									<transform>
+										<row0>	-1.000000 -0.000000 0.000001	</row0>
+										<row1>	0.000000 0.999969 -0.007846	</row1>
+										<row2>	-0.000001 -0.007846 -0.999969	</row2>
+										<row3>	-0.297301 -12.855120 0.215213	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanRCollarbone	</identifier>
+								<transform>
+									<row0>	0.000032 -1.000000 -0.000034	</row0>
+									<row1>	-0.999969 -0.000033 0.007878	</row1>
+									<row2>	-0.007878 0.000034 -0.999969	</row2>
+									<row3>	-0.326093 -0.297299 -0.550113	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanRUpperarm	</identifier>
+									<transform>
+										<row0>	0.666388 0.737150 0.111964	</row0>
+										<row1>	-0.714280 0.588083 0.379425	</row1>
+										<row2>	0.213848 -0.332817 0.918424	</row2>
+										<row3>	1.971867 0.000001 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	Base HumanRForearm	</identifier>
+										<transform>
+											<row0>	0.480758 0.000044 -0.876854	</row0>
+											<row1>	-0.000086 1.000000 0.000002	</row1>
+											<row2>	0.876853 0.000074 0.480759	</row2>
+											<row3>	3.010622 -0.000001 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	Base HumanRPalm	</identifier>
+											<transform>
+												<row0>	0.965080 -0.038195 -0.259154	</row0>
+												<row1>	0.259240 -0.002755 0.965809	</row1>
+												<row2>	-0.037604 -0.999267 0.007242	</row2>
+												<row3>	2.380702 -0.000001 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	Base HumanRDigit11	</identifier>
+												<transform>
+													<row0>	0.436161 -0.775945 -0.455711	</row0>
+													<row1>	-0.852972 -0.195145 -0.484105	</row1>
+													<row2>	0.286709 0.599856 -0.746974	</row2>
+													<row3>	0.667124 -0.405205 -0.216585	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanRDigit12	</identifier>
+													<transform>
+														<row0>	0.946767 0.000002 0.321920	</row0>
+														<row1>	-0.000002 1.000000 -0.000000	</row1>
+														<row2>	-0.321920 -0.000000 0.946767	</row2>
+														<row3>	0.360817 0.000000 0.000001	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanRDigit13	</identifier>
+														<transform>
+															<row0>	0.848074 -0.000001 0.529878	</row0>
+															<row1>	0.000001 1.000000 0.000000	</row1>
+															<row2>	-0.529878 0.000000 0.848074	</row2>
+															<row3>	0.367458 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanRDigit13BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	-0.611777 -0.604788 0.509864	</row0>
+																<row1>	-0.790974 0.475434 -0.385128	</row1>
+																<row2>	-0.009486 -0.638901 -0.769231	</row2>
+																<row3>	9.092294 -0.287412 2.903604	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanRDigit12BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	-0.789009 -0.604787 0.108153	</row0>
+															<row1>	-0.466655 0.475435 -0.745785	</row1>
+															<row2>	0.399622 -0.638901 -0.657349	</row2>
+															<row3>	6.539076 -0.287420 7.280923	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanRDigit11BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	-0.781808 -0.604788 -0.151684	</row0>
+														<row1>	-0.201641 0.475434 -0.856331	</row1>
+														<row2>	0.590015 -0.638900 -0.493648	</row2>
+														<row3>	4.206982 -0.287412 8.998800	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanRDigit21	</identifier>
+												<transform>
+													<row0>	0.968501 -0.135909 0.208648	</row0>
+													<row1>	-0.148195 -0.987963 0.044353	</row1>
+													<row2>	0.200108 -0.073877 -0.976985	</row2>
+													<row3>	1.371104 -0.309964 0.076514	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanRDigit22	</identifier>
+													<transform>
+														<row0>	0.742211 -0.000001 0.670166	</row0>
+														<row1>	0.000001 1.000000 0.000001	</row1>
+														<row2>	-0.670166 0.000000 0.742212	</row2>
+														<row3>	0.537662 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanRDigit23	</identifier>
+														<transform>
+															<row0>	0.892188 0.000001 0.451663	</row0>
+															<row1>	-0.000002 1.000000 0.000000	</row1>
+															<row2>	-0.451664 -0.000001 0.892189	</row2>
+															<row3>	0.401939 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanRDigit23BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	-0.642390 -0.611633 -0.461778	</row0>
+																<row1>	-0.761638 0.576418 0.296058	</row1>
+																<row2>	0.085099 0.541892 -0.836129	</row2>
+																<row3>	8.674529 -3.046539 2.400587	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanRDigit22BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	-0.364490 -0.611634 -0.702176	</row0>
+															<row1>	-0.813236 0.576416 -0.079949	</row1>
+															<row2>	0.453646 0.541893 -0.707500	</row2>
+															<row3>	7.056362 -3.046529 6.060441	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanRDigit21BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	0.200126 -0.611633 -0.765411	</row0>
+														<row1>	-0.549949 0.576418 -0.604400	</row1>
+														<row2>	0.810868 0.541893 -0.221011	</row2>
+														<row3>	1.712497 -3.046537 9.227187	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanRDigit31	</identifier>
+												<transform>
+													<row0>	0.970681 0.146152 0.190839	</row0>
+													<row1>	0.132183 -0.987655 0.084051	</row1>
+													<row2>	0.200767 -0.056361 -0.978016	</row2>
+													<row3>	1.358699 0.015797 0.034286	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanRDigit32	</identifier>
+													<transform>
+														<row0>	0.714825 0.000000 0.699303	</row0>
+														<row1>	-0.000001 1.000000 -0.000000	</row1>
+														<row2>	-0.699302 -0.000000 0.714826	</row2>
+														<row3>	0.670699 0.000000 -0.000001	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanRDigit33	</identifier>
+														<transform>
+															<row0>	0.809088 0.000000 0.587687	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	-0.587688 -0.000000 0.809089	</row2>
+															<row3>	0.418690 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanRDigit33BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	-0.683286 -0.544333 -0.486644	</row0>
+																<row1>	-0.719574 0.388980 0.575246	</row1>
+																<row2>	-0.123831 0.743234 -0.657472	</row2>
+																<row3>	9.082092 -1.958854 0.047658	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanRDigit32BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	-0.266760 -0.544333 -0.795324	</row0>
+															<row1>	-0.920268 0.388980 0.042445	</row1>
+															<row2>	0.286261 0.743233 -0.604697	</row2>
+															<row3>	7.738331 -1.958851 5.376753	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanRDigit31BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	0.365565 -0.544333 -0.755026	</row0>
+														<row1>	-0.687448 0.388980 -0.613278	</row1>
+														<row2>	0.627517 0.743234 -0.232004	</row2>
+														<row3>	2.441307 -1.958849 9.255069	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanRDigit41	</identifier>
+												<transform>
+													<row0>	0.920790 0.383182 0.072924	</row0>
+													<row1>	0.349749 -0.893847 0.280558	</row1>
+													<row2>	0.172687 -0.232830 -0.957063	</row2>
+													<row3>	1.322525 0.385509 0.037932	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanRDigit42	</identifier>
+													<transform>
+														<row0>	0.762481 0.000002 0.647011	</row0>
+														<row1>	-0.000002 1.000000 -0.000001	</row1>
+														<row2>	-0.647010 -0.000001 0.762482	</row2>
+														<row3>	0.571817 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanRDigit43	</identifier>
+														<transform>
+															<row0>	0.852834 -0.000002 0.522181	</row0>
+															<row1>	0.000002 1.000000 -0.000000	</row1>
+															<row2>	-0.522182 0.000001 0.852835	</row2>
+															<row3>	0.366557 -0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanRDigit43BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	-0.680929 -0.306484 -0.665134	</row0>
+																<row1>	-0.732350 0.284491 0.618651	</row1>
+																<row2>	-0.000382 0.908368 -0.418172	</row2>
+																<row3>	8.935114 -2.306891 0.057825	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanRDigit42BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	-0.233302 -0.306484 -0.922842	</row0>
+															<row1>	-0.947636 0.284493 0.145088	</row1>
+															<row2>	0.218075 0.908367 -0.356808	</row2>
+															<row3>	7.956029 -2.306906 4.715862	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanRDigit41BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	0.419290 -0.306484 -0.854555	</row0>
+														<row1>	-0.816375 0.284491 -0.502589	</row1>
+														<row2>	0.397149 0.908368 -0.130922	</row2>
+														<row3>	3.586014 -2.306894 8.743712	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	Base HumanRDigit51	</identifier>
+												<transform>
+													<row0>	0.802322 0.594138 -0.057272	</row0>
+													<row1>	0.520950 -0.650178 0.553063	</row1>
+													<row2>	0.291358 -0.473570 -0.831169	</row2>
+													<row3>	1.231494 0.632122 -0.148453	</row3>
+												</transform>
+												<node>
+													<identifier>	Base HumanRDigit52	</identifier>
+													<transform>
+														<row0>	0.664751 -0.000000 0.747065	</row0>
+														<row1>	0.000002 1.000000 -0.000001	</row1>
+														<row2>	-0.747065 0.000002 0.664751	</row2>
+														<row3>	0.425513 -0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	Base HumanRDigit53	</identifier>
+														<transform>
+															<row0>	0.840889 -0.000001 0.541206	</row0>
+															<row1>	0.000001 1.000000 0.000000	</row1>
+															<row2>	-0.541207 0.000000 0.840890	</row2>
+															<row3>	0.282427 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	Base HumanRDigit53BlendBonebeast_mesh	</identifier>
+															<transform>
+																<row0>	-0.817098 0.078168 -0.571175	</row0>
+																<row1>	-0.551102 0.184919 0.813690	</row1>
+																<row2>	0.169225 0.979640 -0.108019	</row2>
+																<row3>	8.060944 -3.354861 -2.635893	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	Base HumanRDigit52BlendBonebeast_mesh	</identifier>
+														<transform>
+															<row0>	-0.377869 0.078168 -0.922554	</row0>
+															<row1>	-0.903831 0.184919 0.385869	</row1>
+															<row2>	0.200761 0.979640 0.000775	</row2>
+															<row3>	8.487126 -3.354868 2.146996	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	Base HumanRDigit51BlendBonebeast_mesh	</identifier>
+													<transform>
+														<row0>	0.438113 0.078167 -0.895515	</row0>
+														<row1>	-0.889047 0.184920 -0.418807	</row1>
+														<row2>	0.132863 0.979640 0.150509	</row2>
+														<row3>	4.462568 -3.354867 7.768083	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	HP_right_hand	</identifier>
+												<transform>
+													<row0>	-0.000000 -1.000000 -0.000000	</row0>
+													<row1>	1.000000 0.000001 0.000000	</row1>
+													<row2>	0.000000 -0.000000 1.000000	</row2>
+													<row3>	1.143129 -0.000000 -0.280534	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	Base HumanRPalmBlendBonebeast_mesh	</identifier>
+												<transform>
+													<row0>	0.131401 0.633604 0.762417	</row0>
+													<row1>	-0.738960 -0.450062 0.501381	</row1>
+													<row2>	0.660812 -0.629277 0.409070	</row2>
+													<row3>	5.326752 1.785431 -8.716502	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	Base HumanRForearmBlendBonebeast_mesh	</identifier>
+											<transform>
+												<row0>	0.262492 -0.768557 0.583453	</row0>
+												<row1>	-0.640408 -0.591049 -0.490448	</row1>
+												<row2>	0.721787 -0.244910 -0.647335	</row2>
+												<row3>	6.107223 9.371017 2.415914	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	Base HumanRUpperarmBlendBonebeast_mesh	</identifier>
+										<transform>
+											<row0>	0.637853 -0.768503 0.050471	</row0>
+											<row1>	-0.737952 -0.591113 0.325595	</row1>
+											<row2>	-0.220386 -0.244926 -0.944162	</row2>
+											<row3>	8.065227 9.371460 -4.192548	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	Base HumanRCollarboneBlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	1.000000 -0.000000 -0.000001	</row0>
+										<row1>	0.000000 -0.999969 -0.007846	</row1>
+										<row2>	-0.000001 0.007846 -0.999969	</row2>
+										<row3>	-0.297302 12.855120 0.215212	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	Base HumanRCollarboneBlendBonehead01	</identifier>
+									<transform>
+										<row0>	1.000000 -0.000000 -0.000001	</row0>
+										<row1>	0.000000 -0.999969 -0.007846	</row1>
+										<row2>	-0.000001 0.007846 -0.999969	</row2>
+										<row3>	-0.297302 12.855120 0.215212	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanNeck	</identifier>
+								<transform>
+									<row0>	0.999889 -0.003402 -0.014521	</row0>
+									<row1>	0.003402 0.999994 -0.000025	</row1>
+									<row2>	0.014521 -0.000025 0.999895	</row2>
+									<row3>	0.342887 0.000231 0.769407	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanHead	</identifier>
+									<transform>
+										<row0>	0.999889 0.003401 0.014519	</row0>
+										<row1>	0.000352 0.967996 -0.250967	</row1>
+										<row2>	-0.014908 0.250944 0.967887	</row2>
+										<row3>	0.580382 -0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	left_eye_bone	</identifier>
+										<transform>
+											<row0>	0.000002 -1.000000 0.000000	</row0>
+											<row1>	1.000000 0.000002 0.000002	</row1>
+											<row2>	-0.000002 0.000000 1.000000	</row2>
+											<row3>	0.730653 0.388864 0.935941	</row3>
+										</transform>
+										<node>
+											<identifier>	HP_left_eye	</identifier>
+											<transform>
+												<row0>	0.000002 1.000000 0.000000	</row0>
+												<row1>	-1.000000 0.000002 -0.000002	</row1>
+												<row2>	-0.000002 0.000000 1.000000	</row2>
+												<row3>	-0.000019 0.000275 0.190636	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	left_eye_boneBlendBonebeast_mesh	</identifier>
+											<transform>
+												<row0>	1.000000 -0.000002 0.000002	</row0>
+												<row1>	0.000002 1.000000 -0.000000	</row1>
+												<row2>	-0.000002 0.000000 1.000000	</row2>
+												<row3>	0.388841 -14.836413 -2.365650	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	left_eye_boneBlendBonehead01	</identifier>
+											<transform>
+												<row0>	1.000000 -0.000002 0.000002	</row0>
+												<row1>	0.000002 1.000000 -0.000000	</row1>
+												<row2>	-0.000002 0.000000 1.000000	</row2>
+												<row3>	0.388841 -14.836413 -2.365650	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	HP_right_mouth	</identifier>
+										<transform>
+											<row0>	1.000000 -0.000002 0.000002	</row0>
+											<row1>	0.000002 1.000000 -0.000000	</row1>
+											<row2>	-0.000002 0.000000 1.000000	</row2>
+											<row3>	0.161928 -0.396331 1.077654	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	HP_left_mouth	</identifier>
+										<transform>
+											<row0>	1.000000 -0.000000 0.000000	</row0>
+											<row1>	0.000000 1.000000 0.000000	</row1>
+											<row2>	-0.000000 -0.000000 1.000000	</row2>
+											<row3>	0.161929 0.396335 1.077652	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	right_eye_bone	</identifier>
+										<transform>
+											<row0>	0.000002 -1.000000 0.000000	</row0>
+											<row1>	0.984807 0.000002 0.173650	</row1>
+											<row2>	-0.173650 -0.000000 0.984808	</row2>
+											<row3>	0.730652 -0.389795 0.935943	</row3>
+										</transform>
+										<node>
+											<identifier>	HP_right_eye	</identifier>
+											<transform>
+												<row0>	1.000000 -0.000001 0.000002	</row0>
+												<row1>	0.000002 0.984808 -0.173648	</row1>
+												<row2>	-0.000002 0.173648 0.984808	</row2>
+												<row3>	0.004262 0.033376 0.187691	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	right_eye_boneBlendBonehead01	</identifier>
+											<transform>
+												<row0>	1.000000 -0.000001 0.000002	</row0>
+												<row1>	0.000002 0.984808 -0.173648	</row1>
+												<row2>	-0.000002 0.173648 0.984808	</row2>
+												<row3>	-0.389818 -15.021804 0.246603	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	Base Jaw	</identifier>
+										<transform>
+											<row0>	-0.422618 0.000001 0.906308	</row0>
+											<row1>	-0.000002 1.000000 -0.000002	</row1>
+											<row2>	-0.906308 -0.000002 -0.422618	</row2>
+											<row3>	0.216425 0.000001 0.499238	</row3>
+										</transform>
+										<node>
+											<identifier>	Base JawBlendBonehead01	</identifier>
+											<transform>
+												<row0>	-0.000000 -1.000000 0.000002	</row0>
+												<row1>	-0.422617 -0.000001 -0.906309	</row1>
+												<row2>	0.906309 -0.000001 -0.422617	</row2>
+												<row3>	4.304567 0.000023 13.795520	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	Base HumanHeadBlendBonebeast_mesh	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000002	</row0>
+											<row1>	1.000000 -0.000000 0.000002	</row1>
+											<row2>	-0.000002 0.000002 1.000000	</row2>
+											<row3>	-14.105754 -0.000001 -1.429737	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	Base HumanHeadBlendBonehead01	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000002	</row0>
+											<row1>	1.000000 -0.000000 0.000002	</row1>
+											<row2>	-0.000002 0.000002 1.000000	</row2>
+											<row3>	-14.105754 -0.000001 -1.429737	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	Base HumanNeckBlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	0.000398 -1.000000 0.000001	</row0>
+										<row1>	0.999974 0.000398 0.007157	</row1>
+										<row2>	-0.007157 -0.000001 0.999974	</row2>
+										<row3>	-13.514781 -0.005614 -1.530629	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	Base HumanNeckBlendBonehead01	</identifier>
+									<transform>
+										<row0>	0.000398 -1.000000 0.000001	</row0>
+										<row1>	0.999974 0.000398 0.007157	</row1>
+										<row2>	-0.007157 -0.000001 0.999974	</row2>
+										<row3>	-13.514781 -0.005614 -1.530629	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanRibcageBlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 0.000000	</row0>
+									<row1>	1.000000 -0.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	-13.182505 0.000001 -0.664460	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	Base HumanRibcageBlendBonehead01	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 0.000000	</row0>
+									<row1>	1.000000 -0.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	-13.182505 0.000001 -0.664460	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Base HumanSpine3BlendBonebeast_mesh	</identifier>
+							<transform>
+								<row0>	0.000000 -1.000000 -0.000000	</row0>
+								<row1>	0.999505 0.000000 -0.031474	</row1>
+								<row2>	0.031474 -0.000000 0.999505	</row2>
+								<row3>	-11.458598 -0.000001 -0.249227	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	Base HumanSpine3BlendBonehead01	</identifier>
+							<transform>
+								<row0>	0.000000 -1.000000 -0.000000	</row0>
+								<row1>	0.999505 0.000000 -0.031474	</row1>
+								<row2>	0.031474 -0.000000 0.999505	</row2>
+								<row3>	-11.458598 -0.000001 -0.249227	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Base HumanSpine2BlendBonebeast_mesh	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 0.000000	</row0>
+							<row1>	0.998800 -0.000000 -0.048985	</row1>
+							<row2>	0.048985 -0.000000 0.998800	</row2>
+							<row3>	-10.348410 0.000002 -0.048375	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Base HumanSpine1BlendBonebeast_mesh	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.997683 -0.000000 -0.068036	</row1>
+						<row2>	0.068036 -0.000000 0.997683	</row2>
+						<row3>	-9.234648 0.000002 0.149103	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Base HumanTail1	</identifier>
+				<transform>
+					<row0>	-0.528979 -0.017307 -0.848459	</row0>
+					<row1>	-0.008123 0.999849 -0.015331	</row1>
+					<row2>	0.848596 -0.001218 -0.529040	</row2>
+					<row3>	-0.236108 -0.000002 -1.203100	</row3>
+				</transform>
+				<node>
+					<identifier>	Base HumanTail2	</identifier>
+					<transform>
+						<row0>	0.886629 -0.064314 -0.457988	</row0>
+						<row1>	0.072682 0.997355 0.000651	</row1>
+						<row2>	0.456735 -0.033865 0.888958	</row2>
+						<row3>	1.917237 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Base HumanTail3	</identifier>
+						<transform>
+							<row0>	0.990896 0.123311 0.054028	</row0>
+							<row1>	-0.128458 0.986105 0.105334	</row1>
+							<row2>	-0.040288 -0.111316 0.992968	</row2>
+							<row3>	1.948156 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Base HumanTail4	</identifier>
+							<transform>
+								<row0>	0.830699 0.486782 0.270152	</row0>
+								<row1>	-0.467712 0.873416 -0.135611	</row1>
+								<row2>	-0.301968 -0.013701 0.953220	</row2>
+								<row3>	2.265384 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	Base HumanTail5	</identifier>
+								<transform>
+									<row0>	0.889209 0.455564 0.042063	</row0>
+									<row1>	-0.425388 0.857129 -0.290473	</row1>
+									<row2>	-0.168383 0.240398 0.955958	</row2>
+									<row3>	2.150357 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	Base HumanTail5BlendBonebeast_mesh	</identifier>
+									<transform>
+										<row0>	0.000001 -1.000000 0.000004	</row0>
+										<row1>	-0.715832 0.000002 0.698273	</row1>
+										<row2>	-0.698273 -0.000003 -0.715832	</row2>
+										<row3>	-2.569161 -0.000011 -4.120288	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Base HumanTail4BlendBonebeast_mesh	</identifier>
+								<transform>
+									<row0>	0.000001 -1.000000 0.000004	</row0>
+									<row1>	-0.911712 0.000001 0.410831	</row1>
+									<row2>	-0.410831 -0.000004 -0.911712	</row2>
+									<row3>	1.147976 -0.000013 -4.751063	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Base HumanTail3BlendBonebeast_mesh	</identifier>
+							<transform>
+								<row0>	0.000000 -1.000000 0.000004	</row0>
+								<row1>	-0.989168 0.000000 0.146787	</row1>
+								<row2>	-0.146787 -0.000004 -0.989168	</row2>
+								<row3>	4.664816 -0.000011 -4.258306	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Base HumanTail2BlendBonebeast_mesh	</identifier>
+						<transform>
+							<row0>	0.000000 -1.000000 0.000004	</row0>
+							<row1>	-0.930002 0.000001 0.367555	</row1>
+							<row2>	-0.367555 -0.000004 -0.930002	</row2>
+							<row3>	5.524228 -0.000014 -5.206282	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Base HumanTail1BlendBonebeast_mesh	</identifier>
+					<transform>
+						<row0>	0.000001 -1.000000 0.000003	</row0>
+						<row1>	-0.543679 0.000002 0.839293	</row1>
+						<row2>	-0.839293 -0.000003 -0.543679	</row2>
+						<row3>	3.391211 -0.000020 -7.446467	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Base HumanTail1Chain	</identifier>
+				<transform>
+					<row0>	-0.998437 0.055237 0.008490	</row0>
+					<row1>	0.055654 0.996582 0.061043	</row1>
+					<row2>	-0.005089 0.061421 -0.998099	</row2>
+					<row3>	-0.327845 -0.000000 1.033576	</row3>
+				</transform>
+				<node>
+					<identifier>	Base HumanTail2Chain	</identifier>
+					<transform>
+						<row0>	0.998285 -0.055661 0.018137	</row0>
+						<row1>	0.055916 0.998339 -0.013884	</row1>
+						<row2>	-0.017334 0.014875 0.999739	</row2>
+						<row3>	1.032254 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Base HumanTail3Chain	</identifier>
+						<transform>
+							<row0>	0.746560 -0.664445 0.034077	</row0>
+							<row1>	0.553633 0.648826 0.522030	</row1>
+							<row2>	-0.368970 -0.370860 0.852246	</row2>
+							<row3>	0.681636 0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Base HumanTail3ChainBlendBonebeast_mesh	</identifier>
+							<transform>
+								<row0>	0.000000 -1.000000 0.000000	</row0>
+								<row1>	-0.999998 -0.000000 -0.001974	</row1>
+								<row2>	0.001974 -0.000000 -0.999998	</row2>
+								<row3>	6.293710 -0.000000 1.052360	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Base HumanTail2ChainBlendBonebeast_mesh	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 -0.000000	</row0>
+							<row1>	-0.999954 0.000000 0.009568	</row1>
+							<row2>	-0.009568 0.000000 -0.999954	</row2>
+							<row3>	6.987073 -0.000001 0.979645	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Base HumanTail1ChainBlendBonebeast_mesh	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	-0.999935 0.000000 -0.011372	</row1>
+						<row2>	0.011372 0.000000 -0.999935	</row2>
+						<row3>	7.997282 -0.000001 1.125735	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Base HumanPelvisBlendBonebeast_mesh	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.000000 -0.000000	</row0>
+					<row1>	0.999994 -0.000000 0.003489	</row1>
+					<row2>	-0.003489 -0.000000 0.999994	</row2>
+					<row3>	-8.333754 0.000000 -0.029076	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Base HumanPelvisBlendBonehead01	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.000000 -0.000000	</row0>
+					<row1>	0.999994 -0.000000 0.003489	</row1>
+					<row2>	-0.003489 -0.000000 0.999994	</row2>
+					<row3>	-8.333754 0.000000 -0.029076	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Base HumanLPlatform	</identifier>
+			<transform>
+				<row0>	0.000000 0.961897 0.273412	</row0>
+				<row1>	-1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 -0.273412 0.961897	</row2>
+				<row3>	-1.735021 0.519601 -3.148893	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Base HumanRPlatform	</identifier>
+			<transform>
+				<row0>	-0.000000 0.999480 -0.032242	</row0>
+				<row1>	-1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 0.032242 0.999480	</row2>
+				<row3>	1.735021 0.061274 3.809103	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	right_eye_boneBlendBonehead01	</node>
+		<node>	left_eye_boneBlendBonehead01	</node>
+		<node>	Base HumanHeadBlendBonehead01	</node>
+		<node>	Base JawBlendBonehead01	</node>
+		<node>	Base HumanRibcageBlendBonehead01	</node>
+		<node>	Base HumanNeckBlendBonehead01	</node>
+		<node>	Base HumanPelvisBlendBonehead01	</node>
+		<node>	Base HumanRCollarboneBlendBonehead01	</node>
+		<node>	Base HumanLCollarboneBlendBonehead01	</node>
+		<node>	Base HumanSpine3BlendBonehead01	</node>
+		<geometry>
+			<vertices>	head01.mvertices	</vertices>
+			<primitive>	head01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	eyes_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	11	</materialKind>
+					<property>	reflectionMask
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d1.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.230000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	1.000000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	top_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.391000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.720000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss1.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanTail5BlendBonebeast_mesh	</node>
+		<node>	Base HumanTail4BlendBonebeast_mesh	</node>
+		<node>	Base HumanTail3BlendBonebeast_mesh	</node>
+		<node>	Base HumanRUpperarmBlendBonebeast_mesh	</node>
+		<node>	Base HumanRForearmBlendBonebeast_mesh	</node>
+		<node>	Base HumanRPalmBlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit21BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit31BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit11BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit12BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit13BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit22BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit32BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit23BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit41BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit42BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit52BlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh0a.vertices	</vertices>
+			<primitive>	beast_mesh0a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	top_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.391000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.720000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss1.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanTail2BlendBonebeast_mesh	</node>
+		<node>	Base HumanTail3BlendBonebeast_mesh	</node>
+		<node>	Base HumanTail1BlendBonebeast_mesh	</node>
+		<node>	Base HumanLUpperarmBlendBonebeast_mesh	</node>
+		<node>	Base HumanLForearmBlendBonebeast_mesh	</node>
+		<node>	Base HumanLPalmBlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit21BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit31BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit11BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit12BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit13BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit22BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit32BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit23BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit42BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit41BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit52BlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh0b.vertices	</vertices>
+			<primitive>	beast_mesh0b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	top_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.391000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.720000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss1.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanRibcageBlendBonebeast_mesh	</node>
+		<node>	Base HumanLCollarboneBlendBonebeast_mesh	</node>
+		<node>	Base HumanNeckBlendBonebeast_mesh	</node>
+		<node>	Base HumanHeadBlendBonebeast_mesh	</node>
+		<node>	Base HumanLUpperarmBlendBonebeast_mesh	</node>
+		<node>	Base HumanRCollarboneBlendBonebeast_mesh	</node>
+		<node>	Base HumanRUpperarmBlendBonebeast_mesh	</node>
+		<node>	Base HumanSpine3BlendBonebeast_mesh	</node>
+		<node>	Base HumanTail1ChainBlendBonebeast_mesh	</node>
+		<node>	Base HumanPelvisBlendBonebeast_mesh	</node>
+		<node>	Base HumanSpine1BlendBonebeast_mesh	</node>
+		<node>	Base HumanRThighBlendBonebeast_mesh	</node>
+		<node>	Base HumanSpine2BlendBonebeast_mesh	</node>
+		<node>	Base HumanTail1BlendBonebeast_mesh	</node>
+		<node>	Base HumanLThighBlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh0c.vertices	</vertices>
+			<primitive>	beast_mesh0c.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	top_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.391000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.720000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss1.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanLDigit32BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit33BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit42BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit43BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit31BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit53BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit52BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit41BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit51BlendBonebeast_mesh	</node>
+		<node>	Base HumanLPalmBlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit51BlendBonebeast_mesh	</node>
+		<node>	Base HumanRPalmBlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit52BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit53BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit41BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit42BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit43BlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh0d.vertices	</vertices>
+			<primitive>	beast_mesh0d.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	top_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.391000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.720000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss1.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanRDigit32BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit33BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit31BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit43BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit42BlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh0e.vertices	</vertices>
+			<primitive>	beast_mesh0e.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	top_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.391000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.720000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss1.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast1_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanLDigit1F1BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit2F1BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit2F2BlendBonebeast_mesh	</node>
+		<node>	Base HumanLFootBlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit1F2BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit3F1BlendBonebeast_mesh	</node>
+		<node>	Base HumanLDigit3F2BlendBonebeast_mesh	</node>
+		<node>	Base HumanRThighBlendBonebeast_mesh	</node>
+		<node>	Base HumanRCalfBlendBonebeast_mesh	</node>
+		<node>	Base HumanRFootBlendBonebeast_mesh	</node>
+		<node>	Base HumanPelvisBlendBonebeast_mesh	</node>
+		<node>	Base HumanTail2ChainBlendBonebeast_mesh	</node>
+		<node>	Base HumanSpine2BlendBonebeast_mesh	</node>
+		<node>	Base HumanLThighBlendBonebeast_mesh	</node>
+		<node>	Base HumanTail1BlendBonebeast_mesh	</node>
+		<node>	Base HumanSpine1BlendBonebeast_mesh	</node>
+		<node>	Base HumanLCalfBlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh1a.vertices	</vertices>
+			<primitive>	beast_mesh1a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bottom_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.200000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss2.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s2.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast2_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d2.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanRDigit2F1BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit2F2BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit3F1BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit3F2BlendBonebeast_mesh	</node>
+		<node>	Base HumanRFootBlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit1F1BlendBonebeast_mesh	</node>
+		<node>	Base HumanRDigit1F2BlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh1b.vertices	</vertices>
+			<primitive>	beast_mesh1b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bottom_skin_skinned	</identifier>
+					<fx>	shaders/std_effects/subsurface_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	rimStrength
+						<Float>	0.200000	</Float>
+					</property>
+					<property>	rimWidth
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	subSurfaceBlendPower
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	subSurfaceMap
+						<Texture>	characters/npc/beast/beast_sss2.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s2.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast2_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d2.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanLCollarboneBlendBonebeast_mesh	</node>
+		<node>	Base HumanLUpperarmBlendBonebeast_mesh	</node>
+		<node>	Base HumanRibcageBlendBonebeast_mesh	</node>
+		<node>	Base HumanTail1ChainBlendBonebeast_mesh	</node>
+		<node>	Base HumanTail2ChainBlendBonebeast_mesh	</node>
+		<node>	Base HumanPelvisBlendBonebeast_mesh	</node>
+		<node>	Base HumanTail3ChainBlendBonebeast_mesh	</node>
+		<node>	Base HumanSpine1BlendBonebeast_mesh	</node>
+		<node>	Base HumanLThighBlendBonebeast_mesh	</node>
+		<node>	Base HumanNeckBlendBonebeast_mesh	</node>
+		<node>	Base HumanHeadBlendBonebeast_mesh	</node>
+		<node>	Base HumanRCollarboneBlendBonebeast_mesh	</node>
+		<node>	Base HumanSpine3BlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh2a.vertices	</vertices>
+			<primitive>	beast_mesh2a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	metal_armour_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	5	</materialKind>
+					<property>	reflectionMask
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/beast/beast_s2.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/beast/beast2_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/beast/beast_d2.bmp	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	0.882353 0.949020 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.420700	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	2.450000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Base HumanRForearmBlendBonebeast_mesh	</node>
+		<node>	Base HumanLForearmBlendBonebeast_mesh	</node>
+		<geometry>
+			<vertices>	beast_mesh3a.vertices	</vertices>
+			<primitive>	beast_mesh3a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	chains_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	5	</materialKind>
+					<property>	reflectionMask
+						<Texture>	characters/npc/beast/beast_s1.bmp	</Texture>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/lighting room/lighting_room_light_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/lighting room/lighting_room_light_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/lighting room/lighting_room_light_dif.tga	</Texture>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.680000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	1.660000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-5.673908 -0.104597 -8.189420	</min>
+		<max>	5.673906 15.937140 3.436677	</max>
+	</boundingBox>
+</walkingbeast.visual>

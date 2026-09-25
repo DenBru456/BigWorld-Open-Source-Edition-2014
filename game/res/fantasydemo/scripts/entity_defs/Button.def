@@ -1,0 +1,23 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<modelType>
+			<Type>		UINT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</modelType>
+
+		<useData>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+		</useData>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

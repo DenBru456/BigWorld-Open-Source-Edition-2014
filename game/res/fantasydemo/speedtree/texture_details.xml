@@ -1,0 +1,16 @@
+<fantasydemo_speedtree>
+  <rule pattern=".*(composite|Composite).*">
+    <format> DXT3	</format>
+    <mipCount> 20	</mipCount>
+    <horizontalMips> true	</horizontalMips>
+    <lodMode> 0 </lodMode>
+  </rule>
+  <rule pattern=".*(_normal|_Normal).*">
+    <format> DXT5	</format>
+    <mipCount> 0	</mipCount>
+    <horizontalMips> false	</horizontalMips>
+    <lodMode>	0	</lodMode>
+    <noFilter> true </noFilter>
+	<normalMap> false </normalMap>
+  </rule>
+</fantasydemo_speedtree>

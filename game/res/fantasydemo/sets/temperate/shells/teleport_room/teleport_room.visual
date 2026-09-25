@@ -1,0 +1,241 @@
+<teleport_room.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_norms1.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	fd_s_particle_room_02	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	parallaxAspectRatio
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	parallaxScale
+						<Float>	0.035000	</Float>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_02_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_02_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_02_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	fd_s_particle_room_03	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_03_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_03_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_03_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	fd_s_particle_room_01	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_01_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_01_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_01_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	4
+				<material>
+					<identifier>	fd_s_particle_room_04	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_04_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_04_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_04_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	5
+				<material>
+					<identifier>	fd_s_particle_room_05	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_05_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_05_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_05_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	6
+				<material>
+					<identifier>	fd_s_particle_room_06	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_06_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_06_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/shells/particle_room/particle_room_06_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-10.000000 -0.400000 -20.244085	</min>
+		<max>	10.000000 13.600000 18.800001	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-10.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.000000 1.000000	</normal>
+		<d>	-19.999998	</d>
+		<portal>
+			<uAxis>	1.000000 -0.000000 0.000001	</uAxis>
+			<point>	-2.500002 4.999999 -0.000002	</point>
+			<point>	2.499998 4.999999 -0.000002	</point>
+			<point>	2.499998 -0.000001 -0.000002	</point>
+			<point>	-2.500001 -0.000001 -0.000002	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 -0.000000	</normal>
+		<d>	-13.599999	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-0.400000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-10.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	-18.799999	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<materialKind>	2	</materialKind>
+</teleport_room.visual>

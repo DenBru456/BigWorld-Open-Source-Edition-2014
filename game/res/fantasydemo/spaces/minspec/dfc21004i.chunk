@@ -1,0 +1,81 @@
+<dfc21004i.chunk>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710795	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710822	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_corner_stairs_001.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	9724	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710795	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710795	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/web_corner01.model	</resource>
+		<transform>
+			<row0>	0.984972 0.000000 0.172684	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.172684 0.000000 0.984972	</row2>
+			<row3>	8.602402 0.952332 -8.643341	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	9724	</offset>
+			<size>	32	</size>
+		</staticLighting>
+	</model>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710795	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710795	</modified_on>
+		</metaData>
+		<colour>	67.000000 51.000023 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<transform>
+		<row0>	-0.999998 0.000000 0.001745	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-0.001745 0.000000 -0.999998	</row2>
+		<row3>	-60.652531 134.479935 640.733459	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-71.155113 131.029282 640.132385	</min>
+		<max>	-60.040783 140.138336 652.262024	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	dfc21004i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</dfc21004i.chunk>

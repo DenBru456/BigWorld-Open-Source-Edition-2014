@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <zh_cn>
+    <MENU>
+      <FILE>
+        文件(&amp;F)<DESC>文件操作</DESC>
+        <OPENDIR>
+          打开粒子目录(&amp;O)...
+          <DESC>打开一个粒子目录</DESC>
+        </OPENDIR>
+        <SAVEPS>
+         保存粒子系统(&amp;S)          <DESC>保存选定的子系统</DESC>
+        </SAVEPS>
+        <RELOADTEX>
+         重新载入所有贴图(&amp;R)        <DESC>重新载入粒子系统中的所有贴图</DESC>
+        </RELOADTEX>
+        <EXIT>
+          退出(&amp;X) <DESC>退出粒子编辑器 </DESC>
+        </EXIT>
+      </FILE>
+      <EDIT>
+        编辑(&amp;E)       <UNDO>
+          撤销
+          <DESC>撤销最近一次操作</DESC>
+        </UNDO>
+        <REDO>
+          恢复
+          <DESC>恢复最近一次被撤销的操作</DESC>
+        </REDO>
+      </EDIT>
+      <VIEW>
+        视图(&amp;V)  <DESC>显示设置</DESC>
+         <TOOLBARS>
+          工具栏(&amp;T)
+        </TOOLBARS>
+        <LANGUAGES>
+          语言(&amp;L)
+        </LANGUAGES>
+        <UPDATE_LANGUAGES>
+          更新语言        </UPDATE_LANGUAGES>
+        <STATUSBAR>
+         状态栏<DESC>显示/隐藏状态栏</DESC>
+        </STATUSBAR>
+        <SHOWPANEL>
+         显示面板
+          <DESC>显示/隐藏侧边面板</DESC>
+        </SHOWPANEL>		
+        <SHOW_PANEL_UAL>
+          显示资源浏览器(&amp;B)
+        </SHOW_PANEL_UAL>
+       <SHOW_PANEL_MSGS>
+          显示消息(&amp;M)
+        </SHOW_PANEL_MSGS>	
+        <DEFAULTPANELS>
+          加载默认的面板布局...          <DESC>加载默认的面板布局</DESC>
+        </DEFAULTPANELS>
+        <RECENTPANELS>
+          加载最近使用的面板布局(&amp;R)...         <DESC>加载最近使用的面板布局</DESC>
+        </RECENTPANELS>
+      </VIEW>
+      <LANGUAGES>
+        <NAME>
+          语言(&amp;L)
+        </NAME>
+        <DESC>
+          选择语言
+        </DESC>
+        <LANGUAGES>
+          语言(&amp;L)
+        </LANGUAGES>
+        <UPDATE_LANGUAGES>
+          更新语言
+        </UPDATE_LANGUAGES>
+      </LANGUAGES>	  
+      <HELP>
+        帮助(&amp;H)
+        <DESC>帮助信息</DESC>
+        <ABOUT>
+          关于粒子编辑器(&amp;A)...
+          <DESC>获得和粒子编辑器相关的信息</DESC>
+        </ABOUT>
+        <TOOLSREFGUIDE>
+          工具参考指南(&amp;R)...
+          <DESC>打开工具参考文档</DESC>
+        </TOOLSREFGUIDE>
+        <CONTENTCREATION>
+          内容创建手册(&amp;C)...
+          <DESC>打开内容创建手册</DESC>
+        </CONTENTCREATION>
+        <SHORTCUTS>
+          快捷键...
+          <DESC>了解ParticleEditor中使用的快捷键</DESC>
+        </SHORTCUTS>
+        <REQUEST_FEATURE>
+          功能请求/错误报告(&amp;R)...
+          <DESC>请求一个功能或是报告一个错误</DESC>
+        </REQUEST_FEATURE>
+      </HELP>
+    </MENU>
+
+    <MAINTOOLBAR>
+      主要工具栏
+      <SAVEPS>
+        保存粒子系统(&amp;S)
+        <DESC>保存选定的粒子系统</DESC>
+      </SAVEPS>
+      <UNDO>
+        撤消
+        <DESC>撤销最近一次操作</DESC>
+      </UNDO>
+      <REDO>
+       恢复        <DESC>恢复最近一次被撤销的操作</DESC>
+      </REDO>
+      <ZOOM>
+        缩放至全屏
+        <DESC>移动相机使离子系统位于屏幕中心(鼠标中键)</DESC>
+      </ZOOM>
+      <CAMERAMODE>
+       相机模式        <FREE>
+          自由模式(&amp;F)
+          <DESC>相机可以自由移动</DESC>
+        </FREE>
+        <VIEWX>
+          X轴锁定模式
+          <DESC>把相机移动方向锁定在X轴</DESC>
+        </VIEWX>
+        <VIEWY>
+          Y轴锁定模式
+          <DESC>把相机移动方向锁定在Y轴</DESC>
+        </VIEWY>
+        <VIEWZ>
+          Z轴锁定模式
+          <DESC>把相机移动方向锁定在Z轴</DESC>
+        </VIEWZ>
+        <ORBIT>
+          盘旋模式(&amp;O)
+          <DESC>使相机绕粒子系统盘旋</DESC>
+        </ORBIT>
+      </CAMERAMODE>
+      <CAMERASPEED>
+        相机速度
+        <SLOW>
+          慢速(&amp;S)
+          <DESC>相机以较慢速度移动</DESC>
+        </SLOW>
+        <MEDIUM>
+          中速(&amp;M)
+          <DESC>相机以适中速度移动</DESC>
+        </MEDIUM>
+        <FAST>
+          快速(&amp;F)
+          <DESC>相机以较快速度移动</DESC>
+        </FAST>
+        <SUPERFAST>
+          极快(&amp;S)
+          <DESC>相机以极快速度移动</DESC>
+        </SUPERFAST>
+      </CAMERASPEED>
+      <BACKGROUND>
+        背景颜色    <DESC>更改视图的背景颜色</DESC>
+      </BACKGROUND>
+      <BACKMODE>
+        显示背景 <TERRAIN>
+          地形   <DESC>以指定的地形做背景</DESC>
+        </TERRAIN>
+        <FLOOR>
+         地板     <DESC>使用地板图像做背景</DESC>
+        </FLOOR>
+        <NONE>
+          无          <DESC>不使用任何背景</DESC>
+        </NONE>
+      </BACKMODE>
+      <GRID>
+        栅格
+        <DESC>显示/隐藏1x1m的栅格</DESC>
+      </GRID>
+      <BOUNDINGBOX>
+       包围盒        <DESC>显示/隐藏离子系统的包围盒</DESC>
+      </BOUNDINGBOX>
+      <PLAYBACK>
+        开始/停止
+        <SPAWN>播放          <DESC>播放当前粒子系统</DESC>
+        </SPAWN>
+        <STOP>停止
+          <DESC>停止当前粒子系统</DESC>
+        </STOP>
+        <PAUSE>
+         暂停
+          <DESC>暂停/继续当前粒子系统</DESC>
+        </PAUSE>
+      </PLAYBACK>
+    </MAINTOOLBAR>
+  </zh_cn>
+</root>
+

@@ -1,0 +1,13 @@
+Threads
+* stat_logger.py (idles waiting for Gather to finish)
+  |
+  -> stat_gatherer.py - StatGatherer ( contacts components / machines for stats )
+                 |
+                 -> DataStores  (deals with storage / cleanu p)
+
+* db_store.py - DbStore 
+				  |
+                 -> DbManager ( deal with database )
+				  |
+                 -> StatDumper ( write data to database via DbManager )
+

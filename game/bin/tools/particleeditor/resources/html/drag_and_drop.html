@@ -1,0 +1,44 @@
+<html>
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body background="pe.bmp" style="background-repeat:no-repeat; background-position-x:right; background-position-y:bottom;">
+    <h2>Drag-and-drop</h2>
+
+    <table class="normal" cellspacing=0>
+      <tbody>
+      <tr><th class="FirstCol">Asset       </th>
+          <th class="MidCol">  Extension   </th>
+          <th class="MidCol">  Drop Target </th>
+          <th>                 Result      </th></tr>
+
+
+      <tr><td class="oddRow1stCol">      Particle system                                   </td>
+          <td class="oddRow">      <code>.xml</code>                                       </td>
+          <td class="oddRow">            Viewport                                          </td>
+          <td class="oddRow">            Opens the dragged particles system.               </td></tr>
+
+      <tr><td class="evnRow1stCol">       Texture                                          </td>
+          <td class="evnRow">      <code>.bmp</code>, <br>
+                                   <code>.dds</code>, <br>
+                                   <code>.tga</code>                                       </td>
+          <td class="evnRow">            <b>Renderer Properties</b> sub-panel, 
+                                         <b><i>Texture</i></b> field<br><br>
+                                         <span style="font-weight:normal; font-size:80%">
+                                         (only for <b>Sprite</b>, <b>Amp</b>, <b>Trail</b>, 
+                                         and <b>Blur</b> subsystems)</span>                </td>
+          <td class="evnRow">            Assigns the dragged texture to the particle 
+                                         subsystem.                                        </td></tr>
+
+      <tr><td class="oddRow1stCol">       Visual                                           </td>
+          <td class="oddRow">      <code>.visual</code>                                    </td>
+          <td class="oddRow">            <b>Renderer Properties</b> sub-panel, 
+                                         <b><i>Texture</i></b> field<br><br>
+                                         <span style="font-weight:normal; font-size:80%">
+                                         (only for <b>Mesh</b> subsystems)</span>          </td>
+          <td class="oddRow">            Assigns the dragged visual to the particle 
+                                         subsystem.                                         </td></tr>
+
+      </tbody>
+      </table>
+   </body>
+</html>
+

@@ -1,0 +1,22 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/beast_stomp.xml  </ParticleSystem>
+	</Actor>
+	
+	
+	
+	<Joint>	particles
+		<Node>  HP_right_foot  </Node>
+	</Joint>
+
+
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+	<!--<Event>-->
+		<!--<PlaySound>  guns/fire  </PlaySound>-->
+	<!--</Event>-->
+
+</SFXFile>

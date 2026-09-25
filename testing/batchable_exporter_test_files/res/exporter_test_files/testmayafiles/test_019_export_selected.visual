@@ -1,0 +1,134 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	joint1	</identifier>
+			<transform>
+				<row0>	0.000000 -0.885398 0.464834	</row0>
+				<row1>	0.000000 0.464834 0.885398	</row1>
+				<row2>	-1.000000 -0.000000 0.000000	</row2>
+				<row3>	0.000000 0.043328 0.167825	</row3>
+			</transform>
+			<node>
+				<identifier>	joint2	</identifier>
+				<transform>
+					<row0>	-0.613687 0.789549 0.000000	</row0>
+					<row1>	-0.789549 -0.613687 0.000000	</row1>
+					<row2>	-0.000000 -0.000000 1.000000	</row2>
+					<row3>	0.048620 -0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	joint3	</identifier>
+					<transform>
+						<row0>	0.000000 -0.000000 -1.000000	</row0>
+						<row1>	0.910367 0.413803 0.000000	</row1>
+						<row2>	0.413803 -0.910366 0.000000	</row2>
+						<row3>	0.052016 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	joint4	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000000 -0.000000	</row0>
+							<row1>	-0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	0.000000 0.007533 0.004664	</row3>
+						</transform>
+						<node>
+							<identifier>	joint4_BlendBone	</identifier>
+							<transform>
+								<row0>	1.000000 -0.000000 0.000000	</row0>
+								<row1>	0.000000 1.000000 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000	</row2>
+								<row3>	0.000000 -0.055167 -0.216613	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	joint3_BlendBone	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000	</row2>
+							<row3>	0.000000 -0.047633 -0.211950	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	joint2_BlendBone	</identifier>
+					<transform>
+						<row0>	0.000000 -0.000000 -1.000000	</row0>
+						<row1>	0.910366 0.413803 -0.000000	</row1>
+						<row2>	-0.413803 0.910366 -0.000000	</row2>
+						<row3>	-0.079053 0.173241 -0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	joint1_BlendBone	</identifier>
+				<transform>
+					<row0>	0.000000 0.000000 -1.000000	</row0>
+					<row1>	-0.885398 0.464834 -0.000000	</row1>
+					<row2>	-0.464834 -0.885398 -0.000000	</row2>
+					<row3>	-0.039648 -0.168732 -0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	pCube1	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.020766 -0.149073	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint1_BlendBone	</node>
+		<node>	joint2_BlendBone	</node>
+		<node>	joint3_BlendBone	</node>
+		<node>	joint4_BlendBone	</node>
+		<geometry>
+			<vertices>	Torus_Knot01Shape.vertices	</vertices>
+			<primitive>	Torus_Knot01Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	phong1_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	pCube1	</node>
+		<geometry>
+			<vertices>	pCubeShape1.vertices	</vertices>
+			<primitive>	pCubeShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	phong1	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.021740 -0.010816 -0.169073	</min>
+		<max>	0.021740 0.050083 0.225009	</max>
+	</boundingBox>
+</root>

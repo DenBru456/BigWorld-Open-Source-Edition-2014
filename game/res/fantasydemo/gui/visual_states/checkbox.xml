@@ -1,0 +1,106 @@
+<checkbox.xml>	&quot;PyGUI.ButtonVisualState&quot;
+	<hover>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 22.000000	</coords1>
+				<coords2>	22.000000 22.000000	</coords2>
+				<coords3>	22.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	<normal>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 22.000000	</coords1>
+				<coords2>	22.000000 22.000000	</coords2>
+				<coords3>	22.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+	<hover_active>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	22.000000 0.000000	</coords0>
+				<coords1>	22.000000 22.000000	</coords1>
+				<coords2>	44.000000 22.000000	</coords2>
+				<coords3>	44.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover_active>
+	<disabled>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 22.000000	</coords1>
+				<coords2>	22.000000 22.000000	</coords2>
+				<coords3>	22.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+		</icon>
+	</disabled>
+	<pressed>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	22.000000 0.000000	</coords0>
+				<coords1>	22.000000 22.000000	</coords1>
+				<coords2>	44.000000 22.000000	</coords2>
+				<coords3>	44.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<active>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	22.000000 0.000000	</coords0>
+				<coords1>	22.000000 22.000000	</coords1>
+				<coords2>	44.000000 22.000000	</coords2>
+				<coords3>	44.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</active>
+	<pressed_active>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 22.000000	</coords1>
+				<coords2>	22.000000 22.000000	</coords2>
+				<coords3>	22.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed_active>
+	<disabled_active>
+		<icon>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	22.000000 0.000000	</coords0>
+				<coords1>	22.000000 22.000000	</coords1>
+				<coords2>	44.000000 22.000000	</coords2>
+				<coords3>	44.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+		</icon>
+	</disabled_active>
+</checkbox.xml>

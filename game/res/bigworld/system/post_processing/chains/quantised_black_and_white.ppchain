@@ -1,0 +1,79 @@
+<Quantised_Black_and_White.ppchain>
+	<Effect>	Colour Correct
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	colour correct	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct.fx	</fx>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	lookupTexture
+					<Texture>	system/maps/post_processing/quantise01/quantise02.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	HSV Colour Correct
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	HSV colour correct	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct_hsv.fx	</fx>
+				<property>	brightness
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	saturation
+					<Float>	-1.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+</Quantised_Black_and_White.ppchain>

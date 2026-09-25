@@ -1,0 +1,6 @@
+# /etc/defaults/web_console
+
+# The working directory to run StatLogger in
+# (core dumps will write to this location unless CORE_PATH includes an absolute
+# path)
+#BW_TOOLS_WORKING_DIR="/var/run/bigworld"

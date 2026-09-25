@@ -1,0 +1,55 @@
+<map_window_button.xml>	&quot;PyGUI.ButtonVisualState&quot;
+	<disabled>
+		<textStyle>	ButtonDisabled	</textStyle>
+		<icon>
+			<textureName>	gui/maps/window_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	308.000000 975.000000	</coords0>
+				<coords1>	308.000000 1008.000000	</coords1>
+				<coords2>	460.000000 1008.000000	</coords2>
+				<coords3>	460.000000 975.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</disabled>
+	<hover>
+		<icon>
+			<textureName>	gui/maps/window_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 975.000000	</coords0>
+				<coords1>	0.000000 1008.000000	</coords1>
+				<coords2>	152.000000 1008.000000	</coords2>
+				<coords3>	152.000000 975.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	<pressed>
+		<icon>
+			<textureName>	gui/maps/window_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	154.000000 975.000000	</coords0>
+				<coords1>	154.000000 1008.000000	</coords1>
+				<coords2>	307.000000 1008.000000	</coords2>
+				<coords3>	307.000000 975.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<normal>
+		<icon>
+			<textureName>	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 975.000000	</coords0>
+				<coords1>	0.000000 1008.000000	</coords1>
+				<coords2>	152.000000 1008.000000	</coords2>
+				<coords3>	152.000000 975.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+</map_window_button.xml>

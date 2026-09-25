@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<cluster>
+	<cellappmgr>
+		<machine name="qa03"/>
+	</cellappmgr>
+	<baseappmgr>
+		<machine name="qa03"/>
+	</baseappmgr>
+	<loginapp>
+		<machine name="qa03"/>
+	</loginapp>
+	<dbapp>
+		<machine name="sgi02"/>
+	</dbapp>
+	<cellapp>
+		<machine name="qa03"/>
+	</cellapp>
+	<baseapp>
+		<machine name="qa03"/>
+	</baseapp>
+</cluster>

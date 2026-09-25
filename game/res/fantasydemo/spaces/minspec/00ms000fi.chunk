@@ -1,0 +1,206 @@
+<root>
+	<shell>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_corner_stairs_002.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	7540	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<resource>	sets/dungeon/props/web_corner02.model	</resource>
+		<transform>
+			<row0>	0.458163 0.037694 -0.888068	</row0>
+			<row1>	-0.046058 -0.996751 -0.066069	</row1>
+			<row2>	-0.887674 0.071173 -0.454939	</row2>
+			<row3>	-5.706828 2.880707 -3.587021	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	7540	</offset>
+			<size>	28	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	1.000000 0.000000 0.000000	</row1>
+			<row2>	0.000000 -1.000000 0.000000	</row2>
+			<row3>	-9.756907 -1.184006 -9.245148	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	7568	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.266497	</row0>
+			<row1>	0.000000 0.266497 0.000000	</row1>
+			<row2>	-0.266497 0.000000 0.000000	</row2>
+			<row3>	-9.523371 -0.838715 -9.240051	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	11928	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<ambientLight>
+		<colour>	67.000000 51.000011 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<particles>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.999998 0.000000 0.000000	</row2>
+			<row3>	-9.523376 -0.771393 -9.230240	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.210312 0.000000 -0.977634	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.977634 0.000000 0.210312	</row2>
+			<row3>	-9.523392 -0.782349 -9.232758	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<pulseLight>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-8.410004 -0.830002 -9.449997	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+	</pulseLight>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	-0.861162 0.206708 0.464403	</row0>
+			<row1>	0.114001 0.968850 -0.219843	</row1>
+			<row2>	-0.495381 -0.136379 -0.857902	</row2>
+			<row3>	-4.801453 0.496658 -4.388565	</row3>
+		</transform>
+		<guid>	E9D18BB5.411FBD6A.8CD02498.8F668FE7	</guid>
+		<properties>
+			<next>
+				<guid>	4F8DFA2E.4F92AC9E.72B7BBBA.E1A89155	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	CAEC3215.46733E10.F8B6238D.C964A787	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.517494 -0.429624 -0.740013	</row0>
+			<row1>	0.144829 0.896318 -0.419089	</row1>
+			<row2>	0.843340 0.109701 0.526063	</row2>
+			<row3>	-6.340759 0.528259 -5.598389	</row3>
+		</transform>
+		<guid>	095889A1.464A0097.E1519A8A.4E4E0541	</guid>
+		<properties>
+			<next>
+				<guid>	69D9420D.45774993.4BD6CFB2.0BE812ED	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	E951A8AC.46E9F2C1.1DEBC7BD.2AC7BBC2	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	B0681B83.467D05AA.58D41580.0A887709	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	0.000000 0.000000 -1.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	1.000000 0.000000 0.000000	</row2>
+			<row3>	-8.892303 -2.744781 -9.332672	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Note the dynamic lighting.	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	-151.527878 140.889954 174.469940	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-163.038162 137.439301 173.728806	</min>
+		<max>	-150.927872 146.548355 184.971497	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00ms000fi.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

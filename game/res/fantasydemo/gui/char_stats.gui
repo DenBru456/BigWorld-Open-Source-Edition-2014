@@ -1,0 +1,132 @@
+<char_stats.gui>
+	<WindowGUIComponent>	179388816
+		<position>	-1.000000 1.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	206.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	42.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_health.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.0000000 0.000000	</coords0>
+			<coords1>	0.0000000 0.656250	</coords1>
+			<coords2>	0.8046875 0.656250	</coords2>
+			<coords3>	0.8046875 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.CharStats&quot;	</script>
+		<children>
+			<characterName>	104551616	</characterName>
+			<healthBar>	181063392	</healthBar>
+		</children>
+		<shaders>
+			<fader>	103157416	</fader>
+		</shaders>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	104551616
+		<position>	15.000000 15.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.113281	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.049479	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	BlinkyBill	</label>
+		<font>	Label.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	181063392
+		<position>	14.000000 26.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	181.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	7.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_health.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.0000000 0.656250	</coords0>
+			<coords1>	0.0000000 0.750000	</coords1>
+			<coords2>	0.6953125 0.750000	</coords2>
+			<coords3>	0.6953125 0.656250	</coords3>
+		</mapping>
+		<shaders>
+			<clipper>	181146672	</clipper>
+			<colourer>	184705504	</colourer>
+		</shaders>
+	</SimpleGUIComponent>
+	<AlphaGUIShader>	103157416
+		<mode>	0	</mode>
+		<stop>	-1.000000	</stop>
+		<start>	1.000000	</start>
+		<alpha>	1.000000	</alpha>
+		<speed>	0.000000	</speed>
+	</AlphaGUIShader>
+	<ClipGUIShader>	181146672
+		<mode>	0	</mode>
+		<value>	0.980000	</value>
+		<speed>	0.000000	</speed>
+		<delay>	0.000000	</delay>
+		<slant>	0.000000	</slant>
+	</ClipGUIShader>
+	<ColourGUIShader>	184705504
+		<start>	255.000000 0.000000 0.000000 192.000000	</start>
+		<middle>	255.000000 255.000000 0.000000 192.000000	</middle>
+		<end>	0.000000 255.000000 0.000000 192.000000	</end>
+		<value>	0.980000	</value>
+		<speed>	0.000000	</speed>
+	</ColourGUIShader>
+</char_stats.gui>

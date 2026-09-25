@@ -1,0 +1,425 @@
+<house.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Of_Light_2	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	glowFactor
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/of3d/work/Textures/Light_2_G.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Light_2_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	Of_Woodwall	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.010000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	helpers/maps/col_black.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Woodwall_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	Of_Door	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Door_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Door_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Door_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	Of_Woodwindow	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Woodwindow_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Woodwindow_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Woodwindow_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	4
+				<material>
+					<identifier>	Of_House_1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/House_1_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/House_1_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/House_1_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	5
+				<material>
+					<identifier>	Of_House_2	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/House_2_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/House_2_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/House_2_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	6
+				<material>
+					<identifier>	Of_Stonewall	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.010000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Stonewall_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Stonewall_normals.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Stonewall_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	7
+				<material>
+					<identifier>	Of_Wall_A	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Wall_A_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Wall_A_normals.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Wall_A_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	8
+				<material>
+					<identifier>	Of_Stelae	</identifier>
+					<fx>	shaders/std_effects/parallax_lighting_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	parallaxScale
+						<Float>	0.010000	</Float>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Stelae_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Stelae_normals.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Stelae_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	9
+				<material>
+					<identifier>	Of_House_4	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/House_4_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/House_4_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/House_4_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	10
+				<material>
+					<identifier>	Of_House_3	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/House_3_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/House_3_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/House_3_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	11
+				<material>
+					<identifier>	Of_Window	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	reflectionMask
+						<Texture>	sets/of3d/work/Textures/Window_S.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Window_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Window_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Window_D.bmp	</Texture>
+					</property>
+					<property>	reflectionAmount
+						<Float>	1.310000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	12
+				<material>
+					<identifier>	Of_Shiban	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Shiban_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Shiban_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Shiban_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	13
+				<material>
+					<identifier>	Of_Chain	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Chain_S.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	79	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Chain_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Chain_D.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	14
+				<material>
+					<identifier>	Of_Woodpillar	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	helpers/maps/col_black.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Woodpillar_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Woodpillar_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	15
+				<material>
+					<identifier>	Of_Wood2	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	helpers/maps/col_black.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Wood_2_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Wood2_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	16
+				<material>
+					<identifier>	Of_Pillar	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Pillar_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Pillar_normals.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Pillar_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	17
+				<material>
+					<identifier>	Of_Wall	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Wall_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Wall_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Wall_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	18
+				<material>
+					<identifier>	Of_Wood_2	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	system/maps/col_black.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Wood_2_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Wood_2_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	19
+				<material>
+					<identifier>	Of_Door_2	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Door_2_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Door_2_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Door_2_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	20
+				<material>
+					<identifier>	Of_Wood_4	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	helpers/maps/col_black.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Wood_2_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Wood_wall_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	21
+				<material>
+					<identifier>	Of_Light_1	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Light_1_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Light_1_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Light_1_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-7.354089 -0.151436 -26.671854	</min>
+		<max>	8.802695 26.675076 10.352013	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</house.visual>

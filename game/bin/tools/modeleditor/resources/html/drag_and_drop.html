@@ -1,0 +1,82 @@
+<html>
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body background="me.bmp" style="background-repeat:no-repeat; background-position-x:right; background-position-y:bottom;">
+    <h2>Drag-and-drop</h2>
+
+    <table class="normal" cellspacing=0>
+      <tbody>
+      <tr><th class="FirstCol">Asset       </th>
+          <th class="MidCol">  Extension   </th>
+          <th class="MidCol">  Drop Target </th>
+          <th>                 Result      </th></tr>
+
+
+      <tr><td class="oddRow1stCol">      Animation                                         </td>
+          <td class="oddRow">      <code>.animation</code>                                 </td>
+          <td class="oddRow">            <b>Animations</b> panel's, <b>Animation</b> list  </td>
+          <td class="oddRow">            Adds the dragged animation to the list of 
+                                         animations  played for the current model.         </td></tr>
+
+      <tr><td class="evnRow1stCol">       Effect                                           </td>
+          <td class="evnRow">      <code>.fx</code>                                        </td>
+          <td class="evnRow">          <b>Materials Settings</b> panel's <b>Properties</b>
+                                          table or <b>Effect</b> field                     </td>
+          <td class="evnRow">             Assigns the dragged effect/MFM file to the 
+                                          current material.                                </td></tr>
+
+      <tr><td class="oddRow1stCol">      Light                                             </td>
+          <td class="oddRow">      <code>.mvl</code>                                       </td>
+          <td class="oddRow">            Viewport                                          </td>
+          <td class="oddRow">            Applies the lighting setup described in the 
+                                         dragged file to the current model.                </td></tr>
+
+      <tr><td class="evnRow1stCol">      MFM                                               </td>
+          <td class="evnRow">      <code>.mfm</code>                                       </td>
+          <td class="evnRow"       colspan=2>
+                                          Same as <b>Effect</b>.                           </td></tr>
+
+      <tr><td class="oddRow1stCol" rowspan=3>
+                                         Model                                             </td>
+          <td class="oddRow"       rowspan=3>
+                                   <code>.model</code>                                     </td>
+          <td class="oddRow">            Viewport                                          </td>
+          <td class="oddRow">            Opens the dragged model/shell for editing.<br>
+                                         <p><b>If <code>Ctrl</code> or <code>Alt</code> 
+                                         is pressed:</b>
+                                         <p class=lvl2>
+                                         Adds the dragged model (with read-only permission) 
+                                         to the viewport, so it can be viewed alongside the 
+                                         current model &ndash; this is useful for editing 
+                                         models that are part of a SuperModel              </td></tr>
+
+      <tr><td class="oddRow">            <b>Object Properties</b> panel's <b>Editor Proxy 
+                                         Model</b> field                                   </td>
+          <td class="oddRow">                   Sets the dragged model as the editor proxy model.                         </td></tr>
+
+      <tr><td class="oddRow">            <b>Level of Detail</b> panel's <b>LOD</b> table   </td>
+          <td class="oddRow">            Adds the dragged model as a new LOD level for 
+                                         the current model. </td></tr>
+          
+      <tr><td class="evnRow1stCol">      Shell                                             </td>
+          <td class="evnRow">      <code>.model</code>                                     </td>
+          <td class="evnRow">            Viewport                                          </td>
+          <td class="evnRow">            Opens the dragged shell for editing.              </td></tr>
+
+      <tr><td class="oddRow1stCol" rowspan=2>
+                                         Texture                                           </td>
+          <td class="oddRow"      rowspan=2>
+                                   <code>.bmp</code>,<br>
+                                   <code>.tga</code>                                       </td>
+          <td class="oddRow">            <b>Display Settings</b> panel's <b>Choose Floor 
+                                         Texture </b> button    </td>
+          <td class="oddRow">            Applies the dragged texture to the floor texture. </td></tr>
+
+      <tr><td class="oddRow">            <b>Materials Settings</b> panel's <b>Properties</b>
+                                         table's any map field                             </td>
+          <td class="oddRow">            Assigns the dragged texture to the map field.     </td></tr>
+
+      </tbody>
+      </table>
+   </body>
+</html>
+

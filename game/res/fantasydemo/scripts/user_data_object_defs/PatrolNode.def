@@ -1,0 +1,55 @@
+<root>
+	<Domain>	CELL	</Domain>
+	<Properties>
+	
+		<!-- Links to other PatrolNode objects.
+		-->
+		<patrolLinks>
+			<Type>	ARRAY <of> UDO_REF </of> </Type>
+			<Editable>	True	</Editable>
+		</patrolLinks>
+		
+		<!-- Default patrol speed for following links out of this node, used if
+			there isn't a matching entry in "patrolLinkSpeed".
+		-->
+		<departureSpeed>
+			<Type>	FLOAT32	</Type>
+			<Default>	2.0	</Default>
+			<Editable>	True	</Editable>
+		</departureSpeed>
+		
+		<!-- Higher "importance" gives this node more probability of being
+			picked out of the set of outgoing nodes of the previous node.
+		-->
+		<importance>
+			<Type>	UINT8 </Type>
+			<Default>	1	</Default>
+			<Editable>	True	</Editable>
+		</importance>
+
+		<backtrackChance>
+			<Type>	FLOAT </Type>
+			<Default>	0.0	</Default>
+			<Editable>	True	</Editable>
+		</backtrackChance>
+
+		<!-- Specifies the number of seconds to wait before going to the next
+			node.
+		-->
+		<waitSecs>
+			<Type>	FLOAT32 </Type>
+			<Editable>	True	</Editable>
+		</waitSecs>
+
+		<radius>
+			<Type>			FLOAT				</Type>
+			<Default>		5.0					</Default>
+			<Editable>		true				</Editable>
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	1.5	</gizmoRadius>
+			</Widget>
+		</radius>
+
+	</Properties>
+</root>

@@ -1,0 +1,1 @@
+..\..\..\..\..\src\lib\third_party\openautomate\Debug\oatest.exe ..\..\..\..\game\fantasydemo_hybrid.exe

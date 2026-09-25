@@ -1,0 +1,62 @@
+<item_food_drumstick.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	lod0	</identifier>
+			<transform>
+				<row0>	-0.1238 0.0414 -0.9914	</row0>
+				<row1>	-0.9402 0.3146 0.1305	</row1>
+				<row2>	0.3173 0.9483 -0.0000	</row2>
+				<row3>	-0.0697 0.2205 -0.0000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_left_hand	</identifier>
+			<transform>
+				<row0>	0.0000 1.0000 -0.0000	</row0>
+				<row1>	1.0000 0.0000 -0.0000	</row1>
+				<row2>	-0.0000 -0.0000 -1.0000	</row2>
+				<row3>	-0.1860 0.0001 0.0179	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_right_hand	</identifier>
+			<transform>
+				<row0>	0.0000 1.0000 -0.0000	</row0>
+				<row1>	1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 -0.0000 -1.0000	</row2>
+				<row3>	-0.1860 0.0001 -0.0051	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	lod0	</node>
+		<geometry>
+			<vertices>	lod0.vertices	</vertices>
+			<primitive>	lod0.lindices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	striff_guts	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	characters/npc/striff/striff_guts.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.342555 -0.252432 -0.136126	</min>
+		<max>	0.113190 0.424406 0.136126	</max>
+	</boundingBox>
+	<materialKind>	11	</materialKind>
+</item_food_drumstick.visual>

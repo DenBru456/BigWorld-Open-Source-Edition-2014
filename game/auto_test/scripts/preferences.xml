@@ -1,0 +1,918 @@
+<?xml version="1.0"?>
+<preferences>
+	<!--General options-->
+	<options>
+		<dbHost>moocow</dbHost>
+		<dbUser>andred</dbUser>
+		<dbPass>andred</dbPass>
+		<dbPort>3306</dbPort>
+		<dbPrefix>bw_stat_log_data</dbPrefix>
+		<sampleTickInterval>2.0</sampleTickInterval>
+	</options>
+	<!--Collection settings-->
+	<collect>
+
+		<!-- Aggregation window settings -->
+		<aggregation>
+			<!-- 	Keep every sample (2 seconds) in the 
+					most recent 24 hours = 43200 samples -->
+			<window>
+				<samples>43200</samples>
+				<samplePeriodTicks>1</samplePeriodTicks>
+			</window>
+			<!-- 	Keep every 10th sample (20 seconds) in 
+					the most recent 48 hours = 8760 samples -->
+			<window>
+				<samples>8760</samples>
+				<samplePeriodTicks>10</samplePeriodTicks>
+			</window>
+			<!--	Keep every 150th sample (5 minutes) in the 
+					most recent 30 days = 8760 samples -->
+			<window>
+				<samples>8760</samples>
+				<samplePeriodTicks>150</samplePeriodTicks>
+			</window>
+			<!--	Keep every 1800th sample (60 minutes) in the 
+					most recent 365 days = 8760 samples -->
+			<window>
+				<samples>8760</samples>
+				<samplePeriodTicks>1800</samplePeriodTicks>
+			</window>
+			<!--	Keep every 43200th sample (1 day) in the 
+					most recent 365 days = 365 samples -->
+			<window>
+				<samples>365</samples>
+				<samplePeriodTicks>43200</samplePeriodTicks>
+			</window>
+		</aggregation>
+	
+		<!--List of processes-->
+		<processList>
+			<!--Process "DBMgr"-->
+			<process>
+				<name>DBMgr</name>
+				<matchtext>dbmgr</matchtext>
+				<!--List of statistics under the "DBMgr" process class-->
+				<statisticList/>
+			</process>
+			<!--Process "CellApp"-->
+			<process>
+				<name>CellApp</name>
+				<matchtext>cellapp</matchtext>
+				<!--List of statistics under the "CellApp" process class-->
+				<statisticList>
+					<!--Statistic "Cell Load"-->
+					<statistic>
+						<name>Cell Load</name>
+						<valueAt>/load</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#FF6600</colour>
+							<show>true</show>
+							<description>
+								The load of this CellApp.  
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Cell Spare Time"-->
+					<statistic>
+						<name>Cell Spare Time</name>
+						<valueAt>/throttle/spareTime</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#336666</colour>
+							<show>true</show>
+							<description>
+								Estimate of the amount of time in percentage 
+								that the CellApp is idle.  
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Cell Backlog"-->
+					<statistic>
+						<name>Cell Backlog</name>
+						<valueAt>/nub/receiving/stats/socket/receiveQueue</valueAt>
+						<maxAt>1048576</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#990000</colour>
+							<show>true</show>
+							<description>
+								The size of the CellApp's receive queue.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Max Tick Period"-->
+					<statistic>
+						<name>Max Tick Period</name>
+						<valueAt>/resetOnRead/maxTickPeriod</valueAt>
+						<maxAt>0.2</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#666600</colour>
+							<show>true</show>
+							<description>
+								The duration of the longest tick encountered 
+								since server startup.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num Entities"-->
+					<statistic>
+						<name>Num Entities</name>
+						<valueAt>/stats/numEntities</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#CC33CC</colour>
+							<show>true</show>
+							<description>
+								The number of entities on the CellApp.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num RealEntities"-->
+					<statistic>
+						<name>Num RealEntities</name>
+						<valueAt>/stats/numRealEntities</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#993399</colour>
+							<show>true</show>
+							<description>
+								The number of real entities on the 
+								CellApp.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num Witnesses"-->
+					<statistic>
+						<name>Num Witnesses</name>
+						<valueAt>/stats/numWitnesses</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#663366</colour>
+							<show>true</show>
+							<description>
+								The number of witnesses on the CellApp.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num Entities Ever"-->
+					<statistic>
+						<name>Num Entities Ever</name>
+						<valueAt>/stats/totalEntitiesEver</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#F42C4F</colour>
+							<show>false</show>
+							<description>
+								The number of entities created on the CellApp 
+								since server startup.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num RealEntities Ever"-->
+					<statistic>
+						<name>Num RealEntities Ever</name>
+						<valueAt>/stats/totalRealEntitiesEver</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#C269F4</colour>
+							<show>false</show>
+							<description>
+								The number of real entities created on the 
+								CellApp since server startup.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num Witnesses Ever"-->
+					<statistic>
+						<name>Num Witnesses Ever</name>
+						<valueAt>/stats/totalWitnessesEver</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#FA9C0C</colour>
+							<show>false</show>
+							<description>
+								The number of witnesses created on the 
+								CellApp since server startup.
+							</description>		
+						</display>
+					</statistic>
+					<!--Statistic "Num In AoI"-->
+					<statistic>
+						<name>Num In AoI</name>
+						<valueAt>/stats/numInAoI</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#878DA4</colour>
+							<show>true</show>
+							<description>
+								The number of entities currently in the 
+								AoI of some other entity on the CellApp.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num In AoI Ever"-->
+					<statistic>
+						<name>Num In AoI Ever</name>
+						<valueAt>/stats/totalInAoIEver</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#2FA106</colour>
+							<show>false</show>
+							<description>
+								The number of entities that have entered the 
+								AoI of some other entity on the CellApp 
+								since server startup.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Cell scale back"-->
+					<statistic>
+						<name>Cell scale back</name>
+						<valueAt>/throttle/value</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#E16165</colour>
+							<show>true</show>
+							<description>
+								Estimates spare time in a tick. &lt; 1 means 
+								little/no spare time or tick too long.
+							</description>
+						</display>
+					</statistic>
+				</statisticList>
+			</process>
+			<!--Process "BaseApp"-->
+			<process>
+				<name>BaseApp</name>
+				<matchtext>baseapp</matchtext>
+				<!--List of statistics under the "BaseApp" process class-->
+				<statisticList>
+					<!--Statistic "BaseApp Load"-->
+					<statistic>
+						<name>BaseApp Load</name>
+						<valueAt>/load</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#FF6600</colour>
+							<show>true</show>
+							<description>
+								The load of this BaseApp.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num Bases"-->
+					<statistic>
+						<name>Num Bases</name>
+						<valueAt>/numBases</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#CC33CC</colour>
+							<show>true</show>
+							<description>
+								The number of bases on the BaseApp.	
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Num Proxies"-->
+					<statistic>
+						<name>Num Proxies</name>
+						<valueAt>/numProxies</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#993399</colour>
+							<show>true</show>
+							<description>
+								The number of proxies on the BaseApp.	
+							</description>
+						</display>
+					</statistic>
+				</statisticList>
+			</process>
+			<!--Process "BaseAppMgr"-->
+			<process>
+				<name>BaseAppMgr</name>
+				<matchtext>baseappmgr</matchtext>
+				<!--List of statistics under the "BaseAppMgr" process class-->
+				<statisticList>
+					<!--Statistic "Max BaseApp Load"-->
+					<statistic>
+						<name>Max BaseApp Load</name>
+						<valueAt>/baseAppLoad/max</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#FF9900</colour>
+							<show>true</show>
+							<description>
+								The load of the most loaded BaseApp in the 
+								server.		
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Average BaseApp Load"-->
+					<statistic>
+						<name>Average BaseApp Load</name>
+						<valueAt>/baseAppLoad/average</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#FF6600</colour>
+							<show>true</show>
+							<description>
+								The average load of the set of BaseApps in 
+								the server.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Min BaseApp Load"-->
+					<statistic>
+						<name>Min BaseApp Load</name>
+						<valueAt>/baseAppLoad/min</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#CC6600</colour>
+							<show>true</show>
+							<description>
+								The load of the least loaded BaseApp in the 
+								server.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Total Bases"-->
+					<statistic>
+						<name>Total Bases</name>
+						<valueAt>/numBases</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#CC33CC</colour>
+							<show>true</show>
+							<description>
+								The total number of bases in the server.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Total Proxies"-->
+					<statistic>
+						<name>Total Proxies</name>
+						<valueAt>/numProxies</valueAt>
+						<maxAt>10000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#993399</colour>
+							<show>true</show>
+							<description>
+								The total number of proxies in the server.
+							</description>
+						</display>
+					</statistic>
+				</statisticList>
+			</process>
+			<!--Process "LoginApp"-->
+			<process>
+				<name>LoginApp</name>
+				<matchtext>loginapp</matchtext>
+				<!--List of statistics under the "LoginApp" process class-->
+				<statisticList>
+					<statistic>
+						<name>Total Logins Per Second</name>
+						<valueAt>/averages/all</valueAt>
+						<maxAt>1000</maxAt>
+						<type>FLOAT</type>
+						<consolidate>MAX</consolidate>
+						<display>
+							<colour>#666666</colour>
+							<show>true</show>
+							<description>
+								The average number of logins per second.
+							</description>
+						</display>
+					</statistic>
+					<statistic>
+						<name>Rate-limited Logins Per Second</name>
+						<valueAt>/averages/rateLimited</valueAt>
+						<maxAt>1000</maxAt>
+						<type>FLOAT</type>
+						<consolidate>MAX</consolidate>
+						<display>
+							<colour>#CC6666</colour>
+							<show>true</show>
+							<description>
+								The average number of logins failed per 
+								second due to login rate limit.
+							</description>
+						</display>
+					</statistic>
+					<statistic>
+						<name>Successful Logins Per Second</name>
+						<valueAt>/averages/successes</valueAt>
+						<maxAt>1000</maxAt>
+						<type>FLOAT</type>
+						<consolidate>MAX</consolidate>
+						<display>
+							<colour>#33CC33</colour>
+							<show>true</show>
+							<description>
+								The average number of successful logins 
+								per second.
+							</description>
+						</display>
+					</statistic>
+					<statistic>
+						<name>Failed Logins Per Second</name>
+						<valueAt>/averages/failures</valueAt>
+						<maxAt>1000</maxAt>
+						<type>FLOAT</type>
+						<consolidate>MAX</consolidate>
+						<display>
+							<colour>#CC3333</colour>
+							<show>true</show>
+							<description>
+								The average number of failed logins per 
+								second (exclude rate limit failures).
+							</description>
+						</display>
+					</statistic>
+				</statisticList>
+			</process>
+			<!--Process "CellAppMgr"-->
+			<process>
+				<name>CellAppMgr</name>
+				<matchtext>cellappmgr</matchtext>
+				<!--List of statistics under the "CellAppMgr" process class-->
+				<statisticList>
+					<!--Statistic "Num Spaces"-->
+					<statistic>
+						<name>Num Spaces</name>
+						<valueAt>/numSpaces</valueAt>
+						<maxAt>40000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#CC33CC</colour>
+							<show>true</show>
+							<description>
+								The total number of spaces.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Max CellApp Load"-->
+					<statistic>
+						<name>Max CellApp Load</name>
+						<valueAt>/cellAppLoad/max</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#FF9900</colour>
+							<show>true</show>
+							<description>
+								The load of the most loaded CellApp in the 
+								server.		
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Avg CellApp Load"-->
+					<statistic>
+						<name>Avg CellApp Load</name>
+						<valueAt>/cellAppLoad/average</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#FF6600</colour>
+							<show>true</show>
+							<description>
+								The average load of the set of CellApps in 
+								the server.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Min CellApp Load"-->
+					<statistic>
+						<name>Min CellApp Load</name>
+						<valueAt>/cellAppLoad/min</valueAt>
+						<maxAt>1.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#CC6600</colour>
+							<show>true</show>
+							<description>
+								The load of the least loaded CellApp in the 
+								server.	
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Total Entities"-->
+					<statistic>
+						<name>Total Entities</name>
+						<valueAt>/numEntities</valueAt>
+						<maxAt>50000.0</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#6BC74B</colour>
+							<show>true</show>
+							<description>
+								The total number of cell entities in the 
+								server.
+							</description>
+						</display>
+					</statistic>
+					<!--Statistic "Number of Cells"-->
+					<statistic>
+						<name>Number of Cells</name>
+						<valueAt>/numCells</valueAt>
+						<maxAt>20</maxAt>
+						<type>FLOAT</type>
+						<consolidate>AVG</consolidate>
+						<!--Default display preferences-->
+						<display>
+							<colour>#009900</colour>
+							<show>true</show>
+							<description>
+								The total number of cells in the server.
+							</description>
+						</display>
+					</statistic>
+				</statisticList>
+			</process>
+			<!--List of statistics applicable to all processes-->
+		</processList>
+		<allProcessStatisticList>
+			<!--Statistic "Process CPU Max"-->
+			<statistic>
+				<name>Process CPU Max</name>
+				<valueAt>load</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>MAX</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#FF0000</colour>
+					<show>false</show>
+					<description>
+						The maximum Process CPU usage (generated during 
+						consolidation).
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Process CPU"-->
+			<statistic>
+				<name>Process CPU</name>
+				<valueAt>load</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#FF0000</colour>
+					<show>true</show>
+					<description>
+						The percentage of the CPU time allocated to the 
+						process.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Process CPU Min"-->
+			<statistic>
+				<name>Process CPU Min</name>
+				<valueAt>load</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>MIN</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#FF0000</colour>
+					<show>false</show>
+					<description>
+						The minimum Process CPU usage (generated during 
+						consolidation).
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Process Memory"-->
+			<statistic>
+				<name>Process Memory</name>
+				<valueAt>mem</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#0000FF</colour>
+					<show>true</show>
+					<description>
+						The percentage of memory allocated to this process.
+					</description>
+				</display>
+			</statistic>
+		</allProcessStatisticList>
+		<!--List of machine specific statistics-->
+		<machineStatisticList>
+			<!--Statistic "Machine CPU Max"-->
+			<statistic>
+				<name>Machine CPU Max</name>
+				<valueAt>load()</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>MAX</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#FF3333</colour>
+					<show>false</show>
+					<description>
+						The maximum Machine CPU usage (generated during 
+						consolidation).
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Machine CPU"-->
+			<statistic>
+				<name>Machine CPU</name>
+				<valueAt>load()</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#FF0000</colour>
+					<show>true</show>
+					<description>
+						The percentage of CPU time that the most loaded 
+						CPU in the machine was busy.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Machine CPU Min"-->
+			<statistic>
+				<name>Machine CPU Min</name>
+				<valueAt>load()</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>MIN</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#990000</colour>
+					<show>false</show>
+					<description>
+						The minimum Machine CPU usage (generated during 
+						consolidation).
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Machine Mem"-->
+			<statistic>
+				<name>Machine Mem</name>
+				<valueAt>mem</valueAt>
+				<maxAt>1.0</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#0000FF</colour>
+					<show>true</show>
+					<description>
+						The percentage of memory that is in use.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Machine Recv Loss"-->
+			<statistic>
+				<name>Machine Recv Loss</name>
+				<valueAt>inDiscards</valueAt>
+				<maxAt>256</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#33CC33</colour>
+					<show>true</show>
+					<description>
+						The number of error-free incoming IP datagrams 
+						that were discarded.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Machine Send Loss"-->
+			<statistic>
+				<name>Machine Send Loss</name>
+				<valueAt>outDiscards</valueAt>
+				<maxAt>256</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#339933</colour>
+					<show>true</show>
+					<description>
+						The number of error-free outgoing IP datagrams that 
+						were discarded.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Packets In (eth0)"-->
+			<statistic>
+				<name>Packets In (eth0)</name>
+				<valueAt>ifStats[&quot;eth0&quot;].packIn</valueAt>
+				<maxAt>256000</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#20FB81</colour>
+					<show>false</show>
+					<description>
+						The number of packets received by the interface in 
+						the last second.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Packets Out (eth0)"-->
+			<statistic>
+				<name>Packets Out (eth0)</name>
+				<valueAt>ifStats[&quot;eth0&quot;].packOut</valueAt>
+				<maxAt>256000</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#736B55</colour>
+					<show>false</show>
+					<description>
+						The number of packets transmitted by the 
+						interface in the last second.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Bits In (eth0)"-->
+			<statistic>
+				<name>Bits In (eth0)</name>
+				<valueAt>ifStats[&quot;eth0&quot;].bitsIn</valueAt>
+				<maxAt>134217728</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#D76C4D</colour>
+					<show>false</show>
+					<description>
+						The number of bits received by the interface 
+						in the last second.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Bits Out (eth0)"-->
+			<statistic>
+				<name>Bits Out (eth0)</name>
+				<valueAt>ifStats[&quot;eth0&quot;].bitsOut</valueAt>
+				<maxAt>134217728</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#0F4ECB</colour>
+					<show>false</show>
+					<description>
+						The number of bits transmitted by the interface 
+						in the last second.
+					</description>		
+				</display>
+			</statistic>
+			<!--Statistic "Packets In (eth1)"-->
+			<statistic>
+				<name>Packets In (eth1)</name>
+				<valueAt>ifStats[&quot;eth1&quot;].packIn</valueAt>
+				<maxAt>256000</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#4CD21A</colour>
+					<show>false</show>
+					<description>
+						The number of packets received by the interface in 
+						the last second.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Packets Out (eth1)"-->
+			<statistic>
+				<name>Packets Out (eth1)</name>
+				<valueAt>ifStats[&quot;eth1&quot;].packOut</valueAt>
+				<maxAt>256000</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#31F71E</colour>
+					<show>false</show>
+					<description>
+						The number of packets transmitted by the interface 
+						in the last second.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Bits In (eth1)"-->
+			<statistic>
+				<name>Bits In (eth1)</name>
+				<valueAt>ifStats[&quot;eth1&quot;].bitsIn</valueAt>
+				<maxAt>134217728</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#F271AA</colour>
+					<show>false</show>
+					<description>
+						The number of bits received by the interface in the 
+						last second.
+					</description>
+				</display>
+			</statistic>
+			<!--Statistic "Bits Out (eth1)"-->
+			<statistic>
+				<name>Bits Out (eth1)</name>
+				<valueAt>ifStats[&quot;eth1&quot;].bitsOut</valueAt>
+				<maxAt>134217728</maxAt>
+				<type>FLOAT</type>
+				<consolidate>AVG</consolidate>
+				<!--Default display preferences-->
+				<display>
+					<colour>#7B25F7</colour>
+					<show>false</show>
+					<description>
+						The number of bits transmitted by the interface in 
+						the last second.
+					</description>
+				</display>
+			</statistic>
+		</machineStatisticList>
+	</collect>
+</preferences>

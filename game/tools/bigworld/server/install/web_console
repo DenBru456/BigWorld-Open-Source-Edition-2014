@@ -1,0 +1,10 @@
+# /etc/defaults/web_console
+
+# The working directory to run WebConsole in
+# (core dumps will write to this location unless CORE_PATH includes an absolute
+# path)
+#BW_TOOLS_WORKING_DIR="/var/run/bigworld"
+
+# Allow WebConsole profiling dumps
+# This variable needs to propagate through shells to the python start script
+#export BW_WEB_CONSOLE_PROFILING=1

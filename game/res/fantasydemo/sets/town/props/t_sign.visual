@@ -1,0 +1,125 @@
+<t_sign.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Rectangle03	</identifier>
+			<transform>
+				<row0>	-0.9986 -0.0529 0.0000	</row0>
+				<row1>	-0.0000 0.0000 -1.0000	</row1>
+				<row2>	-0.0529 0.9986 0.0000	</row2>
+				<row3>	2.3242 2.8939 3.7389	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Box02	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 0.7071 0.7071	</row1>
+				<row2>	0.0000 -0.7071 0.7071	</row2>
+				<row3>	2.3168 1.0849 0.4416	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Box01	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000	</row2>
+				<row3>	2.3168 -0.0000 0.3611	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box01	</node>
+		<geometry>
+			<vertices>	sets/town/props/t_sign.Box01.vertices	</vertices>
+			<primitive>	sets/town/props/t_sign.Box01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	t_outerwood	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/t_wood_outer.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box02	</node>
+		<geometry>
+			<vertices>	sets/town/props/t_sign.Box02.vertices	</vertices>
+			<primitive>	sets/town/props/t_sign.Box02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	t_outerwood	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/t_wood_outer.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle03	</node>
+		<geometry>
+			<vertices>	sets/town/props/t_sign.Rectangle03.vertices	</vertices>
+			<primitive>	sets/town/props/t_sign.Rectangle03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	chain	</identifier>
+					<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/chain.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	dun_block	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/sign_armoury.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	t_outerwood	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/t_wood_outer.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	2.123203 -1.906586 0.048891	</min>
+		<max>	2.777728 3.254769 7.555117	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</t_sign.visual>

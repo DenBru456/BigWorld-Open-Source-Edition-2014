@@ -1,0 +1,52 @@
+<douglasfir_full.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	douglasfir_rt	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/indie/props/trees/douglasfir/maps/douglasfir_color.tga	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	119	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/indie/props/trees/douglasfir/maps/douglasfir_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/indie/props/trees/douglasfir/maps/douglasfir_color.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-35.219830 -1.727057 -37.312862	</min>
+		<max>	38.868114 125.897194 38.784676	</max>
+	</boundingBox>
+</douglasfir_full.visual>

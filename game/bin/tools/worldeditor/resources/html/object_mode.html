@@ -1,0 +1,129 @@
+<html>
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body background="we.bmp" style="background-repeat:no-repeat; background-position-x:right; background-position-y:bottom;">
+    <h2>Object Mode <img src="we_toolbar_object_tool_original_size.png"></h2>
+
+    <table class="normal" cellspacing=0>
+      <tbody>
+      <tr><th class="FirstCol">Key   </th>
+          <th>                 Action</th></tr>
+
+      <tr><td class="oddRow1stCol"><code>Alt</code>                            </td>
+          <td class="oddRow">            <b>If at least one object is selected:</b>
+                                         <p class="lvl2">
+                                         Activates the <i>scale</i> gizmo.<br>
+                                         <p class="lvl2">
+                                         <b>If the mouse is being dragged:</b>
+                                         <p class="lvl3">
+                                         Deselects the items delimited by the 
+                                         area over which the mouse is dragged. </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Ctrl</code>                           </td>
+          <td class="evnRow">            <b>If at least one object is selected:</b>
+                                         <p class="lvl2">
+                                         Enables the selection of multiple
+                                         objects.                              </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>Shift</code>                          </td>
+          <td class="oddRow">            <b>If at least one object is selected:</b>
+                                         <p class="lvl2">
+                                         Activates the <i>rotation</i> gizmo.  </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Delete</code>                            </td>
+          <td class="evnRow">            Deletes selected objects.             </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>Enter</code>                          </td>
+          <td class="oddRow">            Places the object selected in the 
+                                         Asset Browser under the mouse cursor. </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Esc</code>                            </td>
+          <td class="evnRow">            Deselects the selected objects.       </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>B</code>                              </td>
+          <td class="oddRow">            Toggles the drawing of object's BSPs.<br>
+                                         This value can also be set by the
+                                         <b>General Options</b> panel's <b>Show</b>
+                                         list box's <b>Scenery&rarr;BSP</b> 
+                                         item.<br>
+                                         <img src="showscenerybsp.png" align=right>
+                                                                               </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>C</code>                              </td>
+          <td class="evnRow">            Clones the selected objects.          </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>R</code>                              </td>
+          <td class="oddRow">            <b>If a shell is selected:</b><br>
+                                         <p class="lvl2">
+                                         Recreates the selected shell(s).      </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>G</code>                              </td>
+          <td class="evnRow">            Toggles the snapping of objects to the
+                                         grid specified in the <b>Object</b> panel.<br>
+                                         This value can also be set by the
+                                         <b>Object Grid Snaps</b> group box's 
+                                         <b>Enabled</b> check box.<br>
+                                         <img src="objectgridsnapsenabled.png" align=right>
+                                                                               </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>V</code>                                   </td>
+          <td class="oddRow">            <b>If a shell is selected:</b><br>
+                                         <p class="lvl2">
+                                         Makes a copy of the selected shell, and
+                                         links both by a matching portal.<br>
+                                         <b><code>V</code> must be pressed before 
+                                         and during the middle button click.<br>    </td></tr>
+
+      <tr><td class="evnRow1stCol">      Mouse left<br>button click            </td>
+          <td class="evnRow">            Selects object.                       </td></tr>
+  
+      <tr><td class="oddRow1stCol">      Mouse left<br>button drag             </td>
+          <td class="oddRow">            <b>If <i>Drag On Select</i> check box is
+                                         selected:</b><br>
+                                         <p class="lvl2">
+                                         Moves the selected objects
+                                         in the direction of the drag.<br></p>
+                                         <b>If <i>Drag On Select</i> check box is
+                                         cleared:</b><br>
+                                         <p class="lvl2">
+                                         Selects all selectable objects 
+                                         inside the dragged area.<br>
+                                         <img src="dragonselect.png" align=right>
+                                                                               </td></tr>
+
+      <tr><td class="evnRow1stCol">      Mouse right<br>button click           </td>
+          <td class="evnRow">            <b>If a model, shell, or particle was
+                                         clicked:</b><br>
+                                         <p class="lvl2">
+                                         Opens the item's context menu.        </td></tr>
+  
+      <tr><td class="oddRow1stCol">      Mouse middle<br>button click          </td>
+          <td class="oddRow">            <b>If a shell is selected:</b><br>
+                                         <p class="lvl2">
+                                         Links the selected shell to the clicked 
+                                         shell by a matching portal.           <br>
+                                         <b>If <code>V</code> is pressed:</b><br>
+                                         <p class="lvl3">
+                                         Makes a copy of the selected shell, and 
+                                         links both by a matching portal.<br>
+                                         Note that <code>V</code> must be pressed 
+                                         before and during the middle button 
+                                         click.                                </td></tr>
+  
+      <tr><td class="evnRow1stCol">      Mouse scroll<br>
+                                         wheel                                 </td>
+          <td class="evnRow">            <b>If <code>Shift</code> is pressed:</b>
+                                         <p class="lvl2">
+                                         Rotates the selected objects by 15 degrees.<br>
+                                         <b>If the <i>Object Grid Snaps</i> group box's 
+                                         <i>Enabled</i> check box is selected:</b>
+                                         <p class="lvl3">
+                                         Rotates the selected objects by the number 
+                                         of degrees specified in the <b>Angle</b>
+                                         field.<br>
+                                         <img src="objectgridsnapsenabledandangle.png" align=right>
+                                                                              </td></tr>
+
+      </tbody>
+      </table>
+   </body>
+</html>

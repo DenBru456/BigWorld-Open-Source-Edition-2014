@@ -1,0 +1,256 @@
+<falling_leaves.xml>
+	<falling_leaves_mesh_gust>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	1.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	65.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 10.606848 0.000000	</centre_>
+						<maxRadius_>	4.035429	</maxRadius_>
+						<minRadius_>	0.000000	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	0.000000 0.000000 0.000000	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	1.500000	</rate_>
+				<sensitivity_>	100000.000000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	3.000000	</activePeriod_>
+				<sleepPeriod_>	2.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	4.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.500000	</minimumSize_>
+				<maximumSize_>	0.800000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.999969 0.000000	</initialRotation_>
+				<randomInitialRotation_>	1.499971 3.141593	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	true	</randomSpin_>
+				<minSpin_>	0.251327	</minSpin_>
+				<maxSpin_>	0.439823	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 1	</name_>
+				<maximumAge_>	4.000000	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	false	</outsideOnly_>
+			</Sink>
+			<TintShader>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	TintShader 1	</name_>
+				<repeat_>	false	</repeat_>
+				<period_>	4.000000	</period_>
+				<fogAmount_>	0.000000	</fogAmount_>
+				<tints_>
+					<Tint>
+						<time>	0.000000	</time>
+						<color>	1.000000 1.000000 1.000000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	3.435484	</time>
+						<color>	1.000000 1.000000 1.000000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	4.000000	</time>
+						<color>	1.000000 1.000000 1.000000 0.000000	</color>
+					</Tint>
+				</tints_>
+			</TintShader>
+			<Stream>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Stream 1	</name_>
+				<vector_>	0.000000 -4.264881 0.000000	</vector_>
+				<halfLife_>	0.400000	</halfLife_>
+			</Stream>
+			<Jitter>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Jitter 1	</name_>
+				<affectPosition_>	false	</affectPosition_>
+				<affectVelocity_>	true	</affectVelocity_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 0.000000 0.000000	</centre_>
+						<maxRadius_>	0.958070	</maxRadius_>
+						<minRadius_>	0.767810	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 0.000377 0.000000	</centre_>
+						<maxRadius_>	0.100000	</maxRadius_>
+						<minRadius_>	0.089356	</minRadius_>
+					</SphereVectorGenerator>
+				</pVelocitySrc>
+			</Jitter>
+		</Actions>
+		<Renderer>
+			<MeshParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<visualName_>	sets/temperate/particles/leaf01.visual	</visualName_>
+				<doubleSided_>	false	</doubleSided_>
+				<materialFX_>	1	</materialFX_>
+				<sortType_>	0	</sortType_>
+			</MeshParticleRenderer>
+		</Renderer>
+		<capacity>	10	</capacity>
+		<boundingBox>
+			<min>	-5.495593 -9.612901 -6.382780	</min>
+			<max>	9.790785 16.533331 7.621292	</max>
+		</boundingBox>
+	</falling_leaves_mesh_gust>
+	<falling_leaves_mesh_const>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	1.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	75.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 9.493457 0.000000	</centre_>
+						<maxRadius_>	4.024893	</maxRadius_>
+						<minRadius_>	0.036128	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	0.000000 0.000000 0.000000	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	0.500000	</rate_>
+				<sensitivity_>	100000.000000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	0.000000	</activePeriod_>
+				<sleepPeriod_>	0.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.500000	</minimumSize_>
+				<maximumSize_>	0.800000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.999969 0.000000	</initialRotation_>
+				<randomInitialRotation_>	1.499971 3.141593	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	true	</randomSpin_>
+				<minSpin_>	0.251484	</minSpin_>
+				<maxSpin_>	0.439823	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 1	</name_>
+				<maximumAge_>	4.000000	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	false	</outsideOnly_>
+			</Sink>
+			<TintShader>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	TintShader 1	</name_>
+				<repeat_>	false	</repeat_>
+				<period_>	4.000000	</period_>
+				<fogAmount_>	0.000000	</fogAmount_>
+				<tints_>
+					<Tint>
+						<time>	0.000000	</time>
+						<color>	1.000000 1.000000 1.000000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	3.435484	</time>
+						<color>	1.000000 1.000000 1.000000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	4.000000	</time>
+						<color>	1.000000 1.000000 1.000000 0.000000	</color>
+					</Tint>
+				</tints_>
+			</TintShader>
+			<Stream>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Stream 1	</name_>
+				<vector_>	0.000000 -4.264881 0.000000	</vector_>
+				<halfLife_>	0.400000	</halfLife_>
+			</Stream>
+			<Jitter>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Jitter 1	</name_>
+				<affectPosition_>	true	</affectPosition_>
+				<affectVelocity_>	false	</affectVelocity_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 0.000000 0.000000	</centre_>
+						<maxRadius_>	0.958070	</maxRadius_>
+						<minRadius_>	0.767810	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	0.000000 1.000000 0.000000	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+			</Jitter>
+		</Actions>
+		<Renderer>
+			<MeshParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<visualName_>	sets/temperate/particles/leaf01.visual	</visualName_>
+				<doubleSided_>	false	</doubleSided_>
+				<materialFX_>	1	</materialFX_>
+				<sortType_>	0	</sortType_>
+			</MeshParticleRenderer>
+		</Renderer>
+		<capacity>	3	</capacity>
+		<boundingBox>
+			<min>	-5.989476 -10.463354 -6.460657	</min>
+			<max>	10.303682 14.222076 8.430593	</max>
+		</boundingBox>
+	</falling_leaves_mesh_const>
+</falling_leaves.xml>

@@ -1,0 +1,62 @@
+<fd_jetty_wood.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<materialKind>	1	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	fd_s_jetty_wood	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/props/map/fd_s_jetty_wood_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_jetty_wood_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_jetty_wood_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	fd_s_jetty_light	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	glowFactor
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	helpers/maps/col_yellow.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_jetty_wood_dif.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-4.833100 -4.467600 -32.026402	</min>
+		<max>	4.986801 9.530501 32.114502	</max>
+	</boundingBox>
+	<customBsp>	true	</customBsp>
+</fd_jetty_wood.visual>

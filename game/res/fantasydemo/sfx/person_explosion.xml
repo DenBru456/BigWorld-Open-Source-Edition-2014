@@ -1,0 +1,50 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_implosion.xml  </ParticleSystem>
+	</Actor>
+	
+	
+	
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>
+
+
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+	<Event> particles
+		<SwarmTargets>
+			<Node>		biped Spine	</Node>
+			<Node>		biped Spine1	</Node>			
+			<Node>		biped L Clavicle	</Node>
+			<Node>		biped L UpperArm	</Node>
+			<Node>		biped L Forearm	</Node>
+			<Node>		biped L Hand	</Node>
+			<Node>		biped L Forearm	</Node>
+			<Node>		biped L UpperArm	</Node>
+			<Node>		biped L Clavicle	</Node>
+			<Node>		biped R Clavicle	</Node>
+			<Node>		biped R UpperArm	</Node>
+			<Node>		biped R Forearm	</Node>
+			<Node>		biped R Hand	</Node>
+			<Node>		biped R Forearm	</Node>
+			<Node>		biped R UpperArm	</Node>
+			<Node>		biped R Clavicle	</Node>
+			<Node>		biped Spine2	</Node>
+			<Node>		biped Spine1	</Node>
+			<Node>		biped Spine	</Node>
+			<Node>		biped L Thigh	</Node>
+			<Node>		biped L Foot	</Node>
+			<Node>		biped L Thigh	</Node>
+			<Node>		biped R Thigh	</Node>
+			<Node>		biped R Foot	</Node>
+			<Node>		biped R Thigh	</Node>
+			<Node>		biped Spine	</Node>
+		</SwarmTargets>
+	</Event>
+
+
+</SFXFile>

@@ -1,0 +1,623 @@
+<root>
+	<shell>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_basic_damaged.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	18448	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<resource>	sets/dungeon/props/web_corner01.model	</resource>
+		<transform>
+			<row0>	0.034907 0.000000 -0.999390	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.999390 0.000000 0.034907	</row2>
+			<row3>	5.675491 3.690521 -3.510345	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	18448	</offset>
+			<size>	32	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.694569 -0.014891 -0.063659	</row0>
+			<row1>	0.000000 1.651257 -0.386250	</row1>
+			<row2>	0.065377 -0.385963 -1.650029	</row2>
+			<row3>	12.699478 0.100540 -4.447052	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	18480	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.694569 -0.014891 -0.063659	</row0>
+			<row1>	0.000000 1.651257 -0.386250	</row1>
+			<row2>	0.065377 -0.385963 -1.650029	</row2>
+			<row3>	12.928528 0.100555 -4.504303	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	18700	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.694568 -0.014891 -0.063659	</row0>
+			<row1>	0.000000 1.651256 -0.386250	</row1>
+			<row2>	0.065377 -0.385963 -1.650028	</row2>
+			<row3>	13.054810 0.388229 -4.573166	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	18920	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.252712 -0.014891 1.142946	</row0>
+			<row1>	-0.270861 1.651256 -0.275361	</row1>
+			<row2>	-1.110488 -0.385963 -1.222165	</row2>
+			<row3>	13.233719 0.107620 -4.518448	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	19140	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.231061 -0.014891 -1.166234	</row0>
+			<row1>	0.254924 1.651256 -0.290177	</row1>
+			<row2>	1.138129 -0.385963 -1.196465	</row2>
+			<row3>	12.369324 0.100494 -4.517639	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	19360	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.463681 -0.014891 -0.856301	</row0>
+			<row1>	0.182390 1.651256 -0.340474	</row1>
+			<row2>	0.836783 -0.385963 -1.423608	</row2>
+			<row3>	12.718719 0.378845 -4.585983	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	19580	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-1.660104 -0.014682 -0.198586	</row0>
+			<row1>	0.031006 1.628058 -0.379559	</row1>
+			<row2>	0.196699 -0.380541 -1.616197	</row2>
+			<row3>	12.943207 0.659897 -4.630569	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	19800	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.683092 1.362519 -0.182317	</row0>
+			<row1>	1.354568 0.632478 -0.348464	</row1>
+			<row2>	-0.234184 -0.315952 -1.483794	</row2>
+			<row3>	12.914246 0.172028 -4.263763	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20020	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/items/upperskull.model	</resource>
+		<transform>
+			<row0>	-0.117980 1.362518 0.697090	</row0>
+			<row1>	-0.472965 0.632478 -1.316276	</row1>
+			<row2>	-1.455572 -0.315951 0.371202	</row2>
+			<row3>	13.636139 0.183350 -4.385986	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20240	</offset>
+			<size>	220	</size>
+		</staticLighting>
+	</model>
+	<ambientLight>
+		<colour>	67.000000 51.000011 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<resource>	sets/dungeon/props/web_corner02.model	</resource>
+		<transform>
+			<row0>	-0.283664 0.000040 0.958923	</row0>
+			<row1>	0.000137 0.999999 -0.000002	</row1>
+			<row2>	-0.958923 0.000131 -0.283664	</row2>
+			<row3>	12.608276 0.853745 -3.933899	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20460	</offset>
+			<size>	28	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/web_corner02.model	</resource>
+		<transform>
+			<row0>	-0.283888 -0.836932 -0.467920	</row0>
+			<row1>	0.000000 -0.487998 0.872843	</row1>
+			<row2>	-0.958856 0.247790 0.138537	</row2>
+			<row3>	11.016846 3.538300 -3.901031	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20488	</offset>
+			<size>	28	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/web01.model	</resource>
+		<transform>
+			<row0>	-0.448271 0.949515 -0.868516	</row0>
+			<row1>	-1.130498 0.148756 0.746118	</row1>
+			<row2>	0.614714 0.965991 0.738805	</row2>
+			<row3>	13.732254 0.489166 -4.260254	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20516	</offset>
+			<size>	16	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/dungeon/props/web_corner01.model	</resource>
+		<transform>
+			<row0>	-0.065371 0.000000 0.997857	</row0>
+			<row1>	0.000000 0.999996 0.000000	</row1>
+			<row2>	-0.997857 0.000000 -0.065371	</row2>
+			<row3>	10.533707 3.675110 -1.444702	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20532	</offset>
+			<size>	32	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/dungeon_misc/models/dungeon_broken_rocks.model	</resource>
+		<transform>
+			<row0>	0.911459 0.000131 -0.000000	</row0>
+			<row1>	-0.000131 0.911459 -0.000286	</row1>
+			<row2>	-0.000000 0.000286 0.911459	</row2>
+			<row3>	14.759995 0.000000 -1.389999	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	20564	</offset>
+			<size>	1308	</size>
+		</staticLighting>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237368	</modified_on>
+		</metaData>
+		<colour>	245.000092 221.000092 148.000000	</colour>
+		<position>	14.618073 2.590012 -1.790054	</position>
+		<innerRadius>	0.966257	</innerRadius>
+		<outerRadius>	5.304735	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.500000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287967352	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287967492	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.340461 0.000001 0.842689	</row0>
+			<row1>	-0.841503 0.048190 -0.339982	</row1>
+			<row2>	-0.044681 -0.907588 -0.018051	</row2>
+			<row3>	8.679153 0.481094 -0.973679	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	21872	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287967367	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287967492	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.340459 -0.000003 0.842689	</row0>
+			<row1>	-0.001342 0.908865 -0.000538	</row1>
+			<row2>	-0.842688 -0.001447 -0.340459	</row2>
+			<row3>	9.072296 0.099930 -0.865738	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	27388	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287967404	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287967492	</modified_on>
+		</metaData>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<transform>
+			<row0>	0.685565 0.001028 0.263164	</row0>
+			<row1>	-0.001333 0.734339 0.000605	</row1>
+			<row2>	-0.263163 -0.001043 0.685566	</row2>
+			<row3>	9.040787 1.097916 -0.827942	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287967450	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287967492	</modified_on>
+		</metaData>
+		<resource>	sets/town/props/t_candle.model	</resource>
+		<transform>
+			<row0>	-0.174099 0.000219 0.453548	</row0>
+			<row1>	-0.002291 0.485808 -0.001114	</row1>
+			<row2>	-0.453542 -0.002538 -0.174096	</row2>
+			<row3>	9.197372 1.098312 -0.939392	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287967415	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287967505	</modified_on>
+		</metaData>
+		<colour>	245.000107 221.000107 148.000000	</colour>
+		<position>	8.805786 1.506638 -0.873520	</position>
+		<innerRadius>	0.514231	</innerRadius>
+		<outerRadius>	2.552899	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.500000	</multiplier>
+	</omniLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287967519	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287967548	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/web_corner02.model	</resource>
+		<transform>
+			<row0>	0.479028 -0.000046 0.293308	</row0>
+			<row1>	-0.000062 0.561691 0.000188	</row1>
+			<row2>	-0.293308 -0.000192 0.479028	</row2>
+			<row3>	9.734314 0.576035 -0.370117	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	32904	</offset>
+			<size>	28	</size>
+		</staticLighting>
+	</model>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	-0.259449 0.150955 0.953885	</row0>
+			<row1>	0.049530 0.988487 -0.142959	</row1>
+			<row2>	-0.964485 0.010155 -0.263939	</row2>
+			<row3>	0.400436 2.197861 -1.776398	</row3>
+		</transform>
+		<guid>	4F8DFA2E.4F92AC9E.72B7BBBA.E1A89155	</guid>
+		<properties>
+			<next>
+				<guid>	B001A3AD.4BECEDD8.D76FADB7.010FB3EA	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	E9D18BB5.411FBD6A.8CD02498.8F668FE7	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.000000 -0.000273 -0.999999	</row0>
+			<row1>	-0.000211 0.999999 -0.000273	</row1>
+			<row2>	0.999999 0.000211 0.000000	</row2>
+			<row3>	6.157059 2.657791 -2.452469	</row3>
+		</transform>
+		<guid>	E951A8AC.46E9F2C1.1DEBC7BD.2AC7BBC2	</guid>
+		<properties>
+			<next>
+				<guid>	095889A1.464A0097.E1519A8A.4E4E0541	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	AB8BE86F.4EB6FFA5.CD5BA78B.BD567732	</guid>
+				<chunkId>	fffe0001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288567055	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288567055	</modified_on>
+		</metaData>
+		<guid>	53DA340D.4BF335E0.5772A3AA.F27E47C9	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.501971 -0.000006 0.864885	</row0>
+			<row1>	-0.000002 0.999999 0.000008	</row1>
+			<row2>	-0.864885 -0.000004 0.501970	</row2>
+			<row3>	10.201874 0.000015 -1.610260	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	6	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288567057	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288567058	</modified_on>
+		</metaData>
+		<guid>	01304149.42C72AB0.B938F690.243FC634	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	-0.705495 0.000231 0.708715	</row0>
+			<row1>	0.000337 0.999999 0.000009	</row1>
+			<row2>	-0.708714 0.000247 -0.705495	</row2>
+			<row3>	11.870621 -0.000015 -1.392487	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	6	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	-176.527863 137.889938 184.470001	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-176.527908 137.468811 179.012817	</min>
+		<max>	-161.527069 143.543488 184.968384	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00ms0010i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

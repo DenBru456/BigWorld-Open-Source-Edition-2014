@@ -1,0 +1,9 @@
+<material>
+	<fx> shaders/environment/sky_gradient_dome.fx </fx>	
+	<property>	starMap
+		<Texture>	system/maps/stars.bmp	</Texture>
+	</property>	
+	<property>	mieMap
+		<Texture>	system/maps/mie_gradient.bmp	</Texture>
+	</property>	
+</material>

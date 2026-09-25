@@ -1,0 +1,226 @@
+<root>
+	<Properties>
+		<int8>
+			<Type>			INT8				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int8>
+
+		<uint8>
+			<Type>			UINT8				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint8>
+
+		<int16>
+			<Type>			INT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int16>
+
+		<uint16>
+			<Type>			UINT16				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint16>
+
+		<int32>
+			<Type>			INT32			</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int32>
+
+		<uint32>
+			<Type>			UINT32				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint32>
+
+		<int64>
+			<Type>			INT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</int64>
+
+		<uint64>
+			<Type>			UINT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</uint64>
+
+		<float32>
+			<Type>			FLOAT32				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float32>
+
+		<float64>
+			<Type>			FLOAT64				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</float64>
+
+		<stringVarCharLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 1				</DatabaseLength>
+		</stringVarCharLowerBound>
+
+		<stringVarCharUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 255			</DatabaseLength>
+		</stringVarCharUpperBound>
+
+		<stringTextLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 256			</DatabaseLength>
+		</stringTextLowerBound>
+
+		<stringTextUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65535			</DatabaseLength>
+		</stringTextUpperBound>
+
+		<stringMediumTextLowerBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 65536			</DatabaseLength>
+		</stringMediumTextLowerBound>
+
+		<stringMediumTextUpperBound>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 16777214		</DatabaseLength>
+		</stringMediumTextUpperBound>
+
+		<python1>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</python1>
+
+		<python2>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</python2>
+
+		<python3>
+			<Type>			PYTHON			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</python3>
+
+		<chinese>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</chinese>
+
+		<japanese>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</japanese>
+
+		<russian>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</russian>
+
+		<blob>
+			<Type>			BLOB			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 16777214		</DatabaseLength>
+		</blob>
+
+		<intArray>
+			<Type>			ARRAY <of> INT32 </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</intArray>
+
+		<stringTuple>
+			<Type>			TUPLE <of> STRING </of>	</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</stringTuple>
+
+		<userType1>
+			<Type>			USER_TYPE
+				<implementedBy> user_types.userType1 </implementedBy>
+			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</userType1>
+
+		<userType2>
+			<Type>			USER_TYPE
+				<implementedBy> user_types.userType2 </implementedBy>
+			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</userType2>
+
+		<fixedDict>
+			<Type>			FIXED_DICT
+				<Properties>
+					<a> <Type> INT32 </Type> </a>
+					<b> <Type> FLOAT32 </Type> </b>
+					<c> <Type> STRING </Type> </c>
+				</Properties>
+
+				<AllowNone> True </AllowNone>
+			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</fixedDict>
+
+
+		<wrappedFixedDict>
+			<Type>			FIXED_DICT
+				<implementedBy>
+					unit_tests.data_types.wrappedFixedDictConverter
+				</implementedBy>
+				<Properties>
+					<a> <Type> INT32 </Type> </a>
+					<b> <Type> FLOAT32 </Type> </b>
+					<c> <Type> STRING </Type> </c>
+				</Properties>
+			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</wrappedFixedDict>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

@@ -1,0 +1,30 @@
+<fish.model>
+	<action>
+		<name>	swim	</name>
+		<animation>	swim	</animation>
+		<isMovement>	true	</isMovement>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+			</trigger>
+		</match>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.113443 -0.186444 -0.379998	</min>
+		<max>	0.136068 0.165081 0.256838	</max>
+	</visibilityBox>
+	<nodefullVisual>	characters/npc/fish/fish	</nodefullVisual>
+	<extent>	40.000000	</extent>
+	<animation>
+		<name>	swim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fish/swim	</nodes>
+	</animation>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377623	</modified_on>
+	</metaData>
+</fish.model>

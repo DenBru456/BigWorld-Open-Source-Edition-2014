@@ -1,0 +1,119 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css"/>
+
+	<script type="text/javascript" src="../js/MochiKit/MochiKit.js"></script>
+	<script type="text/javascript" src="../js/bigworld.js"></script>
+	<script type="text/javascript" src="../js/friends.js"></script>
+
+	<script>
+		function resizeContent() {
+			var menuDim = getElementDimensions( "menu" );
+			var buttonsPanelPos = getElementPosition( $( "buttons_panel" ) );
+			var newPos = {x:0, y:menuDim.h};
+			var contentDiv = $( "content" );
+			var newHeight = buttonsPanelPos.y - menuDim.h - 15;
+			setElementPosition( "content", newPos );
+			contentDiv.style.height = newHeight + "px";
+		}
+
+		connect( window, "onresize", resizeContent );
+	</script>
+
+	<style>
+		#main {
+			position: relative;
+			height: 100%;
+			width: 100%;
+		}
+
+		#content {
+			overflow: auto;
+			background: #303030;
+			width: 100%;
+			position: absolute;
+			border: 2px solid #a0a0a0;
+		}
+
+		#buttons_panel {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			align: center;
+		}
+
+		.name {
+			width: 100%;
+		}
+
+		.online .name {
+			color: #fff;
+			font-weight: bold;
+		}
+
+		.offline .name {
+			color: #aaa;
+			font-weight: bold;
+		}
+
+		.aoi .name {
+			color: #fff;
+		}
+
+		.transport {
+			// display: none;
+		}
+
+		input {
+			background: #747474;
+			color: white;
+			border-width: 2px;
+			border-color: #676767 #3f3f3f #3f3f3f #676767;
+			font-size: 11px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="main">
+		<div id="menu">
+			<ul>
+				<li><a href="#" class="active">Friends</a></li>
+				<li><a href="#">AoI</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<table>
+				<tbody id="friend_body">
+				</tbody>
+			</table>
+		</div>
+		<div id="buttons_panel" align="center">
+			<input type="button" value="Add Friend..."
+				onclick="BigWorld.call( 'addFriendClicked', {} );">
+			</input>
+			<input type="button" value="Set Accounts..."
+				onclick="BigWorld.call( 'setAccountsClicked', {} );">
+			</input>
+		</div>
+	</div>
+</body>
+
+<script>
+	resizeContent();
+	addEntity( "FriendEntity", true );
+	addEntity( "NonFriendEntity", false );
+	addFriend( "online@gmail.com", "xmpp", "online" );
+	addFriend( "offline@gmail.com", "xmpp", "offline" );
+
+	addFriend( "paul.murph@gmail.com", "xmpp", "online" );
+	addFriend( "andre@msn.com", "msn", "online" );
+	addFriend( "dominicw@yahoo.com", "yahoo", "offline" );
+	addFriend( "paulm@bigworldtech.com", "xmpp", "online" );
+	addFriend( "Client01", "bigworld", "aoi" );
+	addFriend( "Client02", "bigworld", "aoi" );
+	addFriend( "Bot", "bigworld", "aoi" );
+</script>
+
+</html>

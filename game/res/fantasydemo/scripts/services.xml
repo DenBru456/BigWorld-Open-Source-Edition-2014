@@ -1,0 +1,12 @@
+<root>
+	<ExampleService/>
+	<NoteStore/>
+	<AMQPExample/>
+
+	<!-- These services are implemented in bigworld/res/scripts -->
+	<HTTPResTreeService/>
+	<HTTPGameService/>
+	<HTTPReplayService/>
+	<SpaceRecorder/>
+    <ProfileDumpsService/>
+</root>

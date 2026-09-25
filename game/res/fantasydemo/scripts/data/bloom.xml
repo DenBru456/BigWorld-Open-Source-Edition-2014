@@ -1,0 +1,24 @@
+<bloom.xml>
+	<Standard>
+		<enable>	true	</enable>
+		<filterMode>	1	</filterMode>
+		<attenuation>	1.0 1.0 1.0 1.0	</attenuation>
+		<numPasses>	2	</numPasses>
+		<power>	8.000000	</power>
+	</Standard>
+	<Gobo>
+		<bloomAndBlur>	false	</bloomAndBlur>
+		<enable>	true	</enable>
+		<filterMode>	1	</filterMode>
+		<attenuation>	1.0 1.0 1.0 1.0	</attenuation>
+		<numPasses>	1	</numPasses>
+		<power>	8.000000	</power>
+	</Gobo>
+	<FullOn>
+		<enable>	true	</enable>
+		<filterMode>	1	</filterMode>
+		<attenuation>	1.01000 1.00000 0.990000 1.010000	</attenuation>
+		<numPasses>	23	</numPasses>
+		<power>	8.000000	</power>
+	</FullOn>
+</bloom.xml>

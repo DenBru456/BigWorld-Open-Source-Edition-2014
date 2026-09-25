@@ -1,0 +1,365 @@
+<chat_window.gui>
+	<WindowGUIComponent>	341278176
+		<position>	0.000000 -0.850000 0.060000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	930.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	200.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<children>
+			<border>	341277680	</border>
+			<console>	341278736	</console>
+		</children>
+		<script>	&quot;FDGUI.ChatConsole&quot;
+			<timeout> 		15			</timeout>
+			<auto_hide> 	true		</auto_hide>
+			<colour>		255 255 255 	</colour>
+			<alpha>			255			</alpha>
+			<textColour>			255 255 255 	</textColour>
+			<otherWhisperColour>	255 255 0		</otherWhisperColour>
+			<otherSayColour>		255 255 0		</otherSayColour>
+			<systemColour>			255 128 0		</systemColour>
+		</script>
+		<shaders>
+			<alpha>	318135376	</alpha>
+		</shaders>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<FrameGUIComponent2>	341277680
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/tooltip_frame.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	true	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+	</FrameGUIComponent2>
+	<WindowGUIComponent>	341278736
+		<position>	0.000000 0.000000 0.400000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	910.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	180.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Console&quot;	</script>
+		<children>
+			<buffer>	341279296	</buffer>
+			<editField>	341279856	</editField>
+			<languageIndicator>	341280416	</languageIndicator>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	341279296
+		<position>	0.000000 1.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	1.700000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.ScrollableText&quot;	
+			<idealCharactersPerLine>	40	</idealCharactersPerLine>
+			<autoFont>	chat_window_small.font	</autoFont>
+			<autoFont>	chat_window.font	</autoFont>
+		</script>
+		<children>
+			<text>	341280976	</text>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 -0.150000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	341279856
+		<position>	0.000000 -1.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	0.300000	</height>
+		<colour>	64.000000 64.000000 64.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus> true </mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.EditField&quot;			
+			<maxLength>	256	</maxLength>
+			<enableIME>	true 	</enableIME>
+			<shouldAdjustClipping>	false	</shouldAdjustClipping>
+			<activeColour>	255.000000 255.000000 255.000000 255.000000	</activeColour>
+			<inactiveColour>	155.000000 155.000000 155.000000 255.000000	</inactiveColour>
+			<idealVisibleCharacters>	40		</idealVisibleCharacters>
+			<autoFont>	chat_window_small.font	</autoFont>
+			<autoFont>	chat_window.font	</autoFont>
+		</script>
+		<children>
+			<text>	341280972	</text>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	-100.000000 -100.000000	</minScroll>
+		<maxScroll>	100.000000 100.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	341280416
+		<position>	1.000000 -1.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	36.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	36.000000	</height>
+		<colour>	255.000000 128.000000 64.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	false	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.LanguageIndicator&quot;
+			<autoSize>	false	</autoSize>
+			<padding>	5	</padding>
+			<square>	true	</square>
+		</script>
+		<children>
+			<label>	341282336	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	341280976
+		<position>	-1.000000 -1.000000 0.500000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/fonts/Meiryo_15.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	true	</multiline>
+		<colourFormatting>	true	</colourFormatting>
+	</TextGUIComponent>
+	<TextGUIComponent>	341280972
+		<position>	-1.000000 -1.000000 0.500000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/fonts/Meiryo_15.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	true	</colourFormatting>
+	</TextGUIComponent>
+	<TextGUIComponent>	341282336
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.021484	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.062500	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/Meiryo_15.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	A	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+	</TextGUIComponent>
+	<AlphaGUIShader>	318135376
+		<mode>	0	</mode>
+		<stop>	-1.000000	</stop>
+		<start>	1.000000	</start>
+		<alpha>	1.000000	</alpha>
+		<speed>	0.000000	</speed>
+	</AlphaGUIShader>
+</chat_window.gui>

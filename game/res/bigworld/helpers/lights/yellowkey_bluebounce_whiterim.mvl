@@ -1,0 +1,73 @@
+<root>
+	<Lights>
+		<Light>
+			<Type>	Ambient	</Type>
+			<Enabled>	false	</Enabled>
+			<Color>	0.000000 0.000000 0.000000	</Color>
+		</Light>
+		<Light>
+			<Type>	Omni	</Type>
+			<Enabled>	true	</Enabled>
+			<Color>	255.000000 255.000000 255.000000	</Color>
+			<Location>	1.056968 3.124697 -1.502805	</Location>
+			<Full_Radius>	10.000000	</Full_Radius>
+			<Falloff_Radius>	20.000000	</Falloff_Radius>
+		</Light>
+		<Light>
+			<Type>	Omni	</Type>
+			<Enabled>	true	</Enabled>
+			<Color>	199.000015 241.000015 248.000015	</Color>
+			<Location>	-7.631970 3.866210 4.896211	</Location>
+			<Full_Radius>	14.891643	</Full_Radius>
+			<Falloff_Radius>	42.783283	</Falloff_Radius>
+		</Light>
+		<Light>
+			<Type>	Omni	</Type>
+			<Enabled>	false	</Enabled>
+			<Color>	0.000000 0.000000 0.000000	</Color>
+			<Location>	0.000000 0.000000 0.000000	</Location>
+			<Full_Radius>	10.000000	</Full_Radius>
+			<Falloff_Radius>	20.000000	</Falloff_Radius>
+		</Light>
+		<Light>
+			<Type>	Omni	</Type>
+			<Enabled>	false	</Enabled>
+			<Color>	0.000000 0.000000 0.000000	</Color>
+			<Location>	0.000000 0.000000 0.000000	</Location>
+			<Full_Radius>	10.000000	</Full_Radius>
+			<Falloff_Radius>	20.000000	</Falloff_Radius>
+		</Light>
+		<Light>
+			<Type>	Directional	</Type>
+			<Enabled>	true	</Enabled>
+			<Color>	221.000046 244.000046 255.000000	</Color>
+			<Orientation>	0.590824 -0.538031 0.601207	</Orientation>
+		</Light>
+		<Light>
+			<Type>	Directional	</Type>
+			<Enabled>	true	</Enabled>
+			<Color>	108.000023 4.000000 22.000000	</Color>
+			<Orientation>	-0.862125 0.344684 0.371395	</Orientation>
+		</Light>
+		<Light>
+			<Type>	Spot	</Type>
+			<Enabled>	false	</Enabled>
+			<Color>	0.000000 0.000000 0.000000	</Color>
+			<Location>	0.000000 2.000000 0.000000	</Location>
+			<Orientation>	0.000000 1.000000 0.000000	</Orientation>
+			<Full_Radius>	10.000000	</Full_Radius>
+			<Falloff_Radius>	20.000000	</Falloff_Radius>
+			<Cone_Size>	30.000000	</Cone_Size>
+		</Light>
+		<Light>
+			<Type>	Spot	</Type>
+			<Enabled>	false	</Enabled>
+			<Color>	0.000000 0.000000 0.000000	</Color>
+			<Location>	0.000000 2.000000 0.000000	</Location>
+			<Orientation>	0.000000 1.000000 0.000000	</Orientation>
+			<Full_Radius>	10.000000	</Full_Radius>
+			<Falloff_Radius>	20.000000	</Falloff_Radius>
+			<Cone_Size>	30.000000	</Cone_Size>
+		</Light>
+	</Lights>
+</root>

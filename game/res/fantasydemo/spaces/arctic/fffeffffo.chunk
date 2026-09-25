@@ -1,0 +1,82 @@
+<fffeffffo.chunk>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-1.933553 0.000000 -4.785709	</row0>
+			<row1>	0.000000 5.161553 0.000000	</row1>
+			<row2>	4.785709 0.000000 -1.933553	</row2>
+			<row3>	95.787376 -2.705561 65.461189	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	3.060365 0.000005 2.491815	</row0>
+			<row1>	-0.000005 3.946517 -0.000001	</row1>
+			<row2>	-2.491815 -0.000003 3.060365	</row2>
+			<row3>	81.620293 -0.560711 61.520309	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	2.878349 0.000004 2.343614	</row0>
+			<row1>	-0.000005 3.711796 -0.000001	</row1>
+			<row2>	-2.343614 -0.000002 2.878349	</row2>
+			<row3>	97.176308 -3.486980 46.276360	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	1.774169 0.000003 1.444566	</row0>
+			<row1>	-0.000003 2.287892 -0.000000	</row1>
+			<row2>	-1.444566 -0.000002 1.774169	</row2>
+			<row3>	83.236473 -1.346813 79.254379	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_substitute_snow.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-2.576965 0.000000 -2.668526	</row0>
+			<row1>	0.000000 3.709687 0.000000	</row1>
+			<row2>	2.668526 0.000000 -2.576965	</row2>
+			<row3>	91.500000 -0.200000 89.500000	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29734719	</hi>
+		<lo>	1696437676	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffeffffo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	fffeffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffeffffo.chunk>

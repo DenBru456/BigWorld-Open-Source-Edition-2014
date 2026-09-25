@@ -1,0 +1,43 @@
+<pointer.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 -1.000000	</row1>
+				<row2>	0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box01	</node>
+		<geometry>
+			<vertices>	Box01.vertices	</vertices>
+			<primitive>	Box01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<fx>	shaders/std_effects/lightonly_forward.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	resources/maps/gizmo/freepointer.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.141421 -0.000000 -0.141417	</min>
+		<max>	0.141421 1.241075 0.141425	</max>
+	</boundingBox>
+</pointer.visual>

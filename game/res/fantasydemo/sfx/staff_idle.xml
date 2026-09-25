@@ -1,0 +1,40 @@
+<SFXFile>
+	<Actor> staff_particle
+		<ParticleSystem>  particles/staff_idle.xml  </ParticleSystem>
+	</Actor>
+	
+	<Actor> staff_light
+		<Light>
+			<innerRadius>	2		</innerRadius>
+			<outerRadius>	8		</outerRadius>
+			<colour>	128 192 255 255 </colour>
+			<priority>		1		</priority>
+		</Light>
+	</Actor>
+	
+	
+	
+	<Joint>	staff_particle
+		<Node>  HP_Snake_Neck  </Node>
+	</Joint>
+	
+	
+	<Joint>	staff_light
+		<LightSource>  HP_Top </LightSource>
+	</Joint>
+
+
+	<Event> staff_particle
+		<ForceParticle/>
+	</Event>
+
+
+	<Event> staff_light
+		<Flicker>			
+			<amplitude>	0.1	</amplitude>
+			<speed>	0.5	</speed>
+		</Flicker>
+	</Event>
+
+
+</SFXFile>

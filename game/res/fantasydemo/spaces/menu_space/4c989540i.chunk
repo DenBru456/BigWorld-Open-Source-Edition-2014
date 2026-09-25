@@ -1,0 +1,59 @@
+<root>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273802145	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273802145	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_corner_001.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	11004	</size>
+		</staticLighting>
+	</shell>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	simonh	</created_by>
+			<created_on>	1273822615	</created_on>
+			<modified_by>	simonh	</modified_by>
+			<modified_on>	1273822624	</modified_on>
+		</metaData>
+		<colour>	84.000000 252.000076 151.000000	</colour>
+		<position>	-2.441216 1.139394 -4.455971	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	9.728013	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	0.500000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	70.879585 7.299998 64.150040	</row3>
+	</transform>
+	<boundingBox>
+		<min>	70.879578 6.867936 63.663456	</min>
+		<max>	81.423531 13.004285 74.164581	</max>
+	</boundingBox>
+</root>

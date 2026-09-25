@@ -1,0 +1,17 @@
+<character_lighting_specmap_skinned.mfm>
+	<property>	specularLightExtraModulation
+		<Float>	1.000000	</Float>
+	</property>
+	<property>	specularMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	helpers\maps\aid_builder_norms.bmp	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+</character_lighting_specmap_skinned.mfm>

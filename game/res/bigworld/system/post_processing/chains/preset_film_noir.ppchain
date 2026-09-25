@@ -1,0 +1,265 @@
+<preset_film_noir.ppchain>
+	<Effect>	HSV Colour Correct
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	HSV colour correct	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct_hsv.fx	</fx>
+				<property>	brightness
+					<Float>	0.130000	</Float>
+				</property>
+				<property>	saturation
+					<Float>	-0.600000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Colour Correct
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	colour correct	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct.fx	</fx>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	lookupTexture
+					<Texture>	system/maps/post_processing/film_grain/colour_correct_oldfilm.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Film Grain
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	colour correct	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/colour_correct.fx	</fx>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	lookupTexture
+					<Texture>	system/maps/post_processing/film_grain/colour_correct_oldfilm.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	dust and scratches	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/film_grain.fx	</fx>
+				<property>	punchcardOffset
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	scale
+					<Float>	49.980000	</Float>
+				</property>
+				<property>	speed
+					<Float>	0.008000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	0.700000	</Float>
+				</property>
+				<property>	inputTexture5
+					<Texture>	system/maps/post_processing/film_grain/dirt_04.dds	</Texture>
+				</property>
+				<property>	inputTexture4
+					<Texture>	system/maps/post_processing/film_grain/dirt_03.dds	</Texture>
+				</property>
+				<property>	inputTexture3
+					<Texture>	system/maps/post_processing/film_grain/dirt_02.dds	</Texture>
+				</property>
+				<property>	inputTexture2
+					<Texture>	system/maps/post_processing/film_grain/dirt_01.dds	</Texture>
+				</property>
+				<property>	inputTexture1
+					<Texture>	system/maps/post_processing/film_grain/scratch_02.dds	</Texture>
+				</property>
+				<property>	inputTexture0
+					<Texture>	system/maps/post_processing/film_grain/scratch_01.dds	</Texture>
+				</property>
+				<property>	punchcard
+					<Texture>	system/maps/post_processing/film_grain/oldfilm_punchcard.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	dust and scratches	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/film_grain.fx	</fx>
+				<property>	punchcardOffset
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	scale
+					<Float>	49.980000	</Float>
+				</property>
+				<property>	speed
+					<Float>	0.015000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	0.590000	</Float>
+				</property>
+				<property>	inputTexture5
+					<Texture>	system/maps/post_processing/film_grain/dirt_08.dds	</Texture>
+				</property>
+				<property>	inputTexture4
+					<Texture>	system/maps/post_processing/film_grain/dirt_07.dds	</Texture>
+				</property>
+				<property>	inputTexture3
+					<Texture>	system/maps/post_processing/film_grain/dirt_06.dds	</Texture>
+				</property>
+				<property>	inputTexture2
+					<Texture>	system/maps/post_processing/film_grain/dirt_05.dds	</Texture>
+				</property>
+				<property>	inputTexture1
+					<Texture>	system/maps/post_processing/film_grain/scratch_04.dds	</Texture>
+				</property>
+				<property>	inputTexture0
+					<Texture>	system/maps/post_processing/film_grain/scratch_03.dds	</Texture>
+				</property>
+				<property>	punchcard
+					<Texture>	system/maps/post_processing/film_grain/oldfilm_punchcard.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+	<Effect>	Vignette
+		<PyPhase>
+			<name>	transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	0.430000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	system/maps/post_processing/film_grain/vignette.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+</preset_film_noir.ppchain>

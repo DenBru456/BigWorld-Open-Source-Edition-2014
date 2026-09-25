@@ -1,0 +1,158 @@
+<job_system_graph.gui>
+	<WindowGUIComponent>	507159600
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	370.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	88.750000	</height>
+		<colour>	0.000000 0.000000 0.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<children>
+			<graph>	507160176	</graph>
+			<title>	507160736	</title>
+			<frame>	507161392	</frame>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+		<clipChildren>	true	</clipChildren>
+	</WindowGUIComponent>
+	<GraphGUIComponent>	507160176
+		<nPoints>	25	</nPoints>
+		<minY>	0.000000	</minY>
+		<maxY>	1.000000	</maxY>
+		<frequency>	0.500000	</frequency>
+		<showGrid>	true	</showGrid>
+		<gridSpacing>	10	</gridSpacing>
+		<gridColour>	0.000000 32.000000 0.000000 255.000000	</gridColour>
+		<lineColours>
+			<colour>	0.000000 255.000000 0.000000 255.000000	</colour>
+		</lineColours>
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	1.9500000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	4	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+	</GraphGUIComponent>
+	<TextGUIComponent>	507160736
+		<position>	-0.950000 -0.950000 0.500000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.187500	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.033854	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	Label_small.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Overall CPU Usage	</label>
+		<font>	Label_small.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+	</TextGUIComponent>
+	<FrameGUIComponent>	507161392
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	true	</tiled>
+		<tileWidth>	1	</tileWidth>
+		<tileHeight>	1	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 88.750000	</coords1>
+			<coords2>	370.000000 88.750000	</coords2>
+			<coords3>	370.000000 0.000000	</coords3>
+		</mapping>
+		<edgeTextureName>	gui/maps/pixel_frame_edge.dds	</edgeTextureName>
+		<cornerTextureName>	gui/maps/pixel_frame_corner.dds	</cornerTextureName>
+	</FrameGUIComponent>
+</job_system_graph.gui>

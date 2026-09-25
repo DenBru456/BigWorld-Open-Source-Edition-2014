@@ -1,0 +1,140 @@
+<fish.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.087150 0.011111 -0.996133	</row0>
+				<row1>	0.996195 0.000000 0.087156	</row1>
+				<row2>	0.000968 -0.999938 -0.011068	</row2>
+				<row3>	-0.000000 0.017682 0.152641	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	0.982701 -0.173394 0.065061	</row0>
+					<row1>	0.173637 0.984808 0.001929	</row1>
+					<row2>	-0.064407 0.009401 0.997880	</row2>
+					<row3>	0.129917 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	0.984478 -0.173057 0.029223	</row0>
+						<row1>	0.173393 0.984808 -0.009401	</row1>
+						<row2>	-0.027152 0.014322 0.999529	</row2>
+						<row3>	0.119979 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone04	</identifier>
+						<transform>
+							<row0>	0.983386 -0.173579 -0.053131	</row0>
+							<row1>	0.173057 0.984808 -0.014322	</row1>
+							<row2>	0.054810 0.004889 0.998485	</row2>
+							<row3>	0.105006 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bone05	</identifier>
+							<transform>
+								<row0>	0.984820 -0.173579 0.000428	</row0>
+								<row1>	0.173579 0.984808 -0.004889	</row1>
+								<row2>	0.000428 0.004889 0.999988	</row2>
+								<row3>	0.102527 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	Bone05BlendBoneSphere01	</identifier>
+								<transform>
+									<row0>	0.000000 1.000000 0.000000	</row0>
+									<row1>	-0.028157 0.000000 -0.999604	</row1>
+									<row2>	-0.999604 0.000000 0.028157	</row2>
+									<row3>	-0.304053 -0.000000 0.009648	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Bone04BlendBoneSphere01	</identifier>
+							<transform>
+								<row0>	0.000000 1.000000 0.000000	</row0>
+								<row1>	-0.028157 0.000000 -0.999604	</row1>
+								<row2>	-0.999604 0.000000 0.028157	</row2>
+								<row3>	-0.201526 -0.000000 0.009648	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Bone03BlendBoneSphere01	</identifier>
+						<transform>
+							<row0>	0.000000 1.000000 0.000000	</row0>
+							<row1>	-0.082478 0.000000 -0.996593	</row1>
+							<row2>	-0.996593 0.000000 0.082478	</row2>
+							<row3>	-0.095697 -0.000000 0.020593	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneSphere01	</identifier>
+					<transform>
+						<row0>	0.000000 1.000000 0.000000	</row0>
+						<row1>	-0.054139 0.000000 -0.998533	</row1>
+						<row2>	-0.998533 0.000000 0.054139	</row2>
+						<row3>	0.023735 0.000000 0.017867	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneSphere01	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 0.000000	</row0>
+					<row1>	0.011111 0.000000 -0.999938	</row1>
+					<row2>	-0.999938 0.000000 -0.011111	</row2>
+					<row3>	0.152436 0.000000 0.019377	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneSphere01	</node>
+		<node>	Bone02BlendBoneSphere01	</node>
+		<node>	Bone03BlendBoneSphere01	</node>
+		<node>	Bone04BlendBoneSphere01	</node>
+		<node>	Bone05BlendBoneSphere01	</node>
+		<geometry>
+			<vertices>	Sphere01.vertices	</vertices>
+			<primitive>	Sphere01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/fish/fish_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	230	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/fish/fish_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/fish/fish.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.027865 -0.186444 -0.380771	</min>
+		<max>	0.027527 0.165082 0.256345	</max>
+	</boundingBox>
+</fish.visual>

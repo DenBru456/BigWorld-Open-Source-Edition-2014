@@ -1,0 +1,14 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_explosion_chicken.xml  </ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+	<ModelRoot/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+</SFXFile>

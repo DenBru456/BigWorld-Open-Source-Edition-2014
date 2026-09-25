@@ -1,0 +1,8 @@
+generatedSource +=	\
+{%- for sourceFile in sourceFiles %}
+	{{ sourceFile }}		\
+{%- endfor %}
+
+# vi: filetype=make
+# Makefile.rules - GeneratedSource
+

@@ -1,0 +1,40 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>	particles/fog.xml	</ParticleSystem>
+	</Actor>
+
+	<Actor> godrays
+		<PPChain>	system/post_processing/chains/god rays.ppchain
+			<Property>	God Rays/god rays/exposure
+				<Float>	0.01	</Float>
+			</Property>
+		</PPChain>
+	</Actor>
+	
+	<Joint>	particles
+		<Camera/>
+	</Joint>
+
+	<Joint>	godrays
+		<PPScreen/>
+	</Joint>
+
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+	<Event> godrays
+		<PPAnimateProperty>	God Rays/god rays/exposure
+			<Key>	0.0	<Float>	0.0 </Float>	</Key>
+			<Key>	0.0	<Float>	0.052 </Float>	</Key>
+		</PPAnimateProperty>
+	</Event>
+
+	<Event> particles
+		<RampTimeTriggeredParticles>
+			<fadeTime>	2.0	</fadeTime>
+		</RampTimeTriggeredParticles>
+	</Event>
+
+</SFXFile>

@@ -1,0 +1,130 @@
+<root>
+	<particles>
+		<resource>	particles/fireflies.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	35.601658 208.969162 46.731812	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	-1.120852 0.000000 1.759287	</row0>
+			<row1>	0.000000 2.086002 0.000000	</row1>
+			<row2>	-1.759287 0.000000 -1.120852	</row2>
+			<row3>	42.499107 206.315903 51.873779	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.301914 0.525034 2.150774	</row0>
+			<row1>	-0.195726 2.155850 -0.553748	</row1>
+			<row2>	-2.205262 -0.263221 -0.245307	</row2>
+			<row3>	35.867748 208.392578 59.288513	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.231634 0.025317 1.311478	</row0>
+			<row1>	-0.376396 1.277045 0.041827	</row1>
+			<row2>	-1.256559 -0.377866 0.229229	</row2>
+			<row3>	17.518574 186.755890 7.186890	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	00000006o.cdata/terrain2	</resource>
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	46.238228 202.789032 23.543457	</row3>
+		</transform>
+		<guid>	E3028513.4F0CF38C.B051D9AC.FFA7F2F3	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	04CD3281.4DE98B98.2317BB81.1DE7FB3B	</guid>
+					<chunkId>	00000005o	</chunkId>
+				</item>
+			</patrolLinks>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	0F2FF65F.4B0F471B.E43EB9A6.5A254CED	</guid>
+				<chunkId>	ffff0006o	</chunkId>
+			</link>
+			<link>
+				<guid>	5E1B51E5.4E8FFEB1.BC997482.22A053CC	</guid>
+				<chunkId>	00000006o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	5E1B51E5.4E8FFEB1.BC997482.22A053CC	</guid>
+		<type>	Guard	</type>
+		<transform>
+			<row0>	-0.258819 0.000000 0.965925	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.965925 0.000000 -0.258819	</row2>
+			<row3>	46.624863 202.312469 18.210876	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<initialPatrolNode>
+				<guid>	E3028513.4F0CF38C.B051D9AC.FFA7F2F3	</guid>
+				<chunkId>	00000006o	</chunkId>
+			</initialPatrolNode>
+			<guardType>	2	</guardType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00000006o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,110 @@
+<crow.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	bone01	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000	</row2>
+				<row3>	-0.0006 0.0000 0.0693	</row3>
+			</transform>
+			<node>
+				<identifier>	bone04	</identifier>
+				<transform>
+					<row0>	-0.9284 0.3715 -0.0000	</row0>
+					<row1>	0.3715 0.9284 -0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000	</row2>
+					<row3>	-0.0388 0.0000 0.0690	</row3>
+				</transform>
+				<node>
+					<identifier>	bone05	</identifier>
+					<transform>
+						<row0>	0.8960 -0.4441 -0.0000	</row0>
+						<row1>	0.4441 0.8960 0.0000	</row1>
+						<row2>	-0.0000 0.0000 1.0000	</row2>
+						<row3>	0.3488 -0.0000 0.0944	</row3>
+					</transform>
+					<node>
+						<identifier>	Dummy02	</identifier>
+						<transform>
+							<row0>	-1.0000 0.0000 -0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000	</row1>
+							<row2>	-0.0000 -0.0000 1.0000	</row2>
+							<row3>	0.6716 0.0000 -0.0534	</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	bone02	</identifier>
+				<transform>
+					<row0>	0.9256 0.3785 0.0000	</row0>
+					<row1>	-0.3785 0.9256 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000	</row2>
+					<row3>	0.0407 0.0000 0.0690	</row3>
+				</transform>
+				<node>
+					<identifier>	bone03	</identifier>
+					<transform>
+						<row0>	0.8456 -0.5338 0.0000	</row0>
+						<row1>	0.5338 0.8456 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000	</row2>
+						<row3>	0.3488 0.0000 0.0944	</row3>
+					</transform>
+					<node>
+						<identifier>	Dummy01	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000	</row2>
+							<row3>	0.6712 -0.0000 -0.0534	</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	bone02	</node>
+		<node>	bone01	</node>
+		<node>	bone03	</node>
+		<node>	bone05	</node>
+		<geometry>
+			<vertices>	characters/npc/crow/crow.crow.vertices	</vertices>
+			<primitive>	characters/npc/crow/crow.crow.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	boidy	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	11	</materialKind>
+					<property>	alphaReference
+						<Int>	128	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/crow/crow_map.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.40 -0.05 -0.65	</min>
+		<max>	1.39 0.17 0.49	</max>
+	</boundingBox>
+	<materialKind>	11	</materialKind>
+</crow.visual>

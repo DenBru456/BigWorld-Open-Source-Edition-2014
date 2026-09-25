@@ -1,0 +1,429 @@
+<demonstration.xml>
+	<ghosts>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	0.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	150.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<LineVectorGenerator>
+						<nameID_>	LineVectorGenerator	</nameID_>
+						<origin_>	0.000000 -7.780000 0.000000	</origin_>
+						<direction_>	-0.097000 13.629000 0.000000	</direction_>
+					</LineVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	13.500000 12.830411 11.366422	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	100.000000	</rate_>
+				<sensitivity_>	100000.000000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	-1.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.100000	</minimumSize_>
+				<maximumSize_>	0.100000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 1	</name_>
+				<maximumAge_>	6.300063	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	false	</outsideOnly_>
+			</Sink>
+			<TintShader>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	TintShader 1	</name_>
+				<repeat_>	false	</repeat_>
+				<period_>	5.000000	</period_>
+				<fogAmount_>	0.000000	</fogAmount_>
+				<tints_>
+					<Tint>
+						<time>	0.000000	</time>
+						<color>	0.000000 0.000000 0.000000 0.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	0.403226	</time>
+						<color>	1.000000 0.090196 0.105882 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	1.411290	</time>
+						<color>	1.000000 0.023529 0.035294 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	3.366935	</time>
+						<color>	0.305882 1.000000 0.145098 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	5.000000	</time>
+						<color>	0.000000 0.000000 0.000000 0.000000	</color>
+					</Tint>
+				</tints_>
+			</TintShader>
+			<Orbitor>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Orbitor 1	</name_>
+				<point_>	0.830000 0.000000 1.000000	</point_>
+				<angularVelocity_>	4.188790	</angularVelocity_>
+				<affectVelocity_>	false	</affectVelocity_>
+			</Orbitor>
+			<Jitter>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Jitter 1	</name_>
+				<affectPosition_>	false	</affectPosition_>
+				<affectVelocity_>	true	</affectVelocity_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 0.000000 0.000000	</centre_>
+						<maxRadius_>	2.451310	</maxRadius_>
+						<minRadius_>	0.720869	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.123135 -0.000349 0.000000	</centre_>
+						<maxRadius_>	4.005968	</maxRadius_>
+						<minRadius_>	0.451539	</minRadius_>
+					</SphereVectorGenerator>
+				</pVelocitySrc>
+			</Jitter>
+		</Actions>
+		<Renderer>
+			<TrailParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<textureName_>	maps/fx/fx_flare_glow.bmp	</textureName_>
+				<width_>	0.300000	</width_>
+				<skip_>	0	</skip_>
+				<useFog>	true	</useFog>
+				<steps>	50	</steps>
+			</TrailParticleRenderer>
+		</Renderer>
+		<capacity>	7000	</capacity>
+		<boundingBox>
+			<min>	-29.116911 -262.040771 -47.467903	</min>
+			<max>	41.251228 451.317474 29.600340	</max>
+		</boundingBox>
+	</ghosts>
+	<mesh_particles_sub>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	0.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	0.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<LineVectorGenerator>
+						<nameID_>	LineVectorGenerator	</nameID_>
+						<origin_>	0.000000 -7.789000 0.000000	</origin_>
+						<direction_>	-0.091300 7.085568 0.000000	</direction_>
+					</LineVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	13.557785 7.481467 4.071356	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	50.000000	</rate_>
+				<sensitivity_>	0.100000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	-1.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.100000	</minimumSize_>
+				<maximumSize_>	0.100000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<TintShader>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	TintShader 1	</name_>
+				<repeat_>	true	</repeat_>
+				<period_>	6.500000	</period_>
+				<fogAmount_>	0.000000	</fogAmount_>
+				<tints_>
+					<Tint>
+						<time>	0.000000	</time>
+						<color>	0.937255 0.000000 0.000000 0.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	1.808468	</time>
+						<color>	1.000000 0.039216 0.039216 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	3.564516	</time>
+						<color>	0.784314 0.447059 0.000000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	5.189516	</time>
+						<color>	1.000000 0.827451 0.023529 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	6.002016	</time>
+						<color>	1.000000 1.000000 1.000000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	6.500000	</time>
+						<color>	1.000000 1.000000 1.000000 0.000000	</color>
+					</Tint>
+				</tints_>
+			</TintShader>
+			<Orbitor>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Orbitor 1	</name_>
+				<point_>	0.832000 0.000000 1.080000	</point_>
+				<angularVelocity_>	4.363323	</angularVelocity_>
+				<affectVelocity_>	false	</affectVelocity_>
+			</Orbitor>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 1	</name_>
+				<maximumAge_>	6.300063	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	false	</outsideOnly_>
+			</Sink>
+			<Jitter>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Jitter 1	</name_>
+				<affectPosition_>	false	</affectPosition_>
+				<affectVelocity_>	true	</affectVelocity_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 -0.274517 0.000000	</centre_>
+						<maxRadius_>	1.671717	</maxRadius_>
+						<minRadius_>	0.726521	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 0.012153 0.000000	</centre_>
+						<maxRadius_>	1.527996	</maxRadius_>
+						<minRadius_>	0.328173	</minRadius_>
+					</SphereVectorGenerator>
+				</pVelocitySrc>
+			</Jitter>
+		</Actions>
+		<Renderer>
+			<MeshParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<visualName_>	helpers/props/mesh_particles_standin.visual	</visualName_>
+				<doubleSided_>	false	</doubleSided_>
+				<materialFX_>	0	</materialFX_>
+				<sortType_>	1	</sortType_>
+			</MeshParticleRenderer>
+		</Renderer>
+		<capacity>	40000	</capacity>
+		<boundingBox>
+			<min>	-14.018644 -103.562042 -18.742674	</min>
+			<max>	19.832712 213.686630 16.490944	</max>
+		</boundingBox>
+	</mesh_particles_sub>
+	<flares>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	0.000000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	150.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<LineVectorGenerator>
+						<nameID_>	LineVectorGenerator	</nameID_>
+						<origin_>	0.000000 -7.780000 0.000000	</origin_>
+						<direction_>	-0.097000 13.629000 0.000000	</direction_>
+					</LineVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<PointVectorGenerator>
+						<nameID_>	PointVectorGenerator	</nameID_>
+						<position_>	13.500000 14.021000 15.039000	</position_>
+					</PointVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	10.000000	</rate_>
+				<sensitivity_>	100000.000000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	-1.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	66.000000	</minimumSize_>
+				<maximumSize_>	67.000000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 1	</name_>
+				<maximumAge_>	6.300063	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	false	</outsideOnly_>
+			</Sink>
+			<TintShader>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	TintShader 1	</name_>
+				<repeat_>	false	</repeat_>
+				<period_>	5.000000	</period_>
+				<fogAmount_>	0.000000	</fogAmount_>
+				<tints_>
+					<Tint>
+						<time>	0.000000	</time>
+						<color>	0.000000 0.000000 0.000000 0.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	0.745968	</time>
+						<color>	0.023529 0.003922 0.078431 0.324786	</color>
+					</Tint>
+					<Tint>
+						<time>	2.399194	</time>
+						<color>	0.007843 0.082353 0.105882 0.282051	</color>
+					</Tint>
+					<Tint>
+						<time>	3.991935	</time>
+						<color>	0.007843 0.098039 0.105882 0.111111	</color>
+					</Tint>
+					<Tint>
+						<time>	5.000000	</time>
+						<color>	0.000000 0.000000 0.000000 0.000000	</color>
+					</Tint>
+				</tints_>
+			</TintShader>
+			<Orbitor>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Orbitor 1	</name_>
+				<point_>	0.830000 0.000000 1.000000	</point_>
+				<angularVelocity_>	4.188790	</angularVelocity_>
+				<affectVelocity_>	false	</affectVelocity_>
+			</Orbitor>
+			<Jitter>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Jitter 1	</name_>
+				<affectPosition_>	false	</affectPosition_>
+				<affectVelocity_>	true	</affectVelocity_>
+				<pPositionSrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.000000 0.000000 0.000000	</centre_>
+						<maxRadius_>	2.451310	</maxRadius_>
+						<minRadius_>	0.720869	</minRadius_>
+					</SphereVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<SphereVectorGenerator>
+						<nameID_>	SphereVectorGenerator	</nameID_>
+						<centre_>	0.123135 -0.000349 0.000000	</centre_>
+						<maxRadius_>	6.980425	</maxRadius_>
+						<minRadius_>	0.451539	</minRadius_>
+					</SphereVectorGenerator>
+				</pVelocitySrc>
+			</Jitter>
+			<Flare>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Flare 1	</name_>
+				<flareName_>	environments/fx//streak.xml	</flareName_>
+				<flareStep_>	4	</flareStep_>
+				<colourize_>	false	</colourize_>
+				<useParticleSize_>	false	</useParticleSize_>
+			</Flare>
+		</Actions>
+		<Renderer>
+			<TrailParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<textureName_>	maps/fx/afx_flare1.bmp	</textureName_>
+				<width_>	0.300000	</width_>
+				<skip_>	0	</skip_>
+				<useFog>	true	</useFog>
+				<steps>	50	</steps>
+			</TrailParticleRenderer>
+		</Renderer>
+		<capacity>	300	</capacity>
+		<boundingBox>
+			<min>	-115.299255 -498.124451 -119.762436	</min>
+			<max>	131.574890 676.161133 110.070282	</max>
+		</boundingBox>
+	</flares>
+	<metaData>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1340260421	</modified_on>
+	</metaData>
+</demonstration.xml>

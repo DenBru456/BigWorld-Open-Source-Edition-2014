@@ -1,0 +1,33 @@
+<root>
+	<Effect>	Fade to Env Map
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyPhase>
+			<name>	transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/env_map_fade.fx	</fx>
+				<property>	falloffPower
+					<Float>	1.130000	</Float>
+				</property>
+				<property>	z
+					<Float>	0.510000	</Float>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+</root>

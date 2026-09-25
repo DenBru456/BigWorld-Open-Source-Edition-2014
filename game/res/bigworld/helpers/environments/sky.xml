@@ -1,0 +1,73 @@
+<root>
+	<texture>	helpers/maps/system/sky_gradient.tga </texture>
+	<day_night_cycle>
+		<angle>	80.00	</angle>
+		<moonAngle>	80.00	</moonAngle>
+		<hourlength>	0.00	</hourlength>
+		<starttime>	15.45	</starttime>
+		<lightkey>
+			<time>	0.00	</time>
+			<colour>	0.00 0.00 0.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	0.20	</time>
+			<colour>	0.00 8.00 32.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	4.02	</time>
+			<colour>	18.00 20.00 22.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	5.07	</time>
+			<colour>	47.00 71.00 100.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	6.40	</time>
+			<colour>	207.00 157.00 90.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	9.30	</time>
+			<colour>	188.00 177.00 152.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	16.95	</time>
+			<colour>	126.00 106.00 65.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	17.87	</time>
+			<colour>	244.00 124.00 4.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	18.92	</time>
+			<colour>	0.00 0.00 0.00	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	20.77	</time>
+			<colour>	25.00 40.00 55.00	</colour>
+		</lightkey>
+		<ambientkey>
+			<time>	0.00	</time>
+			<colour>	21.00 81.00 130.00	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	5.67	</time>
+			<colour>	21.00 81.00 130.00	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	8.47	</time>
+			<colour>	72.00 70.00 79.00	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	11.37	</time>
+			<colour>	86.00 82.00 92.00	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	18.00	</time>
+			<colour>	69.00 77.00 82.00	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	20.00	</time>
+			<colour>	21.00 81.00 130.00	</colour>
+		</ambientkey>
+	</day_night_cycle>
+</root>

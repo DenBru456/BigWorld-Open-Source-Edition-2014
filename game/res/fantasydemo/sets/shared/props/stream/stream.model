@@ -1,0 +1,246 @@
+<stream.model>
+	<metaData>
+		<created_by>	AdamM	</created_by>
+		<created_on>	1284007473	</created_on>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1290656188	</modified_on>
+	</metaData>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	stream	</name>
+		<frameRate>	6.000000	</frameRate>
+		<nodes>	sets/shared/props/stream/stream	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-4.765485 0.070272 -12.955315	</min>
+		<max>	4.371375 0.820092 16.028507	</max>
+	</visibilityBox>
+	<dye>
+		<matter>	top_layer	</matter>
+		<replaces>	top_layer	</replaces>
+		<tint>
+			<name>	slow	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha_mask.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	1	</Int>
+				</property>
+				<property>	alphaReference
+					<Int>	78	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/stream/maps/waterfall_foam1.tga	</Texture>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/shared/props/stream/maps/stream_mask.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	sets/shared/props/stream/maps/water.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	vTransform_diffuse
+					<Vector4>	0.000000 1.000000 -0.300000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	end	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha_mask.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	1	</Int>
+				</property>
+				<property>	alphaReference
+					<Int>	78	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/stream/maps/waterfall_foam1.tga	</Texture>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/shared/props/stream/maps/stream_end_mask.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	sets/shared/props/stream/maps/water.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	vTransform_diffuse
+					<Vector4>	0.000000 1.000000 -0.300000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<dye>
+		<matter>	mid_layer	</matter>
+		<replaces>	mid_layer	</replaces>
+		<tint>
+			<name>	slow	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha_mask.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	4	</Int>
+				</property>
+				<property>	alphaReference
+					<Int>	78	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/stream/maps/waterfall_foam2.tga	</Texture>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/shared/props/stream/maps/stream_mask.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	sets/shared/props/stream/maps/water.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	vTransform_diffuse
+					<Vector4>	0.000000 1.000000 -0.400000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	end	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha_mask.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	4	</Int>
+				</property>
+				<property>	alphaReference
+					<Int>	78	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/stream/maps/waterfall_foam2.tga	</Texture>
+				</property>
+				<property>	maskMap
+					<Texture>	sets/shared/props/stream/maps/stream_end_mask.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	sets/shared/props/stream/maps/water.tga	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	vTransform_diffuse
+					<Vector4>	0.000000 1.000000 -0.200000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform_diffuse
+					<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<nodefullVisual>	sets/shared/props/stream/stream	</nodefullVisual>
+	<animation>
+		<name>	stream_end	</name>
+		<frameRate>	3.000000	</frameRate>
+		<nodes>	sets/shared/props/stream/stream_end	</nodes>
+	</animation>
+	<extent>	180.000000	</extent>
+	<parent>	sets/shared/props/stream/stream_lod1	</parent>
+</stream.model>

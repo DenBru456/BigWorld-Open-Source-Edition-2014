@@ -1,0 +1,115 @@
+<snow_flakes.xml>
+	<snow_flakes>
+		<serialiseVersionData>	2	</serialiseVersionData>
+		<windFactor_>	0.400000	</windFactor_>
+		<explicitTransform_>	false	</explicitTransform_>
+		<explicitPosition_>	0.000000 0.000000 0.000000	</explicitPosition_>
+		<explicitDirection_>	0.000000 0.000000 1.000000	</explicitDirection_>
+		<localOffset_>	0.000000 0.000000 0.000000	</localOffset_>
+		<maxLod_>	0.000000	</maxLod_>
+		<fixedFrameRate_>	-1.000000	</fixedFrameRate_>
+		<Actions>
+			<Source>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Source 1	</name_>
+				<pPositionSrc>
+					<BoxVectorGenerator>
+						<nameID_>	BoxVectorGenerator	</nameID_>
+						<corner_>	-22.014000 16.353001 -17.726999	</corner_>
+						<opposite_>	17.288000 10.841000 18.818001	</opposite_>
+					</BoxVectorGenerator>
+				</pPositionSrc>
+				<pVelocitySrc>
+					<BoxVectorGenerator>
+						<nameID_>	BoxVectorGenerator	</nameID_>
+						<corner_>	0.579000 -2.397000 0.000000	</corner_>
+						<opposite_>	0.200000 -3.521000 0.502000	</opposite_>
+					</BoxVectorGenerator>
+				</pVelocitySrc>
+				<motionTriggered_>	false	</motionTriggered_>
+				<timeTriggered_>	true	</timeTriggered_>
+				<grounded_>	false	</grounded_>
+				<dropDistance_>	15.000000	</dropDistance_>
+				<rate_>	300.000000	</rate_>
+				<sensitivity_>	0.100000	</sensitivity_>
+				<maxSpeed_>	0.000000	</maxSpeed_>
+				<activePeriod_>	1.000000	</activePeriod_>
+				<sleepPeriod_>	-1.000000	</sleepPeriod_>
+				<sleepPeriodMax_>	0.000000	</sleepPeriodMax_>
+				<minimumSize_>	0.050000	</minimumSize_>
+				<maximumSize_>	0.050000	</maximumSize_>
+				<forcedUnitSize_>	1	</forcedUnitSize_>
+				<allowedTimeInSeconds_>	1.000000	</allowedTimeInSeconds_>
+				<initialRotation_>	0.000000 0.000000	</initialRotation_>
+				<randomInitialRotation_>	0.000000 0.000000	</randomInitialRotation_>
+				<initialColour_>	0.500000 0.500000 0.500000 1.000000	</initialColour_>
+				<randomSpin_>	false	</randomSpin_>
+				<minSpin_>	0.000000	</minSpin_>
+				<maxSpin_>	0.000000	</maxSpin_>
+				<ignoreRotation_>	false	</ignoreRotation_>
+				<inheritVelocity_>	0.000000	</inheritVelocity_>
+			</Source>
+			<TintShader>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	TintShader 1	</name_>
+				<repeat_>	false	</repeat_>
+				<period_>	10.000000	</period_>
+				<fogAmount_>	0.000000	</fogAmount_>
+				<tints_>
+					<Tint>
+						<time>	0.000000	</time>
+						<color>	0.500000 0.500000 0.500000 0.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	0.564514	</time>
+						<color>	0.500000 0.500000 0.500000 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	7.661290	</time>
+						<color>	0.498442 0.498442 0.498442 1.000000	</color>
+					</Tint>
+					<Tint>
+						<time>	10.000000	</time>
+						<color>	0.498039 0.498039 0.498039 0.000000	</color>
+					</Tint>
+				</tints_>
+			</TintShader>
+			<Barrier>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Barrier 1	</name_>
+				<shape_>	3	</shape_>
+				<reaction_>	3	</reaction_>
+				<vecA_>	0.000000 0.000000 0.000000	</vecA_>
+				<vecB_>	16.857443 18.814825 16.380817	</vecB_>
+				<radius_>	20.504940	</radius_>
+			</Barrier>
+			<Sink>
+				<delay_>	0.000000	</delay_>
+				<minimumAge_>	0.000000	</minimumAge_>
+				<name_>	Sink 2	</name_>
+				<maximumAge_>	10.000000	</maximumAge_>
+				<minimumSpeed_>	-1.000000	</minimumSpeed_>
+				<outsideOnly_>	true	</outsideOnly_>
+			</Sink>
+		</Actions>
+		<Renderer>
+			<PointSpriteParticleRenderer>
+				<viewDependent_>	false	</viewDependent_>
+				<local_>	false	</local_>
+				<textureName_>	system/maps/mask_glow.bmp	</textureName_>
+				<materialFX_>	0	</materialFX_>
+				<frameCount_>	0	</frameCount_>
+				<frameRate_>	0.000000	</frameRate_>
+				<explicitOrientation_>	0.000000 0.000000 0.000000	</explicitOrientation_>
+			</PointSpriteParticleRenderer>
+		</Renderer>
+		<capacity>	3000	</capacity>
+		<boundingBox>
+			<min>	-20.520409 -20.487009 -20.046389	</min>
+			<max>	20.513948 20.527050 20.027079	</max>
+		</boundingBox>
+	</snow_flakes>
+</snow_flakes.xml>

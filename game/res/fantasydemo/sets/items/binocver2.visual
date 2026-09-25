@@ -1,0 +1,107 @@
+<binocver2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_right_hand	</identifier>
+			<transform>
+				<row0>	-0.020587 -0.024492 -0.999488	</row0>
+				<row1>	-0.998337 -0.053343 0.021871	</row1>
+				<row2>	-0.053850 0.998276 -0.023353	</row2>
+				<row3>	0.088079 0.094350 -0.012320	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_left_hand	</identifier>
+			<transform>
+				<row0>	0.016435 0.015866 -0.999739	</row0>
+				<row1>	0.994226 -0.106303 0.014658	</row1>
+				<row2>	-0.106043 -0.994207 -0.017521	</row2>
+				<row3>	-0.102745 -0.006844 0.077502	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_right_hip	</identifier>
+			<transform>
+				<row0>	-0.996478 -0.026627 0.079510	</row0>
+				<row1>	0.081934 -0.107642 0.990808	</row1>
+				<row2>	-0.017823 0.993833 0.109445	</row2>
+				<row3>	0.021667 -0.006595 -0.100014	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Mesh04	</identifier>
+			<transform>
+				<row0>	-0.999758 0.021526 -0.004436	</row0>
+				<row1>	-0.005337 -0.041984 0.999104	</row1>
+				<row2>	0.021321 0.998886 0.042088	</row2>
+				<row3>	-0.022557 0.006345 0.024010	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Object05	</identifier>
+			<transform>
+				<row0>	-0.999758 0.021526 -0.004436	</row0>
+				<row1>	-0.005337 -0.041983 0.999104	</row1>
+				<row2>	0.021321 0.998886 0.042088	</row2>
+				<row3>	-0.022757 0.004771 0.061476	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Mesh03	</identifier>
+			<transform>
+				<row0>	-0.999758 0.021526 -0.004436	</row0>
+				<row1>	-0.005337 -0.041984 0.999104	</row1>
+				<row2>	0.021321 0.998886 0.042088	</row2>
+				<row3>	-0.022918 0.003511 0.091449	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Mesh02	</identifier>
+			<transform>
+				<row0>	-0.999758 0.021526 -0.004436	</row0>
+				<row1>	-0.005337 -0.041984 0.999104	</row1>
+				<row2>	0.021321 0.998886 0.042088	</row2>
+				<row3>	-0.022918 0.003511 0.091449	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_left_hip	</identifier>
+			<transform>
+				<row0>	-0.996478 -0.026627 0.079510	</row0>
+				<row1>	0.081934 -0.107642 0.990808	</row1>
+				<row2>	-0.017823 0.993833 0.109445	</row2>
+				<row3>	0.021667 -0.006586 -0.100014	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	binocVer2_tmp	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/items/binocver2.dds	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.134600 -0.012100 -0.118400	</min>
+		<max>	0.091800 0.110100 0.125600	</max>
+	</boundingBox>
+	<materialKind>	4	</materialKind>
+</binocver2.visual>

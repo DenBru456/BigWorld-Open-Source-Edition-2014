@@ -1,0 +1,60 @@
+<root>
+	<Properties>
+		<textureFeedName>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		bone_tv			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</textureFeedName>
+
+		<skipFrames>
+			<Type>		UINT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</skipFrames>
+
+		<triggerRadius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10.0			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	1.5	</gizmoRadius>
+			</Widget>
+		</triggerRadius>
+
+		<cameraNode>
+			<Type>			UDO_REF	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</cameraNode>
+
+		<feedSourcesInput>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</feedSourcesInput>
+
+		<feedUpdateDelay>
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</feedUpdateDelay>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

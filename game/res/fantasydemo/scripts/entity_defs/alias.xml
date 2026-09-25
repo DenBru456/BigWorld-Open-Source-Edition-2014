@@ -1,0 +1,490 @@
+<root>
+	<OBJECT_ID>			INT32		</OBJECT_ID>
+	<ENTITY_ID>			INT32		</ENTITY_ID>
+	<SPACE_ID>			INT32		</SPACE_ID>
+	<RESOURCE_ID>		STRING		</RESOURCE_ID>
+	<BOOL>				UINT8
+		<!-- BOOL uses the ENUM widget to show True for 1 and False for 0
+		-->
+		<Widget>	ENUM
+			<enum>
+				<value>	0	</value>
+				<display>	False	</display>
+			</enum>
+			<enum>
+				<value>	1	</value>
+				<display>	True	</display>
+			</enum>
+		</Widget>
+	</BOOL>
+	<ANGLE>				FLOAT		</ANGLE>
+	<RADIUS>			FLOAT
+		<!-- this alias is a float type that uses the RADIUS widget to let the
+		user interact with the radius gizmo in the 3D view in World Editor -->
+		<Widget>	RADIUS
+			<colour>	255 0 0 192	</colour>
+			<gizmoRadius>	2	</gizmoRadius>
+		</Widget>
+	</RADIUS>
+	<CONTROLLER_ID>		UINT16		</CONTROLLER_ID>
+	<EXPERIENCE>		INT32		</EXPERIENCE>
+	<DBID>				INT64		</DBID>
+
+	<REALM_ID>			STRING		</REALM_ID>
+
+	<!-- FRIENDIDX is an index into the friends list. Size should be
+	sufficient to hold base/Avatar.MAX_FRIENDS -->
+	<FRIENDIDX>			UINT8		</FRIENDIDX>
+
+	<!-- ITEMIDX: index of an item inside inventory -->
+	<ITEMTYPE>			INT32		</ITEMTYPE>
+	<ITEMSERIAL>		INT32		</ITEMSERIAL>
+	<ITEMIDX>			INT16		</ITEMIDX>
+	<LOCKHANDLE>		INT32		</LOCKHANDLE>
+	<GOLDPIECES>		INT16		</GOLDPIECES>
+
+	<OBJECT_ID_PAIR>
+		ARRAY <of> OBJECT_ID </of> <size> 2 </size>
+	</OBJECT_ID_PAIR>
+
+	<!-- Aliases for UserDataObject links -->
+	<PATROL_NODE>	UDO_REF	</PATROL_NODE>
+	<PLATFORM_NODE_LINK>	UDO_REF	</PLATFORM_NODE_LINK>
+
+	<!-- InventoryEntry: an entry in the inventory items array -->
+	<InventoryEntry> FIXED_DICT
+		<TypeName> InventoryEntry </TypeName>
+		<Properties>
+			<itemType>
+				<Type>			ITEMTYPE			</Type>
+			</itemType>
+			<serial>
+				<Type>			ITEMSERIAL		</Type>
+			</serial>
+			<lockHandle>
+				<Type>			LOCKHANDLE		</Type>
+			</lockHandle>
+		</Properties>
+	</InventoryEntry>
+
+	<NOTE_ID> UINT32 </NOTE_ID>
+
+	<NOTE> FIXED_DICT
+		<TypeName> Note </TypeName>
+		<Properties>
+			<id> <Type> NOTE_ID </Type> </id>
+			<description> <Type> UNICODE_STRING </Type> </description>
+		</Properties>
+	</NOTE>
+
+	<NOTES> ARRAY <of> NOTE </of> </NOTES>
+
+	<PACKED_AVATAR_MODEL>	FIXED_DICT
+		<TypeName> PackedAvatarModel </TypeName>
+		<Properties>
+			<models>
+				<Type>	ARRAY <of> UINT8 </of> </Type>
+			</models>
+			<dyes>
+				<Type>	ARRAY
+					<of> FIXED_DICT
+						<TypeName> PackedAvatarModelDye </TypeName>
+						<Properties>
+							<materialGroup>
+								<Type> UINT8 </Type>
+							</materialGroup>
+							<tint>
+								<Type> UINT8 </Type>
+							</tint>
+						</Properties>
+					</of>
+				</Type>
+			</dyes>
+			<sfx>
+				<Type>	ARRAY <of> UINT8 </of> </Type>
+			</sfx>
+		</Properties>
+	</PACKED_AVATAR_MODEL>
+
+	<PERSISTENT_AVATAR_MODEL>	FIXED_DICT
+		<TypeName> PersistentAvatarModel </TypeName>
+		<Properties>
+			<models>
+				<Type>	ARRAY <of> RESOURCE_ID </of> </Type>
+			</models>
+			<dyes>
+				<Type>	ARRAY
+					<of>	FIXED_DICT
+						<TypeName> PersistentAvatarModelDye </TypeName>
+						<Properties>
+							<materialGroup>
+								<Type> STRING </Type>
+							</materialGroup>
+							<tint>
+								<Type> STRING </Type>
+							</tint>
+						</Properties>
+					</of>
+				</Type>
+			</dyes>
+			<sfx>
+				<Type>	ARRAY <of> RESOURCE_ID </of> </Type>
+			</sfx>
+		</Properties>
+	</PERSISTENT_AVATAR_MODEL>
+
+	<!-- CharacterInfoEntry: an entry ******in the inventory items array -->
+	<CHARACTER_INFO> FIXED_DICT
+		<TypeName> CharacterInfo </TypeName>
+		<Properties>
+			<name>
+				<Type>			UNICODE_STRING		</Type>
+			</name>
+			<characterModel>
+				<Type>			PACKED_AVATAR_MODEL	</Type>
+			</characterModel>
+			<realm>
+				<Type>			REALM_ID	</Type>
+			</realm>
+		</Properties>
+	</CHARACTER_INFO>
+
+	<PERSISTENT_CHARACTER_INFO> FIXED_DICT
+		<TypeName> PersistentCharacterInfo </TypeName>
+		<Properties>
+			<name>
+				<Type>			UNICODE_STRING	</Type>
+			</name>
+			<type>
+				<Type>			STRING		</Type>
+			</type>
+			<databaseID>
+				<Type>			DBID		</Type>
+			</databaseID>
+			<characterModel>
+				<Type>			PERSISTENT_AVATAR_MODEL		</Type>
+			</characterModel>
+			<realm>
+				<Type>			REALM_ID	</Type>
+			</realm>
+		</Properties>
+	</PERSISTENT_CHARACTER_INFO>
+	
+	<SUMMON_INFO> FIXED_DICT
+		<TypeName> SummonInfo </TypeName>
+		<Properties>
+			<creatureType>
+				<Type>			INT8		</Type>
+			</creatureType>
+			<creatureName>
+				<Type>			STRING	</Type>
+			</creatureName>
+			<creatureState>
+				<Type>			INT8	</Type>
+			</creatureState>
+			<seatType>
+				<Type>			INT8	</Type>
+			</seatType>
+			<guardType>
+				<Type>			INT8	</Type>
+			</guardType>
+			<avatarModel>
+				<Type>			PACKED_AVATAR_MODEL	</Type>
+			</avatarModel>
+		</Properties>
+	</SUMMON_INFO>
+
+	<!-- LockedEntry: an entry in the locked items array -->
+	<LockedEntry> FIXED_DICT
+		<TypeName> LockedEntry </TypeName>
+		<Properties>
+			<lockHandle>
+				<Type>			LOCKHANDLE		</Type>
+			</lockHandle>
+			<goldPieces>
+				<Type>			GOLDPIECES		</Type>
+			</goldPieces>
+		</Properties>
+	</LockedEntry>
+
+	<TRADEID>			UINT32		</TRADEID>
+
+	<TradeParams> FIXED_DICT
+		<TypeName> TradeParams </TypeName>
+		<Properties>
+			<dbID>
+					<Type>			INT64				</Type>
+			</dbID>
+			<tradeID>
+					<Type>			UINT32			</Type>
+			</tradeID>
+			<lockHandle>
+					<Type>			LOCKHANDLE		</Type>
+			</lockHandle>
+			<itemsSerials>
+					<Type>			ARRAY <of> ITEMSERIAL </of>	</Type>
+			</itemsSerials>
+			<itemsTypes>
+					<Type>			ARRAY <of> ITEMTYPE </of>	</Type>
+			</itemsTypes>
+			<goldPieces>
+					<Type>			GOLDPIECES		</Type>
+			</goldPieces>
+		</Properties>
+	</TradeParams>
+
+
+	<!-- TradeLog: used by the trading supervisor to track pending trades -->
+	<TradeLog> FIXED_DICT
+		<TypeName> TradeLog </TypeName>
+		<Properties>
+			<typeA>
+					<Type>			STRING			</Type>
+			</typeA>
+			<paramsA>
+					<Type>			TradeParams			</Type>
+			</paramsA>
+			<typeB>
+					<Type>			STRING			</Type>
+			</typeB>
+			<paramsB>
+					<Type>			TradeParams			</Type>
+			</paramsB>
+		</Properties>
+	</TradeLog>
+
+	<ENUM>			INT8		</ENUM>
+
+
+	<!-- Section: auction house related data types -->
+	<AUCTIONID>			STRING 		</AUCTIONID>
+
+	<AUCTIONEXPIRY>		UINT32		</AUCTIONEXPIRY>
+
+	<!-- The bidder object -->
+	<AUCTIONBIDDER>
+		FIXED_DICT
+		<TypeName> AuctionBidder </TypeName>
+		<Properties>
+			<databaseID>
+				<Type>	DBID	</Type>
+			</databaseID>
+			<lockHandle>
+				<Type>	LOCKHANDLE	</Type>
+			</lockHandle>
+		</Properties>
+	</AUCTIONBIDDER>
+
+	<!-- The bidder object collection -->
+	<AUCTIONBIDDERS>	ARRAY <of> AUCTIONBIDDER </of> </AUCTIONBIDDERS>
+
+	<!-- The IncrementalAuction class -->
+	<AUCTION> FIXED_DICT
+		<TypeName> Auction </TypeName>
+		<implementedBy>
+			AuctionDataTypes.auctionDataInstance
+		</implementedBy>
+
+		<Properties>
+			<id>
+				<Type>		AUCTIONID	</Type>
+			</id>
+
+			<sellerDBID>
+				<Type>		DBID		</Type>
+			</sellerDBID>
+
+			<highestBidderDBID>
+				<Type>		DBID		</Type>
+			</highestBidderDBID>
+
+			<highestBidderLockHandle>
+				<Type>		LOCKHANDLE	</Type>
+			</highestBidderLockHandle>
+
+			<currentBid>
+				<Type>		GOLDPIECES	</Type>
+			</currentBid>
+
+			<buyoutPrice>
+				<Type>		GOLDPIECES	</Type>
+			</buyoutPrice>
+
+			<itemLock>
+				<Type>	LOCKHANDLE		</Type>
+			</itemLock>
+
+			<itemType>
+				<Type>	ITEMTYPE		</Type>
+			</itemType>
+
+			<itemSerial>
+				<Type>	ITEMSERIAL		</Type>
+			</itemSerial>
+
+			<expiry>
+				<Type>	AUCTIONEXPIRY	</Type>
+			</expiry>
+
+			<finalised>
+				<Type>	BOOL			</Type>
+			</finalised>
+
+			<highestBidderMaxBid>
+				<Type>	GOLDPIECES		</Type>
+			</highestBidderMaxBid>
+
+			<increment>
+				<Type>	UINT16			</Type>
+			</increment>
+
+			<bidders>
+				<Type> AUCTIONBIDDERS </Type>
+			</bidders>
+
+		</Properties>
+	</AUCTION>
+
+	<!-- The auction ID -> auction mapping object -->
+	<AUCTIONMAPPING>
+		FIXED_DICT
+		<TypeName> AuctionMapping </TypeName>
+		<Properties>
+			<auctionID>
+				<Type>	AUCTIONID	</Type>
+			</auctionID>
+			<auction>
+				<Type>	AUCTION		</Type>
+			</auction>
+		</Properties>
+	</AUCTIONMAPPING>
+
+	<!-- the Auctions map type -->
+	<AUCTIONS>	FIXED_DICT
+		<TypeName> AuctionMappings </TypeName>
+		<implementedBy>
+			AuctionDataTypes.auctionsDataInstance
+		</implementedBy>
+
+		<Properties>
+			<list>
+				<Type>
+					ARRAY <of> AUCTIONMAPPING </of>
+				</Type>
+			</list>
+		</Properties>
+	</AUCTIONS>
+
+
+	<!-- TODO: use this instead of the tuple (lock, type, serial)
+	<AUCTIONITEM>		CLASS
+		<Properties>
+			<itemSerial>
+				<Type>		ITEMSERIAL 	</Type>
+			</itemSerial>
+
+			<itemLock>
+				<Type>		LOCKHANDLE	</Type>
+			</itemLock>
+
+			<itemType>
+				<Type>		ITEMTYPE	</Type>
+			</itemType>
+		</Properties>
+	</AUCTIONITEM>
+	-->
+
+	<AUCTIONINFO>		PYTHON
+	<!-- TODO: web module to support CLASS data type
+		<Properties>
+			<auctionID>
+				<Type>	AUCTIONID 		</Type>
+			</auctionID>
+
+			<finalised>
+				<Type>	BOOL			</Type>
+			</finalised>
+
+			<itemLock>
+				<Type>	LOCKHANDLE		</Type>
+			</itemLock>
+
+			<itemSerial>
+				<Type>	ITEMSERIAL		</Type>
+			</itemSerial>
+
+			<itemType>
+				<Type>	ITEMTYPE		</Type>
+			</itemType>
+
+			<sellerDBID>
+				<Type>	DBID			</Type>
+			</sellerDBID>
+
+			<expiry>
+				<Type>	AUCTIONEXPIRY	</Type>
+			</expiry>
+
+			<currentBid>
+				<Type>	GOLDPIECES		</Type>
+			</currentBid>
+
+			<currentMaxBid>
+				<Type>	GOLDPIECES		</Type>
+			</currentMaxBid>
+
+			<buyoutPrice>
+				<Type>	GOLDPIECES		</Type>
+			</buyoutPrice>
+
+		</Properties>
+		-->
+	</AUCTIONINFO>
+
+
+	<!-- XMPP Types -->
+	<XMPP_FRIEND_ID>	UNICODE_STRING	</XMPP_FRIEND_ID>
+	<XMPP_TRANSPORT>	STRING			</XMPP_TRANSPORT>
+	<XMPP_PRESENCE>		STRING			</XMPP_PRESENCE>
+	<XMPP_MESSAGE>		UNICODE_STRING	</XMPP_MESSAGE>
+
+	<!-- Friend structure for when we need to send a list of friends -->
+	<XMPP_FRIEND>
+		FIXED_DICT
+		<TypeName> XMPPFriend</TypeName>
+		<Properties>
+			<friendID>
+				<Type>	XMPP_FRIEND_ID	</Type>
+			</friendID>
+
+			<transport>
+				<Type>	XMPP_TRANSPORT	</Type>
+			</transport>
+		</Properties>
+	</XMPP_FRIEND>
+
+	<XMPP_USER_TRANSPORT_DETAILS>
+		FIXED_DICT
+		<TypeName> XMPPUserTransportDetails </TypeName>
+		<Properties>
+			<transport>
+				<Type>	XMPP_TRANSPORT	</Type>
+			</transport>
+
+			<username>
+				<Type>	STRING	</Type>
+			</username>
+
+			<password>
+				<Type>	STRING	</Type>
+			</password>
+		</Properties>
+
+	</XMPP_USER_TRANSPORT_DETAILS>
+
+	<XMPP_TRANSPORT_DETAILS>
+		ARRAY <of> XMPP_USER_TRANSPORT_DETAILS </of>
+	</XMPP_TRANSPORT_DETAILS>
+
+	<BASE_TIMER>	INT32	</BASE_TIMER>
+</root>

@@ -1,0 +1,58 @@
+<horizon_ring_cloud.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<fx>	shaders/environment/cloud_layer.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	parallax
+						<Float>	0.005000	</Float>
+					</property>
+					<property>	scatteringStrength
+						<Float>	0.120000	</Float>
+					</property>
+					<property>	scatteringPower
+						<Float>	12.950000	</Float>
+					</property>
+					<property>	rimStrength
+						<Float>	0.120000	</Float>
+					</property>
+					<property>	rimPower
+						<Float>	4.570000	</Float>
+					</property>
+					<property>	rimDetectPower
+						<Float>	3.000000	</Float>
+					</property>
+					<property>	rimDetectWidth
+						<Float>	0.120000	</Float>
+					</property>
+					<property>	fogMap
+						<Texture>	weather/maps/horizon_fog_strong.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	weather/maps/cumulus_horizondark_cloud.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-10.000000 -5.158130 -9.848079	</min>
+		<max>	10.000000 4.576267 9.848078	</max>
+	</boundingBox>
+</horizon_ring_cloud.visual>

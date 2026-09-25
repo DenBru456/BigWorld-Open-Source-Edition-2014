@@ -1,0 +1,329 @@
+<fw_1a_gloves_03.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000001	</row2>
+				<row3>	-0.000000 1.039428 -0.024950	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.031719 0.000416 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	0.965720 0.000001 0.259588	</row0>
+						<row1>	-0.000002 1.000000 0.000004	</row1>
+						<row2>	-0.259588 -0.000004 0.965720	</row2>
+						<row3>	0.064957 -0.000000 0.026584	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	0.947772 -0.000001 -0.318950	</row0>
+							<row1>	0.000001 1.000000 -0.000000	</row1>
+							<row2>	0.318950 -0.000000 0.947772	</row2>
+							<row3>	0.136475 -0.000000 -0.000103	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Spine2	</identifier>
+							<transform>
+								<row0>	0.939693 -0.000001 -0.342020	</row0>
+								<row1>	0.000001 1.000000 -0.000000	</row1>
+								<row2>	0.342020 -0.000000 0.939693	</row2>
+								<row3>	0.136468 -0.000000 -0.000115	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Neck	</identifier>
+								<transform>
+									<row0>	0.733122 0.040302 0.678902	</row0>
+									<row1>	-0.146589 0.984143 0.099873	</row1>
+									<row2>	-0.664111 -0.172739 0.727405	</row2>
+									<row3>	0.202632 0.000000 -0.012916	</row3>
+								</transform>
+								<node>
+									<identifier>	biped L Clavicle	</identifier>
+									<transform>
+										<row0>	-0.253833 0.952222 -0.169831	</row0>
+										<row1>	0.694479 0.057206 -0.717235	</row1>
+										<row2>	-0.673251 -0.300002 -0.675819	</row2>
+										<row3>	-0.025028 0.060507 0.011496	</row3>
+									</transform>
+									<node>
+										<identifier>	biped L UpperArm	</identifier>
+										<transform>
+											<row0>	0.989328 -0.139581 -0.041794	</row0>
+											<row1>	0.109094 0.899761 -0.422527	</row1>
+											<row2>	0.096581 0.413458 0.905386	</row2>
+											<row3>	0.101040 -0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped L Forearm	</identifier>
+											<transform>
+												<row0>	0.999763 0.000000 -0.021790	</row0>
+												<row1>	0.000000 1.000000 -0.000000	</row1>
+												<row2>	0.021790 0.000000 0.999763	</row2>
+												<row3>	0.254741 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped L Hand	</identifier>
+												<transform>
+													<row0>	1.000000 0.000000 0.000000	</row0>
+													<row1>	0.000000 0.000796 1.000000	</row1>
+													<row2>	0.000000 -1.000000 0.000796	</row2>
+													<row3>	0.268416 0.000000 -0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	biped L Finger0	</identifier>
+													<transform>
+														<row0>	0.679145 -0.649423 0.342071	</row0>
+														<row1>	0.726445 0.527981 -0.439902	</row1>
+														<row2>	0.105075 0.547253 0.830346	</row2>
+														<row3>	0.029927 -0.022379 0.007236	</row3>
+													</transform>
+													<node>
+														<identifier>	biped L Finger0BlendBone1A_Gloves_03	</identifier>
+														<transform>
+															<row0>	-0.490817 -0.845554 0.210086	</row0>
+															<row1>	-0.556553 0.118759 -0.822280	</row1>
+															<row2>	0.670333 -0.520514 -0.528884	</row2>
+															<row3>	0.429953 -0.745678 1.154580	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped L Finger2	</identifier>
+													<transform>
+														<row0>	0.997448 0.006848 -0.071072	</row0>
+														<row1>	-0.006847 0.999977 0.000258	</row1>
+														<row2>	0.071072 0.000229 0.997471	</row2>
+														<row3>	0.087757 -0.003347 -0.001911	</row3>
+													</transform>
+													<node>
+														<identifier>	biped L Finger2BlendBone1A_Gloves_03	</identifier>
+														<transform>
+															<row0>	-0.950136 -0.006284 0.311772	</row0>
+															<row1>	-0.311552 -0.023504 -0.949938	</row1>
+															<row2>	0.013297 -0.999704 0.020374	</row2>
+															<row3>	-0.288696 -0.058460 1.426050	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped L HandBlendBone1A_Gloves_03	</identifier>
+													<transform>
+														<row0>	-0.925510 -0.012719 0.378510	</row0>
+														<row1>	-0.378110 -0.025855 -0.925400	</row1>
+														<row2>	0.021556 -0.999585 0.019119	</row2>
+														<row3>	-0.098450 -0.063457 1.441036	</row3>
+													</transform>
+												</node>
+											</node>
+										</node>
+										<node>
+											<identifier>	biped L ForeTwist	</identifier>
+											<transform>
+												<row0>	0.999763 0.000000 -0.021790	</row0>
+												<row1>	-0.000004 1.000000 -0.000199	</row1>
+												<row2>	0.021790 0.000199 0.999762	</row2>
+												<row3>	0.254741 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped L ForeTwist1	</identifier>
+												<transform>
+													<row0>	1.000000 0.000000 0.000000	</row0>
+													<row1>	-0.000000 1.000000 -0.000199	</row1>
+													<row2>	0.000000 0.000199 1.000000	</row2>
+													<row3>	0.089472 0.000000 -0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	biped L ForeTwist2	</identifier>
+													<transform>
+														<row0>	1.000000 0.000000 -0.000000	</row0>
+														<row1>	0.000000 1.000000 -0.000199	</row1>
+														<row2>	-0.000000 0.000199 1.000000	</row2>
+														<row3>	0.089472 0.000000 -0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	biped L ForeTwist2BlendBone1A_Gloves_03	</identifier>
+														<transform>
+															<row0>	-0.925510 -0.378513 -0.012644	</row0>
+															<row1>	-0.378110 0.925395 -0.026039	</row1>
+															<row2>	0.021556 -0.019318 -0.999581	</row2>
+															<row3>	-0.008978 -1.441049 -0.063170	</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped R Clavicle	</identifier>
+									<transform>
+										<row0>	-0.330906 -0.929910 0.160529	</row0>
+										<row1>	-0.677700 0.352557 0.645312	</row1>
+										<row2>	-0.656677 0.104747 -0.746862	</row2>
+										<row3>	-0.029586 -0.050805 0.031034	</row3>
+									</transform>
+									<node>
+										<identifier>	biped R UpperArm	</identifier>
+										<transform>
+											<row0>	0.989328 0.139581 -0.041794	</row0>
+											<row1>	-0.109094 0.899761 0.422527	</row1>
+											<row2>	0.096581 -0.413458 0.905386	</row2>
+											<row3>	0.101040 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	biped R Forearm	</identifier>
+											<transform>
+												<row0>	0.999763 -0.000000 -0.021790	</row0>
+												<row1>	0.000000 1.000000 0.000000	</row1>
+												<row2>	0.021790 -0.000000 0.999763	</row2>
+												<row3>	0.254741 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped R Hand	</identifier>
+												<transform>
+													<row0>	1.000000 0.000000 -0.000000	</row0>
+													<row1>	0.000000 0.000796 -1.000000	</row1>
+													<row2>	0.000000 1.000000 0.000796	</row2>
+													<row3>	0.268416 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	biped R Finger0	</identifier>
+													<transform>
+														<row0>	0.679145 0.649423 0.342071	</row0>
+														<row1>	-0.726445 0.527981 0.439902	</row1>
+														<row2>	0.105075 -0.547253 0.830346	</row2>
+														<row3>	0.029927 0.022379 0.007236	</row3>
+													</transform>
+													<node>
+														<identifier>	biped R Finger0BlendBone1A_Gloves_03	</identifier>
+														<transform>
+															<row0>	0.490816 -0.845556 -0.210084	</row0>
+															<row1>	-0.556553 -0.118759 -0.822280	</row1>
+															<row2>	0.670335 0.520511 -0.528885	</row2>
+															<row3>	0.429953 0.745678 1.154580	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped R Finger2	</identifier>
+													<transform>
+														<row0>	0.997448 -0.006848 -0.071072	</row0>
+														<row1>	0.006847 0.999976 -0.000258	</row1>
+														<row2>	0.071072 -0.000229 0.997471	</row2>
+														<row3>	0.087757 0.003347 -0.001911	</row3>
+													</transform>
+													<node>
+														<identifier>	biped R Finger2BlendBone1A_Gloves_03	</identifier>
+														<transform>
+															<row0>	0.950136 -0.006287 -0.311772	</row0>
+															<row1>	-0.311552 0.023504 -0.949938	</row1>
+															<row2>	0.013300 0.999704 0.020373	</row2>
+															<row3>	-0.288696 0.058460 1.426050	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	biped R HandBlendBone1A_Gloves_03	</identifier>
+													<transform>
+														<row0>	0.925510 -0.012722 -0.378510	</row0>
+														<row1>	-0.378110 0.025855 -0.925400	</row1>
+														<row2>	0.021559 0.999585 0.019118	</row2>
+														<row3>	-0.098450 0.063457 1.441036	</row3>
+													</transform>
+												</node>
+											</node>
+										</node>
+										<node>
+											<identifier>	biped R ForeTwist	</identifier>
+											<transform>
+												<row0>	0.999763 -0.000000 -0.021790	</row0>
+												<row1>	0.000004 1.000000 0.000199	</row1>
+												<row2>	0.021790 -0.000199 0.999762	</row2>
+												<row3>	0.254741 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	biped R ForeTwist1	</identifier>
+												<transform>
+													<row0>	1.000000 -0.000000 -0.000000	</row0>
+													<row1>	0.000000 1.000000 0.000199	</row1>
+													<row2>	0.000000 -0.000199 1.000000	</row2>
+													<row3>	0.089472 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	biped R ForeTwist2	</identifier>
+													<transform>
+														<row0>	1.000000 -0.000000 0.000000	</row0>
+														<row1>	-0.000000 1.000000 0.000199	</row1>
+														<row2>	-0.000000 -0.000199 1.000000	</row2>
+														<row3>	0.089472 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	biped R ForeTwist2BlendBone1A_Gloves_03	</identifier>
+														<transform>
+															<row0>	0.925510 -0.378513 0.012647	</row0>
+															<row1>	-0.378110 -0.925395 -0.026039	</row1>
+															<row2>	0.021559 0.019317 -0.999581	</row2>
+															<row3>	-0.008978 1.441049 -0.063170	</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped R HandBlendBone1A_Gloves_03	</node>
+		<node>	biped R Finger2BlendBone1A_Gloves_03	</node>
+		<node>	biped R ForeTwist2BlendBone1A_Gloves_03	</node>
+		<node>	biped R Finger0BlendBone1A_Gloves_03	</node>
+		<node>	biped L HandBlendBone1A_Gloves_03	</node>
+		<node>	biped L Finger2BlendBone1A_Gloves_03	</node>
+		<node>	biped L ForeTwist2BlendBone1A_Gloves_03	</node>
+		<node>	biped L Finger0BlendBone1A_Gloves_03	</node>
+		<geometry>
+			<vertices>	1A_Gloves_03.vertices	</vertices>
+			<primitive>	1A_Gloves_03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	1b_armour_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/warrior_1a_arm_armour_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.824326 1.196998 -0.136415	</min>
+		<max>	0.823631 1.382136 0.001497	</max>
+	</boundingBox>
+</fw_1a_gloves_03.visual>

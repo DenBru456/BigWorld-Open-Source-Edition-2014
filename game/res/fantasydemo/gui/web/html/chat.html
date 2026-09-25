@@ -1,0 +1,91 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+
+	<script type="text/javascript" src="../js/MochiKit/MochiKit.js"></script>
+	<script type="text/javascript" src="../js/bigworld.js"></script>
+	<script type="text/javascript" src="../js/chat.js"></script>
+
+	<script>
+		function onSubmit() {
+			var inputField = $( "text_input" );
+			var msg = inputField.value;
+			BigWorld.call( "sendMsg", {"msg" : msg} );
+			inputField.value = "";
+			setTimeout( '$( "text_input" ).focus();', 0 );
+		};
+
+		function onInputKey( e ) {
+			e = e || window.event;
+
+
+			if (e.keyCode == 13) {
+				onSubmit();
+			}
+		};
+
+		function resizeContent() {
+			var inputPos = getElementPosition( $( "text_input" ) );
+			var contentDiv = $( "content" );
+			contentDiv.style.height = inputPos.y - 15;
+		}
+
+		connect( window, "onresize", resizeContent );
+	</script>
+
+	<style>
+		#main {
+			position: relative;
+			height: 100%;
+			width: 100%;
+		}
+
+		#input_panel {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+
+		#content {
+			overflow: auto;
+					  
+		}
+
+		#text_input {
+			width: 100%;
+			background-color: Grey;
+		}
+
+		.name {
+			font-weight: bold;
+
+		}
+
+		.msg {
+			// font-style: italic;
+			color: white;
+		}
+
+		.internal .name {
+			color: #ff8000;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="main">
+		<div id="content"></div>
+		<div id="input_panel">
+			<input
+				onkeydown="onInputKey( event );"
+				id="text_input"
+				type="text"/>
+		</div>
+	</div>
+</body>
+
+<script>
+	resizeContent();
+</script>
+
+</html>

@@ -1,0 +1,784 @@
+<spider.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	SpiderHub	</identifier>
+			<transform>
+				<row0>	-0.000000 0.925724 -0.378200	</row0>
+				<row1>	-0.996195 -0.032962 -0.080682	</row1>
+				<row2>	-0.087156 0.376761 0.922201	</row2>
+				<row3>	-0.000000 0.719963 -0.157193	</row3>
+			</transform>
+			<node>
+				<identifier>	SpiderAbdom	</identifier>
+				<transform>
+					<row0>	0.675887 0.000000 -0.737005	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.737005 0.000000 0.675887	</row2>
+					<row3>	0.000000 0.000000 -0.441390	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderAbdomBlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.675887 -0.000000 0.737005	</row1>
+						<row2>	-0.737005 -0.000000 0.675887	</row2>
+						<row3>	-0.724662 -0.032002 -0.220950	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderLFang	</identifier>
+				<transform>
+					<row0>	-0.863616 0.071125 0.499108	</row0>
+					<row1>	-0.097750 0.947588 -0.304174	</row1>
+					<row2>	-0.494583 -0.311477 -0.811400	</row2>
+					<row3>	-0.046055 0.092499 0.492876	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderLFangBlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	-0.071125 -0.947588 0.311477	</row0>
+						<row1>	-0.863616 -0.097750 -0.494583	</row1>
+						<row2>	0.499108 -0.304174 -0.811400	</row2>
+						<row3>	0.240722 0.108468 0.784666	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderRFang	</identifier>
+				<transform>
+					<row0>	-0.863616 -0.071125 0.499108	</row0>
+					<row1>	0.097750 0.947588 0.304174	</row1>
+					<row2>	-0.494583 0.311477 -0.811400	</row2>
+					<row3>	-0.046055 -0.092499 0.492876	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderRFangBlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	0.071125 -0.947588 -0.311477	</row0>
+						<row1>	-0.863616 0.097750 -0.494583	</row1>
+						<row2>	0.499108 0.304174 -0.811400	</row2>
+						<row3>	0.245274 -0.169118 0.764729	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderLLeg11	</identifier>
+				<transform>
+					<row0>	0.782084 0.234605 0.577326	</row0>
+					<row1>	0.038727 -0.942936 0.330714	</row1>
+					<row2>	0.621969 -0.236288 -0.746540	</row2>
+					<row3>	-0.154276 0.265315 0.357728	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderLLeg12	</identifier>
+					<transform>
+						<row0>	0.164695 -0.037360 -0.985637	</row0>
+						<row1>	0.204835 0.978792 -0.002874	</row1>
+						<row2>	0.964841 -0.201419 0.168855	</row2>
+						<row3>	1.176561 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderLLeg13	</identifier>
+						<transform>
+							<row0>	0.787968 -0.024848 -0.615215	</row0>
+							<row1>	0.019786 0.999691 -0.015034	</row1>
+							<row2>	0.615399 -0.000326 0.788216	</row2>
+							<row3>	1.134000 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderLLeg13BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	-0.131739 0.831751 -0.539292	</row0>
+								<row1>	-0.841187 0.194027 0.504735	</row1>
+								<row2>	0.524451 0.520138 0.674097	</row2>
+								<row3>	0.129721 -0.294889 -2.288882	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderLLeg12BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	-0.445452 0.833957 -0.325712	</row0>
+							<row1>	-0.277072 0.217531 0.935901	</row1>
+							<row2>	0.851354 0.507144 0.134165	</row2>
+							<row3>	-0.319045 -0.302652 -1.771956	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderLLeg11BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	-0.144106 0.900484 0.410318	</row0>
+						<row1>	0.966765 0.039624 0.252576	</row1>
+						<row2>	0.211183 0.433079 -0.876267	</row2>
+						<row3>	-0.612147 0.068525 0.359226	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderRLeg11	</identifier>
+				<transform>
+					<row0>	0.534677 -0.406208 0.741024	</row0>
+					<row1>	-0.038159 -0.887603 -0.459026	</row1>
+					<row2>	0.844195 0.217154 -0.490081	</row2>
+					<row3>	-0.154276 -0.265315 0.357728	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderRLeg12	</identifier>
+					<transform>
+						<row0>	0.545114 0.024506 -0.838004	</row0>
+						<row1>	-0.187931 0.977707 -0.093657	</row1>
+						<row2>	0.817027 0.208540 0.537567	</row2>
+						<row3>	1.176561 -0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderRLeg13	</identifier>
+						<transform>
+							<row0>	0.775417 0.025483 -0.630935	</row0>
+							<row1>	-0.019611 0.999675 0.016274	</row1>
+							<row2>	0.631145 -0.000246 0.775665	</row2>
+							<row3>	1.134000 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderRLeg13BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	0.132326 0.831655 0.539295	</row0>
+								<row1>	-0.841307 -0.193452 0.504756	</row1>
+								<row2>	0.524111 -0.520506 0.674078	</row2>
+								<row3>	0.138332 0.348025 -2.254367	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderRLeg12BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	0.445454 0.833941 0.325750	</row0>
+							<row1>	-0.277074 -0.217571 0.935891	</row1>
+							<row2>	0.851352 -0.507153 0.134145	</row2>
+							<row3>	-0.290531 0.356085 -1.751098	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderRLeg11BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	0.144124 0.900450 -0.410389	</row0>
+						<row1>	0.966765 -0.039622 0.252580	</row1>
+						<row2>	0.211175 -0.433152 -0.876233	</row2>
+						<row3>	-0.602924 -0.010852 0.332964	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderLLeg21	</identifier>
+				<transform>
+					<row0>	0.826636 0.512250 0.232964	</row0>
+					<row1>	0.106271 -0.548638 0.829279	</row1>
+					<row2>	0.552611 -0.660755 -0.507961	</row2>
+					<row3>	-0.167996 0.334105 0.161048	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderLLeg22	</identifier>
+					<transform>
+						<row0>	0.027328 0.025946 -0.999290	</row0>
+						<row1>	-0.002396 0.999662 0.025890	</row1>
+						<row2>	0.999624 0.001686 0.027381	</row2>
+						<row3>	1.199144 -0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderLLeg23	</identifier>
+						<transform>
+							<row0>	0.755551 0.109417 -0.645888	</row0>
+							<row1>	-0.079025 0.993976 0.075943	</row1>
+							<row2>	0.650306 -0.006338 0.759645	</row2>
+							<row3>	1.164000 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderLLeg23BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	-0.191876 0.520593 -0.831966	</row0>
+								<row1>	-0.908309 0.226860 0.351438	</row1>
+								<row2>	0.371695 0.823115 0.429330	</row2>
+								<row3>	0.167731 -0.092430 -2.251034	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderLLeg22BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	-0.727247 0.501776 -0.468331	</row0>
+							<row1>	-0.475275 0.124141 0.871036	</row1>
+							<row2>	0.495203 0.856043 0.148200	</row2>
+							<row3>	-0.166598 -0.059371 -1.824777	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderLLeg21BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	-0.483560 0.481803 0.730777	</row0>
+						<row1>	0.861449 0.113960 0.494892	</row1>
+						<row2>	0.155161 0.868837 -0.470156	</row2>
+						<row3>	-0.628301 -0.067979 0.130052	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderRLeg21	</identifier>
+				<transform>
+					<row0>	0.829621 -0.537429 0.151323	</row0>
+					<row1>	-0.074418 -0.375050 -0.924013	</row1>
+					<row2>	0.553345 0.755319 -0.351144	</row2>
+					<row3>	-0.167997 -0.334105 0.161048	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderRLeg22	</identifier>
+					<transform>
+						<row0>	0.023224 -0.025823 -0.999397	</row0>
+						<row1>	0.002633 0.999664 -0.025769	</row1>
+						<row2>	0.999727 -0.002033 0.023284	</row2>
+						<row3>	1.199144 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderRLeg23	</identifier>
+						<transform>
+							<row0>	0.754811 -0.109317 -0.646770	</row0>
+							<row1>	0.079058 0.993989 -0.075739	</row1>
+							<row2>	0.651161 0.006036 0.758915	</row2>
+							<row3>	1.164000 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderRLeg23BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	0.191080 0.520857 0.831983	</row0>
+								<row1>	-0.908450 -0.227180 0.350867	</row1>
+								<row2>	0.371761 -0.822859 0.429762	</row2>
+								<row3>	0.181457 0.125353 -2.197689	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderRLeg22BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	0.727247 0.501776 0.468330	</row0>
+							<row1>	-0.475274 -0.124141 0.871036	</row1>
+							<row2>	0.495204 -0.856043 0.148200	</row2>
+							<row3>	-0.120051 0.091487 -1.794801	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderRLeg21BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	0.483560 0.481804 -0.730777	</row0>
+						<row1>	0.861449 -0.113960 0.494893	</row1>
+						<row2>	0.155161 -0.868837 -0.470156	</row2>
+						<row3>	-0.597351 0.098817 0.083278	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderLLeg31	</identifier>
+				<transform>
+					<row0>	0.928234 0.371713 -0.014533	</row0>
+					<row1>	0.162305 -0.369536 0.914932	</row1>
+					<row2>	0.334721 -0.851630 -0.403347	</row2>
+					<row3>	-0.123993 0.341921 -0.046774	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderLLeg32	</identifier>
+					<transform>
+						<row0>	-0.305821 -0.096904 -0.947145	</row0>
+						<row1>	-0.014468 0.995165 -0.097146	</row1>
+						<row2>	0.951979 -0.016006 -0.305745	</row2>
+						<row3>	1.144635 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderLLeg33	</identifier>
+						<transform>
+							<row0>	0.776859 -0.043482 -0.628172	</row0>
+							<row1>	0.085750 0.995625 0.037129	</row1>
+							<row2>	0.623809 -0.082709 0.777188	</row2>
+							<row3>	0.996426 0.000000 -0.000001	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderLLeg33BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	-0.230889 0.122607 -0.965224	</row0>
+								<row1>	-0.961573 0.122709 0.245603	</row1>
+								<row2>	0.148554 0.984840 0.089563	</row2>
+								<row3>	0.626100 -0.107030 -1.722988	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderLLeg32BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	-0.776796 0.212374 -0.592863	</row0>
+							<row1>	-0.575278 0.143712 0.805234	</row1>
+							<row2>	0.256212 0.966563 0.010540	</row2>
+							<row3>	0.381669 0.009344 -1.730356	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderLLeg31BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	-0.312279 0.296810 0.902433	</row0>
+						<row1>	0.946088 0.183176 0.267139	</row1>
+						<row2>	-0.086014 0.937204 -0.338010	</row2>
+						<row3>	-0.616058 0.004897 0.199558	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderRLeg31	</identifier>
+				<transform>
+					<row0>	0.933293 -0.352432 -0.068962	</row0>
+					<row1>	-0.141737 -0.185057 -0.972453	</row1>
+					<row2>	0.329962 0.917358 -0.222666	</row2>
+					<row3>	-0.123993 -0.341921 -0.046774	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderRLeg32	</identifier>
+					<transform>
+						<row0>	-0.307425 0.096641 -0.946652	</row0>
+						<row1>	0.013976 0.995181 0.097056	</row1>
+						<row2>	0.951469 0.016607 -0.307295	</row2>
+						<row3>	1.144635 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderRLeg33	</identifier>
+						<transform>
+							<row0>	0.747951 0.045664 -0.662182	</row0>
+							<row1>	-0.090520 0.995327 -0.033606	</row1>
+							<row2>	0.657554 0.085076 0.748588	</row2>
+							<row3>	0.996426 -0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderRLeg33BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	0.231995 0.122456 0.964978	</row0>
+								<row1>	-0.961347 -0.122370 0.246651	</row1>
+								<row2>	0.148288 -0.984901 0.089334	</row2>
+								<row3>	0.639094 0.114754 -1.661905	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderRLeg32BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	0.776796 0.212374 0.592862	</row0>
+							<row1>	-0.575277 -0.143712 0.805235	</row1>
+							<row2>	0.256212 -0.966563 0.010540	</row2>
+							<row3>	0.431387 0.004249 -1.692410	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderRLeg31BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	0.312279 0.296810 -0.902433	</row0>
+						<row1>	0.946088 -0.183176 0.267139	</row1>
+						<row2>	-0.086014 -0.937203 -0.338011	</row2>
+						<row3>	-0.596071 0.014100 0.141799	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderLLeg41	</identifier>
+				<transform>
+					<row0>	0.830564 0.490374 0.264002	</row0>
+					<row1>	-0.556080 0.704116 0.441584	</row1>
+					<row2>	0.030653 -0.513569 0.857500	</row2>
+					<row3>	-0.122452 0.290327 -0.264547	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderLLeg42	</identifier>
+					<transform>
+						<row0>	-0.006034 0.312761 -0.949813	</row0>
+						<row1>	-0.012331 0.949734 0.312814	</row1>
+						<row2>	0.999906 0.013600 -0.001874	</row2>
+						<row3>	1.130079 -0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderLLeg43	</identifier>
+						<transform>
+							<row0>	0.697462 -0.029033 -0.716034	</row0>
+							<row1>	0.021848 0.999576 -0.019248	</row1>
+							<row2>	0.716289 -0.002219 0.697800	</row2>
+							<row3>	1.143000 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderLLeg43BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	0.205779 -0.609019 -0.765997	</row0>
+								<row1>	-0.817460 -0.537283 0.207571	</row1>
+								<row2>	-0.537972 0.583458 -0.608410	</row2>
+								<row3>	0.351239 0.221959 -2.058830	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderLLeg42BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	-0.383093 -0.614253 -0.689879	</row0>
+							<row1>	-0.467981 -0.514847 0.718280	</row1>
+							<row2>	-0.796388 0.598018 -0.090224	</row2>
+							<row3>	0.002889 0.212701 -1.751091	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderLLeg41BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	-0.667169 -0.719245 0.193838	</row0>
+						<row1>	0.741945 -0.618443 0.258931	</row1>
+						<row2>	-0.066357 0.316567 0.946246	</row2>
+						<row3>	-0.622208 0.161866 0.121924	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderRLeg41	</identifier>
+				<transform>
+					<row0>	0.843255 -0.502749 0.190169	</row0>
+					<row1>	0.528272 0.840479 -0.120514	</row1>
+					<row2>	-0.099245 0.202085 0.974326	</row2>
+					<row3>	-0.122452 -0.290327 -0.264547	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderRLeg42	</identifier>
+					<transform>
+						<row0>	-0.149711 -0.310798 -0.938611	</row0>
+						<row1>	0.009170 0.948833 -0.315645	</row1>
+						<row2>	0.988687 -0.055863 -0.139201	</row2>
+						<row3>	1.130078 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderRLeg43	</identifier>
+						<transform>
+							<row0>	0.702705 0.028713 -0.710902	</row0>
+							<row1>	-0.021384 0.999586 0.019236	</row1>
+							<row2>	0.711160 0.001684 0.703028	</row2>
+							<row3>	1.143000 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderRLeg43BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	-0.205405 -0.608978 0.766129	</row0>
+								<row1>	-0.817535 0.537103 0.207743	</row1>
+								<row2>	-0.538001 -0.583666 -0.608185	</row2>
+								<row3>	0.337555 -0.261095 -2.009869	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderRLeg42BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	0.383094 -0.614253 0.689879	</row0>
+							<row1>	-0.467981 0.514847 0.718280	</row1>
+							<row2>	-0.796388 -0.598019 -0.090223	</row2>
+							<row3>	0.027409 -0.252016 -1.706936	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderRLeg41BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	0.667169 -0.719244 -0.193838	</row0>
+						<row1>	0.741945 0.618443 0.258931	</row1>
+						<row2>	-0.066356 -0.316568 0.946246	</row2>
+						<row3>	-0.579505 -0.207901 0.109518	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderLLeg1	</identifier>
+				<transform>
+					<row0>	0.760331 0.543489 0.355692	</row0>
+					<row1>	0.231143 -0.738158 0.633795	</row1>
+					<row2>	0.607018 -0.399678 -0.686868	</row2>
+					<row3>	-0.104394 0.149263 0.413182	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderLLeg2	</identifier>
+					<transform>
+						<row0>	0.792418 0.233166 -0.563656	</row0>
+						<row1>	-0.169963 0.971862 0.163085	</row1>
+						<row2>	0.585822 -0.033431 0.809750	</row2>
+						<row3>	0.249262 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderLLeg3	</identifier>
+						<transform>
+							<row0>	0.395997 -0.010251 -0.918195	</row0>
+							<row1>	0.032398 0.999471 0.002814	</row1>
+							<row2>	0.917680 -0.030861 0.396120	</row2>
+							<row3>	0.180000 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderLLeg3BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	-0.010571 0.936378 -0.350833	</row0>
+								<row1>	-0.745939 0.226272 0.626400	</row1>
+								<row2>	0.665931 0.268322 0.696089	</row2>
+								<row3>	-0.088337 -0.033436 -1.094786	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderLLeg2BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	-0.248207 0.930528 -0.269279	</row0>
+							<row1>	-0.134670 0.242133 0.960852	</row1>
+							<row2>	0.959300 0.274754 0.065215	</row2>
+							<row3>	-0.619387 -0.050796 -0.752249	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderLLeg1BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	-0.512589 0.855473 0.073610	</row0>
+						<row1>	0.415019 0.171797 0.893446	</row1>
+						<row2>	0.751673 0.488519 -0.443099	</row2>
+						<row3>	-0.673602 -0.168638 -0.268297	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	SpiderRLeg1	</identifier>
+				<transform>
+					<row0>	0.728989 -0.622676 0.284341	</row0>
+					<row1>	-0.200264 -0.591212 -0.781257	</row1>
+					<row2>	0.654576 0.512585 -0.555687	</row2>
+					<row3>	-0.104394 -0.149263 0.413182	</row3>
+				</transform>
+				<node>
+					<identifier>	SpiderRLeg2	</identifier>
+					<transform>
+						<row0>	0.792418 -0.233166 -0.563655	</row0>
+						<row1>	0.169963 0.971862 -0.163085	</row1>
+						<row2>	0.585821 0.033431 0.809751	</row2>
+						<row3>	0.249262 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	SpiderRLeg3	</identifier>
+						<transform>
+							<row0>	0.395997 0.010251 -0.918195	</row0>
+							<row1>	-0.032398 0.999471 -0.002814	</row1>
+							<row2>	0.917680 0.030861 0.396120	</row2>
+							<row3>	0.180000 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	SpiderRLeg3BlendBoneSpiderMesh	</identifier>
+							<transform>
+								<row0>	0.010570 0.936379 0.350832	</row0>
+								<row1>	-0.745939 -0.226272 0.626399	</row1>
+								<row2>	0.665931 -0.268321 0.696089	</row2>
+								<row3>	-0.087660 0.093369 -1.072331	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	SpiderRLeg2BlendBoneSpiderMesh	</identifier>
+						<transform>
+							<row0>	0.248207 0.930528 0.269279	</row0>
+							<row1>	-0.134669 -0.242133 0.960852	</row1>
+							<row2>	0.959301 -0.274754 0.065214	</row2>
+							<row3>	-0.603501 0.110354 -0.735013	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	SpiderRLeg1BlendBoneSpiderMesh	</identifier>
+					<transform>
+						<row0>	0.512588 0.855474 -0.073609	</row0>
+						<row1>	0.415019 -0.171797 0.893446	</row1>
+						<row2>	0.751673 -0.488519 -0.443099	</row2>
+						<row3>	-0.640794 0.223393 -0.273008	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	HP_mouth	</identifier>
+				<transform>
+					<row0>	-0.000000 -0.996195 -0.087155	</row0>
+					<row1>	0.264726 -0.084046 0.960654	</row1>
+					<row2>	-0.964324 -0.023072 0.263719	</row2>
+					<row3>	-0.077030 0.006121 0.517290	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	SpiderHubBlendBoneSpiderMesh	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.000000 -0.000000	</row0>
+					<row1>	1.000000 -0.000000 -0.000000	</row1>
+					<row2>	0.000000 -0.000000 1.000000	</row2>
+					<row3>	-0.652631 -0.032002 -0.056648	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	SpiderLLeg42BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg43BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg41BlendBoneSpiderMesh	</node>
+		<node>	SpiderHubBlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg31BlendBoneSpiderMesh	</node>
+		<node>	SpiderAbdomBlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg32BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg33BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg41BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg42BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg43BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg31BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg32BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg33BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg1BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg11BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg12BlendBoneSpiderMesh	</node>
+		<geometry>
+			<vertices>	SpiderMesh0a.vertices	</vertices>
+			<primitive>	SpiderMesh0a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Object03_mtl [Ob_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/spider/spider_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/spider/spider_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/spider/spider_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	SpiderLLeg22BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg23BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg21BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg12BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg13BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg1BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg2BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg3BlendBoneSpiderMesh	</node>
+		<node>	SpiderHubBlendBoneSpiderMesh	</node>
+		<node>	SpiderRFangBlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg11BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg1BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg12BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg13BlendBoneSpiderMesh	</node>
+		<node>	SpiderLFangBlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg2BlendBoneSpiderMesh	</node>
+		<node>	SpiderLLeg3BlendBoneSpiderMesh	</node>
+		<geometry>
+			<vertices>	SpiderMesh0b.vertices	</vertices>
+			<primitive>	SpiderMesh0b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Object03_mtl [Ob_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/spider/spider_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/spider/spider_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/spider/spider_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	SpiderRLeg22BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg23BlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg21BlendBoneSpiderMesh	</node>
+		<node>	SpiderHubBlendBoneSpiderMesh	</node>
+		<node>	SpiderRLeg11BlendBoneSpiderMesh	</node>
+		<geometry>
+			<vertices>	SpiderMesh0c.vertices	</vertices>
+			<primitive>	SpiderMesh0c.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Object03_mtl [Ob_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/npc/spider/spider_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/spider/spider_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/spider/spider_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.945963 -0.012480 -2.166099	</min>
+		<max>	1.918431 2.035990 2.160175	</max>
+	</boundingBox>
+	<materialKind>	11	</materialKind>
+</spider.visual>

@@ -1,0 +1,35 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+
+		<name>
+			<Type>		STRING			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</name>	
+
+		<radius>
+			<Type>		RADIUS			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true				</Editable>
+		</radius>	
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<kill>
+			<Args>
+				<name> 	ARRAY <of> STRING </of>	</name>  <!-- weather names -->
+			</Args>
+		</kill>
+	</CellMethods>
+</root>
+

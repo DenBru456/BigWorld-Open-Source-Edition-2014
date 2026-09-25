@@ -1,0 +1,159 @@
+<root>
+	<Effect>	Volume Light
+		<bypass>	1.000000 1.000000 1.000000 1.000000	</bypass>
+		<PyPhase>
+			<name>	create mask	</name>
+			<renderTarget>	downSample1	</renderTarget>
+			<clearRenderTarget>	true	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/volume_light_occlusion_mask.fx	</fx>
+				<property>	lightColour
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	falloffPower
+					<Float>	25.490000	</Float>
+				</property>
+				<property>	worldLightRadius
+					<Float>	10.000000	</Float>
+				</property>
+				<property>	lightPos
+					<Vector4>	2.000000 5.000000 7.000000 1.000000	</Vector4>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	vignette	</name>
+			<renderTarget>	downSample1	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.440000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	system/maps/post_processing/film_grain/vignette.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	god rays	</name>
+			<renderTarget>	downSample1B	</renderTarget>
+			<clearRenderTarget>	true	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/volume_light.fx	</fx>
+				<property>	lightPos
+					<Vector4>	2.000000 5.000000 7.000000 1.000000	</Vector4>
+				</property>
+				<property>	exposure
+					<Float>	0.080000	</Float>
+				</property>
+				<property>	decay
+					<Float>	1.090000	</Float>
+				</property>
+				<property>	weight
+					<Float>	0.136000	</Float>
+				</property>
+				<property>	density
+					<Float>	0.580000	</Float>
+				</property>
+				<property>	numSamples
+					<Int>	34	</Int>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample1	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	6	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample1B	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	5	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+</root>

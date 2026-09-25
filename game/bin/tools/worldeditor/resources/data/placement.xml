@@ -1,0 +1,104 @@
+<placement.xml>
+	<rotateRangeMin>	-360	</rotateRangeMin>
+	<rotateRangeMax>	360	</rotateRangeMax>
+	<rotateCentre>	0	</rotateCentre>
+	<scaleSliderExponent>	2	</scaleSliderExponent>
+	<scaleRangeMin>	0.01	</scaleRangeMin>
+	<scaleRangeMax>	10.0	</scaleRangeMax>
+	<scaleCentre>	1	</scaleCentre>
+	<Presets>
+		<preset>
+			<name>	1	</name>
+			<displayName>	Random Yaw	</displayName>
+			<linkRotation>	false	</linkRotation>
+			<linkScale>	false	</linkScale>
+			<minRotX>	-180.000000	</minRotX>
+			<maxRotX>	180.000000	</maxRotX>
+			<minRotY>	0.000000	</minRotY>
+			<maxRotY>	0.000000	</maxRotY>
+			<minRotZ>	0.000000	</minRotZ>
+			<maxRotZ>	0.000000	</maxRotZ>
+			<minScaX>	1.000000	</minScaX>
+			<maxScaX>	1.000000	</maxScaX>
+			<minScaY>	1.000000	</minScaY>
+			<maxScaY>	1.000000	</maxScaY>
+			<minScaZ>	1.000000	</minScaZ>
+			<maxScaZ>	1.000000	</maxScaZ>
+			<uniformScale>	false	</uniformScale>
+		</preset>
+		<preset>
+			<name>	2	</name>
+			<displayName>	Random Scale	</displayName>
+			<linkRotation>	false	</linkRotation>
+			<linkScale>	true	</linkScale>
+			<minRotX>	0.000000	</minRotX>
+			<maxRotX>	0.000000	</maxRotX>
+			<minRotY>	0.000000	</minRotY>
+			<maxRotY>	0.000000	</maxRotY>
+			<minRotZ>	0.000000	</minRotZ>
+			<maxRotZ>	0.000000	</maxRotZ>
+			<minScaX>	0.700000	</minScaX>
+			<maxScaX>	1.300000	</maxScaX>
+			<minScaY>	0.700000	</minScaY>
+			<maxScaY>	1.300000	</maxScaY>
+			<minScaZ>	0.700000	</minScaZ>
+			<maxScaZ>	1.300000	</maxScaZ>
+			<uniformScale>	true	</uniformScale>
+		</preset>
+		<preset>
+			<name>	3	</name>
+			<displayName>	Yaw + Scale	</displayName>
+			<linkRotation>	false	</linkRotation>
+			<linkScale>	true	</linkScale>
+			<minRotX>	-180.000000	</minRotX>
+			<maxRotX>	180.000000	</maxRotX>
+			<minRotY>	0.000000	</minRotY>
+			<maxRotY>	0.000000	</maxRotY>
+			<minRotZ>	0.000000	</minRotZ>
+			<maxRotZ>	0.000000	</maxRotZ>
+			<minScaX>	0.700000	</minScaX>
+			<maxScaX>	1.300000	</maxScaX>
+			<minScaY>	0.700000	</minScaY>
+			<maxScaY>	1.300000	</maxScaY>
+			<minScaZ>	0.700000	</minScaZ>
+			<maxScaZ>	1.300000	</maxScaZ>
+			<uniformScale>	true	</uniformScale>
+		</preset>
+	</Presets>
+	<Toolbar>
+		<item>
+			<name>	PlacementToolbar	</name>
+			<type>	GROUP	</type>
+			<item>
+				<name>	Presets	</name>
+				<type>	EXPANDED_CHOICE	</type>
+				<width>	120	</width>
+				<displayName>	Random placement presets	</displayName>
+				<updater>	1	</updater>
+			</item>
+			<item>
+				<name>	NewPreset	</name>
+				<type>	ACTION	</type>
+				<displayName>	Create &amp;new preset	</displayName>
+				<action>	newPlacementPreset	</action>
+				<imageNormal>	resources/data/placement_toolbar.bmp:0,0,16,16	</imageNormal>
+			</item>
+			<item>
+				<name>	DelPreset	</name>
+				<type>	ACTION	</type>
+				<displayName>	&amp;Delete the selected preset	</displayName>
+				<action>	delPlacementPreset	</action>
+				<updater>	presetEditableUpdater	</updater>
+				<imageNormal>	resources/data/placement_toolbar.bmp:16,0,32,16	</imageNormal>
+			</item>
+			<item>
+				<name>	RenamePreset	</name>
+				<type>	ACTION	</type>
+				<displayName>	&amp;Rename preset	</displayName>
+				<action>	renamePlacementPreset	</action>
+				<updater>	presetEditableUpdater	</updater>
+				<imageNormal>	resources/data/placement_toolbar.bmp:32,0,48,16	</imageNormal>
+			</item>
+		</item>
+	</Toolbar>
+</placement.xml>

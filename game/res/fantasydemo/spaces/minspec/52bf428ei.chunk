@@ -1,0 +1,568 @@
+<root>
+	<shell>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710822	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/shells/dungeon/dungeon_chambers/tv_chamber.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<reflectionVisible>	true	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	66956	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999999	</row0>
+			<row1>	0.999999 0.000000 0.000000	</row1>
+			<row2>	0.000000 -0.999999 0.000000	</row2>
+			<row3>	-2.460464 2.322571 -4.456512	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	66956	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 0.266497	</row0>
+			<row1>	0.000000 0.266497 0.000000	</row1>
+			<row2>	-0.266497 0.000000 -0.000000	</row2>
+			<row3>	-2.226913 2.667862 -4.451401	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	71316	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-0.000000 0.000000 0.999999	</row0>
+			<row1>	-0.999999 0.000000 -0.000000	</row1>
+			<row2>	0.000000 -0.999999 0.000000	</row2>
+			<row3>	7.359070 2.341629 -4.450333	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	71352	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.999998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	-0.999998 0.000000 0.000000	</row2>
+			<row3>	7.119293 2.646820 -4.434753	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	7.039276 2.702530 -4.520035	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	239.000015 193.000015 143.000000	</colour>
+	</flare>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.266496	</row0>
+			<row1>	0.000000 0.266496 0.000000	</row1>
+			<row2>	0.266496 0.000000 0.000000	</row2>
+			<row3>	7.125534 2.686920 -4.455429	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	75712	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-2.239136 2.744965 -4.430557	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	239.000015 193.000015 143.000000	</colour>
+	</flare>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 -0.999998	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.999998 0.000000 0.000000	</row2>
+			<row3>	-2.229721 2.695358 -4.472107	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/particles/min_spec_tv_room_electricity.xml	</resource>
+		<transform>
+			<row0>	-0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 -0.000000	</row1>
+			<row2>	0.000000 -0.000000 -0.999999	</row2>
+			<row3>	2.371628 2.842468 -23.170502	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<ambientLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<colour>	67.000000 51.000027 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<colour>	47.000000 249.000061 243.000061	</colour>
+		<position>	2.491425 3.222244 -23.402390	</position>
+		<innerRadius>	4.935190	</innerRadius>
+		<outerRadius>	7.463434	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<priority>	0	</priority>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<colour>	245.000122 221.000122 148.000000	</colour>
+		<position>	2.458633 0.033768 -14.982544	</position>
+		<innerRadius>	3.873642	</innerRadius>
+		<outerRadius>	13.014039	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	2.883301 0.417923 -14.994843	</position>
+		<innerRadius>	3.325301	</innerRadius>
+		<outerRadius>	8.860340	</outerRadius>
+		<multiplier>	1.900000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<priority>	0	</priority>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<colour>	245.000137 221.000137 148.000000	</colour>
+		<position>	-0.257126 3.031708 -5.364197	</position>
+		<innerRadius>	2.145107	</innerRadius>
+		<outerRadius>	6.578074	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	2.300000	</multiplier>
+	</omniLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<colour>	245.000122 221.000122 148.000000	</colour>
+		<position>	5.013535 2.987747 -5.184433	</position>
+		<innerRadius>	2.044891	</innerRadius>
+		<outerRadius>	4.744733	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	2.300000	</multiplier>
+	</omniLight>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-0.594696 2.688126 -4.539963	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.500577	</outerRadius>
+		<multiplier>	1.200000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<priority>	0	</priority>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.145679 0.000000 -0.989332	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.989332 0.000000 0.145679	</row2>
+			<row3>	-2.226898 2.710129 -4.451477	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710794	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710794	</modified_on>
+		</metaData>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	-0.090464 0.000000 0.995900	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	-0.995900 0.000000 -0.090464	</row2>
+			<row3>	7.125534 2.751648 -4.451340	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288567795	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288567800	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/bone_tv.model	</resource>
+		<transform>
+			<row0>	0.034921 1.194644 -0.000004	</row0>
+			<row1>	-0.000025 0.000005 1.195155	</row1>
+			<row2>	1.194644 -0.034921 0.000025	</row2>
+			<row3>	2.544935 3.761765 -28.407425	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	75748	</offset>
+			<size>	8856	</size>
+		</staticLighting>
+	</model>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287710795	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287710795	</modified_on>
+		</metaData>
+		<guid>	2164AC63.4C318851.4F8D0780.4699F564	</guid>
+		<type>	VideoScreen	</type>
+		<transform>
+			<row0>	0.999998 0.000005 -0.000000	</row0>
+			<row1>	-0.000005 0.999998 0.000549	</row1>
+			<row2>	-0.000000 -0.000549 0.999998	</row2>
+			<row3>	2.470001 -0.680000 -6.449997	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<textureFeedName>	bone_tv	</textureFeedName>
+			<skipFrames>	0	</skipFrames>
+			<triggerRadius>	19.613512	</triggerRadius>
+			<cameraNode>
+				<guid />
+				<chunkId />
+			</cameraNode>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288567026	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288567026	</modified_on>
+		</metaData>
+		<guid>	995A77B5.411DACFA.48271A9E.ECFADE86	</guid>
+		<type>	Creature	</type>
+		<transform>
+			<row0>	0.000657 0.014114 0.999901	</row0>
+			<row1>	0.000000 0.999900 -0.014114	</row1>
+			<row2>	-1.000000 0.000010 0.000656	</row2>
+			<row3>	-0.360645 -2.686050 -12.147392	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<creatureType>	6	</creatureType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	-0.001745 0.000000 -0.999998	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.999998 0.000000 -0.001745	</row2>
+		<row3>	-75.617508 134.479919 660.759583	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-104.113297 122.937233 644.369690	</min>
+		<max>	-75.595268 147.828705 672.129028	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	52bf428ei.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

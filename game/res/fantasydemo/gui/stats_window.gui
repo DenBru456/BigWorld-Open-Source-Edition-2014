@@ -1,0 +1,1363 @@
+<stats_window.gui>
+	<WindowGUIComponent>	106724016
+		<position>	-0.180149 0.398489 0.450000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	344.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	512.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/window_stats.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	0.673000 1.000000	</coords2>
+			<coords3>	0.673000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.StatsWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	true	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>
+			<windowLabel>	108169120	</windowLabel>
+			<closeBox>	106860224	</closeBox>
+			<fpsLabel>	106865264	</fpsLabel>
+			<fps>	114427424	</fps>
+			<textureMemoryLabel>	107735456	</textureMemoryLabel>
+			<textureMemory>	107738144	</textureMemory>
+			<drawCallsLabel>	107740880	</drawCallsLabel>
+			<drawCalls>	107743488	</drawCalls>
+			<primitivesLabel>	107746144	</primitivesLabel>
+			<primitives>	107748960	</primitives>
+			<primitivesPerDrawCallLabel>	107751504	</primitivesPerDrawCallLabel>
+			<primitivesPerDrawCall>	107754240	</primitivesPerDrawCall>
+			<drawnAreaLabel>	107756912	</drawnAreaLabel>
+			<drawnArea>	107759776	</drawnArea>
+			<totalEntitiesLabel>	107762320	</totalEntitiesLabel>
+			<totalEntities>	107765056	</totalEntities>
+			<latencyLabel>	107767712	</latencyLabel>
+			<latency>	107770384	</latency>
+			<bandwidthToServerLabel>	107773040	</bandwidthToServerLabel>
+			<bandwidthToServer>	107775984	</bandwidthToServer>
+			<messagesToServerLabel>	107778480	</messagesToServerLabel>
+			<messagesToServer>	107781216	</messagesToServer>
+			<bandwidthFromServerLabel>	107783888	</bandwidthFromServerLabel>
+			<bandwidthFromServer>	107786544	</bandwidthFromServer>
+			<messagesFromServerLabel>	107789216	</messagesFromServerLabel>
+			<messagesFromServer>	107791952	</messagesFromServer>
+			<bandwidthLabel>	107794608	</bandwidthLabel>
+			<bandwidth>	107797280	</bandwidth>
+			<bandwidthSlider>	107800320	</bandwidthSlider>
+			<entityFilteringCheckBox>	107808960	</entityFilteringCheckBox>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	108169120
+		<position>	16.000000 8.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.242187	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.046875	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Black_18.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Client/Server Statistics	</label>
+		<font>	Heading.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	106860224
+		<position>	330.000000 10.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	21.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.171875	</coords0>
+			<coords1>	0.000000 0.253906	</coords1>
+			<coords2>	0.082031 0.253906	</coords2>
+			<coords3>	0.082031 0.171875	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/close_box.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<label>	107811280	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	106865264
+		<position>	31.000000 54.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.184375	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Frames per second:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	114427424
+		<position>	313.000000 54.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.060937	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	55.80	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107735456
+		<position>	31.000000 79.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.292187	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Texture memory:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107738144
+		<position>	313.000000 79.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.137500	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	16.9/36.3 MB	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107740880
+		<position>	31.000000 104.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.107813	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Draw calls:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107743488
+		<position>	313.000000 104.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.042188	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	331	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107746144
+		<position>	31.000000 129.000000 1.000000	</position>
+		<position>	31.000000 129.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.106250	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Primitives:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107748960
+		<position>	313.000000 129.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.085938	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	186,693	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107751504
+		<position>	31.000000 154.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.232812	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Primitives per draw call:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107754240
+		<position>	313.000000 154.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.042188	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	564	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107756912
+		<position>	31.000000 179.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.118750	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Drawn area:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107759776
+		<position>	313.000000 179.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.148438	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	4.73 square km </label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107762320
+		<position>	31.000000 204.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.203125	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Total entities in AOI:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107765056
+		<position>	313.000000 204.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.017188	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	1	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107767712
+		<position>	31.000000 229.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.085938	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Latency:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107770384
+		<position>	313.000000 229.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.048437	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	0 ms	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107773040
+		<position>	31.000000 254.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.196875	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Bandwidth to server:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107775984
+		<position>	313.000000 254.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.082813	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	0.0 kbps	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107778480
+		<position>	31.000000 279.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.251562	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Messages/second to server:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107781216
+		<position>	313.000000 279.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.035937	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	0.0	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107783888
+		<position>	31.000000 304.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.221875	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Bandwidth from server:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107786544
+		<position>	313.000000 304.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.082813	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	0.0 kbps	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107789216
+		<position>	31.000000 329.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.276562	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Messages/second from server:	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107791952
+		<position>	313.000000 329.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.035937	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	0.0	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107794608
+		<position>	31.000000 392.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.178125	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Desired Bandwidth	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	107797280
+		<position>	313.000000 392.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.076563	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	19 kbps	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	107800320
+		<position>	171.000000 424.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	241.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Slider&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Desired bandwidth from server to client	</text>
+					<shortcut>	</shortcut>
+				</items>
+				<placement>	above	</placement>
+			</toolTipInfo>
+			<isHorizontal>	true	</isHorizontal>
+			<minValue>	6.000000	</minValue>
+			<maxValue>	40.000000	</maxValue>
+			<stepSize>	1.000000	</stepSize>
+			<visualStates>	&quot;PyGUI.SliderVisualState&quot;
+				<disabled>
+					<background>
+						<textureName>	</textureName>
+						<mapping>	UV
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 1.000000	</coords1>
+							<coords2>	1.000000 1.000000	</coords2>
+							<coords3>	1.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	125.000000 125.000000 125.000000 255.000000	</colour>
+					</background>
+					<thumb>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	0.000000 65.000000	</coords0>
+							<coords1>	0.000000 86.000000	</coords1>
+							<coords2>	13.000000 86.000000	</coords2>
+							<coords3>	13.000000 65.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</thumb>
+				</disabled>
+				<hover>
+					<background>
+						<textureName>	</textureName>
+						<mapping>	UV
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 1.000000	</coords1>
+							<coords2>	1.000000 1.000000	</coords2>
+							<coords3>	1.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</background>
+					<thumb>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	22.000000 65.000000	</coords0>
+							<coords1>	22.000000 86.000000	</coords1>
+							<coords2>	35.000000 86.000000	</coords2>
+							<coords3>	35.000000 65.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</thumb>
+				</hover>
+				<pressed>
+					<background>
+						<textureName>	</textureName>
+						<mapping>	UV
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 1.000000	</coords1>
+							<coords2>	1.000000 1.000000	</coords2>
+							<coords3>	1.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</background>
+					<thumb>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	22.000000 65.000000	</coords0>
+							<coords1>	22.000000 86.000000	</coords1>
+							<coords2>	35.000000 86.000000	</coords2>
+							<coords3>	35.000000 65.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</thumb>
+				</pressed>
+				<normal>
+					<background>
+						<textureName>	</textureName>
+						<mapping>	UV
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 1.000000	</coords1>
+							<coords2>	1.000000 1.000000	</coords2>
+							<coords3>	1.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</background>
+					<thumb>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<mapping>	PIXEL
+							<coords0>	0.000000 65.000000	</coords0>
+							<coords1>	0.000000 86.000000	</coords1>
+							<coords2>	13.000000 86.000000	</coords2>
+							<coords3>	13.000000 65.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</thumb>
+				</normal>
+			</visualStates>
+		</script>
+		<children>
+			<thumb>	107820768	</thumb>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107808960
+		<position>	111.000000 462.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	150.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.CheckBox&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Entity position filtering smooths movement	</text>
+					<shortcut>	</shortcut>
+				</items>
+				<placement>	below	</placement>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	checkbox	</buttonStyle>
+			<visualStates>	&quot;PyGUI.ButtonVisualState&quot;
+				<hover>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 22.000000	</coords1>
+							<coords2>	22.000000 22.000000	</coords2>
+							<coords3>	22.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 22.000000	</coords1>
+							<coords2>	22.000000 22.000000	</coords2>
+							<coords3>	22.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	22.000000 0.000000	</coords0>
+							<coords1>	22.000000 22.000000	</coords1>
+							<coords2>	44.000000 22.000000	</coords2>
+							<coords3>	44.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 22.000000	</coords1>
+							<coords2>	22.000000 22.000000	</coords2>
+							<coords3>	22.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	22.000000 0.000000	</coords0>
+							<coords1>	22.000000 22.000000	</coords1>
+							<coords2>	44.000000 22.000000	</coords2>
+							<coords3>	44.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	22.000000 0.000000	</coords0>
+							<coords1>	22.000000 22.000000	</coords1>
+							<coords2>	44.000000 22.000000	</coords2>
+							<coords3>	44.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	0.000000 0.000000	</coords0>
+							<coords1>	0.000000 22.000000	</coords1>
+							<coords2>	22.000000 22.000000	</coords2>
+							<coords3>	22.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/gui_general.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	22.000000 0.000000	</coords0>
+							<coords1>	22.000000 22.000000	</coords1>
+							<coords2>	44.000000 22.000000	</coords2>
+							<coords3>	44.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<children>
+			<box>	107823760	</box>
+			<label>	107826064	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	107811280
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	default_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	107820768
+		<position>	-0.222602 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	13.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.253906	</coords0>
+			<coords1>	0.000000 0.335938	</coords1>
+			<coords2>	0.050781 0.335938	</coords2>
+			<coords3>	0.050781 0.253906	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.SliderThumb&quot;	</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<SimpleGUIComponent>	107823760
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	22.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.085938 0.000000	</coords0>
+			<coords1>	0.085938 0.085938	</coords1>
+			<coords2>	0.171875 0.085938	</coords2>
+			<coords3>	0.171875 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	107826064
+		<position>	30.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.148438	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Entity Filtering	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+</stats_window.gui>

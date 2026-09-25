@@ -1,0 +1,10 @@
+DISABLED	= 0
+SLEEPING    = 1
+COMPLACENT  = 2
+ALERT       = 3
+COMBAT      = 4
+
+PANICKED	= 5
+SURPRISED   = 6
+SPAWNING    = 7
+# AlertState.py

@@ -1,0 +1,16 @@
+# /etc/defaults/bwlockd
+
+# If set, changes the port that BWLockD listens on from the default of 8168
+#PORT=8168
+
+# The IP address of the interface to bind BWLockD to listen on.
+# (defaults to all interfaces: 0.0.0.0)
+#BIND_IP=0.0.0.0
+
+# The directory where BWLockD should write persistent data to.
+#BWLOCKD_DATA_DIR="/var/lib/bigworld/$PROCNAME"
+
+# The working directory to run BWLockD in
+# (core dumps will write to this location unless CORE_PATH includes an absolute
+# path)
+#BW_TOOLS_WORKING_DIR="/var/run/bigworld"

@@ -1,0 +1,393 @@
+<pine_substitute_snow.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.000000 1.000000 -0.000000	</row0>
+				<row1>	0.000003 -0.000000 -1.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000003	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	0.999869 -0.000000 0.016158	</row0>
+					<row1>	0.000000 1.000000 0.000001	</row1>
+					<row2>	-0.016158 -0.000001 0.999869	</row2>
+					<row3>	3.839366 0.000000 -0.000001	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone10	</identifier>
+					<transform>
+						<row0>	-0.289882 -0.956102 0.042864	</row0>
+						<row1>	-0.553140 0.130822 -0.822752	</row1>
+						<row2>	0.781028 -0.262211 -0.566782	</row2>
+						<row3>	2.744414 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone11	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000005 -0.000003	</row0>
+							<row1>	0.000005 1.000000 0.000004	</row1>
+							<row2>	0.000003 -0.000004 1.000000	</row2>
+							<row3>	1.678488 -0.000000 0.000000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone10BlendBonetrunk	</identifier>
+						<transform>
+							<row0>	-0.038176 0.831583 0.554087	</row0>
+							<row1>	-0.290537 -0.539774 0.790084	</row1>
+							<row2>	0.956102 -0.130821 0.262212	</row2>
+							<row3>	1.911033 3.590436 -5.176884	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone10BlendBonePlane02	</identifier>
+						<transform>
+							<row0>	-0.038176 0.831583 0.554087	</row0>
+							<row1>	-0.290537 -0.539774 0.790084	</row1>
+							<row2>	0.956102 -0.130821 0.262212	</row2>
+							<row3>	1.911033 3.590436 -5.176884	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone12	</identifier>
+					<transform>
+						<row0>	-0.166366 0.582642 0.795519	</row0>
+						<row1>	0.123517 0.812721 -0.569411	</row1>
+						<row2>	-0.978297 0.003530 -0.207176	</row2>
+						<row3>	2.744416 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone13	</identifier>
+						<transform>
+							<row0>	1.000000 0.000010 0.000002	</row0>
+							<row1>	-0.000010 1.000000 0.000002	</row1>
+							<row2>	-0.000002 -0.000002 1.000000	</row2>
+							<row3>	2.032842 0.000000 -0.000002	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone12BlendBonetrunk	</identifier>
+						<transform>
+							<row0>	-0.792726 0.567342 0.222956	</row0>
+							<row1>	-0.179198 0.132702 -0.974822	</row1>
+							<row2>	-0.582644 -0.812720 -0.003529	</row2>
+							<row3>	1.144588 -0.848475 6.427552	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone12BlendBonePlane02	</identifier>
+						<transform>
+							<row0>	-0.792726 0.567342 0.222956	</row0>
+							<row1>	-0.179198 0.132702 -0.974822	</row1>
+							<row2>	-0.582644 -0.812720 -0.003529	</row2>
+							<row3>	1.144588 -0.848475 6.427552	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone14	</identifier>
+					<transform>
+						<row0>	-0.214286 0.547649 -0.808803	</row0>
+						<row1>	0.867047 0.487948 0.100678	</row1>
+						<row2>	0.449790 -0.679696 -0.579398	</row2>
+						<row3>	2.744415 -0.000000 0.000001	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone15	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000004 0.000007	</row0>
+							<row1>	0.000004 1.000000 0.000005	</row1>
+							<row2>	-0.000007 -0.000005 1.000000	</row2>
+							<row3>	2.352142 0.000000 0.000008	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone14BlendBonetrunk	</identifier>
+						<transform>
+							<row0>	0.812161 -0.114673 0.572053	</row0>
+							<row1>	-0.201189 0.865307 0.459093	</row1>
+							<row2>	-0.547648 -0.487948 0.679697	</row2>
+							<row3>	1.360527 -5.701766 -2.997035	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone14BlendBonePlane02	</identifier>
+						<transform>
+							<row0>	0.812161 -0.114673 0.572053	</row0>
+							<row1>	-0.201189 0.865307 0.459093	</row1>
+							<row2>	-0.547648 -0.487948 0.679697	</row2>
+							<row3>	1.360527 -5.701766 -2.997035	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	0.999995 -0.000000 -0.003117	</row0>
+						<row1>	0.000000 1.000000 0.000002	</row1>
+						<row2>	0.003117 -0.000002 0.999995	</row2>
+						<row3>	2.744415 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone16	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 -0.000002	</row0>
+							<row1>	0.000000 1.000000 0.000009	</row1>
+							<row2>	0.000002 -0.000009 1.000000	</row2>
+							<row3>	2.053872 0.000000 -0.000000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone03BlendBonetrunk	</identifier>
+						<transform>
+							<row0>	-0.013041 -0.000000 -0.999915	</row0>
+							<row1>	0.999915 0.000000 -0.013041	</row1>
+							<row2>	0.000000 -1.000000 0.000000	</row2>
+							<row3>	-6.583441 -0.000000 0.041517	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone03BlendBonePlane02	</identifier>
+						<transform>
+							<row0>	-0.013041 -0.000000 -0.999915	</row0>
+							<row1>	0.999915 0.000000 -0.013041	</row1>
+							<row2>	0.000000 -1.000000 0.000000	</row2>
+							<row3>	-6.583441 -0.000000 0.041517	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBonetrunk	</identifier>
+					<transform>
+						<row0>	-0.016158 0.000002 -0.999869	</row0>
+						<row1>	0.999869 0.000000 -0.016158	</row1>
+						<row2>	0.000000 -1.000000 -0.000002	</row2>
+						<row3>	-3.838865 -0.000000 0.062038	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBonePlane02	</identifier>
+					<transform>
+						<row0>	-0.016158 0.000002 -0.999869	</row0>
+						<row1>	0.999869 0.000000 -0.016158	</row1>
+						<row2>	0.000000 -1.000000 -0.000002	</row2>
+						<row3>	-3.838865 -0.000000 0.062038	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone04	</identifier>
+				<transform>
+					<row0>	-0.116464 -0.613072 -0.781396	</row0>
+					<row1>	-0.247627 0.779828 -0.574934	</row1>
+					<row2>	0.961830 0.126536 -0.242635	</row2>
+					<row3>	3.839365 -0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone05	</identifier>
+					<transform>
+						<row0>	1.000000 -0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 -0.000001	</row1>
+						<row2>	-0.000000 0.000001 1.000000	</row2>
+						<row3>	1.897588 -0.000000 -0.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone04BlendBonetrunk	</identifier>
+					<transform>
+						<row0>	0.781394 0.574936 0.242636	</row0>
+						<row1>	-0.116464 -0.247628 0.961830	</row1>
+						<row2>	0.613074 -0.779826 -0.126535	</row2>
+						<row3>	0.447148 0.950732 -3.692816	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone04BlendBonePlane02	</identifier>
+					<transform>
+						<row0>	0.781394 0.574936 0.242636	</row0>
+						<row1>	-0.116464 -0.247628 0.961830	</row1>
+						<row2>	0.613074 -0.779826 -0.126535	</row2>
+						<row3>	0.447148 0.950732 -3.692816	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone06	</identifier>
+				<transform>
+					<row0>	-0.106327 -0.582396 0.805922	</row0>
+					<row1>	-0.119733 0.812118 0.571076	</row1>
+					<row2>	-0.987096 -0.035775 -0.156082	</row2>
+					<row3>	3.839364 -0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone07	</identifier>
+					<transform>
+						<row0>	1.000000 -0.000000 0.000002	</row0>
+						<row1>	0.000000 1.000000 -0.000000	</row1>
+						<row2>	-0.000002 0.000000 1.000000	</row2>
+						<row3>	2.056025 0.000000 0.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone06BlendBonetrunk	</identifier>
+					<transform>
+						<row0>	-0.805924 -0.571074 0.156082	</row0>
+						<row1>	-0.106327 -0.119733 -0.987096	</row1>
+						<row2>	0.582393 -0.812120 0.035775	</row2>
+						<row3>	0.408228 0.459699 3.789821	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone06BlendBonePlane02	</identifier>
+					<transform>
+						<row0>	-0.805924 -0.571074 0.156082	</row0>
+						<row1>	-0.106327 -0.119733 -0.987096	</row1>
+						<row2>	0.582393 -0.812120 0.035775	</row2>
+						<row3>	0.408228 0.459699 3.789821	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone08	</identifier>
+				<transform>
+					<row0>	-0.426296 0.904484 0.013397	</row0>
+					<row1>	0.724537 0.332543 0.603707	</row1>
+					<row2>	0.541588 0.267064 -0.797094	</row2>
+					<row3>	3.839444 -0.000000 0.000001	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone09	</identifier>
+					<transform>
+						<row0>	1.000000 -0.000001 -0.000001	</row0>
+						<row1>	0.000001 1.000000 0.000001	</row1>
+						<row2>	0.000001 -0.000001 1.000000	</row2>
+						<row3>	1.980210 -0.000000 0.000000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone08BlendBonetrunk	</identifier>
+					<transform>
+						<row0>	-0.013394 -0.603705 0.797095	</row0>
+						<row1>	-0.426296 0.724537 0.541588	</row1>
+						<row2>	-0.904485 -0.332544 -0.267062	</row2>
+						<row3>	1.636741 -2.781820 -2.079396	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone08BlendBonePlane02	</identifier>
+					<transform>
+						<row0>	-0.013394 -0.603705 0.797095	</row0>
+						<row1>	-0.426296 0.724537 0.541588	</row1>
+						<row2>	-0.904485 -0.332544 -0.267062	</row2>
+						<row3>	1.636741 -2.781820 -2.079396	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBonetrunk	</identifier>
+				<transform>
+					<row0>	0.000000 0.000003 -1.000000	</row0>
+					<row1>	1.000000 -0.000000 0.000000	</row1>
+					<row2>	-0.000000 -1.000000 -0.000003	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBonePlane02	</identifier>
+				<transform>
+					<row0>	0.000000 0.000003 -1.000000	</row0>
+					<row1>	1.000000 -0.000000 0.000000	</row1>
+					<row2>	-0.000000 -1.000000 -0.000003	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone08BlendBonePlane02	</node>
+		<node>	Bone01BlendBonePlane02	</node>
+		<node>	Bone02BlendBonePlane02	</node>
+		<node>	Bone04BlendBonePlane02	</node>
+		<node>	Bone06BlendBonePlane02	</node>
+		<node>	Bone03BlendBonePlane02	</node>
+		<node>	Bone12BlendBonePlane02	</node>
+		<node>	Bone14BlendBonePlane02	</node>
+		<node>	Bone10BlendBonePlane02	</node>
+		<geometry>
+			<vertices>	Plane02.vertices	</vertices>
+			<primitive>	Plane02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	snow_leaves_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	9	</materialKind>
+					<property>	alphaReference
+						<Int>	128	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/t_ice/props/pine_substitute_snow_leaves.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBonetrunk	</node>
+		<node>	Bone02BlendBonetrunk	</node>
+		<node>	Bone04BlendBonetrunk	</node>
+		<node>	Bone08BlendBonetrunk	</node>
+		<node>	Bone06BlendBonetrunk	</node>
+		<node>	Bone03BlendBonetrunk	</node>
+		<node>	Bone10BlendBonetrunk	</node>
+		<node>	Bone14BlendBonetrunk	</node>
+		<node>	Bone12BlendBonetrunk	</node>
+		<geometry>
+			<vertices>	trunk.vertices	</vertices>
+			<primitive>	trunk.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	24 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/t_ice/props/pine_snow_bark.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-2.313796 -0.099705 -2.458911	</min>
+		<max>	2.307966 8.984077 2.461120	</max>
+	</boundingBox>
+</pine_substitute_snow.visual>

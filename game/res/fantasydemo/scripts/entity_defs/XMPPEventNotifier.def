@@ -1,0 +1,23 @@
+<root>
+	<TempProperties>
+		<!-- The roster will need to be re-populated on a restore as
+		     friend state may have changed while a failure occurred. -->
+		<roster/>
+
+		<!-- The connection must be re-established as the socket to the
+		     XMPP server will no longer be valid. -->
+		<xmppConnection/>
+	</TempProperties>
+
+	<Persistent> false </Persistent>
+
+	<BaseMethods>
+		<broadcast>
+			<Args>
+				<message> UNICODE_STRING </message>
+			</Args>
+		</broadcast>
+
+		<cleanup/>
+	</BaseMethods>
+</root>

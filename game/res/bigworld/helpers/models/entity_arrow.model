@@ -1,0 +1,59 @@
+<entity_arrow.model>
+	<action>
+		<name>	entity_arrow_ismov	</name>
+		<animation>	entity_arrow_ismov	</animation>
+		<isMovement>	true	</isMovement>
+		<match>
+			<trigger>
+				<minEntitySpeed>	-0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	-100.000000	</maxEntitySpeed>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+			</trigger>
+			<cancel>
+				<minEntitySpeed>	-0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	-0.100000	</maxEntitySpeed>
+				<minEntityAux1>	0.000000	</minEntityAux1>
+				<maxEntityAux1>	0.000000	</maxEntityAux1>
+				<minModelYaw>	0.000000	</minModelYaw>
+				<maxModelYaw>	0.000000	</maxModelYaw>
+			</cancel>
+			<scalePlaybackSpeed>	true	</scalePlaybackSpeed>
+		</match>
+		<filler>	true	</filler>
+		<isImpacting>	false	</isImpacting>
+		<isCoordinated>	false	</isCoordinated>
+	</action>
+	<action>
+		<name>	entity_arrow_isimpact	</name>
+		<animation>	entity_arrow_isimpact	</animation>
+		<isImpacting>	true	</isImpacting>
+		<match>
+			<promoteMotion>	true	</promoteMotion>
+		</match>
+	</action>
+	<metaData>
+		<created_by>	AdamM	</created_by>
+		<created_on>	1259537704	</created_on>
+		<modified_by>	phillipj	</modified_by>
+		<modified_on>	1260316230	</modified_on>
+	</metaData>
+	<nodefullVisual>	helpers/models/entity_arrow	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	entity_arrow_isimpact	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	helpers/models/entity_arrow_isimpact	</nodes>
+	</animation>
+	<animation>
+		<name>	entity_arrow_ismov	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	helpers/models/entity_arrow_ismov	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-0.710750 1.061296 -1.000002	</min>
+		<max>	0.735558 3.158845 2.106785	</max>
+	</visibilityBox>
+</entity_arrow.model>

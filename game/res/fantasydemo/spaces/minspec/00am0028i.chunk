@@ -1,0 +1,115 @@
+<root>
+	<shell>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_corner_stairs_001.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	9724	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<resource>	sets/dungeon/props/web_corner01.model	</resource>
+		<transform>
+			<row0>	0.984972 0.000000 0.172684	</row0>
+			<row1>	0.000000 0.999995 0.000000	</row1>
+			<row2>	-0.172684 0.000000 0.984972	</row2>
+			<row3>	8.602402 0.952332 -8.643341	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	9724	</offset>
+			<size>	32	</size>
+		</staticLighting>
+	</model>
+	<ambientLight>
+		<colour>	67.000000 51.000015 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.505558 0.289760 0.812680	</row0>
+			<row1>	0.037096 0.933747 -0.356004	</row1>
+			<row2>	-0.861994 0.210128 0.461315	</row2>
+			<row3>	5.545120 0.663391 -6.170120	</row3>
+		</transform>
+		<guid>	9541B1BF.4FEB9681.09421D90.D7DA3E5E	</guid>
+		<properties>
+			<next>
+				<guid>	AC110BB4.4A77ADEA.669D9185.A5230EB1	</guid>
+				<chunkId>	00010001o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	E4C5BE22.4B77ECA7.8D6FB78A.2A5C5C39	</guid>
+				<chunkId>	00010001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	-0.747429 -0.429945 -0.506451	</row0>
+			<row1>	-0.306930 0.899582 -0.310715	</row1>
+			<row2>	0.589186 -0.076792 -0.804338	</row2>
+			<row3>	4.523743 0.331116 -4.744736	</row3>
+		</transform>
+		<guid>	9220C5B1.4C18A992.8053DEB9.675E5A60	</guid>
+		<properties>
+			<next>
+				<guid>	C409A03E.43EB6A91.FE7BD287.51AA979A	</guid>
+				<chunkId>	00010001o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	C9E964E8.4D54D44A.0A96B9BF.CB1D10C2	</guid>
+				<chunkId>	00010001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<transform>
+		<row0>	0.000000 0.000000 1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	-1.000000 0.000000 0.000000	</row2>
+		<row3>	169.967819 125.729935 154.749847	</row3>
+	</transform>
+	<boundingBox>
+		<min>	169.367813 122.279282 154.158188	</min>
+		<max>	181.478104 131.388336 165.251404	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0028i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,474 @@
+<dragon_saddle.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	English DragonPelvis	</identifier>
+			<transform>
+				<row0>	-0.000000 0.262693 0.964880	</row0>
+				<row1>	-1.000000 0.000000 -0.000000	</row1>
+				<row2>	-0.000000 -0.964880 0.262693	</row2>
+				<row3>	0.000000 4.224776 -3.869441	</row3>
+			</transform>
+			<node>
+				<identifier>	CATRigBLLeg1	</identifier>
+				<transform>
+					<row0>	0.471076 0.334735 0.816113	</row0>
+					<row1>	-0.102512 -0.898156 0.427558	</row1>
+					<row2>	0.876116 -0.285074 -0.388786	</row2>
+					<row3>	0.008808 0.796377 -0.049423	</row3>
+				</transform>
+				<node>
+					<identifier>	CATRigBLLeg1BlendBonesaddle	</identifier>
+					<transform>
+						<row0>	-0.334735 0.898156 0.285074	</row0>
+						<row1>	-0.663702 -0.439472 0.605281	</row1>
+						<row2>	0.668918 0.013404 0.743215	</row2>
+						<row3>	5.161942 2.645842 0.518747	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CATRigBRLeg1	</identifier>
+				<transform>
+					<row0>	0.425483 -0.314694 0.848488	</row0>
+					<row1>	0.098146 -0.916014 -0.388955	</row1>
+					<row2>	0.899629 0.248770 -0.358862	</row2>
+					<row3>	0.008808 -0.796377 -0.049423	</row3>
+				</transform>
+				<node>
+					<identifier>	CATRigBRLeg1BlendBonesaddle	</identifier>
+					<transform>
+						<row0>	0.314694 0.916014 -0.248770	</row0>
+						<row1>	-0.706918 0.401077 0.582585	</row1>
+						<row2>	0.633431 -0.007476 0.773763	</row2>
+						<row3>	5.225165 -2.472970 0.705195	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CATRigSpine01	</identifier>
+				<transform>
+					<row0>	0.998930 -0.000000 -0.046238	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	0.046238 0.000000 0.998930	</row2>
+					<row3>	-0.006013 0.000000 -0.172849	</row3>
+				</transform>
+				<node>
+					<identifier>	CATRigSpine02	</identifier>
+					<transform>
+						<row0>	0.999594 -0.000000 -0.028493	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.028493 -0.000000 0.999594	</row2>
+						<row3>	0.625831 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	CATRigSpine03	</identifier>
+						<transform>
+							<row0>	0.996804 -0.000000 0.079891	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	-0.079891 0.000000 0.996804	</row2>
+							<row3>	0.625830 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	CATRigSpine04	</identifier>
+							<transform>
+								<row0>	0.999798 -0.000000 0.020083	</row0>
+								<row1>	-0.000000 1.000000 0.000000	</row1>
+								<row2>	-0.020083 -0.000000 0.999798	</row2>
+								<row3>	0.579856 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	CATRigSpine05	</identifier>
+								<transform>
+									<row0>	0.986924 0.000000 0.161184	</row0>
+									<row1>	-0.000000 1.000000 0.000000	</row1>
+									<row2>	-0.161184 -0.000000 0.986924	</row2>
+									<row3>	0.670475 -0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	CATRigSpine06	</identifier>
+									<transform>
+										<row0>	0.991218 -0.000000 0.132241	</row0>
+										<row1>	0.000000 1.000000 -0.000000	</row1>
+										<row2>	-0.132240 0.000000 0.991218	</row2>
+										<row3>	0.625830 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	English DragonRibcage	</identifier>
+										<transform>
+											<row0>	0.998120 0.000000 0.061290	</row0>
+											<row1>	-0.000000 1.000000 0.000000	</row1>
+											<row2>	-0.061290 -0.000000 0.998120	</row2>
+											<row3>	1.180866 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	CATRigFLLegCollarbone	</identifier>
+											<transform>
+												<row0>	-0.315178 0.932093 0.178509	</row0>
+												<row1>	0.174731 0.241873 -0.954445	</row1>
+												<row2>	-0.932808 -0.269630 -0.239099	</row2>
+												<row3>	0.281600 0.795932 0.262592	</row3>
+											</transform>
+											<node>
+												<identifier>	CATRigFLLeg1	</identifier>
+												<transform>
+													<row0>	0.475989 -0.871687 -0.116601	</row0>
+													<row1>	-0.870593 -0.485805 0.077858	</row1>
+													<row2>	-0.124513 0.064453 -0.990122	</row2>
+													<row3>	0.558352 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	CATRigFLLeg1BlendBonesaddle	</identifier>
+													<transform>
+														<row0>	-0.264267 0.949969 -0.166498	</row0>
+														<row1>	-0.916270 -0.301178 -0.264086	</row1>
+														<row2>	-0.301019 0.082768 0.950020	</row2>
+														<row3>	4.074214 2.641800 0.700191	</row3>
+													</transform>
+												</node>
+											</node>
+										</node>
+										<node>
+											<identifier>	CATRigFRLegCollarbone	</identifier>
+											<transform>
+												<row0>	-0.315178 -0.932093 0.178509	</row0>
+												<row1>	-0.174731 0.241873 0.954445	</row1>
+												<row2>	-0.932808 0.269630 -0.239099	</row2>
+												<row3>	0.305470 -0.725339 0.249073	</row3>
+											</transform>
+											<node>
+												<identifier>	CATRigFRLeg1	</identifier>
+												<transform>
+													<row0>	0.325250 0.943514 -0.063203	</row0>
+													<row1>	0.915060 -0.330888 -0.230604	</row1>
+													<row2>	-0.238491 0.017169 -0.970993	</row2>
+													<row3>	0.558352 -0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	CATRigFRLeg1BlendBonesaddle	</identifier>
+													<transform>
+														<row0>	0.091993 0.995132 0.035360	</row0>
+														<row1>	-0.943247 0.098467 -0.317157	</row1>
+														<row2>	-0.319094 -0.004177 0.947714	</row2>
+														<row3>	4.458977 -1.703363 1.105703	</row3>
+													</transform>
+												</node>
+											</node>
+										</node>
+										<node>
+											<identifier>	English DragonLArmCollarbone	</identifier>
+											<transform>
+												<row0>	-0.053560 0.885110 -0.462290	</row0>
+												<row1>	-0.998478 -0.053560 0.013135	</row1>
+												<row2>	-0.013135 0.462290 0.886632	</row2>
+												<row3>	-0.325045 0.246584 -0.359953	</row3>
+											</transform>
+											<node>
+												<identifier>	English DragonLArm1	</identifier>
+												<transform>
+													<row0>	0.923312 0.319984 -0.212380	</row0>
+													<row1>	0.378067 -0.854532 0.356146	</row1>
+													<row2>	-0.067525 -0.409128 -0.909975	</row2>
+													<row3>	0.907727 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	English DragonLArm1BlendBonesaddle	</identifier>
+													<transform>
+														<row0>	-0.701913 -0.545043 0.458526	</row0>
+														<row1>	0.649019 -0.224236 0.726975	</row1>
+														<row2>	-0.293414 0.807865 0.511137	</row2>
+														<row3>	-4.568848 0.753082 -3.808831	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	English DragonLArmCollarboneBlendBonesaddle	</identifier>
+												<transform>
+													<row0>	-0.885110 0.053560 -0.462290	</row0>
+													<row1>	0.465382 0.101866 -0.879228	</row1>
+													<row2>	0.000000 -0.993355 -0.115089	</row2>
+													<row3>	-2.768839 -0.547189 4.704483	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	English DragonRArmCollarbone	</identifier>
+											<transform>
+												<row0>	-0.053488 -0.882567 -0.467134	</row0>
+												<row1>	0.998478 -0.053560 -0.013135	</row1>
+												<row2>	-0.013427 -0.467126 0.884089	</row2>
+												<row3>	-0.325045 -0.246584 -0.359953	</row3>
+											</transform>
+											<node>
+												<identifier>	English DragonRArm1	</identifier>
+												<transform>
+													<row0>	0.924460 -0.319984 -0.207326	</row0>
+													<row1>	-0.376113 -0.854532 -0.358209	</row1>
+													<row2>	-0.062545 0.409128 -0.910331	</row2>
+													<row3>	0.907727 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	English DragonRArm1BlendBonesaddle	</identifier>
+													<transform>
+														<row0>	0.701913 -0.545043 -0.458526	</row0>
+														<row1>	0.649019 0.224236 0.726975	</row1>
+														<row2>	-0.293414 -0.807865 0.511137	</row2>
+														<row3>	-4.569890 -0.754857 -3.813352	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	English DragonRArmCollarboneBlendBonesaddle	</identifier>
+												<transform>
+													<row0>	0.882567 0.053560 0.467125	</row0>
+													<row1>	0.470186 -0.101866 -0.876669	</row1>
+													<row2>	0.000630 0.993355 -0.115087	</row2>
+													<row3>	-2.794538 0.547189 4.689264	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	CATRigNeck01	</identifier>
+											<transform>
+												<row0>	0.975789 0.000000 0.218715	</row0>
+												<row1>	0.000000 1.000000 0.000000	</row1>
+												<row2>	-0.218715 0.000000 0.975789	</row2>
+												<row3>	0.019065 0.000000 -0.092933	</row3>
+											</transform>
+											<node>
+												<identifier>	CATRigNeck02	</identifier>
+												<transform>
+													<row0>	0.999533 -0.000000 -0.030565	</row0>
+													<row1>	0.000000 1.000000 0.000000	</row1>
+													<row2>	0.030565 0.000000 0.999533	</row2>
+													<row3>	0.998856 -0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	CATRigNeck03	</identifier>
+													<transform>
+														<row0>	0.994744 -0.000000 -0.102396	</row0>
+														<row1>	0.000000 1.000000 -0.000000	</row1>
+														<row2>	0.102396 0.000000 0.994744	</row2>
+														<row3>	1.004045 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	CATRigNeck04	</identifier>
+														<transform>
+															<row0>	0.988248 0.000000 -0.152861	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	0.152861 0.000000 0.988248	</row2>
+															<row3>	1.001333 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	CATRigNeck05	</identifier>
+															<transform>
+																<row0>	0.996910 -0.000000 -0.078555	</row0>
+																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.078555 0.000000 0.996910	</row2>
+																<row3>	1.001334 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	English DragonHead	</identifier>
+																<transform>
+																	<row0>	0.999324 0.000000 -0.036775	</row0>
+																	<row1>	-0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.036775 0.000000 0.999324	</row2>
+																	<row3>	1.001334 -0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	English DragonHeadBlendBonesaddle	</identifier>
+																	<transform>
+																		<row0>	0.000000 -1.000000 -0.000000	</row0>
+																		<row1>	0.066137 0.000000 -0.997811	</row1>
+																		<row2>	0.997811 0.000000 0.066137	</row2>
+																		<row3>	-5.466073 -0.000001 3.970578	</row3>
+																	</transform>
+																</node>
+															</node>
+														</node>
+														<node>
+															<identifier>	CATRigNeck04BlendBonesaddle	</identifier>
+															<transform>
+																<row0>	0.000000 -1.000000 -0.000000	</row0>
+																<row1>	-0.049215 0.000000 -0.998788	</row1>
+																<row2>	0.998788 0.000000 -0.049215	</row2>
+																<row3>	-2.972864 -0.000001 4.494993	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	CATRigNeck03BlendBonesaddle	</identifier>
+														<transform>
+															<row0>	0.000000 -1.000000 -0.000000	</row0>
+															<row1>	-0.201312 0.000000 -0.979527	</row1>
+															<row2>	0.979527 0.000000 -0.201312	</row2>
+															<row3>	-1.249487 -0.000001 4.896600	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	HP_mount	</identifier>
+													<transform>
+														<row0>	-0.000000 1.000000 -0.000000	</row0>
+														<row1>	0.923908 0.000000 -0.382615	</row1>
+														<row2>	-0.382615 -0.000000 -0.923908	</row2>
+														<row3>	-0.004630 -0.000000 -1.095663	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	CATRigNeck02BlendBonesaddle	</identifier>
+													<transform>
+														<row0>	0.000000 -1.000000 -0.000000	</row0>
+														<row1>	-0.300553 0.000000 -0.953765	</row1>
+														<row2>	0.953765 0.000000 -0.300553	</row2>
+														<row3>	0.262518 -0.000000 4.998805	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	CATRigNeck01BlendBonesaddle	</identifier>
+												<transform>
+													<row0>	0.000000 -1.000000 -0.000000	</row0>
+													<row1>	-0.329564 0.000000 -0.944133	</row1>
+													<row2>	0.944133 -0.000000 -0.329564	</row2>
+													<row3>	1.414039 -0.000000 4.988446	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	English DragonRibcageBlendBonesaddle	</identifier>
+											<transform>
+												<row0>	-0.000000 -1.000000 -0.000000	</row0>
+												<row1>	-0.115089 0.000000 -0.993355	</row1>
+												<row2>	0.993355 -0.000000 -0.115089	</row2>
+												<row3>	0.307820 -0.000000 5.084008	</row3>
+											</transform>
+										</node>
+									</node>
+								</node>
+								<node>
+									<identifier>	CATRigSpine05BlendBonesaddle	</identifier>
+									<transform>
+										<row0>	-0.000000 -1.000000 0.000000	</row0>
+										<row1>	0.078532 0.000000 -0.996912	</row1>
+										<row2>	0.996912 -0.000000 0.078532	</row2>
+										<row3>	1.118462 -0.000000 5.204167	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	CATRigSpine04BlendBonesaddle	</identifier>
+								<transform>
+									<row0>	0.000000 -1.000000 -0.000000	</row0>
+									<row1>	0.238191 0.000000 -0.971218	</row1>
+									<row2>	0.971218 -0.000000 0.238191	</row2>
+									<row3>	0.935485 -0.000001 5.316397	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	CATRigSpine03BlendBonesaddle	</identifier>
+							<transform>
+								<row0>	0.000000 -1.000000 -0.000000	</row0>
+								<row1>	0.257648 0.000000 -0.966239	</row1>
+								<row2>	0.966239 -0.000000 0.257648	</row2>
+								<row3>	1.408384 -0.000001 5.334112	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	CATRigSpine02BlendBonesaddle	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 -0.000000	</row0>
+							<row1>	0.334018 0.000000 -0.942567	</row1>
+							<row2>	0.942567 -0.000000 0.334018	</row2>
+							<row3>	1.603566 -0.000000 5.429580	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	CATRigSpine01BlendBonesaddle	</identifier>
+					<transform>
+						<row0>	0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.307026 0.000000 -0.951701	</row1>
+						<row2>	0.951701 -0.000000 0.307026	</row2>
+						<row3>	2.383451 -0.000001 5.381684	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	English DragonPelvisBlendBonesaddle	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.000000 -0.000000	</row0>
+					<row1>	0.262693 0.000000 -0.964880	</row1>
+					<row2>	0.964880 -0.000000 0.262693	</row2>
+					<row3>	2.623727 -0.000000 5.092874	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	CATRigNeck01BlendBonesaddle	</node>
+		<node>	CATRigNeck02BlendBonesaddle	</node>
+		<node>	English DragonRibcageBlendBonesaddle	</node>
+		<node>	CATRigFRLeg1BlendBonesaddle	</node>
+		<node>	CATRigNeck03BlendBonesaddle	</node>
+		<node>	CATRigNeck04BlendBonesaddle	</node>
+		<node>	CATRigFLLeg1BlendBonesaddle	</node>
+		<node>	English DragonRArmCollarboneBlendBonesaddle	</node>
+		<node>	English DragonLArmCollarboneBlendBonesaddle	</node>
+		<node>	CATRigSpine05BlendBonesaddle	</node>
+		<node>	CATRigSpine04BlendBonesaddle	</node>
+		<node>	CATRigSpine03BlendBonesaddle	</node>
+		<node>	CATRigBRLeg1BlendBonesaddle	</node>
+		<node>	CATRigBLLeg1BlendBonesaddle	</node>
+		<node>	CATRigSpine02BlendBonesaddle	</node>
+		<geometry>
+			<vertices>	saddle0a.vertices	</vertices>
+			<primitive>	saddle0a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	saddle_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	reflectionMask
+						<Texture>	characters/npc/flying_dragon/maps/dragon_saddle_col_spec.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_saddle_col_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_saddle_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/flying_dragon/maps/dragon_saddle_dif.bmp	</Texture>
+					</property>
+					<property>	reflectionAmount
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	1.510000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.078540 3.336285 -2.248337	</min>
+		<max>	1.078540 6.324105 3.338413	</max>
+	</boundingBox>
+</dragon_saddle.visual>

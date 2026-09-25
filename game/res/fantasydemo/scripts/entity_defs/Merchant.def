@@ -1,0 +1,157 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> Trader </Interface>
+		<Interface> ModeTarget </Interface>
+	</Implements>
+
+	<!-- <HasDBNameKey> true </HasDBNameKey> -->
+
+	<Properties>
+		<playerName>
+			<Type>			STRING				</Type>
+			<Flags>			BASE 					</Flags>
+			<Editable>		true					</Editable>
+			<Persistent>	true					</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</playerName>
+		
+		<lastTradeID>
+			<Type>			TRADEID			</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</lastTradeID>
+		
+		<inventoryItems>
+			<Type>			ARRAY <of> InventoryEntry </of>	</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Default>		
+				<item>
+					<itemType>	4	</itemType>
+					<serial>	1002	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	4	</itemType>
+					<serial>	1003	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	6	</itemType>
+					<serial>	1004	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	6	</itemType>
+					<serial>	1005	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	17	</itemType>
+					<serial>	1006	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+				<item>
+					<itemType>	17	</itemType>
+					<serial>	1007	</serial>
+					<lockHandle>	-1	</lockHandle>
+				</item>
+			</Default>
+			<Persistent>	true					</Persistent>
+		</inventoryItems>
+		
+		<inventoryLocks>
+			<Type> ARRAY <of> LockedEntry </of>	</Type>			
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Persistent>	true					</Persistent>
+		</inventoryLocks>
+
+		<inventoryGoldPieces>
+			<Type>			INT32					</Type>
+			<Flags>			BASE_AND_CLIENT	</Flags>
+			<Default>		100					</Default>
+			<Persistent>	true					</Persistent>
+		</inventoryGoldPieces>
+		
+		<cancelTradeRadius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		5.0				</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	1.5	</gizmoRadius>
+			</Widget>
+		</cancelTradeRadius>
+
+		<numCustomers>
+			<Type>			UINT16 			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</numCustomers>
+	</Properties>
+
+	<TempProperties>
+		<inventoryMgr/>
+	</TempProperties>
+
+	<BaseMethods>
+		<!-- Some base methods inherited from the Merchant interface -->
+	
+		<commerceItemsRequest>
+			<Args>
+				<avatarBase>		MAILBOX	</avatarBase>	<!-- trading partner -->
+			</Args>
+		</commerceItemsRequest>
+	
+		<commerceSellRequest>
+			<Args>
+				<avatarLock>		LOCKHANDLE	</avatarLock>
+				<itemIndex>			ITEMIDX		</itemIndex>
+				<avatarBase>		MAILBOX		</avatarBase>
+			</Args>
+		</commerceSellRequest>
+	
+		<commerceBuyRequest>
+			<Args>
+				<avatarLock>		LOCKHANDLE					</avatarLock>
+				<itemsSerials>		ARRAY <of> ITEMSERIAL </of>	</itemsSerials>
+				<itemsTypes>		ARRAY <of> ITEMTYPE </of>	</itemsTypes>
+				<avatarBase>		MAILBOX						</avatarBase>
+			</Args>
+		</commerceBuyRequest>	
+	</BaseMethods>
+
+	<CellMethods>
+		<commerceStartRequest>
+			<Args>
+				<avatarBase>	MAILBOX		</avatarBase>	<!-- trading partner -->
+			</Args>
+		</commerceStartRequest>
+
+		<commerceCancelRequest>
+		</commerceCancelRequest>
+
+		<sayToAoI>
+			<Args>
+				<msg>		UNICODE_STRING		</msg>
+			</Args>
+		</sayToAoI>
+	</CellMethods>
+
+	<ClientMethods>
+		<chat>
+			<Args>
+				<message>		UNICODE_STRING		</message>
+			</Args>
+		</chat>
+	</ClientMethods>
+</root>
+
+

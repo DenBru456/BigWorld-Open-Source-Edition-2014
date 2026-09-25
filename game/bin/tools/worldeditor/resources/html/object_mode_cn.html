@@ -1,0 +1,106 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body background="we.bmp" style="background-repeat:no-repeat; background-position-x:right; background-position-y:bottom;">
+    <h2>对象模式 <img src="we_toolbar_object_tool_original_size.png"></h2>
+
+    <table class="normal" cellspacing=0>
+      <tbody>
+      <tr><th class="FirstCol">快捷键   </th>
+          <th>                 动作</th></tr>
+
+      <tr><td class="oddRow1stCol"><code>Alt</code>                            </td>
+          <td class="oddRow">            <b>如果选择了至少一个对象：</b>
+                                         <p class="lvl2">
+                                         激活缩放gizmo。<br>
+                                         <p class="lvl2">
+                                         <b>如果鼠标处于被拖拽状态：</b>
+                                         <p class="lvl3">
+                                         取消选择被鼠标拖拽区域覆盖的对象。 </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Ctrl</code>                           </td>
+          <td class="evnRow">            <b>如果选择了至少一个对象：</b>
+                                         <p class="lvl2">
+                                         添加对象。                              </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>Shift</code>                          </td>
+          <td class="oddRow">            <b>如果选择了至少一个对象：</b>
+                                         <p class="lvl2">
+                                         开启旋转gizmo。  </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Delete</code>                            </td>
+          <td class="evnRow">            删除所选择的对象。             </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>Enter</code>                          </td>
+          <td class="oddRow">            放置所选择的对象到鼠标的位置。                         </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Esc</code>                            </td>
+          <td class="evnRow">            取消选择所选择的对象。       </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>B</code>                              </td>
+          <td class="oddRow">            开启/关闭渲染对象的BSP。<br>
+                                         也可以使用<b>选项</b>面板的<b>显示</b>下拉列表的<b>Scenery&rarr;BSP</b>选项。<br>
+                                         <img src="showscenerybsp.png" align=right>
+                                                                               </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>C</code>                              </td>
+          <td class="evnRow">            复制所选择的对象。          </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>R</code>                              </td>
+          <td class="oddRow">            <b>如果当前选择了一个壳体：</b><br>
+                                         <p class="lvl2">
+                                         重新创建所选择的壳体。      </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>G</code>                              </td>
+          <td class="evnRow">            开启/关闭以<b>对象</b>面板的栅格对齐组合框里制定的精度对齐。<br>也可以使用<b>栅格对齐</b>组合框<b>激活</b>复选框。<br>
+                                         <img src="objectgridsnapsenabled.png" align=right>
+                                                                               </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>V</code>                                   </td>
+          <td class="oddRow">            <b>如果当前选择了一个壳体：</b><br>
+                                         <p class="lvl2">
+                                         复制所选择的壳体，并且通过匹配的入口连接两个壳体。<br>
+                                         <b><code>V</code>必须在鼠标中键被按下同时或之前按下。<br>    </td></tr>
+
+      <tr><td class="evnRow1stCol">      点击鼠<br>标左键           </td>
+          <td class="evnRow">            选择对象。                       </td></tr>
+  
+      <tr><td class="oddRow1stCol">      按下鼠标左<br>键并拖拽             </td>
+          <td class="oddRow">            <b>如果选中后直接移动复选框被选择：</b><br>
+                                         <p class="lvl2">
+                                         以鼠标拖拽的方向移动所选择的对象。<br></p>
+                                         <b>如果选中后直接移动复选框未被选择：</b><br>
+                                         <p class="lvl2">
+                                         选择所有在拖拽范围内的对象。<br>
+                                         <img src="dragonselect.png" align=right>
+                                                                               </td></tr>
+
+      <tr><td class="evnRow1stCol">      点击鼠<br>标右键           </td>
+          <td class="evnRow">            <b>如果点击了一个模型、壳体或着粒子：</b><br>
+                                         <p class="lvl2">
+                                         打开对象的右键菜单。        </td></tr>
+  
+      <tr><td class="oddRow1stCol">      点击鼠<br>标中键          </td>
+          <td class="oddRow">            <b>如果当前选择了壳体：</b><br>
+                                         <p class="lvl2">
+                                         通过一个匹配的入口连接两个壳体。           <br>
+                                         <b>如果<code>V</code>键被按下：</b><br>
+                                         <p class="lvl3">
+                                         复制所选择的壳体，并且通过匹配的入口连接两个壳体。<br>
+                                         注意<code>V</code>必须在鼠标中键被按下同时或之前按下。                                </td></tr>
+  
+      <tr><td class="evnRow1stCol">      滚动鼠<br>
+                                         标中键                                </td>
+          <td class="evnRow">            <b>如果<code>Shift</code>键被按下：</b>
+                                         <p class="lvl2">
+                                         旋转所选择的对象15度。<br>
+                                         <b>如果栅格对齐组合框激活复选框被选择：</b>
+                                         <p class="lvl3">
+                                         以<b>角度</b>指定的数值旋转所选择的对象。<br>
+                                         <img src="objectgridsnapsenabledandangle.png" align=right>
+                                                                              </td></tr>
+
+      </tbody>
+      </table>
+   </body>
+</html>

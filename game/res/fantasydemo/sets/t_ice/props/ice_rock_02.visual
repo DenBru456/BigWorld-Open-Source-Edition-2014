@@ -1,0 +1,38 @@
+<ice_rock_02.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	rock	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	0.200000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/t_ice/maps/terrain/ice_rock_01.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-8.874500 -7.307301 -8.416701	</min>
+		<max>	7.600101 15.009302 7.427201	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</ice_rock_02.visual>

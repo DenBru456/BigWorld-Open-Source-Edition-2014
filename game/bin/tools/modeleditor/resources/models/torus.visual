@@ -1,0 +1,48 @@
+<exporter_007_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone04	</identifier>
+			<transform>
+				<row0>	0.998995 0.000000 -0.044827	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.044827 0.000000 0.998995	</row2>
+				<row3>	0.000632 0.000000 0.004277	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone04BlendBoneTorus Knot01	</identifier>
+				<transform>
+					<row0>	0.998995 0.000000 0.044827	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.044827 0.000000 0.998995	</row2>
+					<row3>	-0.000440 -0.000000 -0.004301	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone04BlendBoneTorus Knot01	</node>
+		<geometry>
+			<vertices>	Torus Knot01.vertices	</vertices>
+			<stream>	Torus Knot01.uv2	</stream>
+			<stream>	Torus Knot01.colour	</stream>
+			<primitive>	Torus Knot01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.282974 0.037888 -0.876499	</min>
+		<max>	0.962132 2.414888 0.876471	</max>
+	</boundingBox>
+</exporter_007_temp.visual>

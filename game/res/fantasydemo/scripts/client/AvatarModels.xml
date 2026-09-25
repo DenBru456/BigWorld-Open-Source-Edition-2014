@@ -1,0 +1,108 @@
+<root>
+<!-- format of this file:
+
+First all the skeleton types
+
+Then all the model pieces
+
+Then all the mesh variations for that model piece
+
+Then all the dye options for that mesh
+
+Then any dye variables for that option
+
+-->
+
+	<!--
+	<human_m>
+		<torso>
+			<arrogant>	characters/avatars/torsos/arrogant.model
+			</arrogant>
+			<borrowme>	characters/avatars/torsos/borrowme.model
+			</borrowme>
+			<herc>	characters/avatars/torsos/herc_t.model
+				<Torso>
+					<Mgs/>
+					<Mgs2/>
+				</Torso>
+				<Logo>
+					<Mgs/>
+					<Drakul/>
+				</Logo>
+			</herc>
+			<orc>	characters/avatars/orc/orc_torso.model </orc>
+		</torso>
+		<legs>
+			<arrogant>	characters/avatars/legs/arrogant.model
+			</arrogant>
+			<borrowme>	characters/avatars/legs/borrowme.model
+			</borrowme>
+			<herc>	characters/avatars/legs/m_herc_l.model
+				<Legs>
+					<Mgs/>
+				</Legs>
+			</herc>
+			<thighpad>	characters/avatars/legs/m_l_thighpad.model
+				<Legs>
+					<Green/>
+					<Dlc/>
+				</Legs>
+			</thighpad>
+			<orc>	characters/avatars/orc/orc_legs.model </orc>
+		</legs>
+		<head>
+			<arrogant>	characters/avatars/heads/arrogant.model
+				<LeftFace>
+					<Scar/>
+					<Tattoo/>
+					<Cyber/>
+				</LeftFace>
+				<RightFace>
+					<Scar/>
+					<Tattoo/>
+					<Cyber/>
+				</RightFace>
+				<Eyes>
+					<Cyber/>
+				</Eyes>
+			</arrogant>
+			<orc>	characters/avatars/orc/orc_head.model </orc>
+		</head>
+	</human_m>
+	-->
+	
+	<orc>
+		<all>
+			<only>
+				characters/npc/fd_orc_guard/orc.model
+			</only>
+		</all>
+	</orc>
+	
+	<ranger>
+		<body>
+			<ranger>	characters/avatars/ranger/ranger_body.model	</ranger>
+		</body>
+		<head>
+			<ranger>	characters/avatars/ranger/ranger_head.model	</ranger>
+		</head>
+	</ranger>
+	
+	<barbarian>
+		<body>
+			<ranger>	characters/avatars/ranger/ranger_body.model	</ranger>
+		</body>
+		<head>
+			<ranger>	characters/avatars/ranger/ranger_head.model	</ranger>
+		</head>
+	</barbarian>
+
+	<femaleWarrior>
+		<body>
+			<ranger>	characters/avatars/ranger/ranger_body.model	</ranger>
+		</body>
+		<head>
+			<ranger>	characters/avatars/ranger/ranger_head.model	</ranger>
+		</head>
+	</femaleWarrior>
+</root>

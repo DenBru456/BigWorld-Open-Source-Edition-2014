@@ -1,0 +1,191 @@
+.TH MLTAR 1
+.SH NAME
+mltar, mltar.py - archive / extract log segments from a message logger directory
+
+.SH SYNOPSIS
+.B mltar
+[\fIOPTIONS\fR]
+\fB-c\fR
+\fB\-f\fR \fIFILE\fR
+[\fILOGDIR\fR]
+.br
+.B mltar
+[\fIOPTIONS\fR]
+\fB-x\fR
+\fB\-f\fR \fIFILE\fR
+[\fILOGDIR\fR]
+[\fB\-o\fR \fIOUTDIR\fR]
+
+.SH OPTIONS
+.SS "Generic Program Options"
+.TP
+.B \-\^\-help
+Print a usage message briefly summarizing these command-line options
+and the bug-reporting address, then exit.
+.TP
+.BR \-v ", " \-\^\-verbose
+Enable verbose debugging output.
+.TP
+.BI \-f " FILE"
+The archive file to operate on.
+.SS "Archive Compression Options"
+.TP
+.BR \-z ", " \-\^\-gzip
+Use gzip compression (recommended).
+.TP
+.BR \-j ", " \-\^\-bzip2
+Use \fIbzip2\fR compression. This results in smaller archive files, but can be
+slower to create the archive.
+.SS "Archive Creation Options"
+.TP
+.BR \-a ", " \-\^\-all
+Same as \fB\-\-all\-users\fR, \fB\-\-all\-segments\fR.
+.TP
+.BR \-c
+Create an archive of logs from a 
+.I message_logger
+directory.
+.TP
+.BR \-r ", " \-\^\-remove-files
+Remove files after adding them to the archive.
+.TP
+.BI \-\^\-days-old= N
+Select segments older than this for archiving.
+.TP
+.BI \-\^\-hours-old= N
+Select segments older than this for archiving.
+.TP
+.BI \-\^\-minutes-old= N
+Select segments older than this for archiving.
+.TP
+.BI \-\^\-seconds-old= N
+Select segments older than this for archiving.
+.TP
+.BI \-\^\-all-segments
+Archive all non-active segments.
+.TP
+.BI \-\^\-all-users
+Archive for all users.
+.TP
+.BI \-\^\-active-segment
+Include the active segment if selected. This will cause the logs to be rolled.
+.TP
+.BI \-\^\-auto-roll
+Same as \fB\-avrdc\fR.
+.TP
+.BI \-\^\-force
+Clobber the output archive if it already exists.
+.SS "Archive Extraction Options"
+.TP
+.BR \-x
+Extract an archive of 
+.I message_logger
+logs.
+.TP
+.BI \-o " DIR"
+The output directory to place extracted files into.
+.TP
+.BR \-d ", " \-\^\-default-archive
+Operate on archive specified as \fBdefault_archive\fR in 
+\fImessage_logger.conf\fR.
+
+.SH ARCHIVING
+The contents of the resulting archive are a self-contained log that can be
+accessed with any of the command-line message_logger tools or the Web Console.
+.PP
+Archiving can be done with either gzip or bzip2 compression. Whilst
+.I bzip2
+delivers noticeably better compression ratios, it comes with disproportionately
+longer processing times. We recommend using
+.IR gzip
+unless you have extreme disk space constraints.
+.PP
+Segment selection can be done using the \fB--all-segments\fR,
+\fB--days-old\fR, \fB--hours-old\fR, \fB--minutes-old\fR, or
+\fB--seconds-old\fR options, or if none of those options are passed, an
+interactive menu is displayed where the user can hand pick which segments 
+are archived. \fBNote:\fR Only one time interval option may be used at a time,
+and that the order of precedence of time interval options is:
+.RS
+.PD 0
+.TP
+.B --days-old
+.TP
+.B --hours-old 
+.TP
+.B --minutes-old
+.TP
+.B --seconds-old
+.PD
+.RE
+.PP
+If \fB--move\fR is passed, the per-segment files (i.e. \fIentries.*\fR,
+\fIargs.*\fR) will be moved into the archive. This option is analogous to
+\fB--remove-files\fR.
+.PP
+If \fB--all-users\fR is passed, archiving is done for all users. In this mode,
+interactive segment selection is not supported, so one of
+.BR --all-segments ", " --days-old ", " --hours-old ", " --minutes-old ", or "
+.B --seconds-old
+must be passed.
+.PP
+The \fB--all\fR option is a convenience option that is the same as passing 
+.BR --all-users ", " --all-segments " and " --active-segment "."
+.
+.PP
+Even more convenient is the \fB--auto-roll\fR option, which is equivalent to
+.BR \-avrdzc "."
+
+.SH EXTRACTING
+Since the archive file created by \fBmltar\fR is a \fItar\fR file, it is
+possible to use \fBtar\fR to extract the archive file on any machine. The
+resulting directory structure will be a self-contained log that you can
+operate on with any of the BigWorld MessageLogger tools.
+.SS "Differences from tar"
+The extraction capabilities provided by this utility are a little different to 
+the standard \fBtar\fR extraction; the archive is unpacked into the log
+directory referenced by \fImessage_logger.conf\R, unless the \fB-o\R option is
+specified.
+.B mltar
+will also take care not to overwrite any existing files in the extraction 
+directory. This means that the monolithic files already in the directory
+will be preserved and only the 
+.I entries.* " and " args.*
+files will be extracted.
+.PP
+The extraction process maintains a file called \fIdirty_files\fR in the log's
+root directory, indicating which segment files were extracted. If this tool is
+used to archive the same directory at a later date, any files listed within the
+.I dirty_files
+file will be skipped during the archiving. This behaviour is useful for
+automated log archiving such as daily \fBcron\fR log rotation.
+.SH EXAMPLES
+.LP
+Create an archive of the current logs for emailing or long term storage.
+.RS
+.nf
+\fBmltar -zcf bwsupport.tar.gz --active-segment\fR
+.fi
+.RE
+.LP
+Create an archive of logs only containing a specific user's log entries.
+.RS
+.nf
+\fBmltar -u UID -zcf bwsupport.tar.gz --active-segment\fR
+.fi
+.RE
+.LP
+Extract the log files from archive lastweek.tar.gz to the samplelogs directory.
+.RS
+.nf
+\fBmltar -xf lastweek.tar.gz -o samplelogs\fR
+.fi
+.RE
+.SH "EXIT STATUS"
+.B mltar
+will exit with a return status of 0 if archive creation or extraction succeded
+and will return with 1 if a fatal error was encountered during operations.
+.SH "SEE ALSO"
+.SS "BigWorld Tools"
+message_logger(1)
+.br

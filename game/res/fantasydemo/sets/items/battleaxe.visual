@@ -1,0 +1,88 @@
+<battleaxe.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	axe	</identifier>
+			<transform>
+				<row0>	0.987488 0.143236 -0.065956	</row0>
+				<row1>	-0.157659 0.905247 -0.394552	</row1>
+				<row2>	0.003192 0.400014 0.916503	</row2>
+				<row3>	-0.049364 0.426931 0.360057	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_right_hand	</identifier>
+				<transform>
+					<row0>	-0.081562 -0.057639 -0.995000	</row0>
+					<row1>	0.062674 -0.996647 0.052597	</row1>
+					<row2>	-0.994696 -0.058071 0.084901	</row2>
+					<row3>	-0.003144 -0.000131 0.038711	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_left_hand	</identifier>
+				<transform>
+					<row0>	-0.009278 -0.048154 -0.998797	</row0>
+					<row1>	0.168546 -0.984624 0.045905	</row1>
+					<row2>	-0.985650 -0.167918 0.017252	</row2>
+					<row3>	0.021588 -0.002996 0.031290	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_left_hip	</identifier>
+				<transform>
+					<row0>	-0.597926 0.785347 0.160359	</row0>
+					<row1>	0.057412 0.241508 -0.968699	</row1>
+					<row2>	-0.799493 -0.570004 -0.189492	</row2>
+					<row3>	0.026825 -0.110272 -0.029833	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_right_hip	</identifier>
+				<transform>
+					<row0>	0.658821 0.727288 0.192372	</row0>
+					<row1>	0.002062 0.253965 -0.967211	</row1>
+					<row2>	-0.752297 0.637616 0.165818	</row2>
+					<row3>	-0.021771 -0.118737 -0.029603	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_shoulder	</identifier>
+				<transform>
+					<row0>	0.013991 -0.637984 -0.769923	</row0>
+					<row1>	0.111993 0.766153 -0.632825	</row1>
+					<row2>	0.993611 -0.077371 0.082169	</row2>
+					<row3>	-0.061877 -0.246343 -0.152748	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	shoulder_armour	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/characters/avatars/barbarian/maps/barbarian_armour_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.081128 -0.034392 -0.250151	</min>
+		<max>	0.012503 0.568886 0.621178	</max>
+	</boundingBox>
+</battleaxe.visual>

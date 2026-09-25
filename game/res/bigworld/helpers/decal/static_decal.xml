@@ -1,0 +1,15 @@
+<staticDecal.xml>
+	<staticDecal>
+		<transform>
+			<row0>	4.999998 0.000001 0.001726	</row0>
+			<row1>	-0.001726 0.003490 4.999998	</row1>
+			<row2>	0.000000 -4.999999 0.003490	</row2>
+			<row3>	0.0 0.0 0.0 </row3>
+		</transform>
+		
+		<priority> 0 </priority>
+		<type>	1	</type>
+		<diffTex>	system/maps/decal_default.dds 	</diffTex>
+		<bumpTex>	system/maps/decal_default_normal.dds	</bumpTex>
+	</staticDecal>
+</staticDecal.xml>

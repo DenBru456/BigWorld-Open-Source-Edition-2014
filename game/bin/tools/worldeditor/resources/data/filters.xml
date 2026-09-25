@@ -1,0 +1,170 @@
+<filters.xml>
+		<filter>
+			<!-- This filter is used by the terrain height tool, and should not
+			be removed. In WorldEditorDirector.py, onStart, the functor's filter
+			index is set to zero, which is this filter. It has the included flag
+			set to false to avoid showing it in the terrain filter's page.-->
+			<name>	Terrain Height Tool	</name>
+			<constant>	0.2	</constant>
+			<kernel>	0 0 0	</kernel>
+			<kernel>	0 1 0	</kernel>
+			<kernel>	0 0 0	</kernel>
+			<strengthRatio>	1	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+			<included>	false	</included>
+		</filter>
+		<filter>
+			<name>	Smooth, Slowest	</name>
+			<constant>	0	</constant>
+			<kernel>	1 1 1	</kernel>
+			<kernel>	1 512 1	</kernel>
+			<kernel>	1 1 1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Smooth, Slower	</name>
+			<constant>	0	</constant>
+			<kernel>	1 1 1	</kernel>
+			<kernel>	1 18 1	</kernel>
+			<kernel>	1 1 1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Smooth, Slow	</name>
+			<constant>	0	</constant>
+			<kernel>	1 1 1	</kernel>
+			<kernel>	1 9 1	</kernel>
+			<kernel>	1 1 1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Smooth, Medium (3x3 Box Filter)	</name>
+			<constant>	0	</constant>
+			<kernel>	1 1 1	</kernel>
+			<kernel>	1 1 1	</kernel>
+			<kernel>	1 1 1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Smooth, Fast (5x5 Box Filter)	</name>
+			<constant>	0	</constant>
+			<kernel>	1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Smooth, Faster (7x7 Box Filter)	</name>
+			<constant>	0	</constant>
+			<kernel>	1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Smooth, Fastest (13x13 Box Filter)	</name>
+			<constant>	0	</constant>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<kernel>	1 1 1 1 1 1 1 1 1 1 1 1 1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Sharpen, Slow	</name>
+			<constant>	0	</constant>
+			<kernel>	-1 -1 -1	</kernel>
+			<kernel>	-1 512 -1	</kernel>
+			<kernel>	-1 -1 -1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Sharpen, Medium	</name>
+			<constant>	0	</constant>
+			<kernel>	-1 -1 -1	</kernel>
+			<kernel>	-1 128 -1	</kernel>
+			<kernel>	-1 -1 -1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Sharpen, Fast	</name>
+			<constant>	0	</constant>
+			<kernel>	-1 -1 -1	</kernel>
+			<kernel>	-1  64 -1	</kernel>
+			<kernel>	-1 -1 -1	</kernel>
+			<strengthRatio>	0	</strengthRatio>
+			<kernelSum>	auto	</kernelSum>
+		</filter>
+		<filter>
+			<name>	Low Freq. Noise, Soft	</name>
+			<constant>	0	</constant>
+			<noise>	true	</noise>
+			<noiseSizeX>	4	</noiseSizeX>
+			<noiseSizeY>	4	</noiseSizeY>
+			<strengthRatio>	0.25	</strengthRatio>
+		</filter>
+		<filter>
+			<name>	Low Freq. Noise, Medium	</name>
+			<constant>	0	</constant>
+			<noise>	true	</noise>
+			<noiseSizeX>	4	</noiseSizeX>
+			<noiseSizeY>	4	</noiseSizeY>
+			<strengthRatio>	0.5	</strengthRatio>
+		</filter>
+		<filter>
+			<name>	Low Freq. Noise, Strong	</name>
+			<constant>	0	</constant>
+			<noise>	true	</noise>
+			<noiseSizeX>	4	</noiseSizeX>
+			<noiseSizeY>	4	</noiseSizeY>
+			<strengthRatio>	1.0	</strengthRatio>
+		</filter>
+		<filter>
+			<name>	High Freq. Noise, Soft	</name>
+			<constant>	0	</constant>
+			<noise>	true	</noise>
+			<noiseSizeX>	1	</noiseSizeX>
+			<noiseSizeY>	1	</noiseSizeY>
+			<strengthRatio>	0.15	</strengthRatio>
+		</filter>
+		<filter>
+			<name>	High Freq. Noise, Medium	</name>
+			<constant>	0	</constant>
+			<noise>	true	</noise>
+			<noiseSizeX>	1	</noiseSizeX>
+			<noiseSizeY>	1	</noiseSizeY>
+			<strengthRatio>	0.3	</strengthRatio>
+		</filter>
+		<filter>
+			<name>	High Freq. Noise, Strong	</name>
+			<constant>	0	</constant>
+			<noise>	true	</noise>
+			<noiseSizeX>	1	</noiseSizeX>
+			<noiseSizeY>	1	</noiseSizeY>
+			<strengthRatio>	0.6	</strengthRatio>
+		</filter>
+</filters.xml>

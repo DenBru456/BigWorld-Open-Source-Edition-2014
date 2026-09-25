@@ -1,0 +1,408 @@
+<rocks_campfire.prefab>
+	<chunks>	</chunks>
+	<items>
+		<particles>
+			<resource>	particles/bonfire.xml	</resource>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	87.304810 75.687500 62.802917	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-2.094383 0.913216 2.117706	</row3>
+			</prefabTransform>
+		</particles>
+		<pulseLight>
+			<colour>	255.000000 214.000015 151.000000	</colour>
+			<position>	87.310387 76.738518 62.896423	</position>
+			<innerRadius>	3.272412	</innerRadius>
+			<outerRadius>	5.204683	</outerRadius>
+			<multiplier>	1.000000	</multiplier>
+			<prefabTransform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-2.088806 1.964233 2.211212	</row3>
+			</prefabTransform>
+		</pulseLight>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.645180 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.645180 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.645180	</row2>
+				<row3>	78.240646 73.257813 47.322998	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.645180 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.645180 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.645180	</row2>
+				<row3>	-11.158546 -1.516472 -13.362213	</row3>
+			</prefabTransform>
+		</speedtree>
+		<speedtree>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.705391 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.705391 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.705391	</row2>
+				<row3>	92.538162 71.236053 44.901016	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+			<prefabTransform>
+				<row0>	0.705391 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.705391 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.705391	</row2>
+				<row3>	3.138969 -3.538231 -15.784195	</row3>
+			</prefabTransform>
+		</speedtree>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.645180 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.645180 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.645180	</row2>
+				<row3>	87.055840 72.601563 43.234024	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.645180 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.645180 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.645180	</row2>
+				<row3>	-2.343353 -2.172722 -17.451187	</row3>
+			</prefabTransform>
+		</speedtree>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.645180 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.645180 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.645180	</row2>
+				<row3>	93.562035 74.382813 48.435471	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.645180 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.645180 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.645180	</row2>
+				<row3>	4.162842 -0.391472 -12.249741	</row3>
+			</prefabTransform>
+		</speedtree>
+		<model>
+			<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+			<transform>
+				<row0>	-1.543185 -0.122110 -1.138620	</row0>
+				<row1>	-0.174186 1.913501 0.030867	</row1>
+				<row2>	1.131823 0.127997 -1.547700	</row2>
+				<row3>	89.573654 72.298553 49.358444	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-1.543185 -0.122110 -1.138620	</row0>
+				<row1>	-0.174186 1.913501 0.030867	</row1>
+				<row2>	1.131823 0.127997 -1.547700	</row2>
+				<row3>	0.174461 -2.475731 -11.326767	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+			<transform>
+				<row0>	-0.283987 -0.079524 -2.000194	</row0>
+				<row1>	-1.694910 1.084439 0.197528	</row1>
+				<row2>	1.065071 1.704527 -0.218987	</row2>
+				<row3>	86.664001 71.798553 50.923019	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.283987 -0.079524 -2.000194	</row0>
+				<row1>	-1.694910 1.084439 0.197528	</row1>
+				<row2>	1.065071 1.704527 -0.218987	</row2>
+				<row3>	-2.735191 -2.975731 -9.762192	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/brush.model	</resource>
+			<transform>
+				<row0>	0.754776 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.754776 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.754776	</row2>
+				<row3>	87.331299 75.294098 55.507553	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.754776 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.754776 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.754776	</row2>
+				<row3>	-2.067894 0.519814 -5.177658	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+			<transform>
+				<row0>	0.053966 0.000000 -1.393446	</row0>
+				<row1>	0.000000 1.394490 0.000000	</row1>
+				<row2>	1.393446 0.000000 0.053966	</row2>
+				<row3>	77.335495 74.881790 66.446671	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.053966 0.000000 -1.393446	</row0>
+				<row1>	0.000000 1.394490 0.000000	</row1>
+				<row2>	1.393446 0.000000 0.053966	</row2>
+				<row3>	-12.063698 0.107506 5.761459	</row3>
+			</prefabTransform>
+		</model>
+		<speedtree>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.287303 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.287303 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.287303	</row2>
+				<row3>	77.272987 74.523438 60.685791	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+			<prefabTransform>
+				<row0>	0.287303 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.287303 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.287303	</row2>
+				<row3>	-12.126205 -0.250847 0.000580	</row3>
+			</prefabTransform>
+		</speedtree>
+		<model>
+			<resource>	sets/temperate/props/brush.model	</resource>
+			<transform>
+				<row0>	1.252480 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.252480 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.252480	</row2>
+				<row3>	78.384567 74.968750 63.729279	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	1.252480 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.252480 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.252480	</row2>
+				<row3>	-11.014626 0.194466 3.044067	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/fd_rock_sharp_medium.model	</resource>
+			<transform>
+				<row0>	1.279447 0.000000 1.056713	</row0>
+				<row1>	0.000000 1.659406 0.000000	</row1>
+				<row2>	-1.056713 0.000000 1.279447	</row2>
+				<row3>	79.922218 75.687500 69.656647	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	1.279447 0.000000 1.056713	</row0>
+				<row1>	0.000000 1.659406 0.000000	</row1>
+				<row2>	-1.056713 0.000000 1.279447	</row2>
+				<row3>	-9.476974 0.913216 8.971436	</row3>
+			</prefabTransform>
+		</model>
+		<speedtree>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.507717 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.507717 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.507717	</row2>
+				<row3>	81.969673 75.264153 72.707565	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+			<prefabTransform>
+				<row0>	0.507717 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.507717 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.507717	</row2>
+				<row3>	-7.429520 0.489868 12.022354	</row3>
+			</prefabTransform>
+		</speedtree>
+		<speedtree>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.201342 0.000000 -0.263929	</row0>
+				<row1>	0.000000 0.331959 0.000000	</row1>
+				<row2>	0.263929 0.000000 0.201342	</row2>
+				<row3>	97.526024 75.687500 60.468063	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+			<prefabTransform>
+				<row0>	0.201342 0.000000 -0.263929	</row0>
+				<row1>	0.000000 0.331959 0.000000	</row1>
+				<row2>	0.263929 0.000000 0.201342	</row2>
+				<row3>	8.126831 0.913216 -0.217148	</row3>
+			</prefabTransform>
+		</speedtree>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.280431 0.000000 -0.142520	</row0>
+				<row1>	0.000000 0.314569 0.000000	</row1>
+				<row2>	0.142520 0.000000 0.280431	</row2>
+				<row3>	99.098717 75.687500 61.127411	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.280431 0.000000 -0.142520	</row0>
+				<row1>	0.000000 0.314569 0.000000	</row1>
+				<row2>	0.142520 0.000000 0.280431	</row2>
+				<row3>	9.699524 0.913216 0.442200	</row3>
+			</prefabTransform>
+		</speedtree>
+		<model>
+			<resource>	sets/temperate/props/fd_rock_sharp_high.model	</resource>
+			<transform>
+				<row0>	-0.326669 0.000000 -0.876787	</row0>
+				<row1>	0.000000 0.935665 0.000000	</row1>
+				<row2>	0.876787 0.000000 -0.326669	</row2>
+				<row3>	97.887054 75.687500 64.209396	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.326669 0.000000 -0.876787	</row0>
+				<row1>	0.000000 0.935665 0.000000	</row1>
+				<row2>	0.876787 0.000000 -0.326669	</row2>
+				<row3>	8.487862 0.913216 3.524185	</row3>
+			</prefabTransform>
+		</model>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.314569 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.314569 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.314569	</row2>
+				<row3>	0.680817 75.687500 64.520935	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.314569 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.314569 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.314569	</row2>
+				<row3>	11.281624 0.913216 3.835724	</row3>
+			</prefabTransform>
+		</speedtree>
+		<model>
+			<resource>	sets/temperate/props/brush.model	</resource>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	90.975082 75.687500 63.885895	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	1.575890 0.913216 3.200684	</row3>
+			</prefabTransform>
+		</model>
+		<speedtree>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.201342 0.000000 -0.263929	</row0>
+				<row1>	0.000000 0.331959 0.000000	</row1>
+				<row2>	0.263929 0.000000 0.201342	</row2>
+				<row3>	97.885315 75.687500 69.699493	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+			<prefabTransform>
+				<row0>	0.201342 0.000000 -0.263929	</row0>
+				<row1>	0.000000 0.331959 0.000000	</row1>
+				<row2>	0.263929 0.000000 0.201342	</row2>
+				<row3>	8.486122 0.913216 9.014282	</row3>
+			</prefabTransform>
+		</speedtree>
+		<model>
+			<resource>	sets/temperate/props/fd_s_rock_smooth_large.model	</resource>
+			<transform>
+				<row0>	0.540408 0.000000 -1.067976	</row0>
+				<row1>	0.000000 1.196918 0.000000	</row1>
+				<row2>	1.067976 0.000000 0.540408	</row2>
+				<row3>	96.313011 75.687500 68.817108	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.540408 0.000000 -1.067976	</row0>
+				<row1>	0.000000 1.196918 0.000000	</row1>
+				<row2>	1.067976 0.000000 0.540408	</row2>
+				<row3>	6.913818 0.913216 8.131897	</row3>
+			</prefabTransform>
+		</model>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.201485 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.201485 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.201485	</row2>
+				<row3>	97.103027 75.687500 72.841248	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.201485 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.201485 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.201485	</row2>
+				<row3>	7.703835 0.913216 12.156036	</row3>
+			</prefabTransform>
+		</speedtree>
+		<speedtree>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	0.331959 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.331959 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.331959	</row2>
+				<row3>	94.246559 75.687500 71.582184	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<spt>	speedtree/shrubs_flowers/american_boxwood/AmericanBoxwood_RT.spt	</spt>
+			<prefabTransform>
+				<row0>	0.331959 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.331959 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.331959	</row2>
+				<row3>	4.847366 0.913216 10.896973	</row3>
+			</prefabTransform>
+		</speedtree>
+	</items>
+	<boundingBox>
+		<min>	-17.396759 -8.531845 -21.922150	</min>
+		<max>	12.580017 9.681068 16.099854	</max>
+	</boundingBox>
+	<snaps>
+		<position>	0.000000 0.000000 0.000000	</position>
+		<angle>	0.000000	</angle>
+	</snaps>
+</rocks_campfire.prefab>

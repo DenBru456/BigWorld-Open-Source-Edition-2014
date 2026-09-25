@@ -1,0 +1,341 @@
+<grave_gargoyle.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.500000 0.000000 -1.448241	</min>
+		<max>	1.500000 4.696841 1.485817	</max>
+	</visibilityBox>
+	<extent>	160.000000	</extent>
+	<nodelessVisual>	sets/town/props/grave_gargoyle/model/grave_gargoyle	</nodelessVisual>
+	<dye>
+		<matter>	grave_gargoyle_cracks	</matter>
+		<replaces>	grave_gargoyle_cracks	</replaces>
+		<tint>
+			<name>	UV_scrolling_cracks	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/town/props/grave_gargoyle/maps/grave_gargoyle_cracks.tga	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	system/maps/fx_arc.bmp	</Texture>
+				</property>
+				<property>	vTransform
+					<Vector4>	1.000000 1.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 1.000000 1.000000	</Vector4>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	UV_scrolling2	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/town/props/grave_gargoyle/maps/grave_gargoyle_additive.bmp	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	sets/dungeon/maps/fx/torch/fire_25fps.texanim	</Texture>
+				</property>
+				<property>	vTransform
+					<Vector4>	1.000000 2.000000 0.100000 0.260000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	2.000000 0.590000 0.100000 0.450000	</Vector4>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	UV_scrolling3	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/gargoyle/maps/grave_gargoyle_d.bmp	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	system/maps/fx_arc.bmp	</Texture>
+				</property>
+				<property>	vTransform
+					<Vector4>	1.000000 1.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 1.000000 1.000000	</Vector4>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	Blue_highlights	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_normal.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	textureOperation
+					<Int>	7	</Int>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/town/props/grave_gargoyle/maps/grave_gargoyle_cracks.tga	</Texture>
+				</property>
+				<property>	vTransform
+					<Vector4>	1.000000 1.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	system/maps/fx_arc.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	Chrome	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	helpers/maps/system/col_white.bmp	</Texture>
+				</property>
+				<property>	textureOperation
+					<Int>	6	</Int>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	vTransform
+					<Vector4>	1.000000 1.000000 0.500000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.000000 0.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	sets/minspec/shells/dungeon/dungeon_chambers/dungeon_chamber_reflection.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/gargoyle/maps/grave_gargoyle_d.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	Additive	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/gargoyle/maps/grave_gargoyle_d.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	All_Fire	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/dungeon/maps/fx/torch/fire_25fps.texanim	</Texture>
+				</property>
+				<property>	otherMap
+					<Texture>	sets/dungeon/maps/fx/torch/fire_25fps.texanim	</Texture>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.000000 2.000000 0.000000 0.000000	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	2.000000 1.000000 0.000000 0.000000	</Vector4>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	Alpha	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/town/props/grave_gargoyle/maps/grave_gargoyle_cracks.tga	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	Glow	</name>
+			<material>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	glowFactor
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/town/props/grave_gargoyle/maps/grave_gargoyle_glow.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/gargoyle/maps/grave_gargoyle_d.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+		<tint>
+			<name>	Thin_Film	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/town/props/grave_gargoyle/maps/grave_gargoyle_additive.bmp	</Texture>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	specularMap
+					<Texture>	characters/npc/fish/fish_spec.bmp	</Texture>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/shared/props/gargoyle/maps/grave_gargoyle_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/gargoyle/maps/grave_gargoyle_d.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	materialSpecular
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	reflectionAmount
+					<Float>	0.460000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.228000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	3.160000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1283221175	</modified_on>
+	</metaData>
+</grave_gargoyle.model>

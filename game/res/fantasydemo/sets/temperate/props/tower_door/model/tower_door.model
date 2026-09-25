@@ -1,0 +1,110 @@
+<tower_door.model>
+	<action>
+		<name>	DoorClosed	</name>
+		<animation>	tower_doorclosed	</animation>
+		<filler>	true	</filler>
+		<blendInTime>	0.000000	</blendInTime>
+		<blendOutTime>	0.000000	</blendOutTime>
+	</action>
+	<action>
+		<name>	DoorClosingInward	</name>
+		<animation>	tower_doorclosinginward	</animation>
+		<blendInTime>	0.000000	</blendInTime>
+		<blendOutTime>	0.000000	</blendOutTime>
+	</action>
+	<action>
+		<name>	DoorClosingOutward	</name>
+		<animation>	tower_doorclosingoutward	</animation>
+		<blendInTime>	0.000000	</blendInTime>
+		<blendOutTime>	0.000000	</blendOutTime>
+	</action>
+	<action>
+		<name>	DoorOpenInward	</name>
+		<animation>	tower_dooropeninward	</animation>
+		<filler>	true	</filler>
+		<track>	0	</track>
+		<blendInTime>	0.000000	</blendInTime>
+		<blendOutTime>	0.000000	</blendOutTime>
+	</action>
+	<action>
+		<name>	DoorOpenOutward	</name>
+		<animation>	tower_dooropenoutward	</animation>
+		<filler>	true	</filler>
+		<track>	0	</track>
+		<blendInTime>	0.000000	</blendInTime>
+		<blendOutTime>	0.000000	</blendOutTime>
+	</action>
+	<action>
+		<name>	DoorOpeningOutward	</name>
+		<animation>	tower_dooropeningoutward	</animation>
+		<filler>	true	</filler>
+		<track>	0	</track>
+		<blendInTime>	0.000000	</blendInTime>
+		<blendOutTime>	0.000000	</blendOutTime>
+	</action>
+	<action>
+		<name>	DoorOpeningInward	</name>
+		<animation>	tower_dooropeninginward	</animation>
+		<filler>	false	</filler>
+		<blendInTime>	0.000000	</blendInTime>
+		<blendOutTime>	0.000000	</blendOutTime>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.120155 0.000000 -1.911664	</min>
+		<max>	2.014090 3.774433 2.131771	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<created_by>	AdamM	</created_by>
+		<created_on>	1280716092	</created_on>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281508299	</modified_on>
+	</metaData>
+	<animation>
+		<name>	tower_dooropeninginward	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/temperate/props/tower_door/model/tower_dooropeninginward	</nodes>
+	</animation>
+	<animation>
+		<name>	tower_dooropeningoutward	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/temperate/props/tower_door/model/tower_dooropeningoutward	</nodes>
+	</animation>
+	<animation>
+		<name>	tower_dooropenoutward	</name>
+		<frameRate>	12.000000	</frameRate>
+		<nodes>	sets/temperate/props/tower_door/model/tower_dooropeningoutward	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	45	</lastFrame>
+	</animation>
+	<animation>
+		<name>	tower_dooropeninward	</name>
+		<frameRate>	13.000000	</frameRate>
+		<nodes>	sets/temperate/props/tower_door/model/tower_dooropeninginward	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	45	</lastFrame>
+	</animation>
+	<nodefullVisual>	sets/temperate/props/tower_door/model/tower_door	</nodefullVisual>
+	<animation>
+		<name>	tower_doorclosed	</name>
+		<frameRate>	5.000000	</frameRate>
+		<nodes>	sets/temperate/props/tower_door/model/tower_dooropeninginward	</nodes>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+	</animation>
+	<animation>
+		<name>	tower_doorclosinginward	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/temperate/props/tower_door/model/tower_dooropeninginward	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+	</animation>
+	<animation>
+		<name>	tower_doorclosingoutward	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/temperate/props/tower_door/model/tower_dooropeningoutward	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+	</animation>
+</tower_door.model>

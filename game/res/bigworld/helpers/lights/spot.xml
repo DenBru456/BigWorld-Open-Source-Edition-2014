@@ -1,0 +1,13 @@
+<spot.xml>
+	<spotLight>
+		<colour>	255.000000 255.000000 255.000000	</colour>
+		<position>	0.0 0.0 0.0	</position>
+		<direction>	0.000000 0.000000 1.000000	</direction>
+		<innerRadius>	15.000000	</innerRadius>
+		<outerRadius>	20.000000	</outerRadius>
+		<cosConeAngle>	0.894934	</cosConeAngle>
+		<static>	true	</static>
+		<dynamic>	true	</dynamic>
+		<specular>	false	</specular>
+	</spotLight>
+</spot.xml>

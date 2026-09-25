@@ -1,0 +1,46 @@
+<root>&quot;PyGUI.ButtonVisualState&quot;
+	<normal>
+		<textStyle>	MainMenuButtonNormal	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_white.dds	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+		<frame>
+			<textureName>	gui/maps/main_menu_button_frame.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</frame>
+	</normal>	
+	<hover>
+		<textStyle>	MainMenuButtonHover	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_white.dds	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+		<frame>
+			<textureName>	gui/maps/main_menu_button_frame.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</frame>
+	</hover>
+	<pressed>
+		<textStyle>	MainMenuButtonPressed	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_red.dds	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+		<frame>
+			<textureName>	gui/maps/main_menu_button_frame_pressed.tga	</textureName>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</frame>
+	</pressed>
+	<disabled>
+		<textStyle>	MainMenuButtonDisabled	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_red.dds	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+		<frame>
+			<textureName>	gui/maps/main_menu_button_frame.tga	</textureName>
+			<colour>	180.000000 180.000000 180.000000 255.000000	</colour>
+		</frame>
+	</disabled>
+</root>

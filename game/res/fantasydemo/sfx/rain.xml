@@ -1,0 +1,17 @@
+<SFXFile>
+
+	<Actor> cameraParticles
+		<ParticleSystem>	particles/camera_rain.xml	</ParticleSystem>
+	</Actor>
+	
+	<Joint>	cameraParticles
+		<Camera/>
+	</Joint>
+
+	<Event> cameraParticles
+		<RampTimeTriggeredParticles>
+			<fadeTime>	1.0	</fadeTime>
+		</RampTimeTriggeredParticles>
+	</Event>
+
+</SFXFile>

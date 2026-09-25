@@ -1,0 +1,1875 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+
+  <zh_cn>
+    <LanguageName>简体中文</LanguageName>
+    <EnglishLanguageName>Simplified Chinese</EnglishLanguageName>
+		<PARTICLE>
+			<CHUNK_PARTICLES>
+				<FAILED_LOAD>无法加载粒子系统</FAILED_LOAD>
+			</CHUNK_PARTICLES>			
+		</PARTICLE>
+
+    <HELP>
+      <CONTENT_TOOLS_GUIDE_PATH>
+        http://docs.bigworldtech.com/%0/%1/html/content_tools_reference_guide/content_tools_reference_guide.html
+      </CONTENT_TOOLS_GUIDE_PATH>
+      <CONTENT_CREATION_GUIDE_PATH>
+        http://docs.bigworldtech.com/%0/%1/chunked/ccm/content_creation_cn/index.html
+      </CONTENT_CREATION_GUIDE_PATH>
+    </HELP>
+    <GUITABS>
+			<CONTENT_CONTAINER>
+				<NO_CONTENT>&lt;无当前内容&gt;</NO_CONTENT>
+			</CONTENT_CONTAINER>
+			
+			<DRAG_MANAGER>
+				<MANY_TABS>&lt;一些标签&gt;</MANY_TABS>		 
+			</DRAG_MANAGER>
+			
+			<PANEL>
+				<NO_TAB_SELECTED>&lt;没有选定的标签&gt;</NO_TAB_SELECTED>
+			</PANEL>
+			
+			<TAB>
+				<NO_CONTENT>&lt;无内容&gt;</NO_CONTENT>
+			</TAB>
+		</GUITABS>
+		
+		<GUIMANAGER>
+			<GUI_TOOLBAR>
+				<TOOLTIP_FORM0>%0 ( %1 , %2循环 )</TOOLTIP_FORM0>	<!--Tooltip ( hotkey cycle_hotkey )-->
+				<TOOLTIP_FORM1>%0 ( %1 )</TOOLTIP_FORM1>							<!--Tooltip ( hotkey )             -->
+				<TOOLTIP_FORM2>%0 ( %1循环 )</TOOLTIP_FORM2>			  <!--Tooltip ( cycle_hotkey )       -->
+			</GUI_TOOLBAR>		
+		</GUIMANAGER>
+
+    
+    <GIZMO>
+      <PROPERTIES>
+        <FORMATTER>
+          <CM>%0cm</CM>
+          <M>%0m</M>
+          <KM>%0km</KM>
+          <DEGREES>%0deg.</DEGREES>
+        </FORMATTER>
+      </PROPERTIES>
+      <METADATA>
+        <MODIFY_META_DATA>修改元数据</MODIFY_META_DATA>
+        <MODIFY_COMMENT>修改注释</MODIFY_COMMENT>
+      </METADATA>
+      <UNDO>
+        <PROPERTY_SCALER>缩放</PROPERTY_SCALER>
+        <DYNAMIC_FLOAT_DEVICE>缩放</DYNAMIC_FLOAT_DEVICE>
+        <MATRIX_MOVER>移动组</MATRIX_MOVER>
+        <MATRIX_ROTATOR>旋转</MATRIX_ROTATOR>
+        <WHEEL_ROTATOR>旋转</WHEEL_ROTATOR>
+		<MOVE_PROPERTY>移动</MOVE_PROPERTY>
+        <TERRAIN_HEIGHT_FILTER>改变地形高度</TERRAIN_HEIGHT_FILTER>
+        <TERRAIN_HOLE>改变镂空地形</TERRAIN_HOLE>
+        <TERRAIN_SET_HEIGHT>改变地形高度</TERRAIN_SET_HEIGHT>
+        <TERRAIN_TEXTURE>绘制地形贴图</TERRAIN_TEXTURE>
+        <CHANGE_TOOL_MODE>切换工具模式</CHANGE_TOOL_MODE>
+      </UNDO>
+   </GIZMO>
+     <POST_PROCESSING>
+		<EDIT_PHASE>	设置阶段属性 '%0'	</EDIT_PHASE>
+    </POST_PROCESSING>
+  
+		<CONTROLS>
+			<EDIT_NUMERIC>
+				<CANNOT_PASTE_TEXT>粘贴产生的值不是有效的数值。&#10;&#10;如果你想覆盖一个数字类型的值，请确保整个编辑框是空的或者当前的值被完整地选取</CANNOT_PASTE_TEXT>
+				<CANNOT_PASTE_TITLE>粘贴失败</CANNOT_PASTE_TITLE>
+				<VALUE_TOO_SMALL>警告: 输入的数值太小，将自动替换成 %0。 继续吗?</VALUE_TOO_SMALL>
+				<VALUE_TOO_SMALL_TITLE>数值太小</VALUE_TOO_SMALL_TITLE>
+				<VALUE_TOO_BIG>警告: 输入的数值太大，将自动替换成 %0。 继续吗?</VALUE_TOO_BIG>
+				<VALUE_TOO_BIG_TITLE>数值太大</VALUE_TOO_BIG_TITLE>
+			</EDIT_NUMERIC>
+			
+			<RESOURCE_FILE_DIALOG>
+				<MUST_BE_IN_RESOURCE_DIR>文件必须存在于其中一个资源文件夹中&#10;</MUST_BE_IN_RESOURCE_DIR>
+				<OR>or&#10;</OR>
+			</RESOURCE_FILE_DIALOG>
+		</CONTROLS>
+		
+		<PHYSICS>
+			<MATERIAL_KINDS>
+				<INVALID_MATERIAL_KIND>无效材质种类</INVALID_MATERIAL_KIND>		 
+			</MATERIAL_KINDS>		
+		</PHYSICS>
+		
+		<UAL>
+			<SMART_LIST_CTRL>
+				<MORE>更多 ...</MORE>		 
+			</SMART_LIST_CTRL>
+			
+			<UAL_DIALOG>
+				<DEFAULT_SEARCH_IDLE_TEXT>资源名称</DEFAULT_SEARCH_IDLE_TEXT>
+				<SHORT_CAPTION>资源</SHORT_CAPTION>
+				<LONG_CAPTION>资源浏览器</LONG_CAPTION>
+				<TOOLTIP_SEARCH>输入搜索关键字</TOOLTIP_SEARCH>
+				<TOOLTIP_SEARCH_FILTERS>点击显示/隐藏搜索过滤器</TOOLTIP_SEARCH_FILTERS>
+				<CLEAR_HISTORY_TEXT>您确定想要清除整个使用记录吗?</CLEAR_HISTORY_TEXT>
+				<CLEAR_HISTORY_TITLE>清除使用记录</CLEAR_HISTORY_TITLE>
+				<CLEAR_FAVOURITES_TEXT>您确定想要清除收藏的目录吗?</CLEAR_FAVOURITES_TEXT>
+				<CLEAR_FAVOURITES_TITLE>清除收藏的目录</CLEAR_FAVOURITES_TITLE>
+				<LIST_VIEW_STYLES>目录式样</LIST_VIEW_STYLES>
+				<OPEN_MODEL>打开模型</OPEN_MODEL>
+				<ADD_MODEL>添加模型</ADD_MODEL>
+				<USE_LIGHTING_SETUP>使用光照设定</USE_LIGHTING_SETUP>
+				<LIST>列表</LIST>
+				<SMALL_ICONS>小图标</SMALL_ICONS>
+				<BIG_ICONS>大图标</BIG_ICONS>
+				<REMOVE_FROM_FAVOURITES>从收藏夹中删除</REMOVE_FROM_FAVOURITES>
+				<REMOVE_FROM_HISTORY>从历史记录中删除</REMOVE_FROM_HISTORY>
+				<ADD_TO_FAVOURITES>添加到收藏夹</ADD_TO_FAVOURITES>
+				<OPEN_FOLDER_IN_EXPLORER>在资源管理器中打开文件夹</OPEN_FOLDER_IN_EXPLORER>
+				<COPY_PATH_TO_CLIPBOARD>将路径复制到剪贴板</COPY_PATH_TO_CLIPBOARD>
+				<OPEN_X_IN_EXPLORER>在资源管理器中打开 &apos;%0&apos; </OPEN_X_IN_EXPLORER>
+				<COPY_X_TO_CLIPBOARD>复制 &apos;%0&apos; 到剪贴板</COPY_X_TO_CLIPBOARD>
+				<CHANGE_PANEL_TITLE>改变这个面板的名称...</CHANGE_PANEL_TITLE>
+				<RELOAD_DEFAULT_FOLDERS>重载默认的文件夹 ...</RELOAD_DEFAULT_FOLDERS>
+				<REMOVE_X>删除 &apos;%0&apos;</REMOVE_X>
+				<CLEAR_CONTENTS>清空内容 ...</CLEAR_CONTENTS>
+				<RELOAD_TEXT>您确定想要为了这个对话重载默认的文件夹吗?</RELOAD_TEXT>
+				<RELOAD_TITLE>重载默认文件夹</RELOAD_TITLE>
+				<SELECTED_ITEMS>%0/%1 </SELECTED_ITEMS>
+				<MANY_ITEMS> : (选定的项目)</MANY_ITEMS>
+				<MULTI_DELETE_TEXT>选定了多个项目。&#10;您确定想要删除所有选定的项目吗？</MULTI_DELETE_TEXT>
+				<MULTI_DELETE_TITLE>删除多个项目</MULTI_DELETE_TITLE>
+				<NL_PATH>&#10;路径: </NL_PATH>
+				<FRESH_ITEM_LIST>刷新项目列表</FRESH_ITEM_LIST>
+				<TREE_LAYOUT>垂直/水平布局</TREE_LAYOUT>
+			</UAL_DIALOG>
+			
+			<UAL_NAME_DLG>
+				<TYPE_BOTH_TEXT>请输入长标题和短标题.</TYPE_BOTH_TEXT>
+				<TYPE_BOTH_TITLE>修改资源浏览器标题错误</TYPE_BOTH_TITLE>
+			</UAL_NAME_DLG>
+			
+			<VFOLDER_FILE_PROVIDER>
+				<DESCRIPTION>%0 (%1 项目)</DESCRIPTION>
+				<DESCRIPTION_LOADING>%0 (%1 项目正在加载...)</DESCRIPTION_LOADING>
+			</VFOLDER_FILE_PROVIDER>
+			
+			<VFOLDER_MULTI_PROVIDER>
+				<DESCRIPTION>%0 (%1 项目)</DESCRIPTION>
+				<DESCRIPTION_LOADING>%0 (%1 项目正在加载...)</DESCRIPTION_LOADING>					 
+			</VFOLDER_MULTI_PROVIDER>
+			
+			<VFOLDER_XML_PROVIDER>
+				<NUM_ITEMS>%0 (%1 项目)</NUM_ITEMS>		 
+			</VFOLDER_XML_PROVIDER>
+		</UAL>
+		<SCENEBROWSER>
+			<SHORT_NAME> 场景浏览器 </SHORT_NAME>
+			<LONG_NAME> 场景浏览器 </LONG_NAME>
+			<NUM_ITEMS> (%0 个物件) </NUM_ITEMS>
+			
+			<HIDE_COLUMNS> 隐藏所有栏目 </HIDE_COLUMNS>
+			<SHOW_COLUMNS> 显示所有栏目 </SHOW_COLUMNS>
+			
+			<LOAD_PRESET> 加载已保存的栏目布局 </LOAD_PRESET>
+			<SAVE_PRESET> 保存当前的栏目布局 </SAVE_PRESET>
+			<RENAME_PRESET> 为栏目布局替换名字 </RENAME_PRESET>
+			<DELETE_PRESET> 删除已保存的栏目布局 </DELETE_PRESET>
+			<NEW_PRESET> 保存新的栏目为... </NEW_PRESET>
+			<RESET_COLUMNS> 重设为默认的栏目布局 </RESET_COLUMNS>
+			<PRESETS_CAPTION> 场景浏览器栏目布局 </PRESETS_CAPTION>
+			<NEW_PRESET_EDIT> 为新的栏目布局命名：</NEW_PRESET_EDIT>
+			<RENAME_PRESET_EDIT> 输入新的栏目布局名称： </RENAME_PRESET_EDIT>
+			<EMPTY_PRESET_MSG> 栏目布局的名称不可为空；请输入有效的名字 </EMPTY_PRESET_MSG>
+			<REPLACE_PRESET_MSG> 你要用当前的栏目布局来替换这个布局吗？ </REPLACE_PRESET_MSG>
+			<DELETE_PRESET_MSG> 你确定要删除这个栏目布局吗？ </DELETE_PRESET_MSG>
+			<RESET_COLUMNS_MSG> 您确定要重设成默认的栏目布局吗？ </RESET_COLUMNS_MSG>
+			
+			<CLOSE_COLUMNS_MENU> 关闭 </CLOSE_COLUMNS_MENU>
+			
+			<ZOOM_TO> 缩放 </ZOOM_TO>
+			<COLLAPSE_ALL> 层叠所有组合 </COLLAPSE_ALL>
+			<EXPAND_ALL> 扩展所有组合 </EXPAND_ALL>
+			<ITEM_PROPS> 属性。。。 </ITEM_PROPS>
+			
+			<SEARCH_TIP> 输入搜索关键字 </SEARCH_TIP>
+			<SEARCH_FILTERS> 更多的搜索选项请按这 </SEARCH_FILTERS>
+			
+			<NO_GROUP_BY> &lt;单一的列表&gt; </NO_GROUP_BY>
+			
+			<STATUS_NO_SELECT> %0 个物件已加载， %1 三角形, %2 图元组合 </STATUS_NO_SELECT>
+			<STATUS_SELECT> 选中 %0/%1 个已加载的物件，%2/%3 三角形, %4/%5 图元组合 </STATUS_SELECT>
+			<STATUS_NO_SELECT_SEARCH> 找到 %0 个物件，%1 三角形, %2 图元组合 </STATUS_NO_SELECT_SEARCH>
+			<STATUS_SELECT_SEARCH> 选中 %0/%1 个已发现的物件, %2/%3 三角形, %4/%5 图元组合 </STATUS_SELECT_SEARCH>
+			
+			<BOOL_COLUMN_BARRIER> 为选中的物件设定 boolean 值 %0 </BOOL_COLUMN_BARRIER>
+			
+			<FILTER_VISIBLE> 搜索可见的属性 </FILTER_VISIBLE>
+			<FILTER_ALL> 搜索所有的属性 </FILTER_ALL>
+			<FILTER_ASSETNAME> 通过资源名称搜索 </FILTER_ASSETNAME>
+			<FILTER_ASSETTYPE> 通过资源类型搜索 </FILTER_ASSETTYPE>
+			<FILTER_CHUNK> 通过分块搜索 </FILTER_CHUNK>
+			<FILTER_PATH> 通过路径搜索 </FILTER_PATH>
+			
+			<COLUMNS>
+				<ASSET_NAME> 资源名称 </ASSET_NAME>
+				<CHUNK> 分块 </CHUNK>
+				<ASSET_TYPE> 资源属性 </ASSET_TYPE>
+				<HIDDEN> 隐藏 </HIDDEN>
+				<FROZEN> 冻结 </FROZEN>
+				<PATH> 路径 </PATH>
+				<SHADOWS> 阴影 </SHADOWS>
+				<REFLECTION> 倒影 </REFLECTION>
+				<TRIS> 三角形 </TRIS>
+				<PRIMS> 图元 </PRIMS>
+			</COLUMNS>
+		</SCENEBROWSER>
+
+    <RESMGR>
+      <CHANGING_LANGUAGE>所做的语言设置需要重启程序后才有效。现在就重启吗？</CHANGING_LANGUAGE>
+      <CHANGING_LANGUAGE_TITLE>改变语言</CHANGING_LANGUAGE_TITLE>
+      <SAVE_AND_RESTART>保存修改(&amp;S)</SAVE_AND_RESTART> 
+      <DISCARD_AND_RESTART>不保存修改直接重启</DISCARD_AND_RESTART>
+      <RESTART_NOW>立即重启(&amp;N)</RESTART_NOW>
+      <RESTART_LATER>稍后重启(&amp;L)</RESTART_LATER>
+      <CANCEL>取消(&amp;C)</CANCEL> 
+    </RESMGR>
+
+    <COMMON>
+	  <BASE_MAINFRAME>
+	    <CREATETOOLBARS>创建程序工具条失败&#10;</CREATETOOLBARS>
+	  </BASE_MAINFRAME>
+	  
+      <DIRECTORY_CHECK>
+        <DIR_CHECK> 您现在运行%0 来自:&#10;&#9;\%1\&#10;这不是一个正确的文件夹 %2。 请直接运行可执行的。</DIR_CHECK>
+      </DIRECTORY_CHECK>
+
+      <EDITOR_VIEWS>
+        <X_NAME>.x</X_NAME>
+        <Y_NAME>.y</Y_NAME>
+        <Z_NAME>.z</Z_NAME>
+        <NORMAL_NAME>法线向量</NORMAL_NAME>
+        <D_NAME>d</D_NAME>
+        <UAXIS_NAME>u轴</UAXIS_NAME>
+        <LOCAL_CENTRE_NAME>局部坐标系中心位置</LOCAL_CENTRE_NAME>
+        <POINTS_NAME>points</POINTS_NAME>
+        <POINT_NAME>point</POINT_NAME>
+        <EXTERN>外部的</EXTERN>
+        <OTHER_CHUNK>其他分块</OTHER_CHUNK>        
+        <X>x</X>
+        <Y>y</Y>
+        <Z>z</Z>
+        <W>w</W>
+        <PITCH>%0.x（pitch）</PITCH>
+        <YAW>%0.y（yaw）</YAW>
+        <ROLL>%0.z（roll）</ROLL>
+        <RED>红色</RED>
+        <RED_END>- 红色</RED_END>
+        <GREEN>绿色</GREEN>
+        <GREEN_END>- 绿色</GREEN_END>
+        <BLUE>蓝色</BLUE>
+        <BLUE_END>- 蓝色</BLUE_END>
+        <ALPHA>透明度</ALPHA>
+        <ALPHA_END>- 透明度</ALPHA_END>
+        <CHOICEVIEW_ELECT>把%0的默认值设置为%1&#10;</CHOICEVIEW_ELECT>
+  	<OBJECT_SELECTED>选中了%0个物件 ...</OBJECT_SELECTED>
+     </EDITOR_VIEWS>
+
+      <MOUSE_LOOK_CAMERA>
+        <OUTPUT>鼠标跟随相机&#10;</OUTPUT>
+      </MOUSE_LOOK_CAMERA>
+
+      <ORTHOGRAPHIC_CAMERA>
+        <OUTPUT>正位相机&#10;</OUTPUT>
+      </ORTHOGRAPHIC_CAMERA>
+
+      <ORBIT_CAMERA>
+        <OUTPUT>环绕相机&#10;</OUTPUT>
+      </ORBIT_CAMERA>
+
+      <PAGE_MESSAGES>
+        <INSTANCE>%0 (%1 instance%2)</INSTANCE>
+        <DATE>日期</DATE>
+        <TIME>时间</TIME>
+        <PRIORITY>优先级</PRIORITY>
+        <MESSAGE>消息</MESSAGE>
+        <PLURAL>s</PLURAL>
+      </PAGE_MESSAGES>
+
+      <PAGE_GRAPHICS_SETTINGS>
+        <SHORT_NAME>设置</SHORT_NAME>
+        <LONG_NAME>图像设置</LONG_NAME>
+        <NEED_RESTART>重启程序后设置才会生效。</NEED_RESTART>
+      </PAGE_GRAPHICS_SETTINGS>
+      
+      <PROPERTY_LIST>
+        <EXPOSE_PYTHON>点击右健可以把属性导出到Python。</EXPOSE_PYTHON>
+        <PYTHON_EXPOSED>这个属性当前于Python中显示为 &quot;%0&quot;。</PYTHON_EXPOSED>
+        <ASSIGN_FEED>通过点击右键这个贴图可以被另一个贴图源赋值。</ASSIGN_FEED>
+        <FEED_ASSIGNED>本贴图正在使用的贴图源名称是&quot;%0&quot; 。</FEED_ASSIGNED>
+        <PYTHON_OFF>PythonOff;导出到Python</PYTHON_OFF>
+        <PYTHON_ON>PythonOn;取消向Python导出</PYTHON_ON>
+        <FEED_OFF>FeedOff;激活贴图源...</FEED_OFF>
+        <FEED_ON>FeedOn;修改贴图源名称...;-;删除贴图源</FEED_ON>
+        <FILE_IN_FOLDERS_ONLY>只能选择资源文件夹里的文件。</FILE_IN_FOLDERS_ONLY>
+        <UNABLE_RESOLVE>不能处理文件路径</UNABLE_RESOLVE>
+      </PROPERTY_LIST>
+
+      <SPACE_MGR>
+        <SELECT_FOLDER>&#10;选定要打开的空间路径。&#10;它必须包含一个名为&apos;space.settings&apos;的文件。</SELECT_FOLDER>
+      </SPACE_MGR>
+
+      <STRING_UTILS>
+        <COPY>Copy(</COPY>
+        <OF>) of</OF>
+        <COPY_OF>Copy of</COPY_OF>
+        <COPY_OF_N>Copy (%0) of %1</COPY_OF_N>
+      </STRING_UTILS>
+
+      <TOOLS_COMMON>
+        <EXPIRED>对不起，这个%0版本已过期。&#10;请联系 BigWorld 获取新版本。&#10;&#10;编译时间: %1</EXPIRED>
+        <TOOL_EXPIRED>工具已过期</TOOL_EXPIRED>
+        <LICENSE_VALIDATION>Initialising %0 license manager</LICENSE_VALIDATION>
+      </TOOLS_COMMON>
+
+      <UAL_ENTITY_PROVIDER>
+        <ENTITIES>结构(%0 项目)</ENTITIES>
+      </UAL_ENTITY_PROVIDER>
+
+      <UTILITIES>
+        <BYTES>%0 字节</BYTES>
+        <KILOBYTES>%0 KB</KILOBYTES>
+        <MEGABYTES>%0 MB</MEGABYTES>
+        <GIGABYTES>%0 GB</GIGABYTES>
+        <TERABYTES>%0 TB</TERABYTES>
+      </UTILITIES>
+
+	  <MATERIAL_EDITOR>
+	    <TRYING_CREATE>Trying to create property for %0&#10;</TRYING_CREATE>
+		<CREATED>... created %0&#10;</CREATED>
+		<NOT_CREATED>Material Property not created by creator&#10;</NOT_CREATED>
+		<NOT_FOUND>Could not find editor for material property %0. Probably not yet implemented.&#10;</NOT_FOUND>
+		<DX_FAILED>MaterialUtility::listProperties - GetParameterDesc failed with DX error code %0&#10;</DX_FAILED>
+	  </MATERIAL_EDITOR>
+	  
+	  <ROMP_HARNESS>
+	    <TIME_OF_DAY>Client Settings/Time of Day</TIME_OF_DAY>
+	    <SECS_PER_HOUR>Client Settings/Secs Per Hour</SECS_PER_HOUR>
+		<SHIMMER_FAILED>Shimmer failed to initialise&#10;</SHIMMER_FAILED>
+		<SHIMMER_NOT_SUPPORTED>Heat Shimmer is not supported&#10;</SHIMMER_NOT_SUPPORTED>
+		<BLOOM_FAILED>Bloom failed to initialise&#10;</BLOOM_FAILED>
+		<BLOOM_NOT_SUPPORTED>Blooming is not supported&#10;</BLOOM_NOT_SUPPORTED>
+	  </ROMP_HARNESS>
+
+      <MODEL_RELOAD>
+        <RELOADED_MODEL>Reloaded %0</RELOADED_MODEL>
+      </MODEL_RELOAD>
+    </COMMON>
+
+    <MODELEDITOR>
+      <ANIMATIONS>动画</ANIMATIONS>
+      <ACTIONS>动作</ACTIONS>
+      <OTHER>(其它...)</OTHER>
+      <DEFAULT>默认</DEFAULT>
+      <UNTITLED>未命名的</UNTITLED>
+      <DASH_MODELEDITOR>%0 - 模型编辑器</DASH_MODELEDITOR>
+
+      <APP>
+        <ME_SCRIPTER>
+          <UNDOING>撤消操作: %0&#10;</UNDOING>
+          <REDOING>恢复操作: %0&#10;</REDOING>
+          <MAKE_THUMBNAIL>创建 &quot;%0&quot;的缩略图&#10;</MAKE_THUMBNAIL>
+          <THUMBNAIL_ERROR>由于没有模型存在。所以不能创建缩略图 。&#10;</THUMBNAIL_ERROR>
+        </ME_SCRIPTER>
+
+        <ME_MODULE>
+          <POSITIVE_FPS>%0 fps</POSITIVE_FPS>
+          <ZERO_FPS>0 fps</ZERO_FPS>
+          <TRIANGLES>三角形：%0</TRIANGLES>
+        </ME_MODULE>
+
+        <ME_APP>
+          <SAVING>保存模型: &quot;%0&quot;&#10;</SAVING>
+          <BAD_DIR>您只可以将模型保存于位于其中一个资源文件夹里的目录下。</BAD_DIR>
+          <UNABLE_RESOLVE>不能处理模型路径</UNABLE_RESOLVE>
+          <MODEL_CHANGED>模型已改变</MODEL_CHANGED>
+          <MODEL_CHANGED_Q>模型被修改。&#10;需要在关闭之前保存修改吗?</MODEL_CHANGED_Q>
+          <MODEL_NOT_SAVED>关闭并且不保存所改动模型。&#10;</MODEL_NOT_SAVED>
+          <LIGHTS_CHANGED>灯光已改变</LIGHTS_CHANGED>
+          <LIGHTS_CHANGED_Q>灯光设置被修改。&#10;需要在关闭之前保存修改吗?</LIGHTS_CHANGED_Q>
+          <LIGHTS_NOT_SAVED>关闭并且不保存所改动的灯光。&#10;</LIGHTS_NOT_SAVED>
+          <EXITING>退出模型编辑器...&#10;</EXITING>
+          <REVERT_MODEL>恢复模型</REVERT_MODEL>
+          <REVERT_MODEL_Q>您确认想要恢复模型吗?&#10;丢失上次保存后的所有修改信息。</REVERT_MODEL_Q>
+          <REVERTING_MODEL>恢复到上次保存的模型。&#10;</REVERTING_MODEL>
+        </ME_APP>
+      </APP>
+
+      <GUI>
+        <TREE_LIST_DLG>
+          <NON_ANIMATED>&lt;静态模型&gt;</NON_ANIMATED>
+          <NO_ANIMATIONS>&lt;没有 %0&gt;</NO_ANIMATIONS>
+        </TREE_LIST_DLG>
+
+        <PANEL_MANAGER>
+          <LOAD_DEFAULT_Q>您确认想要加载默认的面板布局吗?</LOAD_DEFAULT_Q>
+          <LOAD_DEFAULT>材质编辑器 - 加载默认的面板布局</LOAD_DEFAULT>
+          <LOAD_RECENT_Q>您确认想要加载上次保存的面板布局吗?</LOAD_RECENT_Q>
+          <LOAD_RECENT>材质编辑器 - 加载最近使用的面板布局</LOAD_RECENT>
+        </PANEL_MANAGER>
+
+        <NEW_TINT>
+          <BAD_DIR_EFFECT>您只可以选定位于其中一个资源文件夹里的特效文件。</BAD_DIR_EFFECT>
+          <UNABLE_RESOLVE_EFFECT>不能处理特效文件路径</UNABLE_RESOLVE_EFFECT>
+          <BAD_DIR_MFM>  您只可以选定位于其中一个资源文件夹里的MFM文件。</BAD_DIR_MFM>
+          <UNABLE_RESOLVE_MFM>不能处理MFM文件路径</UNABLE_RESOLVE_MFM>
+          <BAD_TINT_NAME>因为没有指定名称，所以不能创建色彩。&#10;至少需要一个数字字符。</BAD_TINT_NAME>
+          <INVALID_TINT_NAME>指定的是无效的色彩名称</INVALID_TINT_NAME>
+          <TINT_ALREADY_EXISTS>不能用已经存在的名称创建色彩, 请选择另外一个名称。</TINT_ALREADY_EXISTS>
+          <TINT_EXISTS>已经使用的色彩名称</TINT_EXISTS>
+          <DEFAULT_TINT_RESERVED>色彩名称 &quot;Default&quot; 为默认的色彩保留, 请选择另外一个名称。</DEFAULT_TINT_RESERVED>
+          <DEFAULT_TINT>不能使用 &quot;Default&quot;为色彩名称</DEFAULT_TINT>
+        </NEW_TINT>
+
+        <MODEL_EDITOR>
+          <ME_CRASHED>上次运行模型编辑器时意外退出。&#10;模型&quot;%0&quot; 不会被加载。</ME_CRASHED>
+          <MODEL_LOAD_ERROR>加载模型出错</MODEL_LOAD_ERROR>
+          <LOADING>正在加载%0...</LOADING>
+          <LOADING_MODEL>Loading Model: &quot;%0&quot;&#10;</LOADING_MODEL>
+          <VIS_BOX_AUTO_CALC>模型可视盒被自动重新计算。&#10;需要保存。&#10;</VIS_BOX_AUTO_CALC>
+          <TOO_MANY_BLENDBONE_NODES>这个模型有多于85个骨骼混合节点。可能会呈现被破坏的。&#10;</TOO_MANY_BLENDBONE_NODES>
+          <ADDED_MODEL>模型已加载: &quot;%0&quot;&#10;</ADDED_MODEL>
+          <UNABLE_ADD_MODEL>无法加载模型 &quot;%0&quot; 因为已被使用。&#10;</UNABLE_ADD_MODEL>
+          <TEXTURE_MEM>贴图内存：%0</TEXTURE_MEM>
+          <NO_HELP_FILE>找不到帮助文件: &#10;&quot;%0&quot;&#10;请检查 options.xml/help/%1&#10;</NO_HELP_FILE>
+          <BAD_DIR_MODEL_LOAD>您只可以加载位于其中一个资源文件夹里的模型。</BAD_DIR_MODEL_LOAD>
+          <BAD_DIR_MODEL_ADD>您只可以添加位于其中一个资源文件夹里的模型。</BAD_DIR_MODEL_ADD>
+          <UNABLE_RESOLVE_MODEL>不能处理模型路径</UNABLE_RESOLVE_MODEL>
+          <REGENERATING_VIS_BOX>重新生成可视盒...</REGENERATING_VIS_BOX>
+          <REGENERATED_VIS_BOX>可视盒已生成&#10;</REGENERATED_VIS_BOX>
+          <BSP_MATERIAL>已添加BSP材质。</BSP_MATERIAL>
+          <BSP_MATERIAL_ADDED>模型 &quot;%0&quot; 缺少BSP材质 &quot;%1.&quot;&#10;请检查材质设置，或在必要时重新导出模型。</BSP_MATERIAL_ADDED>
+        </MODEL_EDITOR>
+
+        <LOD_BAR>
+          <CHANGING_MODEL_EXTENT>改变LOD模型范围</CHANGING_MODEL_EXTENT>
+        </LOD_BAR>
+
+        <ABOUT_BOX>
+          <VERSION_BUILT>版本号 %0%1%2：创建于 %3</VERSION_BUILT>
+          <EVAL>试用版</EVAL>
+          <DEBUG>调试版</DEBUG>
+        </ABOUT_BOX>
+      </GUI>
+
+      <MODELS>
+        <MUTANT_VALIDATION>
+          <CANT_LOCATE_Q>不能找到文件: &#10;&#10;&quot;%1.%2&quot;&#10;&#10;您想再试找到这个文件吗?%3</CANT_LOCATE_Q>
+          <UNABLE_LOCATE>不能找到文件</UNABLE_LOCATE>
+          <READ_ONLY>文件&quot;%0&quot;为只读文件。对此文件以及相关文件所作的修改不会被保存。</READ_ONLY>
+          <READ_ONLY_TITLE>此文件为只读文件</READ_ONLY_TITLE>
+          <UNABLE_LOAD_OTHERWISE>&#10;&#10;否则你不能加载这个模型。</UNABLE_LOAD_OTHERWISE>
+        </MUTANT_VALIDATION>
+
+        <MUTANT_MATERIALS>
+          <CHANGE_TO>改为 %0</CHANGE_TO>
+          <CHANGING_MATERIAL_NAME>改变材质名称</CHANGING_MATERIAL_NAME>
+          <CHANGING_DYE_NAME>改变染色名称</CHANGING_DYE_NAME>
+          <CHANGING_TINT_NAME>改变色彩名称</CHANGING_TINT_NAME>
+          <CHANGING_TINT_FLAG>改变色彩标记</CHANGING_TINT_FLAG>
+          <CHANGING_MATERIAL_EFFECT>改变材质特效</CHANGING_MATERIAL_EFFECT>
+          <CHANGING_MATERIAL_MFM>改变材质 MFM</CHANGING_MATERIAL_MFM>
+          <CHANGING_MATERIAL_FLAG>改变材质标记</CHANGING_MATERIAL_FLAG>
+          <CHANGING_MATERIAL_KIND>改变模型材质种类</CHANGING_MATERIAL_KIND>
+          <CHANGING_TEXTURE_FEED_NAME>改变贴图源名称</CHANGING_TEXTURE_FEED_NAME>
+          <ADDING_TINT>添加色彩</ADDING_TINT>
+          <DELETING_TINT>取消色彩</DELETING_TINT>
+          <SOFTSKINNED_WARNING_MSG>您在给柔软表面的对象应用无表面shader。&#10;由于染色在软件上而不是硬件上进行，所以这个是不可取的。&#10;如果可能的话，用柔软表面shader代替。</SOFTSKINNED_WARNING_MSG>
+          <SOFTSKINNED_WARNING>给柔软表面材质应用无表面shader</SOFTSKINNED_WARNING>
+          <HARDSKINNED_WARNING_MSG>您正在给坚硬表面对象应用无表面shader。&#10;由于染色在软件上而不是硬件上进行，所以这个是不可取的。&#10;如果可能的话，用坚硬表面shader代替。</HARDSKINNED_WARNING_MSG>
+          <HARDSKINNED_WARNING>给坚硬表面材质应用无表面shader</HARDSKINNED_WARNING>
+          <DISABLING_PYTHON>禁止显示到Python状态中</DISABLING_PYTHON>
+          <ENABLING_PYTHON>允许显示到Python状态中</ENABLING_PYTHON>
+        </MUTANT_MATERIALS>
+
+        <MUTANT_ANIMATIONS>
+          <ADDING_ANIM>添加一个新动画</ADDING_ANIM>
+          <CHANGING_ANIM>改变动画源</CHANGING_ANIM>
+          <DELETING_ANIM>删除动画</DELETING_ANIM>
+          <CHANGING_ANIM_NAME>改变动画名称</CHANGING_ANIM_NAME>
+          <CHANGING_FIRST_FRAME>改变动画的起始帧</CHANGING_FIRST_FRAME>
+          <CHANGING_LAST_FRAME>改变动画的终止帧</CHANGING_LAST_FRAME>
+          <CHANGING_FRAME_RATE>改变动画的帧速率</CHANGING_FRAME_RATE>
+          <SAVING_FRAME_RATE>保存动画的帧速率</SAVING_FRAME_RATE>
+          <CHANGING_ANIM_FILE>改变一个动画的动画文件</CHANGING_ANIM_FILE>
+          <CHANGING_NODE_WEIGHT>改变动画的节点分量</CHANGING_NODE_WEIGHT>
+          <REMOVING_BLEND>去掉动画的混合值</REMOVING_BLEND>
+        </MUTANT_ANIMATIONS>
+
+        <MUTANT_ACTIONS>
+          <ADDING_ACTION>添加一个新动作</ADDING_ACTION>
+          <REMOVING_ACTION>取消一个动作</REMOVING_ACTION>
+          <AN_ACTION>%0 一个动作</AN_ACTION>
+          <CHANGING_ACTION_NAME>改变动作名称</CHANGING_ACTION_NAME>
+          <CHANGING_ACTION_ANIM>改变动作的动态效果</CHANGING_ACTION_ANIM>
+          <CHANGING_ACTION_BLEND>改变动作的混合值</CHANGING_ACTION_BLEND>
+          <CHANGING_ACTION_FLAG>改变动作标志</CHANGING_ACTION_FLAG>
+          <CHANGING_ACTION_TRACK>改变动作的踪迹</CHANGING_ACTION_TRACK>
+          <CHANGING_ACTION_MATCHER>改变动作的匹配值</CHANGING_ACTION_MATCHER>
+          <CHANGING_ACTION_MATCHER_CAP>改变动作的匹配值列表</CHANGING_ACTION_MATCHER_CAP>
+          <CHANGING_ACTION_MATCHER_FLAG>改变动作匹配标志</CHANGING_ACTION_MATCHER_FLAG>
+        </MUTANT_ACTIONS>
+
+        <MUTANT>
+          <CHANGING_BATCH>改变&quot;可以被批处理&quot; 标志</CHANGING_BATCH>
+          <CHANGING_OCCLUDER>改变 &quot;可作为阻挡物&quot; 标志</CHANGING_OCCLUDER>
+          <CHANGING_EDITOR_PROXY>改变编辑代理模型</CHANGING_EDITOR_PROXY>
+          <REMOVING_EDITOR_PROXY>取消编辑代理模型</REMOVING_EDITOR_PROXY>
+          <ADDING_MODEL>添加一个模型</ADDING_MODEL>
+          <REMOVING_ADDED>取消所有添加的模型</REMOVING_ADDED>
+          <UPDATING_VIS_BOX>更新模型的可视盒。</UPDATING_VIS_BOX>
+          <SAVING>Saving file: %0&#10;</SAVING>
+        </MUTANT>
+
+        <LIGHTS>
+          <COLOUR>颜色</COLOUR>
+          <POSITION>位置</POSITION>
+          <DIRECTION>方向</DIRECTION>
+          <RADIUS>最大强度半径</RADIUS>
+          <FALLOFF>衰减半径</FALLOFF>
+          <MULTIPLIER>增效器</MULTIPLIER>
+          <CONE_ANGLE>锥形角</CONE_ANGLE>
+          <AMBIENT_COLOUR>周围环境灯光的颜色</AMBIENT_COLOUR>
+          <OMNI_COLOUR>全向灯光的颜色</OMNI_COLOUR>
+          <OMNI_POSITION>全向灯光的位置</OMNI_POSITION>
+          <OMNI_RADIUS>全向灯光的最大强度半径</OMNI_RADIUS>
+          <OMNI_FALLOFF>全向灯光的衰减半径</OMNI_FALLOFF>
+          <OMNI_INTENSITY>全向灯光的亮度增加因子</OMNI_INTENSITY>
+          <DIRECTIONAL_COLOUR>方向灯的颜色</DIRECTIONAL_COLOUR>
+          <DIRECTIONAL_DIRECTION>方向灯的方向</DIRECTIONAL_DIRECTION>
+          <DIRECTIONAL_INTENSITY>方向灯的亮度增加因子</DIRECTIONAL_INTENSITY>
+          <SPOT_COLOUR>点光源的颜色</SPOT_COLOUR>
+          <SPOT_POSITION>点光源的位置</SPOT_POSITION>
+          <SPOT_DIRECTION>点光源的方向</SPOT_DIRECTION>
+          <SPOT_RADIUS>点光源的最大辐射半径</SPOT_RADIUS>
+          <SPOT_FALLOFF>点光源的衰减半径</SPOT_FALLOFF>
+          <SPOT_CONE_ANGLE>点光源的锥形角度</SPOT_CONE_ANGLE>
+          <SPOT_INTENSITY>点光源的亮度增加因子</SPOT_INTENSITY>
+          <SAVING>保存灯光效果: &quot;%0&quot;&#10;</SAVING>
+        </LIGHTS>
+      </MODELS>
+
+      <PAGES>
+        <PAGE_OBJECT>
+          <SHORT_NAME>对象</SHORT_NAME>
+          <UNABLE_RESOLVE_EP>不能使用代理模型</UNABLE_RESOLVE_EP>
+          <LONG_NAME>对象属性</LONG_NAME>
+          <BAD_DIR_EP>您不能使用模型本身作为代理模型</BAD_DIR_EP>
+        </PAGE_OBJECT>
+
+        <PAGE_MATERIALS>
+          <SHORT_NAME>材质</SHORT_NAME>
+          <LONG_NAME>材质设定</LONG_NAME>
+          <DONT_RENDER>(Don&apos;t 染色)</DONT_RENDER>
+          <COLLISION>碰撞标记</COLLISION>
+          <COLLISION_DESC>材质使用的碰撞标记</COLLISION_DESC>
+          <KIND>材质种类</KIND>
+          <KIND_DESC>材质的种类</KIND_DESC>
+          <NOT_FX_MFM>选定的文件不能被材质使用。&#10;请选择一个效果或者一个MFM (*.mfm)文件。</NOT_FX_MFM>
+          <INVALID_FILE_TYPE>无效材质文件类型</INVALID_FILE_TYPE>
+          <BAD_DIR_MATERIAL>您只可以从资源文件夹中的一个文件夹中下载材质文件。</BAD_DIR_MATERIAL>
+          <UNABLE_RESOLVE_MATERIAL>不能处理材质文件的路径</UNABLE_RESOLVE_MATERIAL>
+          <ERROR_SAVE_MFM>保存MFM时，出现错误。</ERROR_SAVE_MFM>
+          <NO_SAVE_MFM>不能保存 MFM</NO_SAVE_MFM>
+          <BAD_DIR_MFM>您只可以把MFM 保存在其中一个资源文件夹中。</BAD_DIR_MFM>
+          <UNABLE_RESOLVE_MFM>不能处理MFM路径</UNABLE_RESOLVE_MFM>
+          <NO_RENAME_MATERIAL>由于没有给定名称，所以不能对材质进行重命名。&#10;最少需要一个字母数字字符。</NO_RENAME_MATERIAL>
+          <INVALID_MATERIAL_NAME>给定的材质名称是无效的</INVALID_MATERIAL_NAME>
+          <MATERIAL_NAME_USED>因为已经有材质使用了相同的名称，所以不能对材质进行重命名。</MATERIAL_NAME_USED>
+          <MATERIAL_NAME_EXISTS>材质名称已被使用过</MATERIAL_NAME_EXISTS>
+          <NO_RENAME_DYE>由于没给定名称，所以不能对染色进行重命名。&#10;最少需要一个字母数字字符。</NO_RENAME_DYE>
+          <INVALID_DYE_NAME>给定的染色名称是无效的</INVALID_DYE_NAME>
+          <DYE_NAME_USED>因为已经有染色使用了相同的名称，所以不能对染色进行重命名。</DYE_NAME_USED>
+          <DYE_NAME_EXISTS>染色名称已被使用过</DYE_NAME_EXISTS>
+          <NO_RENAME_TINT>由于没给定名称，所以不能对色彩进行重命名。&#10;最少需要一个字母数字字符。</NO_RENAME_TINT>
+          <INVALID_DYE_TINT>给定的色彩名称是无效的</INVALID_DYE_TINT>
+          <TINT_NAME_USED>因为已经有色彩使用了相同的名称，所以不能对色彩进行重命名。</TINT_NAME_USED>
+          <TINT_NAME_EXISTS>色彩名称已被使用过</TINT_NAME_EXISTS>
+          <INVALID>[无效的]</INVALID>
+          <BAD_DIR_EFFECT>您只可以选择其中一个资源文件夹中的效果文件。</BAD_DIR_EFFECT>
+          <UNABLE_RESOLVE_EFFECT>不能处理效果文件路径</UNABLE_RESOLVE_EFFECT>
+        </PAGE_MATERIALS>
+
+        <PAGE_LOD>
+          <SHORT_NAME>LOD</SHORT_NAME>
+          <LONG_NAME>细节层次</LONG_NAME>
+          <MODEL>模型</MODEL>
+          <MIN>最小值</MIN>
+          <MAX>最大值</MAX>
+          <STATE>状态</STATE>
+          <LOCKED>%0 &lt;锁定的&gt;</LOCKED>
+          <NOTHING>%0</NOTHING>
+          <HIDDEN>隐藏</HIDDEN>
+          <MISSING>丢失</MISSING>
+          <ADDING_LOD>添加一个新的LOD模型</ADDING_LOD>
+          <CHANGING_LOD>改变LOD模型</CHANGING_LOD>
+          <REMOVING_LOD>删除LOD模型</REMOVING_LOD>
+          <LOD_UP>将模型向上移到LOD列表</LOD_UP>
+          <LOD_DOWN>将模型向下移到LOD列表</LOD_DOWN>
+          <CHANGING_EXTENT>改变LOD模型范围</CHANGING_EXTENT>
+          <INFINITY>将LOD模型范围延伸到无穷</INFINITY>
+          <TOGGLE_VIS>锁定LOD模型的可见性</TOGGLE_VIS>
+          <UNABLE_LOD>由于LOD模型父项被锁定，所以不能添加模型。&#10;&#10;用参数选择对话框来解锁这个模型以便能够编辑LOD目录。</UNABLE_LOD>
+          <LOD_LOCKED>锁定模型父项</LOD_LOCKED>
+        </PAGE_LOD>
+
+        <PAGE_LIGHTS>
+          <SHORT_NAME>光照</SHORT_NAME>
+          <LONG_NAME>光照设置</LONG_NAME>
+          <AMBIENT>环境灯</AMBIENT>
+          <OMNI>全向光 %0</OMNI>
+          <DIRECTIONAL>定向光 %0</DIRECTIONAL>
+          <SPOT>点光源 %0</SPOT>
+          <LIGHTS_FILE_MISSING>不能加载光照设置文件&quot;%0&quot;。 请确认这个文件存在。</LIGHTS_FILE_MISSING>
+          <UNABLE_LIGHTS>不能加载光照设置</UNABLE_LIGHTS>
+          <BAD_DIR_LOAD>您只可以加载位于其中一个资源文件夹下的光照设置。</BAD_DIR_LOAD>
+          <BAD_DIR_SAVE>您只可以保存位于其中一个资源文件夹下的光照设置。</BAD_DIR_SAVE>
+          <UNABLE_RESOLVE>不能处理光照设置文件路径</UNABLE_RESOLVE>
+        </PAGE_LIGHTS>
+
+        <PAGE_DISPLAY>
+          <SHORT_NAME>显示</SHORT_NAME>
+          <LONG_NAME>显示设定</LONG_NAME>
+          <FLORA_DENSITY>花草密度</FLORA_DENSITY>
+          <DISABLE_FLORA>禁用花草</DISABLE_FLORA>
+          <BAD_DIR>您只可以使用位于其中一个资源文件夹下的贴图。</BAD_DIR>
+          <UNABLE_RESOLVE>不能处理地面贴图路径</UNABLE_RESOLVE>
+        </PAGE_DISPLAY>
+
+        <PAGE_ANIMATIONS_COMP>
+          <COMPRESSED_DATA>初始尺寸= %0 KB&#10;压缩后尺寸= %1 KB&#10;压缩比率= %2 %</COMPRESSED_DATA>
+        </PAGE_ANIMATIONS_COMP>
+
+        <PAGE_ANIMATIONS>
+          <SHORT_NAME>动画</SHORT_NAME>
+          <LONG_NAME>动画</LONG_NAME>
+          <MODEL>%0 (模型)</MODEL>
+          <NODES>节点：%0</NODES>
+          <BLENDBONE_NODES>%0 混合骨骼节点</BLENDBONE_NODES>
+          <GREATER_THAN_85_BLENDBONE_NODES>&gt;85 个混合骨骼节点</GREATER_THAN_85_BLENDBONE_NODES>
+          <NO_RENAME_ANIMATION>由于没给定名称，所以不能对动画进行重命名。&#10;至少需要一个字母数字字符。</NO_RENAME_ANIMATION>
+          <INVALID_ANIMATION_NAME>给定的动画名称是无效的</INVALID_ANIMATION_NAME>
+          <ANIMATION_NAME_USED>由于已经有动画使用了该名称，所以不能对动画进行重命名。</ANIMATION_NAME_USED>
+          <ANIMATION_NAME_EXISTS>动画名称已被使用过</ANIMATION_NAME_EXISTS>
+          <UNABLE_ADD_ANIM>由于已锁定了选定的模型，所以不能添加动画。&#10;&#10;选择最高层的模型或者用参数选择对话框来解锁这个父模型。</UNABLE_ADD_ANIM>
+          <MODEL_LOCKED>锁定的模型</MODEL_LOCKED>
+        </PAGE_ANIMATIONS>
+
+        <PAGE_ACTIONS>
+          <SHORT_NAME>动作</SHORT_NAME>
+          <LONG_NAME>动作</LONG_NAME>
+          <NO_RENAME_ACTION>由于没给定名称，所以不能对动作进行重命名。&#10;至少需要一个数字或字母字符。</NO_RENAME_ACTION>
+          <INVALID_ACTION_NAME>给定的动作名称是无效的</INVALID_ACTION_NAME>
+          <ACTION_NAME_USED>由于已经有动作使用了该名称，所以不能对动作进行重命名。</ACTION_NAME_USED>
+          <ACTION_NAME_EXISTS>动作名称已被使用过</ACTION_NAME_EXISTS>
+        </PAGE_ACTIONS>
+      </PAGES>
+    </MODELEDITOR>
+
+    <PARTICLEEDITOR>
+      <OPEN>打开</OPEN>
+      <CHOOSE_DIR>选择目录..</CHOOSE_DIR>
+      <CHOOSE_PS_DIR>选择粒子系统目录...</CHOOSE_PS_DIR>
+      <UNTITLED>未命名的</UNTITLED>
+      <DASH_PARTICLEEDITOR>%0 - 粒子编辑器</DASH_PARTICLEEDITOR>
+      
+      <GUI>
+        <SYSTEM_PROP>系统属性</SYSTEM_PROP>
+        <RENDERER_PROP>渲染属性</RENDERER_PROP>
+        
+        <PSA_TINT_SHADER_PROPERTIES>
+          <TOGGLE_TINT_CYCLE>切换染色循环</TOGGLE_TINT_CYCLE>
+          <CHANGE_COLOUR_TINT>修改染色色</CHANGE_COLOUR_TINT>
+          <MODIFIED_COLOUR_TINT>已修改了染色</MODIFIED_COLOUR_TINT>
+          <CHANGE_TINT_CYCLE>改变染色</CHANGE_TINT_CYCLE>
+          <DELETE_COLOUR_TINT>删除染色</DELETE_COLOUR_TINT>
+        </PSA_TINT_SHADER_PROPERTIES>
+
+        <PSA_SINK_PROPERTIES>
+          <SET_SINK>设置sink寿命</SET_SINK>
+        </PSA_SINK_PROPERTIES>
+
+        <PSA_PROPERTIES>
+          <CHANGE>改变%0</CHANGE>
+          <COPY_DATA>复制数据</COPY_DATA>
+        </PSA_PROPERTIES>
+
+        <PSA_COLLIDE_PROPERTIES>
+          <ENABLE_SOUND>允许在碰撞时播放声音</ENABLE_SOUND>
+          <CHANGE_SOUND_PROJECT>改变声音项目</CHANGE_SOUND_PROJECT>
+          <CHANGE_SOUND_GROUP>改变声音组</CHANGE_SOUND_GROUP>
+          <CHANGE_SOUND_NAME>改变声音名称</CHANGE_SOUND_NAME>
+	  <CHANGE_SOUND_BANK>改变声音库</CHANGE_SOUND_BANK>
+        </PSA_COLLIDE_PROPERTIES>
+
+	<PSA_TINTSHADER_PROPERTIES>
+		<SET_FOG_BLEND>设置与雾混合</SET_FOG_BLEND>
+	</PSA_TINTSHADER_PROPERTIES>
+
+        <PSA_FLARE_PROPERTIES>
+          <NO_FLARES_FOUND>--没有找到光晕--</NO_FLARES_FOUND>
+        </PSA_FLARE_PROPERTIES>
+
+        <PS_RENDERER_PROPERTIES>
+	      <CHANGE_WORLD>改变为在世界坐标系中进行渲染</CHANGE_WORLD>
+          <CHANGE_LOCAL>改变为在局部坐标系中进行渲染</CHANGE_LOCAL>
+          <CHANGE_VIEW>改变为在相机坐标系中进行渲染</CHANGE_VIEW>	
+          <SET_PARAM>设置渲染参数</SET_PARAM>
+          <CHANGE_MESH>改变为网格渲染器</CHANGE_MESH>
+            <CHANGE_SPRITE>改变为精灵渲染器</CHANGE_SPRITE>
+        <CHANGE_VISUAL>改变为Visual渲染器</CHANGE_VISUAL>
+          <CHANGE_AMP>改变为电弧渲染器</CHANGE_AMP>
+          <CHANGE_TRAIL>改变为拖尾渲染器</CHANGE_TRAIL>
+          <CHANGE_BLUR>改变为模糊渲染器</CHANGE_BLUR>
+          <SELECT_VISUAL_FAIL>%0 不是一个合适的visual文件</SELECT_VISUAL_FAIL>
+        </PS_RENDERER_PROPERTIES>
+
+        <PS_PROPERTIES>
+          <SET_PARAM>设置系统参数</SET_PARAM>
+        </PS_PROPERTIES>
+
+        <PANEL_MANAGER>
+          <LOAD_DEFAULT_Q>确认要加载默认的面板布局吗?</LOAD_DEFAULT_Q>
+          <LOAD_DEFAULT>粒子编辑器 - 加载默认的面板布局</LOAD_DEFAULT>
+          <LOAD_RECENT_Q>确认要加载上次保存的面板布局吗?</LOAD_RECENT_Q>
+          <LOAD_RECENT>粒子编辑器 - 加载最近使用的面板布局</LOAD_RECENT>
+        </PANEL_MANAGER>
+
+        <ACTION_SELECTION>
+          <RENAME>重命名</RENAME>
+          <ADD_ACTION>添加动作</ADD_ACTION>
+          <DUPLICATE>复制</DUPLICATE>
+          <DELETE>删除</DELETE>
+          <COPY>拷贝</COPY>
+ <PROPERTIES>属性</PROPERTIES>
+        <SHORT_NAME>粒子系统</SHORT_NAME>
+          <LONG_NAME>粒子系统</LONG_NAME>
+        </ACTION_SELECTION>
+
+        <ABOUT_BOX>
+          <VERSION_BUILT>版本号 %0%1%2：创建于 %3</VERSION_BUILT>
+          <EVAL>试用版</EVAL>
+          <DEBUG>调试版</DEBUG>
+        </ABOUT_BOX>
+      </GUI>
+
+      <MAIN>
+        <PARTICLE_EDITOR>
+          <UNABLE_LOCATE_BODY>无法在&quot;%1&quot;中找到%0，因而加载内容创建手册。</UNABLE_LOCATE_BODY>
+          <UNABLE_LOCATE_TITLE>无法找到%0</UNABLE_LOCATE_TITLE>
+        </PARTICLE_EDITOR>
+      </MAIN>
+
+      <SHELL>
+        <PE_MODULE>
+          <FPS_PARTICLES>%0 fps | %1个粒子 | 已使用内存= %2 kB</FPS_PARTICLES>
+          <FPS_NO_PARTICLES>%0 fps | 没有加载粒子系统</FPS_NO_PARTICLES>
+          <GIZMO_INTERACTION>Gizmo交互模式</GIZMO_INTERACTION>
+        </PE_MODULE>
+      </SHELL>
+    </PARTICLEEDITOR>
+	
+    <WORLDEDITOR>
+      <APPLICATION_NAME>世界编辑器</APPLICATION_NAME>
+ <INITIALISING_WORLDEDITOR_MSG>正在初始化世界编辑器...</INITIALISING_WORLDEDITOR_MSG>
+      <GUI>
+        <CONTROLS>
+          <CHUNK_WATCH_CONTROL>
+            <NOT_LOADED_STRING>没有加载</NOT_LOADED_STRING>
+          </CHUNK_WATCH_CONTROL>
+        </CONTROLS>
+        <BIGBANG>
+           <HELP_NOT_FOUND>无法找到帮助文件:&#10; &quot; %0 &quot;&#10;请检查 option.xml/help/ %1</HELP_NOT_FOUND>
+           <VERSION_BUILT>版本号 %0%1%2：创建于 %3</VERSION_BUILT>
+           <EVAL>试用版</EVAL>
+           <DEBUG>调试版</DEBUG>
+        </BIGBANG>
+        <MAINFRAME>
+          <CAN_CLOSE_EXIT>退出（&amp;X）</CAN_CLOSE_EXIT>
+          <PREFAB_WARNING>必须选中一些对象才能把它们保存为预制模型</PREFAB_WARNING>
+        </MAINFRAME>
+        <NEW_PLACEMENT_DLG>
+           <PRESET_WARNING_TEXT>输入的文本不是一个有效的预设名称</PRESET_WARNING_TEXT>
+           <PRESET_WARNING_TITLE>对象放置预设名称错误</PRESET_WARNING_TITLE>
+ 		  <BAD_PRESET_NAME_TITLE>对象放置预设名称错误</BAD_PRESET_NAME_TITLE>
+          <BAD_PRESET_NAME_TEXT>输入的文本不是一个有效的预设名称。&#10;它不能和任何一个现有的预设名称相同，也不能为空 &#10;或是包含下列字符 &quot;&lt;&gt;/\:!@#$%^&amp;*()&quot;。</BAD_PRESET_NAME_TEXT>
+        </NEW_PLACEMENT_DLG>	
+	<EXPAND_SPACE_DLG>
+			<EXCEEDED_MAX_CHUNK_SIZE>提供的空间大小过大，扩展后的空间在任何方向上都不能超过1000个分块。</EXCEEDED_MAX_CHUNK_SIZE>
+	</EXPAND_SPACE_DLG>      
+<PAGE_POST_PROCESSING>
+          <SHORT_NAME>后处理</SHORT_NAME>
+          <LONG_NAME>后处理</LONG_NAME>
+		  <EFFECT>
+			<PROP_LABEL> 效果名 </PROP_LABEL>
+			<PROP_LABEL_DESC> 效果名 </PROP_LABEL_DESC> 
+			<BYPASS> 开关 </BYPASS>
+			<BYPASS_DESC> 激活或关闭该效果（把它设置为1为激活该效果）</BYPASS_DESC>
+		  </EFFECT>
+		  <PHASE>
+			<PROP_LABEL> 阶段名 </PROP_LABEL>
+			<PROP_LABEL_DESC> 阶段名 </PROP_LABEL_DESC> 
+		  </PHASE>
+		  <PY_PHASE>
+			<RENDER_TARGET> 渲染目标 </RENDER_TARGET>
+			<RENDER_TARGET_DESC> 导出到渲染目标（你可以从资源浏览器中拖拽一个渲染目标）</RENDER_TARGET_DESC> 
+			<CLEAR_RENDER_TARGET> 清除渲染目标 </CLEAR_RENDER_TARGET>
+			<CLEAR_RENDER_TARGET_DESC> 清除渲染目标 </CLEAR_RENDER_TARGET_DESC>
+      <FILTERQUAD_TYPE>过滤器类型</FILTERQUAD_TYPE>
+      <FILTERQUAD_TYPE_DESC>从列表中选择过滤器类型</FILTERQUAD_TYPE_DESC>
+			<MATERIAL_FX> FX 文件 </MATERIAL_FX>
+			<MATERIAL_FX_DESC> FX 文件（你可以从资源浏览器里拖拽一个FX文件）</MATERIAL_FX_DESC>
+		  </PY_PHASE>
+		  <PY_COPY_BACK_BUFFER>
+			<RENDER_TARGET> 渲染目标 </RENDER_TARGET>
+			<RENDER_TARGET_DESC> 导出到渲染目标（你可以从资源浏览器中拖拽一个渲染目标）</RENDER_TARGET_DESC> 
+		  </PY_COPY_BACK_BUFFER>
+      <PY_FILTERQUAD>
+        <FILTERQUAD_TEX>过滤器贴图</FILTERQUAD_TEX>
+        <FILTERQUAD_TEX_DESC>通常和阶段的输入贴图相同，如果为空，则会直接使用UV坐标</FILTERQUAD_TEX_DESC>
+        <MODIFY_FILTERQUAD>修改阶段过滤器</MODIFY_FILTERQUAD>
+      </PY_FILTERQUAD>
+      <PY_VISUALXFERMESH>
+        <RESOURCE>转换网格</RESOURCE>
+        <RESOURCE_DESC>控制该阶段的结果是怎样被应用到输出渲染目标上的</RESOURCE_DESC>
+      </PY_VISUALXFERMESH>
+		  <EFFECTS_PROVIDER_INFO> 后处理效果（%0 个效果）</EFFECTS_PROVIDER_INFO>
+		  <PHASES_PROVIDER_INFO> 后处理阶段（%0 个阶段） </PHASES_PROVIDER_INFO>
+		  <RENDER_TARGETS_PROVIDER_INFO>后处理渲染目标（%0 个渲染目标） </RENDER_TARGETS_PROVIDER_INFO>
+          <DELETE_PHASE_TEXT>你确定要删除这个阶段吗?</DELETE_PHASE_TEXT>
+          <DELETE_PHASE_CAPTION>世界编辑器</DELETE_PHASE_CAPTION>
+          <DELETE_EFFECT_TEXT>你确定要删除这个效果及它的所有阶段吗？</DELETE_EFFECT_TEXT>
+          <DELETE_EFFECT_CAPTION>世界编辑器</DELETE_EFFECT_CAPTION>
+          <DEFAULT_CHAIN_NAME>缺省后处理链</DEFAULT_CHAIN_NAME>
+      <CAPTIONBAR_TEXT>该后处理链使用了 %0 兆显存。</CAPTIONBAR_TEXT>
+      <CAPTIONBAR_TEXT_PROFILE>该后处理链使用了 %0 微秒CPU时间以及 %1 兆显存。</CAPTIONBAR_TEXT_PROFILE>
+		  <DELETE_ALL_TEXT>你确定要清除这个后处理链吗？</DELETE_ALL_TEXT>
+		  <DELETE_ALL_CAPTION>世界编辑器</DELETE_ALL_CAPTION>
+		  
+		  <CHAIN_MODIFIED_TEXT>保存对后处理链的修改？</CHAIN_MODIFIED_TEXT>
+		  <CHAIN_MODIFIED_TITLE>世界编辑器</CHAIN_MODIFIED_TITLE>
+		  
+		  <CHAIN_NAME_TEXT>请输入后处理链表名</CHAIN_NAME_TEXT>
+		  <CHAIN_NAME_TITLE>后处理面板 - 后处理链表名</CHAIN_NAME_TITLE>
+		  <CHAIN_NAME_INVALID_TEXT>你输入的后处理链表名无效。请重新输入。</CHAIN_NAME_INVALID_TEXT>
+		  <CHAIN_NAME_INVALID_TITLE>世界编辑器</CHAIN_NAME_INVALID_TITLE>
+		  
+		  <DELETE_TEXT>删除这个后处理链表将不能被撤销。&#10;你确定要删除吗？</DELETE_TEXT>
+		  <DELETE_TITLE>后处理面板- 删除后处理链表</DELETE_TITLE>
+		  
+		  <DISCARD_TEXT>你确定要放弃你对后处理链表的修改吗？</DISCARD_TEXT>
+		  <DISCARD_TITLE>后处理面板 - 放弃修改</DISCARD_TITLE>
+		  
+		  <UNDO_CHAIN>修改后处理链表</UNDO_CHAIN>
+		  <UNDO_PHASES>修改一个效果阶段</UNDO_PHASES>
+		  
+		  <FOOTER>拖拽节点来移动它们，或者从资源浏览器拖拽 &quot;效果&quot; 和 &quot;阶段&quot; </FOOTER>
+		  <PHASE_PREVIEW_NOT_AVAILABLE> 阶段预览无效 </PHASE_PREVIEW_NOT_AVAILABLE>
+		</PAGE_POST_PROCESSING>
+		
+	<PAGE_FLORA_SETTING>
+		<SHORT_NAME>花草</SHORT_NAME>
+		<LONG_NAME>花草设置</LONG_NAME>
+		<DELETE_ITEM_TITLE>删除</DELETE_ITEM_TITLE>
+		<DELETE_ITEM_ENSURE>你确定要删除这一项吗？</DELETE_ITEM_ENSURE>
+		<DELETE_ITEM_CANNOT>这一项是必须项，你不能删除它。</DELETE_ITEM_CANNOT>
+		<YES>是</YES>
+		<NO>否</NO>
+		<TERRAIN_TEXTURE>地表贴图： %0</TERRAIN_TEXTURE>
+		<VISUAL_TEXTURE>Visual贴图：%0,，来源于%1</VISUAL_TEXTURE>
+		<VISUAL>%0,，%1 vertices，每块最多可有%2 个实体</VISUAL>
+		<VISUAL_TEXTURE_WRONG>贴图与ecotype的贴图不一致</VISUAL_TEXTURE_WRONG>
+		<FILE_MISSING>此文件不存在</FILE_MISSING>
+		<TERRAIN_USED_IN_OTHER>地表贴图在其它ecotype里已存在</TERRAIN_USED_IN_OTHER>
+		<REFRESH_ICON>	存贮并刷新花草</REFRESH_ICON>
+		<NEW_ECOTYPE_ICON>创建一个新的花草</NEW_ECOTYPE_ICON>
+		<MOVE_UP_ICON>上移</MOVE_UP_ICON>
+		<MOVE_DOWN_ICON>下移</MOVE_DOWN_ICON>
+		<DELETE_ITEM_ICON>删除</DELETE_ITEM_ICON>
+		<TURN_ON_3D_VIEW>高亮visual</TURN_ON_3D_VIEW>
+		<TURN_OFF_3D_VIEW>关闭高亮visual</TURN_OFF_3D_VIEW>
+		<SAVE_PROMPT> 花草的设置已被更改，请先刷新花草再做此操作。</SAVE_PROMPT>
+		<DEFAULT_SEARCH_IDLE_TEXT>资源名</DEFAULT_SEARCH_IDLE_TEXT>			
+		<NAME_REPEAT> %0 已存在</NAME_REPEAT>
+		<INVALID_CHARACTER>无效的文字</INVALID_CHARACTER>
+	</PAGE_FLORA_SETTING>
+	
+        <PAGE_CHUNK_TEXTURE>
+           <SHORT_NAME>分块贴图</SHORT_NAME>
+           <LONG_NAME>分块贴图</LONG_NAME>
+          <LAYER_PROJECTION_CHANGE>地形贴图层投影方式改变</LAYER_PROJECTION_CHANGE>
+          <LAYER_DELETE>已删除地形贴图层</LAYER_DELETE>
+		  <LAYERS_MERGED>已合并地形贴图层</LAYERS_MERGED>
+          <MENU_USE_TEXTURE>使用贴图</MENU_USE_TEXTURE>
+          <MENU_EDIT_PROJECTION_AND_SCALE>编辑投影方式以及缩放</MENU_EDIT_PROJECTION_AND_SCALE>
+ 		  <MENU_SET_TEXTURE_MASK>设置为贴图掩模</MENU_SET_TEXTURE_MASK>		  
+           <MENU_REMOVE_TEXTURE>删除单张贴图</MENU_REMOVE_TEXTURE>
+           <MENU_REMOVE_TEXTURES>删除多张贴图</MENU_REMOVE_TEXTURES>
+          <MENU_MERGE_TEXTURES>合并贴图</MENU_MERGE_TEXTURES>		  
+        </PAGE_CHUNK_TEXTURE>
+        <PAGE_CHUNK_WATCHER>
+          <SHORT_NAME>分块观察器</SHORT_NAME>
+          <LONG_NAME>分块观察器</LONG_NAME>
+          <POSITION>位置:</POSITION>
+          <CHUNK>分块:</CHUNK>
+        </PAGE_CHUNK_WATCHER>
+        <PAGE_MESSAGE_IMPL>
+          <SCRIPT_ERROR>脚本错误</SCRIPT_ERROR>
+        </PAGE_MESSAGE_IMPL>
+        <PAGE_MESSAGES>
+          <SHORT_NAME>消息</SHORT_NAME>
+          <LONG_NAME>BigWorld消息</LONG_NAME>
+        </PAGE_MESSAGES>
+        <PAGE_OBJECTS>
+          <SHORT_NAME>工具: 对象</SHORT_NAME>
+           <LONG_NAME>工具选项: 对象</LONG_NAME>
+        </PAGE_OBJECTS>
+        <PAGE_DECALS>
+          <SHORT_NAME>Decals</SHORT_NAME>
+          <LONG_NAME>Scene Decals</LONG_NAME>
+		</PAGE_DECALS>
+        <PAGE_OPTIONS_ENVIRONMENT>
+          <SHORT_NAME>环境</SHORT_NAME>
+           <LONG_NAME>环境选项</LONG_NAME>
+          <SET_SKY_FILE>设置天空文件</SET_SKY_FILE>
+          <COPY_SKY_FILE>复制天空文件</COPY_SKY_FILE>
+           <SET_TIME_OF_DAY_FILE>设置游戏时间文件</SET_TIME_OF_DAY_FILE>
+           <COPY_TIME_OF_DAY_FILE>复制游戏时间文件</COPY_TIME_OF_DAY_FILE>
+           <ADD_SKY_DOME>添加天空模型</ADD_SKY_DOME>
+           <CLEAR_SKY_DOME>清除天空模型</CLEAR_SKY_DOME>
+		   <WEATHER_PARTITION>天气系统</WEATHER_PARTITION>		   
+           <LOAD_SKY_BOX_TEXTURE>加载天空贴图</LOAD_SKY_BOX_TEXTURE>
+           <MOVE_SKY_DOME_UP>上移天空模型</MOVE_SKY_DOME_UP>
+           <MOVE_SKY_DOME_DOWN>下移天空模型</MOVE_SKY_DOME_DOWN>
+           <DELETE_SKY_DOME>删除天空模型</DELETE_SKY_DOME>
+           <EDIT_HOUR_LENGTH>编辑小时长度</EDIT_HOUR_LENGTH>
+          <ON_EDIT_START_TIME>编辑游戏开始时间</ON_EDIT_START_TIME>
+          <SET_SUN_ANGLE>设置太阳角</SET_SUN_ANGLE>
+          <SET_MOON_ANGLE>设置月亮角度</SET_MOON_ANGLE>
+          <RESET_ENVIRONMENT_ANIMATION>重设环境动画</RESET_ENVIRONMENT_ANIMATION>
+          <DELETE_ENVIRONMENT_ANIMATION_COLOR>删除环境动画颜色</DELETE_ENVIRONMENT_ANIMATION_COLOR>
+          <EDIT_ENVIRONMENT_COLOR>编辑环境颜色</EDIT_ENVIRONMENT_COLOR>
+          <EDIT_ENVIRONMENT_TIMELINE>编辑环境时间线</EDIT_ENVIRONMENT_TIMELINE>
+          <ADD_ENVIRONMENT_COLOR>添加环境颜色</ADD_ENVIRONMENT_COLOR>
+          <EDIT_ENVIRONMENT_COLOR>编辑环境颜色</EDIT_ENVIRONMENT_COLOR>
+          <EDIT_ATMOSPHERIC_COLOR>编辑大气颜色</EDIT_ATMOSPHERIC_COLOR>
+          <SET_TERRAINLOD>设置地形LOD距离。</SET_TERRAINLOD>
+        </PAGE_OPTIONS_ENVIRONMENT>
+        <PAGE_OPTIONS_GENERAL>
+           <SHORT_NAME>选项</SHORT_NAME>
+          <LONG_NAME>一般选项</LONG_NAME>
+ 		      <NEED_RESTART>这些设置需要程序重启后才会生效。</NEED_RESTART>
+        </PAGE_OPTIONS_GENERAL>
+        <PAGE_OPTIONS_HISTOGRAM>
+          <SHORT_NAME>直方图</SHORT_NAME>
+          <LONG_NAME>直方图</LONG_NAME>
+        </PAGE_OPTIONS_HISTOGRAM>
+        <PAGE_OPTIONS_NAVIGATION>
+          <SHORT_NAME>导航</SHORT_NAME>
+          <LONG_NAME>导航</LONG_NAME>
+          <OVERWRITTEN_LOCATION_MARK_TEXT>
+             确认要覆盖书签吗 &quot;%0&quot;吗?
+          </OVERWRITTEN_LOCATION_MARK_TEXT>
+           <OVERWRITTEN_LOCATION_MARK_TITLE>覆盖书签</OVERWRITTEN_LOCATION_MARK_TITLE>
+           <UNTITLED>未命名</UNTITLED>
+           <UNTITLED_D>未命名 %0</UNTITLED_D>
+        </PAGE_OPTIONS_NAVIGATION>
+        <PAGE_OPTIONS_WEATHER>
+          <SHORT_NAME>天气</SHORT_NAME>
+           <LONG_NAME>天气系统</LONG_NAME>
+		   <WEATHER_DEFAULT>（缺省）</WEATHER_DEFAULT>
+          <CLOUD_VELOCITY>云的速度</CLOUD_VELOCITY>
+          <CLOUD_VELOCITY_DESC>云在天空中移动的速度</CLOUD_VELOCITY_DESC>
+           <CLEAR_WEIGHT>晴空权重</CLEAR_WEIGHT>
+           <CLEAR_WEIGHT_DESC>晴空出现的概率（相对于其他天气而言）</CLEAR_WEIGHT_DESC>
+           <CLOUD_WEIGHTING>多云权重</CLOUD_WEIGHTING>
+           <CLOUD_WEIGHTING_DESC>多云出现的概率（相对于其他天气而言）</CLOUD_WEIGHTING_DESC>
+           <CLOUD_COVER>云块</CLOUD_COVER>
+           <CLOUD_COVER_DESC>云块的数量</CLOUD_COVER_DESC>
+           <CLOUD_COHENSION>云块密集度</CLOUD_COHENSION>
+           <CLOUD_COHENSION_DESC>云块密集程度</CLOUD_COHENSION_DESC>
+           <RAIN_WEIGHTING>降雨权重</RAIN_WEIGHTING>
+           <RAIN_WEIGHTING_DESC>降雨出现的概率（相对于其他天气而言）</RAIN_WEIGHTING_DESC>
+          <DARKNESS>黑暗度</DARKNESS>
+          <DARKNESS_DESC>整个场景最终的黑暗程度</DARKNESS_DESC>
+          <EFFECT_DROP_SIZE>降雨量</EFFECT_DROP_SIZE>
+          <EFFECT_DROP_SIZE_DESC>下雨时雨滴的大小</EFFECT_DROP_SIZE_DESC>
+           <STORM_WEIGHTING>风暴权重</STORM_WEIGHTING>
+           <STORM_WEIGHTING_DESC>风暴出现的概率（（相对于其他天气而言））</STORM_WEIGHTING_DESC>
+           <WIND_VELOCITY_X>X轴风速</WIND_VELOCITY_X>
+          <WIND_VELOCITY_X_DESC>全局风速的X分量</WIND_VELOCITY_X_DESC>
+           <WIND_VELOCITY_Z>Z轴风速</WIND_VELOCITY_Z>
+          <WIND_VELOCITY_Z_DESC>全局风速的Z分量</WIND_VELOCITY_Z_DESC>
+          <TEMPERATURE>温度</TEMPERATURE>
+          <TEMPERATURE_DESC>大气温度</TEMPERATURE_DESC>
+          <PANEL_DESC>
+            该面板允许对各种天气情况下的空间进行预览&#10;这些设置并不会被保存为空间的一部份
+          </PANEL_DESC>
+        </PAGE_OPTIONS_WEATHER>
+        <PAGE_PROJECT>
+           <SHORT_NAME>工具：空间投影</SHORT_NAME>
+           <LONG_NAME>工具选项：空间投影</LONG_NAME>
+           <FAILED_TO_CONNECT>无法连接到bwlockd，因而不能使用与之相关的功能</FAILED_TO_CONNECT>
+          <COMMIT_MESSAGE>必须在提交前输入一个信息</COMMIT_MESSAGE>
+        </PAGE_PROJECT>
+        <PAGE_PROPERTIES>
+          <SHORT_NAME>属性</SHORT_NAME>
+          <LONG_NAME>属性</LONG_NAME>
+        </PAGE_PROPERTIES>
+        <PAGE_SCENE>
+          <NEW_GROUP>新组</NEW_GROUP>
+          <ROOT>根</ROOT>
+        </PAGE_SCENE>
+        <PAGE_TERRAIN_FILTER>
+          <SHORT_NAME>工具: 过滤器</SHORT_NAME>
+           <LONG_NAME>工具选项: 地形过滤</LONG_NAME>
+          <UNKNOWN_FILTER>未知过滤器</UNKNOWN_FILTER>
+        </PAGE_TERRAIN_FILTER>
+        <PAGE_TERRAIN_HEIGHT>
+          <SHORT_NAME>工具: 高度</SHORT_NAME>
+           <LONG_NAME>工具选项: 地形高度</LONG_NAME>
+        </PAGE_TERRAIN_HEIGHT>
+        <PAGE_TERRAIN_IMPORT>
+          <SHORT_NAME>工具: 导入/导出</SHORT_NAME>
+           <LONG_NAME>工具选项: 地形导入/导出</LONG_NAME>
+        </PAGE_TERRAIN_IMPORT>
+        <PAGE_TERRAIN_MESH>
+          <SHORT_NAME>工具: 网格</SHORT_NAME>
+           <LONG_NAME>工具选项: 地形网格剪切/修补</LONG_NAME>
+        </PAGE_TERRAIN_MESH>
+        <PAGE_TERRAIN_TEXTURE>
+           <SHORT_NAME>工具: 贴图</SHORT_NAME>
+           <LONG_NAME>工具选项: 地形贴图</LONG_NAME>
+          <SIZE>大小: %0x%1</SIZE>
+           <MEMORY>内存: %0kb</MEMORY>
+           <SCALE>缩放</SCALE>
+          <ROTATION>旋转</ROTATION>
+           <LAYER_NOT_LOADED>选定的贴图层可能超出了已被载入的区域</LAYER_NOT_LOADED>
+ 		  <LAYER_NOT_WRITABLE>选定的贴图层可能超出了可写区域</LAYER_NOT_WRITABLE>
+		  <TEXTURE_NOT_WRITABLE>选定的贴图层被锁定</TEXTURE_NOT_WRITABLE>
+
+           <PAINTING_MASK>正在使用掩模绘制整个空间</PAINTING_MASK>
+
+           <PAINT_MASK>绘制贴图掩模</PAINT_MASK>
+
+          <GENERATE_UNDO_REDO_FOR_MASK>Generating undo/redo for mask paint </GENERATE_UNDO_REDO_FOR_MASK>
+
+           <LARGE_REPLACE>这将会交换%0个分块的贴图，因而需要一些时间。&#10;您想继续吗?</LARGE_REPLACE>
+          <ENTER_EDIT_MSG>正在编辑贴图投影 - 按 ESC 键取消</ENTER_EDIT_MSG>
+          <ENTER_PAINT_MSG>正在绘制贴图</ENTER_PAINT_MSG>
+          <TEXTURE_WITHOUT_ALPHA>警告! 贴图%0没有alpha通道</TEXTURE_WITHOUT_ALPHA>
+          <BUMP_TEXTURE_NOT_FOUND>找不到相关的凹凸贴图。(%0)</BUMP_TEXTURE_NOT_FOUND>
+		</PAGE_TERRAIN_TEXTURE>
+        <PANEL_MANAGER>
+          <LOAD_DEFAULT_LAYOUT_TEXT>确定要加载默认的面板布局吗？</LOAD_DEFAULT_LAYOUT_TEXT>
+          <LOAD_DEFAULT_LAYOUT_TITLE>加载默认的面板布局</LOAD_DEFAULT_LAYOUT_TITLE>
+          <LOAD_LAST_LAYOUT_TEXT>确定要加载上次保存的面板布局吗？</LOAD_LAST_LAYOUT_TEXT>
+          <LOAD_LAST_LAYOUT_TITLE>加载最近使用的面板布局</LOAD_LAST_LAYOUT_TITLE>
+        </PANEL_MANAGER>
+        <PLACEMENT_CTRLS_DLG>
+           <SHORT_NAME>对象放置</SHORT_NAME>
+           <LONG_NAME>对象放置方式</LONG_NAME>
+           <DELETE_PRESET_TEXT>确认要删除选定的放置方式吗?</DELETE_PRESET_TEXT>
+           <DELETE_PRESET_TITLE>对象放置方式</DELETE_PRESET_TITLE>
+        </PLACEMENT_CTRLS_DLG>
+      </GUI>
+      
+      <WORLDEDITOR>
+        <BIGBANG>
+          <BIG_BANG>
+             <MEMORY_LOAD> 内存负载: %0%%</MEMORY_LOAD>
+             <TRIS>三角形：%0：</TRIS>
+            <SNAP>%0, %1, %2</SNAP>
+            <SNAP_TERRAIN>0cm., T, 0cm.</SNAP_TERRAIN>
+             <SNAP_FREE>自由对齐.</SNAP_FREE>
+            <CHUNK_LOCATOR_POSITION>%0, %1, %2 %3 m: %4 pg: %5</CHUNK_LOCATOR_POSITION>
+            <LOCATOR_POSITION>%0.2f, %0.2f, %0.2f</LOCATOR_POSITION>
+            <FPS>%0 fps.</FPS>
+            <CHUNK_LOADED_WITH_DIRTY>已载入%0个分块（%1）</CHUNK_LOADED_WITH_DIRTY>
+            <CHUNK_LOADED>已载入%0个分块</CHUNK_LOADED>
+            <OPEN_SPACE_TITLE>打开空间</OPEN_SPACE_TITLE>
+            <OPEN_SPACE_TEXT>
+              世界编辑器无法打开默认空间，您想打开一个空间、创建一个空间还是退出世界编辑器？
+            </OPEN_SPACE_TEXT>
+            <OPEN_SPACE_OPEN>打开（&amp;O）</OPEN_SPACE_OPEN>
+            <OPEN_SPACE_CREATE>创建（&amp;C）</OPEN_SPACE_CREATE>
+            <OPEN_SPACE_EXIT>退出（&amp;X）</OPEN_SPACE_EXIT>
+            <CONNECT_TO_BWLOCKD_DONE>连接BigWorld加锁服务器%0 ... 完成</CONNECT_TO_BWLOCKD_DONE>
+            <CONNECT_TO_BWLOCKD_FAILED>连接BigWorld加锁服务器%0 ... 失败</CONNECT_TO_BWLOCKD_FAILED>
+             <UNABLE_TO_CONNECT>无法连接到BigWorld加锁服务器</UNABLE_TO_CONNECT>
+             <RE_STITCHING_ALL_TERRAIN_BLOCKS>正在重新缝合所有的地形块</RE_STITCHING_ALL_TERRAIN_BLOCKS>
+             <REGENERATING_THUMBNAILS>正在重新计算缩略图</REGENERATING_THUMBNAILS>
+             <REGENERATING_LODS>正在重新计算地形LOD</REGENERATING_LODS>
+             <CONVERTING_TO_ZIP>转换为ZIP文件</CONVERTING_TO_ZIP>
+            <SAVE_SCENE_DATA>正在保存场景数据</SAVE_SCENE_DATA>
+            <SAVE_THUMBNAIL_DATA>正在保存缩略图数据</SAVE_THUMBNAIL_DATA>
+            <SYNC_CLEAN_LIST>正在同步已经计算的分块列表...</SYNC_CLEAN_LIST>
+            <READ_ONLY>正在准备计算分块...</READ_ONLY>
+            <RECALC_SHADOW>正在重新计算阴影、光照和缩略图</RECALC_SHADOW>
+            <RESAVE_TERRAIN>正在重新保存所有的地形块</RESAVE_TERRAIN>
+            <SAVE_TERRAIN>正在保存地形数据</SAVE_TERRAIN>
+            <CREATING_SPACE_IMAGE>正在创建空间地图...</CREATING_SPACE_IMAGE>
+            <CREATING_LEVEL_IMAGES>正在创建分层地图...</CREATING_LEVEL_IMAGES>
+			<TOUCH_ALL_CHUNKS>正在重新计算所有分块...</TOUCH_ALL_CHUNKS>
+			<REPLACING_OBJECTS>正在替换所选物体...</REPLACING_OBJECTS>
+            <LOAD_ALL_CHUNK_LODS></LOAD_ALL_CHUNK_LODS>
+			
+            <SAVING>正在保存%0</SAVING>
+             <ERROR_SAVING_CDATA>保存到%0.cData时发生错误</ERROR_SAVING_CDATA>
+            <SAVING_CDATA>正在保存%0.cData</SAVING_CDATA>
+            <READ_ONLY_WARN_TEXT>世界编辑器以只读模式运行。您不能保存任何修改</READ_ONLY_WARN_TEXT>
+            <READ_ONLY_WARN_TITLE>只读</READ_ONLY_WARN_TITLE>
+            <QUICK_SAVING>快速保存...</QUICK_SAVING>
+            <QUICK_SAVE_ERROR_TEXT>已经保存完毕，但是在保存时遇到错误。 详细信息请参见错误报告。</QUICK_SAVE_ERROR_TEXT>
+            <QUICK_SAVE_ERROR_TITLE>保存时遇到错误</QUICK_SAVE_ERROR_TITLE>
+            <QUICK_SAVE_ERROR_COMPLETE>快速保存完成</QUICK_SAVE_ERROR_COMPLETE>
+             <CALC_LIGHTING>正在为%0计算光照 </CALC_LIGHTING>
+             <CALC_SHADOW>正在为%0计算阴影 </CALC_SHADOW>
+             <CALC_THUMBNAIL>正在为%0计算缩略图</CALC_THUMBNAIL>
+             <FULL_SAVE_ERROR_TEXT>处理数据时遇到错误。详细信息请参见错误报告。</FULL_SAVE_ERROR_TEXT>
+             <FULL_SAVE_ERROR_TITLE>处理数据时遇到错误</FULL_SAVE_ERROR_TITLE>
+            <SAVE_COMPLETE>保存完毕</SAVE_COMPLETE>
+             <SAVE_COMPLETE_WITH_DIRTY_LIGHTING>警告! 仍有未加载分块需要计算光照数据。</SAVE_COMPLETE_WITH_DIRTY_LIGHTING>
+             <SAVE_COMPLETE_WITH_DIRTY_SHADOW>警告! 仍有未加载分块需要计算地形阴影。</SAVE_COMPLETE_WITH_DIRTY_SHADOW>
+             <SAVE_COMPLETE_WITH_DIRTY_THUMBNAIL>警告! 仍有未加载分块需要计算缩略图。</SAVE_COMPLETE_WITH_DIRTY_THUMBNAIL>
+             <SAVE_COMPLETE_WITH_DIRTY_VLO_REF>警告! 仍有未加载分块需要计算VLO引用。</SAVE_COMPLETE_WITH_DIRTY_VLO_REF>
+             <SAVE_COMPLETE_WITH_DIRTY_TEXLOD>警告! 仍有未加载分块需要计算贴图LOD。</SAVE_COMPLETE_WITH_DIRTY_TEXLOD>
+            <RELOAD>重载（&amp;R）</RELOAD>
+            <INVALIDATE>重新计算所有分块（&amp;I）</INVALIDATE>
+            <TAKEPHOTOS>创建空间地图（&amp;C）</TAKEPHOTOS>
+            <CONVERT>转换（&amp;V）</CONVERT>
+	    <RESIZEMAP>调整大小（&amp;R）</RESIZEMAP>
+            <EMPTY>(空)</EMPTY>
+             <TRACK_CURSOR>%0跟随鼠标</TRACK_CURSOR>
+            <MANAGE_TEXTURE>管理贴图...</MANAGE_TEXTURE>
+            <EDIT_PROJECTION_AND_SCALE>编辑投影和缩放</EDIT_PROJECTION_AND_SCALE>
+             <MATCH_OPACITY>选择贴图和不透明度</MATCH_OPACITY>
+            <MATCH_OPACITY_ENTRY>%0 (%1%%)</MATCH_OPACITY_ENTRY>
+             <SELECT_TEXTURE>选择要绘制的贴图</SELECT_TEXTURE>
+             <SELECT_TEXTURE_FOR_MASK>选择掩模的贴图</SELECT_TEXTURE_FOR_MASK>
+ 			<SELECT_TEXTURE_AND_PROJ_FOR_MASK>选择掩模的贴图和投影方式</SELECT_TEXTURE_AND_PROJ_FOR_MASK>
+            <DESELECT_CHUNK>取消选定分块</DESELECT_CHUNK>
+             <SELECTION_CHANGE>改变选择</SELECTION_CHANGE>
+             <UNABLE_TO_OPEN_SPACE>不能打开空间%0，因为它已经被其他程序打开</UNABLE_TO_OPEN_SPACE>
+            <OK>OK</OK>
+            <CHANGE_SPACE>改变空间（&amp;H）</CHANGE_SPACE>
+            <EDIT_SPACE>编辑空间</EDIT_SPACE>
+			<CANNOT_CHANGE_SPACE>不能打开空间%0</CANNOT_CHANGE_SPACE>
+             <CANNOT_OPEN_RES>不能打开%0来保存已改变分块的列表&#10;</CANNOT_OPEN_RES>
+             <CHANGED_FILES_TITLE>场景已被修改</CHANGED_FILES_TITLE>
+            <CHANGED_FILES_TEXT>
+              场景已经被修改了。要在退出前保存修改吗？&#10;&#10;
+               注：&quot;处理数据并保存&quot;将重新计算光照和缩略图信息
+            </CHANGED_FILES_TEXT>
+            <SAVE>保存（&amp;S）</SAVE>
+            <PROCESS_AND_SAVE>处理数据并保存（&amp;P）</PROCESS_AND_SAVE>
+            <WITHOUT_SAVE>不保存直接%0</WITHOUT_SAVE>
+            <CANCEL>取消（&amp;C）</CANCEL>
+            <CONNECT_TO_BWLOCKD>正在连接BigWorld加锁服务器%0 ...</CONNECT_TO_BWLOCKD>
+            <SAVING>正在保存...</SAVING>
+            <PROPERTIES>属性...</PROPERTIES>
+            <SEE_IN_SCENE_BROWSER>在场景浏览器里打开...</SEE_IN_SCENE_BROWSER>
+            <RCLK_HIDE>隐藏</RCLK_HIDE>
+           <RCLK_UNHIDE_ALL_FILTER>显示所有选择的物件</RCLK_UNHIDE_ALL_FILTER>
+           <RCLK_UNHIDE_ALL>显示所有物件</RCLK_UNHIDE_ALL>
+            <RCLK_FREEZE>冻结</RCLK_FREEZE>
+           <RCLK_UNFREEZE_ALL_FILTER>解冻所有选择的物件</RCLK_UNFREEZE_ALL_FILTER>
+            <RCLK_UNFREEZE_ALL>解冻所有物件</RCLK_UNFREEZE_ALL>
+			  <RCLK_GENERATE_RECAST_MESH>生成 Recast 网格</RCLK_GENERATE_RECAST_MESH>
+			  <VIS_LIGHT_CONTRIBUTION>显示对之影响的动态灯</VIS_LIGHT_CONTRIBUTION>
+  			<CLEAR_LIGHT_CONTRIBUTION_VIS>不显示对之影响的动态灯</CLEAR_LIGHT_CONTRIBUTION_VIS>
+            <CREATE_SPACE>
+				<ACTION>新建空间（&amp;R）</ACTION>
+				<STAGE1>1／1：创建分块</STAGE1>
+            </CREATE_SPACE>
+			<RECREATE_SPACE>
+				<ACTION>复制当前空间（&amp;R）</ACTION>
+				<STAGE1>1／7:：创建空间目录</STAGE1>
+				<STAGE2>2／7：创建空间设定</STAGE2>
+				<STAGE3>3／7：创建分块</STAGE3>
+				<STAGE4>4／7：复制室内分块</STAGE4>
+				<STAGE5>5／7：复制节点图</STAGE5>
+				<STAGE6>6／7：复制VLO</STAGE6>
+				<STAGE7>7／7： 打包跨分块数据</STAGE7>
+				<WARNING_CLEARS_LOCALUVMAPPING_TEXTURE>为适应新的分块大小地形的贴图将被重新铺设</WARNING_CLEARS_LOCALUVMAPPING_TEXTURE>
+				<WARNING_HEIGHTMAP_RES_REDUCED>高度贴图的分辨率显著地减小了</WARNING_HEIGHTMAP_RES_REDUCED>
+				<WARNING_HOLEMAP_RES_REDUCED>镂空贴图的分辨率显著地减小了</WARNING_HOLEMAP_RES_REDUCED>
+				<WARNING_BLENDMAP_RES_REDUCED>混合贴图的分辨率显著地减小了</WARNING_BLENDMAP_RES_REDUCED>
+        <WARNING_SHADOWMAP_RES_REDUCED>阴影贴图的分辨率显著地减小了</WARNING_SHADOWMAP_RES_REDUCED>
+			</RECREATE_SPACE>
+
+       
+            <SEE_MSG_PANEL>(详情请参见消息面板)</SEE_MSG_PANEL>
+
+             <RESIZEMAPS_PROGRESS>正在改变地形混合贴图的大小</RESIZEMAPS_PROGRESS>
+
+            <WARN_NOT_LOCKED>本操作要求先锁定整个空间</WARN_NOT_LOCKED>
+            <WARN_NOT_LOCKED_CAPTION>没有锁定整个空间</WARN_NOT_LOCKED_CAPTION>
+			<UPDATE_TEXTURE_LODS>正在更新地形贴图LOD。</UPDATE_TEXTURE_LODS>
+
+             <RECALC_ERROR>分块处理时发生错误. 详情请参见消息面板</RECALC_ERROR>
+			<POST_PROCESSING_WARNING_TEXT>后处理在很多不同系统中都被使用，例如天气系统和后处理图像设置。&#10;因为你已经在后处理面板中改动过后处理链，这些系统不会更新后处理链，&#10;除非你保存或者回退你的改动。</POST_PROCESSING_WARNING_TEXT>
+            <POST_PROCESSING_WARNING_TITLE>警告-后处理面板</POST_PROCESSING_WARNING_TITLE>
+			
+			<REPLACE_WARNING_INVALID>错误的资源路径： '%0'，请提供正确的完整资源路径</REPLACE_WARNING_INVALID>
+			<REPLACE_WARNING_TITLE>世界编辑器</REPLACE_WARNING_TITLE>
+          </BIG_BANG>
+
+          <BIG_BANG_PROGRESS_BAR>
+            <ESCAPE_SAVE>按下Esc键取消</ESCAPE_SAVE>
+			<QUITTING>正在退出，请稍候</QUITTING>
+            <CANCELLING>正在取消，请稍候</CANCELLING>
+            <FINISHING>正在完成，请稍候</FINISHING>
+          </BIG_BANG_PROGRESS_BAR>
+		  
+          <CVS_WRAPPER>
+          	<CVS_WRAPPER_TITLE>版本库封装器</CVS_WRAPPER_TITLE>
+          	<CVS_WRAPPER_EXIT>退出世界编辑器（&amp;X） </CVS_WRAPPER_EXIT>
+          	<CVS_WRAPPER_CONTINUE_WITHOUT>&amp;继续（不使用版本库管理功能）</CVS_WRAPPER_CONTINUE_WITHOUT>
+           	<CVS_WRAPPER_CANNOT_FIND_STUB>版本库封装器已在option.xml里被激活，但是世界编辑器无法找到存根文件：%0</CVS_WRAPPER_CANNOT_FIND_STUB>
+           	<CVS_WRAPPER_CANNOT_EXECUTE_STUB>版本库封装器已在option.xml里被激活，但是世界编辑器无法执行存根文件：%0</CVS_WRAPPER_CANNOT_EXECUTE_STUB>
+           	<CVS_WRAPPER_CHECK_FAILED>版本库封装器已在option.xml里被激活，但是在执行存根的&quot;check&quot;命令时发生错误：%0</CVS_WRAPPER_CHECK_FAILED>
+          </CVS_WRAPPER> 
+        </BIGBANG>
+        
+       <SCENE_BROWSER>
+			<ASSET_MD_PREFIX>资源</ASSET_MD_PREFIX>
+		</SCENE_BROWSER>
+	
+        <TERRAIN>
+          <EDITOR_CHUNK_TERRAIN>
+            <FORCEDLOD>覆盖 LOD</FORCEDLOD>
+          </EDITOR_CHUNK_TERRAIN>  
+        </TERRAIN>
+        
+        <CHUNK>
+          <CHUNK_ITEM_PLACER>
+		      	<CREATE_ASSET>创建%0</CREATE_ASSET>
+             <AUTO_SNAP>自动对齐</AUTO_SNAP>
+            <CANNOT_ADD_ASSET_ON_NON_LOCKED_CHUNK>
+              不能在没有锁定的分块上添加对象。必须在空间投影模式中锁定分块后才能对其进行编辑。
+            </CANNOT_ADD_ASSET_ON_NON_LOCKED_CHUNK>
+            <CANNOT_ADD_ASSET>
+             不能添加对象。这可能是因为对象文件被损坏了，或是这一对象不能在世界编辑器中进行放置。
+            </CANNOT_ADD_ASSET>
+            <CREATE_BARRIER>创建%0</CREATE_BARRIER>
+            <ITEM_TOO_SMALL>对象至少在一个坐标轴上太小了，请检查它的包围盒</ITEM_TOO_SMALL>
+            <DELETE_BARRIER>删除%0</DELETE_BARRIER>
+            <DELETE_ITEMS_BARRIER>删除对象</DELETE_ITEMS_BARRIER>
+            <CANT_DELETE_ITEM>不能删除物件%0。 该物件可能被冻结或者无法编辑。&#10;</CANT_DELETE_ITEM>
+            <CANT_DELETE_CHUNK>不能删除分块 %0。该分块可能包括被冻结或者无法编辑的物件。&#10;</CANT_DELETE_CHUNK>
+           <HIDE_BARRIER>隐藏 %0</HIDE_BARRIER>
+            <HIDE_ITEMS_BARRIER>隐藏物件</HIDE_ITEMS_BARRIER>
+            <FREEZE_BARRIER>冻结 %0</FREEZE_BARRIER>
+            <FREEZE_ITEMS_BARRIER>冻结物件</FREEZE_ITEMS_BARRIER>
+            <WILL_BE_SCALED>%0太大了，它已被缩小了。</WILL_BE_SCALED>
+            <TARGET_NOT_WRITABLE>目标分块%0不可写。</TARGET_NOT_WRITABLE>
+            <CLONED_ITEM>复制%0</CLONED_ITEM>
+            <CLONED_ITEMS>复制物体</CLONED_ITEMS>
+            <CLONED_SELECTION>复制选中的物体</CLONED_SELECTION>			
+          </CHUNK_ITEM_PLACER>
+          <CHUNK_OVERLAPPER>
+             <FAIL_TO_LOAD>无法加载在分块上的壳体</FAIL_TO_LOAD>
+          </CHUNK_OVERLAPPER>
+          <CHUNK_PLACER>
+            <CREATE_CHUNK>创建分块%0</CREATE_CHUNK>
+            <AUTO_CLONE_CHUNK>自动复制分块%0</AUTO_CLONE_CHUNK>
+            <SHELL_ONLY>只可以为壳体保存光照模板</SHELL_ONLY>
+            <TEMPLATE_SAVED>壳体光照模板保存完毕</TEMPLATE_SAVED>
+          </CHUNK_PLACER>
+          <CHUNK_PLACER_PREFAB>
+             <SAVED_PREFAB_MSG>预制模型 %0 保存完毕</SAVED_PREFAB_MSG>
+            <LOAD_PREFAB_BARRIER>载入预制模型</LOAD_PREFAB_BARRIER>
+          </CHUNK_PLACER_PREFAB>
+          <EDITOR_CHUNK>
+            <SAVE_CHUNK_WITHOUT_DATASECTION>
+               EditorChunkCache::edSave: 试图保存一个不具有相应DataSection的分块%0!
+            </SAVE_CHUNK_WITHOUT_DATASECTION>
+            <SAVE_CHUNK_WITHOUT_LOCK>
+               EditorChunkCache::edSave: 试图保存未锁定的分块%0!
+            </SAVE_CHUNK_WITHOUT_LOCK>
+            <SAVE_CHUNK_READONLY>
+               EditorChunkCache::edSave: 试图保存只读分块%0!
+            </SAVE_CHUNK_READONLY>
+            <MOVE_CHUNK>移动分块%0</MOVE_CHUNK>
+            <IDENTIFIER>标识符</IDENTIFIER>
+            <SHELL_NAME>壳体名称</SHELL_NAME>
+            <DESCRIPTION>描述</DESCRIPTION>
+            <CHUNK_IDENTIFIER>分块标识符%0</CHUNK_IDENTIFIER>
+            <POSITION>位置</POSITION>
+            <ROTATION>旋转</ROTATION>
+            <CANNOT_OPEN_FILE>EditorChunkCache::edSaveCData: 不能打开文件&quot;%0&quot;</CANNOT_OPEN_FILE>
+            <REFLECTION_VISIBLE>显示倒影</REFLECTION_VISIBLE>
+            <SPACE_IMAGE_CREATED>空间地图已被创建到 %0 </SPACE_IMAGE_CREATED>
+			<SPACE_IMAGE_CREAT_FAILED>空间地图创建失败，请查看worldeditor.log获取具体信息 </SPACE_IMAGE_CREAT_FAILED>
+			<SPACE_EXPANDED>空间扩展成功</SPACE_EXPANDED>
+			<EXPAND_SPACE_SIZE_ERROR>输入的待扩展分块数目不正确</EXPAND_SPACE_SIZE_ERROR>
+			<EXPAND_SPACE_CDATA_ERROR>创建默认空间数据文件失败</EXPAND_SPACE_CDATA_ERROR>
+      <EXPAND_SPACE_NOT_SUPPORTED>该操作不能应用于使用简单地形的空间，请先升级成高级地形。</EXPAND_SPACE_NOT_SUPPORTED>
+      <EXPAND_SPACE_NOT_SUPPORTED_TITLE>不支持当前空间</EXPAND_SPACE_NOT_SUPPORTED_TITLE>
+          </EDITOR_CHUNK>
+          <EDITOR_CHUNK_BINDING>
+             <ED_DESCRIPTION>绑定</ED_DESCRIPTION>
+          </EDITOR_CHUNK_BINDING>
+          <EDITOR_CHUNK_ENTITY>
+            <TYPE>类型</TYPE>
+            <POSITION>位置</POSITION>
+            <DIRECTION>方向</DIRECTION>
+             <CLIENT_ONLY>仅存在于客户端</CLIENT_ONLY>
+            <LAST_SCRIPT_ERROR>最后发生的脚本错误</LAST_SCRIPT_ERROR>
+            <GRAPH>路点图</GRAPH>
+            <NODE>路点</NODE>
+            <ED_DESCRIPTION>实体%0</ED_DESCRIPTION>
+            <CANNOT_DELETE>由于该实体（guid %0）连接到的分块没有被锁定，因此无法删除该实体。</CANNOT_DELETE>
+          </EDITOR_CHUNK_ENTITY>
+		      <EDITOR_CHUNK_USER_DATA_OBJECT>
+            <TYPE>类型</TYPE>
+            <POSITION>位置</POSITION>
+            <DIRECTION>方向</DIRECTION>
+            <LAST_SCRIPT_ERROR>最后发生的脚本错误</LAST_SCRIPT_ERROR>
+            <ED_DESCRIPTION>用户数据对象%0</ED_DESCRIPTION>
+            <UNDO_DEL_ITEM>删除项目</UNDO_DEL_ITEM>
+            <CANNOT_DELETE>由于该用户数据对象（guid %0）连接到的分块没有被锁定，因此无法删除该用户数据对象。\n</CANNOT_DELETE>
+          </EDITOR_CHUNK_USER_DATA_OBJECT>
+    		  <EDITOR_ENTITY_PROXY>
+            <SET_OP>设置 %0 %1</SET_OP>
+             <BAD_ENUM>错误的枚举项 %0.%1</BAD_ENUM>
+             <UNDO_ADD_ARRAY_ITEM>添加数组成员</UNDO_ADD_ARRAY_ITEM>
+             <UNDO_DEL_ARRAY_ITEM>删除数组成员</UNDO_DEL_ARRAY_ITEM>
+             <UNDO_CLEAR_ARRAY>删除所有数组成员</UNDO_CLEAR_ARRAY>
+		      </EDITOR_ENTITY_PROXY>
+		      <EDITOR_PROPERTY_MANAGER>
+            <ADD_PROPERTY_BARRIER>为%0添加属性</ADD_PROPERTY_BARRIER>
+             <REMOVE_PROPERTY>从%0删除属性</REMOVE_PROPERTY>
+		      </EDITOR_PROPERTY_MANAGER>
+
+          <EDITOR_CHUNK_FLARE>
+            <SET_COLOUR>设置%0的颜色</SET_COLOUR>
+            <FLARE>光晕</FLARE>
+            <POSITION>位置</POSITION>
+            <COLOUR>颜色</COLOUR>
+            <MAXDISTANCE>最大距离</MAXDISTANCE>
+            <AREA>面积</AREA>
+            <FADESPEED>淡出速度</FADESPEED>
+          </EDITOR_CHUNK_FLARE>
+          <EDITOR_CHUNK_LIGHT>
+            <SET_COLOUR>设置%0的颜色</SET_COLOUR>
+            <COLOUR>颜色</COLOUR>
+            <POSITION>位置</POSITION>
+            <DIRECTION>方向</DIRECTION>
+            <STATIC>静态</STATIC>
+            <DYNAMIC>动态</DYNAMIC>
+            <SPECULAR>镜面</SPECULAR>
+            <MULTIPLIER>乘数</MULTIPLIER>
+            <INNER_RADIUS>内径</INNER_RADIUS>
+            <OUTER_RADIUS>外径</OUTER_RADIUS>
+            <CONE_ANGLE>锥形角</CONE_ANGLE>
+            <PRIORITY>优先级</PRIORITY>
+			<TIMESCALE>时间缩放</TIMESCALE>
+			<DURATION>长度</DURATION>
+			<ANIMATION>动画</ANIMATION>
+            <SET_INNER_RADIUS>设置%0的内径</SET_INNER_RADIUS>
+            <SET_OUTER_RADIUS>设置%0的外径</SET_OUTER_RADIUS>
+            <SET_COLOUR>设置%0的颜色</SET_COLOUR>
+            <SET_CONE_ANGLE>设置%0的锥形角</SET_CONE_ANGLE>
+ 	    <MODIFY_PULSE_ANIMATION>改变脉冲动画</MODIFY_PULSE_ANIMATION>
+         </EDITOR_CHUNK_LIGHT>
+          <EDITOR_CHUNK_LINK>
+            <DISCONNECT>断开连接</DISCONNECT>
+            <SWAP_DIRECTION_THIS_LINK>交换方向(当前连接)</SWAP_DIRECTION_THIS_LINK>
+             <BOTH_DIRECTION_THIS_LINK>双向(当前连接)</BOTH_DIRECTION_THIS_LINK>
+            <SWAP_DIRECTION_RUN_LINK>交换方向(整个连接)</SWAP_DIRECTION_RUN_LINK>
+             <BOTH_DIRECTION_RUN_LINK>双向(整个连接)</BOTH_DIRECTION_RUN_LINK>
+            <SPLIT>分离</SPLIT>
+            <VALIDATE>检查</VALIDATE>
+            <DELETE>删除</DELETE>
+            <DELETE_LINK>删除连接</DELETE_LINK>
+            <DELETE_ALL>全部删除</DELETE_ALL>
+             <BOTH_LINK_DIRECTION>双向连接</BOTH_LINK_DIRECTION>
+            <SWAP_LINK_DIRECTION>交换连接方向</SWAP_LINK_DIRECTION>
+          </EDITOR_CHUNK_LINK>
+          <EDITOR_CHUNK_MARK>
+            <ED_DESCRIPTION>标记</ED_DESCRIPTION>
+            <POSITION>位置</POSITION>
+            <ROTATION>旋转</ROTATION>
+            <CATEGORY>种类</CATEGORY>
+          </EDITOR_CHUNK_MARK>
+          <EDITOR_CHUNK_MARK_CLUSTER>
+             <ED_DESCRIPTION>标记群组</ED_DESCRIPTION>
+            <POSITION>位置</POSITION>
+            <NUMBER_SPAWNED>产生数字</NUMBER_SPAWNED>
+            <NUMBER_CHILDREN>子数字</NUMBER_CHILDREN>
+             <RESETTING_PARENT>重新设置父群组有效标志</RESETTING_PARENT>
+          </EDITOR_CHUNK_MARK_CLUSTER>
+		  <EDITOR_CHUNK_DECAL>
+			<POSITION>position</POSITION>
+            <ROTATION>rotation</ROTATION>
+            <SCALE>scale</SCALE>
+			<DIFF_TEXTURE>diffuse texture</DIFF_TEXTURE>
+			<BUMP_TEXTURE>bump texture</BUMP_TEXTURE>
+		  </EDITOR_CHUNK_DECAL>
+          <EDITOR_CHUNK_MODEL>
+            <DEFAULT_TINT_NAME>默认</DEFAULT_TINT_NAME>
+            <MODEL_TOO_BIG>模型过大: 已创建VLO代替</MODEL_TOO_BIG>
+            <TREE_TOO_BIG>SpeedTree过大：VLO模型不支持SpeedTree</TREE_TOO_BIG>
+            <POSITION>位置</POSITION>
+            <ROTATION>旋转</ROTATION>
+             <SCALE>缩放</SCALE>
+            <OUTSIDE_ONLY>仅存在于外部分块中</OUTSIDE_ONLY>
+             <CASTS_SHADOW>产生阴影</CASTS_SHADOW>
+            <REFLECTION_VISIBLE>显示倒影</REFLECTION_VISIBLE>
+            <ANIMATION>动画</ANIMATION>
+            <ANIMATION_SPEED>动画速度</ANIMATION_SPEED>
+            <MODEL_NAME>模型名称</MODEL_NAME>
+            <MODEL_NAMES>模型名称</MODEL_NAMES>
+            <ED_DESCRIPTION>分块</ED_DESCRIPTION>
+            <UNKNOWN_CHUNK>未知分块</UNKNOWN_CHUNK>
+            <EDIT_IN_MODEL_EDITOR>在模型编辑器中编辑...</EDIT_IN_MODEL_EDITOR>
+            <ASSET_META_DATA>资源元数据</ASSET_META_DATA>
+			<REPLACE_PROGRESS>"替换进度（%0 / %1）..."</REPLACE_PROGRESS>
+			<REPLACE_FINISHED>已替换%0个物体</REPLACE_FINISHED>
+			
+         </EDITOR_CHUNK_MODEL>
+          <EDITOR_CHUNK_PARTICLE>
+            <POSITION>位置</POSITION>
+            <ROTATION>旋转</ROTATION>
+            <PARTICLE_NAME>粒子名称</PARTICLE_NAME>
+             <REFLECTION_VISIBLE>显示倒影</REFLECTION_VISIBLE>
+            <EDIT_IN_PARTICLE_EDITOR>在粒子编辑器中编辑...</EDIT_IN_PARTICLE_EDITOR>
+            <ASSET_META_DATA>资源元数据</ASSET_META_DATA>
+          </EDITOR_CHUNK_PARTICLE>
+          <EDITOR_CHUNK_PORTAL>
+            <POSITION>位置</POSITION>
+            <LABEL>标签</LABEL>
+          </EDITOR_CHUNK_PORTAL>
+          <EDITOR_CHUNK_SOUND>
+            <THREED>3d</THREED>
+            <RESOURCE>资源</RESOURCE>
+            <POSITION>位置</POSITION>
+            <INNER_RADIUS>内径</INNER_RADIUS>
+            <OUTER_RADIUS>外径</OUTER_RADIUS>
+            <ATTENUATION>衰减</ATTENUATION>
+            <OUTSIDE_EXTRA_ATTENUATION>外部附加衰减</OUTSIDE_EXTRA_ATTENUATION>
+            <INSIDE_EXTRA_ATTENUATION>内部附加衰减</INSIDE_EXTRA_ATTENUATION>
+            <CENTRE_HOUR>中心小时</CENTRE_HOUR>
+            <INNER_HOUR>内部小时</INNER_HOUR>
+            <OUTER_HOUR>外部小时</OUTER_HOUR>
+            <LOOP>循环</LOOP>
+            <LOOP_DELAY>循环延迟</LOOP_DELAY>
+            <LOOP_DELAY_VARIANCE>循环延迟变化</LOOP_DELAY_VARIANCE>
+          </EDITOR_CHUNK_SOUND>
+          <EDITOR_CHUNK_STATION>
+            <ED_DESCRIPTION>巡逻节点</ED_DESCRIPTION>
+            <POSITION>位置</POSITION>
+            <ID>id</ID>
+            <GRAPH>路点图</GRAPH>
+            <USER_STRING>用户字符串</USER_STRING>
+            <LINK>连接</LINK>
+            <SPLIT_LINK>分离连接</SPLIT_LINK>
+            <CONNECT_TO>连接到%0</CONNECT_TO>
+          </EDITOR_CHUNK_STATION>
+          <EDITOR_CHUNK_TREE>
+            <POSITION>位置</POSITION>
+            <ROTATION>旋转</ROTATION>
+            <SCALE>缩放</SCALE>
+             <CASTS_SHADOW>计算阴影</CASTS_SHADOW>
+            <FILENAME>文件名</FILENAME>
+            <REFLECTION_VISIBLE>显示倒影</REFLECTION_VISIBLE>
+            <CHANGE_IN_SPT_CAD>(在SpeedTreeCAD中修改)</CHANGE_IN_SPT_CAD>
+			<SEED>种子</SEED>
+            <COULD_NOT_CHANGE_TREE_SEED>不能改变树的种子(SEED): %0</COULD_NOT_CHANGE_TREE_SEED>
+            <COULD_NOT_CHANGE_TREE_FILE>不能改变树文件: %0</COULD_NOT_CHANGE_TREE_FILE>
+            <ERROR_LOADING_TREE>加载树%0时遇到错误</ERROR_LOADING_TREE>
+          </EDITOR_CHUNK_TREE>
+          <EDITOR_CHUNK_VLO>
+             <ED_DESCRIPTION>%0引用</ED_DESCRIPTION>
+             <VLO_REFENRENCE>VLO引用</VLO_REFENRENCE>
+ 			<POSITION_LOCKED>不能修改对象的变换矩阵，因为它所处的一些分块是只读的。</POSITION_LOCKED>
+          </EDITOR_CHUNK_VLO>
+          <EDITOR_CHUNK_WATER>
+            <SET_FLOAT_PROPERTY>设置漂浮属性</SET_FLOAT_PROPERTY>
+             <BAD_MESH_SIZE>无效网格大小。请输入有效的网格大小。</BAD_MESH_SIZE>
+            <SET_DATA>设置数据</SET_DATA>
+            <POSITION>位置</POSITION>
+            <ORIENTATION>方向</ORIENTATION>
+            <SIZE>尺寸</SIZE>
+            <FRESNEL_CONSTANT>菲涅耳常数</FRESNEL_CONSTANT>
+            <FRESNEL_EXPONENT>菲涅耳指数</FRESNEL_EXPONENT>
+            <REFLECTION_TINT>反射色彩</REFLECTION_TINT>
+            <REFLECTION_STRENGTH>反射力度</REFLECTION_STRENGTH>
+            <REFRACTION_TINT>折射色彩</REFRACTION_TINT>
+            <REFRACTION_STRENGTH>折射力度</REFRACTION_STRENGTH>
+            <MESH_SIZE>网格大小</MESH_SIZE>
+            <CONSISTENCY>一致性</CONSISTENCY>
+            <TEXTURE_SIZE>贴图大小</TEXTURE_SIZE>
+             <SCROLL_SPEED_1_U>卷轴速度 1 U</SCROLL_SPEED_1_U>
+             <SCROLL_SPEED_1_V>卷轴速度 1 V</SCROLL_SPEED_1_V>
+             <SCROLL_SPEED_2_U>卷轴速度 2 U</SCROLL_SPEED_2_U>
+ 			<SCROLL_SPEED_2_V>卷轴速度 2 V</SCROLL_SPEED_2_V>
+             <WAVE_SCALE_U>波纹缩放 1</WAVE_SCALE_U>
+             <WAVE_SCALE_V>波纹缩放 2</WAVE_SCALE_V>
+             <DEEP_COLOUR> 深处颜色 </DEEP_COLOUR>
+             <FADE_DEPTH> 开始渐变深度 </FADE_DEPTH>
+             <FOAM_INTERSECTION> 泡沫交叉 </FOAM_INTERSECTION>
+             <FOAM_MULTIPLIER> 泡沫乘数 </FOAM_MULTIPLIER>
+             <FOAM_TILING> 泡沫平铺 </FOAM_TILING>
+             <BYPASS_DEPTH> 忽略深度 </BYPASS_DEPTH>
+             <WIND_SPEED>风速</WIND_SPEED>
+             <SURFACE_SMOOTHNESS>表面光洁度</SURFACE_SMOOTHNESS>
+             <SUN_POWER>阳光指数</SUN_POWER>
+             <SUN_SCALE>阳光强度</SUN_SCALE>
+             <FOAM_TEXTURE>泡沫贴图</FOAM_TEXTURE>
+             <REFLECTION_TEXTURE>反射贴图</REFLECTION_TEXTURE>
+             <WAVE_TEXTURE>波纹贴图</WAVE_TEXTURE>
+             <SIM_CELL_SIZE>模拟单元大小</SIM_CELL_SIZE>
+             <USE_EDGE_ALPHA>在边界上使用alpha</USE_EDGE_ALPHA>
+             <USE_CUBE_MAP>使用 cube map 反射</USE_CUBE_MAP>
+             <USE_SIMULATION>使用模拟</USE_SIMULATION>
+            <REFLECT_BOTTOM>反射底部</REFLECT_BOTTOM>
+             <VISIBILITY>可见性</VISIBILITY>
+             <ALWAYS_VISIBLE>总是可见</ALWAYS_VISIBLE>
+             <INSIDE_ONLY>仅在壳体中可见</INSIDE_ONLY>
+             <OUTSIDE_ONLY>仅在外部分块中可见</OUTSIDE_ONLY>
+          </EDITOR_CHUNK_WATER>
+          <EDITOR_CHUNK_META_DATA>
+            <POSITION>位置</POSITION>
+          </EDITOR_CHUNK_META_DATA>
+        </CHUNK>
+        
+        <HEIGHT>
+          <HEIGHT_MAP>
+             <GENERATING_TEXTURE>正在生成地形高度贴图</GENERATING_TEXTURE>
+			  <INCOMPATIBLE>此项目的高度贴图与当前空间的高度贴图不匹配，因此不能复制。</INCOMPATIBLE>
+		  </HEIGHT_MAP>
+          <HEIGHT_MODULE>
+            <IMPORT_TERRAIN>Import terrain</IMPORT_TERRAIN>
+             <MEMORY_LOAD>内存负载: %0%%</MEMORY_LOAD>
+            <CHUNK_LOADED_WITH_DIRTY>已载入%0个分块（%1）</CHUNK_LOADED_WITH_DIRTY>
+            <CHUNK_LOADED>已载入%0个分块</CHUNK_LOADED>
+          </HEIGHT_MODULE>
+        </HEIGHT>
+        
+        <IMPORT>
+          <ELEVATION_BLIT>
+             <SAVE_TERRAIN_DATA>正在为撤销/恢复操作保存地形数据</SAVE_TERRAIN_DATA>
+            <IMPORT_TERRAIN_DATA>正在导入地形数据</IMPORT_TERRAIN_DATA>
+            <EXPORT_TERRAIN_DATA>正在导出地形数据</EXPORT_TERRAIN_DATA>
+            <EXPORT_CALC_HEIGHTS>正在计算地形高度</EXPORT_CALC_HEIGHTS>
+          </ELEVATION_BLIT>
+        </IMPORT>
+        
+        <PROJECT>
+          <BIGBANGD_CONNECTION>
+             <CANNOT_RESOLVE_ADDR>BigBangdConnection::Connect(): 无法解析地址%0</CANNOT_RESOLVE_ADDR>
+            <CAMNOT_CONNECT>BigBangdConnection::Connect(): 无法建立连接, 错误为%0</CAMNOT_CONNECT>
+            <CONNECTED>已连接到bwlockd</CONNECTED>
+             <LOCK>由于%6，在%1上的%0锁定了 (%2, %3) - (%4, %5)</LOCK>
+             <UNLOCK>由于%6，在%1上的%0解锁了 (%2, %3) - (%4, %5)</UNLOCK>
+          </BIGBANGD_CONNECTION>
+          <PROJECT_MODULE>
+             <MEMORY_LOAD>内存负载: %0%%</MEMORY_LOAD>
+            <CHUNK_LOADED_WITH_DIRTY>已载入%0个分块（%1）</CHUNK_LOADED_WITH_DIRTY>
+            <CHUNK_LOADED>已载入%0个分块</CHUNK_LOADED>
+            <UNABLE_TO_CONNECT>无法连接到BigWorld加锁服务器</UNABLE_TO_CONNECT>
+            <CANNOT_LOCK>没有连接到bwlockd，因而不能进行锁定！</CANNOT_LOCK>
+            <REGION_LOCKED>已经锁定区域</REGION_LOCKED>
+             <LOCK_SELECTION_TITLE>锁定选中区域</LOCK_SELECTION_TITLE>
+             <UPDATE_FAILED>无法从CVS获得更新，请立即退出世界编辑器手工进行更新，并确保不存在冲突。&#10;	</UPDATE_FAILED>
+             <CANNOT_COMMIT>没有连接到bwlockd，因而不能进行提交！</CANNOT_COMMIT>
+            <COMMIT_CHANGES_TITLE>提交修改</COMMIT_CHANGES_TITLE>
+			<COMMITTING>正在提交...&#10;</COMMITTING>
+            <COMMIT_CHANGES_TEXT>请等待，世界编辑器正在保存并向服务器提交修改。</COMMIT_CHANGES_TEXT>
+             <CHANGES_COMMITED>修改已提交</CHANGES_COMMITED>
+            <DISCARD_LOCKS_TITLE>解锁</DISCARD_LOCKS_TITLE>
+            <DISCARD_LOCKS_TEXT>
+               请等待，世界编辑器正在从服务器中获取该区域的最新版本。
+            </DISCARD_LOCKS_TEXT>
+            <CHUNK_LOCKS_DISCARDED>取消分块锁定</CHUNK_LOCKS_DISCARDED>
+            <CHANGES_DISCARDED>取消修改</CHANGES_DISCARDED>
+            <UPDATE_SPACE_TITLE>更新空间</UPDATE_SPACE_TITLE>
+            <UPDATE_SPACE_TEXT>请等待，世界编辑器正在从服务器更新空间。</UPDATE_SPACE_TEXT>
+            <SPACE_NOT_CONTROLLED>空间不在版本控制中</SPACE_NOT_CONTROLLED>
+             <SPACE_UPDATED>空间已更新</SPACE_UPDATED>
+          </PROJECT_MODULE>
+          <SPACE_MAP>
+            <UPDATE_PROJECT_VIEW>正在更新投影视图</UPDATE_PROJECT_VIEW>
+          </SPACE_MAP>
+        </PROJECT>
+        
+        <PROPERTIES>
+          <CHUNK_EDITOR>
+            <CHUNK_IDENTIFIER>分块</CHUNK_IDENTIFIER>
+          </CHUNK_EDITOR>
+          <CHUNK_LINK_PROXY>
+            <LINK_ENTITY_TO_GRAPH>把实体连接到路点图</LINK_ENTITY_TO_GRAPH>
+            <LINK_ENTITIES_TO_GRAPH>把实体连接到路点图</LINK_ENTITIES_TO_GRAPH>
+          </CHUNK_LINK_PROXY>
+          <ITEM_EDITOR>
+            <CHUNK>分块</CHUNK>
+          </ITEM_EDITOR>
+          <ITEM_PROPERTIES>
+          	<ITEM_TOO_BIG>不能把物体在x或z方向上放大到超过%0m。</ITEM_TOO_BIG>
+          </ITEM_PROPERTIES>
+          <STATION_NODE_LINK_PROXY>
+            <LINK_ENTITY_TO_GRAPH>将实体连接到路点图</LINK_ENTITY_TO_GRAPH>
+            <LINK_NODES>连接路点</LINK_NODES>
+          </STATION_NODE_LINK_PROXY>
+		  <WEATHER_EDITOR>
+			<SPECIAL_EFFECT_FILE>特效文件
+				<TOOLTIP>使用该天气系统时在摄像机前播放的特效文件</TOOLTIP>
+			</SPECIAL_EFFECT_FILE>
+			<SUNLIGHT>阳光
+				<TOOLTIP>在根据游戏时间计算出的阳光上附加的额外色调&#10;使用增效器可以让阳光超过最大值。</TOOLTIP>
+			</SUNLIGHT>
+			<AMBIENT>环境光
+				<TOOLTIP>在根据游戏时间计算出的环境光上附加的额外色调&#10;使用增效器可以让环境光超过最大值。</TOOLTIP>
+			</AMBIENT>
+			<MULTIPLIER>增效器</MULTIPLIER>
+			<FOG>雾
+        <TOOLTIP>在根据游戏时间计算出的雾上附加的额外色调&#10;密度参数可以为场景加入额外的雾&#10;其取值范围为1.0（没有额外的雾）到5.0（浓雾）</TOOLTIP>
+			</FOG>
+			<DENSITY>密度</DENSITY>
+			<FOG_FACTOR>雾响应因子
+        <TOOLTIP>指定天空模型对于上述雾密度参数的响应程度&#10;其取值范围为0.0（天空模型不受额外雾的影响）到2.0（天空模型受到额外雾的强烈影响）</TOOLTIP>
+			</FOG_FACTOR>
+			<WIND_SPEED>风速
+				<TOOLTIP>风速（米/秒）</TOOLTIP>
+			</WIND_SPEED>
+			<WIND_GUSTINESS>阵风
+				<TOOLTIP>指定风速的随机变化</TOOLTIP>
+			</WIND_GUSTINESS>
+			<ATTENUATION>衰减
+				<TOOLTIP>每次使用发光滤镜时都会用到这个色调&#10;使用发光滤镜的次数越多，其效果受到该参数的影响就越大</TOOLTIP>
+			</ATTENUATION>
+			<NUM_PASSES>次数
+				<TOOLTIP>发光滤镜的模糊效果计算次数&#10;较大的值可以让颜色发散的范围变大，但是对性能的影响也较大</TOOLTIP>
+			</NUM_PASSES>
+			<SENSITIVITY>敏感度
+				<TOOLTIP>指定了发光滤镜对于亮色的敏感程度&#10;较小的值会让发光效果对暗色起作用从而使整个场景模糊&#10;较大的值使得发光效果只对亮色起作用。</TOOLTIP>
+			</SENSITIVITY>
+			<FILTER_WIDTH>滤镜宽度
+				<TOOLTIP>指定发光滤镜模糊核（blurring kernel）的宽度&#10;较大的值可以让颜色发散的范围变大，并且不会带来额外的性能开销&#10;使用较大的滤镜宽度和较少的次数会导致发光滤镜产生碎片状效果</TOOLTIP>
+			</FILTER_WIDTH>
+			<BLOOM_SETTINGS>发光效果设置</BLOOM_SETTINGS>
+		  </WEATHER_EDITOR>
+        </PROPERTIES>
+        
+        <TOOL>
+          <PLACEMENT_PRESETS>
+            <EDIT_PRESET>(编辑预设...)</EDIT_PRESET>
+            <NORMAL_PLACEMENT>(正常放置)</NORMAL_PLACEMENT>
+          </PLACEMENT_PRESETS>
+          <TERRAIN_FUNCTOR>
+            <CANNOT_EDITOR_UNLOCKED_TERRAIN>
+              不能编辑未锁定分块的地形。请在编辑前到空间投影模式中锁定分块。
+            </CANNOT_EDITOR_UNLOCKED_TERRAIN>
+            <TERRAIN_TEXTURE_CHANGE>地形贴图修改</TERRAIN_TEXTURE_CHANGE>
+            <UNKNOWN_FILTER>未知过滤器</UNKNOWN_FILTER>
+            <TERRAIN_HEIGHT_CHANGE>地形高度修改</TERRAIN_HEIGHT_CHANGE>
+            <TERRAIN_HOLE_CHANGE>顶点地形修改</TERRAIN_HOLE_CHANGE>
+            <SELECTED_FILTER>选定的过滤器%0: %0</SELECTED_FILTER>
+          </TERRAIN_FUNCTOR>
+        </TOOL>
+        
+      </WORLDEDITOR>
+
+      <TERRAIN>
+        <TERRAIN_HEIGHT_FILTER_FUNCTOR>
+          <SELECT_FILDER>选择过滤器 %0：%1</SELECT_FILDER>
+        </TERRAIN_HEIGHT_FILTER_FUNCTOR>
+      </TERRAIN>
+    </WORLDEDITOR>
+    
+    <CHUNK>
+      <EDITOR>
+        <EDITOR_CHUNK_ITEM>
+          <UNKNOWN>未知</UNKNOWN>
+          <ED_DESCRIPTION>%0 项目</ED_DESCRIPTION>
+          <ED_DESCRIPTION_WITH_LABEL>%0 项目 &apos;%1&apos;</ED_DESCRIPTION_WITH_LABEL>
+        </EDITOR_CHUNK_ITEM>
+      </EDITOR>
+      
+      <FRAMEWORK>
+        <CHUNK_LINK>
+          <NO_START_ITEM>没有开始项目</NO_START_ITEM>
+          <NO_END_ITEM>没有结束项目</NO_END_ITEM>
+          <DIRECTION_IS_NONE>没有方向</DIRECTION_IS_NONE>
+          <NODES_IN_DIFFERENT_GRAPH>不同路点图中的路点</NODES_IN_DIFFERENT_GRAPH>
+          <LINK_NOT_IN_CHUNK>连接不在分块中</LINK_NOT_IN_CHUNK>
+        </CHUNK_LINK>
+      </FRAMEWORK>
+      
+      <INHABITANTS>
+        <CHUNK_STATIONNODE>
+          <INVALID_ID>无效标识符</INVALID_ID>
+          <NOT_CONNECTED_TO_GRAPH>没有连接到路点图</NOT_CONNECTED_TO_GRAPH>
+          <LINK_SIZE_UNEQUAL>links_.size() != preloadLinks_.size()</LINK_SIZE_UNEQUAL>
+          <NOT_MATCH_END_ITEM>连接不能匹配结束项目</NOT_MATCH_END_ITEM>
+          <PRELOAD_IS_MISSING_LINK>预加载缺少连接</PRELOAD_IS_MISSING_LINK>
+          <LINK_PRELOAD_WRONG_DIRECTION>连接方向!= 预加载方向</LINK_PRELOAD_WRONG_DIRECTION>
+          <LINK_IN_PRELOAD_NOT_IN_LINK>预加载连接不在连接列表中</LINK_IN_PRELOAD_NOT_IN_LINK>
+          <NODE_NOT_REGISTER_TO_GRAPH>路点没有在路点图中注册</NODE_NOT_REGISTER_TO_GRAPH>
+          <NODE_NOT_IN_CHUNK>路点不在分块中</NODE_NOT_IN_CHUNK>
+        </CHUNK_STATIONNODE>
+        <STATION_GRAPH>
+          <NODE_SIZE_UNEQUAL>edNodes_.size() != nodes_.size()</NODE_SIZE_UNEQUAL>
+        </STATION_GRAPH>
+      </INHABITANTS>
+      
+    </CHUNK>
+    
+    <ROMP>
+      <WATER>
+        <WATER>
+          <TOO_MANY_VERTICES>
+            警告! 水的表面包含过多的顶点, 请增加&quot;网格尺寸&quot; 参数
+          </TOO_MANY_VERTICES>
+        </WATER>
+      </WATER>
+    </ROMP>
+
+    <SCRIPT>
+      <PATROL_NODE_PY>
+        <SPLIT_LINK>连接分段</SPLIT_LINK>
+        <SWAP_LINK_DIRECTION>更改连接方向</SWAP_LINK_DIRECTION>
+        <BOTH_DIRECTIONS>双向</BOTH_DIRECTIONS>
+        <SWAP_LINK_DIRECTION_RUN_OF_LINKS>更改连接方向（所有连接）</SWAP_LINK_DIRECTION_RUN_OF_LINKS>
+        <BOTH_DIRECTIONS_RUN_OF_LINKS>双向（所有连接）</BOTH_DIRECTIONS_RUN_OF_LINKS>
+      </PATROL_NODE_PY>
+      <PLATFORM_NODE_PY>
+        <SPLIT_LINK>连接分段</SPLIT_LINK>
+        <SWAP_LINK_DIRECTION>更改连接方向</SWAP_LINK_DIRECTION>
+        <SWAP_LINK_DIRECTION_RUN_OF_LINKS>更改连接方向（所有连接）</SWAP_LINK_DIRECTION_RUN_OF_LINKS>
+      </PLATFORM_NODE_PY>
+      <WORLD_EDITOR_DIRECTOR_PY>
+        <ERROR_INIT_POSTPROCESSING>在初始化后处理时发生以下错误：%0</ERROR_INIT_POSTPROCESSING>
+        <ERROR_INIT_GAMEDATA>在初始化GameData时发生以下错误：%0</ERROR_INIT_GAMEDATA>
+        <FAILED_TO_CHANGE_PP_CHAIN>无法修改该后处理链，因为它已经在后处理面板中被修改了。在修改前请先保存或是放弃原有的修改。</FAILED_TO_CHANGE_PP_CHAIN>
+        <ENABLE_DRAG_ON_SELECT>激活选中后直接移动</ENABLE_DRAG_ON_SELECT>
+        <DISABLE_DRAG_ON_SELECT>禁止选中后直接移动</DISABLE_DRAG_ON_SELECT>
+        <ENTER_SNAP_MODE>激活%0对齐模式</ENTER_SNAP_MODE>
+        <LIGHTING_MODE>光照模式：%0</LIGHTING_MODE>
+        <ENABLE_OBJECT_GRID_SNAP>激活栅格对齐</ENABLE_OBJECT_GRID_SNAP>
+        <DISABLE_OBJECT_GRID_SNAP>禁止栅格对齐</DISABLE_OBJECT_GRID_SNAP>
+        <DRAW_CUSTOM_BSP>绘制自定义BSP (%0)</DRAW_CUSTOM_BSP>
+        <NORMAL_DRAW_MODE>普通绘制模式</NORMAL_DRAW_MODE>
+        <DRAW_CUSTOM_BSP_NONE>未选中任何模型</DRAW_CUSTOM_BSP_NONE>
+        <DRAW_CUSTOM_BSP_SPEEDTREES>已选中SpeedTree</DRAW_CUSTOM_BSP_SPEEDTREES>
+        <DRAW_CUSTOM_BSP_OTHERMODELS>已选中其他模型</DRAW_CUSTOM_BSP_OTHERMODELS>
+        <DRAW_CUSTOM_BSP_ALL>选中所有模型</DRAW_CUSTOM_BSP_ALL>
+        <REFERENCE_COORDINATE_SYSTEM>参考坐标系：%0</REFERENCE_COORDINATE_SYSTEM>
+        <TOOL_SIZE>工具大小 %0</TOOL_SIZE>
+        <TOOL_STRENGTH>工具强度 %0</TOOL_STRENGTH>
+        <NEW_CAMERA_SPEED>摄像机移动速度：%0</NEW_CAMERA_SPEED>
+        <ENTER_WALK_THROUGH_MODE>进入玩家预览模式</ENTER_WALK_THROUGH_MODE>
+        <ENTER_FREE_SNAP_MODE>进入无对齐模式</ENTER_FREE_SNAP_MODE>
+        <ENTER_TERRAIN_SNAP_MODE>进入地形对齐模式</ENTER_TERRAIN_SNAP_MODE>
+        <ENTER_OBSTACLE_SNAP_MODE>进入物体对齐模式</ENTER_OBSTACLE_SNAP_MODE>
+        <UNKNOWN_SNAP_MODE>未知对齐模式</UNKNOWN_SNAP_MODE>
+        <ENTERED_TERRAIN_TEXTURE_MODE>进入地形贴图模式</ENTERED_TERRAIN_TEXTURE_MODE>
+        <ENTERED_TERRAIN_HEIGHT_MODE>进入地形高度模式</ENTERED_TERRAIN_HEIGHT_MODE>
+        <ENTERED_TERRAIN_FILTER_MODE>进入地形过滤模式</ENTERED_TERRAIN_FILTER_MODE>
+        <ENTERED_TERRAIN_HOLE_MODE>进入地形镂空模式</ENTERED_TERRAIN_HOLE_MODE>
+        <ENTERED_OBJECT_MODE>进入对象模式</ENTERED_OBJECT_MODE>
+        <ENTERED_PROJECT_MODE>进入投影模式</ENTERED_PROJECT_MODE>
+        <ENTERED_HEIGHT_MODE>进入高度模式</ENTERED_HEIGHT_MODE>
+        <MODE_NOT_IMPLEMENTED>模式 %0 尚未被实现</MODE_NOT_IMPLEMENTED>
+        <ADDED>添加了 %0</ADDED>
+        <COULD_NOT_CREATE_DATA_SECTION>无法创建 data section</COULD_NOT_CREATE_DATA_SECTION>
+        <COULD_NOT_OPEN_MODEL_FILE>无法打开模型文件，壳体未被添加</COULD_NOT_OPEN_MODEL_FILE>
+        <MODEL_IS_NODEFULL>警告：该模型具有节点，因而壳体不会受到静态光照的影响</MODEL_IS_NODEFULL>
+        <RECREATE_CHUNKS>重新创建分块</RECREATE_CHUNKS>
+        <CLONED_SELECTION>已经复制了选中的物体</CLONED_SELECTION>
+        <NO_MATCHING_PORTALS>没有匹配的入口</NO_MATCHING_PORTALS>
+        <NORMAL_MAP_NOT_FOUND>找不到静态贴花的法线贴图。将会创建一个反射贴花。（文件名：%0）</NORMAL_MAP_NOT_FOUND>
+	  </WORLD_EDITOR_DIRECTOR_PY>
+      <ACTIONS_PY>
+        <EXECUTE_NOT_IMPLEMENTED>%0 尚未被实现</EXECUTE_NOT_IMPLEMENTED>
+        <NOTHING_SELECTED>没有选中任何壳体</NOTHING_SELECTED>
+      </ACTIONS_PY>
+      <UIEXT_PY>
+        <UNDOING>撤销：%0</UNDOING>
+        <REDOING>恢复：%0</REDOING>
+        <NOTHING_SELECTED>没有选中任何壳体</NOTHING_SELECTED>
+        <UNABLE_TO_OPEN_LOCAL_DIRECTORY>无法打开本地目录 %0</UNABLE_TO_OPEN_LOCAL_DIRECTORY>
+        <UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>无法创建 space.localsettings</UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>
+        <CAMERA_POSITION_SAVED>摄像机位置保存完毕</CAMERA_POSITION_SAVED>
+        <UNABLE_TO_OPEN_SPACE_SETTINGS>无法创建space.settings</UNABLE_TO_OPEN_SPACE_SETTINGS>
+        <START_POSITION_SET_TO_CAMERA_POSITION>已经把开始位置设为摄像机位置</START_POSITION_SET_TO_CAMERA_POSITION>
+        <UMBRA_NOT_INCLUDED>该可执行文件没有包含 Umbra。</UMBRA_NOT_INCLUDED>
+        <UNHIDE_ALL_OBJECTS>取消隐藏所有物体</UNHIDE_ALL_OBJECTS>
+        <UNHIDE_ALL_SELECTABLE_OBJECTS>取消隐藏所有能被选中的物体</UNHIDE_ALL_SELECTABLE_OBJECTS>
+        <UNFREEZE_ALL_OBJECTS>解冻所有物体</UNFREEZE_ALL_OBJECTS>
+        <UNFREEZE_ALL_SELECTABLE_OBJECTS>解冻所有能被选中的物体</UNFREEZE_ALL_SELECTABLE_OBJECTS>
+      </UIEXT_PY>
+      <SPACEIMAGECREATOR_PY>
+	<IMAGE_SIZE_TOO_SMALL>	指定的尺寸太小，没有空间地图生成。	</IMAGE_SIZE_TOO_SMALL>
+      </SPACEIMAGECREATOR_PY>        
+      <UIADAPTER_PY>
+        <CLICK_NOT_IMPLEMENTED>点击 %0 尚未被实现</CLICK_NOT_IMPLEMENTED>
+        <ADJUST_NOT_IMPLEMENTED>调整 %0 尚未被实现 %1 &lt; %2 &lt; %3</ADJUST_NOT_IMPLEMENTED>
+        <TOGGLE_NOT_IMPLEMENTED>切换 %0 尚未被实现。值为 %1</TOGGLE_NOT_IMPLEMENTED>
+        <SELECT_NOT_IMPLEMENTED>选择 %0 尚未被实现。选择为 %1</SELECT_NOT_IMPLEMENTED>
+        <EVENT_NOT_IMPLEMENTED>通用事件（%0, %1）尚未被实现</EVENT_NOT_IMPLEMENTED>
+        <ITEM_NOT_IMPLEMENTED>%0 浏览项(%1) 选择尚未被实现</ITEM_NOT_IMPLEMENTED>
+        <LIST_ITEM_NOT_IMPLEMENTED>%0 列表项[%1] 选择尚未被实现</LIST_ITEM_NOT_IMPLEMENTED>
+        <SELECTION_FILTER>选择类型：%0</SELECTION_FILTER>
+        <REFERENCE_COORDINATE_SYSTEM>参考坐标系：%0</REFERENCE_COORDINATE_SYSTEM>
+        <UNABLE_TO_OPEN_LOCAL_DIRECTORY>无法打开本地目录 %0</UNABLE_TO_OPEN_LOCAL_DIRECTORY>
+        <UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>无法创建 space.localsettings</UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>
+        <CAMERA_POSITION_SAVED>摄像机位置保存完毕</CAMERA_POSITION_SAVED>
+        <UNABLE_TO_OPEN_SPACE_SETTINGS>无法创建 space.settings</UNABLE_TO_OPEN_SPACE_SETTINGS>
+        <START_POSITION_SET_TO_CAMERA_POSITION>已经把开始位置设为摄像机位置</START_POSITION_SET_TO_CAMERA_POSITION>
+		<FILTER_LIST>
+			<ALL>全部</ALL>
+			<All_EXCEPT_TERRAIN_AND_SHELLS>地形和壳以外的全部</All_EXCEPT_TERRAIN_AND_SHELLS>
+			<SHELL_CONTENTS>壳 + 内容</SHELL_CONTENTS>
+			<ALL_LIGHTS>所有光源</ALL_LIGHTS>
+			<OMNI_LIGHTS>全向光源</OMNI_LIGHTS>
+			<AMBIENT_LIGHTS>环境光源</AMBIENT_LIGHTS>
+			<DIRECTIONAL_LIGHTS>定向光源</DIRECTIONAL_LIGHTS>
+			<PULSE_LIGHTS>脉冲光源</PULSE_LIGHTS>
+			<SPOT_LIGHTS>点光源</SPOT_LIGHTS>
+			<MODELS>模型</MODELS>
+			<TREES>树</TREES>
+			<ENTITIES>实体</ENTITIES>
+			<CLUSTERS_AND_MARKERS>簇和标记</CLUSTERS_AND_MARKERS>
+			<PARTICLES>粒子</PARTICLES>
+			<WAYPOINT_STATIONS>导航节点</WAYPOINT_STATIONS>
+			<TERRAIN>地形</TERRAIN>
+			<SOUNDS>声音</SOUNDS>
+			<WATER>水</WATER>
+			<PORTALS>入口</PORTALS>
+			<USER_DATA_OBJECTS>用户数据对象</USER_DATA_OBJECTS>
+			<HIDDEN_OBJECTS>隐藏的对象</HIDDEN_OBJECTS>
+			<FROZEN_OBJECTS>冻结的对象</FROZEN_OBJECTS>
+		</FILTER_LIST>
+      </UIADAPTER_PY>
+      <ECOTYPES_PY>
+        <FINISHED_CALC_ECOTYPES>已经重新计算了花草</FINISHED_CALC_ECOTYPES>
+      </ECOTYPES_PY>
+      <POST_PROCESSING_UI_ADAPTER_PY>
+        <FAILED_LOADING_CHAIN>无法载入后处理链 %0.</FAILED_LOADING_CHAIN>
+        <FAILED_REMOVING_CHAIN>无法删除后处理链 %0.</FAILED_REMOVING_CHAIN>
+        <CHAIN_SAVED_TO>后处理链保存为 %0.</CHAIN_SAVED_TO>
+        <FAILED_SAVING_CHAIN>无法保存后处理链 %0.</FAILED_SAVING_CHAIN>
+      </POST_PROCESSING_UI_ADAPTER_PY>
+      <TERRAIN_UI_ADAPTER>
+        <UNKNOWN_TAB>未知面板 %0</UNKNOWN_TAB>
+      </TERRAIN_UI_ADAPTER>
+      <PROGRESS_BAR_MSG>
+        <CREATING_LEVEL_IMAGES>正在创建分层地图...</CREATING_LEVEL_IMAGES>
+        <CREATING_SPACE_MAP>正在创建空间地图...</CREATING_SPACE_MAP>
+      </PROGRESS_BAR_MSG>
+    </SCRIPT>
+	</zh_cn>
+</root>
+

@@ -1,0 +1,141 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	phong1	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	0.000000 0.000000 0.000000	</min>
+		<max>	1.200000 0.400000 0.600000	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.100000 0.300000 0.000000	</point>
+			<point>	0.200000 0.300000 0.000000	</point>
+			<point>	0.200000 0.200000 -0.000000	</point>
+			<point>	0.100000 0.200000 -0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.300000 0.300000 0.000000	</point>
+			<point>	0.400000 0.300000 0.000000	</point>
+			<point>	0.400000 0.200000 -0.000000	</point>
+			<point>	0.300000 0.200000 -0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.200000 0.500000 0.000000	</point>
+			<point>	0.300000 0.500000 0.000000	</point>
+			<point>	0.300000 0.400000 -0.000000	</point>
+			<point>	0.200000 0.400000 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 -0.000000 -0.000000	</normal>
+		<d>	-1.200000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.100000 -0.100000 0.000000	</point>
+			<point>	0.300000 -0.100000 0.000000	</point>
+			<point>	0.300000 -0.400000 0.000000	</point>
+			<point>	0.100000 -0.400000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	0.000000 0.000000 1.000000	</uAxis>
+			<point>	0.100000 1.100000 -0.000000	</point>
+			<point>	0.500000 1.100000 -0.000000	</point>
+			<point>	0.500000 0.100000 -0.000000	</point>
+			<point>	0.100000 0.100000 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 -0.000000	</normal>
+		<d>	-0.400000	</d>
+		<portal>
+			<uAxis>	0.000000 0.000000 1.000000	</uAxis>
+			<point>	0.400000 -0.300000 0.000000	</point>
+			<point>	0.500000 -0.300000 0.000000	</point>
+			<point>	0.500000 -0.900000 0.000000	</point>
+			<point>	0.400000 -0.900000 0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	0.000000 0.000000 1.000000	</uAxis>
+			<point>	0.100000 -1.000000 0.000000	</point>
+			<point>	0.300000 -1.000000 0.000000	</point>
+			<point>	0.300000 -1.100000 0.000000	</point>
+			<point>	0.100000 -1.100000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	0.000000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	0.100000 0.200000 0.000000	</point>
+			<point>	0.300000 0.200000 0.000000	</point>
+			<point>	0.300000 0.000000 0.000000	</point>
+			<point>	0.100000 0.000000 0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	0.400000 0.300000 0.000000	</point>
+			<point>	0.600000 0.300000 0.000000	</point>
+			<point>	0.600000 0.000000 0.000000	</point>
+			<point>	0.400000 0.000000 0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	0.700000 0.400000 0.000000	</point>
+			<point>	0.900000 0.400000 0.000000	</point>
+			<point>	0.900000 0.000000 0.000000	</point>
+			<point>	0.700000 0.000000 0.000000	</point>
+		</portal>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	1.000000 0.200000 0.000000	</point>
+			<point>	1.100000 0.200000 0.000000	</point>
+			<point>	1.100000 0.100000 0.000000	</point>
+			<point>	1.000000 0.100000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.000000 -1.000000	</normal>
+		<d>	-0.600000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	0.200000 -0.200000 0.000000	</point>
+			<point>	1.100000 -0.200000 0.000000	</point>
+			<point>	1.100000 -0.300000 0.000000	</point>
+			<point>	0.200000 -0.300000 0.000000	</point>
+		</portal>
+	</boundary>
+	<customHull>	false	</customHull>
+</root>

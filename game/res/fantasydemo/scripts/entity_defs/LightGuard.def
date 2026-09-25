@@ -1,0 +1,53 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch>	20	</pitch>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<modelNumber>
+			<Type>			UINT16				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		0					</Default>
+		</modelNumber>
+
+		<patrolNode>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		-1					</Default>
+		</patrolNode>
+
+		<controllerId>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</controllerId>
+
+		<patrolListIndex>
+			<Type>			INT16				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+		</patrolListIndex>
+
+		<nextPos>
+			<Type>			VECTOR3				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</nextPos>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

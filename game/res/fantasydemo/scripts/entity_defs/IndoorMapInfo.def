@@ -1,0 +1,59 @@
+<root>
+	<Properties>		
+		<radius>
+			<Type>		FLOAT			</Type>
+			<!-- this property uses the RADIUS widget to enable interaction with
+			the radius gizmo in World Editor. This same result could be achieved
+			by using the type RADIUS defined in alias.xml, without needing to
+			define the widget here. -->			
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	2	</gizmoRadius>
+			</Widget>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	100.0			</Default>
+			<Editable>	true			</Editable>
+		</radius>		
+		<mapName>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+		</mapName>
+		<worldMapWidth>
+			<Type>		FLOAT			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1000.0			</Default>
+			<Editable>	true			</Editable>
+		</worldMapWidth>
+		<worldMapHeight>
+			<Type>		FLOAT			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	1000.0			</Default>
+		</worldMapHeight>
+		<worldMapAnchor>
+			<Type>		VECTOR2			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	0.0 0.0			</Default>
+		</worldMapAnchor>
+		<minimapRange>
+			<Type>		FLOAT			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	75.0			</Default>
+		</minimapRange>
+		<minimapRotate>
+			<Type>		BOOL			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	1			</Default>
+		</minimapRotate>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

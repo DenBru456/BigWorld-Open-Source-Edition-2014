@@ -1,0 +1,23 @@
+excludePathPatterns \.swp$
+excludePathPatterns \.svn
+excludePathPatterns \.nfs
+excludePathPatterns /\.
+excludePathPatterns svn-commit\.tmp
+
+add game/bin/server/%{platform_config}/tools/bwmachined2,%{bwmachined_sbin_file},550
+addConfig game/tools/bigworld/server/rpm/bwmachined/bwmachined.conf,%{_sysconfdir}/bwmachined.conf,744
+
+# The init.d script and a link to it
+add game/tools/bigworld/server/install/bwmachined2.sh,%{bwmachined_initd_file},554
+link %{bwmachined_initd_file},%{_initrddir}/%{bwmachined_name},554
+filter %{bwmachined_initd_file} |sed s#^SBINDIR=.*#SBINDIR=%{bwmachined_sbin_dir}#
+
+dir %{bwmachined_sbin_dir},544
+dir %{bwmachined_initd_dir},544
+dir %{bwmachined_dir},544
+
+dir %{bigworld_dir},555
+dir %{bigworld_current_dir},555
+dir /opt/bigworld,555
+
+link %{bwmachined_dir},%{bigworld_current_dir}/bwmachined,0555

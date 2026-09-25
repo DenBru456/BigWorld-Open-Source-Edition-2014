@@ -1,0 +1,37 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_explosion.xml  </ParticleSystem>
+	</Actor>
+
+	<Actor> light
+		<Light>
+			<innerRadius>	20		</innerRadius>
+			<outerRadius>	80		</outerRadius>
+			<colour>	384 512 512 512 </colour>
+			<priority>		1		</priority>
+		</Light>
+	</Actor>
+
+
+	<Joint>	light
+		<LightSource/>
+	</Joint>
+		
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>
+
+
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	
+	<Event> light
+		<Fade>
+			<time>	0.25	</time>
+		</Fade>
+	</Event>
+
+
+</SFXFile>

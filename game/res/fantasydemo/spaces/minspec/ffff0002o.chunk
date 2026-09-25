@@ -1,0 +1,105 @@
+<ffff0002o.chunk>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	ffff0002o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<resource>	sets/minspec/props/rock_medium/model/rock_medium.model	</resource>
+		<transform>
+			<row0>	-3.711393 0.000000 -0.220893	</row0>
+			<row1>	0.000000 3.717960 0.000000	</row1>
+			<row2>	0.220893 0.000000 -3.711393	</row2>
+			<row3>	99.172531 102.398849 24.233032	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/rock_medium-0	</lighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/shipwreck/model/shipwreck.model	</resource>
+		<transform>
+			<row0>	0.836502 0.410579 0.741521	</row0>
+			<row1>	-0.513471 1.074368 -0.015634	</row1>
+			<row2>	-0.674371 -0.308742 0.931701	</row2>
+			<row3>	92.245750 108.992561 16.611420	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<lighting>	lighting/shipwreck-0	</lighting>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1287098226	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1287098328	</modified_on>
+		</metaData>
+		<type>	PlatformNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	79.890816 107.917763 57.156540	</row3>
+		</transform>
+		<guid>	D457368A.474F2B23.BAB637AC.F086C522	</guid>
+		<properties>
+			<links>
+				<item>
+					<guid>	D0062623.492DCE09.47713D98.7BDACDCD	</guid>
+					<chunkId>	fffe0004o	</chunkId>
+				</item>
+			</links>
+			<approachAcceleration>	4.000000	</approachAcceleration>
+			<waitTime>	5.000000	</waitTime>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	435C16FC.47088179.4C5A38B3.2C96F801	</guid>
+				<chunkId>	00000002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	524D3245.4F1E3569.8FB0EABA.715908C4	</guid>
+		<type>	Flock	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 0.999999	</row2>
+			<row3>	91.034698 135.768768 24.120544	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	ffff0002o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</ffff0002o.chunk>

@@ -1,0 +1,358 @@
+global proc shelf_BigWorld () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Export BigWorld Asset" 
+        -enableBackground 0
+        -align "center" 
+        -label "Export BigWorld Asset" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "export_bigworld.bmp" 
+        -image1 "export_bigworld.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Export BigWorld Asset\nimport bw_export_asset\nbw_export_asset.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Add Standard Portal" 
+        -enableBackground 0
+        -align "center" 
+        -label "Add Standard Portal" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "standard_portal.bmp" 
+        -image1 "standard_portal.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Add Standard Portal\nimport bw_create_standard_portal\nbw_create_standard_portal.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Add Exit Portal" 
+        -enableBackground 0
+        -align "center" 
+        -label "Add Exit Portal" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "exit_portal.bmp" 
+        -image1 "exit_portal.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Add Exit Portal\nimport bw_create_exit_portal\nbw_create_exit_portal.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Add Heaven Portal" 
+        -enableBackground 0
+        -align "center" 
+        -label "Add Heaven Portal" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "heavenly_portal.bmp" 
+        -image1 "heavenly_portal.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Add Heaven Portal\nimport bw_create_heaven_portal\nbw_create_heaven_portal.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Add Custom BSP" 
+        -enableBackground 0
+        -align "center" 
+        -label "Add Custom BSP" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "add_bsp.bmp" 
+        -image1 "add_bsp.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Add Custom BSP\nimport bw_add_bsp\nbw_add_bsp.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Add Custom Hull" 
+        -enableBackground 0
+        -align "center" 
+        -label "Add Custom Hull" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "add_hull.bmp" 
+        -image1 "add_hull.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Add Custom Hull\nimport bw_add_customhull\nbw_add_customhull.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Add Hard Point" 
+        -enableBackground 0
+        -align "center" 
+        -label "Add Hard Point" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "add_hardpoint.bmp" 
+        -image1 "add_hardpoint.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Attach Hard Point\nimport bw_add_hardpoint\nbw_add_hardpoint.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Munge vertex normals" 
+        -enableBackground 0
+        -align "center" 
+        -label "Munge vertex normals" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "munge_normals.bmp" 
+        -image1 "munge_normals.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Munge Vertex Normals\nimport bw_munge_normals\nbw_munge_normals.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Add Hitboxes" 
+        -enableBackground 0
+        -align "center" 
+        -label "Add Hitboxes" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "add_hitboxes.bmp" 
+        -image1 "add_hitboxes.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Add Hitboxes\nimport maya.cmds as cmds\nimport bw_add_hitbox\nbw_add_hitbox.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Export Skeleton Collider" 
+        -enableBackground 0
+        -align "center" 
+        -label "Export Skeleton Collider" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "create_skelton_collider.bmp" 
+        -image1 "create_skelton_collider.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Export Skeleton Collider\nimport bw_create_skeleton_collider\nbw_create_skeleton_collider.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Object Divider" 
+        -enableBackground 0
+        -align "center" 
+        -label "Object Divider" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "object_divider.bmp" 
+        -image1 "object_divider.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Object Divider\nimport bw_object_divider\nimport maya.cmds as cmds\nbw_object_divider.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Export Prefab" 
+        -enableBackground 0
+        -align "center" 
+        -label "Export Prefab" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "export_prefab.bmp" 
+        -image1 "export_prefab.bmp" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Export Prefab\nimport bw_export_prefab\nbw_export_prefab.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Modify Resource Paths" 
+        -enableBackground 0
+        -align "center" 
+        -label "Modify Resource Paths" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "path_write.png" 
+        -image1 "path_write.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Modify Resource Paths\nimport bw_modify_res_paths\nbw_modify_res_paths.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Verify Texture Paths" 
+        -enableBackground 0
+        -align "center" 
+        -label "Verify Texture Paths" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.25 
+        -image "path_validate.png" 
+        -image1 "path_validate.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "# Launcher for Verify Texture Paths\nimport bw_verify_file_paths\nbw_verify_file_paths.main()\n" 
+        -sourceType "python" 
+        -commandRepeatable 1
+    ;
+
+} 

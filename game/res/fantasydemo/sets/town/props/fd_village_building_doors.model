@@ -1,0 +1,55 @@
+<fd_village_building_doors.model>
+	<action>
+		<name>	village_doors_closed	</name>
+		<animation>	village_doors_closed	</animation>
+	</action>
+	<action>
+		<name>	village_doors_closing	</name>
+		<animation>	village_doors_closing	</animation>
+	</action>
+	<action>
+		<name>	village_doors_open	</name>
+		<animation>	village_doors_open	</animation>
+	</action>
+	<action>
+		<name>	village_doors_opening	</name>
+		<animation>	village_doors_opening	</animation>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.726179 -0.052835 -1.405970	</min>
+		<max>	1.654969 2.928277 -0.004863	</max>
+	</visibilityBox>
+	<nodefullVisual>	sets/town/props/fd_village_building_doors	</nodefullVisual>
+	<animation>
+		<name>	village_doors_opening	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/village_doors_opening	</nodes>
+	</animation>
+	<animation>
+		<name>	village_doors_open	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/village_doors_opening	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	45	</lastFrame>
+	</animation>
+	<animation>
+		<name>	village_doors_closing	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/village_doors_opening	</nodes>
+		<firstFrame>	45	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+	</animation>
+	<animation>
+		<name>	village_doors_closed	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/village_doors_opening	</nodes>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+	</animation>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1269845273	</modified_on>
+	</metaData>
+</fd_village_building_doors.model>

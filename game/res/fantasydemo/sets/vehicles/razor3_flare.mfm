@@ -1,0 +1,20 @@
+<razor3_flare.mfm>
+	<fx>	shaders/std_effects/lightonly_normal_add.fx	</fx>
+	<property>	selfIllumination
+		<Float>	1.0	</Float>
+	</property>
+	<property>	uTransform
+		<Vector4>	1.0 0.0 0.0 0.0	</Vector4>
+	</property>
+	<property>	vTransform
+		<Vector4>	0.0 1.0 0.0 0.0	</Vector4>
+	</property>
+	<property>	diffuseMap
+		<Texture>	sets/vehicles/AFX_razflare.bmp	</Texture>
+	</property>
+	<property>	otherMap
+		<Texture>	sets/vehicles/ref_spot6_falloff.bmp	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+</razor3_flare.mfm>

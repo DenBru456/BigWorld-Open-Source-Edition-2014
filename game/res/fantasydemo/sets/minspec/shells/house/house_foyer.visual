@@ -1,0 +1,87 @@
+<house_foyer.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	house	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/props/house/maps/house.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	floor	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/shells/house/maps/house_floor.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-2.029999 1.263166 -5.603303	</min>
+		<max>	2.628745 5.127454 -2.381108	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-5.299999	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-1.650000 4.999999 -0.000000	</point>
+			<point>	2.200000 4.999999 -0.000000	</point>
+			<point>	2.200000 1.500000 -0.000000	</point>
+			<point>	-1.650000 1.500000 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-1.650000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 1.000000 0.000000	</normal>
+		<d>	1.500000	</d>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 -0.000000 -0.000000	</normal>
+		<d>	-2.200000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 -0.000000	</normal>
+		<d>	-5.000000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.000000 -1.000000	</normal>
+		<d>	2.700000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-1.650000 -1.500000 -0.000000	</point>
+			<point>	2.200000 -1.500000 -0.000000	</point>
+			<point>	2.200000 -4.999999 -0.000000	</point>
+			<point>	-1.650000 -4.999999 -0.000000	</point>
+		</portal>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</house_foyer.visual>

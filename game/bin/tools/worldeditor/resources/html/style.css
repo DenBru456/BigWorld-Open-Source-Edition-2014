@@ -1,0 +1,39 @@
+<style>
+<!--
+
+/*------ HYPERLINKS ------*/
+a:link    { color: blue; text-decoration:none; } /* unvisited link  */
+a:visited { color: blue; text-decoration:none; } /* visited link    */
+a:hover   { color: blue; text-decoration:none; cursor:default;} /* mouse over link */
+
+/*----- BASIC PARAGRAPH -----*/
+body { margin-top:6.0pt; margin-left:6.0pt; margin-bottom:0.0pt; margin-right:0.0pt; font-family:Arial; font-size:9.0pt;}
+p    { margin-top:6.0pt; margin-left:6.0pt; margin-bottom:6.0pt; margin-right:0.0pt; font-family:Arial; font-size:9.0pt;}
+h2   { margin-bottom:10.0pt; background:"#D9F0FF"; color:darkslateblue; }
+
+/*----- TABLE -----*/
+table.normal                 {font-family:Tahoma; font-size:8.0pt; margin-left:0pt; margin-right:0pt; border:none; }
+table.normal th              {padding:3.0pt; font-weight:bold; color:white; background:black; border:none; }
+table.normal th.FirstCol     {padding:3.0pt; font-weight:bold; color:white; background:black; border:none; border-right:1pt solid white;}
+table.normal th.MidCol       {padding:3.0pt; font-weight:bold; color:white; background:black; border:none; border-right:1pt solid white;}
+table.normal td.oddRow       {vertical-align:top; padding:3.0pt; background:white;   border-top:none; border-left:none;            border-bottom:1pt solid black; border-right:1pt solid black;}
+table.normal td.oddRow1stCol {vertical-align:top; padding:3.0pt; background:white;   border-top:none; border-left:1pt solid black; border-bottom:1pt solid black; border-right:1pt solid black;}
+table.normal td.evnRow       {vertical-align:top; padding:3.0pt; background:#E6F1FE; border-top:none; border-left:none;            border-bottom:1pt solid black; border-right:1pt solid black;}
+table.normal td.evnRow1stCol {vertical-align:top; padding:3.0pt; background:#E6F1FE; border-top:none; border-left:1pt solid black; border-bottom:1pt solid black; border-right:1pt solid black;}
+table.normal td code         {font-size:7.5pt;}
+table.normal td p            {font-family:Tahoma; font-size:8.0pt; margin-left:00.0pt; margin-top:3.0pt; margin-bottom:0.0pt;}
+table.normal td p.lvl2       {                                     margin-left:06.0pt; margin-top:3.0pt; margin-bottom:0.0pt;}
+table.normal td p.lvl3       {                                     margin-left:12.0pt; margin-top:0.0pt; margin-bottom:0.0pt;}
+
+table.menu              {font-family:Arial; font-size:10pt; margin-left:3pt; margin-right:0pt; border:none;}
+table.menu   tr         {font-weight:bold; height:25px;}
+table.menu   td         {padding-left:4.0pt; padding-right:1.0pt;}
+table.menu   td img     {border:none;}
+table.menu   td.submenu {font-size:8pt;padding-left:15pt; height:20px}
+
+/*----- FONTS -----*/
+span.underline {border-bottom: solid 1pt gray; }
+p.header       {font-family:Arial; font-size:20pt; color:darkslateblue; font-weight:bold;}
+
+-->
+</style>

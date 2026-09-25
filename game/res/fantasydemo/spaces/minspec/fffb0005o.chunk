@@ -1,0 +1,75 @@
+<fffb0005o.chunk>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffb0005o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-1.124536 0.000000 -1.113688	</row0>
+			<row1>	0.000000 1.582682 0.000000	</row1>
+			<row2>	1.113688 0.000000 -1.124536	</row2>
+			<row3>	12.393372 197.457977 24.762787	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-0	</lighting>
+	</model>
+	<particles>
+		<resource>	particles/fireflies.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	15.926666 205.211288 31.460236	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.946102 0.000000 0.777656	</row0>
+			<row1>	0.000000 1.224687 0.000000	</row1>
+			<row2>	-0.777656 0.000000 0.946102	</row2>
+			<row3>	10.100677 200.581299 53.998657	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.946102 0.000000 0.777656	</row0>
+			<row1>	0.000000 1.224687 0.000000	</row1>
+			<row2>	-0.777656 0.000000 0.946102	</row2>
+			<row3>	11.497192 198.124542 32.971985	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	fffb0005o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffb0005o.chunk>

@@ -1,0 +1,15 @@
+<root>
+
+	<maxDistance>	1000000		</maxDistance>
+	<!-- This is the maximum distance, beyond which, this flare will not
+	be seen. This also applies to any secondary flares... -->
+	<area> 35 </area>
+	<!-- This determines how large the visibility test is. -->
+	<fadeSpeed> 12 </fadeSpeed>
+	<!-- The primary flare will be seen when the sun is out in the open. -->
+	<Flare>
+		<occlusionLevel> 0.01 </occlusionLevel>
+		<size>	99.9			</size>
+		<!-- Size scales the given material -->
+	</Flare>
+</root>

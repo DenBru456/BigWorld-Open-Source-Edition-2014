@@ -1,0 +1,567 @@
+<main_menu_text_input.gui>
+	<WindowGUIComponent>	492117744
+		<position>	-0.900000 0.000000 0.400000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	1.00000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	0.500000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	false	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.MainMenuTextInputWindow&quot;	</script>
+		<children>
+			<frame>	492171568	</frame>
+			<container>	492276400	</container>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<FrameGUIComponent2>	492171568
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/main_menu_frame.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	true	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	false	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</FrameGUIComponent2>
+	<WindowGUIComponent>	492276400
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	1.800000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	1.500000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<children>
+			<caption>	492276976	</caption>
+			<editArea>	492277472	</editArea>
+			<cancelButton>	492278048	</cancelButton>
+			<okButton>	492278624	</okButton>
+		</children>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</WindowGUIComponent>
+	<TextGUIComponent>	492276976
+		<position>	-1.003704 0.786667 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.201562	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.047500	</height>
+		<colour>	0.000000 0.000000 0.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	default_small.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Enter Username:	</label>
+		<font>	default_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</TextGUIComponent>
+	<WindowGUIComponent>	492277472
+		<position>	0.000000 0.000000 0.500000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.080000	</height>
+		<colour>	0.000000 0.000000 0.000000 128.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<children>
+			<edit>	492279200	</edit>
+			<languageIndicator>	492279776	</languageIndicator>
+		</children>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	492278048
+		<position>	1.000000 -1.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	140	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45	</height>
+		<colour>	250.000000 129.000000 71.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	helpers/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	false	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/main_menu_button.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<frame>	60842864	</frame>
+			<label>	492280352	</label>
+		</children>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	492278624
+		<position>	0.410000 -1.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1</widthMode>
+		<width>	140	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45	</height>
+		<colour>	250.000000 129.000000 71.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	helpers/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	false	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/main_menu_button.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<frame>	420861824	</frame>
+			<label>	492280848	</label>
+		</children>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	492279200
+		<position>	5.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	1.700000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<script>	&quot;PyGUI.EditField&quot;
+			<maxLength>	15	</maxLength>
+			<focusViaMouse>	true	</focusViaMouse>
+			<enableIME>	true	</enableIME>
+			<shouldAdjustClipping>	false	</shouldAdjustClipping>
+			<activeColour>	255.000000 255.000000 255.000000 255.000000	</activeColour>
+			<inactiveColour>	155.000000 155.000000 155.000000 255.000000	</inactiveColour>
+			<allowAutoDefocus>	false	</allowAutoDefocus>
+			<autoFont>	default_medium.font	</autoFont>
+			<autoFont>	default_medium.font	</autoFont>
+			<autoFont>	default_medium.font	</autoFont>
+		</script>
+		<children>
+			<text>	492281344	</text>
+			<cursor>	492282336	</cursor>
+		</children>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	492279776
+		<position>	1.000000 -1.000000 0.500000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	0.080000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.000000	</height>
+		<colour>	250.000000 129.000000 71.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<script>	&quot;PyGUI.LanguageIndicator&quot;
+			<autoSize>	true	</autoSize>
+			<padding>	6	</padding>
+			<square>	false	</square>
+		</script>
+		<children>
+			<label>	492281840	</label>
+		</children>
+	</WindowGUIComponent>
+	<FrameGUIComponent2>	60842864
+		<position>	0.000000 0.000000 0.500000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.000000	</height>
+		<colour>	221.000000 105.000000 85.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	true	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</FrameGUIComponent2>
+	<TextGUIComponent>	492280352
+		<position>	0.000000 0.000000 0.400000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.104688	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.060000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	default_medium.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Cancel	</label>
+		<font>	default_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</TextGUIComponent>
+	<FrameGUIComponent2>	420861824
+		<position>	0.000000 0.000000 0.500000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	0	</widthMode>
+		<width>	2.000000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	2.000000	</height>
+		<colour>	221.000000 105.000000 85.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	true	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</FrameGUIComponent2>
+	<TextGUIComponent>	492280848
+		<position>	0.000000 0.000000 0.400000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.048437	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.060000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	default_medium.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	OK	</label>
+		<font>	default_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</TextGUIComponent>
+	<TextGUIComponent>	492281344
+		<position>	0.000000 0.000000 0.500000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	default_smaller.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	default_small.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	true	</colourFormatting>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	492282336
+		<position>	0.000000 0.000000 0.250000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	1.250000	</width>
+		<heightMode>	0	</heightMode>
+		<height>	1.500000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<shaders>
+			<blinker>	503360760	</blinker>
+		</shaders>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	492281840
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.037500	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.050000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	Label.font.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<mouseButtonFocus>	false	</mouseButtonFocus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	EN	</label>
+		<font>	Label_small.font	</font>
+		<explicitSize>	false	</explicitSize>
+		<multiline>	false	</multiline>
+		<colourFormatting>	false	</colourFormatting>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+	</TextGUIComponent>
+	<ColourGUIShader>	503360760
+		<start>	255.000000 0.000000 0.000000 255.000000	</start>
+		<middle>	255.000000 255.000000 0.000000 255.000000	</middle>
+		<end>	0.000000 255.000000 0.000000 255.000000	</end>
+		<value>	0.000000	</value>
+		<speed>	0.000000	</speed>
+	</ColourGUIShader>
+</main_menu_text_input.gui>

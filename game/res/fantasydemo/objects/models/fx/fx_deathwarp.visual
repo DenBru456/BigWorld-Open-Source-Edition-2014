@@ -1,0 +1,215 @@
+<fx_deathwarp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	warp_ring	</identifier>
+			<transform>
+				<row0>	0.000417 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.000004 0.000000	</row1>
+				<row2>	0.000000 0.000000 0.000417	</row2>
+				<row3>	0.010600 0.082962 0.030461	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_flare	</identifier>
+			<transform>
+				<row0>	-0.001673 0.000018 0.009799	</row0>
+				<row1>	-0.000009 -0.013103 0.000012	</row1>
+				<row2>	0.009799 -0.000005 0.001673	</row2>
+				<row3>	-0.000514 4.923010 0.006245	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_disk2	</identifier>
+			<transform>
+				<row0>	0.003020 0.000000 -0.000132	</row0>
+				<row1>	0.000000 0.003023 0.000000	</row1>
+				<row2>	0.000132 0.000000 0.003020	</row2>
+				<row3>	-0.009114 2.595669 -0.060750	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_disk1	</identifier>
+			<transform>
+				<row0>	0.003987 0.000000 -0.000174	</row0>
+				<row1>	0.000000 0.003990 0.000000	</row1>
+				<row2>	0.000174 0.000000 0.003987	</row2>
+				<row3>	-0.009114 5.077483 -0.060608	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_disk3	</identifier>
+			<transform>
+				<row0>	0.001716 0.000000 -0.000075	</row0>
+				<row1>	0.000000 0.001718 0.000000	</row1>
+				<row2>	0.000075 0.000000 0.001716	</row2>
+				<row3>	-0.009114 1.407504 -0.060466	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_disk3	</node>
+		<geometry>
+			<vertices>	warp_disk3.vertices	</vertices>
+			<primitive>	warp_disk3.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	planes	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warpwhirl.dds	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_disk1	</node>
+		<geometry>
+			<vertices>	warp_disk1.vertices	</vertices>
+			<primitive>	warp_disk1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	planes	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warpwhirl.dds	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_disk2	</node>
+		<geometry>
+			<vertices>	warp_disk2.vertices	</vertices>
+			<primitive>	warp_disk2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	planes	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warpwhirl.dds	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_flare	</node>
+		<geometry>
+			<vertices>	warp_flare.vertices	</vertices>
+			<primitive>	warp_flare.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	warp ring	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.600000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/afx_flare1.dds	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_ring	</node>
+		<geometry>
+			<vertices>	warp_ring.vertices	</vertices>
+			<primitive>	warp_ring.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	ring	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/afx_flare1.dds	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.013300 0.083000 -0.064800	</min>
+		<max>	0.011500 5.077701 0.031300	</max>
+	</boundingBox>
+</fx_deathwarp.visual>

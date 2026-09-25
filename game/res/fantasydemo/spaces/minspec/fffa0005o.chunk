@@ -1,0 +1,144 @@
+<fffa0005o.chunk>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	0.007671 0.000000 1.582664	</row0>
+			<row1>	0.000000 1.582683 0.000000	</row1>
+			<row2>	-1.582664 0.000000 0.007671	</row2>
+			<row3>	86.521851 201.733261 30.685303	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<lighting>	lighting/tree_mid-0	</lighting>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffa0005o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.779983 0.000000 1.463071	</row0>
+			<row1>	0.000000 2.304108 0.000000	</row1>
+			<row2>	-1.463071 0.000000 1.779983	</row2>
+			<row3>	96.702423 203.354523 43.265625	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.946102 0.000000 0.777656	</row0>
+			<row1>	0.000000 1.224687 0.000000	</row1>
+			<row2>	-0.777656 0.000000 0.946102	</row2>
+			<row3>	85.299561 189.201157 6.546539	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-1.218880 0.000000 0.119109	</row0>
+			<row1>	0.000000 1.224687 0.000000	</row1>
+			<row2>	-0.119109 0.000000 -1.218880	</row2>
+			<row3>	93.116241 203.734344 40.806000	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-1.218880 0.000000 0.119109	</row0>
+			<row1>	0.000000 1.224687 0.000000	</row1>
+			<row2>	-0.119109 0.000000 -1.218880	</row2>
+			<row3>	79.235596 199.632782 24.950531	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-2.293184 0.000000 0.224091	</row0>
+			<row1>	0.000000 2.304106 0.000000	</row1>
+			<row2>	-0.224091 0.000000 -2.293184	</row2>
+			<row3>	96.298950 198.331024 23.065887	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	64.710632 201.539047 24.931305	</row3>
+		</transform>
+		<guid>	541BEF8B.4A7BE2E6.45940092.32D00430	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	FD47001D.4A8178FA.5CAA7588.528901D2	</guid>
+					<chunkId>	fffb0004o	</chunkId>
+				</item>
+			</patrolLinks>
+			<departureSpeed>	16.000000	</departureSpeed>
+			<radius>	3.191232	</radius>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	DC110E7C.4E526676.1D1CC9B3.34654430	</guid>
+				<chunkId>	fffd0001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<worldNavmesh>
+		<resource>	fffa0005o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffa0005o.chunk>

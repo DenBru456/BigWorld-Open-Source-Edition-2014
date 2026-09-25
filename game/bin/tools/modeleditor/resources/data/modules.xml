@@ -1,0 +1,29 @@
+<root>
+	<!--
+		This file contains the global module list available
+		from the development menu.
+
+		Also, it contains a start module in case you want
+		to bypass the dev menu altogether.
+	-->
+
+	<startup>
+		<!-- NOTE:  you can have several startup modules					-->
+
+		<module>		MeModule	</module>
+		
+	</startup>
+
+	<Extensions>
+		<ModelEditorDirector>
+			ScriptedModule
+			<script>
+				<module>ModelEditorDirector</module>
+				<class>ModelEditorDirector</class>
+			</script>
+		</ModelEditorDirector>
+		<MeModule>
+			MeModule
+		</MeModule>
+	</Extensions>
+</root>

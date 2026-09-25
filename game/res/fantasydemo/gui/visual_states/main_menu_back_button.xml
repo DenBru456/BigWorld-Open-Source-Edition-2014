@@ -1,0 +1,65 @@
+<root>&quot;PyGUI.ButtonVisualState&quot;
+	<normal>
+		<textStyle>	MainMenuBackButtonNormal	</textStyle>
+		<icon>
+			<textureName>	system/maps/col_white.bmp	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+		<standardComponents>
+			<left>
+				<textureName>	gui/maps/main_menu_back_left.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</left>
+			<mid>
+				<textureName>	gui/maps/main_menu_back_mid.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</mid>
+			<right>
+				<textureName>	gui/maps/main_menu_back_right.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</right>
+		</standardComponents>
+	</normal>	
+	<hover>
+		<textStyle>	MainMenuBackButtonHover	</textStyle>
+		<icon>
+			<textureName>	system/maps/col_white.bmp	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+		<standardComponents>
+			<left>
+				<textureName>	gui/maps/main_menu_back_left.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</left>
+			<mid>
+				<textureName>	gui/maps/main_menu_back_mid.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</mid>
+			<right>
+				<textureName>	gui/maps/main_menu_back_right.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</right>
+		</standardComponents>
+	</hover>
+	<pressed>
+		<textStyle>	MainMenuBackButtonPressed	</textStyle>
+		<icon>
+			<textureName>	system/maps/col_white.bmp	</textureName>
+			<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		</icon>
+		<standardComponents>
+			<left>
+				<textureName>	gui/maps/main_menu_back_pressed_left.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</left>
+			<mid>
+				<textureName>	gui/maps/main_menu_back_pressed_mid.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</mid>
+			<right>
+				<textureName>	gui/maps/main_menu_back_pressed_right.tga	</textureName>
+				<colour>	250.000000 255.000000 255.000000 255.000000	</colour>
+			</right>
+		</standardComponents>
+	</pressed>
+</root>

@@ -1,0 +1,36 @@
+<lamp_post.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.127847 -0.231031 -0.271038	</min>
+		<max>	1.301366 4.496722 0.232007	</max>
+	</visibilityBox>
+	<extent>	250.000000	</extent>
+	<nodelessVisual>	sets/minspec/props/lamp_post/models/lamp_post	</nodelessVisual>
+	<dye>
+		<matter>	_07__Default	</matter>
+		<replaces>	07 - Default	</replaces>
+		<tint>
+			<name>	light_on	</name>
+			<material>
+				<identifier>	07 - Default	</identifier>
+				<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	glowFactor
+					<Float>	1.600000	</Float>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/minspec/props/lamp_post/maps/lamp_post_glow.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/minspec/props/lamp_post/maps/lamp_post_diff.bmp	</Texture>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281490112	</modified_on>
+	</metaData>
+</lamp_post.model>

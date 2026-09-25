@@ -1,0 +1,15 @@
+[Unit]
+Description=BigWorld Machine Daemon
+Requires=network.target time-sync.target
+After=network.target syslog.target time-sync.target
+
+[Service]
+Type=forking
+Restart=on-failure
+ExecStart=###bwmachined_initd_file### start
+ExecStop=###bwmachined_initd_file### stop
+PIDFile=###pid_dir###/bwmachined2.pid
+
+[Install]
+WantedBy=multi-user.target
+

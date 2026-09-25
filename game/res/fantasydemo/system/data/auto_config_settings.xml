@@ -1,0 +1,82 @@
+<root>
+	<!--
+	this file contains the presets for system auto config.
+	The presets are organised in the same way as the options.xml 
+	file in the game folder.
+	The tags are organised like this:
+	<graphicsPreferences> HIGH <--- Name of the preset
+		<CPUFrequency>5000</CPUFrequency> 	<--- minimum summary frequency of all kernels of the processor
+		<GPUMemory>800</GPUMemory>			<--- minimum total GPU Memory
+		<RAM>4000</RAM>						<--- Minimum RAM amount
+		<VertexShaderVersion>3.0</VertexShaderVersion> <--- minimum shader versions
+		<PixelShaderVersion>3.0</PixelShaderVersion>
+	</graphicsPreferences>
+	
+	-->
+
+	<graphicsPreferences> MAX
+		<CPUFrequency> 5000 </CPUFrequency>
+		<GPUMemory> 950 </GPUMemory>
+		<RAM> 3000 </RAM>
+		<AvailableVirtualMemory> 2500 </AvailableVirtualMemory>
+		<RAMFrequency> 3500 </RAMFrequency>
+		<VertexShaderVersion> 3.0 </VertexShaderVersion>
+		<PixelShaderVersion> 3.0 </PixelShaderVersion>
+		<NotebookCompartible> false </NotebookCompartible>
+	</graphicsPreferences>
+	<graphicsPreferences> HIGH
+		<CPUFrequency> 3000 </CPUFrequency>
+		<GPUMemory> 500 </GPUMemory>
+		<RAM> 3000 </RAM>
+		<AvailableVirtualMemory> 2500 </AvailableVirtualMemory>
+		<RAMFrequency> 2000 </RAMFrequency>
+		<VertexShaderVersion> 3.0 </VertexShaderVersion>
+		<PixelShaderVersion> 3.0 </PixelShaderVersion>
+		<NotebookCompartible> false </NotebookCompartible>
+	</graphicsPreferences>
+	<graphicsPreferences> MEDIUM
+		<CPUFrequency> 1000 </CPUFrequency>
+		<GPUMemory> 384 </GPUMemory>
+		<RAM> 2000 </RAM>
+		<AvailableVirtualMemory> 1500 </AvailableVirtualMemory>
+		<RAMFrequency> 600 </RAMFrequency>
+		<VertexShaderVersion> 3.0 </VertexShaderVersion>
+		<PixelShaderVersion> 3.0 </PixelShaderVersion>
+		<NotebookCompartible> false </NotebookCompartible>
+		<GPUDeviceId>
+			<NVIDIA> 8800 </NVIDIA>
+			<ATI> HD 4730 </ATI>
+			<Intel> HD 3000 </Intel>
+		</GPUDeviceId>	
+	</graphicsPreferences>
+	<graphicsPreferences> LOW
+		<CPUFrequency> 500 </CPUFrequency>
+		<GPUMemory> 200 </GPUMemory>
+		<RAM> 1000 </RAM>
+		<AvailableVirtualMemory> 1000 </AvailableVirtualMemory>
+		<RAMFrequency> 400 </RAMFrequency>
+		<VertexShaderVersion> 3.0 </VertexShaderVersion>
+		<PixelShaderVersion> 3.0 </PixelShaderVersion>
+		<NotebookCompartible> true </NotebookCompartible>
+		<GPUDeviceId>
+			<NVIDIA> 8600 </NVIDIA>
+			<ATI> X 1950 </ATI>
+			<Intel> GMA 3000 </Intel>
+		</GPUDeviceId>	
+	</graphicsPreferences>	
+	<graphicsPreferences> MIN
+		<CPUFrequency> 500 </CPUFrequency>
+		<GPUMemory> 64 </GPUMemory>
+		<RAM> 1000 </RAM>
+		<AvailableVirtualMemory> 1000 </AvailableVirtualMemory>
+		<RAMFrequency> 400 </RAMFrequency>
+		<VertexShaderVersion> 2.0 </VertexShaderVersion>
+		<PixelShaderVersion> 2.0 </PixelShaderVersion>
+		<NotebookCompartible> true </NotebookCompartible>
+		<GPUDeviceId>
+			<NVIDIA> 6800 </NVIDIA>
+			<ATI> X 700 </ATI>
+			<Intel> GMA 900 </Intel>
+		</GPUDeviceId>
+	</graphicsPreferences>
+</root>

@@ -1,0 +1,163 @@
+<fd_watch_tower.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.068414 0.000000 1.056874	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone01	</identifier>
+				<transform>
+					<row0>	-0.065718 -0.024119 0.997547	</row0>
+					<row1>	-0.601582 0.798553 -0.020325	</row1>
+					<row2>	-0.796103 -0.601442 -0.066989	</row2>
+					<row3>	0.005105 19.092094 0.298965	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone02	</identifier>
+					<transform>
+						<row0>	0.971124 -0.137078 -0.195265	</row0>
+						<row1>	-0.219933 -0.831552 -0.510050	</row1>
+						<row2>	-0.092456 0.538267 -0.837687	</row2>
+						<row3>	0.505683 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone03	</identifier>
+						<transform>
+							<row0>	0.981240 0.168141 0.094319	</row0>
+							<row1>	0.132157 -0.942845 0.305904	</row1>
+							<row2>	0.140363 -0.287700 -0.947379	</row2>
+							<row3>	0.506054 -0.000002 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bone04	</identifier>
+							<transform>
+								<row0>	0.904559 -0.402293 -0.141187	</row0>
+								<row1>	-0.319505 -0.420363 -0.849242	</row1>
+								<row2>	0.282294 0.813299 -0.508778	</row2>
+								<row3>	0.488557 -0.000014 0.000014	</row3>
+							</transform>
+							<node>
+								<identifier>	Bone05	</identifier>
+								<transform>
+									<row0>	-0.942568 0.294646 -0.157321	</row0>
+									<row1>	0.067667 0.629677 0.773904	</row1>
+									<row2>	0.327089 0.718811 -0.613452	</row2>
+									<row3>	0.468967 0.000972 0.002852	</row3>
+								</transform>
+								<node>
+									<identifier>	Bone05BlendBonefd_s_watch_tower	</identifier>
+									<transform>
+										<row0>	0.304855 0.268447 0.913783	</row0>
+										<row1>	-0.039197 0.962178 -0.269587	</row1>
+										<row2>	-0.951592 0.046367 0.303847	</row2>
+										<row3>	3.923702 -18.508574 4.172162	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	Bone04BlendBonefd_s_watch_tower	</identifier>
+								<transform>
+									<row0>	0.029707 0.915697 -0.400770	</row0>
+									<row1>	0.013874 0.400531 0.916178	</row1>
+									<row2>	0.999462 -0.032778 -0.000806	</row2>
+									<row3>	-3.117129 -7.498359 -17.497709	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	Bone03BlendBonefd_s_watch_tower	</identifier>
+							<transform>
+								<row0>	0.010141 -0.784415 -0.620154	</row0>
+								<row1>	0.012004 0.620237 -0.784323	</row1>
+								<row2>	0.999876 0.000510 0.015706	</row2>
+								<row3>	-2.595119 -11.876239 14.884837	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Bone02BlendBonefd_s_watch_tower	</identifier>
+						<transform>
+							<row0>	0.028078 0.934413 0.355082	</row0>
+							<row1>	-0.016109 -0.354753 0.934821	</row1>
+							<row2>	0.999476 -0.031968 0.005092	</row2>
+							<row3>	-1.550897 6.896272 -17.819889	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone01BlendBonefd_s_watch_tower	</identifier>
+					<transform>
+						<row0>	-0.018962 -0.601874 -0.798366	</row0>
+						<row1>	-0.024119 0.798553 -0.601442	</row1>
+						<row2>	0.999529 0.007851 -0.029658	</row2>
+						<row3>	-0.895922 -15.294791 11.472449	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Box01BlendBonefd_s_watch_tower	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.068414 -0.000000 -1.056874	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<materialKind>	1	</materialKind>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Box01BlendBonefd_s_watch_tower	</node>
+		<node>	Bone02BlendBonefd_s_watch_tower	</node>
+		<node>	Bone01BlendBonefd_s_watch_tower	</node>
+		<node>	Bone03BlendBonefd_s_watch_tower	</node>
+		<node>	Bone05BlendBonefd_s_watch_tower	</node>
+		<node>	Bone04BlendBonefd_s_watch_tower	</node>
+		<geometry>
+			<vertices>	fd_s_watch_tower.vertices	</vertices>
+			<primitive>	fd_s_watch_tower.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	14 - Default_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/props/map/fd_s_watch_tower_spec.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	172	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/props/map/fd_s_watch_tower_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/map/fd_s_watch_tower_dif.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-2.648681 -0.004496 -2.448768	</min>
+		<max>	2.574895 20.141361 3.315208	</max>
+	</boundingBox>
+</fd_watch_tower.visual>

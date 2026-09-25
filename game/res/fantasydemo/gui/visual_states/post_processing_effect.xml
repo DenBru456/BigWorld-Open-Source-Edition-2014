@@ -1,0 +1,106 @@
+<checkbox.xml>	&quot;PyGUI.ButtonVisualState&quot;
+	<hover>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	386.000000 1.000000	</coords0>
+				<coords1>	386.000000 39.000000	</coords1>
+				<coords2>	424.000000 39.000000	</coords2>
+				<coords3>	424.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	<normal>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	346.000000 1.000000	</coords0>
+				<coords1>	346.000000 39.000000	</coords1>
+				<coords2>	384.000000 39.000000	</coords2>
+				<coords3>	384.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+	<hover_active>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	386.000000 1.000000	</coords0>
+				<coords1>	386.000000 39.000000	</coords1>
+				<coords2>	424.000000 39.000000	</coords2>
+				<coords3>	424.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover_active>
+	<disabled>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	346.000000 1.000000	</coords0>
+				<coords1>	346.000000 39.000000	</coords1>
+				<coords2>	384.000000 39.000000	</coords2>
+				<coords3>	384.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+		</icon>
+	</disabled>
+	<pressed>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	426.000000 1.000000	</coords0>
+				<coords1>	426.000000 39.000000	</coords1>
+				<coords2>	464.000000 39.000000	</coords2>
+				<coords3>	464.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<active>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	466.000000 1.000000	</coords0>
+				<coords1>	466.000000 39.000000	</coords1>
+				<coords2>	504.000000 39.000000	</coords2>
+				<coords3>	504.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</active>
+	<pressed_active>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	426.000000 1.000000	</coords0>
+				<coords1>	426.000000 39.000000	</coords1>
+				<coords2>	464.000000 39.000000	</coords2>
+				<coords3>	464.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed_active>
+	<disabled_active>
+		<icon>
+			<textureName>	gui/maps/window_post_processing.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	466.000000 1.000000	</coords0>
+				<coords1>	466.000000 39.000000	</coords1>
+				<coords2>	504.000000 39.000000	</coords2>
+				<coords3>	504.000000 1.000000	</coords3>
+			</mapping>
+			<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+		</icon>
+	</disabled_active>
+</checkbox.xml>

@@ -1,0 +1,191 @@
+<razor2.model>
+	<animation>
+		<name>	razor_engineon_new	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/vehicles/animations/razor_engineon_new	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_geton	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/vehicles/animations/razor_geton	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_geton:firstframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_geton	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_geton:lastframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	-1	</firstFrame>
+		<lastFrame>	-1	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_geton	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_geton:rev	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	-1	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_geton	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_idle	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/vehicles/animations/razor_idle	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_start&amp;stop:1	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	6	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_start&amp;stop	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_start&amp;stop:2	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	6	</firstFrame>
+		<lastFrame>	42	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_start&amp;stop	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_start&amp;stop:3	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	42	</firstFrame>
+		<lastFrame>	53	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_start&amp;stop	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_start&amp;stop:4	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	53	</firstFrame>
+		<lastFrame>	83	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_start&amp;stop	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_turnleft:1	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	6	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_turnleft	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_turnleft:2	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	6	</firstFrame>
+		<lastFrame>	33	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_turnleft	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_turnleft:3	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	33	</firstFrame>
+		<lastFrame>	34	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_turnleft	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_turnright:1	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	6	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_turnright	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_turnright:2	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	6	</firstFrame>
+		<lastFrame>	33	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_turnright	</nodes>
+	</animation>
+	<animation>
+		<name>	razor_turnright:3	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	33	</firstFrame>
+		<lastFrame>	34	</lastFrame>
+		<nodes>	sets/vehicles/animations/razor_turnright	</nodes>
+	</animation>
+	<action>
+		<name>	RIdle	</name>
+		<animation>	razor_engineon_new	</animation>
+		<blended>	false	</blended>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	RTurnLeft	</name>
+		<animation>	razor_turnleft:1	</animation>
+	</action>
+	<action>
+		<name>	RTurningLeft	</name>
+		<animation>	razor_turnleft:2	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	RTurnedLeft	</name>
+		<animation>	razor_turnleft:3	</animation>
+	</action>
+	<action>
+		<name>	RTurnRight	</name>
+		<animation>	razor_turnright:1	</animation>
+	</action>
+	<action>
+		<name>	RTurningRight	</name>
+		<animation>	razor_turnright:2	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	RTurnedRight	</name>
+		<animation>	razor_turnright:3	</animation>
+	</action>
+	<action>
+		<name>	Thrust	</name>
+		<animation>	razor_start&amp;stop:1	</animation>
+	</action>
+	<action>
+		<name>	Thrusting	</name>
+		<animation>	razor_start&amp;stop:2	</animation>
+	</action>
+	<action>
+		<name>	Stop	</name>
+		<animation>	razor_start&amp;stop:3	</animation>
+	</action>
+	<action>
+		<name>	Stopping	</name>
+		<animation>	razor_start&amp;stop:4	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	Board	</name>
+		<animation>	razor_geton	</animation>
+	</action>
+	<action>
+		<name>	Boarded	</name>
+		<animation>	razor_geton:lastframe	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	Alight	</name>
+		<animation>	razor_geton:rev	</animation>
+	</action>
+	<action>
+		<name>	Alighted	</name>
+		<animation>	razor_geton:firstframe	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	Empty	</name>
+		<animation>	razor_idle	</animation>
+		<filler>	true	</filler>
+	</action>
+	<nodefullVisual>	sets/vehicles/razor2	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.665271 0.210741 -1.740424	</min>
+		<max>	2.154491 2.921042 2.497151	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379849	</modified_on>
+	</metaData>
+</razor2.model>

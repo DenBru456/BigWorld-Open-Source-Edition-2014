@@ -1,0 +1,117 @@
+<spider_leg.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.256513 0.000000 -0.966541	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.966541 0.000000 0.256513	</row2>
+				<row3>	0.065976 0.000000 0.322832	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	-0.606072 0.000000 -0.795410	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.795410 0.000000 -0.606072	</row2>
+					<row3>	0.788866 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	0.486054 0.000000 -0.873929	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.873929 0.000000 0.486054	</row2>
+						<row3>	0.805685 0.000000 -0.000001	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone03BlendBoneObject01	</identifier>
+						<transform>
+							<row0>	-0.115610 0.000000 -0.993295	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.993295 0.000000 -0.115610	</row2>
+							<row3>	0.076106 -0.000000 -0.488407	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneObject01	</identifier>
+					<transform>
+						<row0>	-0.924261 0.000000 -0.381760	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.381760 0.000000 -0.924261	</row2>
+						<row3>	0.415844 -0.000000 -0.303904	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	HP_right_hand	</identifier>
+				<transform>
+					<row0>	0.990266 0.135279 -0.032744	</row0>
+					<row1>	-0.036904 0.028363 -0.998916	</row1>
+					<row2>	-0.134204 0.990401 0.033079	</row2>
+					<row3>	0.437070 0.077017 0.033292	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneObject01	</identifier>
+				<transform>
+					<row0>	0.256513 -0.000000 0.966541	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.966541 0.000000 0.256513	</row2>
+					<row3>	0.295107 -0.000000 -0.146579	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneObject01	</node>
+		<node>	Bone03BlendBoneObject01	</node>
+		<node>	Bone02BlendBoneObject01	</node>
+		<geometry>
+			<vertices>	Object01.vertices	</vertices>
+			<primitive>	Object01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Object03_mtl [Ob_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	maps/landscape/a_cracked_mud.tga	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/npc/spider/spider_norms.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/npc/spider/spider_diff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.564754 -0.003614 -0.486351	</min>
+		<max>	0.338289 0.099151 0.546246	</max>
+	</boundingBox>
+</spider_leg.visual>

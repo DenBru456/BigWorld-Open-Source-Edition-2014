@@ -1,0 +1,81 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_lightning.xml  </ParticleSystem>
+	</Actor>
+	
+	<Actor> light
+		<Light>
+			<innerRadius>	2		</innerRadius>
+			<outerRadius>	8		</outerRadius>
+			<colour>	72 88 227 255 </colour>
+			<priority>		1		</priority>
+		</Light>
+	</Actor>
+	
+	<Actor> particles2
+		<ParticleSystem>  particles/staff_base_lightning.xml  </ParticleSystem>
+	</Actor>	
+
+	<Joint>	particles
+		<Node>	HP_Snake_Mouth	</Node>
+	</Joint>
+
+	<Joint>	light
+		<LightSource>  Scene Root </LightSource>
+	</Joint>
+	
+	<Joint>	particles2
+		<Node>	HP_Snake_Neck	</Node>
+	</Joint>
+
+	<Event> particles
+		<ClearParticles/>
+	</Event>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+	<Event> particles
+		<SwarmTargets>
+			<Node>		biped Spine	</Node>
+			<Node>		biped Spine1	</Node>			
+			<Node>		biped L Clavicle	</Node>
+			<Node>		biped L UpperArm	</Node>
+			<Node>		biped L Forearm	</Node>
+			<Node>		biped L Hand	</Node>
+			<Node>		biped L Forearm	</Node>
+			<Node>		biped L UpperArm	</Node>
+			<Node>		biped L Clavicle	</Node>
+			<Node>		biped R Clavicle	</Node>
+			<Node>		biped R UpperArm	</Node>
+			<Node>		biped R Forearm	</Node>
+			<Node>		biped R Hand	</Node>
+			<Node>		biped R Forearm	</Node>
+			<Node>		biped R UpperArm	</Node>
+			<Node>		biped R Clavicle	</Node>
+			<Node>		biped Spine2	</Node>
+			<Node>		biped Spine1	</Node>
+			<Node>		biped Spine	</Node>
+			<Node>		biped L Thigh	</Node>
+			<Node>		biped L Foot	</Node>
+			<Node>		biped L Thigh	</Node>
+			<Node>		biped R Thigh	</Node>
+			<Node>		biped R Foot	</Node>
+			<Node>		biped R Thigh	</Node>
+			<Node>		biped Spine	</Node>
+		</SwarmTargets>
+	</Event>
+
+
+	<Event> light
+		<Fade>			
+			<time>	0.5	</time>
+		</Fade>
+	</Event>
+
+	<Event> particles2
+		<ForceParticle/>
+	</Event>
+	
+</SFXFile>

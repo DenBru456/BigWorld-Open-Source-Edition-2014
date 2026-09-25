@@ -1,0 +1,46 @@
+<horizon_mountains.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	mountains	</identifier>
+					<fx>	shaders/environment/sky_box_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	fogResponse
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	lightAmount
+						<Float>	0.580000	</Float>
+					</property>
+					<property>	parallax
+						<Float>	0.010000	</Float>
+					</property>
+					<property>	fogMap
+						<Texture>	sets/skydome/clouds_fog_mask.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/environment/skydome/maps/horizon_mount.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-10.000000 -3.805414 -9.848082	</min>
+		<max>	10.000000 6.564174 9.848078	</max>
+	</boundingBox>
+</horizon_mountains.visual>

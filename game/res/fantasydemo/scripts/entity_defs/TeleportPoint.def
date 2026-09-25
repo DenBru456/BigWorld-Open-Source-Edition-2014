@@ -1,0 +1,49 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<realm>
+			<Type>			REALM_ID		</Type>
+			<Flags>			BASE			</Flags>
+		</realm>
+
+		<spaceName>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+		</spaceName>
+
+		<!-- Base properties -->
+		<label>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</label>
+
+		<dstPos>
+			<Type>			VECTOR3			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</dstPos>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<tryToTeleport>
+			<Args>
+				<spaceName>		STRING		</spaceName>
+				<pointName>		STRING		</pointName>
+				<mailbox> 		MAILBOX		</mailbox>
+				<spaceID> 		INT32		</spaceID>
+			</Args>
+		</tryToTeleport>
+	</CellMethods>
+</root>

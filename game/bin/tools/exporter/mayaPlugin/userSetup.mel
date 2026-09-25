@@ -1,0 +1,73 @@
+if (`pluginInfo -query -loaded "visual"`!=1)
+{
+    catch(`loadPlugin "visual"`);
+    {
+    print "Could not load BigWorld visual plugin\n";
+    }
+}
+
+global proc print_to_file(string $str) {
+    $lf=fopen("debug.log", "a");
+    fprint $lf ($str+"\r\n");  //write to log
+    fclose $lf;
+}
+
+global proc BigWorld_Batch_Export(string $mayafileList, string $overw, string $logfilestring)
+{    
+    loadPlugin visual.mll;    //ensures that bw exporter is loaded otherwise script fail
+    int $f=0;
+    int $fileExists;
+    $ERROR=0;
+    $f=fopen($mayafileList, "r");
+    while (!feof($f))
+    {
+        string $source_url = fgetline($f);
+        string $dest_url = fgetline($f);
+        if ($source_url == "")    //skip export if fgetline returns empty
+        {
+            continue;
+        }
+        // Open the file 
+        file -force -open $source_url;
+        // test for selected objects
+        string $selectionSet[] = `ls -sl`;
+        int $selectionSetSize = `size $selectionSet`;
+        
+        print_to_file($source_url);//write to log file name
+        $fileExists = `filetest -f $dest_url`;
+        if ($overw != 1 && $fileExists != 0) // overwrite is false and file exists
+        {
+            print_to_file("FAILED to export " + $source_url + " to:\r\n" + $dest_url + " because");
+            print_to_file( $dest_url + " already exists \r\n" + "\r\n");
+        }
+        else
+        {
+            if ($selectionSetSize >=1)
+            {
+                $ERROR  = catch ($pathToSucess = `file -force -options "automatedTest=1;noPrompt=1" -type "BigWorldAsset" -pr -es $dest_url`);
+            }
+            else
+            {
+                $ERROR  = catch ($pathToSucess = `file -force -options "automatedTest=1;noPrompt=1" -type "BigWorldAsset" -pr -ea $dest_url`);
+            }
+            if ( $ERROR ) 
+            {
+                print_to_file("ERROR: " + eval("$tempStr = $gBWVisualFileError"));//write error to log
+                print_to_file("FAIL\r\n");//write error to log
+            }
+            else // no error, sucessful import:
+            {
+                $warning=eval("$tempStr = $gBWVisualFileError");
+                if ( $warning != "" )
+                {
+                    print_to_file("WARNING: " + eval("$tempStr = $gBWVisualFileError"));//write error to log
+                }
+                print_to_file("SUCCESSFULLY exported " + $source_url + " to: " + $dest_url + "\r\n");//write error to log
+            }
+        }
+    }
+    fclose $f;
+    scriptJob -idleEvent "quit -force;" -runOnce true; //wont quit even with -f when busy
+}
+//BigWorld_Batch_Export("C:/source/ListOfMayaFiles.txt","1"); //copy paste cmd line for from maya batch run
+

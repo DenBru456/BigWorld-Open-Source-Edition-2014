@@ -1,0 +1,54 @@
+<pillar_stage4.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	pillar 4	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000	</row2>
+				<row3>	0.0503 4.6813 0.1292	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	pillar 4	</node>
+		<geometry>
+			<vertices>	sets/town/props/pillar_stage4.pillar 4.vertices	</vertices>
+			<primitive>	sets/town/props/pillar_stage4.pillar 4.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	dun_block	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/pillar/maps/dun_block.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	dun_pillar	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/temperate/props/pillar/maps/dun_pillar.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.949732 -0.277353 -1.870798	</min>
+		<max>	2.050268 9.639994 2.129201	</max>
+	</boundingBox>
+</pillar_stage4.visual>

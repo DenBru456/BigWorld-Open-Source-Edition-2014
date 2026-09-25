@@ -1,0 +1,16 @@
+<root>
+	<Domain>	CELL	</Domain>
+	<Properties>
+		<testParentProperty>
+			<Type>	STRING	</Type>
+			<Default>	Test Parent Property	</Default>
+		</testParentProperty>
+
+		<testOverrideProperty>
+			<Type>	STRING </Type>
+			<Default> Original	 </Default>
+		</testOverrideProperty>
+
+
+	</Properties>
+</root>

@@ -1,0 +1,615 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	joint1	</identifier>
+			<transform>
+				<row0>	0.000000 1.000000 0.000000	</row0>
+				<row1>	-1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.002157 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	joint2	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.031636 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	joint3	</identifier>
+					<transform>
+						<row0>	1.000000 -0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.030198 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	joint4	</identifier>
+						<transform>
+							<row0>	0.998968 0.045408 0.000000	</row0>
+							<row1>	0.045408 -0.998969 -0.000000	</row1>
+							<row2>	-0.000000 0.000000 -1.000000	</row2>
+							<row3>	0.024446 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	joint5	</identifier>
+							<transform>
+								<row0>	0.982507 0.186227 -0.000000	</row0>
+								<row1>	0.186227 -0.982507 -0.000000	</row1>
+								<row2>	-0.000000 0.000000 -1.000000	</row2>
+								<row3>	0.031669 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	joint6	</identifier>
+								<transform>
+									<row0>	0.968277 0.249878 -0.000000	</row0>
+									<row1>	0.249878 -0.968277 -0.000000	</row1>
+									<row2>	-0.000000 0.000000 -1.000000	</row2>
+									<row3>	0.030505 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	joint7	</identifier>
+									<transform>
+										<row0>	0.985060 0.172213 -0.000000	</row0>
+										<row1>	0.172213 -0.985060 -0.000000	</row1>
+										<row2>	-0.000000 0.000000 -1.000000	</row2>
+										<row3>	0.039066 -0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	joint8	</identifier>
+										<transform>
+											<row0>	0.998053 0.062378 0.000000	</row0>
+											<row1>	-0.062378 0.998053 0.000000	</row1>
+											<row2>	-0.000000 0.000000 1.000000	</row2>
+											<row3>	0.046106 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	joint9	</identifier>
+											<transform>
+												<row0>	0.999315 -0.037012 0.000000	</row0>
+												<row1>	0.037012 0.999315 0.000000	</row1>
+												<row2>	0.000000 0.000000 1.000000	</row2>
+												<row3>	0.028760 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	joint10	</identifier>
+												<transform>
+													<row0>	0.999315 0.037012 0.000000	</row0>
+													<row1>	-0.037012 0.999315 0.000000	</row1>
+													<row2>	0.000000 -0.000000 1.000000	</row2>
+													<row3>	0.038853 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	joint11	</identifier>
+													<transform>
+														<row0>	1.000000 -0.000000 0.000000	</row0>
+														<row1>	0.000000 1.000000 0.000000	</row1>
+														<row2>	0.000000 0.000000 1.000000	</row2>
+														<row3>	0.034513 0.000000 -0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	joint12	</identifier>
+														<transform>
+															<row0>	0.987441 0.157991 0.000000	</row0>
+															<row1>	0.157991 -0.987441 -0.000000	</row1>
+															<row2>	-0.000000 0.000000 -1.000000	</row2>
+															<row3>	0.037389 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	joint13	</identifier>
+															<transform>
+																<row0>	0.949685 0.313207 0.000000	</row0>
+																<row1>	0.313207 -0.949685 -0.000000	</row1>
+																<row2>	-0.000000 0.000000 -1.000000	</row2>
+																<row3>	0.036408 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	joint14	</identifier>
+																<transform>
+																	<row0>	0.996077 0.088490 0.000000	</row0>
+																	<row1>	-0.088490 0.996077 0.000000	</row1>
+																	<row2>	0.000000 0.000000 1.000000	</row2>
+																	<row3>	0.045155 0.000000 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	joint15	</identifier>
+																	<transform>
+																		<row0>	0.941306 0.337553 0.000000	</row0>
+																		<row1>	0.337553 -0.941306 -0.000000	</row1>
+																		<row2>	-0.000000 0.000000 -1.000000	</row2>
+																		<row3>	0.040367 -0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	joint16	</identifier>
+																		<transform>
+																			<row0>	0.905535 0.424272 0.000000	</row0>
+																			<row1>	0.424272 -0.905535 -0.000000	</row1>
+																			<row2>	-0.000000 0.000000 -1.000000	</row2>
+																			<row3>	0.037333 -0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	joint17	</identifier>
+																			<transform>
+																				<row0>	0.980143 0.198295 0.000000	</row0>
+																				<row1>	0.198295 -0.980142 -0.000000	</row1>
+																				<row2>	-0.000000 0.000000 -1.000000	</row2>
+																				<row3>	0.034989 0.000000 0.000000	</row3>
+																			</transform>
+																			<node>
+																				<identifier>	joint18	</identifier>
+																				<transform>
+																					<row0>	0.996966 0.077841 -0.000000	</row0>
+																					<row1>	0.077841 -0.996966 -0.000000	</row1>
+																					<row2>	-0.000000 0.000000 -1.000000	</row2>
+																					<row3>	0.041727 0.000000 0.000000	</row3>
+																				</transform>
+																				<node>
+																					<identifier>	joint19	</identifier>
+																					<transform>
+																						<row0>	0.999949 0.010130 0.000000	</row0>
+																						<row1>	-0.010130 0.999949 0.000000	</row1>
+																						<row2>	0.000000 0.000000 1.000000	</row2>
+																						<row3>	0.033106 0.000000 0.000000	</row3>
+																					</transform>
+																					<node>
+																						<identifier>	joint20	</identifier>
+																						<transform>
+																							<row0>	0.999445 0.033315 -0.000000	</row0>
+																							<row1>	-0.033315 0.999445 0.000000	</row1>
+																							<row2>	0.000000 0.000000 1.000000	</row2>
+																							<row3>	0.043165 0.000000 0.000000	</row3>
+																						</transform>
+																						<node>
+																							<identifier>	joint21	</identifier>
+																							<transform>
+																								<row0>	0.995893 0.090536 -0.000000	</row0>
+																								<row1>	0.090536 -0.995893 -0.000000	</row1>
+																								<row2>	-0.000000 0.000000 -1.000000	</row2>
+																								<row3>	0.035951 0.000000 0.000000	</row3>
+																							</transform>
+																							<node>
+																								<identifier>	joint22	</identifier>
+																								<transform>
+																									<row0>	0.989523 -0.144379 0.000000	</row0>
+																									<row1>	0.144379 0.989523 -0.000000	</row1>
+																									<row2>	-0.000000 -0.000000 1.000000	</row2>
+																									<row3>	0.047650 0.000000 0.000000	</row3>
+																								</transform>
+																								<node>
+																									<identifier>	joint23	</identifier>
+																									<transform>
+																										<row0>	0.914956 0.403555 -0.000000	</row0>
+																										<row1>	0.403555 -0.914956 -0.000000	</row1>
+																										<row2>	-0.000000 0.000000 -1.000000	</row2>
+																										<row3>	0.036971 -0.000000 0.000000	</row3>
+																									</transform>
+																									<node>
+																										<identifier>	joint24	</identifier>
+																										<transform>
+																											<row0>	0.983870 0.178885 -0.000000	</row0>
+																											<row1>	-0.178885 0.983870 0.000000	</row1>
+																											<row2>	0.000000 0.000000 1.000000	</row2>
+																											<row3>	0.048233 -0.000000 0.000000	</row3>
+																										</transform>
+																										<node>
+																											<identifier>	joint25	</identifier>
+																											<transform>
+																												<row0>	0.992734 0.120331 -0.000000	</row0>
+																												<row1>	0.120331 -0.992734 -0.000000	</row1>
+																												<row2>	-0.000000 0.000000 -1.000000	</row2>
+																												<row3>	0.028760 0.000000 -0.000000	</row3>
+																											</transform>
+																											<node>
+																												<identifier>	joint26	</identifier>
+																												<transform>
+																													<row0>	0.979312 0.202358 -0.000000	</row0>
+																													<row1>	0.202358 -0.979312 -0.000000	</row1>
+																													<row2>	-0.000000 0.000000 -1.000000	</row2>
+																													<row3>	0.047802 0.000000 0.000000	</row3>
+																												</transform>
+																												<node>
+																													<identifier>	joint27	</identifier>
+																													<transform>
+																														<row0>	0.083045 -0.996546 0.000001	</row0>
+																														<row1>	0.996546 0.083045 -0.000000	</row1>
+																														<row2>	-0.000000 0.000001 1.000000	</row2>
+																														<row3>	0.034632 0.000000 -0.000000	</row3>
+																													</transform>
+																													<node>
+																														<identifier>	joint28	</identifier>
+																														<transform>
+																															<row0>	1.000000 -0.000000 0.000000	</row0>
+																															<row1>	0.000000 1.000000 0.000000	</row1>
+																															<row2>	0.000000 0.000000 1.000000	</row2>
+																															<row3>	0.000000 0.037389 -0.000000	</row3>
+																														</transform>
+																														<node>
+																															<identifier>	joint28_BlendBone	</identifier>
+																															<transform>
+																																<row0>	1.000000 0.000000 0.000000	</row0>
+																																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																																<row2>	0.000000 -0.000000 -1.000000	</row2>
+																																<row3>	0.000719 -0.996549 0.000000	</row3>
+																															</transform>
+																														</node>
+																													</node>
+																													<node>
+																														<identifier>	joint27_BlendBone	</identifier>
+																														<transform>
+																															<row0>	1.000000 0.000000 0.000000	</row0>
+																															<row1>	-0.000000 1.000000 -0.000000	</row1>
+																															<row2>	0.000000 -0.000000 -1.000000	</row2>
+																															<row3>	0.000719 -0.959160 0.000000	</row3>
+																														</transform>
+																													</node>
+																												</node>
+																												<node>
+																													<identifier>	joint26_BlendBone	</identifier>
+																													<transform>
+																														<row0>	0.083045 -0.996546 0.000001	</row0>
+																														<row1>	0.996546 0.083045 -0.000000	</row1>
+																														<row2>	0.000000 -0.000001 -1.000000	</row2>
+																														<row3>	-0.921155 -0.080370 0.000000	</row3>
+																													</transform>
+																												</node>
+																											</node>
+																											<node>
+																												<identifier>	joint25_BlendBone	</identifier>
+																												<transform>
+																													<row0>	-0.120331 0.992734 -0.000000	</row0>
+																													<row1>	0.992734 0.120331 -0.000000	</row1>
+																													<row2>	-0.000000 0.000000 1.000000	</row2>
+																													<row3>	-0.870560 -0.107695 0.000000	</row3>
+																												</transform>
+																											</node>
+																										</node>
+																										<node>
+																											<identifier>	joint24_BlendBone	</identifier>
+																											<transform>
+																												<row0>	0.000000 -1.000000 0.000000	</row0>
+																												<row1>	1.000000 0.000000 -0.000000	</row1>
+																												<row2>	-0.000000 -0.000000 -1.000000	</row2>
+																												<row3>	-0.848433 0.002157 0.000000	</row3>
+																											</transform>
+																										</node>
+																									</node>
+																									<node>
+																										<identifier>	joint23_BlendBone	</identifier>
+																										<transform>
+																											<row0>	0.178885 -0.983870 0.000000	</row0>
+																											<row1>	0.983870 0.178885 -0.000000	</row1>
+																											<row2>	0.000000 -0.000000 -1.000000	</row2>
+																											<row3>	-0.786900 -0.149650 0.000000	</row3>
+																										</transform>
+																									</node>
+																								</node>
+																								<node>
+																									<identifier>	joint22_BlendBone	</identifier>
+																									<transform>
+																										<row0>	-0.233373 0.972387 -0.000000	</row0>
+																										<row1>	0.972387 0.233373 -0.000000	</row1>
+																										<row2>	-0.000000 0.000000 1.000000	</row2>
+																										<row3>	-0.743399 -0.180634 0.000000	</row3>
+																									</transform>
+																								</node>
+																							</node>
+																							<node>
+																								<identifier>	joint21_BlendBone	</identifier>
+																								<transform>
+																									<row0>	-0.090536 0.995893 -0.000000	</row0>
+																									<row1>	0.995893 0.090536 -0.000000	</row1>
+																									<row2>	-0.000000 0.000000 1.000000	</row2>
+																									<row3>	-0.714040 -0.071410 0.000000	</row3>
+																								</transform>
+																							</node>
+																						</node>
+																						<node>
+																							<identifier>	joint20_BlendBone	</identifier>
+																							<transform>
+																								<row0>	0.000000 -1.000000 0.000000	</row0>
+																								<row1>	1.000000 0.000000 0.000000	</row1>
+																								<row2>	0.000000 -0.000000 -1.000000	</row2>
+																								<row3>	-0.681622 0.006471 -0.000000	</row3>
+																							</transform>
+																						</node>
+																					</node>
+																					<node>
+																						<identifier>	joint19_BlendBone	</identifier>
+																						<transform>
+																							<row0>	0.033315 -0.999445 0.000000	</row0>
+																							<row1>	0.999445 0.033315 0.000000	</row1>
+																							<row2>	0.000000 -0.000000 -1.000000	</row2>
+																							<row3>	-0.638295 -0.016241 -0.000000	</row3>
+																						</transform>
+																					</node>
+																				</node>
+																				<node>
+																					<identifier>	joint18_BlendBone	</identifier>
+																					<transform>
+																						<row0>	0.043437 -0.999056 0.000000	</row0>
+																						<row1>	0.999056 0.043437 0.000000	</row1>
+																						<row2>	0.000000 -0.000000 -1.000000	</row2>
+																						<row3>	-0.604992 -0.022706 -0.000000	</row3>
+																					</transform>
+																				</node>
+																			</node>
+																			<node>
+																				<identifier>	joint17_BlendBone	</identifier>
+																				<transform>
+																					<row0>	-0.034462 0.999406 -0.000000	</row0>
+																					<row1>	0.999406 0.034462 -0.000000	</row1>
+																					<row2>	0.000000 0.000000 1.000000	</row2>
+																					<row3>	-0.563196 -0.024457 0.000000	</row3>
+																				</transform>
+																			</node>
+																		</node>
+																		<node>
+																			<identifier>	joint16_BlendBone	</identifier>
+																			<transform>
+																				<row0>	0.164399 -0.986394 0.000000	</row0>
+																				<row1>	0.986394 0.164399 0.000000	</row1>
+																				<row2>	0.000000 -0.000000 -1.000000	</row2>
+																				<row3>	-0.521873 -0.087708 -0.000000	</row3>
+																			</transform>
+																		</node>
+																	</node>
+																	<node>
+																		<identifier>	joint15_BlendBone	</identifier>
+																		<transform>
+																			<row0>	-0.269630 0.962964 -0.000000	</row0>
+																			<row1>	0.962964 0.269630 -0.000000	</row1>
+																			<row2>	-0.000000 0.000000 1.000000	</row2>
+																			<row3>	-0.472453 -0.141994 0.000000	</row3>
+																		</transform>
+																	</node>
+																</node>
+																<node>
+																	<identifier>	joint14_BlendBone	</identifier>
+																	<transform>
+																		<row0>	0.071247 -0.997459 0.000000	</row0>
+																		<row1>	0.997459 0.071247 -0.000000	</row1>
+																		<row2>	0.000000 -0.000000 -1.000000	</row2>
+																		<row3>	-0.452287 -0.025819 -0.000000	</row3>
+																	</transform>
+																</node>
+															</node>
+															<node>
+																<identifier>	joint13_BlendBone	</identifier>
+																<transform>
+																	<row0>	0.159232 -0.987241 0.000000	</row0>
+																	<row1>	0.987241 0.159232 -0.000000	</row1>
+																	<row2>	0.000000 -0.000000 -1.000000	</row2>
+																	<row3>	-0.403073 -0.065740 0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	joint12_BlendBone	</identifier>
+															<transform>
+																<row0>	-0.157991 0.987441 -0.000000	</row0>
+																<row1>	0.987441 0.157991 -0.000000	</row1>
+																<row2>	-0.000000 0.000000 1.000000	</row2>
+																<row3>	-0.366975 -0.063813 0.000000	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	joint11_BlendBone	</identifier>
+														<transform>
+															<row0>	0.000000 -1.000000 0.000000	</row0>
+															<row1>	1.000000 0.000000 -0.000000	</row1>
+															<row2>	-0.000000 -0.000000 -1.000000	</row2>
+															<row3>	-0.335059 0.005033 -0.000000	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	joint10_BlendBone	</identifier>
+													<transform>
+														<row0>	0.000000 -1.000000 0.000000	</row0>
+														<row1>	1.000000 0.000000 -0.000000	</row1>
+														<row2>	-0.000000 -0.000000 -1.000000	</row2>
+														<row3>	-0.300546 0.005033 -0.000000	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	joint9_BlendBone	</identifier>
+												<transform>
+													<row0>	0.037012 -0.999315 0.000000	</row0>
+													<row1>	0.999315 0.037012 -0.000000	</row1>
+													<row2>	0.000000 -0.000000 -1.000000	</row2>
+													<row3>	-0.261674 -0.006094 -0.000000	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	joint8_BlendBone	</identifier>
+											<transform>
+												<row0>	0.000000 -1.000000 0.000000	</row0>
+												<row1>	1.000000 0.000000 -0.000000	</row1>
+												<row2>	-0.000000 -0.000000 -1.000000	</row2>
+												<row3>	-0.232959 0.003595 -0.000000	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	joint7_BlendBone	</identifier>
+										<transform>
+											<row0>	0.062378 -0.998053 0.000000	</row0>
+											<row1>	0.998053 0.062378 -0.000000	</row1>
+											<row2>	0.000000 -0.000000 -1.000000	</row2>
+											<row3>	-0.186624 -0.010944 0.000000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	joint6_BlendBone	</identifier>
+									<transform>
+										<row0>	-0.110432 0.993884 -0.000000	</row0>
+										<row1>	0.993884 0.110432 -0.000000	</row1>
+										<row2>	-0.000000 0.000000 1.000000	</row2>
+										<row3>	-0.146654 -0.021359 0.000000	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	joint5_BlendBone	</identifier>
+								<transform>
+									<row0>	0.141421 -0.989950 0.000000	</row0>
+									<row1>	0.989950 0.141421 -0.000000	</row1>
+									<row2>	0.000000 -0.000000 -1.000000	</row2>
+									<row3>	-0.116834 -0.015964 0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	joint4_BlendBone	</identifier>
+							<transform>
+								<row0>	-0.045408 0.998969 -0.000000	</row0>
+								<row1>	0.998969 0.045408 -0.000000	</row1>
+								<row2>	0.000000 0.000000 1.000000	</row2>
+								<row3>	-0.086094 -0.006073 0.000000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	joint3_BlendBone	</identifier>
+						<transform>
+							<row0>	0.000000 -1.000000 0.000000	</row0>
+							<row1>	1.000000 0.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000	</row2>
+							<row3>	-0.061835 0.002157 0.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	joint2_BlendBone	</identifier>
+					<transform>
+						<row0>	0.000000 -1.000000 0.000000	</row0>
+						<row1>	1.000000 0.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 -1.000000	</row2>
+						<row3>	-0.031636 0.002157 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	joint1_BlendBone	</identifier>
+				<transform>
+					<row0>	0.000000 -1.000000 0.000000	</row0>
+					<row1>	1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000	</row2>
+					<row3>	-0.000000 0.002157 0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint12_BlendBone	</node>
+		<node>	joint11_BlendBone	</node>
+		<node>	joint10_BlendBone	</node>
+		<node>	joint13_BlendBone	</node>
+		<node>	joint14_BlendBone	</node>
+		<node>	joint9_BlendBone	</node>
+		<node>	joint8_BlendBone	</node>
+		<node>	joint7_BlendBone	</node>
+		<node>	joint6_BlendBone	</node>
+		<node>	joint5_BlendBone	</node>
+		<node>	joint4_BlendBone	</node>
+		<node>	joint3_BlendBone	</node>
+		<node>	joint2_BlendBone	</node>
+		<node>	joint1_BlendBone	</node>
+		<geometry>
+			<vertices>	pCylinderShape1_split_1.vertices	</vertices>
+			<primitive>	pCylinderShape1_split_1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn1_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint27_BlendBone	</node>
+		<node>	joint26_BlendBone	</node>
+		<node>	joint25_BlendBone	</node>
+		<node>	joint28_BlendBone	</node>
+		<node>	joint24_BlendBone	</node>
+		<node>	joint23_BlendBone	</node>
+		<node>	joint22_BlendBone	</node>
+		<node>	joint21_BlendBone	</node>
+		<node>	joint20_BlendBone	</node>
+		<node>	joint19_BlendBone	</node>
+		<node>	joint18_BlendBone	</node>
+		<node>	joint17_BlendBone	</node>
+		<node>	joint16_BlendBone	</node>
+		<node>	joint15_BlendBone	</node>
+		<node>	joint14_BlendBone	</node>
+		<node>	joint13_BlendBone	</node>
+		<node>	joint12_BlendBone	</node>
+		<geometry>
+			<vertices>	pCylinderShape1_split_0.vertices	</vertices>
+			<primitive>	pCylinderShape1_split_0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	blinn1_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.082740 -0.002445 -0.082740	</min>
+		<max>	0.082740 0.997555 0.082740	</max>
+	</boundingBox>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	0	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	false	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile />
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+		</settings>
+	</metaData>
+</root>

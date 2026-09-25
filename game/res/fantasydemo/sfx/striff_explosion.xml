@@ -1,0 +1,29 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_explosion_striff.xml  </ParticleSystem>
+	</Actor>
+	
+	<Actor> feathers
+		<Model>  characters/npc/striff/falling_feathers.model  </Model>
+	</Actor>
+	
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>
+
+	<Joint>	feathers
+		<ModelRoot/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+
+	<Event> feathers
+		<PlayAction> 
+				<Action> falling_feathers	</Action>
+				<Action> idle				</Action> 
+		</PlayAction>		
+	</Event>	
+
+</SFXFile>

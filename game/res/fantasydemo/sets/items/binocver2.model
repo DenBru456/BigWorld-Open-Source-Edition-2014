@@ -1,0 +1,84 @@
+<binocver2.model>
+	<animation>
+		<name>	binocver2_anim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/items/binocver2_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	binocver2_anim:firstframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	0	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+		<nodes>	sets/items/binocver2_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	binocver2_anim:lastframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	-1	</firstFrame>
+		<lastFrame>	-1	</lastFrame>
+		<nodes>	sets/items/binocver2_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	binocver2_anim:rev	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	-1	</firstFrame>
+		<lastFrame>	0	</lastFrame>
+		<nodes>	sets/items/binocver2_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Start	</name>
+		<animation>	binocver2_anim	</animation>
+		<blendInTime>	0.010000	</blendInTime>
+		<blendOutTime>	0.010000	</blendOutTime>
+		<filler>	false	</filler>
+		<blended>	false	</blended>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<action>
+		<name>	IdleOn	</name>
+		<animation>	binocver2_anim:lastframe	</animation>
+		<blendInTime>	0.010000	</blendInTime>
+		<blendOutTime>	0.010000	</blendOutTime>
+		<filler>	true	</filler>
+		<blended>	false	</blended>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<action>
+		<name>	Stop	</name>
+		<animation>	binocver2_anim:rev	</animation>
+		<blendInTime>	0.010000	</blendInTime>
+		<blendOutTime>	0.010000	</blendOutTime>
+		<filler>	false	</filler>
+		<blended>	false	</blended>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<action>
+		<name>	IdleOff	</name>
+		<animation>	binocver2_anim:firstframe	</animation>
+		<blendInTime>	0.010000	</blendInTime>
+		<blendOutTime>	0.010000	</blendOutTime>
+		<filler>	true	</filler>
+		<blended>	false	</blended>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<nodefullVisual>	sets/items/binocver2	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.134600 -0.012100 -0.118400	</min>
+		<max>	0.091800 0.110100 0.125600	</max>
+	</visibilityBox>
+	<extent>	20.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254376838	</modified_on>
+	</metaData>
+</binocver2.model>

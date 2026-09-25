@@ -1,0 +1,79 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch>	40	</pitch>
+		<roll>	20	</roll>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+
+		<pilotID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+		</pilotID>
+
+		<startPosition>
+			<Type>			VECTOR3				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</startPosition>
+
+		<startDirection>
+			<Type>			VECTOR3				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</startDirection>
+
+		<teleportTimer>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</teleportTimer>
+
+	</Properties>
+
+	<ClientMethods>
+	
+		<mountVehicle>
+			<Args>
+				<succeeded>			BOOL				</succeeded>
+				<pilotAvatarID>		OBJECT_ID			</pilotAvatarID>
+			</Args>
+		</mountVehicle>
+		
+		<dismountVehicle>
+			<Args>
+				<pilotAvatarID>			OBJECT_ID			</pilotAvatarID> 
+			</Args>
+		</dismountVehicle>
+		
+	</ClientMethods>
+
+	<CellMethods>
+
+		<mountVehicle>
+			<Exposed/>
+		</mountVehicle>
+		
+		<dismountVehicle>
+			<Exposed/>
+		</dismountVehicle>
+
+    	<passengerBoarded>
+    		<Args>
+    			<sourceAvatarID>		OBJECT_ID		</sourceAvatarID>
+    		</Args>
+		</passengerBoarded>
+
+		<passengerAlighted>
+			<Args>
+    			<sourceAvatarID>		OBJECT_ID		</sourceAvatarID>
+    		</Args>
+		</passengerAlighted>
+
+	</CellMethods>
+
+</root>

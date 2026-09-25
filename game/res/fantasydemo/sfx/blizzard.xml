@@ -1,0 +1,32 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>	particles/blizzard.xml	</ParticleSystem>
+	</Actor>
+	
+	<Actor> cold_breath
+		<ParticleSystem>	particles/cold_breath.xml	</ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+		<Camera/>
+	</Joint>
+
+	<Joint>	cold_breath
+		<Node>biped Head</Node>
+	</Joint>
+	
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	
+	<Event> cold_breath
+		<ForceParticle/>
+	</Event>	
+	
+	<Event> particles
+		<RampTimeTriggeredParticles>
+			<fadeTime>	2.0	</fadeTime>
+		</RampTimeTriggeredParticles>
+	</Event>
+
+</SFXFile>

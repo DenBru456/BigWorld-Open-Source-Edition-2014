@@ -1,0 +1,60 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<classType>
+			<Type>			ITEMTYPE				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</classType>
+
+		<itemSerial>
+			<Type>			ITEMSERIAL			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1						</Default>
+			<Editable>		false					</Editable>
+			<Persistent>	false					</Persistent>
+		</itemSerial>
+
+		<onGround>
+			<Type>			INT8				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		0					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</onGround>
+		
+		<dropperID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		0					</Default>
+		</dropperID>
+		
+		<pickerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0					</Default>
+		</pickerID>
+
+		<timeToLive>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</timeToLive>
+	</Properties>
+
+	<CellMethods>
+		<pickUpRequest>
+			<Args>
+				<whomID>		OBJECT_ID	</whomID>	<!-- picker entity id -->
+			</Args>
+		</pickUpRequest>
+	</CellMethods>
+</root>
+

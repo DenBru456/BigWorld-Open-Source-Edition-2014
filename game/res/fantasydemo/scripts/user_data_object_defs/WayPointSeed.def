@@ -1,0 +1,15 @@
+<root>
+	<Domain>	CLIENT	</Domain>
+	<Properties>
+		<girth>
+			<Type> FLOAT32 </Type>
+			<Default> -1.0 </Default>
+			<Editable>	True	</Editable>
+		</girth>
+		<generateRange>
+			<Type> FLOAT32 </Type>
+			<Default> 0.0 </Default>
+			<Editable>	True	</Editable>
+		</generateRange>
+	</Properties>
+</root>

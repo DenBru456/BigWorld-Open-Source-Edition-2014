@@ -1,0 +1,1758 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Alien	</identifier>
+			<transform>
+				<row0>	-0.000000 1.000000 0.000000	</row0>
+				<row1>	1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 -1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	AlienPelvis	</identifier>
+			<transform>
+				<row0>	0.007046 0.999177 -0.039957	</row0>
+				<row1>	0.984808 0.000000 0.173648	</row1>
+				<row2>	0.173505 -0.040573 -0.983997	</row2>
+				<row3>	-0.000000 1.568829 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	AlienSpine1	</identifier>
+				<transform>
+					<row0>	0.940844 0.000514 0.338839	</row0>
+					<row1>	-0.004485 0.999930 0.010936	</row1>
+					<row2>	-0.338810 -0.011809 0.940780	</row2>
+					<row3>	-0.004938 0.000000 -0.121612	</row3>
+				</transform>
+				<node>
+					<identifier>	AlienSpine2	</identifier>
+					<transform>
+						<row0>	0.965727 -0.006404 -0.259480	</row0>
+						<row1>	0.023669 0.997703 0.063469	</row1>
+						<row2>	0.258478 -0.067435 0.963660	</row2>
+						<row3>	0.390456 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AlienSpine3	</identifier>
+						<transform>
+							<row0>	0.965168 0.008016 -0.261508	</row0>
+							<row1>	0.017415 0.995345 0.094788	</row1>
+							<row2>	0.261051 -0.096040 0.960535	</row2>
+							<row3>	0.355293 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AlienSpine4	</identifier>
+							<transform>
+								<row0>	0.987850 0.022146 -0.153830	</row0>
+								<row1>	-0.007033 0.995152 0.098101	</row1>
+								<row2>	0.155257 -0.095827 0.983216	</row2>
+								<row3>	0.362031 0.000000 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	AlienSpine5	</identifier>
+								<transform>
+									<row0>	0.998188 0.016883 0.057756	</row0>
+									<row1>	-0.020504 0.997822 0.062696	</row1>
+									<row2>	-0.056572 -0.063766 0.996360	</row2>
+									<row3>	0.372861 -0.000000 -0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	AlienRibcage	</identifier>
+									<transform>
+										<row0>	0.971435 0.004381 0.237263	</row0>
+										<row1>	-0.006611 0.999941 0.008603	</row1>
+										<row2>	-0.237211 -0.009926 0.971407	</row2>
+										<row3>	0.367596 -0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	AlienNSpine1	</identifier>
+										<transform>
+											<row0>	0.988611 0.026133 0.148209	</row0>
+											<row1>	-0.024681 0.999628 -0.011627	</row1>
+											<row2>	-0.148458 0.007836 0.988888	</row2>
+											<row3>	0.153983 -0.000000 0.196879	</row3>
+										</transform>
+										<node>
+											<identifier>	AlienNSpine2	</identifier>
+											<transform>
+												<row0>	0.978276 0.033998 0.204499	</row0>
+												<row1>	-0.020510 0.997494 -0.067721	</row1>
+												<row2>	-0.206289 0.062055 0.976521	</row2>
+												<row3>	0.369963 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	AlienNSpine3	</identifier>
+												<transform>
+													<row0>	0.997586 0.006870 0.069099	</row0>
+													<row1>	0.000000 0.995094 -0.098936	</row1>
+													<row2>	-0.069440 0.098697 0.992692	</row2>
+													<row3>	0.369963 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AlienNSpine4	</identifier>
+													<transform>
+														<row0>	0.997586 -0.000000 -0.069440	</row0>
+														<row1>	-0.006870 0.995094 -0.098697	</row1>
+														<row2>	0.069099 0.098936 0.992692	</row2>
+														<row3>	0.369963 0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	AlienNSpine5	</identifier>
+														<transform>
+															<row0>	0.978276 0.020510 -0.206289	</row0>
+															<row1>	-0.033998 0.997494 -0.062055	</row1>
+															<row2>	0.204499 0.067721 0.976521	</row2>
+															<row3>	0.369963 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienHead	</identifier>
+															<transform>
+																<row0>	0.988611 0.024681 -0.148458	</row0>
+																<row1>	-0.026133 0.999628 -0.007836	</row1>
+																<row2>	0.148209 0.011627 0.988888	</row2>
+																<row3>	0.369963 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienLAntenae1	</identifier>
+																<transform>
+																	<row0>	0.924970 0.371543 0.079917	</row0>
+																	<row1>	-0.375931 0.925352 0.049005	</row1>
+																	<row2>	-0.055744 -0.075372 0.995596	</row2>
+																	<row3>	0.462435 0.189658 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	AlienLAntenae2	</identifier>
+																	<transform>
+																		<row0>	0.971434 0.213076 0.104471	</row0>
+																		<row1>	-0.219345 0.974229 0.052597	</row1>
+																		<row2>	-0.090571 -0.074010 0.993136	</row2>
+																		<row3>	0.283680 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	AlienLAntenae3	</identifier>
+																		<transform>
+																			<row0>	0.970716 0.205033 0.125186	</row0>
+																			<row1>	-0.211295 0.976651 0.038837	</row1>
+																			<row2>	-0.114300 -0.064150 0.991373	</row2>
+																			<row3>	0.283680 0.000000 -0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	AlienLAntenae4	</identifier>
+																			<transform>
+																				<row0>	0.971115 0.200269 0.129720	</row0>
+																				<row1>	-0.203183 0.979094 0.009506	</row1>
+																				<row2>	-0.125105 -0.035589 0.991505	</row2>
+																				<row3>	0.283680 0.000000 -0.000000	</row3>
+																			</transform>
+																			<node>
+																				<identifier>	AlienLAntenae5	</identifier>
+																				<transform>
+																					<row0>	0.973331 0.200368 0.111717	</row0>
+																					<row1>	-0.198829 0.979719 -0.024870	</row1>
+																					<row2>	-0.114434 0.001995 0.993430	</row2>
+																					<row3>	0.283680 0.000000 -0.000000	</row3>
+																				</transform>
+																			</node>
+																		</node>
+																	</node>
+																</node>
+															</node>
+															<node>
+																<identifier>	AlienRAntenae1	</identifier>
+																<transform>
+																	<row0>	0.924970 -0.372308 0.076277	</row0>
+																	<row1>	0.375931 0.925787 -0.039946	</row1>
+																	<row2>	-0.055744 0.065624 0.996286	</row2>
+																	<row3>	0.462435 -0.189658 0.000000	</row3>
+																</transform>
+																<node>
+																	<identifier>	AlienRAntenae2	</identifier>
+																	<transform>
+																		<row0>	0.972758 -0.221851 0.067262	</row0>
+																		<row1>	0.222277 0.974983 0.001153	</row1>
+																		<row2>	-0.065835 0.013829 0.997735	</row2>
+																		<row3>	0.283680 0.000000 0.000000	</row3>
+																	</transform>
+																	<node>
+																		<identifier>	AlienRAntenae3	</identifier>
+																		<transform>
+																			<row0>	0.973403 -0.222936 0.052789	</row0>
+																			<row1>	0.221746 0.974717 0.027514	</row1>
+																			<row2>	-0.057588 -0.015077 0.998226	</row2>
+																			<row3>	0.283680 -0.000000 0.000000	</row3>
+																		</transform>
+																		<node>
+																			<identifier>	AlienRAntenae4	</identifier>
+																			<transform>
+																				<row0>	0.973996 -0.222033 0.045079	</row0>
+																				<row1>	0.220385 0.974642 0.038773	</row1>
+																				<row2>	-0.052545 -0.027829 0.998231	</row2>
+																				<row3>	0.283680 0.000000 0.000000	</row3>
+																			</transform>
+																			<node>
+																				<identifier>	AlienRAntenae5	</identifier>
+																				<transform>
+																					<row0>	0.974854 -0.217025 0.050611	</row0>
+																					<row1>	0.214951 0.975659 0.043427	</row1>
+																					<row2>	-0.058804 -0.031457 0.997775	</row2>
+																					<row3>	0.283680 0.000000 -0.000000	</row3>
+																				</transform>
+																			</node>
+																		</node>
+																	</node>
+																</node>
+															</node>
+														</node>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+									<node>
+										<identifier>	AlienLArmCollarbone	</identifier>
+										<transform>
+											<row0>	0.000049 0.968121 -0.250484	</row0>
+											<row1>	-1.000000 0.000035 -0.000060	</row1>
+											<row2>	-0.000049 0.250483 0.968121	</row2>
+											<row3>	0.000000 0.061500 0.115268	</row3>
+										</transform>
+										<node>
+											<identifier>	AlienLArm1	</identifier>
+											<transform>
+												<row0>	0.392904 0.918109 -0.051995	</row0>
+												<row1>	-0.901607 0.373485 -0.218205	</row1>
+												<row2>	-0.180916 0.132613 0.974517	</row2>
+												<row3>	0.343200 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	AlienLArm2	</identifier>
+												<transform>
+													<row0>	0.736683 0.000000 0.676238	</row0>
+													<row1>	0.000000 1.000000 0.000000	</row1>
+													<row2>	-0.676238 0.000000 0.736683	</row2>
+													<row3>	1.344000 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AlienLArmPalm	</identifier>
+													<transform>
+														<row0>	0.695836 0.037458 -0.717223	</row0>
+														<row1>	0.705200 0.153518 0.692190	</row1>
+														<row2>	0.136035 -0.987436 0.080408	</row2>
+														<row3>	1.068000 -0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	AlienLArmDigit01	</identifier>
+														<transform>
+															<row0>	0.765600 0.609740 -0.205120	</row0>
+															<row1>	-0.626255 0.633450 -0.454471	</row1>
+															<row2>	-0.147175 0.476401 0.866822	</row2>
+															<row3>	0.048441 0.091924 0.019946	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienLArmDigit02	</identifier>
+															<transform>
+																<row0>	0.965939 0.000000 -0.258772	</row0>
+																<row1>	0.000000 1.000000 0.000000	</row1>
+																<row2>	0.258772 0.000000 0.965939	</row2>
+																<row3>	0.219600 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienLArmDigit03	</identifier>
+																<transform>
+																	<row0>	0.754839 -0.000000 0.655911	</row0>
+																	<row1>	-0.000000 1.000000 -0.000000	</row1>
+																	<row2>	-0.655911 -0.000000 0.754839	</row2>
+																	<row3>	0.219600 0.000000 0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+													<node>
+														<identifier>	AlienLArmDigit11	</identifier>
+														<transform>
+															<row0>	0.912814 0.237730 -0.332049	</row0>
+															<row1>	-0.378719 0.796989 -0.470511	</row1>
+															<row2>	0.152785 0.555241 0.817535	</row2>
+															<row3>	0.427080 0.135848 0.010113	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienLArmDigit12	</identifier>
+															<transform>
+																<row0>	0.965939 -0.000000 -0.258772	</row0>
+																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.258772 -0.000000 0.965939	</row2>
+																<row3>	0.219600 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienLArmDigit13	</identifier>
+																<transform>
+																	<row0>	0.965939 -0.000000 -0.258772	</row0>
+																	<row1>	-0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.258772 0.000000 0.965939	</row2>
+																	<row3>	0.219600 0.000000 0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+													<node>
+														<identifier>	AlienLArmDigit21	</identifier>
+														<transform>
+															<row0>	0.965939 0.000000 -0.258772	</row0>
+															<row1>	-0.000000 1.000000 -0.000000	</row1>
+															<row2>	0.258772 0.000000 0.965939	</row2>
+															<row3>	0.450000 0.000000 0.034584	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienLArmDigit22	</identifier>
+															<transform>
+																<row0>	0.965939 0.000000 -0.258772	</row0>
+																<row1>	0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.258772 -0.000000 0.965939	</row2>
+																<row3>	0.219600 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienLArmDigit23	</identifier>
+																<transform>
+																	<row0>	0.965939 0.000000 -0.258772	</row0>
+																	<row1>	-0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.258772 -0.000000 0.965939	</row2>
+																	<row3>	0.219600 0.000000 -0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+													<node>
+														<identifier>	AlienLArmDigit31	</identifier>
+														<transform>
+															<row0>	0.922406 -0.273780 -0.272418	</row0>
+															<row1>	0.354361 0.880454 0.315007	</row1>
+															<row2>	0.153608 -0.387098 0.909153	</row2>
+															<row3>	0.409786 -0.118399 0.025982	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienLArmDigit32	</identifier>
+															<transform>
+																<row0>	0.965939 0.000000 -0.258772	</row0>
+																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.258772 0.000000 0.965939	</row2>
+																<row3>	0.219600 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienLArmDigit33	</identifier>
+																<transform>
+																	<row0>	0.965939 -0.000000 -0.258772	</row0>
+																	<row1>	-0.000000 1.000000 -0.000000	</row1>
+																	<row2>	0.258772 -0.000000 0.965939	</row2>
+																	<row3>	0.190200 0.000000 0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+									<node>
+										<identifier>	AlienRArmCollarbone	</identifier>
+										<transform>
+											<row0>	-0.000033 -0.968141 -0.250404	</row0>
+											<row1>	1.000000 -0.000024 -0.000040	</row1>
+											<row2>	0.000033 -0.250404 0.968141	</row2>
+											<row3>	0.000000 -0.061500 0.115268	</row3>
+										</transform>
+										<node>
+											<identifier>	AlienRArm1	</identifier>
+											<transform>
+												<row0>	0.387225 -0.918041 0.085200	</row0>
+												<row1>	0.772472 0.373491 0.513606	</row1>
+												<row2>	-0.503333 -0.133066 0.853786	</row2>
+												<row3>	0.343200 -0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	AlienRArm2	</identifier>
+												<transform>
+													<row0>	0.737051 0.000000 0.675836	</row0>
+													<row1>	0.000000 1.000000 -0.000000	</row1>
+													<row2>	-0.675836 -0.000000 0.737051	</row2>
+													<row3>	1.344000 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AlienRArmPalm	</identifier>
+													<transform>
+														<row0>	0.981509 0.100333 -0.163013	</row0>
+														<row1>	-0.154898 -0.084009 -0.984352	</row1>
+														<row2>	-0.112458 0.991401 -0.066914	</row2>
+														<row3>	1.068000 -0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	AlienRArmDigit01	</identifier>
+														<transform>
+															<row0>	0.765643 -0.609670 -0.205168	</row0>
+															<row1>	0.626215 0.633473 0.454496	</row1>
+															<row2>	-0.147123 -0.476461 0.866798	</row2>
+															<row3>	0.048441 -0.091924 0.019946	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienRArmDigit02	</identifier>
+															<transform>
+																<row0>	0.965918 0.000000 -0.258851	</row0>
+																<row1>	0.000000 1.000000 0.000000	</row1>
+																<row2>	0.258851 -0.000000 0.965918	</row2>
+																<row3>	0.219600 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienRArmDigit03	</identifier>
+																<transform>
+																	<row0>	0.754893 -0.000000 0.655849	</row0>
+																	<row1>	0.000000 1.000000 -0.000000	</row1>
+																	<row2>	-0.655849 0.000000 0.754892	</row2>
+																	<row3>	0.219600 0.000000 0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+													<node>
+														<identifier>	AlienRArmDigit11	</identifier>
+														<transform>
+															<row0>	0.912829 -0.237625 -0.332081	</row0>
+															<row1>	0.378656 0.796993 0.470556	</row1>
+															<row2>	0.152850 -0.555281 0.817496	</row2>
+															<row3>	0.427080 -0.135848 0.010113	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienRArmDigit12	</identifier>
+															<transform>
+																<row0>	0.965918 -0.000000 -0.258851	</row0>
+																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.258851 -0.000000 0.965918	</row2>
+																<row3>	0.219600 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienRArmDigit13	</identifier>
+																<transform>
+																	<row0>	0.965917 0.000000 -0.258851	</row0>
+																	<row1>	0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.258851 -0.000000 0.965917	</row2>
+																	<row3>	0.219600 -0.000000 -0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+													<node>
+														<identifier>	AlienRArmDigit21	</identifier>
+														<transform>
+															<row0>	0.965918 -0.000000 -0.258851	</row0>
+															<row1>	0.000000 1.000000 0.000000	</row1>
+															<row2>	0.258851 -0.000000 0.965917	</row2>
+															<row3>	0.450000 0.000000 0.034583	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienRArmDigit22	</identifier>
+															<transform>
+																<row0>	0.965917 0.000000 -0.258851	</row0>
+																<row1>	-0.000000 1.000000 0.000000	</row1>
+																<row2>	0.258851 0.000000 0.965918	</row2>
+																<row3>	0.219600 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienRArmDigit23	</identifier>
+																<transform>
+																	<row0>	0.965918 0.000000 -0.258851	</row0>
+																	<row1>	0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.258851 -0.000000 0.965918	</row2>
+																	<row3>	0.219600 0.000000 0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+													<node>
+														<identifier>	AlienRArmDigit31	</identifier>
+														<transform>
+															<row0>	0.922416 0.273692 -0.272472	</row0>
+															<row1>	-0.354304 0.880464 -0.315044	</row1>
+															<row2>	0.153676 0.387139 0.909124	</row2>
+															<row3>	0.409786 0.118399 0.025982	</row3>
+														</transform>
+														<node>
+															<identifier>	AlienRArmDigit32	</identifier>
+															<transform>
+																<row0>	0.965918 0.000000 -0.258851	</row0>
+																<row1>	-0.000000 1.000000 0.000000	</row1>
+																<row2>	0.258851 -0.000000 0.965918	</row2>
+																<row3>	0.219600 0.000000 -0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AlienRArmDigit33	</identifier>
+																<transform>
+																	<row0>	0.965918 -0.000000 -0.258851	</row0>
+																	<row1>	0.000000 1.000000 0.000000	</row1>
+																	<row2>	0.258851 -0.000000 0.965917	</row2>
+																	<row3>	0.190200 -0.000000 0.000000	</row3>
+																</transform>
+															</node>
+														</node>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	AlienTail1	</identifier>
+				<transform>
+					<row0>	-0.996338 0.000520 -0.085504	</row0>
+					<row1>	0.000102 0.999988 0.004893	</row1>
+					<row2>	0.085505 0.004866 -0.996326	</row2>
+					<row3>	-0.154532 0.000000 -0.461833	</row3>
+				</transform>
+				<node>
+					<identifier>	AlienTail2	</identifier>
+					<transform>
+						<row0>	0.999965 0.003382 -0.007669	</row0>
+						<row1>	-0.003630 0.999461 -0.032619	</row1>
+						<row2>	0.007555 0.032645 0.999438	</row2>
+						<row3>	0.239047 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AlienTail3	</identifier>
+						<transform>
+							<row0>	0.982294 0.014686 0.186767	</row0>
+							<row1>	-0.005575 0.998773 -0.049217	</row1>
+							<row2>	-0.187260 0.047304 0.981170	</row2>
+							<row3>	0.239047 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AlienTail4	</identifier>
+							<transform>
+								<row0>	0.982154 0.023780 0.186568	</row0>
+								<row1>	-0.015229 0.998772 -0.047133	</row1>
+								<row2>	-0.187460 0.043450 0.981311	</row2>
+								<row3>	0.239047 -0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	AlienTail5	</identifier>
+								<transform>
+									<row0>	0.981431 0.021204 0.190636	</row0>
+									<row1>	-0.016031 0.999461 -0.028639	</row1>
+									<row2>	-0.191141 0.025051 0.981243	</row2>
+									<row3>	0.239047 -0.000000 -0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	AlienLLeg1	</identifier>
+				<transform>
+					<row0>	-0.846073 0.180723 0.501497	</row0>
+					<row1>	-0.204680 -0.978801 0.007414	</row1>
+					<row2>	0.492206 -0.096374 0.865128	</row2>
+					<row3>	-0.000000 0.534000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	AlienLLeg2	</identifier>
+					<transform>
+						<row0>	-0.503479 -0.007755 -0.863972	</row0>
+						<row1>	0.318745 0.927758 -0.194076	</row1>
+						<row2>	0.803065 -0.373101 -0.464634	</row2>
+						<row3>	0.940743 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AlienLLegPalm	</identifier>
+						<transform>
+							<row0>	0.172531 -0.000000 0.985004	</row0>
+							<row1>	-0.000000 1.000000 -0.000000	</row1>
+							<row2>	-0.985004 -0.000000 0.172531	</row2>
+							<row3>	1.087809 0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AlienLLegDigit01	</identifier>
+							<transform>
+								<row0>	0.116387 0.389927 0.913460	</row0>
+								<row1>	-0.509476 0.812930 -0.282098	</row1>
+								<row2>	-0.852577 -0.432554 0.293275	</row2>
+								<row3>	0.812717 0.081688 0.035911	</row3>
+							</transform>
+							<node>
+								<identifier>	AlienLLegDigit02	</identifier>
+								<transform>
+									<row0>	0.947715 -0.267779 0.173585	</row0>
+									<row1>	0.244715 0.958954 0.143255	</row1>
+									<row2>	-0.204821 -0.093286 0.974344	</row2>
+									<row3>	0.203100 0.000000 -0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AlienLLegDigit11	</identifier>
+							<transform>
+								<row0>	0.312794 -0.023391 0.949532	</row0>
+								<row1>	-0.624553 0.748118 0.224170	</row1>
+								<row2>	-0.715606 -0.663153 0.219399	</row2>
+								<row3>	0.797177 -0.033188 0.019676	</row3>
+							</transform>
+							<node>
+								<identifier>	AlienLLegDigit12	</identifier>
+								<transform>
+									<row0>	0.986471 0.143194 0.079814	</row0>
+									<row1>	-0.132188 0.982749 -0.129344	</row1>
+									<row2>	-0.096958 0.117043 0.988383	</row2>
+									<row3>	0.234900 0.000000 -0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>	AlienRLeg1	</identifier>
+				<transform>
+					<row0>	-0.363329 -0.356538 0.860739	</row0>
+					<row1>	0.047387 -0.929753 -0.365122	</row1>
+					<row2>	0.930455 -0.091872 0.354703	</row2>
+					<row3>	-0.000000 -0.534000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	AlienRLeg2	</identifier>
+					<transform>
+						<row0>	0.050882 0.013688 -0.998611	</row0>
+						<row1>	-0.232823 0.972517 0.001467	</row1>
+						<row2>	0.971188 0.232426 0.052671	</row2>
+						<row3>	0.940743 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AlienRLegPalm	</identifier>
+						<transform>
+							<row0>	-0.202230 -0.088013 0.975374	</row0>
+							<row1>	0.123372 0.985730 0.114527	</row1>
+							<row2>	-0.971536 0.143495 -0.188487	</row2>
+							<row3>	1.087809 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AlienRLegDigit01	</identifier>
+							<transform>
+								<row0>	0.944963 -0.318099 -0.076532	</row0>
+								<row1>	0.326092 0.934727 0.141241	</row1>
+								<row2>	0.026609 -0.158424 0.987013	</row2>
+								<row3>	0.812717 -0.081688 0.035911	</row3>
+							</transform>
+							<node>
+								<identifier>	AlienRLegDigit02	</identifier>
+								<transform>
+									<row0>	0.947715 0.267779 0.173585	</row0>
+									<row1>	-0.244715 0.958954 -0.143255	</row1>
+									<row2>	-0.204821 0.093286 0.974344	</row2>
+									<row3>	0.203100 0.000000 0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AlienRLegDigit11	</identifier>
+							<transform>
+								<row0>	0.991506 0.129054 0.016182	</row0>
+								<row1>	-0.126316 0.985100 -0.116713	</row1>
+								<row2>	-0.031003 0.113677 0.993033	</row2>
+								<row3>	0.797178 0.033188 0.019676	</row3>
+							</transform>
+							<node>
+								<identifier>	AlienRLegDigit12	</identifier>
+								<transform>
+									<row0>	0.986471 -0.143194 0.079814	</row0>
+									<row1>	0.132188 0.982749 0.129344	</row1>
+									<row2>	-0.096958 -0.117043 0.988383	</row2>
+									<row3>	0.234900 -0.000000 0.000000	</row3>
+								</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node>
+			<identifier>	AlienLLegPlatform	</identifier>
+			<transform>
+				<row0>	0.092983 0.961897 -0.257116	</row0>
+				<row1>	0.940396 0.000000 0.340082	</row1>
+				<row2>	0.327124 -0.273412 -0.904564	</row2>
+				<row3>	0.922481 0.141778 1.294226	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	AlienRLegPlatform	</identifier>
+			<transform>
+				<row0>	0.010965 0.999480 0.030321	</row0>
+				<row1>	0.940396 -0.000000 -0.340082	</row1>
+				<row2>	-0.339905 0.032242 -0.939907	</row2>
+				<row3>	-0.915670 0.016719 -1.085739	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRLegDigit12	</node>
+		<geometry>
+			<vertices>	AlienRLegDigit12.vertices	</vertices>
+			<primitive>	AlienRLegDigit12.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRLegDigit11	</node>
+		<geometry>
+			<vertices>	AlienRLegDigit11.vertices	</vertices>
+			<primitive>	AlienRLegDigit11.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRLegDigit02	</node>
+		<geometry>
+			<vertices>	AlienRLegDigit02.vertices	</vertices>
+			<primitive>	AlienRLegDigit02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRLegDigit01	</node>
+		<geometry>
+			<vertices>	AlienRLegDigit01.vertices	</vertices>
+			<primitive>	AlienRLegDigit01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRLegPalm	</node>
+		<geometry>
+			<vertices>	AlienRLegPalm.vertices	</vertices>
+			<primitive>	AlienRLegPalm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRLeg2	</node>
+		<geometry>
+			<vertices>	AlienRLeg2.vertices	</vertices>
+			<primitive>	AlienRLeg2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRLeg1	</node>
+		<geometry>
+			<vertices>	AlienRLeg1.vertices	</vertices>
+			<primitive>	AlienRLeg1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLLegDigit12	</node>
+		<geometry>
+			<vertices>	AlienLLegDigit12.vertices	</vertices>
+			<primitive>	AlienLLegDigit12.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLLegDigit11	</node>
+		<geometry>
+			<vertices>	AlienLLegDigit11.vertices	</vertices>
+			<primitive>	AlienLLegDigit11.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLLegDigit02	</node>
+		<geometry>
+			<vertices>	AlienLLegDigit02.vertices	</vertices>
+			<primitive>	AlienLLegDigit02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLLegDigit01	</node>
+		<geometry>
+			<vertices>	AlienLLegDigit01.vertices	</vertices>
+			<primitive>	AlienLLegDigit01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLLegPalm	</node>
+		<geometry>
+			<vertices>	AlienLLegPalm.vertices	</vertices>
+			<primitive>	AlienLLegPalm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLLeg2	</node>
+		<geometry>
+			<vertices>	AlienLLeg2.vertices	</vertices>
+			<primitive>	AlienLLeg2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLLeg1	</node>
+		<geometry>
+			<vertices>	AlienLLeg1.vertices	</vertices>
+			<primitive>	AlienLLeg1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienTail5	</node>
+		<geometry>
+			<vertices>	AlienTail5.vertices	</vertices>
+			<primitive>	AlienTail5.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienTail4	</node>
+		<geometry>
+			<vertices>	AlienTail4.vertices	</vertices>
+			<primitive>	AlienTail4.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienTail3	</node>
+		<geometry>
+			<vertices>	AlienTail3.vertices	</vertices>
+			<primitive>	AlienTail3.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienTail2	</node>
+		<geometry>
+			<vertices>	AlienTail2.vertices	</vertices>
+			<primitive>	AlienTail2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienTail1	</node>
+		<geometry>
+			<vertices>	AlienTail1.vertices	</vertices>
+			<primitive>	AlienTail1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit33	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit33.vertices	</vertices>
+			<primitive>	AlienRArmDigit33.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit32	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit32.vertices	</vertices>
+			<primitive>	AlienRArmDigit32.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit31	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit31.vertices	</vertices>
+			<primitive>	AlienRArmDigit31.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit23	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit23.vertices	</vertices>
+			<primitive>	AlienRArmDigit23.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit22	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit22.vertices	</vertices>
+			<primitive>	AlienRArmDigit22.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit21	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit21.vertices	</vertices>
+			<primitive>	AlienRArmDigit21.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit13	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit13.vertices	</vertices>
+			<primitive>	AlienRArmDigit13.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit12	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit12.vertices	</vertices>
+			<primitive>	AlienRArmDigit12.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit11	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit11.vertices	</vertices>
+			<primitive>	AlienRArmDigit11.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit03	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit03.vertices	</vertices>
+			<primitive>	AlienRArmDigit03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit02	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit02.vertices	</vertices>
+			<primitive>	AlienRArmDigit02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmDigit01	</node>
+		<geometry>
+			<vertices>	AlienRArmDigit01.vertices	</vertices>
+			<primitive>	AlienRArmDigit01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmPalm	</node>
+		<geometry>
+			<vertices>	AlienRArmPalm.vertices	</vertices>
+			<primitive>	AlienRArmPalm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArm2	</node>
+		<geometry>
+			<vertices>	AlienRArm2.vertices	</vertices>
+			<primitive>	AlienRArm2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArm1	</node>
+		<geometry>
+			<vertices>	AlienRArm1.vertices	</vertices>
+			<primitive>	AlienRArm1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRArmCollarbone	</node>
+		<geometry>
+			<vertices>	AlienRArmCollarbone.vertices	</vertices>
+			<primitive>	AlienRArmCollarbone.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit33	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit33.vertices	</vertices>
+			<primitive>	AlienLArmDigit33.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit32	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit32.vertices	</vertices>
+			<primitive>	AlienLArmDigit32.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit31	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit31.vertices	</vertices>
+			<primitive>	AlienLArmDigit31.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit23	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit23.vertices	</vertices>
+			<primitive>	AlienLArmDigit23.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit22	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit22.vertices	</vertices>
+			<primitive>	AlienLArmDigit22.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit21	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit21.vertices	</vertices>
+			<primitive>	AlienLArmDigit21.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit13	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit13.vertices	</vertices>
+			<primitive>	AlienLArmDigit13.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit12	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit12.vertices	</vertices>
+			<primitive>	AlienLArmDigit12.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit11	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit11.vertices	</vertices>
+			<primitive>	AlienLArmDigit11.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit03	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit03.vertices	</vertices>
+			<primitive>	AlienLArmDigit03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit02	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit02.vertices	</vertices>
+			<primitive>	AlienLArmDigit02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmDigit01	</node>
+		<geometry>
+			<vertices>	AlienLArmDigit01.vertices	</vertices>
+			<primitive>	AlienLArmDigit01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmPalm	</node>
+		<geometry>
+			<vertices>	AlienLArmPalm.vertices	</vertices>
+			<primitive>	AlienLArmPalm.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArm2	</node>
+		<geometry>
+			<vertices>	AlienLArm2.vertices	</vertices>
+			<primitive>	AlienLArm2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArm1	</node>
+		<geometry>
+			<vertices>	AlienLArm1.vertices	</vertices>
+			<primitive>	AlienLArm1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLArmCollarbone	</node>
+		<geometry>
+			<vertices>	AlienLArmCollarbone.vertices	</vertices>
+			<primitive>	AlienLArmCollarbone.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRAntenae5	</node>
+		<geometry>
+			<vertices>	AlienRAntenae5.vertices	</vertices>
+			<primitive>	AlienRAntenae5.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRAntenae4	</node>
+		<geometry>
+			<vertices>	AlienRAntenae4.vertices	</vertices>
+			<primitive>	AlienRAntenae4.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRAntenae3	</node>
+		<geometry>
+			<vertices>	AlienRAntenae3.vertices	</vertices>
+			<primitive>	AlienRAntenae3.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRAntenae2	</node>
+		<geometry>
+			<vertices>	AlienRAntenae2.vertices	</vertices>
+			<primitive>	AlienRAntenae2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRAntenae1	</node>
+		<geometry>
+			<vertices>	AlienRAntenae1.vertices	</vertices>
+			<primitive>	AlienRAntenae1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLAntenae5	</node>
+		<geometry>
+			<vertices>	AlienLAntenae5.vertices	</vertices>
+			<primitive>	AlienLAntenae5.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLAntenae4	</node>
+		<geometry>
+			<vertices>	AlienLAntenae4.vertices	</vertices>
+			<primitive>	AlienLAntenae4.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLAntenae3	</node>
+		<geometry>
+			<vertices>	AlienLAntenae3.vertices	</vertices>
+			<primitive>	AlienLAntenae3.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLAntenae2	</node>
+		<geometry>
+			<vertices>	AlienLAntenae2.vertices	</vertices>
+			<primitive>	AlienLAntenae2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienLAntenae1	</node>
+		<geometry>
+			<vertices>	AlienLAntenae1.vertices	</vertices>
+			<primitive>	AlienLAntenae1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienHead	</node>
+		<geometry>
+			<vertices>	AlienHead.vertices	</vertices>
+			<primitive>	AlienHead.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienNSpine5	</node>
+		<geometry>
+			<vertices>	AlienNSpine5.vertices	</vertices>
+			<primitive>	AlienNSpine5.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienNSpine4	</node>
+		<geometry>
+			<vertices>	AlienNSpine4.vertices	</vertices>
+			<primitive>	AlienNSpine4.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienNSpine3	</node>
+		<geometry>
+			<vertices>	AlienNSpine3.vertices	</vertices>
+			<primitive>	AlienNSpine3.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienNSpine2	</node>
+		<geometry>
+			<vertices>	AlienNSpine2.vertices	</vertices>
+			<primitive>	AlienNSpine2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienNSpine1	</node>
+		<geometry>
+			<vertices>	AlienNSpine1.vertices	</vertices>
+			<primitive>	AlienNSpine1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienRibcage	</node>
+		<geometry>
+			<vertices>	AlienRibcage.vertices	</vertices>
+			<primitive>	AlienRibcage.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienSpine5	</node>
+		<geometry>
+			<vertices>	AlienSpine5.vertices	</vertices>
+			<primitive>	AlienSpine5.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienSpine4	</node>
+		<geometry>
+			<vertices>	AlienSpine4.vertices	</vertices>
+			<primitive>	AlienSpine4.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienSpine3	</node>
+		<geometry>
+			<vertices>	AlienSpine3.vertices	</vertices>
+			<primitive>	AlienSpine3.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienSpine2	</node>
+		<geometry>
+			<vertices>	AlienSpine2.vertices	</vertices>
+			<primitive>	AlienSpine2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienSpine1	</node>
+		<geometry>
+			<vertices>	AlienSpine1.vertices	</vertices>
+			<primitive>	AlienSpine1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	AlienPelvis	</node>
+		<geometry>
+			<vertices>	AlienPelvis.vertices	</vertices>
+			<primitive>	AlienPelvis.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Alien	</node>
+		<geometry>
+			<vertices>	Alien.vertices	</vertices>
+			<primitive>	Alien.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+					<mfm>	materials/template_mfms/lightonly.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.687414 -0.108729 -1.865190	</min>
+		<max>	1.687418 6.665103 1.186929	</max>
+	</boundingBox>
+</root>

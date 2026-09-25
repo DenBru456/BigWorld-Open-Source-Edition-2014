@@ -1,0 +1,68 @@
+<root>
+	<action>	Equipment
+		<text>	Toggles the display of the equipment screen (not yet implemented). </text>
+	</action>
+	<action>	PostProcessing
+		<text>	Toggles the display of the post-processing window. </text>
+	</action>
+	<action>	VOIPWindow
+		<text>	Toggles the display of the VOIP window (not yet implemented). </text>
+	</action>
+	<action>	ChatWindow
+		<text>	Toggles the display of the chat window. </text>
+	</action>	
+	<action>	ChatFlashWindow
+		<text>	Toggles the display of the chat flash window. </text>
+	</action>	
+	<action>	Inventory
+		<text>	Toggles the display of the player's inventory window.	</text>
+	</action>
+	<action>	Environment
+		<text>	Toggles the display of the environment window.	</text>
+	</action>
+	<action>	Help
+		<text>	Toggles the display of the help window.	</text>
+	</action>
+	<action>	ClientServerStats
+		<text>	Toggles the display of the network statistics window.	</text>
+	</action>
+	<action>	JobSystem
+		<text>	Toggles the display of the job system CPU utilisation window.	</text>
+	</action>
+	<action>	ToggleUmbra
+		<text>	Enables/disables Umbra.	</text>	
+	</action>
+	<action>	HideGUI
+		<text>	Hides all GUI elements.	</text>
+	</action>
+	<action>	TogglePythonConsole
+		<text>	Toggles the display of the Python debugging console.	</text>
+	</action>
+	<action>	ToggleWatcherConsole
+		<text>	Toggles the display of the watcher debugging console.	</text>
+	</action>
+	<action>	ToggleStatsConsole
+		<text>	Toggles the display of the client performance statistics console.	</text>
+	</action>
+	<action>	ToggleTerrainWireframe
+		<text>	Toggles wireframe rendering for terrain.	</text>
+	</action>
+	<action>	ToggleObjectWireframe
+		<text>	Toggles wireframe rendering for objects.	</text>
+	</action>
+	<action>	ToggleHistogram
+		<text>	Toggles display of colour histogram.	</text>
+	</action>
+	<action>	CellBoundaryVisualisation
+		<text>	Toggles cell boundary visualisation.	</text>
+	</action>
+	<action>	ToggleFlyThroughMode
+		<text>	Toggles fly-through mode.	</text>
+	</action>
+	<action>	EscapeKey
+		<text>	Cancels current action and displays in-game menu.	</text>
+	</action>
+	<action>	Web
+		<text>	Toggles the display of the web browser. 	</text>
+	</action>
+</root>

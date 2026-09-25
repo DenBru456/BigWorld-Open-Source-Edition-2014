@@ -1,0 +1,14 @@
+[Unit]
+Description=BigWorld bwlockd
+Requires=network.target time-sync.target bwmachined2.service
+After=network.target syslog.target time-sync.target bwmachined2.service
+
+[Service]
+Type=forking
+ExecStart=###bigworld_initrd_dir###/bw_lockd start
+ExecStop=###bigworld_initrd_dir###/bw_lockd stop
+PIDFile=###pid_dir###/bw_lockd.pid
+
+[Install]
+WantedBy=multi-user.target
+

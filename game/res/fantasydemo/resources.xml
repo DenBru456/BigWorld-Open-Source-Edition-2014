@@ -1,0 +1,68 @@
+<resources.xml>
+
+	<!--
+		This file specifies where the resources
+		required by the BigWorld engine are located, for Fantasy Demo.
+
+		This file is a modified version of res/bigworld/resources.xml,
+		containing changes to the font root, flora etc.
+	-->
+
+	<system>	
+		<textureDetailLevels> system/data/texture_detail_levels.xml </textureDetailLevels>
+		<loadingScreen>		system/maps/loading_screen.jpg	</loadingScreen>
+		<!-- Points to image to be shown right after creating the 
+		display device, while the application is initializing and 
+		resources pre-loading. This is only used if loadingScreenGUI 
+		is not defined or can't be found -->
+
+		<loadingScreenGUI>	gui/loading_screen.gui		</loadingScreenGUI>				
+		<!-- Points to a GUI definition file to be activated right 
+		after creating the display device, while the application is 
+		initializing and resources pre-loading. The root gui component
+		must be provide a progress bar interface (refer to the Progress
+		Bar HOWTO for more details). If loadingScreenGUI is set, 
+		loadingScreen is not used. -->
+	</system>
+
+	<gui>						
+		<cursorsDefinitions>	gui/mouse_cursors.xml	</cursorsDefinitions>
+		<!-- Points to the mouse cursor definitions file. Refer 
+		to the Client Programming Guide for more details. -->
+	</gui>
+
+	<environment>
+		<floraXML>		environments/flora.xml		</floraXML>
+		<!-- Points to the xml describing ecotypes -->
+
+		<treeToModelMapping>	environments/treeToModel.xml	</treeToModelMapping>
+		<!-- Points to the xml describing how to map speedtrees to models
+		when loading without speedtree support.  -->
+
+		<terrainTextureSpacing> 8				</terrainTextureSpacing>
+		<!-- Number of times the terrain textures will tile, per meter -->
+		
+		<maxFootPrints> 256 </maxFootPrints>
+		<footprintThreshold>	0.035	</footprintThreshold>
+		<!-- The threshold is used by the FootTrigger class to determinate
+		when to trigger a footstep. A new foot step is generated whenever
+		the assigned node's height crosses this level while moving in the 
+		top-down direction. 
+
+		In general, this code is extremely fragile and modifications to 
+        this constant should be treated with care - its also possible 
+		for changes in the animation itself to require this constant to be "jiggled" again.-->
+		
+	</environment>
+
+	<shaderPaths>
+		<!-- WARNING: It is recommended you only include to folders that
+		directly contain .fx files here, at the lowest level of the directory
+		structure. Including directories closer to the root folder and/or with
+		many files can degrade startup performance -->
+		<path>  materials/  </path>
+		<path>  sets/dungeon/materials/  </path>
+		<path>  objects/models/fx/  </path>
+	</shaderPaths>
+
+</resources.xml>

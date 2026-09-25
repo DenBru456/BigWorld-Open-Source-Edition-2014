@@ -1,0 +1,338 @@
+<root>
+  <en>
+    <MENU>
+      <FILE>
+        &amp;File
+        <DESC>File Operations</DESC>
+        <CREATE_NEW_SPACE>
+          &amp;New Space...
+          <DESC>Create a new space</DESC>
+        </CREATE_NEW_SPACE>
+        <CHANGE_SPACE>
+          &amp;Open Space...
+          <DESC>Open a space</DESC>
+        </CHANGE_SPACE>
+        <EDIT_SPACE>
+          Edit Space..
+          <DESC>Edit Space</DESC>
+        </EDIT_SPACE>
+        <RECREATE_SPACE>
+          Save Space As...
+          <DESC>Save a new copy of this space</DESC>
+        </RECREATE_SPACE>
+        <RELOAD_ALL_CHUNKS>
+          Reload All Chun&amp;ks
+          <DESC>Reload all chunks</DESC>
+        </RELOAD_ALL_CHUNKS>
+        <RELOAD_ALL_TEXTURES>
+          &amp;Reload All Textures
+          <DESC>Reload all textures</DESC>
+        </RELOAD_ALL_TEXTURES>
+        <REGEN_TERRAIN_LODS>
+          Regenerate Terrain LODs
+          <DESC>Regenerate Terrain LODs</DESC>
+	    </REGEN_TERRAIN_LODS>
+		<REGEN_THUMBNAILS>
+          Regenerate Thumbnails
+          <DESC>Regenerate thumbnails for all chunks in the space</DESC>
+	    </REGEN_THUMBNAILS>
+		<TOUCH_ALL_CHUNKS>
+          Invalidate All Chunks
+          <DESC>Invalidate all chunks in the space</DESC>
+	    </TOUCH_ALL_CHUNKS>
+      <CREATE_SPACE_IMAGE>
+          Create Space Image...
+          <DESC>Create images of current space</DESC>
+      </CREATE_SPACE_IMAGE>
+      <EXPAND_SPACE>
+        Expand Space...
+        <DESC>Expand chunk size of the space</DESC>
+      </EXPAND_SPACE>
+        <QUICK_SAVE>
+          &amp;Save
+          <DESC>Save all changed data</DESC>
+        </QUICK_SAVE>
+        <FULL_SAVE>
+          &amp;Process Data
+          <DESC>Process all data</DESC>
+        </FULL_SAVE>
+        <SAVE_CURRENT_CHUNK>
+          Recalc C&amp;urrent Chunk
+          <DESC>Recalculate all derived data for the current chunk</DESC>
+        </SAVE_CURRENT_CHUNK>
+        <RESIZEMAPS_TERRAIN>
+          Resize Terrain Texture &amp;Blends...
+          <DESC>Resize Terrain Texture Blends</DESC>
+        </RESIZEMAPS_TERRAIN>
+        <RECENT_FILES>
+          &amp;Recent Spaces
+        </RECENT_FILES>
+        <EXIT>
+          E&amp;xit
+        </EXIT>
+      </FILE>
+
+      <EDIT>
+        &amp;Edit
+        <DESC>Edit Operations</DESC>
+        <UNDO>
+          &amp;Undo
+          <DESC>Undo the last change</DESC>
+        </UNDO>
+        <REDO>
+          &amp;Redo
+          <DESC>Redo the last undone change</DESC>
+        </REDO>
+        <CLEAR_UNDO_REDO_HISTORY>
+          &amp;Clear Undo/Redo History
+          <DESC>clear undo/redo history</DESC>
+        </CLEAR_UNDO_REDO_HISTORY>
+        <SELECT_ALL>
+          &amp;Select All
+          <DESC>select all items</DESC>
+        </SELECT_ALL>
+        <DESELECT_ALL>
+          &amp;Deselect All
+          <DESC>deselect all items</DESC>
+        </DESELECT_ALL>
+        <SAVE_SHELL_AS_TEMPLATE>
+          Save Shell as &amp;Template
+        </SAVE_SHELL_AS_TEMPLATE>
+        <SAVE_SELECTION_AS_PREFAB>
+          Save Selection as Prefa&amp;b...
+        </SAVE_SELECTION_AS_PREFAB>
+
+        <HIDE_SELECTION>
+          &amp;Hide Selection
+        </HIDE_SELECTION>
+
+        <UNHIDE_SELECTION>
+          Unh&amp;ide Selection
+        </UNHIDE_SELECTION>
+
+        <UNHIDE_ALL_FILTER>
+          Unhide All Selectable
+        </UNHIDE_ALL_FILTER>
+		
+        <UNHIDE_ALL>
+          U&amp;nhide All
+        </UNHIDE_ALL>
+        
+        
+        <FREEZE_SELECTION>
+          &amp;Freeze Selection
+        </FREEZE_SELECTION>
+
+        <UNFREEZE_SELECTION>
+          Unfr&amp;eeze Selection
+        </UNFREEZE_SELECTION>
+
+        <UNFREEZE_ALL_FILTER>
+          Unfreeze All Selectable
+        </UNFREEZE_ALL_FILTER>
+		
+        <UNFREEZE_ALL>
+          Unfree&amp;ze All
+        </UNFREEZE_ALL>
+
+      </EDIT>
+
+      <VIEW>
+        &amp;View
+        <DESC>Display Settings</DESC>
+        <TOOLBARS>
+          &amp;Toolbars
+        </TOOLBARS>
+        <SHOW_STATUS_BAR>
+          Status &amp;Bar
+        </SHOW_STATUS_BAR>
+        <SHOW_PANEL_TOOLS>
+          Show T&amp;ool Options Panel
+        </SHOW_PANEL_TOOLS>
+        <SHOW_PANEL_UAL>
+          Show &amp;Asset Browser
+        </SHOW_PANEL_UAL>
+        <SHOW_PANEL_SCENEBROWSER>
+          Show &amp;Scene Browser
+        </SHOW_PANEL_SCENEBROWSER>
+        <SHOW_PANEL_POSTPROCESSING>
+          Show Post Pro&amp;cessing Panel
+        </SHOW_PANEL_POSTPROCESSING>
+        <SHOW_PANEL_PROPERTIES>
+          Show &amp;Properties Panel
+        </SHOW_PANEL_PROPERTIES>
+        <SHOW_PANEL_GENERAL>
+          Show &amp;General Options Panel
+        </SHOW_PANEL_GENERAL>
+        <SHOW_PANEL_NAVIGATION>
+          Show &amp;Navigation Panel
+        </SHOW_PANEL_NAVIGATION>
+        <SHOW_PANEL_WEATHER>
+          Show &amp;Weather Options Panel
+        </SHOW_PANEL_WEATHER>
+        <SHOW_PANEL_ENVIRONMENT>
+          Show &amp;Environment Options Panel
+        </SHOW_PANEL_ENVIRONMENT>
+        <SHOW_PANEL_HDR_LIGHTING>
+        Show &amp;HDR Lighting Options Panel
+        </SHOW_PANEL_HDR_LIGHTING>
+        <SHOW_PANEL_DECALS>
+          Show &amp;Decals Options Panel
+        </SHOW_PANEL_DECALS>
+        <SHOW_PANEL_HISTOGRAM>
+          Show &amp;Histogram Panel
+        </SHOW_PANEL_HISTOGRAM>
+        <SHOW_PANEL_MESSAGES>
+          Show &amp;Messages Panel
+        </SHOW_PANEL_MESSAGES>
+        <SHOW_PANEL_TEXTURES>
+          Show Chunk Text&amp;ures Panel
+        </SHOW_PANEL_TEXTURES>
+	<SHOW_PANEL_FLORA_SETTING>
+          Show &amp;Flora Setting Panel
+        </SHOW_PANEL_FLORA_SETTING>
+	<SHOW_SIDE_PANEL>
+          Show &amp;Panels
+        </SHOW_SIDE_PANEL>
+        <DEFAULT_PANELS>
+          Load &amp;Default Panel Layout...
+        </DEFAULT_PANELS>
+        <LOAD_PANELS>
+          Load Most &amp;Recent Panel Layout...
+        </LOAD_PANELS>
+      </VIEW>
+
+      <OPTIONS>
+        &amp;Options
+        <SAVE_CAMERA>
+          Save &amp;Camera Position
+        </SAVE_CAMERA>
+        <START_CAMERA>
+          Save &amp;Start Position
+        </START_CAMERA>
+		<ENABLE_UMBRA>
+			Enable &amp;Umbra
+		</ENABLE_UMBRA>
+		<ENABLE_SOUND>
+			Enable Sound
+		</ENABLE_SOUND>
+		<ENABLE_DEFAULT_WEATHER>
+			Preview Default &amp;Weather When Opening A Space
+		</ENABLE_DEFAULT_WEATHER>
+      </OPTIONS>
+      
+      <LANGUAGES>
+        <NAME>
+          &amp;Languages
+        </NAME>
+        <DESC>
+          Select a language
+        </DESC>
+        <LANGUAGES>
+          &amp;Languages
+        </LANGUAGES>
+        <UPDATE_LANGUAGES>
+          updateLanguage
+        </UPDATE_LANGUAGES>
+      </LANGUAGES>
+      
+      <HELP>
+        &amp;Help
+        <ABOUT>
+          &amp;About WorldEditor...
+          <DESC>Get Information about WorldEditor</DESC>
+        </ABOUT>
+        <TOOLSREF_GUIDE>
+          Tools &amp;Reference Guide...
+          <DESC>Access the Tools Reference Guide</DESC>
+        </TOOLSREF_GUIDE>
+        <CONTENTCREATION_GUIDE>
+          &amp;Content Creation...
+          <DESC>Access the Content Creation Manual</DESC>
+        </CONTENTCREATION_GUIDE>
+        <SHORTCUTS>
+          &amp;Shortcuts...
+          <DESC>Get Information on the Shortcuts Available in WorldEditor</DESC>
+        </SHORTCUTS>
+        <REQUEST_FEATURE>
+          &amp;Request Feature / Report Bug...
+          <DESC>Request a Feature or Report a Bug in WorldEditor</DESC>
+        </REQUEST_FEATURE>
+      </HELP>
+    </MENU>
+
+    <TOOLMODETOOLBAR>
+      <NAME>Tools</NAME>
+      <TOOLMODE>
+        <NAME>Tool Mode</NAME>
+        <OBJECT> Place and manipulate objects (1)</OBJECT>
+        <TEXTURE> Paint textures on the terrain (2)</TEXTURE>
+        <HEIGHT> Change terrain height (3)</HEIGHT>
+        <FILTER> Filter terrain mesh (4)</FILTER>
+        <MESH> Cut/Repair terrain mesh (5)</MESH>
+        <IMPORT> Import/Export terrain height maps (6)</IMPORT>
+        <PROJECT> Project view (7)</PROJECT>
+		<RULER>Ruler</RULER>
+		 <FENCES>Fences</FENCES>
+      </TOOLMODE>
+    </TOOLMODETOOLBAR>
+
+    <MAINTOOLBAR>
+      <NAME> Main Toolbar </NAME>
+      <VIEWORTHO> &amp;View Ortho </VIEWORTHO>
+      <VIEWORTHO_DESC> Toggle Orthographic View </VIEWORTHO_DESC>
+      <PLAYER_PREVIEW> &amp;Player Preview Mode </PLAYER_PREVIEW>
+      <PLAYER_PREVIEW_DESC> Player Preview Mode </PLAYER_PREVIEW_DESC>.
+      <CAMERA_SPEED>
+        <NAME> Camera Speed </NAME>
+        <SLOW> &amp;Slow Motion </SLOW>
+        <MEDIUM> &amp;Medium Motion</MEDIUM>
+        <FAST> &amp;Fast Motion</FAST>
+        <SUPER_FAST> &amp;Super Fast</SUPER_FAST>
+      </CAMERA_SPEED>
+      <CHUNK_VIZ>
+        <NAME>Chunk Vizualization Mode</NAME>
+        <NORMAL> Normal Mode </NORMAL>
+        <BOUNDARY>Chunk Borders</BOUNDARY>
+        <HEIGHT>Pole Markers</HEIGHT>
+        <MESH>Wireframe Mode</MESH>
+      </CHUNK_VIZ>
+      <EXTERNAL_EDITOR>&amp;Edit in External Editors</EXTERNAL_EDITOR>
+      <EXTERNAL_EDITOR_DESC>Edit the file in external editor</EXTERNAL_EDITOR_DESC>
+      <TERRAIN_WIREFRAME>&amp;Draw terrain as wireframe</TERRAIN_WIREFRAME>
+      <TERRAIN_WIREFRAME_DESC>Draw terrain as wireframe</TERRAIN_WIREFRAME_DESC>
+      <HIDE_OUTSIDE>&amp;Hide All Outside Objects</HIDE_OUTSIDE>
+      <HIDE_OUTSIDE_DESC>Hide All Outside Objects</HIDE_OUTSIDE_DESC>
+      <SHOW_NAVMESH>Show Navigation Mesh(&amp;H)</SHOW_NAVMESH>
+      <SHOW_NAVMESH_DESC>Show Navigation Mesh</SHOW_NAVMESH_DESC>
+	</MAINTOOLBAR>
+
+    <SNAPMODETOOLBAR>
+      <NAME>Snap Mode</NAME>
+      <SNAP_MODE>
+        <NAME>Snap Mode</NAME>
+        <FREEPOS>Free Positioning</FREEPOS>
+        <TERRAINLOCK>Terrain Lock</TERRAINLOCK>
+        <OBSTACKLOCK>Obstacle Lock </OBSTACKLOCK>
+      </SNAP_MODE>
+    </SNAPMODETOOLBAR>
+
+    <FILTERSTOOLBAR>
+      <NAME>Coord Filters</NAME>
+      <COORDINTATE>
+        <NAME>Reference Coordinate System</NAME>
+        <WORLD>World</WORLD>
+        <LOCAL>Local</LOCAL>
+        <VIEW>View</VIEW>
+      </COORDINTATE>
+    </FILTERSTOOLBAR>
+	
+    <SCENEBROWSERTOOLBAR>
+      <HIDE_SELECTED>Hide selected items</HIDE_SELECTED>
+      <UNHIDE_SELECTED>Unhide selected items</UNHIDE_SELECTED>
+	  <FREEZE_SELECTED>Freeze selected items</FREEZE_SELECTED>
+	  <UNFREEZE_SELECTED>Unfreeze selected items</UNFREEZE_SELECTED>
+	  <AUTOZOOM>Zooms to the selected asset as soon as it's selected</AUTOZOOM>
+    </SCENEBROWSERTOOLBAR>
+  </en>
+</root>

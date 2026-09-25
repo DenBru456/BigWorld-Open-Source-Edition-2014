@@ -1,0 +1,77 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body onload="var x=document.getElementsByTagName('TD'); x[0].click();" background="menubackground.bmp" bgcolor="#D9F0FF" style="margin:0; padding:0; border-right:1pt solid gray; background-repeat:no-repeat; background-position:bottom right;">
+  <script>
+    function highlight() {
+       if (window.event.type == 'click' && window.event.srcElement.tagName == 'TD')
+          window.event.srcElement.firstChild.click();
+       if (window.event.type == 'click' && window.event.srcElement.tagName == 'IMG')
+          window.event.srcElement.parentElement.firstChild.click();
+      // Initialise variable
+      if (window.event.srcElement.tagName == 'A')
+        var triggerObj = window.event.srcElement;
+      else 
+        if (window.event.srcElement.tagName == 'TD')
+          var triggerObj = window.event.srcElement.firstChild;
+        else
+           if (window.event.srcElement.tagName == 'IMG')
+             var triggerObj = window.event.srcElement.parentElement;
+           else
+             return;
+      // If triggering event was 'click'
+      if (window.event.type == 'click')
+      {
+        // Clear highlight from current item
+        var TBODYobj=triggerObj.parentElement.parentElement.parentElement;
+        var TBODYrows=TBODYobj.childNodes.length-1;
+        for (; TBODYrows>=0; TBODYrows--)
+        {
+           if (TBODYobj.childNodes[TBODYrows].tagName == 'TR')
+           {
+             TBODYobj.childNodes[TBODYrows].firstChild.style.backgroundColor='';
+             TBODYobj.childNodes[TBODYrows].firstChild.style.border='';
+             TBODYobj.childNodes[TBODYrows].firstChild.firstChild.style.color='black';
+          }
+        }
+      }    
+      // If triggering event was 'click'
+      if (window.event.type == 'click')
+      {
+        // Highlight item that was clicked/hovered
+        triggerObj.parentElement.style.backgroundColor='darkslateblue';
+        triggerObj.style.color=((window.event.type=='click')?'white':'#FFFFFE');
+        triggerObj.blur();
+      }
+      // If triggering event was 'mouseover'
+      if (window.event.type == 'mouseover')
+      {
+         // If this is NOT the active link
+         if (triggerObj.style.color != 'white')
+         {
+            triggerObj.parentElement.style.backgroundColor='lightblue';
+         }
+      }
+      // If triggering event was 'mouseout'
+      if (window.event.type == 'mouseout')
+      {
+        // If this is the active link (in wich case font color will be 'white', instead of '#FFFFFE')
+        if (triggerObj.style.color != 'white')
+        {
+          // Clear highlight from item highlighted just because it was hovered
+            triggerObj.parentElement.style.backgroundColor='';
+        }
+      }
+    }
+  </script>
+
+  <table class="menu" width="107%" cellspacing=1 onclick="highlight()" onmouseover="highlight()" onmouseout="highlight()">
+    <tr><td><a href="movement_cn.html"                   target="content">移动</a>                   </td></tr> 
+    <tr><td><a href="drag_and_drop_cn.html"              target="content">拖曳</a>              </td></tr> 
+    <tr><td><a href="menu_shortcuts_cn.html"             target="content">菜单快捷键</a>             </td></tr> 
+    <tr><td><a href="consoles_cn.html"                   target="content">控制台                       </td></tr>
+    <tr><td class="submenu"><a href="realtime_profiling_console_cn.html" target="content">实时分析</a> </td></tr> 
+    <tr><td class="submenu"><a href="debug_watchers_console_cn.html"     target="content">调试（观察器）</a>   </td></tr> 
+    <tr><td class="submenu"><a href="python_console_cn.html"             target="content">Python</a>             </td></tr> 
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<root>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	4.002579 0.000006 3.258986	</row0>
+			<row1>	-0.000007 5.161553 -0.000001	</row1>
+			<row2>	-3.258986 -0.000003 4.002579	</row2>
+			<row3>	18.406837 -9.773998 65.899368	</row3>
+		</transform>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/pine_substitute_snow.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-2.414472 0.000000 -2.500259	</row0>
+			<row1>	0.000000 3.475769 0.000000	</row1>
+			<row2>	2.500259 0.000000 -2.414472	</row2>
+			<row3>	0.199997 -7.600000 66.500000	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29734720	</hi>
+		<lo>	-1061621916	</lo>
+	</waypointGenerationTime>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0001fffeo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0001fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

@@ -1,0 +1,76 @@
+<graphics_settings.xml>
+	<flora>
+		<!-- Defines what flora density options are available for
+		the user. Each option actually defines the size of the
+		vertex buffer used to render the flora. This field is 
+		optional. If not provided, flora density settings will 
+		not be available and <value> will be used instead. -->
+		<option>
+			<label>	MAX	</label>
+			<!-- option's associated label -->
+			<value>	6.0	</value>
+			<!-- vertex buffer size when this option is selected -->
+		</option>
+		<option>
+			<label> HIGH	</label>
+			<value>	2.0	</value>
+		</option>
+		<option>
+			<label>	MEDIUM	</label>
+			<value>	1.0	</value>
+		</option>
+		<option>
+			<label>	LOW	</label>
+			<value>	0.5	</value>
+		</option>
+		<option>
+			<label>	OFF	</label>
+			<value>	0	</value>
+			<!-- zero has the special meaning of disabling flora rendering -->
+		</option>
+	</flora>
+	<farPlane>
+		<!-- Defines what far plane options are available for
+		the user. Each option actually defines a multiplier 
+		that is applied to the space or sky far plane value. 
+		This field is optional. If not provided the full far 
+		plane will always be used, instead. -->
+		<option>
+			<label>MAX</label>
+			<value>1.0</value>
+		</option>
+		<option>
+			<label>HIGH</label>
+			<value>0.8</value>
+		</option>		
+		<option>
+			<label>MEDIUM</label>
+			<value>0.6</value>
+		</option>
+		<option>
+			<label>LOW</label>
+			<value>0.6</value>
+		</option>
+	</farPlane>
+	<objectLOD>
+		<!-- Multiplier for objects lod levels. Lower values decrease distance for lod switching. Means lower lods will be used earlier. -->
+		<option>
+			<label>MAX</label>
+			<!-- option's associated label -->
+			<value>1.0</value>
+			<!-- multiplier to be used when this option is selected -->
+		</option>
+		<option>
+			<label>HIGH</label>
+			<value>0.8</value>
+		</option>
+		<option>
+			<label>MEDIUM</label>
+			<value>0.6</value>
+		</option>
+		<option>
+			<label>LOW</label>
+			<value>0.4</value>
+		</option>
+	</objectLOD>
+</graphics_settings.xml>

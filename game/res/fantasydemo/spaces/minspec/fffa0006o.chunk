@@ -1,0 +1,65 @@
+<fffa0006o.chunk>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffa0006o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.450980 0.000000 1.683079	</row0>
+			<row1>	0.000000 1.742452 0.000000	</row1>
+			<row2>	-1.683079 0.000000 0.450980	</row2>
+			<row3>	97.298615 211.214813 26.721863	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-1.549795 0.000000 0.384804	</row0>
+			<row1>	0.000000 1.596854 0.000001	</row1>
+			<row2>	-0.384804 0.000001 -1.549795	</row2>
+			<row3>	98.815796 216.449188 43.881104	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.836436 0.000000 1.032594	</row0>
+			<row1>	0.000001 1.328861 0.000001	</row1>
+			<row2>	-1.032594 0.000001 -0.836436	</row2>
+			<row3>	94.065125 224.152313 61.148315	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	fffa0006o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffa0006o.chunk>

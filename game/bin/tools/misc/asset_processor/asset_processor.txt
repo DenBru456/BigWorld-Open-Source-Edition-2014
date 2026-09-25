@@ -1,0 +1,89 @@
+Asset Processor
+
+Introduction
+----------------------
+BigWorld 2.0 introduces a number of changes to asset formats.  Inclusions are
+- Unicode strings inside of xml files are now encoded as UTF-8. Previously these strings
+   were encoded as either Base64 or Ascii using the "!" prefix. Asset Processor will convert
+   the .gui files in accordance.
+
+The asset processor has been updated to automatically upgrade all of these assets to the new format.
+
+Before You Start
+
+Python Version
+----------------------
+The Asset Processor imports a DLL named _AssetProcessor.dll.  This DLL has been compiled using python
+2.7.  If you have a different python version, for example python 2.5, then you will need to recompile
+the DLL.
+To do so, open the solution file in mf/src/build_assetprocessor_vc110_win32 and rebuild it.
+Rebuilding the solution file should automatically overwrite _AssetProcessor.pyd in mf/tools/misc/asset_processor.
+If the solution file does not exist run the batch script bigworld_cmake.bat in mf/src/build to create it.
+To build the solution file with the batch script select the options
+	2. assetprocessor
+	1. Visual Studio 2012 with XP toolset
+	1. Win32
+	2. No
+
+Safety
+----------------------
+Check all of your resources into your source repository
+Tag your entire repository so you can easily rollback
+
+Speed
+----------------------
+The Asset Processor visits every folder beneath your resource root, and checks for .mfm, .visual, .chunk, .fx, .model files.
+
+In order to speed the conversion process, you can get the asset convertor to ignore certain named folders.
+See line 23 of the python file FileProvider.py :
+self.ignore = ("CVS","Root","Entries","Entries.Extra","Repository",".svn")
+Simply add extra name(s) into the ignore list.
+
+Running Asset Processor
+----------------------
+It is best that one person processes all of the assets for your project, tests them, and commits
+them to your source repository for others to use.
+Please follow these steps exactly :
+1) back up your assets using your source repository
+2) create a tag in your repository so that it is easy to rollback any changes you make, just in case.
+3) open a DOS command prompt
+4) browse to the asset processor folder ( mf/bigworld/tools/misc/asset_processor )
+5) modify paths.xml to point to the one and only resource tree you wish to convert.
+for example :
+<root>
+	<Paths>
+		<Path>d:\mf\fantasydemo\res</Path>
+	</Paths>
+</root>
+
+6) run the command : python AssetProcessor.py.  If you immediately get a module import error, then
+please see the comments in "Python Version" above.
+7) wait!
+8) when the process is finished, the process log and the asset database is output.  These can be found in the
+root of your resource tree, it is named assetProcessor.log and assetDatabase.xml
+9) open the assetProcessor.log file, and examine it for any error messages.
+10) browse to the modeleditor folder ( mf/bigworld/tools/modeleditor )
+11) for resources that have been updated, try opening it in ModelEditor to see if it looks alright.
+12) for all other upgrades, please refer back to the "how to upgrade" document.
+
+Running Asset Processor Again
+----------------------
+The first run of Asset Processor compiles a database of your assets, and this may take a while.  If you need to process
+your assets again, (but the list of assets have not changed) then you can run the asset processor with the /d switch - this means
+it will load the database and use it.
+Additionally, if at any time you'd like to compile the database to analyse your assets, run the asset processor with the
+/c command - this flag means the database will be compiled, but not processed.
+
+Removing Unused Assets
+----------------------
+Before releasing your product or creating a package build for the QA, it may be useful to look through your resource paths and find assets
+which are not used by your game. Ensure that the UnusedAssetFinder reference is enabled in AssetProcessor.py and that all other
+processors are disabled. Since the database has to compile every relation to every asset this can take some time. It is suggested that
+you compile the database first using the /c command (and back up the resultant assetProcessor.xml file). Then run the processor again
+using the /d command. Once it is complete then the compiled database should only contain resources that are not referenced by: python scripts,
+particle files, chunk files, gui files. Resources that are referenced only by xml files in your tree will be included in this list as it is
+infeasible to look through every xml file. So be careful when removing assets in the database.
+If you find an asset that has a deep tree of resources used by it (such as a model with many lods and materials) which you know is used by
+your game (and was probably referenced by an xml file, like the avatars in FantasyDemo), find the .model entry in the database and add a 
+<usedBy> killme </usedBy> section in its entry section. If you run the processor again with the /d switch then it should remove that asset
+and all of its resources.

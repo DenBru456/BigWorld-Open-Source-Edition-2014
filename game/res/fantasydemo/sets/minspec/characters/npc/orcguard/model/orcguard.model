@@ -1,0 +1,20 @@
+<orcguard.model>
+	<materialNames>
+		<material>
+			<original>	Material #793_skinned	</original>
+			<display>	orcguard_skinned	</display>
+		</material>
+	</materialNames>
+	<extent>	100.000000	</extent>
+	<parent>	characters/avatars/base/base	</parent>
+	<visibilityBox>
+		<min>	-1.253875 -0.369387 -1.292642	</min>
+		<max>	1.056500 2.504469 1.361135	</max>
+	</visibilityBox>
+	<nodefullVisual>	sets/minspec/characters/npc/orcguard/model/orcguard	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1283904820	</modified_on>
+	</metaData>
+</orcguard.model>

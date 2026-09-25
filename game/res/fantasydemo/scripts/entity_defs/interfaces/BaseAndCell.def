@@ -1,0 +1,15 @@
+<root>
+	<Properties>
+		<createOnCell>
+			<Type>			MAILBOX		</Type>
+			<Flags>			BASE		</Flags>
+			<Editable>		false		</Editable>
+			<Persistent>	false		</Persistent>
+		</createOnCell>
+	</Properties>
+
+	<BaseMethods>
+		<onSpaceLoaderDestroyed>
+		</onSpaceLoaderDestroyed>
+	</BaseMethods>
+</root>

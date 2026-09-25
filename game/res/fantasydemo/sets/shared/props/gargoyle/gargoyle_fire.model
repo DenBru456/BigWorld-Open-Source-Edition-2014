@@ -1,0 +1,18 @@
+<gargoyle_fire.model>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	idle	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/shared/props/gargoyle/idle	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-1.391462 1.444635 -1.056675	</min>
+		<max>	1.400372 4.665450 1.090635	</max>
+	</visibilityBox>
+	<nodefullVisual>	sets/shared/props/gargoyle/gargoyle_fire	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1281492009	</modified_on>
+	</metaData>
+</gargoyle_fire.model>

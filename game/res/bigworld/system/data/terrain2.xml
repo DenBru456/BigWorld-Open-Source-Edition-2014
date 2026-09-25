@@ -1,0 +1,96 @@
+<terrain2.xml>
+<!-- Terrain Options-->
+
+	<!-- New terrain effect materials -->
+    <texturedEffect> shaders/terrain/terrain2.fx </texturedEffect>
+    <lodTextureEffect> shaders/terrain/terrain2_lod_texture.fx </lodTextureEffect>
+	<zPassEffect> shaders/terrain/terrain2_z_pass.fx </zPassEffect>
+	<shadowCastEffect> shaders/terrain/terrain2_shadow_cast.fx </shadowCastEffect>
+	
+    <!-- Default Terrain2 data -->
+    <version>	200	</version>
+    <heightMapUnits>	0.010000	</heightMapUnits>
+    <heightMapSize>	128	</heightMapSize>
+    <normalMapSize>	128	</normalMapSize>
+    <holeMapSize>	25	</holeMapSize>
+    <shadowMapSize>	32	</shadowMapSize>
+    <blendMapSize>	128	</blendMapSize>
+	<lodMapSize>	128 </lodMapSize>
+	<aoMapSize>		16 </aoMapSize>
+
+    <lodInfo>
+		<!-- If set to false, constant vertex lod will be used -->
+		<enabled> true </enabled>
+
+		<!-- Morphing parameters -->
+		<startBias>	0.8 </startBias>
+		<endBias> 	0.99 </endBias>
+
+		<!-- The highest vertex LOD available (0 most detailed, 6 less detailed -->
+		<startLod> 0 </startLod>
+
+		<lodDistances>
+			<!-- Each corresponding vertex LOD is drawn up to the given distances.
+			Note that the first three distances should not be decreased, because
+			cracks will appear where terrain blocks differ by more than one 
+			level. -->
+			<distance0> 25.0 </distance0>
+			<distance1> 120.0 </distance1>
+			<distance2> 250.0 </distance2>
+			<distance3> 700.0 </distance3>
+			<distance4> 1100.0 </distance4>
+			<distance5> 1700.0 </distance5>
+            <distance6> 2300.0 </distance6>
+            <distance7> 2900.0 </distance7>
+            <distance8> 3500.0 </distance8>
+		</lodDistances>
+
+		<!-- The distance at which the lod texture will begin. -->
+		<lodTextureStart>200.0</lodTextureStart>
+		<!-- The distance beyond start where the lod texture will blend at 100%. -->
+		<lodTextureDistance>100.0</lodTextureDistance>
+		<!-- The distance beyond end where blends will be loaded, even though they are not visible yet-->
+		<blendPreloadDistance>100.0</blendPreloadDistance>
+        
+		<!-- The distance at which the lod normal map will begin. -->
+        <lodNormalStart> 300.0 </lodNormalStart>
+		<!-- The distance beyond start where the lod normal map will blend at 100%. -->
+        <lodNormalDistance> 100.0 </lodNormalDistance>
+		<!-- The distance beyond end where detail normal maps will be loaded, even though they are not visible yet-->
+        <normalPreloadDistance> 100.0 </normalPreloadDistance>
+		
+		<!-- The distance at which the bumped normal will start fading into just the vertex normal -->
+		<bumpFadingStart> 50.0 </bumpFadingStart>
+		<!-- The distance beyond start where the bumped normal will fade at 100%. -->
+		<bumpFadingDistance> 50.0 </bumpFadingDistance>
+
+		<!-- By default client loads this height map level for each block. Detail height map (lod 0) will be streamed. --> 		
+		<defaultHeightMapLod>2</defaultHeightMapLod>
+		
+		<!-- Detail height map will be loaded when less than this distance from camera -->
+		<detailHeightMapDistance>500.0</detailHeightMapDistance>
+
+		<server>
+			<!-- By default, server loads up this height map level for each block. -->
+			<heightMapLod> 0 </heightMapLod>
+		</server>
+
+	</lodInfo>
+	<lodOptions>
+		<!-- Defines what terrain lod options are available. -->
+		<option>
+			<label>Far</label>
+			<!-- option's associated label -->
+			<value>1.0</value>
+			<!-- multiplier to be used when this option is selected -->
+		</option>
+		<option>
+			<label>Medium</label>
+			<value>0.75</value>
+		</option>
+		<option>
+			<label>Near</label>
+			<value>0.5</value>
+		</option>
+	</lodOptions>
+</terrain2.xml>

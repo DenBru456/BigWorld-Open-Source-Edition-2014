@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="517" height="42" cornerRadius="17" alpha="1.0" borderStyle="outset" creationComplete="getScript();" borderColor="#282C2D" color="#282C2D" backgroundGradientAlphas="[1.0, 1.0]" backgroundGradientColors="[#282C2D, #282C2D]">
+<mx:Script>
+<![CDATA[
+protected var script_:WebScreenScript = null;
+import WebScreenScript;
+import mx.core.UIComponent;
+
+private function getScript():WebScreenScript 
+{
+	if (script_ == null)
+	{
+		script_ = new WebScreenScript(this);
+	}
+	return script_;
+}
+]]>
+</mx:Script>
+
+	<mx:Button x="10" y="9" overSkin="@Embed(source='back.png')" upSkin="@Embed(source='back.png')" downSkin="@Embed(source='backClicked.png')" fillAlphas="[0.0, 0.0, 0.0, 0.0]" width="18" height="20" click="getScript().navigateBack()" enabled="true"/>
+	<mx:Button x="37" y="9" overSkin="@Embed(source='forward.png')" upSkin="@Embed(source='forward.png')" downSkin="@Embed(source='forwardClicked.png')" fillAlphas="[0.0, 0.0, 0.0, 0.0]" width="18" height="20" click="getScript().navigateForward()" enabled="true"/>
+	<mx:TextInput id="address" x="63" y="9" width="435" borderColor="#3A82B5" height="20" fontSize="10" fontFamily="Arial"/>
+	
+</mx:Application>

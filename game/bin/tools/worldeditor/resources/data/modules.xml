@@ -1,0 +1,60 @@
+<root>
+	<!--
+		This file contains the global module list available
+		from the development menu.
+
+		Also, it contains a start module in case you want
+		to bypass the dev menu altogether.
+	-->
+
+	<startup>
+		<!-- NOTE:  you can have several startup modules					-->
+
+		<!--		if you are running the borland shell, then you			-->
+		<!--		must have WorldEditorDirector as the first startup module	-->
+		<!--		no matter what module you want to actually run			-->
+
+		<module>		WorldEditorDirector	</module>
+	</startup>
+
+	<Extensions>
+		<WorldEditorDirector>
+			ScriptedModule
+			<script>
+				<module>WorldEditorDirector</module>
+				<class>WorldEditorDirector</class>
+			</script>
+		</WorldEditorDirector>
+		<ChunkManager>
+			ScriptedModule
+			<script>
+				<module>ChunkManager</module>
+				<class>ChunkManager</class>
+			</script>
+		</ChunkManager>
+		<TestScript>
+			ScriptedModule
+			<script>
+				<module>TestScript</module>
+				<class>TestScript</class>
+			</script>
+		</TestScript>
+		<TestScriptedModule>
+			ScriptedModule
+			<script>
+				<module>Modules</module>
+				<class>TestScriptedModule</class>
+			</script>
+		</TestScriptedModule>
+		<ScriptedDevMenu>
+			ScriptedModule
+			<script>
+				<module>Modules</module>
+				<class>ScriptedDevMenu</class>
+			</script>
+		</ScriptedDevMenu>
+		<ProjectModule>
+			ProjectModule
+		</ProjectModule>
+	</Extensions>
+</root>

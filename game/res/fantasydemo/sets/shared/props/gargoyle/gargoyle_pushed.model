@@ -1,0 +1,52 @@
+<gargoyle_pushed.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.508574 -0.007601 -1.452341	</min>
+		<max>	1.508575 4.715249 1.492985	</max>
+	</visibilityBox>
+	<nodelessVisual>	sets/shared/props/gargoyle/gargoyle_pushed	</nodelessVisual>
+	<dye>
+		<matter>	Standard_10	</matter>
+		<replaces>	Standard_10	</replaces>
+		<tint>
+			<name>	Collapse	</name>
+			<material>
+				<identifier>	Standard_10	</identifier>
+				<fx>	shaders/std_effects/normalmap.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	materialSpecular
+					<Vector4>	0.015686 0.015686 0.015686 1.000000	</Vector4>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	true	</Bool>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/shared/props/gargoyle/maps/grave_gargoyle_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+				</property>
+			</material>
+			<property>
+				<name>	alphaReference	</name>
+				<default>	0.000000 0.000000 0.000000 0.000000	</default>
+			</property>
+		</tint>
+	</dye>
+	<extent>	129.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1319689931	</modified_on>
+	</metaData>
+</gargoyle_pushed.model>

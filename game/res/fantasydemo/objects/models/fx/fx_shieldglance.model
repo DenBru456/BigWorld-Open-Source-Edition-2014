@@ -1,0 +1,24 @@
+<fx_shieldglance.model>
+	<animation>
+		<name>	fx_shieldglance_anim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	objects/models/fx/fx_shieldglance_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Go	</name>
+		<animation>	fx_shieldglance_anim	</animation>
+		<blendInTime>	0.01	</blendInTime>
+		<blendOutTime>	0.01	</blendOutTime>
+	</action>
+	<nodefullVisual>	objects/models/fx/fx_shieldglance	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.325239 -2.180469 1.399507	</min>
+		<max>	2.551536 0.103263 5.549819	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378389	</modified_on>
+	</metaData>
+</fx_shieldglance.model>

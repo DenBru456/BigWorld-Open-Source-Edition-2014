@@ -1,0 +1,89 @@
+<root>
+	<!-- This is an example trackers file that is not used in the fantasydemo. -->
+	<tracker>
+		<name>		standNormal	</name>
+		<primaryNode>	biped Head	</primaryNode>
+		<secondaryNode>
+			<name>	biped Neck	</name>
+			<weight>	-0.20	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Spine	</name>
+			<weight>	0.50	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Spine1	</name>
+			<weight>	-0.40	</weight>
+		</secondaryNode>
+		<minPitch>	-60.0	</minPitch>
+		<maxPitch>	60.0	</maxPitch>
+		<minYaw>	-80.0	</minYaw>
+		<maxYaw>	80.0	</maxYaw>
+		<speed>	360	</speed>
+	</tracker>
+	<tracker>
+		<name>		standCombat	</name>
+		<primaryNode>	biped Spine	</primaryNode>
+		<secondaryNode>
+			<name>	biped Spine1	</name>
+			<weight>	1	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Neck	</name>
+			<weight>	1	</weight>
+		</secondaryNode>
+		<pointingNode>	biped Spine	</pointingNode>
+		<minPitch>	-60.0	</minPitch>
+		<maxPitch>	60.0	</maxPitch>
+		<minYaw>	-80.0	</minYaw>
+		<maxYaw>	80.0	</maxYaw>
+		<speed>	270.0	</speed>
+	</tracker>
+	<tracker>
+		<name>		crouchNormal	</name>
+		<primaryNode>	biped Head	</primaryNode>
+		<secondaryNode>
+			<name>	biped Spine	</name>
+			<weight>	50	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Spine1	</name>
+			<weight>	50	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Spine2	</name>
+			<weight>	50	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Neck	</name>
+			<weight>	200	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Head	</name>
+			<weight>	800	</weight>
+		</secondaryNode>
+		<minPitch>	-60.0	</minPitch>
+		<maxPitch>	60.0	</maxPitch>
+		<minYaw>	-80.0	</minYaw>
+		<maxYaw>	80.0	</maxYaw>
+		<speed>	360.0	</speed>
+	</tracker>
+	<tracker>
+		<name>		crouchCombat	</name>
+		<primaryNode>	biped Spine	</primaryNode>
+		<secondaryNode>
+			<name>	biped Spine1	</name>
+			<weight>	1	</weight>
+		</secondaryNode>
+		<secondaryNode>
+			<name>	biped Neck	</name>
+			<weight>	1	</weight>
+		</secondaryNode>
+		<pointingNode>	biped Spine	</pointingNode>
+		<minPitch>	-60.0	</minPitch>
+		<maxPitch>	60.0	</maxPitch>
+		<minYaw>	-80.0	</minYaw>
+		<maxYaw>	80.0	</maxYaw>
+		<speed>	270.0	</speed>
+	</tracker>
+</root>

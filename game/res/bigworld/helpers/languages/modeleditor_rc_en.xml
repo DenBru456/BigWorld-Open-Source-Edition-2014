@@ -1,0 +1,369 @@
+<root>
+  <en>
+    <!-- COMMON DEFINITIONS -->
+    <RC_IDC_S_TIMEOFDAY>Time of Day</RC_IDC_S_TIMEOFDAY>
+    <RC_IDC_S_ANIMATION>Animation</RC_IDC_S_ANIMATION>
+    <RC_IDC_S_NAME>Name</RC_IDC_S_NAME>
+    <RC_IDC_S_ROTATION>Rotation</RC_IDC_S_ROTATION>
+    <RC_IDC_S_POSITION>Position</RC_IDC_S_POSITION>
+    <RC_IDC_S_SCALE>Scale</RC_IDC_S_SCALE>
+    <RC_IDC_S_CAPSON>Caps On</RC_IDC_S_CAPSON>
+    <RC_IDC_S_CAPSOFF>Caps Off</RC_IDC_S_CAPSOFF>
+    <RC_IDC_S_SPEED>Speed</RC_IDC_S_SPEED>
+    <RC_IDC_S_DIRECTION>Direction</RC_IDC_S_DIRECTION>
+    <RC_IDC_S_TURN>Turn</RC_IDC_S_TURN>
+    <RC_IDC_S_MODELFALLING>Falling</RC_IDC_S_MODELFALLING>
+    <RC_IDC_S_OK>OK</RC_IDC_S_OK>
+    <RC_IDC_S_CANCEL>Cancel</RC_IDC_S_CANCEL>
+    <RC_IDC_S_METRES>(m)</RC_IDC_S_METRES>
+
+    <!-- IDD_DISPLAY -->
+    <RC_IDC_SHOW_AXES>Show Axes</RC_IDC_SHOW_AXES>
+    <RC_IDC_CHECK_FOR_SPARKLES>Check For Sparkles</RC_IDC_CHECK_FOR_SPARKLES>
+    <RC_IDC_SHOW_BLOOM>Show Bloom</RC_IDC_SHOW_BLOOM>
+    <RC_IDC_SHOW_SHIMMER>Show Shimmer</RC_IDC_SHOW_SHIMMER>
+    <RC_IDC_ENABLE_FOG>Enable Fog</RC_IDC_ENABLE_FOG>
+    <RC_IDC_ENABLE_HDR>Enable HDR</RC_IDC_ENABLE_HDR>
+    <RC_IDC_ENABLE_SSAO>Enable SSAO</RC_IDC_ENABLE_SSAO>
+    <RC_IDC_SHOW_MODEL>Show Model</RC_IDC_SHOW_MODEL>
+    <RC_IDC_SHOW_WIREFRAME>Show Wireframe</RC_IDC_SHOW_WIREFRAME>
+    <RC_IDC_SHOW_SKELETON>Show Skeleton</RC_IDC_SHOW_SKELETON>
+    <RC_IDC_SHOW_BOUNDING_BOX>Show Bounding Boxes</RC_IDC_SHOW_BOUNDING_BOX>
+    <RC_IDC_SHOW_CUSTOM_HULL>Show Custom Hull</RC_IDC_SHOW_CUSTOM_HULL>
+    <RC_IDC_SHOW_VERTEX_NORMALS>Show Vertex Normals</RC_IDC_SHOW_VERTEX_NORMALS>
+    <RC_IDC_SHOW_VERTEX_BINORMALS>Show Vertex Binormals</RC_IDC_SHOW_VERTEX_BINORMALS>
+    <RC_IDC_SHOW_BSP>Show BSP</RC_IDC_SHOW_BSP>
+    <RC_IDC_SHOW_PORTALS>Show Portals</RC_IDC_SHOW_PORTALS>
+    <RC_IDC_SHOW_HARD_POINTS>Show Hard Points</RC_IDC_SHOW_HARD_POINTS>
+    <RC_IDC_SHOW_EDITOR_PROXY>Show Editor Proxy</RC_IDC_SHOW_EDITOR_PROXY>
+    <RC_IDC_GROUND_MODEL>Lock to Ground</RC_IDC_GROUND_MODEL>
+    <RC_IDC_CENTRE_MODEL>Centre Model</RC_IDC_CENTRE_MODEL>
+    <RC_IDC_DISPLAY_CHOOSE_BKG_COLOUR>Choose BKG Colour...</RC_IDC_DISPLAY_CHOOSE_BKG_COLOUR>
+    <RC_IDC_DISPLAY_CHOOSE_FLOOR_TEXTURE>Choose Floor Texture...</RC_IDC_DISPLAY_CHOOSE_FLOOR_TEXTURE>
+    <RC_IDC_DISPLAY_GENERAL_BOX>General</RC_IDC_DISPLAY_GENERAL_BOX>
+    <RC_IDC_DISPLAY_MODEL_BOX>Model</RC_IDC_DISPLAY_MODEL_BOX>
+    <RC_IDC_DISPLAY_BKG_BOX>Background</RC_IDC_DISPLAY_BKG_BOX>
+
+    <!-- IDD_ANIMATION -->
+    <RC_IDC_ANIM_SAVE_FRAME_RATE>Save Frame Rate</RC_IDC_ANIM_SAVE_FRAME_RATE>
+    <RC_IDC_ANIM_REMOVE_BLEND>Remove Blend Factor</RC_IDC_ANIM_REMOVE_BLEND>
+    <RC_IDC_ANIM_TOOLBAR>Animation toolbar goes here...</RC_IDC_ANIM_TOOLBAR>
+    <RC_IDC_ANIM_S_FILE>File&#10;Source</RC_IDC_ANIM_S_FILE>
+    <RC_IDC_ANIM_S_FRAME>Frame&#10;Rate</RC_IDC_ANIM_S_FRAME>
+    <RC_IDC_ANIM_S_INCLUDED>Included&#10;Frames</RC_IDC_ANIM_S_INCLUDED>
+    <RC_IDC_ANIM_S_LAST>Last</RC_IDC_ANIM_S_LAST>
+    <RC_IDC_ANIM_S_FIRST>First</RC_IDC_ANIM_S_FIRST>
+    <RC_IDC_ANIM_S_BLEND>Blend&#10;Factor</RC_IDC_ANIM_S_BLEND>
+    <RC_IDC_ANIM_S_CURRENT>Current&#10;Frame</RC_IDC_ANIM_S_CURRENT>
+    <RC_IDC_ANIM_NODES_BOX>Node Blending</RC_IDC_ANIM_NODES_BOX>
+    <RC_IDC_ANIM_SOURCE>Source File Path</RC_IDC_ANIM_SOURCE>
+    <RC_IDC_ANIM_COMP_TOTAL>Original Size = 100 KB&#10;Compressed Size = 10 KB&#10;Compression Ratio = 10 %</RC_IDC_ANIM_COMP_TOTAL>
+    <RC_IDC_ANIM_COMP_TOOLBAR>Comp toolbar</RC_IDC_ANIM_COMP_TOOLBAR>
+    <RC_IDC_ANIM_COMP_BOX>Compression Settings</RC_IDC_ANIM_COMP_BOX>
+
+    <!-- IDD_ACTION -->
+    <RC_IDC_ACT_LOOP>Looped</RC_IDC_ACT_LOOP>
+    <RC_IDC_ACT_MOVE>Is Movement</RC_IDC_ACT_MOVE>
+    <RC_IDC_ACT_IMPACT>Is Impacting</RC_IDC_ACT_IMPACT>
+    <RC_IDC_ACT_COORD>Is Coordinated</RC_IDC_ACT_COORD>
+    <RC_IDC_ACT_ONE_SHOT>One Shot</RC_IDC_ACT_ONE_SHOT>
+    <RC_IDC_ACT_PROMOTE_MOTION>Promote Motion</RC_IDC_ACT_PROMOTE_MOTION>
+    <RC_IDC_ACT_SCALE_PLAYBACK_SPEED>Scale Playback Speed</RC_IDC_ACT_SCALE_PLAYBACK_SPEED>
+    <RC_IDC_ACT_FEET_FOLLOW_DIRECTION>Feet Follow Direction</RC_IDC_ACT_FEET_FOLLOW_DIRECTION>
+    <RC_IDC_ACT_TOOLBAR>Action toolbar goes here...</RC_IDC_ACT_TOOLBAR>
+    <RC_IDC_ACT_S_TRACK>Track No.</RC_IDC_ACT_S_TRACK>
+    <RC_IDC_ACT_OWN_TRACK>Own Track</RC_IDC_ACT_OWN_TRACK>
+    <RC_IDC_ACT_MATCH_BOX>Action Matcher Properties</RC_IDC_ACT_MATCH_BOX>
+    <RC_IDC_ACT_TRIGGER_BOX>Trigger</RC_IDC_ACT_TRIGGER_BOX>
+    <RC_IDC_ACT_CANCEL_BOX>Cancel</RC_IDC_ACT_CANCEL_BOX>
+    <RC_IDC_ACT_BLENDOUT>Blend Out&#10;   (sec)</RC_IDC_ACT_BLENDOUT>
+    <RC_IDC_ACT_BLENDIN>Blend In&#10;   (sec)</RC_IDC_ACT_BLENDIN>
+
+    <!-- IDD_CHOOSE_ANIM -->
+    <RC_IDD_CHOOSE_ANIM_CAPTION>Choose Animation...</RC_IDD_CHOOSE_ANIM_CAPTION>
+
+    <!-- IDD_LOD -->
+    <RC_IDC_LOD_VIRTUAL_DIST>Virtual LOD Distance</RC_IDC_LOD_VIRTUAL_DIST>
+    <RC_IDC_LOD_TOOLBAR>LOD toolbar goes here...</RC_IDC_LOD_TOOLBAR>
+    <RC_IDC_LOD_HIDDEN>Hidden</RC_IDC_LOD_HIDDEN>
+    <RC_IDC_LOD_S_MAXDIST>Max Dist</RC_IDC_LOD_S_MAXDIST>
+    <RC_IDC_LOD_S_MINDIST>Min Dist</RC_IDC_LOD_S_MINDIST>
+    <RC_IDC_LOD_DIST_TITLE>LOD Dist</RC_IDC_LOD_DIST_TITLE>
+
+    <!-- IDD_LIGHTS -->
+    <RC_IDC_LIGHTS_CAMERA>Lock Light to Camera</RC_IDC_LIGHTS_CAMERA>
+    <RC_IDC_LIGHTS_MODELS>Show Light Axes</RC_IDC_LIGHTS_MODELS>
+    <RC_IDC_LIGHTS_USE_GAME>Game Lighting</RC_IDC_LIGHTS_USE_GAME>
+    <RC_IDC_LIGHTS_USE_CUSTOM>Custom Lighting</RC_IDC_LIGHTS_USE_CUSTOM>
+    <RC_IDC_LIGHTS_TOOLBAR>Lights toolbar goes here...</RC_IDC_LIGHTS_TOOLBAR>
+
+    <!-- IDD_PREFS -->
+    <RC_IDD_PREFS_CAPTION>ModelEditor Preferences</RC_IDD_PREFS_CAPTION>
+    <RC_IDC_PREFS_INVERT_MOUSE>Invert Mouse</RC_IDC_PREFS_INVERT_MOUSE>
+    <RC_IDC_PREFS_LOAD_LAST_LIGHTS>Load Last Lights</RC_IDC_PREFS_LOAD_LAST_LIGHTS>
+    <RC_IDC_PREFS_S_STARTUP>On Startup</RC_IDC_PREFS_S_STARTUP>
+    <RC_IDC_PREFS_ANIMATE_ZOOM>Animate Zoom to Extents</RC_IDC_PREFS_ANIMATE_ZOOM>
+    <RC_IDC_PREFS_LOCK_LOD>Lock LOD Parents</RC_IDC_PREFS_LOCK_LOD>
+    <RC_IDC_PREFS_ZOOM_ON_LOAD>Zoom to Extents</RC_IDC_PREFS_ZOOM_ON_LOAD>
+    <RC_IDC_PREFS_LOAD_LAST_MODEL>Load Last Model</RC_IDC_PREFS_LOAD_LAST_MODEL>
+    <RC_IDC_PREFS_REGEN_BB>Regenerate Visibility Box</RC_IDC_PREFS_REGEN_BB>
+    <RC_IDC_PREFS_S_ONLOAD>On Model Load</RC_IDC_PREFS_S_ONLOAD>
+    <RC_IDC_PREFS_SHOW_SPLASH_SCREEN>Show Splash Screen</RC_IDC_PREFS_SHOW_SPLASH_SCREEN>
+
+    <!-- IDD_MATERIALS -->
+    <RC_IDC_MATERIALS_PREVIEW>Preview</RC_IDC_MATERIALS_PREVIEW>
+    <RC_IDC_MATERIALS_TOOLBAR>Materials toolbar goes here...</RC_IDC_MATERIALS_TOOLBAR>
+    <RC_IDC_MATERIALS_S_MATERIAL>Material</RC_IDC_MATERIALS_S_MATERIAL>
+    <RC_IDC_MATERIALS_S_DYE>Dye</RC_IDC_MATERIALS_S_DYE>
+    <RC_IDC_MATERIALS_S_TINT>Tint</RC_IDC_MATERIALS_S_TINT>
+    <RC_IDC_MATERIALS_S_EFFECT>Effect</RC_IDC_MATERIALS_S_EFFECT>
+    <RC_IDC_MATERIALS_S_TECHNIQUE>Technique</RC_IDC_MATERIALS_S_TECHNIQUE>
+
+    <!-- IDD_NEW_TINT -->
+    <RC_IDD_NEW_TINT_CAPTION>New Tint...</RC_IDD_NEW_TINT_CAPTION>
+    <RC_IDC_NEW_TINT_S_TINT>Tint Name</RC_IDC_NEW_TINT_S_TINT>
+    <RC_IDC_NEW_TINT_S_SHADER>Shader or MFM</RC_IDC_NEW_TINT_S_SHADER>
+    <RC_IDC_NEW_TINT_S_OR>OR</RC_IDC_NEW_TINT_S_OR>
+
+    <!-- IDD_CREATE_ACT -->
+    <RC_IDD_CREATE_CAPTION>Create Action...</RC_IDD_CREATE_CAPTION>
+    <RC_IDD_CREATE_ACT_S_ACTION>Action Name</RC_IDD_CREATE_ACT_S_ACTION>
+
+    <!-- IDD_OBJECT -->
+    <RC_IDC_OBJECT_BATCH>Allow Model Batching in Game</RC_IDC_OBJECT_BATCH>
+    <RC_IDC_OBJECT_S_MODEL>Model File</RC_IDC_OBJECT_S_MODEL>
+    <RC_IDC_OBJECT_S_PATH>Model File Path</RC_IDC_OBJECT_S_PATH>
+    <RC_IDC_OBJECT_S_DEFKIND>Default Material Kind</RC_IDC_OBJECT_S_DEFKIND>
+    <RC_IDC_OBJECT_S_METADATA>Meta Data:</RC_IDC_OBJECT_S_METADATA>
+    <RC_IDC_OBJECT_S_PROXY>Editor Proxy Model</RC_IDC_OBJECT_S_PROXY>
+    <RC_IDC_OBJECT_PROXY_REMOVE>Remove Editor Proxy Model</RC_IDC_OBJECT_PROXY_REMOVE>
+
+    <!-- IDD_LOADING -->
+    <RC_IDD_LOADING_CAPTION>Loading Model...</RC_IDD_LOADING_CAPTION>
+
+    <!--SHADERS_LOADING_DIALOG-->
+      <RC_SHADER_LOADING_DIALOG>Compiling Shaders...</RC_SHADER_LOADING_DIALOG>
+      <RC_SHADER_LOADING_STATIC>Shaders are compiling, this may take a few minutes.&#10;NOTE: This only occurs if shaders have been changed.</RC_SHADER_LOADING_STATIC>
+
+    <!-- IDD_ERRORS -->
+    <RC_IDC_MSG_SHOW_TIME>Show Time</RC_IDC_MSG_SHOW_TIME>
+    <RC_IDC_MSG_SHOW_DATE>Show Date</RC_IDC_MSG_SHOW_DATE>
+    <RC_IDC_MSG_SHOW_PRIORITY>Show Priority</RC_IDC_MSG_SHOW_PRIORITY>
+    <RC_IDC_MSG_ERROR>Error</RC_IDC_MSG_ERROR>
+    <RC_IDC_MSG_WARNING>Warning</RC_IDC_MSG_WARNING>
+    <RC_IDC_MSG_NOTICE>Notice</RC_IDC_MSG_NOTICE>
+    <RC_IDC_MSG_INFO>Info</RC_IDC_MSG_INFO>
+    <RC_IDC_MSG_ASSETS>Assets</RC_IDC_MSG_ASSETS>
+
+    <!-- IDD_ACT_TRIGGER -->
+    <RC_IDD_ACT_TRIGGER_CAPTION>&lt;Action Triggers&gt;</RC_IDD_ACT_TRIGGER_CAPTION>
+
+    <!-- IDD_SHORTCUTS -->
+    <RC_IDD_SHORTCUTS_CAPTION>ModelEditor Shortcuts</RC_IDD_SHORTCUTS_CAPTION>
+
+    <!-- IDD_TEXTURE_FEED -->
+    <RC_IDD_TEXTURE_FEED_CAPTION>Texture Feed Name</RC_IDD_TEXTURE_FEED_CAPTION>
+    <RC_IDC_REMOVE_TEXTURE_FEED>Remove Texture Feed</RC_IDC_REMOVE_TEXTURE_FEED>
+    <RC_IDC_TEXTURE_FEED_S>Please enter the exposed name to use for the texture feed:</RC_IDC_TEXTURE_FEED_S>
+
+    <!-- IDD_LOAD_ERROR -->
+    <RC_IDD_LOAD_ERROR_CAPTION>Model Load Error</RC_IDD_LOAD_ERROR_CAPTION>
+    <RC_IDC_LOAD_ERROR_S>The last time ModelEditor was run it exited unexpectedly. The last model will not be reloaded.</RC_IDC_LOAD_ERROR_S>
+
+    <!-- STRING_TABLE -->
+    <RCS_IDR_MAINFRAME>ModelEditor&#10;&#10;ModelEditor&#10;&#10;&#10;ModelEditor.Document&#10;ModelEditor.Document</RCS_IDR_MAINFRAME>
+    <RCS_ID_FILE_NEW>Create a new document&#10;New</RCS_ID_FILE_NEW>
+    <RCS_ID_FILE_OPEN>Open an existing document&#10;Open</RCS_ID_FILE_OPEN>
+    <RCS_ID_FILE_CLOSE>Close the active document&#10;Close</RCS_ID_FILE_CLOSE>
+    <RCS_ID_FILE_SAVE>Save the active document&#10;Save</RCS_ID_FILE_SAVE>
+    <RCS_ID_FILE_SAVE_AS>Save the active document with a new name&#10;Save As</RCS_ID_FILE_SAVE_AS>
+    <RCS_ID_APP_ABOUT>Display program information, version number and copyright&#10;About</RCS_ID_APP_ABOUT>
+    <RCS_ID_APP_EXIT>Quit the application; prompts to save documents&#10;Exit</RCS_ID_APP_EXIT>
+    <RCS_ID_FILE_MRU_FILE>Open this document</RCS_ID_FILE_MRU_FILE>
+    <RCS_ID_NEXT_PANE>Switch to the next window pane&#10;Next Pane</RCS_ID_NEXT_PANE>
+    <RCS_ID_PREV_PANE>Switch back to the previous window pane&#10;Previous Pane</RCS_ID_PREV_PANE>
+    <RCS_ID_WINDOW_SPLIT>Split the active window into panes&#10;Split</RCS_ID_WINDOW_SPLIT>
+    <RCS_ID_EDIT_CLEAR>Erase the selection&#10;Erase</RCS_ID_EDIT_CLEAR>
+    <RCS_ID_EDIT_CLEAR_ALL>Erase everything&#10;Erase All</RCS_ID_EDIT_CLEAR_ALL>
+    <RCS_ID_EDIT_COPY>Copy the selection and put it on the Clipboard&#10;Copy</RCS_ID_EDIT_COPY>
+    <RCS_ID_EDIT_CUT>Cut the selection and put it on the Clipboard&#10;Cut</RCS_ID_EDIT_CUT>
+    <RCS_ID_EDIT_FIND>Find the specified text&#10;Find</RCS_ID_EDIT_FIND>
+    <RCS_ID_EDIT_PASTE>Insert Clipboard contents&#10;Paste</RCS_ID_EDIT_PASTE>
+    <RCS_ID_EDIT_REPEAT>Repeat the last action&#10;Repeat</RCS_ID_EDIT_REPEAT>
+    <RCS_ID_EDIT_REPLACE>Replace specific text with different text&#10;Replace</RCS_ID_EDIT_REPLACE>
+    <RCS_ID_EDIT_SELECT_ALL>Select the entire document&#10;Select All</RCS_ID_EDIT_SELECT_ALL>
+    <RCS_ID_EDIT_UNDO>Undo the last action&#10;Undo</RCS_ID_EDIT_UNDO>
+    <RCS_ID_EDIT_REDO>Redo the previously undone action&#10;Redo</RCS_ID_EDIT_REDO>
+    <RCS_ID_VIEW_TOOLBAR>Show or hide the toolbar&#10;Toggle ToolBar</RCS_ID_VIEW_TOOLBAR>
+    <RCS_ID_VIEW_STATUS_BAR>Show or hide the status bar&#10;Toggle StatusBar</RCS_ID_VIEW_STATUS_BAR>
+    <RCS_AFX_IDS_SCSIZE>Change the window size</RCS_AFX_IDS_SCSIZE>
+    <RCS_AFX_IDS_SCMOVE>Change the window position</RCS_AFX_IDS_SCMOVE>
+    <RCS_AFX_IDS_SCMINIMIZE>Reduce the window to an icon</RCS_AFX_IDS_SCMINIMIZE>
+    <RCS_AFX_IDS_SCMAXIMIZE>Enlarge the window to full size</RCS_AFX_IDS_SCMAXIMIZE>
+    <RCS_AFX_IDS_SCNEXTWINDOW>Switch to the next document window</RCS_AFX_IDS_SCNEXTWINDOW>
+    <RCS_AFX_IDS_SCPREVWINDOW>Switch to the previous document window</RCS_AFX_IDS_SCPREVWINDOW>
+    <RCS_AFX_IDS_SCCLOSE>Close the active window and prompts to save the documents</RCS_AFX_IDS_SCCLOSE>
+    <RCS_AFX_IDS_SCRESTORE>Restore the window to normal size</RCS_AFX_IDS_SCRESTORE>
+    <RCS_AFX_IDS_SCTASKLIST>Activate Task List</RCS_AFX_IDS_SCTASKLIST>
+    <RCS_ID_INDICATOR_TRIANGLES>0 tris</RCS_ID_INDICATOR_TRIANGLES>
+    <RCS_ID_INDICATOR_NODES>0 nodes</RCS_ID_INDICATOR_NODES>
+    <RCS_ID_INDICATOR_BLENDBONE_NODES>0 BlendBone nodes</RCS_ID_INDICATOR_BLENDBONE_NODES>
+    <RCS_ID_INDICATOR_TETXURE_MEM>0 Bytes Texture Mem</RCS_ID_INDICATOR_TETXURE_MEM>
+    <RCS_ID_INDICATOR_FRAMERATE>0 fps</RCS_ID_INDICATOR_FRAMERATE>
+    <RCS_IDC_SHOW_AXES>Show a set of unit length axes at the origin</RCS_IDC_SHOW_AXES>
+    <RCS_IDC_CHECK_FOR_SPARKLES>Enter a mode for finding unmeshed polygons</RCS_IDC_CHECK_FOR_SPARKLES>
+    <RCS_IDC_SHOW_BLOOM>Enable the blooming effect while rendering</RCS_IDC_SHOW_BLOOM>
+    <RCS_IDC_SHOW_SHIMMER>Enable the shimmer effect while rendering</RCS_IDC_SHOW_SHIMMER>
+    <RCS_IDC_ENABLE_FOG>Enable Fog rendering</RCS_IDC_ENABLE_FOG>
+    <RCS_IDC_ENABLE_HDR>Enables HDR rendering</RCS_IDC_ENABLE_HDR>
+    <RCS_IDC_ENABLE_SSAO>Enables SSAO rendering</RCS_IDC_ENABLE_SSAO>
+    <RCS_IDC_SHOW_MODEL>Render the model</RCS_IDC_SHOW_MODEL>
+    <RCS_IDC_SHOW_SKELETON>Show the node skeleton of the model</RCS_IDC_SHOW_SKELETON>
+    <RCS_IDC_SHOW_WIREFRAME>Render in wireframe mode</RCS_IDC_SHOW_WIREFRAME>
+    <RCS_IDC_SHOW_BSP>Show the binary space partition (BSP) of the model</RCS_IDC_SHOW_BSP>
+    <RCS_IDC_SHOW_BOUNDING_BOX>Show the bounding and visibility boxes of the model</RCS_IDC_SHOW_BOUNDING_BOX>
+    <RCS_IDC_SHOW_PORTALS>Show any model portal (shells only)</RCS_IDC_SHOW_PORTALS>
+    <RCS_IDC_GROUND_MODEL>Ground the bottom of the model&apos;s bounding box on the ground</RCS_IDC_GROUND_MODEL>
+    <RCS_IDC_CENTRE_MODEL>Center the model&apos;s bounding box at the origin</RCS_IDC_CENTRE_MODEL>
+    <RCS_IDC_SHADOWING>The level of detail for shadowing</RCS_IDC_SHADOWING>
+    <RCS_IDC_DISPLAY_BKG>The mode in which to render the background</RCS_IDC_DISPLAY_BKG>
+    <RCS_IDC_DISPLAY_CHOOSE_BKG_COLOUR>Set the colour of the sky...</RCS_IDC_DISPLAY_CHOOSE_BKG_COLOUR>
+    <RCS_IDC_DISPLAY_CHOOSE_FLOOR_TEXTURE>Set the floor texture...</RCS_IDC_DISPLAY_CHOOSE_FLOOR_TEXTURE>
+    <RCS_IDC_TIMEOFDAY_SLIDER>The time of day at which to render the model</RCS_IDC_TIMEOFDAY_SLIDER>
+    <RCS_IDC_NORMALS_SIZE>Length of Vertex Normals, Binormals:</RCS_IDC_NORMALS_SIZE>
+    <RCS_IDC_NORMALS_SIZE_SLIDER>Vary the length of the Vertex Normals, Tangents, and Binormals</RCS_IDC_NORMALS_SIZE_SLIDER>
+    <RCS_IDC_DISPLAY_FLORA>The density of flora to use when rendering with terrain</RCS_IDC_DISPLAY_FLORA>
+    <RCS_IDC_SHOW_VERTEX_NORMALS>Show the normals to the vertices</RCS_IDC_SHOW_VERTEX_NORMALS>
+    <RCS_IDC_SHOW_VERTEX_BINORMALS>Show the tangents and binormals to the vertices</RCS_IDC_SHOW_VERTEX_BINORMALS>
+    <RCS_IDC_SHOW_HARD_POINTS>Show the model&apos;s Hard Points</RCS_IDC_SHOW_HARD_POINTS>
+    <RCS_IDC_SHOW_CUSTOM_HULL>Draws the Custom Hull of a shell</RCS_IDC_SHOW_CUSTOM_HULL>
+    <RCS_IDC_SHOW_EDITOR_PROXY>Shows the editor proxy model (Used in World Editor)</RCS_IDC_SHOW_EDITOR_PROXY>
+    <RCS_IDC_OBJECT_NAME>The file path of the currently opened model</RCS_IDC_OBJECT_NAME>
+    <RCS_IDC_OBJECT_BATCH>Can this model be batch rendered in the game</RCS_IDC_OBJECT_BATCH>
+    <RCS_IDC_OBJECT_KIND>What substance is the model primarily made of</RCS_IDC_OBJECT_KIND>
+    <RCS_IDC_SEARCH_BUTTON>Start a search filter</RCS_IDC_SEARCH_BUTTON>
+    <RCS_IDC_SEARCH_TEXT>The search filter for the selection</RCS_IDC_SEARCH_TEXT>
+    <RCS_IDC_SEARCH_CANCEL>Cancel the current search</RCS_IDC_SEARCH_CANCEL>
+    <RCS_IDC_ANIM_NAME>The name of the current animation</RCS_IDC_ANIM_NAME>
+    <RCS_IDC_ANIM_FRAME_RATE>The frame rate at which to play the animation (fps)</RCS_IDC_ANIM_FRAME_RATE>
+    <RCS_IDC_ANIM_FRAME>The current frame number</RCS_IDC_ANIM_FRAME>
+    <RCS_IDC_ANIM_FIRST>The first frame of the animation to play</RCS_IDC_ANIM_FIRST>
+    <RCS_IDC_ANIM_LAST>The last frame of the animation to play</RCS_IDC_ANIM_LAST>
+    <RCS_IDC_ANIM_FRAME_RATE_SLIDER>The frame rate at which to play the animation (fps)</RCS_IDC_ANIM_FRAME_RATE_SLIDER>
+    <RCS_IDC_ANIM_BLEND>The blend weighting for the selected node</RCS_IDC_ANIM_BLEND>
+    <RCS_IDC_ANIM_BLEND_SLIDER>The blend weighting for the selected node</RCS_IDC_ANIM_BLEND_SLIDER>
+    <RCS_IDC_ANIM_FRAME_SLIDER>The current frame number</RCS_IDC_ANIM_FRAME_SLIDER>
+    <RCS_IDC_ANIM_REMOVE_BLEND>Remove the blend weighting for this node</RCS_IDC_ANIM_REMOVE_BLEND>
+    <RCS_IDC_ANIM_SOURCE>The source *.animation file used</RCS_IDC_ANIM_SOURCE>
+    <RCS_IDC_ANIM_SAVE_FRAME_RATE>Save the current frame rate for this animation</RCS_IDC_ANIM_SAVE_FRAME_RATE>
+    <RCS_IDC_ANIM_COMP_SCALE>The current scalar compression percentage</RCS_IDC_ANIM_COMP_SCALE>
+    <RCS_IDC_ANIM_COMP_POS_SLDR>Set the current positional compression</RCS_IDC_ANIM_COMP_POS_SLDR>
+    <RCS_IDC_ANIM_COMP_ROT_SLDR>Set the current rotational compression</RCS_IDC_ANIM_COMP_ROT_SLDR>
+    <RCS_IDC_ANIM_COMP_SCALE_SLDR>Set the current scalar compression</RCS_IDC_ANIM_COMP_SCALE_SLDR>
+    <RCS_IDC_ANIM_COMP_POS_PLUS>Increase the current positional compression</RCS_IDC_ANIM_COMP_POS_PLUS>
+    <RCS_IDC_ANIM_COMP_POS_MINUS>Decrease the current positional compression</RCS_IDC_ANIM_COMP_POS_MINUS>
+    <RCS_IDC_ANIM_COMP_ROT_PLUS>Increase the current rotational compression</RCS_IDC_ANIM_COMP_ROT_PLUS>
+    <RCS_IDC_ANIM_COMP_ROT_MINUS>Decrease the current rotational compression</RCS_IDC_ANIM_COMP_ROT_MINUS>
+    <RCS_IDC_ANIM_COMP_SCALE_PLUS>Increase the current scalar compression</RCS_IDC_ANIM_COMP_SCALE_PLUS>
+    <RCS_IDC_ANIM_COMP_SCALE_MINUS>Decrease the current scalar compression</RCS_IDC_ANIM_COMP_SCALE_MINUS>
+    <RCS_IDC_ANIM_COMP_POS>The current positional compression percentage</RCS_IDC_ANIM_COMP_POS>
+    <RCS_IDC_ANIM_COMP_ROT>The current rotational compression percentage</RCS_IDC_ANIM_COMP_ROT>
+    <RCS_IDC_ANIM_CHANGE_ANIM>Select a different animation file to use...</RCS_IDC_ANIM_CHANGE_ANIM>
+    <RCS_IDC_ACT_MRU>The three most recently used actions.</RCS_IDC_ACT_MRU>
+    <RCS_IDC_ACT_NAME>The name of the action&#10;Needs to be a Python safe name (i.e. alphanumeric)</RCS_IDC_ACT_NAME>
+    <RCS_IDC_ACT_ANIM>The name of the animation used for the current action</RCS_IDC_ACT_ANIM>
+    <RCS_IDC_ACT_TRACK>The track number to use for the action&apos;s animation</RCS_IDC_ACT_TRACK>
+    <RCS_IDC_ACT_OWN_TRACK>This action&apos;s animation will always be on its own track</RCS_IDC_ACT_OWN_TRACK>
+    <RCS_IDC_ACT_CHANGE_ANIM>Select a different animation to use...</RCS_IDC_ACT_CHANGE_ANIM>
+    <RCS_IDC_ACT_LOOP>Set the action to be looping</RCS_IDC_ACT_LOOP>
+    <RCS_IDC_ACT_MOVE>Update the entity's position during animation.</RCS_IDC_ACT_MOVE>
+    <RCS_IDC_ACT_TRIGGER_CAPS_ON_SEL>Select the capabilities which must be on for the action to trigger...</RCS_IDC_ACT_TRIGGER_CAPS_ON_SEL>
+    <RCS_IDC_ACT_IMPACT>Update the entity's position when animation ends.</RCS_IDC_ACT_IMPACT>
+    <RCS_IDC_ACT_COORD>This action requires interaction with another entity</RCS_IDC_ACT_COORD>
+    <RCS_IDC_ACT_TRIGGER_CAPS_OFF_SEL>Select the capabilities which must be off for the action to trigger...</RCS_IDC_ACT_TRIGGER_CAPS_OFF_SEL>
+    <RCS_IDC_ACT_CANCEL_CAPS_ON_SEL>Select the capabilities which must be on for the action to cancel...</RCS_IDC_ACT_CANCEL_CAPS_ON_SEL>
+    <RCS_IDC_ACT_CANCEL_CAPS_OFF>The action matcher capabilities which must be off for the action to cancel</RCS_IDC_ACT_CANCEL_CAPS_OFF>
+    <RCS_IDC_ACT_PROMOTE_MOTION>The model will inherit movement from the action</RCS_IDC_ACT_PROMOTE_MOTION>
+    <RCS_IDC_ACT_SCALE_PLAYBACK_SPEED>Should the animation speed be scaled with the entity movement speed</RCS_IDC_ACT_SCALE_PLAYBACK_SPEED>
+    <RCS_IDC_ACT_FEET_FOLLOW_DIRECTION>The model should face in the same direction as the entity</RCS_IDC_ACT_FEET_FOLLOW_DIRECTION>
+    <RCS_IDC_ACT_CANCEL_CAPS_OFF_SEL>Select the capabilities which must be off for the action to cancel...</RCS_IDC_ACT_CANCEL_CAPS_OFF_SEL>
+    <RCS_IDC_ACT_CANCEL_AUX1_SLDR>The entity turn range (deg) for the action to cancel</RCS_IDC_ACT_CANCEL_AUX1_SLDR>
+    <RCS_IDC_ACT_CANCEL_YAW_SLDR>The entity direction range (deg) for the action to cancel</RCS_IDC_ACT_CANCEL_YAW_SLDR>
+    <RCS_IDC_ACT_TRIGGER_SPEED_SLDR>The entity speed range (m/s) for the action to trigger&#10;Negative for falling</RCS_IDC_ACT_TRIGGER_SPEED_SLDR>
+    <RCS_IDC_ACT_TRIGGER_AUX1_SLDR>The entity turn range (deg) for the action to trigger</RCS_IDC_ACT_TRIGGER_AUX1_SLDR>
+    <RCS_IDC_ACT_CANCEL_SPEED_SLDR>The entity speed range (m/s) for the action to cancel</RCS_IDC_ACT_CANCEL_SPEED_SLDR>
+    <RCS_IDC_ACT_TRIGGER_YAW_SLDR>The entity direction range (deg) for the action to trigger</RCS_IDC_ACT_TRIGGER_YAW_SLDR>
+    <RCS_IDC_ACT_TRIGGER_SPEED_MIN>The minimum entity speed (m/s) for the action to trigger</RCS_IDC_ACT_TRIGGER_SPEED_MIN>
+    <RCS_IDC_ACT_TRIGGER_SPEED_MAX>The maximum entity speed (m/s) for the action to trigger</RCS_IDC_ACT_TRIGGER_SPEED_MAX>
+    <RCS_IDC_ACT_TRIGGER_AUX1_MIN>The minimum entity turn (deg) for the action to trigger</RCS_IDC_ACT_TRIGGER_AUX1_MIN>
+    <RCS_IDC_ACT_TRIGGER_AUX1_MAX>The maximum entity turn (deg) for the action to trigger</RCS_IDC_ACT_TRIGGER_AUX1_MAX>
+    <RCS_IDC_ACT_TRIGGER_YAW_MIN>The minimum entity direction (deg) for the action to trigger</RCS_IDC_ACT_TRIGGER_YAW_MIN>
+    <RCS_IDC_ACT_TRIGGER_YAW_MAX>The maximum entity direction (deg) for the action to trigger</RCS_IDC_ACT_TRIGGER_YAW_MAX>
+    <RCS_IDC_ACT_TRIGGER_CAPS_ON>The action matcher capabilities which must be on for the action to trigger</RCS_IDC_ACT_TRIGGER_CAPS_ON>
+    <RCS_IDC_ACT_ONE_SHOT>The action matcher should cancel action after one play</RCS_IDC_ACT_ONE_SHOT>
+    <RCS_IDC_ACT_TRIGGER_CAPS_OFF>The action matcher capabilities which must be off for the action to trigger</RCS_IDC_ACT_TRIGGER_CAPS_OFF>
+    <RCS_IDC_ACT_CANCEL_SPEED_MIN>The minimum entity speed (m/s) for the action to cancel</RCS_IDC_ACT_CANCEL_SPEED_MIN>
+    <RCS_IDC_ACT_CANCEL_SPEED_MAX>The maximum entity speed (m/s) for the action to cancel</RCS_IDC_ACT_CANCEL_SPEED_MAX>
+    <RCS_IDC_ACT_CANCEL_AUX1_MIN>The minimum entity turn (deg) for the action to cancel</RCS_IDC_ACT_CANCEL_AUX1_MIN>
+    <RCS_IDC_ACT_CANCEL_AUX1_MAX>The maximum entity turn (deg) for the action to cancel</RCS_IDC_ACT_CANCEL_AUX1_MAX>
+    <RCS_IDC_ACT_CANCEL_YAW_MIN>The minimum entity direction (deg) for the action to cancel</RCS_IDC_ACT_CANCEL_YAW_MIN>
+    <RCS_IDC_ACT_CANCEL_YAW_MAX>The maximum entity direction (deg) for the action to cancel</RCS_IDC_ACT_CANCEL_YAW_MAX>
+    <RCS_IDC_ACT_CANCEL_CAPS_ON>The action matcher capabilities which must be on for the action to cancel</RCS_IDC_ACT_CANCEL_CAPS_ON>
+    <RCS_IDC_LOD_MIN>The minimum distance for which to render the selected model</RCS_IDC_LOD_MIN>
+    <RCS_IDC_LOD_DIST_SLIDER>The distance to the model</RCS_IDC_LOD_DIST_SLIDER>
+    <RCS_IDC_LOD_BAR>The current LOD distance setup for the model</RCS_IDC_LOD_BAR>
+    <RCS_IDC_LOD_HIDDEN>Hide the selected model in the LOD list</RCS_IDC_LOD_HIDDEN>
+    <RCS_IDC_LOD_VIRTUAL_DIST>Use the LOD distance for determining the LOD model to render only</RCS_IDC_LOD_VIRTUAL_DIST>
+    <RCS_IDC_LOD_DIST>The distance to the model</RCS_IDC_LOD_DIST>
+    <RCS_IDC_LOD_MAX>The maximum distance for which to render the selected model</RCS_IDC_LOD_MAX>
+    <RCS_IDC_LOD_LIST>The current LOD distance setup for the model</RCS_IDC_LOD_LIST>
+    <RCS_IDC_LIGHTS_USE_GAME>Use the game lighting</RCS_IDC_LIGHTS_USE_GAME>
+    <RCS_IDC_LIGHTS_USE_CUSTOM>Use a custom lighting setup</RCS_IDC_LIGHTS_USE_CUSTOM>
+    <RCS_IDC_LIGHTS_LIST>A list of the available lights to use</RCS_IDC_LIGHTS_LIST>
+    <RCS_IDC_LIGHTS_SETUPS>A list of the recently used lighting setups</RCS_IDC_LIGHTS_SETUPS>
+    <RCS_IDC_LIGHTS_CAMERA>Lock the light direction and position to the camera</RCS_IDC_LIGHTS_CAMERA>
+    <RCS_IDC_LIGHTS_MODELS>Show the light controller in the view</RCS_IDC_LIGHTS_MODELS>
+    <RCS_IDC_MATERIALS_MATERIAL>The name to use for the current material</RCS_IDC_MATERIALS_MATERIAL>
+    <RCS_IDC_MATERIALS_MATTER>The dye name for the currently selected tint&#10;Needs to be a Python safe name  (i.e. alphanumeric)</RCS_IDC_MATERIALS_MATTER>
+    <RCS_IDC_MATERIALS_TINT>The name of the currently selected tint</RCS_IDC_MATERIALS_TINT>
+    <RCS_IDC_MATERIALS_TREE>A list of the materials/tints available in this model</RCS_IDC_MATERIALS_TREE>
+    <RCS_IDC_MATERIALS_FX_LIST>Use a recently used effect for the selected material/tint</RCS_IDC_MATERIALS_FX_LIST>
+    <RCS_IDC_MATERIALS_FX_SEL>Select a new effect for the selected material/tint...</RCS_IDC_MATERIALS_FX_SEL>
+    <RCS_IDC_MATERIALS_PREVIEW>Render the selected material on a preview object</RCS_IDC_MATERIALS_PREVIEW>
+    <RCS_IDC_MATERIALS_PREVIEW_LIST>The object on which to preview the material</RCS_IDC_MATERIALS_PREVIEW_LIST>
+    <RCS_IDC_MATERIALS_PREVIEW_RECT>A preview of the currently selected material</RCS_IDC_MATERIALS_PREVIEW_RECT>
+    <RCS_IDC_MATERIALS_TECHNIQUE>Preview the material using a different technique</RCS_IDC_MATERIALS_TECHNIQUE>
+    <RCS_IDC_MSG_SHOW_DATE>Show the date of the messages</RCS_IDC_MSG_SHOW_DATE>
+    <RCS_IDC_MSG_SHOW_TIME>Show the time of the messages</RCS_IDC_MSG_SHOW_TIME>
+    <RCS_IDC_MSG_SHOW_PRIORITY>Show the priority of the messages</RCS_IDC_MSG_SHOW_PRIORITY>
+    <RCS_IDC_MSG_ERROR>Show error messages</RCS_IDC_MSG_ERROR>
+    <RCS_IDC_MSG_WARNING>Show warning messages</RCS_IDC_MSG_WARNING>
+    <RCS_IDC_MSG_NOTICE>Show notice messages</RCS_IDC_MSG_NOTICE>
+    <RCS_IDC_MSG_INFO>Show info messages</RCS_IDC_MSG_INFO>
+    <RCS_IDC_MSG_ASSETS>Show asset messages</RCS_IDC_MSG_ASSETS>
+    <RCS_IDC_NEW_TINT_NAME>The name of the new tint to create</RCS_IDC_NEW_TINT_NAME>
+    <RCS_IDC_NEW_TINT_FX_CHECK>Use an effect file for the new tint</RCS_IDC_NEW_TINT_FX_CHECK>
+    <RCS_IDC_NEW_TINT_FX_LIST>Use a recently used effect for the new tint</RCS_IDC_NEW_TINT_FX_LIST>
+    <RCS_IDC_NEW_TINT_FX_SEL>Select an effect for the new tint...</RCS_IDC_NEW_TINT_FX_SEL>
+    <RCS_IDC_NEW_TINT_MFM_CHECK>Use an MFM file for the new tint</RCS_IDC_NEW_TINT_MFM_CHECK>
+    <RCS_IDC_NEW_TINT_MFM_LIST>Use a recently used MFM for the new tint</RCS_IDC_NEW_TINT_MFM_LIST>
+    <RCS_IDC_NEW_TINT_MFM_SEL>Select an MFM for the new tint...</RCS_IDC_NEW_TINT_MFM_SEL>
+    <RCS_IDC_PREFS_SHOW_SPLASH_SCREEN>When ModelEditor is started show a splash screen</RCS_IDC_PREFS_SHOW_SPLASH_SCREEN>
+    <RCS_IDC_PREFS_LOAD_LAST_MODEL>When ModelEditor is started load the last used model</RCS_IDC_PREFS_LOAD_LAST_MODEL>
+    <RCS_IDC_PREFS_LOAD_LAST_LIGHTS>When ModelEditor is started load the last used lighting setup</RCS_IDC_PREFS_LOAD_LAST_LIGHTS>
+    <RCS_IDC_PREFS_ZOOM_ON_LOAD>Zoom to the extents of the model when loading</RCS_IDC_PREFS_ZOOM_ON_LOAD>
+    <RCS_IDC_PREFS_ANIMATE_ZOOM>Use an animated zoom to extents</RCS_IDC_PREFS_ANIMATE_ZOOM>
+    <RCS_IDC_PREFS_LOCK_LOD>Lock all the LOD models of the model</RCS_IDC_PREFS_LOCK_LOD>
+    <RCS_IDC_PREFS_INVERT_MOUSE>Invert the vertical mouse control</RCS_IDC_PREFS_INVERT_MOUSE>
+    <RCS_IDC_PREFS_REGEN_BB>Regenerate the visibility box for the model when loading if needed</RCS_IDC_PREFS_REGEN_BB>
+    <RCS_IDC_ACT_BLEND_IN>The blend in time for the animation (sec)</RCS_IDC_ACT_BLEND_IN>
+    <RCS_IDC_ACT_BLEND_OUT>The blend out time for the animation (sec)</RCS_IDC_ACT_BLEND_OUT>
+    <RCS_IDC_ACT_BLEND_IN_SLIDER>The blend in time for the animation (sec)</RCS_IDC_ACT_BLEND_IN_SLIDER>
+    <RCS_IDC_ACT_BLEND_OUT_SLIDER>The blend out time for the animation (sec)</RCS_IDC_ACT_BLEND_OUT_SLIDER>
+    <RCS_IDC_ACT_TRIGGER_FALLING>Whether the model needs to be falling for the action to trigger</RCS_IDC_ACT_TRIGGER_FALLING>
+    <RCS_IDC_ACT_CANCEL_FALLING>Whether the model needs to be falling for the action to cancel</RCS_IDC_ACT_CANCEL_FALLING>
+    <RCS_IDC_OBJECT_PROXY_REMOVE>Remove the current proxy for this model</RCS_IDC_OBJECT_PROXY_REMOVE>
+    <RCS_IDC_OBJECT_PROXY_SEL>Select a proxy model to be used in WorldEditor</RCS_IDC_OBJECT_PROXY_SEL>
+    <RCS_IDC_OBJECT_PROXY>The proxy model to be used in WorldEditor&#10;Supports drag-and-drop of *.model files</RCS_IDC_OBJECT_PROXY>
+  </en>
+</root>

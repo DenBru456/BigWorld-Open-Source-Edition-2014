@@ -1,0 +1,347 @@
+<root>
+	<Effect>	Chromatic Aberration
+		<PyCopyBackBuffer>
+			<name>	copy back buffer	</name>
+			<renderTarget>	backBufferCopy	</renderTarget>
+		</PyCopyBackBuffer>
+		<PyPhase>
+			<name>	extract red	</name>
+			<renderTarget>	downSample1	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	1.000000 0.109804 0.000000 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	create normal map	</name>
+			<renderTarget>	downSample2	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	0.501961 0.498039 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	system/maps/col_white.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	distort and transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/transfer_distort.fx	</fx>
+				<property>	tile
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	scale
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	distortionTexture
+					<Texture>	downSample2	</Texture>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample1	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	extract green	</name>
+			<renderTarget>	downSample1	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	0.000000 1.000000 0.000000 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	create normal map	</name>
+			<renderTarget>	downSample2	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	0.505882 0.501961 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	system/maps/col_white.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	distort and transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/transfer_distort.fx	</fx>
+				<property>	tile
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	scale
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	distortionTexture
+					<Texture>	downSample2	</Texture>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample1	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	extract blue	</name>
+			<renderTarget>	downSample1	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	0.000000 0.050980 0.992157 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	backBufferCopy	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	create normal map	</name>
+			<renderTarget>	downSample2	</renderTarget>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/transfer.fx	</fx>
+				<property>	colourise
+					<Vector4>	0.498039 0.498039 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	additionalAlpha
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alphaOverdrive
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	inputTexture
+					<Texture>	system/maps/col_white.dds	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	1	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+		<PyPhase>
+			<name>	distort and transfer	</name>
+			<clearRenderTarget>	false	</clearRenderTarget>
+			<filterQuad>
+				<PyTransferQuad>	</PyTransferQuad>
+			</filterQuad>
+			<material>
+				<fx>	shaders/post_processing/legacy/transfer_distort.fx	</fx>
+				<property>	tile
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	scale
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	alpha
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	distortionTexture
+					<Texture>	downSample2	</Texture>
+				</property>
+				<property>	inputTexture
+					<Texture>	downSample1	</Texture>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	destBlend
+					<Int>	2	</Int>
+				</property>
+				<property>	srcBlend
+					<Int>	2	</Int>
+				</property>
+			</material>
+		</PyPhase>
+	</Effect>
+</root>

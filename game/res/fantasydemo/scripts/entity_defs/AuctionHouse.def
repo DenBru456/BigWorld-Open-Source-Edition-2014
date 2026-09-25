@@ -1,0 +1,287 @@
+<root>
+	<Properties>
+		<!--	Globally registered name. -->
+		<name>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		AuctionHouse	</Default>
+			<Identifier>	true			</Identifier>
+			<Persistent>	true			</Persistent>
+		</name>
+
+		<!--	The map of auction IDs to auctions objects.
+		-->
+		<auctions>
+			<Type>			AUCTIONS 		</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 	32768 		</DatabaseLength>
+		</auctions>
+	</Properties>
+
+	<TempProperties>
+		<!-- A set of callbacks on the current object to be used during
+		     trade events. This is a temporary property as restoring this
+		     entity will require new partial() callbacks to be created. -->
+		<callbacks/>
+	</TempProperties>
+
+	<BaseMethods>
+		<!--	Creates an auction, and returns the auction ID back to the
+				seller player through its mailbox through the onCreateAuction
+				method.
+		-->
+		<createAuction>
+			<Args>
+				<!-- The seller player DBID. -->
+				<sellerDBID>		DBID			</sellerDBID>
+				<!-- The seller item lock handle. -->
+				<itemLock> 			LOCKHANDLE 		</itemLock>
+				<!-- The item type ID. -->
+				<itemType> 			ITEMTYPE 		</itemType>
+				<!-- the item serial -->
+				<itemSerial> 		ITEMSERIAL 		</itemSerial>
+				<!-- Starting bid. -->
+				<startBid> 			GOLDPIECES		</startBid>
+				<!-- Expiry time in seconds from when the auction was created. -->
+				<expiryAmount> 		AUCTIONEXPIRY 	</expiryAmount>
+				<!-- Buyout amount (-1 if none) -->
+				<buyoutPrice> 		GOLDPIECES		</buyoutPrice>
+			</Args>
+
+			<ReturnValues>
+				<auctionID> 	AUCTIONID		</auctionID>
+			</ReturnValues>
+		</createAuction>
+
+
+		<!--	Called when a bidder bids on an auction.
+		-->
+		<bidOnAuction>
+			<Args>
+				<!-- player who is bidding-->
+				<player> 			MAILBOX 		</player>
+				<!-- database ID of the player who is bidding -->
+				<databaseID>		DBID 			</databaseID>
+				<!-- auction ID -->
+				<auctionID> 		AUCTIONID 		</auctionID>
+				<!-- bid amount -->
+				<amount> 			GOLDPIECES		</amount>
+				<!-- lock handle for gold bid with -->
+				<lockHandle>		LOCKHANDLE		</lockHandle>
+			</Args>
+
+			<ReturnValues>
+				<msg> STRING </msg>
+			</ReturnValues>
+		</bidOnAuction>
+
+
+		<!--	Called when a bidder buys out an auction.
+		-->
+		<buyoutAuction>
+			<Args>
+				<!-- player who is bidding -->
+				<player>			MAILBOX			</player>
+				<!-- database ID of the player who is bidding -->
+				<databaseID>		DBID 			</databaseID>
+				<!-- auction ID -->
+				<auctionID>			AUCTIONID		</auctionID>
+			</Args>
+
+			<ReturnValues>
+				<msg> STRING </msg>
+			</ReturnValues>
+		</buyoutAuction>
+
+
+		<!--	Callback from a winning bidder when it has finished locking the
+				actual bid amount at the time of expiry, which is typically
+				lower than the locked away maximum bid amount.
+				See Avatar.onWinAuction.
+		-->
+		<completeAuction>
+			<Args>
+				<!-- The auction ID. -->
+				<auctionID>			AUCTIONID		</auctionID>
+				<!-- The highest bidder's mailbox. -->
+				<bidderEntity>		MAILBOX			</bidderEntity>
+				<!-- New lock handle with the bidded amount. -->
+				<lockHandle>		LOCKHANDLE		</lockHandle>
+			</Args>
+
+		</completeAuction>
+
+		<!-- This is used by the web_integration.pdf document as an example
+			of using the TwistedWeb service. -->
+		<webTestMethod>
+			<Args>
+				<first_arg>		INT32	</first_arg>
+				<second_arg>	STRING </second_arg>
+			</Args>
+			<ReturnValues>
+				<first_result>		INT32	</first_result>
+				<second_result>		STRING </second_result>
+			</ReturnValues>
+		</webTestMethod>
+
+		<!--	Web method to enable searches. Searches use criteria, and
+				can be combined using AND and OR operators. The criteria
+				themselves are pickled instances of
+				AuctionHouseCommon.AuctionSearchCriteria subclasses.
+				If criteria is an empty string, then all auctions are returned.
+		-->
+		<webSearchAuctions>
+			<Args>
+				<criteria> 			STRING 			</criteria>
+			</Args>
+
+			<ReturnValues>
+				<searchedAuctions>
+					ARRAY <of> AUCTIONID </of>
+				</searchedAuctions>
+			</ReturnValues>
+		</webSearchAuctions>
+
+
+		<!--	Web method to retrieve information about auctions.  The form of
+				the return value is a list of dictionaries that describe the
+				auction for a given auction ID.
+
+				This is separate from webSearchAuctions above so that auction
+				searches may be paged through without retrieving unmanageable
+				amounts of auction data.
+		-->
+
+
+		<webGetAuctionInfo>
+			<Args>
+				<!-- List of auction IDS to query. -->
+				<auctions> ARRAY <of> AUCTIONID </of> </auctions>
+			</Args>
+
+			<ReturnValues>
+				<!-- 	List of dictionaries describing an auction for each
+						auction IDs given
+				-->
+				<auctionInfo> ARRAY <of> AUCTIONINFO </of> </auctionInfo>
+			</ReturnValues>
+		</webGetAuctionInfo>
+
+
+		<!--	Retrieves BigWorld.time() for use in determining the relative
+				expiry times.
+		-->
+		<webGetTime>
+			<ReturnValues>
+				<time>	FLOAT	</time>
+			</ReturnValues>
+		</webGetTime>
+
+
+		<!--	Web method that creates an item type criteria, which matches
+				auctions against a list of item type IDs.
+		-->
+		<webCreateItemTypeCriteria>
+			<Args>
+				<itemTypes> ARRAY <of> ITEMTYPE </of> </itemTypes>
+			</Args>
+
+			<ReturnValues>
+				<!-- Search criteria object, pickled. -->
+				<criteria> STRING </criteria>
+			</ReturnValues>
+		</webCreateItemTypeCriteria>
+
+		<!--	Web method that creates a bid range auction search criteria,
+				which matches auctions with a current bid amount within
+				a range. Either (but not both) minimium and maximum can be
+				omitted from the range.
+		-->
+		<webCreateBidRangeCriteria>
+			<Args>
+				<minBid>	GOLDPIECES	</minBid>
+				<maxBid>	GOLDPIECES	</maxBid>
+			</Args>
+
+			<ReturnValues>
+				<!-- Search criteria object, pickled. -->
+				<criteria>	STRING	</criteria>
+			</ReturnValues>
+		</webCreateBidRangeCriteria>
+
+
+		<!--	Web method that creates a seller criteria, which matches
+				auctions with a particular seller database ID.
+		-->
+		<webCreateSellerCriteria>
+			<!-- The seller's database ID to be matched. -->
+			<Args>
+				<dbID>	DBID	</dbID>
+			</Args>
+
+			<ReturnValues>
+				<!-- Search criteria object, pickled. -->
+				<criteria>	STRING	</criteria>
+			</ReturnValues>
+		</webCreateSellerCriteria>
+
+
+		<!--	Web method that creates a bidder criteria, which matches
+				auctions that have the given bidder as being at least one of the
+				past and current bidders of that auction.
+		-->
+		<webCreateBidderCriteria>
+			<Args>
+				<!-- The bidder's database ID to be matched. -->
+				<dbID>	DBID	</dbID>
+			</Args>
+
+			<ReturnValues>
+				<!-- Search criteria object, pickled. -->
+				<criteria>	STRING	</criteria>
+			</ReturnValues>
+		</webCreateBidderCriteria>
+
+
+		<!--	Web method that combines two criteria using the AND boolean
+				operator.
+		-->
+		<webCombineAnd>
+			<Args>
+				<criteria1>	STRING	</criteria1>
+				<criteria2>	STRING	</criteria2>
+			</Args>
+
+			<ReturnValues>
+				<criteria> STRING </criteria>
+			</ReturnValues>
+		</webCombineAnd>
+
+
+		<!--	Web method that combines two criteria using the OR boolean
+				operator.
+		-->
+		<webCombineOr>
+			<Args>
+				<criteria1>	STRING	</criteria1>
+				<criteria2>	STRING	</criteria2>
+			</Args>
+
+			<ReturnValues>
+				<criteria>	STRING	</criteria>
+			</ReturnValues>
+		</webCombineOr>
+
+
+		<cleanup>
+		</cleanup>
+	</BaseMethods>
+
+	<!-- No cell methods. -->
+	<CellMethods/>
+
+	<!-- No client methods. (yet) -->
+	<ClientMethods/>
+</root>

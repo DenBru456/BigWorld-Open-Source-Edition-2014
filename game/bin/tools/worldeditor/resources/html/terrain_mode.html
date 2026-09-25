@@ -1,0 +1,178 @@
+<html>
+  <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+  <body background="we.bmp" style="background-repeat:no-repeat; background-position-x:right; background-position-y:bottom;">
+    <h2>Terrain Mode <img src="we_toolbar_terrain_texture_tool_original_size.png">
+                     <img src="we_toolbar_terrain_height_tool_original_size.png">
+                     <img src="we_toolbar_terrain_filter_tool_original_size.png">
+                     <img src="we_toolbar_terrain_mesh_tool_original_size.png"></h2>
+
+    <table class="normal" cellspacing=0>
+      <tbody>
+      <tr><th class="FirstCol">Key   </th>
+          <th>                 Action</th></tr>
+
+      <tr><td class="oddRow1stCol"><code>F9</code>                             </td>
+          <td class="oddRow">            <b>If <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Recalculates detail objects, such as 
+                                         flora, based on the texture predominant 
+                                         in the terrain.                             </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>[</code><br>(left square<br>bracket)        </td>
+          <td class="evnRow">            Decreases the brush size.<br>
+                                         <p><b>If <code>Alt</code> is pressed:</b><br>
+                                         <p class="lvl2">
+                                         Decreases the brush strength.                   </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>]</code><br>(right square<br>bracket)       </td>
+          <td class="oddRow">            Increases the brush size.
+                                         <p><b>If <code>Alt</code> is pressed:</b><br>
+                                         <p class="lvl2">
+                                         Iecreases the brush strength.                   </td></tr>
+
+
+      <tr><td class="evnRow1stCol"><code>,</code><br>(comma)                         </td>
+          <td class="evnRow">            <b>If <img src="we_toolbar_terrain_filter_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Selects the previous item in the 
+                                         <b>Filters</b> list box.                    </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>.</code><br>(period)                        </td>
+          <td class="oddRow">            <b>If  <img src="we_toolbar_terrain_filter_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Selects the next item in the 
+                                         <b>Filters</b> list box.                    </td></tr>
+
+      <tr><td class="evnRow1stCol"><a name="Alt"></a>
+                                   <code>Alt</code>                                  </td>
+          <td class="evnRow">            <b>If <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Samples the dominant texture of the chunk under the cursor.
+
+                                         <p><b>If <img src="we_toolbar_terrain_height_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Samples the height underneath the cursor.   </td></tr>
+
+      <tr><td class="oddRow1stCol"><a name="Alt_Ctrl"></a>
+                                   <code>Alt</code>+<code>Ctrl</code>                </td>
+          <td class="oddRow">            
+                                         <b>If <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Samples the dominant texture of the chunk 
+                                         under the cursor and its opacity.           </td></tr>
+
+      <tr><td class="evnRow1stCol"><a name="Alt_Shift"></a>
+                                   <code>Alt</code>+<code>Shift</code>               </td>
+          <td class="evnRow">            
+                                         <b>If <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Updates the <b>Projection</b> fields to the 
+                                         values of the area under the cursor.        </td></tr>
+
+      <tr><td class="oddRow1stCol"><a name="Ctrl"></a>
+                                   <code>Ctrl</code><br>(left key)                   </td>
+          <td class="oddRow">            <b>If <img src="we_toolbar_terrain_height_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Immediately sets terrain height <u>to</u> 
+                                         specified value (if the <b>Absolute</b>
+                                         option button is selected), or immediately
+                                         increases terrain height <u>by</u> 
+                                         specified value (if the <b>Relative</b>
+                                         option button is selected).                 </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Shift</code>                                </td>
+          <td class="evnRow">            <b>If  <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Updates the <b>Projection</b> and <b>Scale</b> 
+                                         fields to the values of the area under 
+                                         the cursor. </p>                               
+										
+										 <b>If <img src="we_toolbar_terrain_height_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Toggles between Height and Filter mode. 
+
+                                         <p><b>If <img src="we_toolbar_terrain_mesh_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Toggles between Cut and Repair mode.   </td></tr>
+
+      <tr><td class="oddRow1stCol"><code>Alt+[</code><br>(left square<br>bracket)  </td>
+          <td class="oddRow">            Decreases the brush strength.               </td></tr>
+
+      <tr><td class="evnRow1stCol"><code>Alt+]</code><br>(right square<br>bracket) </td>
+          <td class="evnRow">            Increases the brush strength.               </td></tr>
+
+      <tr><td class="evnRow1stCol">      Mouse left<br>button click                  </td>
+          <td class="evnRow" rowspan=2>
+                                         <b>If <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Applies the selected texture.<br>
+                                         <b>If <code>Alt</code> is pressed:</b>&ndash;
+                                         See <a href="#Alt"><code>Alt</code></a> on this page.<br>   
+                                         <b>If <code>Alt</code>+<code>Ctrl</code> is pressed:</b>&ndash;
+                                         See <a href="#Alt_Ctrl"><code>Alt</code>+<code>Ctrl</code></a> on this page.<br>   
+                                         <b>If <code>Alt</code>+<code>Shift</code> is pressed:</b>&ndash;
+                                         See <a href="#Alt_Shift"><code>Alt</code>+<code>Shift</code></a> on this page.<br>   
+                                         <p>
+                                         <b>If <img src="we_toolbar_terrain_height_tool.png">&ndash;
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Gradually increases the terrain height.<br>
+                                         <b>If <code>Alt</code> is pressed:</b> &ndash;
+                                         See <a href="#Alt"><code>Alt</code></a> on this page.<br>
+                                         <b>If left <code>Ctrl</code> is pressed:</b> &ndash;
+                                         See <a href="#Ctrl"><code>Ctrl</code></a> on this page.
+                                         
+                                         <p>
+                                         <b>If <img src="we_toolbar_terrain_filter_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Gradually applies selected filter.       <br>
+
+                                         <p>
+                                         <b>If <img src="we_toolbar_terrain_mesh_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Cuts or repairs the terrain under the
+                                         cursor, depending on the value of
+                                         the <b>Brush Mode</b> field.                </td></tr>
+
+      <tr><td class="evnRow1stCol">      Mouse left<br>button drag                   </td></tr>
+
+      <tr><td class="oddRow1stCol">      Mouse right<br>button click                 </td>
+          <td class="oddRow">            <b>If <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Opens the terrain texture's context menu.   </td></tr>                      </td></tr>
+
+      <tr><td class="evnRow1stCol">      Mouse middle<br>button click                </td>
+          <td class="evnRow" rowspan=2>
+                                         <b>If <img src="we_toolbar_terrain_texture_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Picks the texture assigned to current 
+                                         alpha channel.                                   </p>
+
+                                         <b>If <img src="we_toolbar_terrain_height_tool.png">
+                                         is selected:</b>
+                                         <p class="lvl2">
+                                         Gradually decreases terrain height.         </td></tr>
+
+      <tr><td class="evnRow1stCol">       Mouse middle<br>button drag                  </td></tr>
+
+      </tbody>
+      </table>
+   </body>
+</html>
+

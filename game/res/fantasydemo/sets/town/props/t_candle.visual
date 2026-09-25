@@ -1,0 +1,93 @@
+<t_candle.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	candle_flame	</identifier>
+			<transform>
+				<row0>	0.1045 -0.0018 0.9945	</row0>
+				<row1>	0.9944 -0.0174 -0.1045	</row1>
+				<row2>	0.0175 0.9998 0.0000	</row2>
+				<row3>	-0.0070 0.3040 0.0026	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	candle_wax	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000	</row2>
+				<row3>	-0.0051 0.0082 0.0002	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	candle_wax	</node>
+		<geometry>
+			<vertices>	sets/town/props/t_candle.candle_wax.vertices	</vertices>
+			<primitive>	sets/town/props/t_candle.candle_wax.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	candle_melted	</identifier>
+					<fx>	shaders/std_effects/lightonly_glow.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	50	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	glowFactor
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	glowMap
+						<Texture>	sets/town/props/candle_glow00.texanim	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/candle_melted.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	candle_flame	</node>
+		<geometry>
+			<vertices>	sets/town/props/t_candle.candle_flame.vertices	</vertices>
+			<primitive>	sets/town/props/t_candle.candle_flame.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	candle	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/fire/candleflame.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.17 0.00 -0.17	</min>
+		<max>	0.17 0.41 0.20	</max>
+	</boundingBox>
+	<materialKind>	12	</materialKind>
+</t_candle.visual>

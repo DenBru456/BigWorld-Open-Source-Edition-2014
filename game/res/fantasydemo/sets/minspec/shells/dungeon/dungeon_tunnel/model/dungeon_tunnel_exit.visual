@@ -1,0 +1,96 @@
+<dungeon_tunnel_exit.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.890080 -0.236738 -9.193810	</min>
+		<max>	5.031919 6.803511 1.034683	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	-0.999797 -0.000000 -0.020132	</normal>
+		<d>	-4.580278	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.000000 1.000000	</normal>
+		<d>	-7.599999	</d>
+		<portal>
+			<chunk>	invasive	</chunk>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-0.754241 6.037860 -0.000001	</point>
+			<point>	4.734241 6.037860 -0.000001	</point>
+			<point>	4.734241 0.682140 -0.000001	</point>
+			<point>	-0.754241 0.682140 -0.000001	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.988092 0.153864	</normal>
+		<d>	-0.495351	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.982126 -0.188226	</normal>
+		<d>	0.087310	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.000000 -1.000000	</normal>
+		<d>	-0.057924	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 -0.000000	</uAxis>
+			<point>	-0.419972 -0.100000 0.000000	</point>
+			<point>	4.580038 -0.100000 0.000000	</point>
+			<point>	4.580039 -5.099998 0.000000	</point>
+			<point>	-0.419971 -5.099999 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.999049 0.000000 -0.043609	</normal>
+		<d>	-0.422098	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.994276 -0.106843	</normal>
+		<d>	-5.847514	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -0.985382 -0.170357	</normal>
+		<d>	-5.685670	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</dungeon_tunnel_exit.visual>

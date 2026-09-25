@@ -1,0 +1,608 @@
+<root>
+  <en>
+    <MENU>
+      <FILE>
+        <NAME>
+          &amp;File
+        </NAME>
+        <DESC>
+          File Operations
+        </DESC>
+        <OPEN_MODEL>
+          <NAME>
+            &amp;Open Model...
+          </NAME>
+          <DESC>
+            Open a Model
+          </DESC>
+        </OPEN_MODEL>
+        <ADD_MODEL>
+          <NAME>
+            &amp;Add Model...
+          </NAME>
+          <DESC>
+            Add a Model to the current model
+          </DESC>
+        </ADD_MODEL>
+        <REMOVE_ADDED_MODEL>
+          <NAME>
+            &amp;Remove Added Models
+          </NAME>
+          <DESC>
+            Remove all the currently added models
+          </DESC>
+        </REMOVE_ADDED_MODEL>
+        <REVERT_TO_SAVED>
+          <NAME>
+            &amp;Revert to Saved...
+          </NAME>
+          <DESC>
+            Revert the model to it's last saved state
+          </DESC>
+        </REVERT_TO_SAVED>
+        <SAVE>
+          <NAME>
+            &amp;Save
+          </NAME>
+          <DESC>
+            Save the current model
+          </DESC>
+        </SAVE>
+        <RELOAD_ALL_TEXTURES>
+          <NAME>
+            Reload All &amp;Textures
+          </NAME>
+          <DESC>
+            Reload all the textures in the model from disk
+          </DESC>
+        </RELOAD_ALL_TEXTURES>
+        <REGENERATE_VISIBILITY_BOX>
+          <NAME>
+            Regenerate Visibility &amp;Box
+          </NAME>
+          <DESC>
+            Regenerate the visibility box for the model using it's animations
+          </DESC>
+        </REGENERATE_VISIBILITY_BOX>
+        <RECENT_MODELS>
+          <NAME>
+            Recent &amp;Models
+          </NAME>
+        </RECENT_MODELS>
+        <RECENT_LIGHTS>
+          <NAME>
+            Recent &amp;Lights
+          </NAME>
+        </RECENT_LIGHTS>
+        <EXIT>
+          <NAME>
+            E&amp;xit
+          </NAME>
+          <DESC>
+            Exit ModelEditor
+          </DESC>
+        </EXIT>
+      </FILE>
+      <EDIT>
+        <NAME>
+          &amp;Edit
+        </NAME>
+        <DESC>
+          Edit Operations
+        </DESC>
+        <UNDO>
+          <NAME>
+            &amp;Undo
+          </NAME>
+          <DESC>
+            Undo the last change
+          </DESC>
+        </UNDO>
+        <REDO>
+          <NAME>
+            &amp;Redo
+          </NAME>
+          <DESC>
+            Redo the last undone change
+          </DESC>
+        </REDO>
+        <PREFERENCES>
+          <NAME>
+            &amp;Preferences...
+          </NAME>
+          <DESC>
+            Change the ModelEditor preferences
+          </DESC>
+        </PREFERENCES>
+      </EDIT>
+      <VIEW>
+        <NAME>
+          &amp;View
+        </NAME>
+        <DESC>
+          Display Settings
+        </DESC>
+        <TOOLBARS>
+          <NAME>
+            &amp;Toolbars
+          </NAME>
+        </TOOLBARS>
+        <ASSET_LOCATOR>
+          <NAME>
+            Show &amp;Asset Browser Panel
+          </NAME>
+          <DESC>
+            Show the Asset Browser Panel
+          </DESC>
+        </ASSET_LOCATOR>
+        <DISPLAY>
+          <NAME>
+            Show &amp;Display Panel
+          </NAME>
+        </DISPLAY>
+        <OBJECT>
+          <NAME>
+            Show &amp;Object Panel
+          </NAME>
+        </OBJECT>
+        <ANIMATIONS>
+          <NAME>
+            Show A&amp;nimations Panel
+          </NAME>
+        </ANIMATIONS>
+        <ACTIONS>
+          <NAME>
+            Show A&amp;ctions Panel
+          </NAME>
+        </ACTIONS>
+        <LOD>
+          <NAME>
+            Show &amp;LOD Panel
+          </NAME>
+        </LOD>
+        <LIGHTS>
+          <NAME>
+            Show &amp;Lights Panel
+          </NAME>
+        </LIGHTS>
+        <MATERIALS>
+          <NAME>
+            Show &amp;Materials Panel
+          </NAME>
+        </MATERIALS>
+        <MESSAGES>
+          <NAME>
+            Show &amp;Messages Panel
+          </NAME>
+        </MESSAGES>
+        <ALL_PANELS>
+          <NAME>
+            Show &amp;Panels
+          </NAME>
+          <DESC>
+            Show all hidden panels
+          </DESC>
+        </ALL_PANELS>
+        <DEFAULT_PANELS>
+          <NAME>
+            Load &amp;Default Panel Layout...
+          </NAME>
+        </DEFAULT_PANELS>
+        <LOAD_PANELS>
+          <NAME>
+            Load Most &amp;Recent Panel Layout...
+          </NAME>
+        </LOAD_PANELS>
+      </VIEW>
+      <LANGUAGES>
+        <NAME>
+          &amp;Languages
+        </NAME>
+        <DESC>
+          Select a language
+        </DESC>
+        <LANGUAGES>
+          &amp;Languages
+        </LANGUAGES>
+        <UPDATE_LANGUAGES>
+          updateLanguage
+        </UPDATE_LANGUAGES>
+      </LANGUAGES>
+      <HELP>
+        <NAME>
+          &amp;Help
+        </NAME>
+        <DESC>
+          Help Information
+        </DESC>
+        <ABOUT>
+          <NAME>
+            &amp;About ModelEditor...
+          </NAME>
+          <DESC>
+            Get Information about ModelEditor
+          </DESC>
+        </ABOUT>
+        <REF_GUIDE>
+          <NAME>
+            &amp;Tools Reference Guide...
+          </NAME>
+          <DESC>
+            Access the Tools Reference Guide
+          </DESC>
+        </REF_GUIDE>
+        <CONTENT_CREATION>
+          <NAME>
+            &amp;Content Creation...
+          </NAME>
+          <DESC>
+            Access the Content Creation Manual
+          </DESC>
+        </CONTENT_CREATION>
+        <SHORTCUTS>
+          <NAME>
+            &amp;Shortcuts...
+          </NAME>
+          <DESC>
+            Get Information on the Shortcuts Availible in ModelEditor
+          </DESC>
+        </SHORTCUTS>
+        <REQUEST_FEATURE>
+          <NAME>
+            &amp;Request Feature / Report Bug...
+          </NAME>
+          <DESC>
+            Request Feature or Report a Bug in ModelEditor
+          </DESC>
+        </REQUEST_FEATURE>
+      </HELP>
+    </MENU>
+    <MAIN_TOOLBAR>
+      <NAME>
+        Main Toolbar
+      </NAME>
+      <THUMBNAIL>
+        <NAME>
+          Take Thumbnail
+        </NAME>
+        <DESC>
+          Take a thumbnail of the model
+        </DESC>
+      </THUMBNAIL>
+      <ZOOM>
+        <NAME>
+          Zoom Extents
+        </NAME>
+        <DESC>
+          Zoom to the extents of the model's bounding box (middle mouse button)
+        </DESC>
+      </ZOOM>
+      <BOUNDING_BOX>
+        <NAME>
+          Grid
+        </NAME>
+        <DESC>
+          Show the model's bounding boxes
+        </DESC>
+      </BOUNDING_BOX>
+      <CAMERA_MODE>
+        <NAME>
+          Camera Mode
+        </NAME>
+        <FREE_CAMERA>
+          <NAME>
+            &amp;Free Camera
+          </NAME>
+          <DESC>
+            Change the camera mode to a free camera
+          </DESC>
+        </FREE_CAMERA>
+        <X_LOCKED_CAMERA>
+          <NAME>
+            &amp;X-Locked Camera
+          </NAME>
+          <DESC>
+            Change the camera mode to an x-locked camera
+          </DESC>
+        </X_LOCKED_CAMERA>
+        <Y_LOCKED_CAMERA>
+          <NAME>
+            &amp;Y-Locked Camera
+          </NAME>
+          <DESC>
+            Change the camera mode to an y-locked camera
+          </DESC>
+        </Y_LOCKED_CAMERA>
+        <Z_LOCKED_CAMERA>
+          <NAME>
+            &amp;Z-Locked Camera
+          </NAME>
+          <DESC>
+            Change the camera mode to an z-locked camera
+          </DESC>
+        </Z_LOCKED_CAMERA>
+        <ORBIT_CAMERA>
+          <NAME>
+            &amp;Orbit Camera
+          </NAME>
+          <DESC>
+            Change the camera mode to an orbit camera
+          </DESC>
+        </ORBIT_CAMERA>
+      </CAMERA_MODE>
+      <CAMERA_SPEED>
+        <NAME>
+          Camera Speed
+        </NAME>
+        <SLOW>
+          <NAME>
+            &amp;Slow Motion
+          </NAME>
+          <DESC>
+            Set the camera movement speed to slow
+          </DESC>
+        </SLOW>
+        <MEDIUM>
+          <NAME>
+            &amp;Medium Motion
+          </NAME>
+          <DESC>
+            Set the camera movement speed to medium
+          </DESC>
+        </MEDIUM>
+        <FAST>
+          <NAME>
+            &amp;Fast Motion
+          </NAME>
+          <DESC>
+            Set the camera movement speed to fast
+          </DESC>
+        </FAST>
+        <SUPER_FAST>
+          <NAME>
+            &amp;Super Fast
+          </NAME>
+          <DESC>
+            Set the camera movement speed to superfast
+          </DESC>
+        </SUPER_FAST>
+      </CAMERA_SPEED>
+    </MAIN_TOOLBAR>
+    <ANIM_TOOLBAR>
+      <ADD_ANIM>
+        <NAME>
+          Add Animation
+        </NAME>
+        <DESC>
+          Add a new animation to the selected model
+        </DESC>
+      </ADD_ANIM>
+      <PLAY_ANIM>
+        <NAME>
+          Play Animation
+        </NAME>
+        <DESC>
+          Play the selected animation
+        </DESC>
+      </PLAY_ANIM>
+      <PAUSE_ANIM>
+        <NAME>
+          Pause Animation
+        </NAME>
+        <DESC>
+          Pause the current animation
+        </DESC>
+      </PAUSE_ANIM>
+      <LOOP_ANIM>
+        <NAME>
+          Loop Animation
+        </NAME>
+        <DESC>
+          Loop the animation
+        </DESC>
+      </LOOP_ANIM>
+      <REMOVE_ANIM>
+        <NAME>
+          Remove Animation
+        </NAME>
+        <DESC>
+          Remove the selected animation from the model
+        </DESC>
+      </REMOVE_ANIM>
+    </ANIM_TOOLBAR>
+    <ANIM_COMP_TOOLBAR>
+      <SHOW_ORIGINAL>
+        <NAME>
+          Show Original
+        </NAME>
+        <DESC>
+          Show the Uncompressed animation
+        </DESC>
+      </SHOW_ORIGINAL>
+      <SAVE>
+        <NAME>
+          Save Animation
+        </NAME>
+        <DESC>
+          Save the current animation compression settings
+        </DESC>
+      </SAVE>
+    </ANIM_COMP_TOOLBAR>
+    <ACTION_TOOLBAR>
+      <NEW_ACTION>
+        <NAME>
+          New Action
+        </NAME>
+        <DESC>
+          Create a new action in the selected model below the selected action
+        </DESC>
+      </NEW_ACTION>
+      <PROMOTE_ACTION>
+        <NAME>
+          Promote action
+        </NAME>
+        <DESC>
+          Raise the priority of the selected action
+        </DESC>
+      </PROMOTE_ACTION>
+      <DEMOTE_ACTION>
+        <NAME>
+          Demote action
+        </NAME>
+        <DESC>
+          Lower the priority of the selected action
+        </DESC>
+      </DEMOTE_ACTION>
+      <REMOVE_ACTION>
+        <NAME>
+          Remove Action
+        </NAME>
+        <DESC>
+          Remove the selected action from the model
+        </DESC>
+      </REMOVE_ACTION>
+      <PLAY_ACTION>
+        <NAME>
+          Play Action
+        </NAME>
+        <DESC>
+          Play the selected action
+        </DESC>
+      </PLAY_ACTION>
+      <STOP_ACTION>
+        <NAME>
+          Stop Actions
+        </NAME>
+        <DESC>
+          Stop all actions currently playing
+        </DESC>
+      </STOP_ACTION>
+      <SHOW_ACTIONS>
+        <NAME>
+          Show Actions
+        </NAME>
+        <DESC>
+          Shows which actions are currently playing
+        </DESC>
+      </SHOW_ACTIONS>
+    </ACTION_TOOLBAR>
+    <LOD_TOOLBAR>
+      <NEW_LOD>
+        <NAME>
+          New LOD
+        </NAME>
+        <DESC>
+          Add a new LOD level model
+        </DESC>
+      </NEW_LOD>
+      <CHANGE_LOD>
+        <NAME>
+          Change LOD Trunk
+        </NAME>
+        <DESC>
+          Change the LOD trunk from the selected level downwards
+        </DESC>
+      </CHANGE_LOD>
+      <MOVE_LOD_UP>
+        <NAME>
+          Move LOD Up
+        </NAME>
+        <DESC>
+          Move the selected LOD up in the list
+        </DESC>
+      </MOVE_LOD_UP>
+      <MOVE_LOD_DOWN>
+        <NAME>
+          Move LOD Down
+        </NAME>
+        <DESC>
+          Move the selected LOD down in the list
+        </DESC>
+      </MOVE_LOD_DOWN>
+      <SET_LOD_DIST>
+        <NAME>
+          Set LOD Distance
+        </NAME>
+        <DESC>
+          Use the current camera distance as the LOD's
+        </DESC>
+      </SET_LOD_DIST>
+      <EXTEND_LOD>
+        <NAME>
+          Extend LOD
+        </NAME>
+        <DESC>
+          Extend the LOD's extent to infinity
+        </DESC>
+      </EXTEND_LOD>
+      <REMOVE_LOD>
+        <NAME>
+          Remove LOD
+        </NAME>
+        <DESC>
+          Remove the selected LOD
+        </DESC>
+      </REMOVE_LOD>
+    </LOD_TOOLBAR>
+    <LIGHTS_TOOLBAR>
+      <NEW_LIGHTS>
+        <NAME>
+          New Lighting Setup
+        </NAME>
+        <DESC>
+          Create a New Lighting Setup
+        </DESC>
+      </NEW_LIGHTS>
+      <OPEN_LIGHTS>
+        <NAME>
+          Open Lighting Setup
+        </NAME>
+        <DESC>
+          Open a Lighting Setup
+        </DESC>
+      </OPEN_LIGHTS>
+      <SAVE_LIGHTS>
+        <NAME>
+          Save Lighting Setup
+        </NAME>
+        <DESC>
+          Save the Current Lighting Setup
+        </DESC>
+      </SAVE_LIGHTS>
+    </LIGHTS_TOOLBAR>
+    <MATERIALS_TOOLBAR>
+      <NEW_TINT>
+        <NAME>
+          New Tint
+        </NAME>
+        <DESC>
+          Create a new tint for the current material
+        </DESC>
+      </NEW_TINT>
+      <LOAD_MFM>
+        <NAME>
+          Load FX/MFM
+        </NAME>
+        <DESC>
+          Load an FX or MFM into the current tint/material
+        </DESC>
+      </LOAD_MFM>
+      <SAVE_MFM>
+        <NAME>
+          Save MFM
+        </NAME>
+        <DESC>
+          Save the current material/tint as an MFM
+        </DESC>
+      </SAVE_MFM>
+      <REMOVE_TINT>
+        <NAME>
+          Remove Tint
+        </NAME>
+        <DESC>
+          Remove the current tint from the material
+        </DESC>
+      </REMOVE_TINT>
+    </MATERIALS_TOOLBAR>
+  </en>
+</root>

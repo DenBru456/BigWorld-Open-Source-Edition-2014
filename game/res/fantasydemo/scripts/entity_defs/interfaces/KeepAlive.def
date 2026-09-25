@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+		<lastKeepAlivePing>
+			<Type>			FLOAT		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	false		</Persistent>
+		</lastKeepAlivePing>
+
+		<keepAliveTimer>
+			<Type>			BASE_TIMER	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	false		</Persistent>
+		</keepAliveTimer>
+	</Properties>
+
+	<BaseMethods>
+		<webKeepAlivePing>
+			<!-- No arguments -->
+		</webKeepAlivePing>
+	</BaseMethods>
+</root>

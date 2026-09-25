@@ -1,0 +1,24 @@
+<fd_watch_tower.model>
+	<materialNames>
+		<material>
+			<original>	14 - Default_skinned	</original>
+			<display>	fd_watch_tower	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-2.575761 0.046132 -2.362754	</min>
+		<max>	2.433937 20.141361 3.224511	</max>
+	</visibilityBox>
+	<animation>
+		<name>	flagwave	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/temperate/props/animations/flagwave	</nodes>
+	</animation>
+	<extent>	600.000000	</extent>
+	<nodefullVisual>	sets/temperate/props/fd_watch_tower	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377548	</modified_on>
+	</metaData>
+</fd_watch_tower.model>

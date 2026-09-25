@@ -1,0 +1,142 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/t_intersection.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	13140	</size>
+		</staticLighting>
+	</shell>
+	<omniLight>
+		<colour>	255.000000 128.000000 0.000000	</colour>
+		<position>	-1.461994 3.190391 0.234295	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	3.571180	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<multiplier>	2.000000	</multiplier>
+	</omniLight>
+	<flare>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	-1.458542 3.087408 0.265545	</position>
+		<colour>	169.000000 100.000008 24.000002	</colour>
+	</flare>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.002055 0.705019 0.709182	</row0>
+			<row1>	0.999993 -0.000049 0.002946	</row1>
+			<row2>	0.002112 0.709184 -0.705015	</row2>
+			<row3>	-2.751225 0.247855 1.408600	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	13140	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+		<transform>
+			<row0>	-0.695503 0.005708 0.718497	</row0>
+			<row1>	-0.008595 0.999828 -0.016263	</row1>
+			<row2>	-0.718467 -0.017486 -0.695335	</row2>
+			<row3>	-2.302090 0.011450 0.591713	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	18656	</offset>
+			<size>	5516	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-0.000280 0.000000 -1.499370	</row0>
+			<row1>	1.499370 -0.000000 -0.000280	</row1>
+			<row2>	-0.000000 -1.499370 -0.000000	</row2>
+			<row3>	-2.849998 2.080000 0.029999	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	24172	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<particles>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	0.022831 0.000000 -0.999738	</row0>
+			<row1>	-0.000001 0.999999 0.000000	</row1>
+			<row2>	0.999738 0.000001 0.022831	</row2>
+			<row3>	-2.520000 2.640000 0.029999	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.000000 0.000000 0.412094	</row0>
+			<row1>	0.000000 0.412094 0.000000	</row1>
+			<row2>	-0.412094 0.000000 0.000000	</row2>
+			<row3>	-2.490002 2.610000 0.020000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData>	</metaData>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	28532	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<transform>
+		<row0>	0.000000 0.000000 -1.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	1.000000 0.000000 0.000000	</row2>
+		<row3>	61.009296 7.325303 49.151882	</row3>
+	</transform>
+	<boundingBox>
+		<min>	56.909294 6.967951 45.051876	</min>
+		<max>	65.109291 22.033047 53.251877	</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,32 @@
+<root>
+
+	<BaseMethods>
+
+		<xmppMsgFriend>
+			<Exposed/>
+			<Args>
+				<friendID> 		XMPP_FRIEND_ID	</friendID>
+				<transport> 	XMPP_TRANSPORT	</transport>
+				<message> 		XMPP_MESSAGE	</message>
+			</Args>
+		</xmppMsgFriend>
+
+		<xmppAddFriend>
+			<Exposed/>
+			<Args>
+				<friendID> 		XMPP_FRIEND_ID	</friendID>
+				<transport> 	XMPP_TRANSPORT	</transport>
+			</Args>
+		</xmppAddFriend>
+
+		<xmppDelFriend>
+			<Exposed/>
+			<Args>
+				<friendID> XMPP_FRIEND_ID	</friendID>
+				<transport> XMPP_TRANSPORT	</transport>
+			</Args>
+		</xmppDelFriend>
+
+	</BaseMethods>
+		
+</root>

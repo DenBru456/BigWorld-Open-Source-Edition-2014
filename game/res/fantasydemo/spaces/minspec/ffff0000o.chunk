@@ -1,0 +1,38 @@
+<ffff0000o.chunk>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	ffff0000o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1285228066	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1285228069	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/rock_large/models/rock_large.model	</resource>
+		<transform>
+			<row0>	-0.408046 0.128791 -2.042652	</row0>
+			<row1>	0.067944 2.082555 0.117735	</row1>
+			<row2>	2.045577 -0.043482 -0.411372	</row2>
+			<row3>	96.458382 98.632080 54.509144	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	ffff0000o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</ffff0000o.chunk>

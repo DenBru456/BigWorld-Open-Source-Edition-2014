@@ -1,0 +1,85 @@
+<tunnel_turn_stairs02.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	turn_stairs_tunnel_001	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_spec.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/temperate/shells/dungeon/maps/tunnel_001_norms1.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-10.513331 -3.450654 -5.662723	</min>
+		<max>	0.577519 5.658403 5.597106	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-3.150000	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 -0.000000	</normal>
+		<d>	-10.411836	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -1.000000 0.000000	</normal>
+		<d>	-5.300000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.224858 0.000000 0.974392	</normal>
+		<d>	-5.520358	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	-4.937277	</d>
+		<portal>
+			<uAxis>	0.000000 -1.000000 0.000000	</uAxis>
+			<point>	-2.000001 10.011834 0.000000	</point>
+			<point>	3.000000 10.011834 0.000000	</point>
+			<point>	2.999997 5.011836 0.000000	</point>
+			<point>	-2.000002 5.011836 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	0.011778	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	0.000000 5.062722 0.000000	</point>
+			<point>	4.999999 5.062722 0.000000	</point>
+			<point>	4.999999 0.062723 -0.000000	</point>
+			<point>	0.000000 0.062723 -0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.686881 -0.000000 -0.726770	</normal>
+		<d>	-0.145729	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</tunnel_turn_stairs02.visual>

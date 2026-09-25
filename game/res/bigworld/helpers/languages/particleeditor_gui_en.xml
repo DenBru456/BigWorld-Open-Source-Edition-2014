@@ -1,0 +1,216 @@
+<root>
+  <en>
+    <MENU>
+      <FILE>
+        &amp;File
+        <DESC>File Operations</DESC>
+        <OPENDIR>
+          &amp;Open Particle Directory...
+          <DESC>Open a particle directory</DESC>
+        </OPENDIR>
+        <SAVEPS>
+          &amp;Save Particle System
+          <DESC>Save the selected particle system</DESC>
+        </SAVEPS>
+        <RELOADTEX>
+          &amp;Reload All Textures
+          <DESC>Reload all of the textures in the particle system</DESC>
+        </RELOADTEX>
+        <EXIT>
+          E&amp;xit
+          <DESC>Exit Particle Editor</DESC>
+        </EXIT>
+      </FILE>
+      <EDIT>
+        &amp;Edit
+        <UNDO>
+          Undo
+          <DESC>Undo the last change</DESC>
+        </UNDO>
+        <REDO>
+          Redo
+          <DESC>Redo the undone change</DESC>
+        </REDO>
+      </EDIT>
+      <VIEW>
+        &amp;View
+        <DESC>Display Settings</DESC>
+        <TOOLBARS>
+          &amp;Toolbars
+        </TOOLBARS>
+        <STATUSBAR>
+          Status Bar
+          <DESC>Show/hide the status bar</DESC>
+        </STATUSBAR>
+        <SHOWPANEL>
+          Show &amp;Action Selection   
+          <DESC>Show/hide Side Panel</DESC>
+        </SHOWPANEL>
+        <SHOW_PANEL_UAL>
+          Show Asset &amp;Browser
+        </SHOW_PANEL_UAL>
+        <SHOW_PANEL_MSGS>
+          Show &amp;Messages
+        </SHOW_PANEL_MSGS>
+        <DEFAULTPANELS>
+          Load Default Panel Layout...
+          <DESC>Load Default Panel Layout</DESC>
+        </DEFAULTPANELS>
+        <RECENTPANELS>
+          Load Most Recent Panel Layout...
+          <DESC>Load Most Recent Panel Layout</DESC>
+        </RECENTPANELS>
+      </VIEW>
+      <LANGUAGES>
+        <NAME>
+          &amp;Languages
+        </NAME>
+        <DESC>
+          Select a language
+        </DESC>
+        <LANGUAGES>
+          &amp;Languages
+        </LANGUAGES>
+        <UPDATE_LANGUAGES>
+          updateLanguage
+        </UPDATE_LANGUAGES>
+      </LANGUAGES>
+      <HELP>
+        &amp;Help
+        <DESC>Help Information</DESC>
+        <ABOUT>
+          &amp;About Particle Editor...
+          <DESC>Get Information about Particle Editor</DESC>
+        </ABOUT>
+        <TOOLSREFGUIDE>
+          Tools &amp;Reference Guide...
+          <DESC>Access the Tools Reference Guide</DESC>
+        </TOOLSREFGUIDE>
+        <CONTENTCREATION>
+          &amp;Content Creation...
+          <DESC>Access the Content Creation Manual</DESC>
+        </CONTENTCREATION>
+        <SHORTCUTS>
+          Shortcuts...
+          <DESC>Get Information on the Keyboard Shortcuts Availible</DESC>
+        </SHORTCUTS>
+        <REQUEST_FEATURE>
+          &amp;Request Feature / Report Bug...
+          <DESC>Request a Feature or Report a Bug in ParticleEditor</DESC>
+        </REQUEST_FEATURE>
+      </HELP>
+    </MENU>
+
+    <MAINTOOLBAR>
+      Main Toolbar
+      <SAVEPS>
+        &amp;Save Particle System
+        <DESC>Save the selected particle system</DESC>
+      </SAVEPS>
+      <UNDO>
+        Undo
+        <DESC>Undo the last change</DESC>
+      </UNDO>
+      <REDO>
+        Redo
+        <DESC>Redo the undone change</DESC>
+      </REDO>
+      <ZOOM>
+        Zoom Extents
+        <DESC>Zoom to the extents of the particle systems's bounds (middle mouse button)</DESC>
+      </ZOOM>
+      <CAMERAMODE>
+        Camera Mode
+        <FREE>
+          &amp;Free Camera
+          <DESC>Change the camera mode to a free camera</DESC>
+        </FREE>
+        <VIEWX>
+          X-locked camera
+          <DESC>Change the camera mode to an x-locked camera</DESC>
+        </VIEWX>
+        <VIEWY>
+          Y-locked camera
+          <DESC>Change the camera mode to an y-locked camera</DESC>
+        </VIEWY>
+        <VIEWZ>
+          Z-locked camera
+          <DESC>Change the camera mode to an z-locked camera</DESC>
+        </VIEWZ>
+        <ORBIT>
+          &amp;Orbit Camera
+          <DESC>Change the camera mode to an orbit camera</DESC>
+        </ORBIT>
+      </CAMERAMODE>
+      <CAMERASPEED>
+        Camera Speed
+        <SLOW>
+          &amp;Slow Motion
+          <DESC>Set the camera movement speed to slow</DESC>
+        </SLOW>
+        <MEDIUM>
+          &amp;Medium Motion 
+          <DESC>Set the camera movement speed to medium</DESC>
+        </MEDIUM>
+        <FAST>
+          &amp;Fast Motion
+          <DESC>Set the camera movement speed to fast</DESC>
+        </FAST>
+        <SUPERFAST>
+          &amp;Super Fast
+          <DESC>Set the camera movement speed to super fast</DESC>
+        </SUPERFAST>
+      </CAMERASPEED>
+      <BACKGROUND>
+        Background
+        <DESC>Set the background colour</DESC>
+      </BACKGROUND>
+      <BACKMODE>
+        Background Display
+        <TERRAIN>
+          Terrain
+          <DESC>Use terrain as the background</DESC>
+        </TERRAIN>
+        <FLOOR>
+          Floor
+          <DESC>Use floor as the background</DESC>
+        </FLOOR>
+        <NONE>
+          None
+          <DESC>Use no background </DESC>
+        </NONE>
+      </BACKMODE>
+      <GRID>
+        Grid
+        <DESC>Toggle the 1x1m measurement grid</DESC>
+      </GRID>
+      <BOUNDINGBOX>
+        Bounding Box
+        <DESC>Show the particle system bounding box</DESC>
+      </BOUNDINGBOX>
+      <PLAYBACK>
+        Play/Stop
+        <SPAWN>
+          Spawn
+          <DESC>Spawn the current particle system</DESC>
+        </SPAWN>
+        <RESTART>
+          Restart
+          <DESC>Restart the current particle system</DESC>
+        </RESTART>
+        <PLAY>
+          Play
+          <DESC>Play/Resume the current particle system</DESC>
+        </PLAY>
+        <STOP>
+          Stop
+          <DESC>Stop the current particle system</DESC>
+        </STOP>
+        <PAUSE>
+          Pause
+          <DESC>Pause/Resume the current particle system</DESC>
+        </PAUSE>
+      </PLAYBACK>
+    </MAINTOOLBAR>
+  </en>
+</root>

@@ -1,0 +1,258 @@
+<flora_setting_page.xml>
+<!-- Embedded Toolbar Section:
+Contains the toolbar buttons description, according to the GUI Manager
+toolbar XML specification, which is also used in the tools menus and
+toolbars. -->
+<Toolbar>
+	<item>
+		<name>	FloraSettingToolbar	</name>
+		<type>	GROUP	</type>
+		<item>
+			<type>	ACTION	</type>
+			<description>	WORLDEDITOR/GUI/PAGE_FLORA_SETTING/REFRESH_ICON	</description>
+			<action>	ActionRefresh	</action>
+			<imageNormal>	resources/data/flora_setting_toolbar.bmp:0,0,16,16	</imageNormal>
+		</item>
+		<item>
+			<type>	ACTION	</type>
+			<description>	WORLDEDITOR/GUI/PAGE_FLORA_SETTING/NEW_ECOTYPE_ICON	</description>
+			<action>	ActionNewEcotypy	</action>
+			<imageNormal>	resources/data/flora_setting_toolbar.bmp:32,0,48,16	</imageNormal>
+		</item>
+		<item>
+			<type>	ACTION	</type>
+			<description>	WORLDEDITOR/GUI/PAGE_FLORA_SETTING/DELETE_ITEM_ICON	</description>
+			<action>	ActionDeleteItem	</action>
+			<imageNormal>	resources/data/flora_setting_toolbar.bmp:64,0,80,16	</imageNormal>
+		</item>
+		<item>
+			<type>	ACTION	</type>
+			<description>	WORLDEDITOR/GUI/PAGE_FLORA_SETTING/MOVE_UP_ICON	</description>
+			<action>	ActionMoveUpItem	</action>
+			<imageNormal>	resources/data/flora_setting_toolbar.bmp:80,0,96,16	</imageNormal>
+		</item>
+		<item>
+			<type>	ACTION	</type>
+			<description>	WORLDEDITOR/GUI/PAGE_FLORA_SETTING/MOVE_DOWN_ICON	</description>
+			<action>	ActionMoveDownItem	</action>
+			<imageNormal>	resources/data/flora_setting_toolbar.bmp:96,0,112,16	</imageNormal>
+		</item>
+		<item>
+			<type>	CHOICE	</type>
+			<item>
+				<type>	CHILD	</type>
+				<description>	WORLDEDITOR/GUI/PAGE_FLORA_SETTING/TURN_ON_3D_VIEW	</description>
+				<highLightFloraIn3DView>	On	</highLightFloraIn3DView>
+				<action>	ActionTurnOn3DView	</action>
+				<updater> Toggle3DView </updater>
+				<imageNormal>	resources/data/flora_setting_toolbar.bmp:112,0,128,16	</imageNormal>
+			</item>
+			<item>
+				<type>	CHILD	</type>
+				<description>	WORLDEDITOR/GUI/PAGE_FLORA_SETTING/TURN_OFF_3D_VIEW	</description>
+				<highLightFloraIn3DView>	Off	</highLightFloraIn3DView>
+				<action>	ActionTurnOff3DView	</action>
+				<updater> Toggle3DView </updater>
+				<imageNormal>	resources/data/flora_setting_toolbar.bmp:128,0,144,16	</imageNormal>
+			</item>
+		</item>
+	</item>
+</Toolbar>
+
+<tree_view_items>
+	<ecotypes>
+		<by_section_name>	true	</by_section_name>
+		<provider>	addNewSection	
+			<childSection>	ecotype	
+				<by_section_name>	false	</by_section_name>
+			</childSection>
+		</provider>
+	</ecotypes>
+	
+	<ecotype>
+		<by_section_name>	false	</by_section_name>
+		<provider>	ecotypeSection
+			<mouse_drag_action>	addToChildrenNoRepeat	</mouse_drag_action>
+			<path>	maps/landscape;maps/terrain;sets/t_ice/maps/terrain	</path>
+			<folderExclude>	*/wales/res/maps/landscape;*.svn;*CVS;*/spaces;*/.bwthumbs;*thumbnail.bmp	</folderExclude>
+			<extension>	dds;bmp;tga;png;jpg	</extension>
+			<childSection>	texture	
+				<display_in_property_window>	true	</display_in_property_window>
+			</childSection>
+			<childSection>	generator	
+				<required>	true	</required>
+			</childSection>
+		</provider>
+	</ecotype>
+
+	
+	<texture>	
+		<by_section_name>	true	</by_section_name>
+		<provider>	textureSection	</provider>
+	</texture>	
+	
+	<visual>	
+		<by_section_name>	false	</by_section_name>
+		<provider>	visualGeneratorSection
+			<mouse_drag_action>	addToChildrenNoRepeat	</mouse_drag_action>
+			<path>	flora;sets/temperate/flora	</path>
+			<folderExclude>	*/.bwthumbs	</folderExclude>
+			<extension>	visual	</extension>
+
+			<childSection>	visual	
+				<display_in_property_window>	true	</display_in_property_window>
+			</childSection>
+			<childSection>	density
+				<required>	true	</required>
+			</childSection>
+			
+			
+		</provider>
+	</visual>	
+
+	<visual>	
+		<by_section_name>	true	</by_section_name>
+		<provider>	visualSection
+			<childSection>	scaleVariation	
+				<required>	true	</required>
+			</childSection>
+			<childSection>	flex	
+				<required>	true	</required>
+			</childSection>
+		</provider>
+	</visual>	
+	
+	<generator>
+		<by_section_name>	true	</by_section_name>
+		<provider>	listXmlProviderSection
+			<mouse_drag_action>	replaceChild	</mouse_drag_action>
+			<item>	chooseMax
+				<by_section_name>	false	</by_section_name>
+				<type>	generator	</type>
+				<longText>	chooseMax generator </longText>
+				<thumbnail>	C:\mf_trunk_2\fantasydemo\res\prefabs\trees_demo.prefab	</thumbnail>
+			</item>		
+			<item>	visual
+				<by_section_name>	false	</by_section_name>
+				<type>	generator	</type>
+				<longText>	visual generator	</longText>
+				<thumbnail>	C:\mf_trunk_2\fantasydemo\res\prefabs\trees_demo.prefab	</thumbnail>
+			</item>		
+			<item>	empty
+				<by_section_name>	false	</by_section_name>
+				<type>	generator	</type>
+				<longText>	empty generator	</longText>
+				<thumbnail>	C:\mf_trunk_2\fantasydemo\res\prefabs\trees_demo.prefab	</thumbnail>
+			</item>	
+		</provider>
+	</generator>
+	
+	<chooseMax>
+		<by_section_name>	false	</by_section_name>
+		<provider>	listXmlProviderSection
+			<mouse_drag_action>	addToChildrenRepeat	</mouse_drag_action>
+			<item>	noise
+				<type>	chooseMaxFunction	</type>
+				<longText>	noise funciton </longText>
+				<thumbnail>	C:\mf_trunk_2\fantasydemo\res\prefabs\trees_demo.prefab	</thumbnail>
+			</item>		
+			<item>	random
+				<type>	chooseMaxFunction	</type>
+				<longText>	random funciton	</longText>
+				<thumbnail>	C:\mf_trunk_2\fantasydemo\res\prefabs\trees_demo.prefab	</thumbnail>
+			</item>		
+			<item>	fixed
+				<type>	chooseMaxFunction	</type>
+				<longText>	fixed function	</longText>
+				<thumbnail>	C:\mf_trunk_2\fantasydemo\res\prefabs\trees_demo.prefab	</thumbnail>
+			</item>	
+		</provider>
+	</chooseMax>
+	
+	<noise>
+		<by_section_name>	true	</by_section_name>
+		<provider>	default
+			<childSection>	frequency	
+				<required>	true	</required>
+			</childSection>
+			<childSection>	generator	
+				<required>	true	</required>
+			</childSection>
+		</provider>
+	</noise>
+		
+	<random>
+		<by_section_name>	true	</by_section_name>
+		<provider>	default
+			<childSection>	generator	
+				<required>	true	</required>
+			</childSection>
+		</provider>
+	</random>	
+	
+	<fixed>
+		<by_section_name>	true	</by_section_name>
+		<provider>	default
+			<childSection>	value	
+				<required>	true	</required>
+			</childSection>
+			<childSection>	generator	
+				<required>	true	</required>
+			</childSection>
+		</provider>
+	</fixed>
+	
+	
+	<frequency>
+		<by_section_name>	true	</by_section_name>
+		<provider>	floatSection	
+			<min>	0.0	</min>
+			<max>	3.0	</max>
+			<default>	0.5	</default>
+		</provider>
+	</frequency>
+	<value>
+		<by_section_name>	true	</by_section_name>
+		<provider>	floatSection	
+			<min>	0.0	</min>
+			<max>	1.0	</max>
+			<default>	0.5	</default>
+		</provider>
+	</value>
+	<density>
+		<by_section_name>	true	</by_section_name>
+		<provider>	floatSection	
+			<min>	0.0	</min>
+			<max>	1.0	</max>
+			<default>	1.0	</default>
+		</provider>
+	</density>
+	<scaleVariation>
+		<by_section_name>	true	</by_section_name>
+		<provider>	floatSection	
+			<min>	0.0	</min>
+			<max>	1.0	</max>
+			<default>	0.0	</default>
+		</provider>
+	</scaleVariation>
+	<flex>
+		<by_section_name>	true	</by_section_name>
+		<provider>	floatSection	
+			<min>	0.0	</min>
+			<max>	1.0	</max>
+			<default>	1.0	</default>
+		</provider>
+	</flex>
+
+	<empty>
+		<by_section_name>	false	</by_section_name>
+		<provider>	default	</provider>
+	</empty>
+	
+	<uneditable_section>
+		<by_section_name>	false	</by_section_name>
+		<provider>	uneditableSection	</provider>
+	</uneditable_section>
+</tree_view_items>	
+	
+</flora_setting_page.xml>

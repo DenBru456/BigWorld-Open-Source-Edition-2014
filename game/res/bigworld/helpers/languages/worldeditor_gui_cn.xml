@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <zh_cn>
+    <MENU>
+      <FILE>
+        文件(&amp;F)
+        <DESC>文件操作</DESC>
+        <CREATE_NEW_SPACE>
+          新建空间...
+          <DESC>新建一个空间</DESC>
+        </CREATE_NEW_SPACE>
+        <CHANGE_SPACE>
+          打开空间...
+          <DESC>打开一个空间</DESC>
+        </CHANGE_SPACE>
+        <EDIT_SPACE>
+          编辑空间..
+          <DESC>编辑空间</DESC>
+        </EDIT_SPACE>
+        <RECREATE_SPACE>
+          另存空间为...
+          <DESC>存储该空间的一个新的副本</DESC>
+        </RECREATE_SPACE>
+        <RELOAD_ALL_CHUNKS>
+           重新载入所有分块
+          <DESC>重新载入当前空间的所有分块</DESC>
+        </RELOAD_ALL_CHUNKS>
+        <RELOAD_ALL_TEXTURES>
+          重新载入所有贴图(&amp;R)
+          <DESC>重新载入所有贴图</DESC>
+        </RELOAD_ALL_TEXTURES>
+        <REGEN_TERRAIN_LODS>
+          重新生成地形LOD
+          <DESC>重新生成地形LOD</DESC>
+	    </REGEN_TERRAIN_LODS>
+		<REGEN_THUMBNAILS>
+		  重新生成缩略图
+          <DESC>重新生成空间中的所有分块的缩略图</DESC>
+	    </REGEN_THUMBNAILS>
+		<TOUCH_ALL_CHUNKS>
+          重新计算所有分块
+          <DESC>重新计算空间中的所有分块</DESC>
+	    </TOUCH_ALL_CHUNKS>
+    <CREATE_SPACE_IMAGE>
+          创建空间地图...
+          <DESC>创建当前空间的地图</DESC>
+      </CREATE_SPACE_IMAGE>
+	  <EXPAND_SPACE>
+        扩展空间...
+        <DESC>扩展当前空间的分块数</DESC>
+      </EXPAND_SPACE>
+        <QUICK_SAVE>
+          保存(&amp;S)
+          <DESC>保存所有已修改的数据</DESC>
+        </QUICK_SAVE>
+        <FULL_SAVE>
+          处理数据(&amp;P)
+          <DESC>对所有数据进行处理</DESC>
+        </FULL_SAVE>
+        <SAVE_CURRENT_CHUNK>
+          重新计算当前分块
+          <DESC>重新计算当前分块的所有衍生数据</DESC>
+        </SAVE_CURRENT_CHUNK>
+        <RECENT_FILES>
+          最近打开过的空间(&amp;R)
+        </RECENT_FILES>
+        <EXIT>
+          退出(&amp;E)
+        </EXIT>
+      </FILE>
+
+      <EDIT>
+        编辑(&amp;E)
+        <DESC>编辑操作</DESC>
+        <UNDO>
+          撤销(&amp;U)
+          <DESC>撤销最近一次操作</DESC>
+        </UNDO>
+        <REDO>
+          恢复(&amp;R)
+          <DESC>恢复最近一次被撤销的操作</DESC>
+        </REDO>
+        <CLEAR_UNDO_REDO_HISTORY>
+          清除撤销/恢复的历史记录(&amp;C)
+          <DESC>清除撤销/恢复的历史记录</DESC>
+        </CLEAR_UNDO_REDO_HISTORY>
+        <SELECT_ALL>
+          全选(&amp;S)
+          <DESC>选择所有物体</DESC>
+        </SELECT_ALL>
+        <DESELECT_ALL>
+          取消选择(&amp;D)
+          <DESC>取消所有选择</DESC>
+        </DESELECT_ALL>
+        <SAVE_SHELL_AS_TEMPLATE>
+          将壳体保存为壳体模版(&amp;T)
+        </SAVE_SHELL_AS_TEMPLATE>
+        <SAVE_SELECTION_AS_PREFAB>
+          将选定的物体保存为预制模型(&amp;B)...
+        </SAVE_SELECTION_AS_PREFAB>
+        <HIDE_SELECTION>
+          隐藏选中的物件(&amp;H)
+        </HIDE_SELECTION>
+        <UNHIDE_SELECTION>
+          显示选中的物件(&amp;I)
+        </UNHIDE_SELECTION>
+        <UNHIDE_ALL_FILTER>
+          显示所有可选中的物件
+        </UNHIDE_ALL_FILTER>
+        <UNHIDE_ALL>
+          显示所有物件(&amp;N)
+        </UNHIDE_ALL>                
+        <FREEZE_SELECTION>
+          冻结选中的物件(&amp;F)
+        </FREEZE_SELECTION>
+        <UNFREEZE_SELECTION>
+          解冻选中的物件(&amp;E)
+        </UNFREEZE_SELECTION>
+        <UNFREEZE_ALL_FILTER>
+          解冻所有可选中的物件
+        </UNFREEZE_ALL_FILTER>
+        <UNFREEZE_ALL>
+          解冻所有的物件(&amp;Z)
+        </UNFREEZE_ALL>
+      </EDIT>
+
+      <VIEW>
+        视图(&amp;V)
+        <DESC>显示设置</DESC>
+        <LANGUAGES>
+          语言(&amp;L)
+        </LANGUAGES>
+        <UPDATE_LANGUAGES>
+          选择语言
+        </UPDATE_LANGUAGES>
+        <TOOLBARS>
+          工具栏(&amp;T)
+        </TOOLBARS>
+        <SHOW_STATUS_BAR>
+          状态栏(&amp;S)
+        </SHOW_STATUS_BAR>
+        <SHOW_PANEL_TOOLS>
+          显示工具选项面板(&amp;O)
+        </SHOW_PANEL_TOOLS>
+        <SHOW_PANEL_UAL>
+          显示资源浏览器(&amp;A)
+        </SHOW_PANEL_UAL>
+        <SHOW_PANEL_SCENEBROWSER>
+          显示场景浏览器(&amp;S)
+        </SHOW_PANEL_SCENEBROWSER>
+         <SHOW_PANEL_POSTPROCESSING>
+          显示后处理面板(&amp;C)
+        </SHOW_PANEL_POSTPROCESSING>
+        <SHOW_PANEL_PROPERTIES>
+          显示属性面板(&amp;P)
+        </SHOW_PANEL_PROPERTIES>
+        <SHOW_PANEL_GENERAL>
+          显示普通选项面板(&amp;G)
+        </SHOW_PANEL_GENERAL>
+        <SHOW_PANEL_NAVIGATION>
+          显示导航面板(&amp;N)
+        </SHOW_PANEL_NAVIGATION>
+        <SHOW_PANEL_WEATHER>
+          显示天气设置面板(&amp;W)
+        </SHOW_PANEL_WEATHER>
+        <SHOW_PANEL_ENVIRONMENT>
+          显示环境选项面板(&amp;E)
+        </SHOW_PANEL_ENVIRONMENT>
+        <SHOW_PANEL_HISTOGRAM>
+          显示柱状图面板(&amp;H)
+        </SHOW_PANEL_HISTOGRAM>
+        <SHOW_PANEL_MESSAGES>
+          显示消息面板(&amp;M)
+        </SHOW_PANEL_MESSAGES>
+         <SHOW_PANEL_TEXTURES>
+          显示贴图面板(&amp;U)
+        </SHOW_PANEL_TEXTURES>
+	<SHOW_PANEL_FLORA_SETTING>
+          显示花草设置面板(&amp;F)
+        </SHOW_PANEL_FLORA_SETTING>
+        <SHOW_SIDE_PANEL>
+          显示面板(&amp;P)
+        </SHOW_SIDE_PANEL>
+        <DEFAULT_PANELS>
+          加载默认面板布局(&amp;D)...
+        </DEFAULT_PANELS>
+        <LOAD_PANELS>
+          加载最近使用的面板布局(&amp;R)...
+        </LOAD_PANELS>
+      </VIEW>
+
+      <OPTIONS>
+        选项(&amp;O)
+        <SAVE_CAMERA>
+          保存相机位置(&amp;C)
+        </SAVE_CAMERA>
+        <START_CAMERA>
+          保存起始位置(&amp;S)
+        </START_CAMERA>
+		<ENABLE_UMBRA>
+		  使用Umbra(&amp;U)
+		</ENABLE_UMBRA>
+		<ENABLE_DEFAULT_WEATHER>
+			在打开空间时预览缺省天气系统(&amp;W)
+		</ENABLE_DEFAULT_WEATHER>
+      </OPTIONS>
+	  
+      <LANGUAGES>
+        <NAME>
+          &amp;语言
+        </NAME>
+        <DESC>
+          选择语言
+        </DESC>
+        <LANGUAGES>
+          &amp;语言
+        </LANGUAGES>
+        <UPDATE_LANGUAGES>
+          更新语言
+        </UPDATE_LANGUAGES>
+      </LANGUAGES>
+
+      <HELP>
+        帮助(&amp;H)
+        <ABOUT>
+         关于世界编辑器(&amp;A)...
+          <DESC>获得和世界编辑器相关的信息</DESC>
+        </ABOUT>
+        <TOOLSREF_GUIDE>
+          工具参考文档(&amp;R)...
+          <DESC>打开工具参考文档</DESC>
+        </TOOLSREF_GUIDE>
+        <CONTENTCREATION_GUIDE>
+          内容创建手册(&amp;C)...
+          <DESC>打开内容创建手册</DESC>
+        </CONTENTCREATION_GUIDE>
+        <SHORTCUTS>
+          快捷键(&amp;S)...
+          <DESC>了解WorldEditor中使用的快捷键</DESC>
+        </SHORTCUTS>
+        <REQUEST_FEATURE>
+          功能请求/错误报告(&amp;R)...
+          <DESC>请求一个功能或是报告一个错误</DESC>
+        </REQUEST_FEATURE>
+      </HELP>
+    </MENU>
+
+    <TOOLMODETOOLBAR>
+      <NAME>工具</NAME>
+      <TOOLMODE>
+        <NAME>工具模式</NAME>
+        <OBJECT>放置和操作物体(1) </OBJECT>
+        <TEXTURE> 绘制地形贴图(2) </TEXTURE>
+        <HEIGHT> 改变地形高度(3) </HEIGHT>
+        <FILTER> 对地形进行过滤(4) </FILTER>
+        <MESH> 修剪/修复地形网格(5) </MESH>
+        <IMPORT> 导入/导出地形高度地图(6) </IMPORT>
+         <PROJECT> 空间投影视角(7)</PROJECT>
+		 <RULER>尺子工具</RULER>
+		 <FENCES>栅栏工具</FENCES>
+      </TOOLMODE>
+    </TOOLMODETOOLBAR>
+
+    <MAINTOOLBAR>
+      <NAME> 主工具栏 </NAME>
+      <VIEWORTHO> 俯视视角(&amp;V) </VIEWORTHO>
+      <VIEWORTHO_DESC> 打开俯视视角 </VIEWORTHO_DESC>
+      <PLAYER_PREVIEW> 玩家预览视角(&amp;P) </PLAYER_PREVIEW>
+      <PLAYER_PREVIEW_DESC>  玩家预览视角</PLAYER_PREVIEW_DESC>
+      <CAMERA_SPEED>
+        <NAME> 相机速度 </NAME>
+        <SLOW> 慢速(&amp;S)</SLOW>
+        <MEDIUM> 中速(&amp;M)</MEDIUM>
+        <FAST> 快速(&amp;F)</FAST>
+        <SUPER_FAST> 极快(&amp;S)</SUPER_FAST>
+      </CAMERA_SPEED>
+      <CHUNK_VIZ>
+        <NAME>分块Vizualization模式</NAME>
+        <NORMAL> 普通模式 </NORMAL>
+        <BOUNDARY>分块边缘模式</BOUNDARY>
+        <HEIGHT>顶点模式</HEIGHT>
+        <MESH>线框模式</MESH>
+      </CHUNK_VIZ>
+      <EXTERNAL_EDITOR>在相应编辑器中修改(&amp;E)</EXTERNAL_EDITOR>
+      <EXTERNAL_EDITOR_DESC>在相应编辑器中修改文件</EXTERNAL_EDITOR_DESC>
+      <TERRAIN_WIREFRAME>把地形渲染切换为线框模式(&amp;D)</TERRAIN_WIREFRAME>
+      <TERRAIN_WIREFRAME_DESC>把地形渲染切换为线框模式</TERRAIN_WIREFRAME_DESC>
+      <HIDE_OUTSIDE>隐藏所有室外对象(&amp;H)</HIDE_OUTSIDE>
+      <HIDE_OUTSIDE_DESC>隐藏所有室外对象</HIDE_OUTSIDE_DESC>
+      <SHOW_NAVMESH>显示 Navigation 寻路网格(&amp;H)</SHOW_NAVMESH>
+      <SHOW_NAVMESH_DESC>显示 Navigation 寻路网格</SHOW_NAVMESH_DESC>
+    </MAINTOOLBAR>
+
+    <SNAPMODETOOLBAR>
+      <NAME>对象捕捉模式</NAME>
+      <SNAP_MODE>
+        <NAME>对象捕捉模式</NAME>
+        <FREEPOS>自由布置</FREEPOS>
+        <TERRAINLOCK>地形锁定</TERRAINLOCK>
+        <OBSTACKLOCK>障碍物锁定 </OBSTACKLOCK>
+      </SNAP_MODE>
+    </SNAPMODETOOLBAR>
+
+    <FILTERSTOOLBAR>
+      <NAME>Coord Filters</NAME>
+      <COORDINTATE>
+        <NAME>Reference Coordinate System</NAME>
+        <WORLD>游戏世界</WORLD>
+        <LOCAL>对象</LOCAL>
+        <VIEW>相机</VIEW>
+      </COORDINTATE>
+    </FILTERSTOOLBAR>
+
+    <SCENEBROWSERTOOLBAR>
+      <HIDE_SELECTED>隐藏选中的物件</HIDE_SELECTED>
+      <UNHIDE_SELECTED>显示选中的物件</UNHIDE_SELECTED>
+	  <FREEZE_SELECTED>固定选中的物件</FREEZE_SELECTED>
+	  <UNFREEZE_SELECTED>不固定选中的物件</UNFREEZE_SELECTED>
+	  <AUTOZOOM>当物件被选中时，自动的把镜头推向选中的物件</AUTOZOOM>
+    </SCENEBROWSERTOOLBAR>
+  </zh_cn>
+</root>

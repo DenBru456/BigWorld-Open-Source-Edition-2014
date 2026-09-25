@@ -1,0 +1,75 @@
+<outside_prop.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Of_Desk	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Desk_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Desk_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Desk_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	Of_Prop	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Prop_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Prop_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Prop_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	Of_Chair	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Chair_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Chair_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Chair_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-6.322356 -0.023552 -21.399780	</min>
+		<max>	6.497342 1.476074 2.474237	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</outside_prop.visual>

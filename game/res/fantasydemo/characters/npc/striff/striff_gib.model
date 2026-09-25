@@ -1,0 +1,41 @@
+<striff_gib.model>
+	<animation>
+		<name>	anim:gibbing	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/striff/animations/striff_gib_anim	</nodes>
+	</animation>
+	<animation>
+		<name>	anim:lastframe	</name>
+		<frameRate>	30.000000	</frameRate>
+		<firstFrame>	-1	</firstFrame>
+		<lastFrame>	-1	</lastFrame>
+		<nodes>	characters/npc/striff/animations/striff_gib_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Idle	</name>
+		<animation>	anim:lastframe	</animation>
+		<filler>	true	</filler>
+		<blendOutTime>	0.1	</blendOutTime>
+	</action>
+	<action>
+		<name>	Gib	</name>
+		<animation>	anim:gibbing	</animation>
+		<blendInTime>	0.1	</blendInTime>
+	</action>
+	<action>
+		<name>	Gibbed	</name>
+		<animation>	anim:lastframe	</animation>
+		<filler>	true	</filler>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.306452 0.066843 -0.242597	</min>
+		<max>	0.291608 1.431433 0.728669	</max>
+	</visibilityBox>
+	<nodefullVisual>	characters/npc/striff/striff_gib	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380490	</modified_on>
+	</metaData>
+</striff_gib.model>

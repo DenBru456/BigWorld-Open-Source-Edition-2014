@@ -1,0 +1,27 @@
+<root>
+	<Domain>	CELL	</Domain>
+	<Properties>
+		<links>
+			<Type>	ARRAY <of> UDO_REF </of> </Type>
+			<Editable>	True	</Editable>
+		</links>
+
+		<approachSpeed>
+			<Type>			FLOAT		</Type>
+			<Editable>		True		</Editable>
+			<Default>		10.0		</Default>
+		</approachSpeed>
+
+		<approachAcceleration>
+			<Type>			FLOAT		</Type>
+			<Editable>		True		</Editable>
+			<Default>		20.0		</Default>
+		</approachAcceleration>
+
+		<waitTime>
+			<Type>			FLOAT		</Type>
+			<Editable>		True		</Editable>
+			<Default>		0.0		</Default>
+		</waitTime>
+	</Properties>
+</root>

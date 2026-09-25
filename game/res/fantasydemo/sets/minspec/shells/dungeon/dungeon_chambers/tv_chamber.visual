@@ -1,0 +1,178 @@
+<tv_chamber.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	columns_bigbrick	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	chamber_floor_round	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tv_chamber_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	tunnel_smallbrick	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	shader_room	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/shader_room_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	4
+				<material>
+					<identifier>	small_brick	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_brick.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	5
+				<material>
+					<identifier>	Mat:chamber_Walls_main	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_002.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	6
+				<material>
+					<identifier>	lambert1	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/aid_builder.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-11.319765 -2.760491 -28.467245	</min>
+		<max>	16.389971 9.505850 0.002488	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	0.000000 1.000000 0.000000	</normal>
+		<d>	-2.760491	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 -1.000000 0.000000	</normal>
+		<d>	-9.489511	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	0.000077	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	0.000000 0.000000 -0.000077	</point>
+			<point>	4.999999 0.000000 -0.000077	</point>
+			<point>	4.999999 -4.999999 -0.000077	</point>
+			<point>	0.000000 -4.999999 -0.000077	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.565568 0.000000 0.824702	</normal>
+		<d>	-27.687008	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.565575 0.000000 0.824697	</normal>
+		<d>	-24.847502	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000002 0.000000 1.000000	</normal>
+		<d>	-28.430061	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.999977 0.000000 0.006799	</normal>
+		<d>	-11.390859	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.902935 0.000000 0.429778	</normal>
+		<d>	-17.883423	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.999909 0.000000 0.013480	</normal>
+		<d>	-16.529961	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.902937 0.000000 0.429774	</normal>
+		<d>	-22.416563	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.721877 0.000000 -0.692021	</normal>
+		<d>	-1.790367	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.818032 0.000000 -0.575173	</normal>
+		<d>	-3.223445	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.813995 0.000000 -0.580871	</normal>
+		<d>	-7.245072	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.721872 0.000000 -0.692027	</normal>
+		<d>	-5.414144	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</tv_chamber.visual>

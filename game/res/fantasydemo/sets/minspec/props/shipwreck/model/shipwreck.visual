@@ -1,0 +1,45 @@
+<shipwreck.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<stream>	uv2	</stream>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	ship	</identifier>
+					<fx>	shaders/std_effects/lightonly_dual_blend.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap2
+						<Texture>	sets/minspec/props/shipwreck/maps/shipwreck _snow_sail.tga	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	180	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/props/shipwreck/maps/shipwreck.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-4.795544 -6.162427 -37.202347	</min>
+		<max>	9.993335 33.911583 17.120987	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</shipwreck.visual>

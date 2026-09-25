@@ -1,0 +1,264 @@
+<fx_warp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	mesh_head	</identifier>
+			<transform>
+				<row0>	0.9916 -0.0849 0.0972	</row0>
+				<row1>	0.0671 0.9824 0.1741	</row1>
+				<row2>	0.1103 0.1661 -0.9799	</row2>
+				<row3>	0.0188 1.3099 -0.3431	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	mesh_legs	</identifier>
+			<transform>
+				<row0>	-0.9916 0.0849 -0.0972	</row0>
+				<row1>	0.0671 0.9824 0.1741	</row1>
+				<row2>	0.1103 0.1661 -0.9799	</row2>
+				<row3>	-0.1586 0.2593 -0.6619	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	mesh_torso	</identifier>
+			<transform>
+				<row0>	-0.9916 0.0849 -0.0972	</row0>
+				<row1>	0.0671 0.9824 0.1741	</row1>
+				<row2>	0.1103 0.1661 -0.9799	</row2>
+				<row3>	-0.0021 0.8254 -0.5309	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_shoulder	</identifier>
+			<transform>
+				<row0>	0.0225 -0.0049 -0.0030	</row0>
+				<row1>	-0.0055 -0.0147 -0.0171	</row1>
+				<row2>	0.0017 0.0173 -0.0154	</row2>
+				<row3>	0.0228 1.1615 -0.3433	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_left_hand	</identifier>
+			<transform>
+				<row0>	0.0059 0.0063 0.0215	</row0>
+				<row1>	-0.0100 -0.0192 0.0084	</row1>
+				<row2>	0.0201 -0.0114 -0.0022	</row2>
+				<row3>	-0.6958 0.4786 -0.0487	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_right_hand	</identifier>
+			<transform>
+				<row0>	-0.0226 0.0046 0.0027	</row0>
+				<row1>	0.0031 0.0017 0.0229	</row1>
+				<row2>	0.0044 0.0227 -0.0023	</row2>
+				<row3>	0.2204 0.7249 0.2275	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	HP_right_hip	</identifier>
+			<transform>
+				<row0>	0.0020 0.0217 0.0080	</row0>
+				<row1>	0.0075 -0.0082 0.0204	</row1>
+				<row2>	0.0219 0.0009 -0.0077	</row2>
+				<row3>	0.1858 0.6421 -0.5514	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_05disk02	</identifier>
+			<transform>
+				<row0>	0.0040 0.0000 0.0000	</row0>
+				<row1>	0.0000 0.0040 0.0000	</row1>
+				<row2>	0.0000 0.0000 0.0040	</row2>
+				<row3>	-0.0091 0.3300 0.0027	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_03Cylinder04	</identifier>
+			<transform>
+				<row0>	0.8729 0.0000 0.0000	</row0>
+				<row1>	0.0000 2.0524 0.0000	</row1>
+				<row2>	0.0000 0.0000 0.8729	</row2>
+				<row3>	-0.0091 -0.1885 0.0027	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_06disk03	</identifier>
+			<transform>
+				<row0>	0.0040 0.0000 0.0000	</row0>
+				<row1>	0.0000 0.0040 0.0000	</row1>
+				<row2>	0.0000 0.0000 0.0040	</row2>
+				<row3>	-0.0091 0.3300 0.0027	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_04disk01	</identifier>
+			<transform>
+				<row0>	0.0040 0.0000 0.0000	</row0>
+				<row1>	0.0000 0.0040 0.0000	</row1>
+				<row2>	0.0000 0.0000 0.0040	</row2>
+				<row3>	-0.0091 0.3300 0.0027	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_02Cylinder03	</identifier>
+			<transform>
+				<row0>	0.9009 0.0000 0.0000	</row0>
+				<row1>	0.0000 0.0039 0.0000	</row1>
+				<row2>	0.0000 0.0000 0.9009	</row2>
+				<row3>	-0.0091 -0.1885 0.0027	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	warp_01Cylinder02	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 3.0096 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000	</row2>
+				<row3>	-0.0091 -2.4534 0.0027	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_01Cylinder02	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_warp.warp_01Cylinder02.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_warp.warp_01Cylinder02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	warpwhirl	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	0.370000004768	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warpwhirl.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_02Cylinder03	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_warp.warp_02Cylinder03.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_warp.warp_02Cylinder03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	warpwhirl	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	0.370000004768	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warpwhirl.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_04disk01	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_warp.warp_04disk01.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_warp.warp_04disk01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	warp_zero	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warp_zero.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_06disk03	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_warp.warp_06disk03.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_warp.warp_06disk03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	warp_zero	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warp_zero.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_03Cylinder04	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_warp.warp_03Cylinder04.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_warp.warp_03Cylinder04.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	warpwhirl	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	0.370000004768	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warpwhirl.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	warp_05disk02	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_warp.warp_05disk02.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_warp.warp_05disk02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	warp_zero	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/warp/warp_zero.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.94 -2.45 -0.88	</min>
+		<max>	0.92 4.58 0.89	</max>
+	</boundingBox>
+</fx_warp.visual>

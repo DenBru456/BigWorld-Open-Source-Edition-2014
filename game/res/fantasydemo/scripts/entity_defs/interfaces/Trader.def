@@ -1,0 +1,29 @@
+<root>
+	<BaseMethods>
+	
+		<tradeCommit>
+			<Args>
+				<supervisor>		MAILBOX						</supervisor>
+				<tradeID>			TRADEID						</tradeID>
+				<lockHandle>		LOCKHANDLE					</lockHandle>
+				<outItemsSerials>	ARRAY <of> ITEMSERIAL </of>	</outItemsSerials>
+				<outGoldPieces>		GOLDPIECES					</outGoldPieces>
+				<inItemsTypes>		ARRAY <of> ITEMTYPE </of>	</inItemsTypes>
+				<inGoldPieces>		GOLDPIECES					</inGoldPieces>
+				<partner>			MAILBOX						</partner> <!-- with whom, base mailbox -->
+			</Args>
+		</tradeCommit>
+
+		<tradeCommitNotify>
+			<Args>
+				<success>			BOOL							</success>
+				<outItemsLock>		LOCKHANDLE						</outItemsLock>
+				<outItemsSerials>	ARRAY <of> ITEMSERIAL </of>		</outItemsSerials>
+				<outGoldPieces>		GOLDPIECES						</outGoldPieces>
+				<inItemsTypes>		ARRAY <of> ITEMTYPE </of>		</inItemsTypes>
+				<inItemsSerials>	ARRAY <of> ITEMSERIAL </of>		</inItemsSerials>
+				<inGoldPieces>		GOLDPIECES						</inGoldPieces>
+			</Args>
+		</tradeCommitNotify>		
+	</BaseMethods>
+</root>

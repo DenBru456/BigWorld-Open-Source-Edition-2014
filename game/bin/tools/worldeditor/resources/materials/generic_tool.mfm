@@ -1,0 +1,9 @@
+<generic_tool.mfm>
+	<fx>	shaders/std_effects/lightonly.fx	</fx>
+	
+	<property>	diffuseMap
+		<Texture>	resources/materials/flare_halo.bmp	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+</generic_tool.mfm>

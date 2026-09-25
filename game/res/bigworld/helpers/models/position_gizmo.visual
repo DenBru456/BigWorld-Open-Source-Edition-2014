@@ -1,0 +1,393 @@
+<position_gizmo.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Cylinder01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 -1.000000 -0.000000	</row1>
+				<row2>	0.000000 0.000000 -1.000000	</row2>
+				<row3>	0.000000 0.000000 -0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Cylinder02	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 -1.000000	</row1>
+				<row2>	0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 -0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Cylinder03	</identifier>
+			<transform>
+				<row0>	0.000000 0.000000 -1.000000	</row0>
+				<row1>	-1.000000 0.000000 -0.000000	</row1>
+				<row2>	0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 -0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Cone01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 -0.000000 -1.000000	</row1>
+				<row2>	0.000000 1.000000 -0.000000	</row2>
+				<row3>	0.000000 0.000000 4.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Cone02	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 -1.000000 -0.000000	</row1>
+				<row2>	0.000000 0.000000 -1.000000	</row2>
+				<row3>	0.000000 4.000000 0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Cone03	</identifier>
+			<transform>
+				<row0>	0.001745 0.000000 -0.999998	</row0>
+				<row1>	-0.999998 -0.000000 -0.001745	</row1>
+				<row2>	-0.000000 1.000000 -0.000000	</row2>
+				<row3>	4.000000 0.000000 0.000000	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Plane02	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	1.000000 -0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.011106 0.521298 0.521298	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Plane01	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.521298 0.011106 0.521298	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Plane03	</identifier>
+			<transform>
+				<row0>	-0.000000 -1.000000 0.000000	</row0>
+				<row1>	0.000000 -0.000000 1.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	0.521298 0.521298 0.011106	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane03	</node>
+		<geometry>
+			<vertices>	Plane03.vertices	</vertices>
+			<primitive>	Plane03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #47	</identifier>
+					<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/two_axes.tga	</Texture>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane01	</node>
+		<geometry>
+			<vertices>	Plane01.vertices	</vertices>
+			<primitive>	Plane01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #47	</identifier>
+					<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/two_axes.tga	</Texture>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Plane02	</node>
+		<geometry>
+			<vertices>	Plane02.vertices	</vertices>
+			<primitive>	Plane02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #47	</identifier>
+					<fx>	shaders/std_effects/lightonly_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/two_axes.tga	</Texture>
+					</property>
+					<property>	destBlend
+						<Int>	6	</Int>
+					</property>
+					<property>	srcBlend
+						<Int>	5	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cone03	</node>
+		<geometry>
+			<vertices>	Cone03.vertices	</vertices>
+			<primitive>	Cone03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	02 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly_forward.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/four_colour.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cone02	</node>
+		<geometry>
+			<vertices>	Cone02.vertices	</vertices>
+			<primitive>	Cone02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	02 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly_forward.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/four_colour.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cone01	</node>
+		<geometry>
+			<vertices>	Cone01.vertices	</vertices>
+			<primitive>	Cone01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	02 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly_forward.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/four_colour.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cylinder03	</node>
+		<geometry>
+			<vertices>	Cylinder03.vertices	</vertices>
+			<primitive>	Cylinder03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	02 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly_forward.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/four_colour.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cylinder02	</node>
+		<geometry>
+			<vertices>	Cylinder02.vertices	</vertices>
+			<primitive>	Cylinder02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	02 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly_forward.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/four_colour.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Cylinder01	</node>
+		<geometry>
+			<vertices>	Cylinder01.vertices	</vertices>
+			<primitive>	Cylinder01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	02 - Default	</identifier>
+					<fx>	shaders/std_effects/lightonly_forward.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/four_colour.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.150000 -0.147700 -0.151000	</min>
+		<max>	4.000000 4.000000 4.000000	</max>
+	</boundingBox>
+</position_gizmo.visual>

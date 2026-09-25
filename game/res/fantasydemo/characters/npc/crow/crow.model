@@ -1,0 +1,31 @@
+<crow.model>
+	<batched>	true	</batched>
+	<animation>
+		<name>	crow_anim	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/crow/crow_anim	</nodes>
+	</animation>
+	<action>
+		<name>	Flap	</name>
+		<animation>	crow_anim	</animation>
+		<blendInTime>	0.300000	</blendInTime>
+		<blendOutTime>	0.300000	</blendOutTime>
+		<filler>	true	</filler>
+		<blended>	false	</blended>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<nodefullVisual>	characters/npc/crow/crow	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.401554 -1.318315 -0.648978	</min>
+		<max>	1.392028 1.174241 0.486545	</max>
+	</visibilityBox>
+	<extent>	380.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377083	</modified_on>
+	</metaData>
+</crow.model>

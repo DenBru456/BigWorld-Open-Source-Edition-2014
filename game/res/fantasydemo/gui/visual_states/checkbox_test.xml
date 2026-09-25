@@ -1,0 +1,100 @@
+<root> &quot;PyGUI.ButtonVisualState&quot;
+	<hover>
+		<textStyle>	ButtonHover	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_yellow.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	<normal>
+		<textStyle>	ButtonNormal	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_white.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	0.000000 0.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+	<hover_active>
+		<textStyle>	ButtonHover	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_yellow.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover_active>
+	<disabled>
+		<textStyle>	ButtonDisabled	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_white.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	125.000000 125.000000 125.000000 255.000000	</colour>
+		</icon>
+	</disabled>
+	<pressed>
+		<textStyle>	ButtonPressed	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_red.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	125.000000 125.000000 125.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<active>
+		<textStyle>	ButtonActive	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_red.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</active>
+	<pressed_active>
+		<textStyle>	ButtonPressed	</textStyle>
+		<icon>
+			<textureName>	helpers/maps/col_red.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	125.000000 125.000000 125.000000 255.000000	</colour>
+		</icon>
+	</pressed_active>
+</root>

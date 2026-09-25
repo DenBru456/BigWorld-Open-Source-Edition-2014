@@ -1,0 +1,91 @@
+<fx_shieldglance.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Box03	</identifier>
+			<transform>
+				<row0>	-0.0093 0.0000 0.0000	</row0>
+				<row1>	0.0000 -0.0882 0.0000	</row1>
+				<row2>	0.0000 0.0000 -0.0090	</row2>
+				<row3>	-1.2243 -0.0161 1.5543	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	Rectangle04	</identifier>
+			<transform>
+				<row0>	-0.0832 0.0832 0.0000	</row0>
+				<row1>	-0.1777 -0.1777 -0.0000	</row1>
+				<row2>	-0.0000 -0.0000 0.3686	</row2>
+				<row3>	-1.2217 -0.0005 1.5172	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle04	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_shieldglance.Rectangle04.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_shieldglance.Rectangle04.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	AFX_shieldhitside	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/afx_shieldhitside.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	AFX_shieldhit	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/afx_shieldhit.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Box03	</node>
+		<geometry>
+			<vertices>	objects/models/fx/fx_shieldglance.Box03.vertices	</vertices>
+			<primitive>	objects/models/fx/fx_shieldglance.Box03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	AFX_shieldhitgas	</identifier>
+					<fx>	shaders/std_effects/lightonly_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	maps/fx/afx_shieldhitgas.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.30 -0.07 1.51	</min>
+		<max>	-1.15 0.08 1.93	</max>
+	</boundingBox>
+</fx_shieldglance.visual>

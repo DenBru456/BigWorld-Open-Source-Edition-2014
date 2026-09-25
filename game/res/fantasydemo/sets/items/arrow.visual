@@ -1,0 +1,89 @@
+<arrow.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.000000 1.000000 -0.000000	</row0>
+				<row1>	0.000000 -0.000000 -1.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000000	</row2>
+				<row3>	-0.003460 0.765048 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone01BlendBoneText01	</identifier>
+				<transform>
+					<row0>	0.000000 0.000000 -1.000000	</row0>
+					<row1>	1.000000 -0.000000 0.000000	</row1>
+					<row2>	-0.000000 -1.000000 -0.000000	</row2>
+					<row3>	-0.765048 -0.000000 -0.003460	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	textbone	</identifier>
+			<transform>
+				<row0>	0.000000 1.000000 0.000000	</row0>
+				<row1>	0.000000 0.000000 -1.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000000	</row2>
+				<row3>	-0.003460 1.884694 -0.000000	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneText01	</node>
+		<geometry>
+			<vertices>	Text01.vertices	</vertices>
+			<primitive>	Text01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_chrome_glow_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	4	</materialKind>
+					<property>	reflectionMask
+						<Texture>	system/maps/col_white.bmp	</Texture>
+					</property>
+					<property>	reflectionMap
+						<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+					</property>
+					<property>	glowMap
+						<Texture>	helpers/maps/col_yellow.bmp	</Texture>
+					</property>
+					<property>	glowFactor
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	helpers/maps/col_orange.bmp	</Texture>
+					</property>
+					<property>	materialSpecular
+						<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+					</property>
+					<property>	reflectionAmount
+						<Float>	2.000000	</Float>
+					</property>
+					<property>	fresnelConstant
+						<Float>	0.500000	</Float>
+					</property>
+					<property>	fresnelExp
+						<Float>	4.780000	</Float>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.550804 0.711692 -0.095014	</min>
+		<max>	0.529448 1.394915 0.087334	</max>
+	</boundingBox>
+	<materialKind>	4	</materialKind>
+</arrow.visual>

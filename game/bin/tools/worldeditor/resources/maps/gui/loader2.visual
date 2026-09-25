@@ -1,0 +1,990 @@
+<loader2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	animator node	</identifier>
+			<transform>
+				<row0>	0.210862 -0.013225 0.138317	</row0>
+				<row1>	-0.010787 0.249062 0.040259	</row1>
+				<row2>	-0.138528 -0.039525 0.207405	</row2>
+				<row3>	0.973711 0.084172 15.574267	</row3>
+			</transform>
+			<node>
+				<identifier>	Rectangle27	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.600411 -1.600412	</row0>
+					<row1>	-0.000000 0.221664 -0.221663	</row1>
+					<row2>	0.313480 -0.000000 -0.000000	</row2>
+					<row3>	29.233305 2.268795 121.684227	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle26	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.600411 -1.600412	</row0>
+					<row1>	-0.000000 0.221664 -0.221663	</row1>
+					<row2>	0.313480 -0.000000 -0.000000	</row2>
+					<row3>	-33.025219 20.545704 16.802065	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle25	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.600411 -1.600412	</row0>
+					<row1>	-0.000000 0.221664 -0.221663	</row1>
+					<row2>	0.313480 -0.000000 -0.000000	</row2>
+					<row3>	-31.738260 20.545704 164.272781	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle24	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.600411 -1.600412	</row0>
+					<row1>	-0.000000 0.221664 -0.221663	</row1>
+					<row2>	0.313480 -0.000000 -0.000000	</row2>
+					<row3>	3.939319 20.545702 76.437523	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle23	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.600411 -1.600412	</row0>
+					<row1>	-0.000000 0.221664 -0.221663	</row1>
+					<row2>	0.313480 -0.000000 -0.000000	</row2>
+					<row3>	-4.366050 20.545704 121.977440	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag22	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	3.416277 -59.902615 -21.201559	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag21	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	4.881478 -59.902618 -21.770294	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag20	</identifier>
+				<transform>
+					<row0>	0.243599 0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	-8.329589 -25.162031 -31.653479	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag19	</identifier>
+				<transform>
+					<row0>	0.243599 0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	-0.000000 0.263464 0.000000	</row2>
+					<row3>	-5.399183 -59.902615 -25.005152	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag18	</identifier>
+				<transform>
+					<row0>	0.243599 0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	-6.864385 -56.736824 -27.474756	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag17	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	-3.933984 -59.902615 -25.763868	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag16	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	-0.000000 0.263464 0.000000	</row2>
+					<row3>	-2.468787 -59.902615 -25.193266	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag15	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	-0.000000 0.263464 0.000000	</row2>
+					<row3>	-1.003587 -59.902615 -25.382124	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag14	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	0.461613 -59.902615 -23.102489	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag13	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	1.926813 -59.902615 -24.051016	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle19	</identifier>
+				<transform>
+					<row0>	-0.018377 -0.118977 -0.229404	</row0>
+					<row1>	0.092378 0.211763 -0.117227	</row1>
+					<row2>	0.241346 -0.090114 0.027403	</row2>
+					<row3>	-14.505180 -0.943005 28.022938	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle04	</identifier>
+				<transform>
+					<row0>	0.002072 -0.000000 -0.000000	</row0>
+					<row1>	0.000000 0.002072 0.000000	</row1>
+					<row2>	0.000000 -0.000000 0.002072	</row2>
+					<row3>	2.066341 7.392858 48.973030	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle03	</identifier>
+				<transform>
+					<row0>	1.000000 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -1.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	-20.380733 12.809425 16.671236	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag12	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	-9.356997 0.542068 -2.988148	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag11	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	6.391220 0.542068 -2.988146	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag10	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	4.883213 -59.902615 -21.571507	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag09	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	3.418011 -59.902615 -21.002768	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag01	</identifier>
+				<transform>
+					<row0>	0.243599 0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	-8.327851 -25.162031 -31.454687	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag02	</identifier>
+				<transform>
+					<row0>	0.243599 0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	-6.862651 -56.736824 -27.275965	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag03	</identifier>
+				<transform>
+					<row0>	0.243599 0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	-0.000000 0.263464 0.000000	</row2>
+					<row3>	-5.397449 -59.902618 -24.806364	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag04	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	-3.932250 -59.902615 -25.565081	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag05	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	-0.000000 0.263464 0.000000	</row2>
+					<row3>	-2.467051 -59.902615 -24.994474	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag06	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	-0.000000 0.263464 0.000000	</row2>
+					<row3>	-1.001852 -59.902618 -25.183334	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag07	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	0.463348 -59.902615 -22.903698	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	loader_tag08	</identifier>
+				<transform>
+					<row0>	0.243599 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.579937	</row1>
+					<row2>	0.000000 0.263464 0.000000	</row2>
+					<row3>	1.928548 -59.902615 -23.852226	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle16	</identifier>
+				<transform>
+					<row0>	0.009887 -0.158759 -0.204492	</row0>
+					<row1>	0.075098 0.197601 -0.149778	</row1>
+					<row2>	0.247754 -0.053560 0.053560	</row2>
+					<row3>	-14.505180 -0.943005 28.022938	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle11	</identifier>
+				<transform>
+					<row0>	1.000000 -0.000000 -0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	2.066338 7.392859 48.973030	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle10	</identifier>
+				<transform>
+					<row0>	0.003241 0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.003241 -0.000000	</row1>
+					<row2>	0.000000 0.000000 0.003241	</row2>
+					<row3>	-20.380733 12.809425 16.671236	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle01	</identifier>
+				<transform>
+					<row0>	1.000000 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -1.000000	</row1>
+					<row2>	-0.000000 1.000000 0.000000	</row2>
+					<row3>	-13.663782 -0.386474 12.678965	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle08	</identifier>
+				<transform>
+					<row0>	0.992064 0.000000 0.000000	</row0>
+					<row1>	-0.000000 0.000000 -0.992063	</row1>
+					<row2>	-0.000000 0.992063 0.000000	</row2>
+					<row3>	-13.663782 -0.386473 12.592547	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle02	</identifier>
+				<transform>
+					<row0>	1.000000 -0.000000 -0.000000	</row0>
+					<row1>	-0.000000 0.000000 -1.000000	</row1>
+					<row2>	0.000000 1.000000 0.000000	</row2>
+					<row3>	-13.663783 -0.386474 12.615555	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle28	</identifier>
+				<transform>
+					<row0>	1.000000 -0.000000 -0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	19.255911 7.392860 11.615278	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle29	</identifier>
+				<transform>
+					<row0>	1.730000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.730000 0.000000	</row1>
+					<row2>	0.000000 -0.000000 1.730000	</row2>
+					<row3>	19.255911 7.392860 1.650685	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle30	</identifier>
+				<transform>
+					<row0>	2.975600 0.000000 0.000000	</row0>
+					<row1>	0.000000 2.975600 -0.000000	</row1>
+					<row2>	0.000000 0.000000 2.975600	</row2>
+					<row3>	19.255907 7.392859 -7.613739	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle31	</identifier>
+				<transform>
+					<row0>	-0.000001 -0.393021 -2.228938	</row0>
+					<row1>	-0.298137 -0.095399 0.016821	</row1>
+					<row2>	-0.096871 0.293607 -0.051771	</row2>
+					<row3>	37.965847 31.433624 74.517693	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Rectangle32	</identifier>
+				<transform>
+					<row0>	-0.000001 -0.393021 -2.228938	</row0>
+					<row1>	-0.298137 -0.095399 0.016821	</row1>
+					<row2>	-0.096871 0.293607 -0.051771	</row2>
+					<row3>	39.659931 26.298969 75.423065	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	Rectangle18	</identifier>
+			<transform>
+				<row0>	0.252424 0.001618 0.006972	</row0>
+				<row1>	0.007120 -0.031762 -0.250419	</row1>
+				<row2>	-0.000727 0.250515 -0.031795	</row2>
+				<row3>	-0.759066 1.924145 12.409958	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle18	</node>
+		<geometry>
+			<vertices>	Rectangle18.vertices	</vertices>
+			<primitive>	Rectangle18.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle32	</node>
+		<geometry>
+			<vertices>	Rectangle32.vertices	</vertices>
+			<primitive>	Rectangle32.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle31	</node>
+		<geometry>
+			<vertices>	Rectangle31.vertices	</vertices>
+			<primitive>	Rectangle31.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle30	</node>
+		<geometry>
+			<vertices>	Rectangle30.vertices	</vertices>
+			<primitive>	Rectangle30.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle29	</node>
+		<geometry>
+			<vertices>	Rectangle29.vertices	</vertices>
+			<primitive>	Rectangle29.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle28	</node>
+		<geometry>
+			<vertices>	Rectangle28.vertices	</vertices>
+			<primitive>	Rectangle28.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle02	</node>
+		<geometry>
+			<vertices>	Rectangle02.vertices	</vertices>
+			<primitive>	Rectangle02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle08	</node>
+		<geometry>
+			<vertices>	Rectangle08.vertices	</vertices>
+			<primitive>	Rectangle08.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle01	</node>
+		<geometry>
+			<vertices>	Rectangle01.vertices	</vertices>
+			<primitive>	Rectangle01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle10	</node>
+		<geometry>
+			<vertices>	Rectangle10.vertices	</vertices>
+			<primitive>	Rectangle10.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle11	</node>
+		<geometry>
+			<vertices>	Rectangle11.vertices	</vertices>
+			<primitive>	Rectangle11.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle16	</node>
+		<geometry>
+			<vertices>	Rectangle16.vertices	</vertices>
+			<primitive>	Rectangle16.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag08	</node>
+		<geometry>
+			<vertices>	loader_tag08.vertices	</vertices>
+			<primitive>	loader_tag08.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag07	</node>
+		<geometry>
+			<vertices>	loader_tag07.vertices	</vertices>
+			<primitive>	loader_tag07.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag06	</node>
+		<geometry>
+			<vertices>	loader_tag06.vertices	</vertices>
+			<primitive>	loader_tag06.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag05	</node>
+		<geometry>
+			<vertices>	loader_tag05.vertices	</vertices>
+			<primitive>	loader_tag05.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag04	</node>
+		<geometry>
+			<vertices>	loader_tag04.vertices	</vertices>
+			<primitive>	loader_tag04.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag03	</node>
+		<geometry>
+			<vertices>	loader_tag03.vertices	</vertices>
+			<primitive>	loader_tag03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag02	</node>
+		<geometry>
+			<vertices>	loader_tag02.vertices	</vertices>
+			<primitive>	loader_tag02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag01	</node>
+		<geometry>
+			<vertices>	loader_tag01.vertices	</vertices>
+			<primitive>	loader_tag01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag09	</node>
+		<geometry>
+			<vertices>	loader_tag09.vertices	</vertices>
+			<primitive>	loader_tag09.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag10	</node>
+		<geometry>
+			<vertices>	loader_tag10.vertices	</vertices>
+			<primitive>	loader_tag10.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag11	</node>
+		<geometry>
+			<vertices>	loader_tag11.vertices	</vertices>
+			<primitive>	loader_tag11.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag12	</node>
+		<geometry>
+			<vertices>	loader_tag12.vertices	</vertices>
+			<primitive>	loader_tag12.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle03	</node>
+		<geometry>
+			<vertices>	Rectangle03.vertices	</vertices>
+			<primitive>	Rectangle03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle04	</node>
+		<geometry>
+			<vertices>	Rectangle04.vertices	</vertices>
+			<primitive>	Rectangle04.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle19	</node>
+		<geometry>
+			<vertices>	Rectangle19.vertices	</vertices>
+			<primitive>	Rectangle19.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag13	</node>
+		<geometry>
+			<vertices>	loader_tag13.vertices	</vertices>
+			<primitive>	loader_tag13.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag14	</node>
+		<geometry>
+			<vertices>	loader_tag14.vertices	</vertices>
+			<primitive>	loader_tag14.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag15	</node>
+		<geometry>
+			<vertices>	loader_tag15.vertices	</vertices>
+			<primitive>	loader_tag15.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag16	</node>
+		<geometry>
+			<vertices>	loader_tag16.vertices	</vertices>
+			<primitive>	loader_tag16.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag17	</node>
+		<geometry>
+			<vertices>	loader_tag17.vertices	</vertices>
+			<primitive>	loader_tag17.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag18	</node>
+		<geometry>
+			<vertices>	loader_tag18.vertices	</vertices>
+			<primitive>	loader_tag18.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag19	</node>
+		<geometry>
+			<vertices>	loader_tag19.vertices	</vertices>
+			<primitive>	loader_tag19.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag20	</node>
+		<geometry>
+			<vertices>	loader_tag20.vertices	</vertices>
+			<primitive>	loader_tag20.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag21	</node>
+		<geometry>
+			<vertices>	loader_tag21.vertices	</vertices>
+			<primitive>	loader_tag21.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	loader_tag22	</node>
+		<geometry>
+			<vertices>	loader_tag22.vertices	</vertices>
+			<primitive>	loader_tag22.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle23	</node>
+		<geometry>
+			<vertices>	Rectangle23.vertices	</vertices>
+			<primitive>	Rectangle23.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle24	</node>
+		<geometry>
+			<vertices>	Rectangle24.vertices	</vertices>
+			<primitive>	Rectangle24.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle25	</node>
+		<geometry>
+			<vertices>	Rectangle25.vertices	</vertices>
+			<primitive>	Rectangle25.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle26	</node>
+		<geometry>
+			<vertices>	Rectangle26.vertices	</vertices>
+			<primitive>	Rectangle26.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Rectangle27	</node>
+		<geometry>
+			<vertices>	Rectangle27.vertices	</vertices>
+			<primitive>	Rectangle27.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<mfm>	resources/maps/gui/gui_wait.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-10.723933 -18.501066 -5.126636	</min>
+		<max>	18.202137 14.681490 60.738369	</max>
+	</boundingBox>
+</loader2.visual>

@@ -1,0 +1,150 @@
+<walkingbeast.model>
+	<action>
+		<name>	turnright	</name>
+		<animation>	turnright	</animation>
+		<isImpacting>	true	</isImpacting>
+		<match>
+			<oneShot>	true	</oneShot>
+			<cancel>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	-180.000000	</minEntityAux1>
+				<maxEntityAux1>	-40.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+			</cancel>
+			<trigger>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+				<minEntityAux1>	80.000000	</minEntityAux1>
+				<maxEntityAux1>	180.000000	</maxEntityAux1>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	1.000000	</maxEntitySpeed>
+			</trigger>
+			<promoteMotion>	true	</promoteMotion>
+		</match>
+	</action>
+	<action>
+		<name>	turnleft	</name>
+		<animation>	turnleft	</animation>
+		<isImpacting>	true	</isImpacting>
+		<match>
+			<oneShot>	true	</oneShot>
+			<cancel>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	40.000000	</minEntityAux1>
+				<maxEntityAux1>	180.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+			</cancel>
+			<trigger>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	1.000000	</maxEntitySpeed>
+				<minEntityAux1>	-180.000000	</minEntityAux1>
+				<maxEntityAux1>	-80.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+			</trigger>
+			<promoteMotion>	true	</promoteMotion>
+		</match>
+	</action>
+	<action>
+		<name>	walkbackward	</name>
+		<animation>	walkbackward	</animation>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	94.000000	</minModelYaw>
+				<maxModelYaw>	266.000000	</maxModelYaw>
+			</trigger>
+			<scalePlaybackSpeed>	true	</scalePlaybackSpeed>
+			<feetFollowDirection>	true	</feetFollowDirection>
+		</match>
+		<isMovement>	true	</isMovement>
+	</action>
+	<action>
+		<name>	walk	</name>
+		<animation>	walk	</animation>
+		<isMovement>	true	</isMovement>
+		<match>
+			<scalePlaybackSpeed>	true	</scalePlaybackSpeed>
+			<feetFollowDirection>	true	</feetFollowDirection>
+			<trigger>
+				<minEntitySpeed>	0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-95.000000	</minModelYaw>
+				<maxModelYaw>	95.000000	</maxModelYaw>
+			</trigger>
+		</match>
+	</action>
+	<action>
+		<name>	idle	</name>
+		<animation>	idle	</animation>
+		<match>
+			<trigger>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	0.100000	</maxEntitySpeed>
+			</trigger>
+		</match>
+	</action>
+	<action>
+		<name>	jumping_out_roar	</name>
+		<animation>	jumping_out_roar	</animation>
+	</action>
+	<nodefullVisual>	characters/npc/walkingbeast/walkingbeast	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	idle	</name>
+		<frameRate>	10.000000	</frameRate>
+		<nodes>	characters/npc/walkingbeast/idle	</nodes>
+	</animation>
+	<animation>
+		<name>	turnleft	</name>
+		<frameRate>	15.000000	</frameRate>
+		<nodes>	characters/npc/walkingbeast/turnleft	</nodes>
+	</animation>
+	<animation>
+		<name>	turnright	</name>
+		<frameRate>	15.000000	</frameRate>
+		<nodes>	characters/npc/walkingbeast/turnright	</nodes>
+	</animation>
+	<animation>
+		<name>	walk	</name>
+		<frameRate>	15.000000	</frameRate>
+		<nodes>	characters/npc/walkingbeast/walk	</nodes>
+	</animation>
+	<animation>
+		<name>	walkbackward	</name>
+		<frameRate>	15.000000	</frameRate>
+		<nodes>	characters/npc/walkingbeast/walkbackward	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-9.825660 -4.362724 -11.382637	</min>
+		<max>	9.229681 15.690289 8.532975	</max>
+	</visibilityBox>
+	<animation>
+		<name>	jumping_out	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/walkingbeast/jumping_out	</nodes>
+	</animation>
+	<animation>
+		<name>	jumping_out_roar	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/walkingbeast/jumping_out_roar	</nodes>
+	</animation>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380840	</modified_on>
+	</metaData>
+</walkingbeast.model>

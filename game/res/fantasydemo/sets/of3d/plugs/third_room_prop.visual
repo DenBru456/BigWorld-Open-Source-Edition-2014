@@ -1,0 +1,167 @@
+<third_room_prop.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Of_Chain	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	3	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Chain_S.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	79	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Chain_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Chain_D.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	Of_Carpet	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	7	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Carpet_S.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	180	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	system/maps/default_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Carpet_D.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	Of_Prop	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Prop_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Prop_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Prop_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	3
+				<material>
+					<identifier>	Of_Chimney	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Chimney_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Chimney_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Chimney_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	4
+				<material>
+					<identifier>	Of_Desk_01	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Desk_01_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Desk_01_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Desk_01_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	5
+				<material>
+					<identifier>	Of_Pingzi	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_chrome.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	6	</materialKind>
+					<property>	reflectionMask
+						<Texture>	helpers/maps/col_light_gray.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	reflectionMap
+						<Texture>	sets/shared/fx/maps/cubemap_window128.dds	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Pingzi_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Pingzi_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Pingzi_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	6
+				<material>
+					<identifier>	Of_Deng	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/of3d/work/Textures/Deng_S.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/of3d/work/Textures/Deng_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/of3d/work/Textures/Deng_D.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	0.816147 -0.022764 0.000007	</min>
+		<max>	6.223346 6.158226 7.177990	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</third_room_prop.visual>

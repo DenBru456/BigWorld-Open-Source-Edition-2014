@@ -1,0 +1,175 @@
+<barbarian_head.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	0.000001 -0.087242 -0.996187	</row0>
+				<row1>	0.000000 0.996187 -0.087242	</row1>
+				<row2>	1.000000 0.000000 0.000001	</row2>
+				<row3>	0.011547 1.039789 0.011232	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.000000 0.000000 -0.016543	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	0.996264 0.000002 -0.086362	</row0>
+						<row1>	-0.000001 1.000000 0.000004	</row1>
+						<row2>	0.086362 -0.000004 0.996264	</row2>
+						<row3>	0.151918 0.000000 -0.000165	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	0.999048 0.000000 0.043619	</row0>
+							<row1>	-0.000000 1.000000 -0.000000	</row1>
+							<row2>	-0.043619 -0.000000 0.999048	</row2>
+							<row3>	0.207508 -0.000000 -0.000202	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Neck	</identifier>
+							<transform>
+								<row0>	0.983255 0.000001 0.182236	</row0>
+								<row1>	-0.000001 1.000000 -0.000000	</row1>
+								<row2>	-0.182236 -0.000000 0.983255	</row2>
+								<row3>	0.254506 -0.000000 -0.000100	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Head	</identifier>
+								<transform>
+									<row0>	0.999910 0.000000 0.013387	</row0>
+									<row1>	-0.000000 1.000000 -0.000000	</row1>
+									<row2>	-0.013387 -0.000000 0.999910	</row2>
+									<row3>	0.127423 0.000000 -0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	biped HeadBlendBonebarbarian_head	</identifier>
+									<transform>
+										<row0>	0.000000 0.998629 -0.052337	</row0>
+										<row1>	0.999048 -0.002283 -0.043558	</row1>
+										<row2>	-0.043618 -0.052288 -0.997679	</row2>
+										<row3>	-1.776930 0.004415 0.084243	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped L Clavicle	</identifier>
+								<transform>
+									<row0>	-0.000000 1.000000 -0.000003	</row0>
+									<row1>	0.983109 -0.000000 -0.183019	</row1>
+									<row2>	-0.183019 -0.000003 -0.983109	</row2>
+									<row3>	-0.030239 0.082318 0.004376	</row3>
+								</transform>
+								<node>
+									<identifier>	biped L UpperArm	</identifier>
+									<transform>
+										<row0>	0.799276 -0.592418 0.100991	</row0>
+										<row1>	0.598905 0.799110 -0.052310	</row1>
+										<row2>	-0.049714 0.102295 0.993511	</row2>
+										<row3>	0.165294 -0.000000 -0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	biped L UpperArmBlendBonebarbarian_head	</identifier>
+										<transform>
+											<row0>	0.278469 0.960149 -0.023855	</row0>
+											<row1>	-0.956481 0.279488 0.083846	</row1>
+											<row2>	0.087172 -0.000532 0.996193	</row2>
+											<row3>	1.421554 -0.657282 -0.131885	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	biped L ClavicleBlendBonebarbarian_head	</identifier>
+									<transform>
+										<row0>	0.906066 0.412138 0.095845	</row0>
+										<row1>	-0.409845 0.911121 -0.043419	</row1>
+										<row2>	-0.105221 0.000059 0.994449	</row2>
+										<row3>	0.592841 -1.511944 0.038175	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped R Clavicle	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 0.000003	</row0>
+									<row1>	-0.983109 0.000001 0.183019	</row1>
+									<row2>	-0.183019 -0.000003 -0.983109	</row2>
+									<row3>	-0.030239 -0.082318 0.004376	</row3>
+								</transform>
+								<node>
+									<identifier>	biped R ClavicleBlendBonebarbarian_head	</identifier>
+									<transform>
+										<row0>	-0.906066 0.412138 -0.095847	</row0>
+										<row1>	-0.409845 -0.911121 -0.043419	</row1>
+										<row2>	-0.105223 -0.000058 0.994449	</row2>
+										<row3>	0.592841 1.511944 0.038175	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	biped NeckBlendBonebarbarian_head	</identifier>
+								<transform>
+									<row0>	0.000000 1.000000 -0.000001	</row0>
+									<row1>	0.990157 -0.000000 -0.139962	</row1>
+									<row2>	-0.139962 -0.000001 -0.990157	</row2>
+									<row3>	-1.633038 0.000001 0.255686	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	biped Spine1BlendBonebarbarian_head	</identifier>
+							<transform>
+								<row0>	-0.000000 1.000000 -0.000001	</row0>
+								<row1>	0.999083 0.000000 0.042824	</row1>
+								<row2>	0.042824 -0.000001 -0.999083	</row2>
+								<row3>	-1.397781 -0.000000 -0.046294	</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped HeadBlendBonebarbarian_head	</node>
+		<node>	biped Spine1BlendBonebarbarian_head	</node>
+		<node>	biped L ClavicleBlendBonebarbarian_head	</node>
+		<node>	biped NeckBlendBonebarbarian_head	</node>
+		<node>	biped L UpperArmBlendBonebarbarian_head	</node>
+		<node>	biped R ClavicleBlendBonebarbarian_head	</node>
+		<geometry>
+			<vertices>	barbarian_head.vertices	</vertices>
+			<primitive>	barbarian_head.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	barbarian_body_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/characters/avatars/barbarian/maps/barbarian_d.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.148713 1.577104 -0.153606	</min>
+		<max>	0.148713 2.024580 0.209128	</max>
+	</boundingBox>
+	<materialKind>	11	</materialKind>
+</barbarian_head.visual>

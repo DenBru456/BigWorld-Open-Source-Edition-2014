@@ -1,0 +1,165 @@
+<flora.xml>
+	<!-- flora.xml describes the ecotypes that automatically get placed onto
+	the ground based on the ground texture when the space is saved in BigBang.
+	There is a variable sized vertex buffer which will determine how many
+	objects can be shown at once depending on its size.  All flora object
+	textures are copied onto a larger texture for efficiency so they must
+	have a texture size of 256x128 or 512x64.  There is a limit of vertices
+	per object based upon the maximum number of possible objects in a chunk.
+	Ecotypes are based on a index rather than looked up by name so it doesn't
+	matter what they are called.  It is possible to have multiple textures
+	representing a ecotype and multiple visuals displaying for a given
+	ecotype. -->
+
+	<vb_size_options>
+		<!-- Defines what flora density options are available for
+		the user. Each option actually defines the size of the
+		vertex buffer used to render the flora. This field is 
+		optional. If not provided, flora density settings will 
+		not be available and <vb_size> will be used instead. -->
+		
+		<option>
+			<label>	HIGH	</label>
+			<!-- option's associated label -->
+			
+			<vb_size>	1048576	</vb_size>	
+			<!-- vertex buffer size when this option is selected -->
+			
+		</option>
+		<option>
+			<label>	MEDIUM	</label>
+			<vb_size>	524288	</vb_size>
+		</option>
+		<option>
+			<label>	LOW	</label>
+			<vb_size>	262144	</vb_size>
+		</option>
+		<option>
+			<label>	OFF	</label>
+			<vb_size>	0	</vb_size>
+			<!-- zero has the special meaning of disabling flora rendering -->
+			
+		</option>
+	</vb_size_options>
+	
+	<vb_size> 1048576 </vb_size>
+	<!-- Size of the vertex buffer. Only 
+	used if <vb_size_options> is not defined -->
+	
+	<texture_width>	512 </texture_width>
+	<!-- Maximum width/length of flora visuals. -->
+	
+	<texture_height> 256 </texture_height>
+	<!-- Maximum height of flora visuals. -->
+	
+	<AlphaTestRef>			128			</AlphaTestRef>
+	<ShadowAlphaTestRef>		128			</ShadowAlphaTestRef>
+	<AlphaTestDistance>		25			</AlphaTestDistance>
+	<AlphaBlendDistance>		0			</AlphaBlendDistance>
+	<AlphaTestFadePercent>		75			</AlphaTestFadePercent>
+	<AlphaBlendFadePercent>		50			</AlphaBlendFadePercent>
+
+	<ecotypes>
+
+		<empty>
+			<texture>	helpers/maps/aid_builder.dds </texture>
+			<texture>	helpers/maps/aid_builder_norms.dds </texture>
+			<texture>	helpers/maps/lev_dirt01.dds </texture>
+			<texture>	helpers/maps/lev_dirt02.dds </texture>
+			<texture>	helpers/maps/ls2_crack.dds </texture>
+			<texture>	helpers/maps/ls2_drygrass.dds </texture>
+			<texture>	helpers/maps/ls2_dust.dds </texture>
+			<texture>	helpers/maps/ls2_dust2.dds </texture>
+			<texture>	helpers/maps/ls2_flagstone.dds </texture>
+			<texture>	helpers/maps/ls2_flint.dds </texture>
+			<texture>	helpers/maps/ls2_litter.dds </texture>
+			<texture>	helpers/maps/ls2_rock.dds </texture>
+			<texture>	helpers/maps/ls2_rock2.dds </texture>
+			<texture>	helpers/maps/ls2_rock3.dds </texture>
+			<texture>	helpers/maps/ls2_rock4.dds </texture>
+			<texture>	helpers/maps/ls2_dust.dds </texture>
+			<texture>	helpers/maps/ls2_snow.dds </texture>
+			<texture>	helpers/maps/rock5.dds </texture>
+			<texture>	helpers/maps/rock7.dds </texture>
+		</empty>
+
+		<grass>
+			<texture>	helpers/maps/lev_grass_01.dds </texture>
+			<texture>	helpers/maps/lev_grassflowers.dds </texture>
+			<texture> helpers/maps/ls2_grass.dds</texture>
+			
+			<sound_tag>	grass </sound_tag>
+
+			<generator> chooseMax
+				<noise>
+					<frequency>	0.25 </frequency>
+					<generator> visual
+						<visual> helpers/flora/models/grass_upsidedown_1_tris02.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/grass_upside_upsidedown_2_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/flower_3_tris_stem_1_tris02.visual
+							<scaleVariation>	0.1		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/flower_3_tris_stem_1_tris.visual </visual>
+					</generator>				
+				</noise>
+				<noise>
+					<frequency>	0.8 </frequency>	
+					<generator> visual
+						<visual> helpers/flora/models/grass_upsidedown_2_tris.visual
+							<scaleVariation>	0.4		</scaleVariation>
+						</visual>			
+						<visual> helpers/flora/models/grass_upsidedown_1_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>				
+						<visual> helpers/flora/models/grass_1_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>					
+						<visual> helpers/flora/models/grass_upsidedown_1_tris02.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/grass_upside_upsidedown_2_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/grass_3_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+					</generator>
+				</noise>				
+				<noise>
+					<frequency>	0.70 </frequency>	
+					<generator> visual
+						<visual> helpers/flora/models/grass_upsidedown_2_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>			
+						<visual> helpers/flora/models/grass_upsidedown_1_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/grass_upsidedown_1_tris02.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/grass_upside_upsidedown_2_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/grass_3_tris.visual
+							<scaleVariation>	0.2		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/grass_1_tris.visual
+							<scaleVariation>	0.4		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/flower_3_tris_stem_1_tris02.visual
+							<scaleVariation>	0.1		</scaleVariation>
+						</visual>
+						<visual> helpers/flora/models/flower_3_tris_stem_1_tris.visual </visual>
+					</generator>
+				</noise>				
+			</generator>
+			
+		</grass>
+		
+	</ecotypes>
+</flora.xml>
+

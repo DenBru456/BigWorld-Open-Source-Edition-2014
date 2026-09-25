@@ -1,0 +1,158 @@
+<three_way_lightshaft.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	tunnel_3way_export_tunnel_shader	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/shared/shells/maps/tunnel_001.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.455089 -0.408381 -10.385897	</min>
+		<max>	15.458289 15.538754 0.467870	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-15.000000	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	-0.000904 4.999999 0.000000	</point>
+			<point>	4.999095 4.999999 0.000000	</point>
+			<point>	4.999095 -0.000000 0.000000	</point>
+			<point>	-0.000904 -0.000000 0.000000	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	-0.180000	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-0.000001	</d>
+		<portal>
+			<uAxis>	0.000000 1.000000 0.000000	</uAxis>
+			<point>	-0.000904 0.000000 -0.000002	</point>
+			<point>	4.999095 0.000000 -0.000002	</point>
+			<point>	4.999095 -4.999999 0.000003	</point>
+			<point>	-0.000904 -4.999999 0.000003	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	-0.688581 -0.725160 0.000000	</normal>
+		<d>	-14.112598	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.668965 0.000000 0.743294	</normal>
+		<d>	-14.457071	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.680789 -0.000000 0.732479	</normal>
+		<d>	-4.358252	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.000000 0.000000 1.000000	</normal>
+		<d>	-9.999999	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	4.999999 4.999095 -0.000001	</point>
+			<point>	9.999998 4.999095 -0.000001	</point>
+			<point>	9.999998 -0.000904 -0.000001	</point>
+			<point>	4.999999 -0.000904 -0.000001	</point>
+		</portal>
+	</boundary>
+	<boundary>
+		<normal>	0.571649 -0.543073 0.615052	</normal>
+		<d>	-6.493319	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.627166 -0.651358 0.427079	</normal>
+		<d>	-15.347393	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.566783 -0.531187 0.629759	</normal>
+		<d>	-15.020557	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.431607 0.902062	</normal>
+		<d>	-11.272747	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.021065 -0.443089 0.896230	</normal>
+		<d>	-11.182552	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.002955 -0.661777 -0.749695	</normal>
+		<d>	-3.588104	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.659247 -0.751927	</normal>
+		<d>	-3.575300	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.566331 -0.802514 -0.187723	</normal>
+		<d>	-12.716277	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.683769 -0.729699 0.000000	</normal>
+		<d>	-3.807573	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.563871 -0.804872 -0.185014	</normal>
+		<d>	-4.233131	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000072 -0.999833 -0.018247	</normal>
+		<d>	-10.799223	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.999818 0.019068	</normal>
+		<d>	-11.026053	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.632430 -0.666477 0.394766	</normal>
+		<d>	-5.826542	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.011665 0.999932 0.000000	</normal>
+		<d>	-0.335861	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.999896 -0.014407	</normal>
+		<d>	-0.163480	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.011887 0.999848 0.012790	</normal>
+		<d>	-0.236979	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.999762 0.021803	</normal>
+		<d>	-0.378891	</d>
+	</boundary>
+	<boundary>
+		<normal>	-0.011664 0.999848 0.012960	</normal>
+		<d>	-0.412942	</d>
+	</boundary>
+	<customHull>	true	</customHull>
+	<customBsp>	true	</customBsp>
+	<materialKind>	2	</materialKind>
+</three_way_lightshaft.visual>

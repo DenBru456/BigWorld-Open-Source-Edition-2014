@@ -1,0 +1,55 @@
+<fireworks_box.model>
+	<action>
+		<name>	fireworks_wick	</name>
+		<animation>	fireworks_wick	</animation>
+	</action>
+	<action>
+		<name>	fireworks_burntwick	</name>
+		<animation>	fireworks_burntwick	</animation>
+		<track>	2	</track>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	fireworks_launch	</name>
+		<animation>	fireworks_launch	</animation>
+		<track>	0	</track>
+	</action>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	fireworks_launch	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/fireworks_launch	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-13.156779 -62.231785 -0.248743	</min>
+		<max>	0.355999 1.456247 0.383538	</max>
+	</visibilityBox>
+	<nodefullVisual>	sets/town/props/fireworks_box	</nodefullVisual>
+	<animation>
+		<name>	fireworks_wick	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/fireworks_wick	</nodes>
+		<alpha>
+			<cracker_flying>	0.000000	</cracker_flying>
+			<wick>	1.000000	</wick>
+		</alpha>
+	</animation>
+	<animation>
+		<name>	fireworks_burntwick	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/town/props/fireworks_wick	</nodes>
+		<firstFrame>	70	</firstFrame>
+		<lastFrame>	70	</lastFrame>
+		<alpha>
+			<cracker_flying>	0.000000	</cracker_flying>
+			<box_bone>	0.000000	</box_bone>
+			<wick>	1.000000	</wick>
+		</alpha>
+	</animation>
+	<extent>	150.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377614	</modified_on>
+	</metaData>
+</fireworks_box.model>

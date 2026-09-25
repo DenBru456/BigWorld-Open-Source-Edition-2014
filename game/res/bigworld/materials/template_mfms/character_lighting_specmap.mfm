@@ -1,0 +1,14 @@
+<character_lighting_specmap.mfm>
+	<property>	specularMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	helpers\maps\aid_builder_norms.bmp	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+	<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+</character_lighting_specmap.mfm>

@@ -1,0 +1,1 @@
+batch_compiler.exe -cachePath \\ASSETCACHE\assetcache -j 8 -report report.html

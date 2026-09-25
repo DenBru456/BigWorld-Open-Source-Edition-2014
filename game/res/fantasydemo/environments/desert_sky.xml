@@ -1,0 +1,136 @@
+<desert_sky.xml>
+	<texture>	maps/fx/des_sky_gradient.tga	</texture>
+	<mieAmount>	0.400000	</mieAmount>
+	<turbidityOffset>	0.200000	</turbidityOffset>
+	<turbidityFactor>	0.100000	</turbidityFactor>
+	<vertexHeightEffect>	1.000000	</vertexHeightEffect>
+	<sunHeightEffect>	1.000000	</sunHeightEffect>
+	<power>	2.000000	</power>
+	<farPlane>	1000.000000	</farPlane>
+	<light_map>
+		<material>	system/materials/sky_light_map.mfm	</material>
+		<width>	512	</width>
+		<height>	512	</height>
+		<timeToleranceSecs>	0	</timeToleranceSecs>
+		<textureFeedName>	skyLightMap	</textureFeedName>
+		<effectTextureName>	SkyLightMap	</effectTextureName>
+		<effectTransformName>	SkyLightMapTransform	</effectTransformName>
+	</light_map>
+	<day_night_cycle>
+		<angle>	80.000000	</angle>
+		<moonAngle>	80.000000	</moonAngle>
+		<hourlength>	0.000000	</hourlength>
+		<starttime>	8.000000	</starttime>
+		<lightkey>
+			<time>	0.000000	</time>
+			<colour>	5.000000 0.000000 50.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	0.200000	</time>
+			<colour>	10.000000 5.000000 60.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	3.300000	</time>
+			<colour>	35.000000 30.000000 70.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	5.070000	</time>
+			<colour>	180.000000 45.000000 40.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	6.400000	</time>
+			<colour>	230.000000 100.000000 60.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	9.300000	</time>
+			<colour>	235.000000 180.000000 120.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	12.000000	</time>
+			<colour>	220.000000 160.000000 120.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	16.000000	</time>
+			<colour>	150.000000 110.000000 50.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	17.000000	</time>
+			<colour>	270.000000 110.000000 0.000000	</colour>
+		</lightkey>
+		<lightkey>
+			<time>	20.770000	</time>
+			<colour>	40.000000 35.000000 90.000000	</colour>
+		</lightkey>
+		<ambientkey>
+			<time>	0.000000	</time>
+			<colour>	35.000000 75.000000 120.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	3.000000	</time>
+			<colour>	40.000000 80.000000 120.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	4.000000	</time>
+			<colour>	85.000000 80.000000 85.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	5.000000	</time>
+			<colour>	120.000000 65.000000 75.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	8.470000	</time>
+			<colour>	120.000000 120.000000 50.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	11.370000	</time>
+			<colour>	130.000000 110.000000 70.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	18.000000	</time>
+			<colour>	120.000000 80.000000 60.000000	</colour>
+		</ambientkey>
+		<ambientkey>
+			<time>	20.000000	</time>
+			<colour>	35.000000 75.000000 120.000000	</colour>
+		</ambientkey>
+	</day_night_cycle>
+	<HDR>
+		<version>	1	</version>
+		<enable>	false	</enable>
+		<adaptationSpeed>	60.000000	</adaptationSpeed>
+		<avgLumUpdateInterval>	0.250000	</avgLumUpdateInterval>
+		<bloom>
+			<enable>	true	</enable>
+			<brightThreshold>	2.000000	</brightThreshold>
+			<brightOffset>	1.000000	</brightOffset>
+			<factor>	1.500000	</factor>
+		</bloom>
+		<tonemapping>
+			<eyeDarkLimit>	0.050000	</eyeDarkLimit>
+			<eyeLightLimit>	1.500000	</eyeLightLimit>
+			<middleGray>	0.500000	</middleGray>
+			<whitePoint>	1.500000	</whitePoint>
+		</tonemapping>
+		<environment>
+			<skyLumMultiplier>	5.000000	</skyLumMultiplier>
+			<sunLumMultiplier>	4.500000	</sunLumMultiplier>
+			<ambientLumMultiplier>	1.000000	</ambientLumMultiplier>
+			<fogLumMultiplier>	1.000000	</fogLumMultiplier>
+		</environment>
+		<gammaCorrection>
+			<enabled>	false	</enabled>
+			<gamma>	2.200000	</gamma>
+		</gammaCorrection>
+	</HDR>
+	<SSAO>
+		<enable>	true	</enable>
+		<redius>	0.040000	</redius>
+		<amplify>	1.000000	</amplify>
+		<fade>	3.000000	</fade>
+		<influences>
+			<speedtree>	1.000000 0.000000	</speedtree>
+			<terrain>	1.000000 0.000000	</terrain>
+			<objects>	1.000000 0.000000	</objects>
+		</influences>
+	</SSAO>
+</desert_sky.xml>

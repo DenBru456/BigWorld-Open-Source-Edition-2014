@@ -1,0 +1,37 @@
+# Sample logrotate script for message_logger.
+#
+# Before installing this script into /etc/logrotate.d, you should make sure that
+# message_logger.conf is correctly set up.  In particular, make sure that
+# 'default_archive' is set to the location you want to archive your logs to.
+#
+# You will also need to edit a few values here to tailor this script for your
+# particular system:
+#
+# - the location of the server tools
+# - the location of the logs
+# - ensure the archive name matches the one listed in message_logger.conf
+# - if you don't want to automatically clean up dirty segments, delete the last
+#   line of the 'lastaction' block
+#
+# *** IMPORTANT NOTE ***
+#
+# As there is no way to force logrotate to execute the 'lastaction' script when
+# the logfile doesn't exist, you have to 'seed' the archives directory with the
+# first .tar.gz.  The best way to do this is to run the statements from the
+# 'lastaction' block yourself, which will also help flush out any setup errors
+# before you begin trusting the automated rolling process.
+
+<default_archive> /var/log/bigworld/message_logger.log
+{
+	daily
+	rotate 7
+	nocompress
+	nocreate
+	missingok
+	nomail
+	lastaction
+		###bigworld_initrd_dir###/bw_message_logger logrotate > /dev/null 2>&1 || true
+		###bigworld_initrd_dir###/bw_message_logger summarise > /dev/null 2>&1 || true
+	endscript
+}
+

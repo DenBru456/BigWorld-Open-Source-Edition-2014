@@ -1,0 +1,301 @@
+<minimap_small.gui>
+	<WindowGUIComponent>	298167760
+		<position>	1.000000 1.000000 0.900000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	256.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	270.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/mini_map.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.527344	</coords1>
+			<coords2>	1.000000 0.527344	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.SmallMinimap&quot;	</script>
+		<children>
+			<maximise>	298022448	</maximise>
+			<cellBoundaries>	302139408	</cellBoundaries>
+			<simpleEntries>	298012528	</simpleEntries>
+			<zoomOut>	301136192	</zoomOut>
+			<zoomIn>	293911792	</zoomIn>
+			<region>	993808352	</region>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<SimpleGUIComponent>	298022448
+		<position>	231.000000 60.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	31.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	31.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/mini_map.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.001953 0.807617	</coords0>
+			<coords1>	0.001953 0.875977	</coords1>
+			<coords2>	0.138672 0.875977	</coords2>
+			<coords3>	0.138672 0.807617	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<placement>	left </placement>
+				<items>
+					<text> Display the large minimap </text>
+				</items>
+			</toolTipInfo>
+			<visualStates>
+				<external>	gui/visual_states/minimap_expand_button.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	302139408
+		<position>	21.000000 175.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	35.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	35.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/mini_map.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.412109 0.739258	</coords0>
+			<coords1>	0.412109 0.807617	</coords1>
+			<coords2>	0.548828 0.807617	</coords2>
+			<coords3>	0.548828 0.739258	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<placement>	left </placement>
+				<items>
+					<text> Toggle the display of cell boundaries </text>					
+				</items>
+			</toolTipInfo>
+			<visualStates>	
+				<external>	gui/visual_states/minimap_cell_boundaries_button.xml </external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	298012528
+		<position>	32.000000 205.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	35.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	35.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/mini_map.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.412109 0.670898	</coords0>
+			<coords1>	0.412109 0.739258	</coords1>
+			<coords2>	0.548828 0.739258	</coords2>
+			<coords3>	0.548828 0.670898	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<placement>	left </placement>
+				<items>
+					<text> Toggle the display of entities</text>					
+				</items>
+			</toolTipInfo>
+			<visualStates>
+				<external> gui/visual_states/minimap_simple_entries_button.xml </external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	301136192
+		<position>	50.000000 231.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	35.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	35.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/mini_map.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.001953 0.602539	</coords0>
+			<coords1>	0.001953 0.670898	</coords1>
+			<coords2>	0.138672 0.670898	</coords2>
+			<coords3>	0.138672 0.602539	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<placement>	left </placement>
+				<items>
+					<text> Zoom out on the map</text>
+				</items>
+			</toolTipInfo>
+			<visualStates>
+				<external>	gui/visual_states/minimap_zoom_out_button.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	293911792
+		<position>	74.000000 253.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	35.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	35.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/mini_map.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.001953 0.534180	</coords0>
+			<coords1>	0.001953 0.602539	</coords1>
+			<coords2>	0.138672 0.602539	</coords2>
+			<coords3>	0.138672 0.534180	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<placement>	left </placement>
+				<items>
+					<text> Zoom in on the map</text>
+				</items>
+			</toolTipInfo>
+			<visualStates>	
+				<external>	gui/visual_states/minimap_zoom_in_button.xml	</external>
+			</visualStates>
+		</script>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	993808352
+		<position>	0.001000 21.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.232422	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.065104	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_18.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Current Region	</label>
+		<font>	Heading.font	</font>
+		<pixelSnap>	true	</pixelSnap>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+</minimap_small.gui>

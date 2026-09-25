@@ -1,0 +1,108 @@
+<fffffffeo.chunk>
+	<waypointGenerationTime>
+		<hi>	29734719	</hi>
+		<lo>	-771029620	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.206003 -0.000000 1.044867	</row0>
+			<row1>	-0.000001 1.064982 -0.000000	</row1>
+			<row2>	-1.044867 -0.000001 -0.206003	</row2>
+			<row3>	24.155457 7.388889 86.859329	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.527650 -0.000001 0.839412	</row0>
+			<row1>	-0.000001 0.991478 -0.000000	</row1>
+			<row2>	-0.839412 -0.000001 -0.527650	</row2>
+			<row3>	16.944832 10.720570 78.485397	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.232510 0.000001 0.943285	</row0>
+			<row1>	-0.000001 0.971519 -0.000000	</row1>
+			<row2>	-0.943285 -0.000001 0.232510	</row2>
+			<row3>	17.322456 13.082050 66.534546	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.909156 -0.000001 -0.263329	</row0>
+			<row1>	-0.000001 0.946524 0.000000	</row1>
+			<row2>	0.263329 0.000000 -0.909156	</row2>
+			<row3>	81.085770 8.225193 59.788513	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.473590 -0.000000 0.370886	</row0>
+			<row1>	-0.000000 0.306083 0.000000	</row1>
+			<row2>	-0.369512 0.000000 0.475255	</row2>
+			<row3>	85.587189 -3.311138 97.973793	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/temperate/props/brush.model	</resource>
+		<transform>
+			<row0>	-1.742841 -0.110707 -0.605866	</row0>
+			<row1>	-0.453150 1.461972 1.036397	</row1>
+			<row2>	0.417115 1.125703 -1.405572	</row2>
+			<row3>	81.548714 -0.504884 95.385139	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	fffffffeo.cdata/terrain2	</resource>
+	</terrain>
+	<overlapper>	00am0006i	</overlapper>
+	<overlapper>	00am0007i	</overlapper>
+	<overlapper>	00am0009i	</overlapper>
+	<overlapper>	00am0002i	</overlapper>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	9F9B90FF.4346067D.D3A37384.722E6E74	</guid>
+		<type>	TeleportPoint	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	18.217171 1.280624 6.801910	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<label>	demo1	</label>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	fffffffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</fffffffeo.chunk>

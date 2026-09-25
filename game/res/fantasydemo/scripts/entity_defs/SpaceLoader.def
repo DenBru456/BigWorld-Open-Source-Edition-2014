@@ -1,0 +1,71 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> Recorder </Interface>
+	</Implements>
+
+	<Properties>
+		<!-- Base properties -->
+		<spaceDir>
+			<Type>			STRING			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</spaceDir>
+
+		<realm>
+			<Type>			REALM_ID		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</realm>
+
+		<startPosition>
+			<Type>			VECTOR3			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</startPosition>
+
+		<isDefault>
+			<Type>			INT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</isDefault>
+
+		<wasAutoLoaded>
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</wasAutoLoaded>
+
+		<createdEntities>
+			<Type>	ARRAY <of> MAILBOX </of> </Type>
+			<Flags>			BASE			</Flags>
+		</createdEntities>
+
+		<spaceEntryID>
+			<Type>			PYTHON			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</spaceEntryID>
+
+	</Properties>
+
+	<TempProperties>
+		<!-- The EntityLoader instance for later use in case failures -->
+		<_entityLoader/>
+	</TempProperties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+
+		<addGeometryMappingIfNeeded>
+			<Args>
+				<geometryToMap> STRING </geometryToMap>
+			</Args>
+		</addGeometryMappingIfNeeded>
+
+	</CellMethods>
+</root>

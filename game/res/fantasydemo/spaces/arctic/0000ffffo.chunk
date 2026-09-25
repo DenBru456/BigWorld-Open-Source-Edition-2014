@@ -1,0 +1,70 @@
+<root>
+	<model>
+		<resource>	sets/t_ice/props/pine_snow01.model	</resource>
+		<animation>
+			<name>	pine_snow01	</name>
+			<frameRateMultiplier>	1.000000	</frameRateMultiplier>
+		</animation>
+		<transform>
+			<row0>	-1.933553 0.000000 -4.785709	</row0>
+			<row1>	0.000000 5.161553 0.000000	</row1>
+			<row2>	4.785709 0.000000 -1.933553	</row2>
+			<row3>	99.304398 -8.146639 77.230865	</row3>
+		</transform>
+	</model>
+	<waypointGenerationTime>
+		<hi>	29734716	</hi>
+		<lo>	-1598783982	</lo>
+	</waypointGenerationTime>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	0.438941 0.000000 0.438941	</row0>
+			<row1>	0.000000 0.462602 0.000000	</row1>
+			<row2>	-0.438941 0.000000 0.438941	</row2>
+			<row3>	5.623631 -20.622475 58.442493	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.596249 -0.000001 -0.172699	</row0>
+			<row1>	-0.000001 0.462602 -0.000000	</row1>
+			<row2>	0.172699 0.000000 -0.596249	</row2>
+			<row3>	25.586159 -13.070034 25.039688	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	1.195920 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.195920 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.195920	</row2>
+			<row3>	4.268383 -24.185266 47.209877	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/t_ice/props/ice_rock_02.model	</resource>
+		<transform>
+			<row0>	-0.807426 -0.000001 0.444745	</row0>
+			<row1>	-0.000002 1.195920 0.000000	</row1>
+			<row2>	-0.817090 -0.000001 -1.483411	</row2>
+			<row3>	32.192619 -17.835114 34.224625	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0000ffffo.cdata/terrain2	</resource>
+	</terrain>
+	<worldNavmesh>
+		<resource>	0000ffffo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

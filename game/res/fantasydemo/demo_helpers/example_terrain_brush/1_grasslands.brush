@@ -1,0 +1,21 @@
+<root>
+	<type>	TerrainPainting	</type>
+	<texture>	maps/landscape/grasslands.tga	</texture>
+	<strength>	100.000000	</strength>
+	<size>	777.299988	</size>
+	<uProjection>	0.125000 0.000000 0.000000 0.000000	</uProjection>
+	<vProjection>	0.000000 0.000000 0.125000 0.000000	</vProjection>
+	<opacity>	255	</opacity>
+	<uvLocked>	true	</uvLocked>
+	<heightMask>	true
+		<h1>	-130.000000	</h1>
+		<h2>	-100.000000	</h2>
+		<h3>	200.000000	</h3>
+		<h4>	230.000000	</h4>
+	</heightMask>
+	<slopeMask>	false	</slopeMask>
+	<textureMask>	false	</textureMask>
+	<noiseMask>	false	</noiseMask>
+	<maxLayerLimit>	false	</maxLayerLimit>
+	<maxLayers>	4	</maxLayers>
+</root>

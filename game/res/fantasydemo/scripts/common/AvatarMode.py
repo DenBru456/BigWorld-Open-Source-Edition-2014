@@ -1,0 +1,39 @@
+NONE						= -1
+SHONK						= 0
+HANDSHAKE				= 1
+PULLUP					= 2
+PUSHUP					= 3
+JOIN_GROUP				= 4
+THROW						= 5
+THROW_CROUCHED			= 6
+CATCH						= 7
+CATCH_CROUCHED			= 8
+
+ANSWERABLE				= 64
+
+COMBAT_UNLOCKED		= 64
+COMBAT_LOCKED			= 65
+USING_ITEM				= 66
+CROUCH					= 67
+SEATED					= 68
+COMBAT_CLOSE			= 69
+SNEAK						= 70
+USING_ITEM_CROUCHED	= 71
+BLINDED					= 72
+STUNNED					= 73
+ALERT_SCAN				= 74
+TRADE_PASSIVE			= 75
+TRADE_ACTIVE			= 76
+COMMERCE					= 77
+WEB_SCREEN					= 78
+
+DEAD						= 127
+
+
+NO_TARGET = -1
+
+
+def isAnswerable( mode ):
+	return mode < ANSWERABLE
+
+# AvatarMode.py

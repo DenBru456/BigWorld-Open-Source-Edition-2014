@@ -1,0 +1,217 @@
+<spider.model>
+	<action>
+		<name>	spider_walk_backward	</name>
+		<animation>	spider_walk_backward	</animation>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	94.000000	</minModelYaw>
+				<maxModelYaw>	266.000000	</maxModelYaw>
+			</trigger>
+			<scalePlaybackSpeed>	true	</scalePlaybackSpeed>
+			<feetFollowDirection>	true	</feetFollowDirection>
+		</match>
+		<isMovement>	true	</isMovement>
+	</action>
+	<action>
+		<name>	Die	</name>
+		<animation>	spider_death	</animation>
+	</action>
+	<action>
+		<name>	Dead	</name>
+		<animation>	spider_dead	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	spider_turn_left	</name>
+		<animation>	spider_turn_left	</animation>
+		<isImpacting>	true	</isImpacting>
+		<track>	0	</track>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	1.000000	</maxEntitySpeed>
+				<minEntityAux1>	-180.000000	</minEntityAux1>
+				<maxEntityAux1>	-80.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+				<capsOff>	0 8	</capsOff>
+			</trigger>
+			<promoteMotion>	true	</promoteMotion>
+			<oneShot>	true	</oneShot>
+			<cancel>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	40.000000	</minEntityAux1>
+				<maxEntityAux1>	180.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+			</cancel>
+		</match>
+	</action>
+	<action>
+		<name>	spider_turn_right	</name>
+		<animation>	spider_turn_right	</animation>
+		<match>
+			<cancel>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	-180.000000	</minEntityAux1>
+				<maxEntityAux1>	-40.000000	</maxEntityAux1>
+			</cancel>
+			<trigger>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	1.000000	</maxEntitySpeed>
+				<minEntityAux1>	80.000000	</minEntityAux1>
+				<maxEntityAux1>	180.000000	</maxEntityAux1>
+				<capsOff>	0 8	</capsOff>
+			</trigger>
+			<oneShot>	true	</oneShot>
+			<promoteMotion>	true	</promoteMotion>
+		</match>
+		<isImpacting>	true	</isImpacting>
+		<track>	0	</track>
+	</action>
+	<action>
+		<name>	spider_walk	</name>
+		<animation>	spider_walk	</animation>
+		<isMovement>	true	</isMovement>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	50.000000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-95.000000	</minModelYaw>
+				<maxModelYaw>	95.000000	</maxModelYaw>
+				<capsOff>	0 8	</capsOff>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+			<scalePlaybackSpeed>	true	</scalePlaybackSpeed>
+		</match>
+		<track>	0	</track>
+	</action>
+	<action>
+		<name>	spider_walk_alternative	</name>
+		<animation>	spider_walk_alternative	</animation>
+	</action>
+	<action>
+		<name>	spider_dig	</name>
+		<animation>	spider_dig	</animation>
+	</action>
+	<action>
+		<name>	spider_dug	</name>
+		<animation>	spider_dug	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	spider_recoil	</name>
+		<animation>	spider_recoil	</animation>
+		<track>	-1	</track>
+	</action>
+	<action>
+		<name>	spider_spawn	</name>
+		<animation>	spider_spawn	</animation>
+	</action>
+	<action>
+		<name>	spider_idle	</name>
+		<animation>	spider_idle	</animation>
+		<match>
+			<trigger>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+				<maxEntitySpeed>	0.100000	</maxEntitySpeed>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<capsOff>	0 8	</capsOff>
+			</trigger>
+		</match>
+	</action>
+	<materialNames>
+		<material>
+			<original>	Object03_mtl [Ob_skinned	</original>
+			<display>	Spider	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-3.434478 -3.458201 -3.604798	</min>
+		<max>	3.485019 4.045617 3.419432	</max>
+	</visibilityBox>
+	<animation>
+		<name>	spider_walk	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_walk	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_spawn	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_spawn	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_turn_left	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_turn_left	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_turn_right	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_turn_right	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_walk_alternative	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_walk_alternative	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_idle	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_idle	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_dead	</name>
+		<frameRate>	1.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_dead	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_death	</name>
+		<frameRate>	60.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_death	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_dig	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_dig	</nodes>
+	</animation>
+	<nodefullVisual>	characters/npc/spider/spider	</nodefullVisual>
+	<animation>
+		<name>	spider_recoil	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_recoil	</nodes>
+	</animation>
+	<animation>
+		<name>	spider_dug	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_dig	</nodes>
+		<firstFrame>	64	</firstFrame>
+		<lastFrame>	64	</lastFrame>
+	</animation>
+	<extent>	270.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1287112675	</modified_on>
+	</metaData>
+	<animation>
+		<name>	spider_walk_backward	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/spider/spider_walk_backward	</nodes>
+	</animation>
+</spider.model>

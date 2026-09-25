@@ -1,0 +1,49 @@
+<montereycypress_lod2.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	montereycypress	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	specularMap
+						<Texture>	sets/indie/props/trees/montereycypress/maps/montereycypress_color.tga	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	124	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	sets/indie/props/trees/montereycypress/maps/montereycypress_normals.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/indie/props/trees/montereycypress/maps/montereycypress_color.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-34.008945 -1.788037 -23.809532	</min>
+		<max>	34.991863 69.966354 28.910414	</max>
+	</boundingBox>
+</montereycypress_lod2.visual>

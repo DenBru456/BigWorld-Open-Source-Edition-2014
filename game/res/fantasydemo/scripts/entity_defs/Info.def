@@ -1,0 +1,25 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<text>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+		</text>
+		<showWhenNear>
+			<Type>		BOOL			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	1			</Default>
+		</showWhenNear>
+		<modelType>
+			<Type>		INT8			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Editable>	true			</Editable>
+			<Default>	1				</Default>
+		</modelType>
+	</Properties>
+</root>

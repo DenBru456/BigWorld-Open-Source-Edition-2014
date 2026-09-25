@@ -1,0 +1,18 @@
+<testAdvancedRunBenchmarks.xml>
+	<currentLocation>	5	</currentLocation>
+	<command>	CMD_RUN_BENCHMARK
+		<benchmark>	RunProfilerMinspec	</benchmark>
+	</command>
+	<command>	CMD_RUN_BENCHMARK
+		<benchmark>	RunProfilerMinspec1	</benchmark>
+	</command>
+	<command>	CMD_RUN_BENCHMARK
+		<benchmark>	RunProfilerUrban	</benchmark>
+	</command>
+	<command>	CMD_RUN_BENCHMARK
+		<benchmark>	RunProfilerHighlands	</benchmark>
+	</command>
+	<command>	CMD_RUN_BENCHMARK
+		<benchmark>	RunProfilerMain10	</benchmark>
+	</command>
+</testAdvancedRunBenchmarks.xml>

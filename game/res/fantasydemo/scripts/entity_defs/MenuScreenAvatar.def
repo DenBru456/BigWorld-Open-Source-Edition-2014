@@ -1,0 +1,17 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Properties>
+		<avatarModel>
+			<Type>			PERSISTENT_AVATAR_MODEL	</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</avatarModel>
+
+		<realm>
+			<Type>			REALM_ID			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Editable>		true				</Editable>
+		</realm>
+	</Properties>
+</root>

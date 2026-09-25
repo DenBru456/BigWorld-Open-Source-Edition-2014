@@ -1,0 +1,273 @@
+<root>
+	<!--
+	this file contains the presets for graphics settings.
+	The presets are organised in the same way as the options.xml 
+	file in the game folder.
+	You can have as many presets as you want. 
+	The tags are organised like this:
+	<graphicsPreferences> HIGH <--- Name of the preset
+		<entry> <--- a graphics setting to change 
+			<label> TERRAIN_SPECULAR </label> <--- the name of the graphics setting
+			<activeOption> 0 </activeOption> <<
+		</entry>
+	</graphicsPreferences>
+	
+	-->
+
+	<graphicsPreferences> MAX
+		<entry>
+			<label>	RENDER_PIPELINE	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	DECALS_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	LIGHTING_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	POST_PROCESSING_QUALITY	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+
+	</graphicsPreferences>
+	<graphicsPreferences> HIGH
+		<entry>
+			<label>	RENDER_PIPELINE	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	DECALS_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	LIGHTING_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	POST_PROCESSING_QUALITY	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		
+	</graphicsPreferences>
+	<graphicsPreferences> MEDIUM
+		<defaultSetting>true</defaultSetting>
+		<entry>
+			<label>	RENDER_PIPELINE	</label>
+			<activeOption>	0	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	DECALS_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	LIGHTING_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	TERRAIN_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	POST_PROCESSING_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		
+	</graphicsPreferences>
+	<graphicsPreferences> LOW
+		<entry>
+			<label>	RENDER_PIPELINE	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	DECALS_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	LIGHTING_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>		
+		<entry>
+			<label>	TERRAIN_QUALITY	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	POST_PROCESSING_QUALITY	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+
+	</graphicsPreferences>
+	<graphicsPreferences> MIN
+		<entry>
+			<label>	RENDER_PIPELINE	</label>
+			<activeOption>	1	</activeOption>
+		</entry>
+		<entry>
+			<label>	TEXTURE_QUALITY	</label>
+			<activeOption>	2	</activeOption>
+		</entry>
+		<entry>
+			<label>	SHADOWS_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	DECALS_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	LIGHTING_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>		
+		<entry>
+			<label>	TERRAIN_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	WATER_QUALITY	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	FAR_PLANE	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	FLORA_QUALITY	</label>
+			<activeOption>	4	</activeOption>
+		</entry>
+		<entry>
+			<label>	OBJECT_LOD	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	SPEEDTREE_QUALITY	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+		<entry>
+			<label>	POST_PROCESSING_QUALITY	</label>
+			<activeOption>	3	</activeOption>
+		</entry>
+
+	</graphicsPreferences>
+</root>

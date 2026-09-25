@@ -1,0 +1,3162 @@
+<gargoyle_fire.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	AngelPelvis	</identifier>
+			<transform>
+				<row0>	-0.000000 0.988378 0.152013	</row0>
+				<row1>	-1.000000 -0.000000 -0.000000	</row1>
+				<row2>	-0.000000 -0.152013 0.988378	</row2>
+				<row3>	0.000000 2.319164 -0.380330	</row3>
+			</transform>
+			<node>
+				<identifier>	AngelSpine1	</identifier>
+				<transform>
+					<row0>	0.966734 -0.000000 0.255786	</row0>
+					<row1>	0.000000 1.000000 -0.000000	</row1>
+					<row2>	-0.255786 0.000000 0.966734	</row2>
+					<row3>	0.141778 0.000000 -0.066123	</row3>
+				</transform>
+				<node>
+					<identifier>	AngelSpine2	</identifier>
+					<transform>
+						<row0>	0.999082 -0.001050 0.042831	</row0>
+						<row1>	0.000993 0.999999 0.001348	</row1>
+						<row2>	-0.042833 -0.001304 0.999081	</row2>
+						<row3>	0.205702 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AngelSpine3	</identifier>
+						<transform>
+							<row0>	0.999336 -0.000332 0.036442	</row0>
+							<row1>	0.000304 1.000000 0.000775	</row1>
+							<row2>	-0.036442 -0.000763 0.999336	</row2>
+							<row3>	0.177412 -0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AngelSpine4	</identifier>
+							<transform>
+								<row0>	0.939712 -0.000275 0.341967	</row0>
+								<row1>	0.000063 1.000000 0.000631	</row1>
+								<row2>	-0.341967 -0.000572 0.939712	</row2>
+								<row3>	0.238083 0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelRibcage	</identifier>
+								<transform>
+									<row0>	0.991529 0.000018 -0.129884	</row0>
+									<row1>	-0.000009 1.000000 0.000077	</row1>
+									<row2>	0.129884 -0.000075 0.991529	</row2>
+									<row3>	0.240319 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	AngelRibcageBone01	</identifier>
+									<transform>
+										<row0>	1.000000 -0.000000 -0.000000	</row0>
+										<row1>	0.000000 1.000000 -0.000000	</row1>
+										<row2>	0.000000 -0.000000 1.000000	</row2>
+										<row3>	0.000000 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	AngelRibcageBone01BlendBonegrave_gargoyle	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 -0.000000	</row0>
+											<row1>	0.758806 -0.000000 -0.651317	</row1>
+											<row2>	0.651317 -0.000000 0.758806	</row2>
+											<row3>	-2.361586 -0.000000 2.245022	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	AngelRibcageBone01BlendBonegrave_gargoyle_unpush	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 -0.000000	</row0>
+											<row1>	0.758806 -0.000000 -0.651317	</row1>
+											<row2>	0.651317 -0.000000 0.758806	</row2>
+											<row3>	-2.361586 -0.000000 2.245022	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	AngelNeck1	</identifier>
+									<transform>
+										<row0>	0.487504 0.000021 0.873121	</row0>
+										<row1>	-0.000042 1.000000 -0.000001	</row1>
+										<row2>	-0.873121 -0.000036 0.487504	</row2>
+										<row3>	0.215825 -0.000000 0.032916	</row3>
+									</transform>
+									<node>
+										<identifier>	AngelNeck2	</identifier>
+										<transform>
+											<row0>	0.800908 0.056683 0.596099	</row0>
+											<row1>	-0.073396 0.997296 0.003782	</row1>
+											<row2>	-0.594272 -0.046780 0.802902	</row2>
+											<row3>	0.235228 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	AngelNeck3	</identifier>
+											<transform>
+												<row0>	0.999189 0.036731 -0.016513	</row0>
+												<row1>	-0.035932 0.998280 0.046318	</row1>
+												<row2>	0.018186 -0.045687 0.998790	</row2>
+												<row3>	0.227044 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	AngelHead	</identifier>
+												<transform>
+													<row0>	-0.413563 0.010032 -0.910420	</row0>
+													<row1>	-0.002246 0.999925 0.012038	</row1>
+													<row2>	0.910473 0.007024 -0.413510	</row2>
+													<row3>	0.227044 0.000000 -0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AngelHeadBone01	</identifier>
+													<transform>
+														<row0>	-0.763876 0.000000 0.645363	</row0>
+														<row1>	-0.000000 1.000000 0.000000	</row1>
+														<row2>	-0.645363 0.000000 -0.763876	</row2>
+														<row3>	-0.200511 0.000000 0.091971	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelHeadBone01BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.000000 -1.000000 0.000000	</row0>
+															<row1>	-0.953074 -0.000000 -0.302737	</row1>
+															<row2>	0.302737 -0.000000 -0.953074	</row2>
+															<row3>	2.519469 0.000000 1.394673	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelHeadBone01BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.000000 -1.000000 0.000000	</row0>
+															<row1>	-0.953074 -0.000000 -0.302737	</row1>
+															<row2>	0.302737 -0.000000 -0.953074	</row2>
+															<row3>	2.519469 0.000000 1.394673	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelHeadBlendBonegrave_gargoyle	</identifier>
+													<transform>
+														<row0>	-0.000000 -1.000000 -0.000000	</row0>
+														<row1>	0.923406 -0.000000 -0.383825	</row1>
+														<row2>	0.383825 -0.000000 0.923406	</row2>
+														<row3>	-3.025144 0.000000 0.652585	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	AngelHeadBlendBonegrave_gargoyle_unpush	</identifier>
+													<transform>
+														<row0>	-0.000000 -1.000000 -0.000000	</row0>
+														<row1>	0.923406 -0.000000 -0.383825	</row1>
+														<row2>	0.383825 -0.000000 0.923406	</row2>
+														<row3>	-3.025144 0.000000 0.652585	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	AngelNeck3BlendBonegrave_gargoyle	</identifier>
+												<transform>
+													<row0>	-0.000000 -1.000000 0.000000	</row0>
+													<row1>	-0.702697 -0.000000 -0.711490	</row1>
+													<row2>	0.711490 -0.000000 -0.702697	</row2>
+													<row3>	1.968608 0.000000 2.558187	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	AngelNeck3BlendBonegrave_gargoyle_unpush	</identifier>
+												<transform>
+													<row0>	-0.000000 -1.000000 0.000000	</row0>
+													<row1>	-0.702697 -0.000000 -0.711490	</row1>
+													<row2>	0.711490 -0.000000 -0.702697	</row2>
+													<row3>	1.968608 0.000000 2.558187	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	AngelNeck2BlendBonegrave_gargoyle	</identifier>
+											<transform>
+												<row0>	-0.000000 -1.000000 0.000000	</row0>
+												<row1>	-0.689411 -0.000000 -0.724370	</row1>
+												<row2>	0.724370 -0.000000 -0.689411	</row2>
+												<row3>	2.147979 0.000000 2.594175	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	AngelNeck2BlendBonegrave_gargoyle_unpush	</identifier>
+											<transform>
+												<row0>	-0.000000 -1.000000 0.000000	</row0>
+												<row1>	-0.689411 -0.000000 -0.724370	</row1>
+												<row2>	0.724370 -0.000000 -0.689411	</row2>
+												<row3>	2.147979 0.000000 2.594175	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	AngelNeck1BlendBonegrave_gargoyle	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000000	</row0>
+											<row1>	-0.155387 -0.000000 -0.987854	</row1>
+											<row2>	0.987854 -0.000000 -0.155387	</row2>
+											<row3>	0.527627 0.000000 3.355304	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	AngelNeck1BlendBonegrave_gargoyle_unpush	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000000	</row0>
+											<row1>	-0.155387 -0.000000 -0.987854	</row1>
+											<row2>	0.987854 -0.000000 -0.155387	</row2>
+											<row3>	0.527627 0.000000 3.355304	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	AngelLCollarbone	</identifier>
+									<transform>
+										<row0>	-0.128105 0.847761 0.514676	</row0>
+										<row1>	-0.991449 -0.096465 -0.087882	</row1>
+										<row2>	-0.024854 -0.521533 0.852869	</row2>
+										<row3>	0.127599 0.180787 0.230283	</row3>
+									</transform>
+									<node>
+										<identifier>	AngelLUpperarm	</identifier>
+										<transform>
+											<row0>	0.014687 0.882744 0.469624	</row0>
+											<row1>	0.016736 0.469392 -0.882831	</row1>
+											<row2>	-0.999752 0.020826 -0.007879	</row2>
+											<row3>	0.361008 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	AngelLForearm	</identifier>
+											<transform>
+												<row0>	0.737662 -0.451067 -0.502388	</row0>
+												<row1>	0.664795 0.615191 0.423779	</row1>
+												<row2>	0.117912 -0.646591 0.753669	</row2>
+												<row3>	0.677026 -0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	AngelLPalm	</identifier>
+												<transform>
+													<row0>	0.550715 -0.783389 0.288124	</row0>
+													<row1>	-0.013585 0.336727 0.941504	</row1>
+													<row2>	-0.834583 -0.522415 0.174798	</row2>
+													<row3>	0.603634 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AngelLDigit01	</identifier>
+													<transform>
+														<row0>	0.906686 0.417557 -0.059720	</row0>
+														<row1>	-0.075341 0.021012 -0.996937	</row1>
+														<row2>	-0.415023 0.908408 0.050510	</row2>
+														<row3>	0.005862 0.146002 -0.033664	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelLDigit02	</identifier>
+														<transform>
+															<row0>	0.885063 0.132896 -0.446097	</row0>
+															<row1>	-0.143662 0.989579 0.009775	</row1>
+															<row2>	0.442747 0.055436 0.894931	</row2>
+															<row3>	0.122126 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelLDigit02BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	0.005144 -0.043566 0.999037	</row0>
+																<row1>	-0.448391 -0.893087 -0.036636	</row1>
+																<row2>	0.893823 -0.447770 -0.024129	</row2>
+																<row3>	0.364971 1.755538 0.141166	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelLDigit02BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	0.005144 -0.043566 0.999037	</row0>
+																<row1>	-0.448391 -0.893087 -0.036636	</row1>
+																<row2>	0.893823 -0.447770 -0.024129	</row2>
+																<row3>	0.364971 1.755538 0.141166	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelLDigit01BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	0.453132 0.012954 0.891349	</row0>
+															<row1>	-0.284772 -0.945399 0.158510	</row1>
+															<row2>	0.844734 -0.325656 -0.424702	</row2>
+															<row3>	0.255444 1.793571 -0.019319	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelLDigit01BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	0.453132 0.012954 0.891349	</row0>
+															<row1>	-0.284772 -0.945399 0.158510	</row1>
+															<row2>	0.844734 -0.325656 -0.424702	</row2>
+															<row3>	0.255444 1.793571 -0.019319	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelLDigit11	</identifier>
+													<transform>
+														<row0>	0.916652 0.241420 -0.318537	</row0>
+														<row1>	-0.281461 0.955747 -0.085597	</row1>
+														<row2>	0.283776 0.168118 0.944038	</row2>
+														<row3>	0.173797 0.091821 0.019169	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelLDigit12	</identifier>
+														<transform>
+															<row0>	0.502531 0.020791 -0.864309	</row0>
+															<row1>	-0.035423 0.999367 0.003444	</row1>
+															<row2>	0.863833 0.028886 0.502949	</row2>
+															<row3>	0.138254 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelLDigit13	</identifier>
+															<transform>
+																<row0>	0.750742 0.031231 -0.659857	</row0>
+																<row1>	0.018700 0.997477 0.068485	</row1>
+																<row2>	0.660331 -0.063754 0.748264	</row2>
+																<row3>	0.047572 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelLDigit13BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	-0.207876 0.955730 0.208250	</row0>
+																	<row1>	-0.721991 -0.006279 -0.691874	</row1>
+																	<row2>	-0.659936 -0.294179 0.691334	</row2>
+																	<row3>	1.596015 0.325401 0.727722	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelLDigit13BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	-0.207876 0.955730 0.208250	</row0>
+																	<row1>	-0.721991 -0.006279 -0.691874	</row1>
+																	<row2>	-0.659936 -0.294179 0.691334	</row2>
+																	<row3>	1.596015 0.325401 0.727722	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelLDigit12BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	-0.000676 0.933550 0.358448	</row0>
+																<row1>	-0.999012 0.015298 -0.041723	</row1>
+																<row2>	-0.044434 -0.358122 0.932617	</row2>
+																<row3>	1.732389 0.328029 -0.486329	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelLDigit12BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	-0.000676 0.933550 0.358448	</row0>
+																<row1>	-0.999012 0.015298 -0.041723	</row1>
+																<row2>	-0.044434 -0.358122 0.932617	</row2>
+																<row3>	1.732389 0.328029 -0.486329	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelLDigit11BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	0.276230 0.943298 0.184080	</row0>
+															<row1>	-0.538619 -0.006688 0.842523	</row1>
+															<row2>	0.795982 -0.331880 0.506230	</row2>
+															<row3>	0.577108 0.349791 -1.740788	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelLDigit11BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	0.276230 0.943298 0.184080	</row0>
+															<row1>	-0.538619 -0.006688 0.842523	</row1>
+															<row2>	0.795982 -0.331880 0.506230	</row2>
+															<row3>	0.577108 0.349791 -1.740788	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelLDigit21	</identifier>
+													<transform>
+														<row0>	0.911969 -0.014107 -0.410016	</row0>
+														<row1>	0.004342 0.999685 -0.024736	</row1>
+														<row2>	0.410236 0.020778 0.911743	</row2>
+														<row3>	0.173241 0.000064 0.023425	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelLDigit22	</identifier>
+														<transform>
+															<row0>	0.732579 0.008812 -0.680625	</row0>
+															<row1>	0.044521 0.997155 0.060830	</row1>
+															<row2>	0.679224 -0.074865 0.730102	</row2>
+															<row3>	0.141229 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelLDigit23	</identifier>
+															<transform>
+																<row0>	0.606160 -0.019897 -0.795094	</row0>
+																<row1>	0.022473 0.999717 -0.007885	</row1>
+																<row2>	0.795025 -0.013088 0.606436	</row2>
+																<row3>	0.047289 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelLDigit23BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	0.001505 0.999372 -0.035395	</row0>
+																	<row1>	-0.714216 -0.023698 -0.699524	</row1>
+																	<row2>	-0.699923 0.026333 0.713732	</row2>
+																	<row3>	1.638768 0.279524 0.673557	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelLDigit23BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	0.001505 0.999372 -0.035395	</row0>
+																	<row1>	-0.714216 -0.023698 -0.699524	</row1>
+																	<row2>	-0.699923 0.026333 0.713732	</row2>
+																	<row3>	1.638768 0.279524 0.673557	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelLDigit22BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	-0.004769 0.999522 -0.030542	</row0>
+																<row1>	-0.989601 -0.000325 0.143840	</row1>
+																<row2>	0.143761 0.030911 0.989130	</row2>
+																<row3>	1.582419 0.238022 -0.896710	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelLDigit22BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	-0.004769 0.999522 -0.030542	</row0>
+																<row1>	-0.989601 -0.000325 0.143840	</row1>
+																<row2>	0.143761 0.030911 0.989130	</row2>
+																<row3>	1.582419 0.238022 -0.896710	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelLDigit21BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	0.020262 0.998923 0.041748	</row0>
+															<row1>	-0.627276 -0.019813 0.778545	</row1>
+															<row2>	0.778533 -0.041962 0.626199	</row2>
+															<row3>	0.702007 0.318422 -1.717246	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelLDigit21BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	0.020262 0.998923 0.041748	</row0>
+															<row1>	-0.627276 -0.019813 0.778545	</row1>
+															<row2>	0.778533 -0.041962 0.626199	</row2>
+															<row3>	0.702007 0.318422 -1.717246	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelLDigit31	</identifier>
+													<transform>
+														<row0>	0.755106 -0.344866 -0.557569	</row0>
+														<row1>	0.471146 0.876846 0.095720	</row1>
+														<row2>	0.455891 -0.334975 0.824594	</row2>
+														<row3>	0.172212 -0.087729 0.020117	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelLDigit32	</identifier>
+														<transform>
+															<row0>	0.574168 0.041506 -0.817684	</row0>
+															<row1>	-0.028056 0.999125 0.031015	</row1>
+															<row2>	0.818256 0.005133 0.574830	</row2>
+															<row3>	0.130071 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelLDigit33	</identifier>
+															<transform>
+																<row0>	0.879035 0.020602 -0.476312	</row0>
+																<row1>	-0.010323 0.999654 0.024187	</row1>
+																<row2>	0.476645 -0.016345 0.878944	</row2>
+																<row3>	0.042763 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelLDigit33BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	0.322436 0.881908 -0.343908	</row0>
+																	<row1>	-0.760281 0.024840 -0.649119	</row1>
+																	<row2>	-0.563920 0.470768 0.678507	</row2>
+																	<row3>	1.720012 0.009295 0.517174	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelLDigit33BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	0.322436 0.881908 -0.343908	</row0>
+																	<row1>	-0.760281 0.024840 -0.649119	</row1>
+																	<row2>	-0.563920 0.470768 0.678507	</row2>
+																	<row3>	1.720012 0.009295 0.517174	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelLDigit32BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	0.110407 0.893867 -0.434525	</row0>
+																<row1>	-0.977970 0.019778 -0.207807	</row1>
+																<row2>	-0.177158 0.447896 0.876358	</row2>
+																<row3>	1.801124 0.036275 -0.364471	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelLDigit32BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	0.110407 0.893867 -0.434525	</row0>
+																<row1>	-0.977970 0.019778 -0.207807	</row1>
+																<row2>	-0.177158 0.447896 0.876358	</row2>
+																<row3>	1.801124 0.036275 -0.364471	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelLDigit31BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.317239 0.895437 -0.312333	</row0>
+															<row1>	-0.732114 -0.021898 0.680831	</row1>
+															<row2>	0.602801 0.444650 0.662509	</row2>
+															<row3>	0.864972 0.109130 -1.681137	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelLDigit31BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.317239 0.895437 -0.312333	</row0>
+															<row1>	-0.732114 -0.021898 0.680831	</row1>
+															<row2>	0.602801 0.444650 0.662509	</row2>
+															<row3>	0.864972 0.109130 -1.681137	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelLPalmBlendBonegrave_gargoyle	</identifier>
+													<transform>
+														<row0>	0.039942 0.999189 0.005046	</row0>
+														<row1>	-0.252756 0.005219 0.967516	</row1>
+														<row2>	0.966705 -0.039921 0.252759	</row2>
+														<row3>	0.110357 0.272801 -1.837971	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	AngelLPalmBlendBonegrave_gargoyle_unpush	</identifier>
+													<transform>
+														<row0>	0.039942 0.999189 0.005046	</row0>
+														<row1>	-0.252756 0.005219 0.967516	</row1>
+														<row2>	0.966705 -0.039921 0.252759	</row2>
+														<row3>	0.110357 0.272801 -1.837971	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	AngelLForearmBlendBonegrave_gargoyle	</identifier>
+												<transform>
+													<row0>	0.109513 0.314519 0.942913	</row0>
+													<row1>	-0.962274 -0.204153 0.179860	</row1>
+													<row2>	0.249067 -0.927038 0.280295	</row2>
+													<row3>	2.277756 0.794509 -0.175534	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	AngelLForearmBlendBonegrave_gargoyle_unpush	</identifier>
+												<transform>
+													<row0>	0.109513 0.314519 0.942913	</row0>
+													<row1>	-0.962274 -0.204153 0.179860	</row1>
+													<row2>	0.249067 -0.927038 0.280295	</row2>
+													<row3>	2.277756 0.794509 -0.175534	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	AngelLUpperarmBlendBonegrave_gargoyle	</identifier>
+											<transform>
+												<row0>	0.226009 -0.361890 0.904409	</row0>
+												<row1>	-0.973869 -0.105210 0.201269	</row1>
+												<row2>	0.022315 -0.926265 -0.376212	</row2>
+												<row3>	3.070860 0.332502 -0.096062	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	AngelLUpperarmBlendBonegrave_gargoyle_unpush	</identifier>
+											<transform>
+												<row0>	0.226009 -0.361890 0.904409	</row0>
+												<row1>	-0.973869 -0.105210 0.201269	</row1>
+												<row2>	0.022315 -0.926265 -0.376212	</row2>
+												<row3>	3.070860 0.332502 -0.096062	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	AngelLCollarboneBlendBonegrave_gargoyle	</identifier>
+										<transform>
+											<row0>	-0.847761 0.096465 0.521533	</row0>
+											<row1>	-0.432424 -0.695079 -0.574348	</row1>
+											<row2>	0.307102 -0.712433 0.630974	</row2>
+											<row3>	1.202549 2.308280 1.874461	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	AngelLCollarboneBlendBonegrave_gargoyle_unpush	</identifier>
+										<transform>
+											<row0>	-0.847761 0.096465 0.521533	</row0>
+											<row1>	-0.432424 -0.695079 -0.574348	</row1>
+											<row2>	0.307102 -0.712433 0.630974	</row2>
+											<row3>	1.202549 2.308280 1.874461	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	AngelRCollarbone	</identifier>
+									<transform>
+										<row0>	-0.128105 -0.847761 0.514676	</row0>
+										<row1>	0.991449 -0.096465 0.087882	</row1>
+										<row2>	-0.024854 0.521533 0.852869	</row2>
+										<row3>	0.127599 -0.180787 0.230283	</row3>
+									</transform>
+									<node>
+										<identifier>	AngelRUpperarm	</identifier>
+										<transform>
+											<row0>	0.013224 -0.881179 0.472598	</row0>
+											<row1>	-0.018330 0.472347 0.881222	</row1>
+											<row2>	-0.999745 -0.020317 -0.009906	</row2>
+											<row3>	0.361008 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	AngelRForearm	</identifier>
+											<transform>
+												<row0>	0.739847 0.449469 -0.500605	</row0>
+												<row1>	-0.662437 0.616627 -0.425380	</row1>
+												<row2>	0.117491 0.646335 0.753954	</row2>
+												<row3>	0.677026 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	AngelRPalm	</identifier>
+												<transform>
+													<row0>	0.550731 0.781742 0.292531	</row0>
+													<row1>	0.011448 0.343362 -0.939133	</row1>
+													<row2>	-0.834604 0.520559 0.180150	</row2>
+													<row3>	0.603634 -0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AngelRDigit01	</identifier>
+													<transform>
+														<row0>	0.906686 -0.417557 -0.059720	</row0>
+														<row1>	0.075341 0.021012 0.996937	</row1>
+														<row2>	-0.415023 -0.908408 0.050511	</row2>
+														<row3>	0.005862 -0.146002 -0.033664	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelRDigit02	</identifier>
+														<transform>
+															<row0>	0.885063 -0.132896 -0.446097	</row0>
+															<row1>	0.143663 0.989579 -0.009775	</row1>
+															<row2>	0.442747 -0.055436 0.894931	</row2>
+															<row3>	0.122127 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelRDigit02BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	-0.005144 -0.043566 -0.999037	</row0>
+																<row1>	-0.448391 0.893087 -0.036636	</row1>
+																<row2>	0.893823 0.447770 -0.024130	</row2>
+																<row3>	0.364971 -1.755538 0.141165	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelRDigit02BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	-0.005144 -0.043566 -0.999037	</row0>
+																<row1>	-0.448391 0.893087 -0.036636	</row1>
+																<row2>	0.893823 0.447770 -0.024130	</row2>
+																<row3>	0.364971 -1.755538 0.141165	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelRDigit01BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.453132 0.012954 -0.891349	</row0>
+															<row1>	-0.284771 0.945399 0.158510	</row1>
+															<row2>	0.844734 0.325656 -0.424703	</row2>
+															<row3>	0.255444 -1.793571 -0.019319	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelRDigit01BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.453132 0.012954 -0.891349	</row0>
+															<row1>	-0.284771 0.945399 0.158510	</row1>
+															<row2>	0.844734 0.325656 -0.424703	</row2>
+															<row3>	0.255444 -1.793571 -0.019319	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelRDigit11	</identifier>
+													<transform>
+														<row0>	0.916652 -0.241420 -0.318537	</row0>
+														<row1>	0.281461 0.955747 0.085596	</row1>
+														<row2>	0.283776 -0.168118 0.944038	</row2>
+														<row3>	0.173797 -0.091821 0.019169	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelRDigit12	</identifier>
+														<transform>
+															<row0>	0.502531 -0.020791 -0.864309	</row0>
+															<row1>	0.035423 0.999366 -0.003444	</row1>
+															<row2>	0.863833 -0.028886 0.502949	</row2>
+															<row3>	0.138254 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelRDigit13	</identifier>
+															<transform>
+																<row0>	0.750742 -0.031231 -0.659857	</row0>
+																<row1>	-0.018700 0.997477 -0.068485	</row1>
+																<row2>	0.660331 0.063754 0.748264	</row2>
+																<row3>	0.047572 -0.000000 -0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelRDigit13BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	0.207876 0.955730 -0.208250	</row0>
+																	<row1>	-0.721991 0.006279 -0.691873	</row1>
+																	<row2>	-0.659936 0.294179 0.691334	</row2>
+																	<row3>	1.596016 -0.325400 0.727722	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelRDigit13BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	0.207876 0.955730 -0.208250	</row0>
+																	<row1>	-0.721991 0.006279 -0.691873	</row1>
+																	<row2>	-0.659936 0.294179 0.691334	</row2>
+																	<row3>	1.596016 -0.325400 0.727722	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelRDigit12BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	0.000676 0.933549 -0.358448	</row0>
+																<row1>	-0.999012 -0.015298 -0.041723	</row1>
+																<row2>	-0.044434 0.358122 0.932617	</row2>
+																<row3>	1.732388 -0.328029 -0.486329	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelRDigit12BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	0.000676 0.933549 -0.358448	</row0>
+																<row1>	-0.999012 -0.015298 -0.041723	</row1>
+																<row2>	-0.044434 0.358122 0.932617	</row2>
+																<row3>	1.732388 -0.328029 -0.486329	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelRDigit11BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.276231 0.943298 -0.184080	</row0>
+															<row1>	-0.538619 0.006687 0.842523	</row1>
+															<row2>	0.795982 0.331880 0.506230	</row2>
+															<row3>	0.577108 -0.349791 -1.740789	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelRDigit11BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.276231 0.943298 -0.184080	</row0>
+															<row1>	-0.538619 0.006687 0.842523	</row1>
+															<row2>	0.795982 0.331880 0.506230	</row2>
+															<row3>	0.577108 -0.349791 -1.740789	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelRDigit21	</identifier>
+													<transform>
+														<row0>	0.911969 0.014107 -0.410016	</row0>
+														<row1>	-0.004342 0.999685 0.024736	</row1>
+														<row2>	0.410236 -0.020778 0.911743	</row2>
+														<row3>	0.173241 -0.000064 0.023425	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelRDigit22	</identifier>
+														<transform>
+															<row0>	0.732579 -0.008812 -0.680625	</row0>
+															<row1>	-0.044522 0.997155 -0.060830	</row1>
+															<row2>	0.679224 0.074866 0.730103	</row2>
+															<row3>	0.141229 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelRDigit23	</identifier>
+															<transform>
+																<row0>	0.606160 0.019897 -0.795094	</row0>
+																<row1>	-0.022473 0.999716 0.007885	</row1>
+																<row2>	0.795025 0.013088 0.606435	</row2>
+																<row3>	0.047289 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelRDigit23BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	-0.001505 0.999372 0.035394	</row0>
+																	<row1>	-0.714216 0.023698 -0.699524	</row1>
+																	<row2>	-0.699923 -0.026333 0.713732	</row2>
+																	<row3>	1.638768 -0.279523 0.673556	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelRDigit23BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	-0.001505 0.999372 0.035394	</row0>
+																	<row1>	-0.714216 0.023698 -0.699524	</row1>
+																	<row2>	-0.699923 -0.026333 0.713732	</row2>
+																	<row3>	1.638768 -0.279523 0.673556	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelRDigit22BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	0.004769 0.999522 0.030541	</row0>
+																<row1>	-0.989601 0.000325 0.143840	</row1>
+																<row2>	0.143761 -0.030910 0.989130	</row2>
+																<row3>	1.582419 -0.238021 -0.896710	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelRDigit22BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	0.004769 0.999522 0.030541	</row0>
+																<row1>	-0.989601 0.000325 0.143840	</row1>
+																<row2>	0.143761 -0.030910 0.989130	</row2>
+																<row3>	1.582419 -0.238021 -0.896710	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelRDigit21BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.020262 0.998923 -0.041748	</row0>
+															<row1>	-0.627276 0.019813 0.778545	</row1>
+															<row2>	0.778533 0.041963 0.626199	</row2>
+															<row3>	0.702007 -0.318421 -1.717246	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelRDigit21BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.020262 0.998923 -0.041748	</row0>
+															<row1>	-0.627276 0.019813 0.778545	</row1>
+															<row2>	0.778533 0.041963 0.626199	</row2>
+															<row3>	0.702007 -0.318421 -1.717246	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelRDigit31	</identifier>
+													<transform>
+														<row0>	0.755106 0.344866 -0.557569	</row0>
+														<row1>	-0.471146 0.876846 -0.095721	</row1>
+														<row2>	0.455891 0.334975 0.824594	</row2>
+														<row3>	0.172212 0.087729 0.020117	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelRDigit32	</identifier>
+														<transform>
+															<row0>	0.574168 -0.041506 -0.817685	</row0>
+															<row1>	0.028056 0.999125 -0.031015	</row1>
+															<row2>	0.818257 -0.005133 0.574831	</row2>
+															<row3>	0.130071 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelRDigit33	</identifier>
+															<transform>
+																<row0>	0.879035 -0.020602 -0.476312	</row0>
+																<row1>	0.010323 0.999654 -0.024187	</row1>
+																<row2>	0.476645 0.016345 0.878944	</row2>
+																<row3>	0.042763 -0.000000 -0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelRDigit33BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	-0.322436 0.881908 0.343908	</row0>
+																	<row1>	-0.760281 -0.024840 -0.649119	</row1>
+																	<row2>	-0.563920 -0.470767 0.678507	</row2>
+																	<row3>	1.720012 -0.009295 0.517174	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelRDigit33BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	-0.322436 0.881908 0.343908	</row0>
+																	<row1>	-0.760281 -0.024840 -0.649119	</row1>
+																	<row2>	-0.563920 -0.470767 0.678507	</row2>
+																	<row3>	1.720012 -0.009295 0.517174	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelRDigit32BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	-0.110407 0.893867 0.434525	</row0>
+																<row1>	-0.977970 -0.019778 -0.207807	</row1>
+																<row2>	-0.177158 -0.447896 0.876358	</row2>
+																<row3>	1.801124 -0.036274 -0.364471	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelRDigit32BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	-0.110407 0.893867 0.434525	</row0>
+																<row1>	-0.977970 -0.019778 -0.207807	</row1>
+																<row2>	-0.177158 -0.447896 0.876358	</row2>
+																<row3>	1.801124 -0.036274 -0.364471	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelRDigit31BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	0.317238 0.895438 0.312332	</row0>
+															<row1>	-0.732114 0.021898 0.680831	</row1>
+															<row2>	0.602801 -0.444649 0.662509	</row2>
+															<row3>	0.864972 -0.109129 -1.681137	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelRDigit31BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	0.317238 0.895438 0.312332	</row0>
+															<row1>	-0.732114 0.021898 0.680831	</row1>
+															<row2>	0.602801 -0.444649 0.662509	</row2>
+															<row3>	0.864972 -0.109129 -1.681137	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelRPalmBlendBonegrave_gargoyle	</identifier>
+													<transform>
+														<row0>	-0.039943 0.999189 -0.005046	</row0>
+														<row1>	-0.252756 -0.005219 0.967516	</row1>
+														<row2>	0.966705 0.039921 0.252759	</row2>
+														<row3>	0.110357 -0.272800 -1.837972	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	AngelRPalmBlendBonegrave_gargoyle_unpush	</identifier>
+													<transform>
+														<row0>	-0.039943 0.999189 -0.005046	</row0>
+														<row1>	-0.252756 -0.005219 0.967516	</row1>
+														<row2>	0.966705 0.039921 0.252759	</row2>
+														<row3>	0.110357 -0.272800 -1.837972	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	AngelRForearmBlendBonegrave_gargoyle	</identifier>
+												<transform>
+													<row0>	-0.109513 0.314518 -0.942913	</row0>
+													<row1>	-0.962274 0.204153 0.179860	</row1>
+													<row2>	0.249067 0.927038 0.280295	</row2>
+													<row3>	2.277756 -0.794508 -0.175535	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	AngelRForearmBlendBonegrave_gargoyle_unpush	</identifier>
+												<transform>
+													<row0>	-0.109513 0.314518 -0.942913	</row0>
+													<row1>	-0.962274 0.204153 0.179860	</row1>
+													<row2>	0.249067 0.927038 0.280295	</row2>
+													<row3>	2.277756 -0.794508 -0.175535	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	AngelRUpperarmBlendBonegrave_gargoyle	</identifier>
+											<transform>
+												<row0>	-0.226009 -0.361890 -0.904409	</row0>
+												<row1>	-0.973869 0.105210 0.201269	</row1>
+												<row2>	0.022315 0.926265 -0.376213	</row2>
+												<row3>	3.070860 -0.332502 -0.096062	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	AngelRUpperarmBlendBonegrave_gargoyle_unpush	</identifier>
+											<transform>
+												<row0>	-0.226009 -0.361890 -0.904409	</row0>
+												<row1>	-0.973869 0.105210 0.201269	</row1>
+												<row2>	0.022315 0.926265 -0.376213	</row2>
+												<row3>	3.070860 -0.332502 -0.096062	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	AngelRCollarboneBlendBonegrave_gargoyle	</identifier>
+										<transform>
+											<row0>	0.847760 0.096465 -0.521533	</row0>
+											<row1>	-0.432424 0.695079 -0.574348	</row1>
+											<row2>	0.307102 0.712433 0.630974	</row2>
+											<row3>	1.202549 -2.308281 1.874461	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	AngelRCollarboneBlendBonegrave_gargoyle_unpush	</identifier>
+										<transform>
+											<row0>	0.847760 0.096465 -0.521533	</row0>
+											<row1>	-0.432424 0.695079 -0.574348	</row1>
+											<row2>	0.307102 0.712433 0.630974	</row2>
+											<row3>	1.202549 -2.308281 1.874461	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	WingLArmCollarbone	</identifier>
+									<transform>
+										<row0>	0.116665 0.845748 -0.520673	</row0>
+										<row1>	-0.990204 0.058554 -0.126759	</row1>
+										<row2>	-0.076718 0.530360 0.844294	</row2>
+										<row3>	0.198481 0.109791 0.046241	</row3>
+									</transform>
+									<node>
+										<identifier>	WingLArm1	</identifier>
+										<transform>
+											<row0>	0.832617 -0.376832 -0.405889	</row0>
+											<row1>	0.543316 0.697971 0.466524	</row1>
+											<row2>	0.107498 -0.608962 0.785882	</row2>
+											<row3>	0.220027 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	WingLArm2	</identifier>
+											<transform>
+												<row0>	0.981743 -0.179327 0.063424	</row0>
+												<row1>	-0.024913 0.209343 0.977525	</row1>
+												<row2>	-0.188574 -0.961258 0.201054	</row2>
+												<row3>	0.542440 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	WingLArmPalm	</identifier>
+												<transform>
+													<row0>	-0.357725 -0.139744 -0.923312	</row0>
+													<row1>	0.929678 0.039802 -0.366215	</row1>
+													<row2>	0.087926 -0.989387 0.115679	</row2>
+													<row3>	0.686766 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AngelLArmDigit2W1	</identifier>
+													<transform>
+														<row0>	0.907826 -0.410944 -0.083529	</row0>
+														<row1>	0.412228 0.911078 -0.002047	</row1>
+														<row2>	0.076942 -0.032575 0.996503	</row2>
+														<row3>	0.426682 0.026506 0.005340	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelLArmDigit2W2	</identifier>
+														<transform>
+															<row0>	0.952757 -0.292013 -0.083561	</row0>
+															<row1>	0.299002 0.950094 0.088991	</row1>
+															<row2>	0.053405 -0.109771 0.992521	</row2>
+															<row3>	0.860507 -0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelLArmDigit2W3	</identifier>
+															<transform>
+																<row0>	0.932717 -0.360457 -0.010503	</row0>
+																<row1>	0.353125 0.918872 -0.176005	</row1>
+																<row2>	0.073093 0.160454 0.984333	</row2>
+																<row3>	0.691265 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelLArmDigit2W3BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	0.219160 -0.789874 0.572772	</row0>
+																	<row1>	-0.971771 -0.229267 0.055665	</row1>
+																	<row2>	0.087348 -0.568803 -0.817823	</row2>
+																	<row3>	3.156346 -0.865378 -0.313063	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelLArmDigit2W3BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	0.219160 -0.789874 0.572772	</row0>
+																	<row1>	-0.971771 -0.229267 0.055665	</row1>
+																	<row2>	0.087348 -0.568803 -0.817823	</row2>
+																	<row3>	3.156346 -0.865378 -0.313063	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelLArmDigit2W2BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	-0.032643 -0.712887 0.700518	</row0>
+																<row1>	-0.983277 0.148547 0.105352	</row1>
+																<row2>	-0.179164 -0.685365 -0.705815	</row2>
+																<row3>	3.306772 -1.983133 -0.189001	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelLArmDigit2W2BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	-0.032643 -0.712887 0.700518	</row0>
+																<row1>	-0.983277 0.148547 0.105352	</row1>
+																<row2>	-0.179164 -0.685365 -0.705815	</row2>
+																<row3>	3.306772 -1.983133 -0.189001	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelLArmDigit2W1BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.206844 -0.744675 0.634567	</row0>
+															<row1>	-0.886782 0.416699 0.199947	</row1>
+															<row2>	-0.413319 -0.521365 -0.746556	</row2>
+															<row3>	3.408003 -2.829038 -0.640386	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelLArmDigit2W1BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.206844 -0.744675 0.634567	</row0>
+															<row1>	-0.886782 0.416699 0.199947	</row1>
+															<row2>	-0.413319 -0.521365 -0.746556	</row2>
+															<row3>	3.408003 -2.829038 -0.640386	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelLArmDigit1W1	</identifier>
+													<transform>
+														<row0>	0.650466 -0.757072 -0.061128	</row0>
+														<row1>	0.755882 0.653121 -0.045551	</row1>
+														<row2>	0.074410 -0.016577 0.997090	</row2>
+														<row3>	0.054799 -0.021978 -0.038623	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelLArmDigit1W2	</identifier>
+														<transform>
+															<row0>	0.995579 -0.090262 -0.025995	</row0>
+															<row1>	0.091152 0.995210 0.035340	</row1>
+															<row2>	0.022681 -0.037554 0.999037	</row2>
+															<row3>	0.710382 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelLArmDigit1W3	</identifier>
+															<transform>
+																<row0>	0.949020 -0.305655 -0.077054	</row0>
+																<row1>	0.299225 0.950414 -0.084722	</row1>
+																<row2>	0.099129 0.057346 0.993421	</row2>
+																<row3>	0.399426 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelLArmDigit1W3BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	0.350314 -0.693128 0.629963	</row0>
+																	<row1>	-0.918993 -0.384275 0.088236	</row1>
+																	<row2>	0.180919 -0.609842 -0.771597	</row2>
+																	<row3>	3.453500 0.610103 -0.205320	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelLArmDigit1W3BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	0.350314 -0.693128 0.629963	</row0>
+																	<row1>	-0.918993 -0.384275 0.088236	</row1>
+																	<row2>	0.180919 -0.609842 -0.771597	</row2>
+																	<row3>	3.453500 0.610103 -0.205320	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelLArmDigit1W2BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	0.187501 -0.729708 0.657548	</row0>
+																<row1>	-0.978380 -0.079266 0.191024	</row1>
+																<row2>	-0.087271 -0.679149 -0.728794	</row2>
+																<row3>	3.839067 -0.487503 -0.521764	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelLArmDigit1W2BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	0.187501 -0.729708 0.657548	</row0>
+																<row1>	-0.978380 -0.079266 0.191024	</row1>
+																<row2>	-0.087271 -0.679149 -0.728794	</row2>
+																<row3>	3.839067 -0.487503 -0.521764	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelLArmDigit1W1BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	0.135072 -0.767830 0.626253	</row0>
+															<row1>	-0.976947 0.002251 0.213472	</row1>
+															<row2>	-0.165320 -0.640650 -0.749825	</row2>
+															<row3>	4.476206 -0.812097 -0.638286	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelLArmDigit1W1BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	0.135072 -0.767830 0.626253	</row0>
+															<row1>	-0.976947 0.002251 0.213472	</row1>
+															<row2>	-0.165320 -0.640650 -0.749825	</row2>
+															<row3>	4.476206 -0.812097 -0.638286	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelLArmDigit3W1	</identifier>
+													<transform>
+														<row0>	0.892111 -0.448261 -0.056572	</row0>
+														<row1>	0.449628 0.893112 0.013622	</row1>
+														<row2>	0.044419 -0.037589 0.998306	</row2>
+														<row3>	0.031675 -0.003296 -0.019218	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelLArmDigit3W2	</identifier>
+														<transform>
+															<row0>	0.948911 -0.306635 -0.074447	</row0>
+															<row1>	0.308934 0.950844 0.021328	</row1>
+															<row2>	0.064248 -0.043237 0.996997	</row2>
+															<row3>	0.897689 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelLArmDigit3W3	</identifier>
+															<transform>
+																<row0>	0.950601 -0.307967 -0.038905	</row0>
+																<row1>	0.304678 0.949660 -0.072915	</row1>
+																<row2>	0.059402 0.057460 0.996579	</row2>
+																<row3>	0.634575 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelLArmDigit3W3BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	0.227156 -0.742662 0.629963	</row0>
+																	<row1>	-0.971010 -0.222156 0.088236	</row1>
+																	<row2>	0.074420 -0.631744 -0.771597	</row2>
+																	<row3>	3.292530 -0.475260 -0.250876	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelLArmDigit3W3BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	0.227156 -0.742662 0.629963	</row0>
+																	<row1>	-0.971010 -0.222156 0.088236	</row1>
+																	<row2>	0.074420 -0.631744 -0.771597	</row2>
+																	<row3>	3.292530 -0.475260 -0.250876	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelLArmDigit3W2BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	0.027083 -0.739035 0.673122	</row0>
+																<row1>	-0.985488 0.093137 0.141909	</row1>
+																<row2>	-0.167569 -0.667197 -0.725788	</row2>
+																<row3>	3.604753 -1.479743 -0.343458	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelLArmDigit3W2BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	0.027083 -0.739035 0.673122	</row0>
+																<row1>	-0.985488 0.093137 0.141909	</row1>
+																<row2>	-0.167569 -0.667197 -0.725788	</row2>
+																<row3>	3.604753 -1.479743 -0.343458	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelLArmDigit3W1BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.159367 -0.740116 0.653322	</row0>
+															<row1>	-0.897250 0.384609 0.216836	</row1>
+															<row2>	-0.411758 -0.551637 -0.725363	</row2>
+															<row3>	3.839071 -2.497503 -0.642349	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelLArmDigit3W1BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.159367 -0.740116 0.653322	</row0>
+															<row1>	-0.897250 0.384609 0.216836	</row1>
+															<row2>	-0.411758 -0.551637 -0.725363	</row2>
+															<row3>	3.839071 -2.497503 -0.642349	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	WingLArmPalmBlendBonegrave_gargoyle	</identifier>
+													<transform>
+														<row0>	-0.445930 -0.614126 0.651149	</row0>
+														<row1>	-0.617884 0.737551 0.272467	</row1>
+														<row2>	-0.647585 -0.280833 -0.708355	</row2>
+														<row3>	2.305074 -3.930607 -0.911683	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	WingLArmPalmBlendBonegrave_gargoyle_unpush	</identifier>
+													<transform>
+														<row0>	-0.445930 -0.614126 0.651149	</row0>
+														<row1>	-0.617884 0.737551 0.272467	</row1>
+														<row2>	-0.647585 -0.280833 -0.708355	</row2>
+														<row3>	2.305074 -3.930607 -0.911683	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	WingLArm2BlendBonegrave_gargoyle	</identifier>
+												<transform>
+													<row0>	-0.354167 -0.606366 0.711959	</row0>
+													<row1>	0.930674 -0.153874 0.331916	</row1>
+													<row2>	-0.091711 0.780156 0.618826	</row2>
+													<row3>	-3.872176 0.423443 -0.794316	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	WingLArm2BlendBonegrave_gargoyle_unpush	</identifier>
+												<transform>
+													<row0>	-0.354167 -0.606366 0.711959	</row0>
+													<row1>	0.930674 -0.153874 0.331916	</row1>
+													<row2>	-0.091711 0.780156 0.618826	</row2>
+													<row3>	-3.872176 0.423443 -0.794316	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	WingLArm1BlendBonegrave_gargoyle	</identifier>
+											<transform>
+												<row0>	-0.466852 -0.747803 -0.472059	</row0>
+												<row1>	0.854926 -0.518164 -0.024655	</row1>
+												<row2>	-0.226167 -0.415085 0.881222	</row2>
+												<row3>	-3.119804 1.546571 0.008635	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	WingLArm1BlendBonegrave_gargoyle_unpush	</identifier>
+											<transform>
+												<row0>	-0.466852 -0.747803 -0.472059	</row0>
+												<row1>	0.854926 -0.518164 -0.024655	</row1>
+												<row2>	-0.226167 -0.415085 0.881222	</row2>
+												<row3>	-3.119804 1.546571 0.008635	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	WingLArmCollarboneBlendBonegrave_gargoyle	</identifier>
+										<transform>
+											<row0>	-0.845748 -0.058554 -0.530360	</row0>
+											<row1>	0.427649 -0.668813 -0.608117	</row1>
+											<row2>	-0.319104 -0.741121 0.590688	</row2>
+											<row3>	-1.536370 2.249844 1.994592	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	WingLArmCollarboneBlendBonegrave_gargoyle_unpush	</identifier>
+										<transform>
+											<row0>	-0.845748 -0.058554 -0.530360	</row0>
+											<row1>	0.427649 -0.668813 -0.608117	</row1>
+											<row2>	-0.319104 -0.741121 0.590688	</row2>
+											<row3>	-1.536370 2.249844 1.994592	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	WingRArmCollarbone	</identifier>
+									<transform>
+										<row0>	0.116665 -0.845748 -0.520673	</row0>
+										<row1>	0.990204 0.058554 0.126758	</row1>
+										<row2>	-0.076718 -0.530360 0.844294	</row2>
+										<row3>	0.198481 -0.109791 0.046241	</row3>
+									</transform>
+									<node>
+										<identifier>	AngelRArm1	</identifier>
+										<transform>
+											<row0>	0.832617 0.376833 -0.405889	</row0>
+											<row1>	-0.543317 0.697971 -0.466524	</row1>
+											<row2>	0.107497 0.608962 0.785882	</row2>
+											<row3>	0.220027 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	WingRArm2	</identifier>
+											<transform>
+												<row0>	0.981743 0.179326 0.063424	</row0>
+												<row1>	0.024913 0.209343 -0.977525	</row1>
+												<row2>	-0.188573 0.961258 0.201054	</row2>
+												<row3>	0.542440 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	WingRArmPalm	</identifier>
+												<transform>
+													<row0>	-0.357725 0.139744 -0.923312	</row0>
+													<row1>	-0.929678 0.039802 0.366215	</row1>
+													<row2>	0.087926 0.989387 0.115679	</row2>
+													<row3>	0.686766 -0.000000 -0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	AngelRArmDigit2W1	</identifier>
+													<transform>
+														<row0>	0.907826 0.410944 -0.083529	</row0>
+														<row1>	-0.412228 0.911078 0.002046	</row1>
+														<row2>	0.076942 0.032575 0.996503	</row2>
+														<row3>	0.426682 -0.026507 0.005340	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelRArmDigit2W2	</identifier>
+														<transform>
+															<row0>	0.952757 0.292013 -0.083561	</row0>
+															<row1>	-0.299002 0.950094 -0.088991	</row1>
+															<row2>	0.053405 0.109771 0.992521	</row2>
+															<row3>	0.860507 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelRArmDigit2W3	</identifier>
+															<transform>
+																<row0>	0.932717 0.360457 -0.010503	</row0>
+																<row1>	-0.353125 0.918872 0.176005	</row1>
+																<row2>	0.073093 -0.160454 0.984333	</row2>
+																<row3>	0.691265 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelRArmDigit2W3BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	-0.219161 -0.789874 -0.572772	</row0>
+																	<row1>	-0.971771 0.229267 0.055665	</row1>
+																	<row2>	0.087348 0.568802 -0.817823	</row2>
+																	<row3>	3.156347 0.865377 -0.313064	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelRArmDigit2W3BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	-0.219161 -0.789874 -0.572772	</row0>
+																	<row1>	-0.971771 0.229267 0.055665	</row1>
+																	<row2>	0.087348 0.568802 -0.817823	</row2>
+																	<row3>	3.156347 0.865377 -0.313064	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelRArmDigit2W2BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	0.032643 -0.712888 -0.700518	</row0>
+																<row1>	-0.983278 -0.148547 0.105352	</row1>
+																<row2>	-0.179164 0.685365 -0.705815	</row2>
+																<row3>	3.306772 1.983133 -0.189001	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelRArmDigit2W2BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	0.032643 -0.712888 -0.700518	</row0>
+																<row1>	-0.983278 -0.148547 0.105352	</row1>
+																<row2>	-0.179164 0.685365 -0.705815	</row2>
+																<row3>	3.306772 1.983133 -0.189001	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelRArmDigit2W1BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	0.206844 -0.744675 -0.634566	</row0>
+															<row1>	-0.886782 -0.416699 0.199947	</row1>
+															<row2>	-0.413319 0.521364 -0.746557	</row2>
+															<row3>	3.408002 2.829037 -0.640386	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelRArmDigit2W1BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	0.206844 -0.744675 -0.634566	</row0>
+															<row1>	-0.886782 -0.416699 0.199947	</row1>
+															<row2>	-0.413319 0.521364 -0.746557	</row2>
+															<row3>	3.408002 2.829037 -0.640386	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelRArmDigit1W1	</identifier>
+													<transform>
+														<row0>	0.650466 0.757072 -0.061129	</row0>
+														<row1>	-0.755882 0.653121 0.045551	</row1>
+														<row2>	0.074410 0.016577 0.997090	</row2>
+														<row3>	0.054799 0.021978 -0.038623	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelRArmDigit1W2	</identifier>
+														<transform>
+															<row0>	0.995579 0.090262 -0.025995	</row0>
+															<row1>	-0.091152 0.995210 -0.035340	</row1>
+															<row2>	0.022681 0.037554 0.999037	</row2>
+															<row3>	0.710383 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelRArmDigit1W3	</identifier>
+															<transform>
+																<row0>	0.949019 0.305655 -0.077054	</row0>
+																<row1>	-0.299225 0.950414 0.084722	</row1>
+																<row2>	0.099129 -0.057346 0.993421	</row2>
+																<row3>	0.399426 -0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelRArmDigit1W3BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	-0.350314 -0.693128 -0.629963	</row0>
+																	<row1>	-0.918993 0.384275 0.088236	</row1>
+																	<row2>	0.180919 0.609841 -0.771597	</row2>
+																	<row3>	3.453499 -0.610103 -0.205320	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelRArmDigit1W3BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	-0.350314 -0.693128 -0.629963	</row0>
+																	<row1>	-0.918993 0.384275 0.088236	</row1>
+																	<row2>	0.180919 0.609841 -0.771597	</row2>
+																	<row3>	3.453499 -0.610103 -0.205320	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelRArmDigit1W2BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	-0.187501 -0.729708 -0.657548	</row0>
+																<row1>	-0.978380 0.079266 0.191024	</row1>
+																<row2>	-0.087271 0.679149 -0.728794	</row2>
+																<row3>	3.839069 0.487503 -0.521764	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelRArmDigit1W2BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	-0.187501 -0.729708 -0.657548	</row0>
+																<row1>	-0.978380 0.079266 0.191024	</row1>
+																<row2>	-0.087271 0.679149 -0.728794	</row2>
+																<row3>	3.839069 0.487503 -0.521764	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelRArmDigit1W1BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	-0.135072 -0.767830 -0.626253	</row0>
+															<row1>	-0.976947 -0.002251 0.213472	</row1>
+															<row2>	-0.165320 0.640649 -0.749825	</row2>
+															<row3>	4.476206 0.812097 -0.638286	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelRArmDigit1W1BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	-0.135072 -0.767830 -0.626253	</row0>
+															<row1>	-0.976947 -0.002251 0.213472	</row1>
+															<row2>	-0.165320 0.640649 -0.749825	</row2>
+															<row3>	4.476206 0.812097 -0.638286	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	AngelRArmDigit3W1	</identifier>
+													<transform>
+														<row0>	0.892111 0.448261 -0.056572	</row0>
+														<row1>	-0.449628 0.893112 -0.013622	</row1>
+														<row2>	0.044419 0.037588 0.998306	</row2>
+														<row3>	0.031674 0.003296 -0.019218	</row3>
+													</transform>
+													<node>
+														<identifier>	AngelRArmDigit3W2	</identifier>
+														<transform>
+															<row0>	0.948911 0.306636 -0.074447	</row0>
+															<row1>	-0.308934 0.950844 -0.021328	</row1>
+															<row2>	0.064248 0.043237 0.996997	</row2>
+															<row3>	0.897690 0.000000 -0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	AngelRArmDigit3W3	</identifier>
+															<transform>
+																<row0>	0.950601 0.307967 -0.038905	</row0>
+																<row1>	-0.304678 0.949660 0.072915	</row1>
+																<row2>	0.059402 -0.057460 0.996579	</row2>
+																<row3>	0.634575 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	AngelRArmDigit3W3BlendBonegrave_gargoyle	</identifier>
+																<transform>
+																	<row0>	-0.227156 -0.742662 -0.629963	</row0>
+																	<row1>	-0.971010 0.222156 0.088236	</row1>
+																	<row2>	0.074420 0.631744 -0.771597	</row2>
+																	<row3>	3.292531 0.475260 -0.250876	</row3>
+																</transform>
+															</node>
+															<node>
+																<identifier>	AngelRArmDigit3W3BlendBonegrave_gargoyle_unpush	</identifier>
+																<transform>
+																	<row0>	-0.227156 -0.742662 -0.629963	</row0>
+																	<row1>	-0.971010 0.222156 0.088236	</row1>
+																	<row2>	0.074420 0.631744 -0.771597	</row2>
+																	<row3>	3.292531 0.475260 -0.250876	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	AngelRArmDigit3W2BlendBonegrave_gargoyle	</identifier>
+															<transform>
+																<row0>	-0.027083 -0.739036 -0.673122	</row0>
+																<row1>	-0.985488 -0.093137 0.141909	</row1>
+																<row2>	-0.167569 0.667197 -0.725789	</row2>
+																<row3>	3.604753 1.479742 -0.343458	</row3>
+															</transform>
+														</node>
+														<node>
+															<identifier>	AngelRArmDigit3W2BlendBonegrave_gargoyle_unpush	</identifier>
+															<transform>
+																<row0>	-0.027083 -0.739036 -0.673122	</row0>
+																<row1>	-0.985488 -0.093137 0.141909	</row1>
+																<row2>	-0.167569 0.667197 -0.725789	</row2>
+																<row3>	3.604753 1.479742 -0.343458	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	AngelRArmDigit3W1BlendBonegrave_gargoyle	</identifier>
+														<transform>
+															<row0>	0.159367 -0.740117 -0.653322	</row0>
+															<row1>	-0.897250 -0.384609 0.216836	</row1>
+															<row2>	-0.411758 0.551637 -0.725364	</row2>
+															<row3>	3.839071 2.497503 -0.642350	</row3>
+														</transform>
+													</node>
+													<node>
+														<identifier>	AngelRArmDigit3W1BlendBonegrave_gargoyle_unpush	</identifier>
+														<transform>
+															<row0>	0.159367 -0.740117 -0.653322	</row0>
+															<row1>	-0.897250 -0.384609 0.216836	</row1>
+															<row2>	-0.411758 0.551637 -0.725364	</row2>
+															<row3>	3.839071 2.497503 -0.642350	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	WingRArmPalmBlendBonegrave_gargoyle	</identifier>
+													<transform>
+														<row0>	0.445930 -0.614127 -0.651149	</row0>
+														<row1>	-0.617884 -0.737551 0.272467	</row1>
+														<row2>	-0.647584 0.280833 -0.708355	</row2>
+														<row3>	2.305074 3.930607 -0.911683	</row3>
+													</transform>
+												</node>
+												<node>
+													<identifier>	WingRArmPalmBlendBonegrave_gargoyle_unpush	</identifier>
+													<transform>
+														<row0>	0.445930 -0.614127 -0.651149	</row0>
+														<row1>	-0.617884 -0.737551 0.272467	</row1>
+														<row2>	-0.647584 0.280833 -0.708355	</row2>
+														<row3>	2.305074 3.930607 -0.911683	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	WingRArm2BlendBonegrave_gargoyle	</identifier>
+												<transform>
+													<row0>	0.354167 -0.606366 -0.711959	</row0>
+													<row1>	0.930674 0.153874 0.331916	</row1>
+													<row2>	-0.091711 -0.780156 0.618826	</row2>
+													<row3>	-3.872176 -0.423443 -0.794316	</row3>
+												</transform>
+											</node>
+											<node>
+												<identifier>	WingRArm2BlendBonegrave_gargoyle_unpush	</identifier>
+												<transform>
+													<row0>	0.354167 -0.606366 -0.711959	</row0>
+													<row1>	0.930674 0.153874 0.331916	</row1>
+													<row2>	-0.091711 -0.780156 0.618826	</row2>
+													<row3>	-3.872176 -0.423443 -0.794316	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	AngelRArm1BlendBonegrave_gargoyle	</identifier>
+											<transform>
+												<row0>	0.466852 -0.747804 0.472058	</row0>
+												<row1>	0.854926 0.518164 -0.024655	</row1>
+												<row2>	-0.226167 0.415085 0.881222	</row2>
+												<row3>	-3.119804 -1.546571 0.008636	</row3>
+											</transform>
+										</node>
+										<node>
+											<identifier>	AngelRArm1BlendBonegrave_gargoyle_unpush	</identifier>
+											<transform>
+												<row0>	0.466852 -0.747804 0.472058	</row0>
+												<row1>	0.854926 0.518164 -0.024655	</row1>
+												<row2>	-0.226167 0.415085 0.881222	</row2>
+												<row3>	-3.119804 -1.546571 0.008636	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	WingRArmCollarboneBlendBonegrave_gargoyle	</identifier>
+										<transform>
+											<row0>	0.845748 -0.058554 0.530360	</row0>
+											<row1>	0.427649 0.668813 -0.608117	</row1>
+											<row2>	-0.319103 0.741121 0.590688	</row2>
+											<row3>	-1.536370 -2.249844 1.994592	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	WingRArmCollarboneBlendBonegrave_gargoyle_unpush	</identifier>
+										<transform>
+											<row0>	0.845748 -0.058554 0.530360	</row0>
+											<row1>	0.427649 0.668813 -0.608117	</row1>
+											<row2>	-0.319103 0.741121 0.590688	</row2>
+											<row3>	-1.536370 -2.249844 1.994592	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	AngelRibcageBlendBonegrave_gargoyle	</identifier>
+									<transform>
+										<row0>	-0.000000 -1.000000 -0.000000	</row0>
+										<row1>	0.758806 -0.000000 -0.651317	</row1>
+										<row2>	0.651317 -0.000000 0.758806	</row2>
+										<row3>	-2.361586 -0.000000 2.245022	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	AngelRibcageBlendBonegrave_gargoyle_unpush	</identifier>
+									<transform>
+										<row0>	-0.000000 -1.000000 -0.000000	</row0>
+										<row1>	0.758806 -0.000000 -0.651317	</row1>
+										<row2>	0.651317 -0.000000 0.758806	</row2>
+										<row3>	-2.361586 -0.000000 2.245022	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	AngelSpine4BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 -0.000000	</row0>
+									<row1>	0.714293 0.000000 -0.699847	</row1>
+									<row2>	0.699847 -0.000000 0.714293	</row2>
+									<row3>	-1.968385 -0.000000 2.395587	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelSpine4BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	-0.000000 -1.000000 -0.000000	</row0>
+									<row1>	0.714293 0.000000 -0.699847	</row1>
+									<row2>	0.699847 -0.000000 0.714293	</row2>
+									<row3>	-1.968385 -0.000000 2.395587	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelSpine3BlendBonegrave_gargoyle	</identifier>
+							<transform>
+								<row0>	-0.000000 -1.000000 -0.000000	</row0>
+								<row1>	0.973718 -0.000000 -0.227759	</row1>
+								<row2>	0.227759 -0.000000 0.973718	</row2>
+								<row3>	-2.687471 0.000000 1.026893	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	AngelSpine3BlendBonegrave_gargoyle_unpush	</identifier>
+							<transform>
+								<row0>	-0.000000 -1.000000 -0.000000	</row0>
+								<row1>	0.973718 -0.000000 -0.227759	</row1>
+								<row2>	0.227759 -0.000000 0.973718	</row2>
+								<row3>	-2.687471 0.000000 1.026893	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	AngelSpine2BlendBonegrave_gargoyle	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 -0.000000	</row0>
+							<row1>	0.996269 -0.000000 -0.086306	</row1>
+							<row2>	0.086306 -0.000000 0.996269	</row2>
+							<row3>	-2.629203 0.000000 0.632397	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	AngelSpine2BlendBonegrave_gargoyle_unpush	</identifier>
+						<transform>
+							<row0>	-0.000000 -1.000000 -0.000000	</row0>
+							<row1>	0.996269 -0.000000 -0.086306	</row1>
+							<row2>	0.086306 -0.000000 0.996269	</row2>
+							<row3>	-2.629203 0.000000 0.632397	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	AngelSpine1BlendBonegrave_gargoyle	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.994769 -0.000000 -0.102152	</row1>
+						<row2>	0.102152 -0.000000 0.994769	</row2>
+						<row3>	-2.413102 0.000000 0.674164	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	AngelSpine1BlendBonegrave_gargoyle_unpush	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.994769 -0.000000 -0.102152	</row1>
+						<row2>	0.102152 -0.000000 0.994769	</row2>
+						<row3>	-2.413102 0.000000 0.674164	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	AngelTail1	</identifier>
+				<transform>
+					<row0>	-0.981318 -0.000000 -0.192394	</row0>
+					<row1>	-0.000000 1.000000 0.000000	</row1>
+					<row2>	0.192394 0.000000 -0.981318	</row2>
+					<row3>	-0.211187 -0.000000 -0.015180	</row3>
+				</transform>
+				<node>
+					<identifier>	AngelTail2	</identifier>
+					<transform>
+						<row0>	0.547071 0.835590 0.050024	</row0>
+						<row1>	-0.831470 0.549340 -0.082970	</row1>
+						<row2>	-0.096809 0.003797 0.995296	</row2>
+						<row3>	0.260143 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AngelTail3	</identifier>
+						<transform>
+							<row0>	0.754160 0.624644 -0.202639	</row0>
+							<row1>	-0.551558 0.435038 -0.711706	</row1>
+							<row2>	-0.356408 0.648507 0.672616	</row2>
+							<row3>	0.192096 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AngelTail4	</identifier>
+							<transform>
+								<row0>	0.915415 0.220962 -0.336439	</row0>
+								<row1>	-0.393431 0.314652 -0.863832	</row1>
+								<row2>	-0.085013 0.923131 0.374970	</row2>
+								<row3>	0.268161 -0.000000 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelTail5	</identifier>
+								<transform>
+									<row0>	0.353068 0.870762 -0.342222	</row0>
+									<row1>	0.509046 0.128112 0.851152	</row1>
+									<row2>	0.784994 -0.474721 -0.398026	</row2>
+									<row3>	0.212764 0.000000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	AngelTail5BlendBonegrave_gargoyle	</identifier>
+									<transform>
+										<row0>	0.059611 -0.125286 -0.990328	</row0>
+										<row1>	-0.943261 0.317583 -0.096954	</row1>
+										<row2>	0.326658 0.939917 -0.099246	</row2>
+										<row3>	1.786777 -0.256612 -0.461610	</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>	AngelTail5BlendBonegrave_gargoyle_unpush	</identifier>
+									<transform>
+										<row0>	0.059611 -0.125286 -0.990328	</row0>
+										<row1>	-0.943261 0.317583 -0.096954	</row1>
+										<row2>	0.326658 0.939917 -0.099246	</row2>
+										<row3>	1.786777 -0.256612 -0.461610	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	AngelTail4BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	-0.820131 0.505986 0.267139	</row0>
+									<row1>	-0.247479 -0.734644 0.631706	</row1>
+									<row2>	0.515886 0.451970 0.727726	</row2>
+									<row3>	0.350629 1.742119 -0.646158	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelTail4BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	-0.820131 0.505986 0.267139	</row0>
+									<row1>	-0.247479 -0.734644 0.631706	</row1>
+									<row2>	0.515886 0.451970 0.727726	</row2>
+									<row3>	0.350629 1.742119 -0.646158	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelTail3BlendBonegrave_gargoyle	</identifier>
+							<transform>
+								<row0>	-0.972541 0.224596 -0.060994	</row0>
+								<row1>	0.008782 0.297307 0.954742	</row1>
+								<row2>	0.232565 0.927990 -0.291115	</row2>
+								<row3>	-0.041339 0.029149 -1.865154	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	AngelTail3BlendBonegrave_gargoyle_unpush	</identifier>
+							<transform>
+								<row0>	-0.972541 0.224596 -0.060994	</row0>
+								<row1>	0.008782 0.297307 0.954742	</row1>
+								<row2>	0.232565 0.927990 -0.291115	</row2>
+								<row3>	-0.041339 0.029149 -1.865154	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	AngelTail2BlendBonegrave_gargoyle	</identifier>
+						<transform>
+							<row0>	-0.835590 -0.549340 -0.003797	</row0>
+							<row1>	-0.497636 0.753982 0.428800	</row1>
+							<row2>	-0.232694 0.360190 -0.903392	</row2>
+							<row3>	0.809597 -1.222707 -1.266901	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	AngelTail2BlendBonegrave_gargoyle_unpush	</identifier>
+						<transform>
+							<row0>	-0.835590 -0.549340 -0.003797	</row0>
+							<row1>	-0.497636 0.753982 0.428800	</row1>
+							<row2>	-0.232694 0.360190 -0.903392	</row2>
+							<row3>	0.809597 -1.222707 -1.266901	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	AngelTail1BlendBonegrave_gargoyle	</identifier>
+					<transform>
+						<row0>	0.000000 -1.000000 0.000000	</row0>
+						<row1>	-0.940667 -0.000000 0.339331	</row1>
+						<row2>	-0.339331 -0.000000 -0.940667	</row2>
+						<row3>	1.842341 0.000000 -1.118994	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	AngelTail1BlendBonegrave_gargoyle_unpush	</identifier>
+					<transform>
+						<row0>	0.000000 -1.000000 0.000000	</row0>
+						<row1>	-0.940667 -0.000000 0.339331	</row1>
+						<row2>	-0.339331 -0.000000 -0.940667	</row2>
+						<row3>	1.842341 0.000000 -1.118994	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	AngelLThigh	</identifier>
+				<transform>
+					<row0>	0.379429 0.812990 0.441680	</row0>
+					<row1>	0.190497 -0.535795 0.822578	</row1>
+					<row2>	0.905398 -0.227971 -0.358168	</row2>
+					<row3>	0.014123 0.254645 0.063680	</row3>
+				</transform>
+				<node>
+					<identifier>	AngelLCalf	</identifier>
+					<transform>
+						<row0>	-0.813577 0.051612 -0.579162	</row0>
+						<row1>	0.057925 0.998292 0.007593	</row1>
+						<row2>	0.578565 -0.027370 -0.815177	</row2>
+						<row3>	0.712725 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AngelLAnkle	</identifier>
+						<transform>
+							<row0>	-0.565426 -0.116933 0.816468	</row0>
+							<row1>	-0.029075 0.992110 0.121953	</row1>
+							<row2>	-0.824287 0.045216 -0.564364	</row2>
+							<row3>	0.846271 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AngelLDigit1F1	</identifier>
+							<transform>
+								<row0>	-0.045456 0.907206 -0.418223	</row0>
+								<row1>	-0.997014 -0.015036 0.075747	</row1>
+								<row2>	0.062429 0.420418 0.905181	</row2>
+								<row3>	-0.077033 0.110800 -0.099793	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelLDigit1F1BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	0.417925 0.906954 0.052659	</row0>
+									<row1>	-0.381013 0.122361 0.916437	</row1>
+									<row2>	0.824723 -0.403066 0.396699	</row2>
+									<row3>	0.849990 -0.031891 -1.580930	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelLDigit1F1BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	0.417925 0.906954 0.052659	</row0>
+									<row1>	-0.381013 0.122361 0.916437	</row1>
+									<row2>	0.824723 -0.403066 0.396699	</row2>
+									<row3>	0.849990 -0.031891 -1.580930	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelLDigit2F1	</identifier>
+							<transform>
+								<row0>	0.975224 0.076158 -0.207695	</row0>
+								<row1>	-0.077291 0.997005 0.002668	</row1>
+								<row2>	0.207276 0.013451 0.978190	</row2>
+								<row3>	0.130260 0.076368 -0.085953	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelLDigit2F1BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	-0.855507 0.457433 -0.242618	</row0>
+									<row1>	-0.250723 0.044008 0.967058	</row1>
+									<row2>	0.453042 0.888154 0.077040	</row2>
+									<row3>	0.080138 0.160363 -1.826445	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelLDigit2F1BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	-0.855507 0.457433 -0.242618	</row0>
+									<row1>	-0.250723 0.044008 0.967058	</row1>
+									<row2>	0.453042 0.888154 0.077040	</row2>
+									<row3>	0.080138 0.160363 -1.826445	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelLDigit3F1	</identifier>
+							<transform>
+								<row0>	0.911659 -0.179041 -0.369894	</row0>
+								<row1>	0.194614 0.980868 0.004881	</row1>
+								<row2>	0.361944 -0.076437 0.929061	</row2>
+								<row3>	0.153701 -0.027007 -0.093162	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelLDigit3F1BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	-0.886481 0.200908 -0.416879	</row0>
+									<row1>	-0.419250 0.032702 0.907282	</row1>
+									<row2>	0.195913 0.979064 0.055241	</row2>
+									<row3>	0.313824 0.165913 -1.808656	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelLDigit3F1BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	-0.886481 0.200908 -0.416879	</row0>
+									<row1>	-0.419250 0.032702 0.907282	</row1>
+									<row2>	0.195913 0.979064 0.055241	</row2>
+									<row3>	0.313824 0.165913 -1.808656	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelLAnkleBlendBonegrave_gargoyle	</identifier>
+							<transform>
+								<row0>	-0.920050 0.387459 -0.058165	</row0>
+								<row1>	-0.047193 0.037780 0.998171	</row1>
+								<row2>	0.388947 0.921113 -0.016474	</row2>
+								<row3>	-0.183092 0.217723 -1.888692	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	AngelLAnkleBlendBonegrave_gargoyle_unpush	</identifier>
+							<transform>
+								<row0>	-0.920050 0.387459 -0.058165	</row0>
+								<row1>	-0.047193 0.037780 0.998171	</row1>
+								<row2>	0.388947 0.921113 -0.016474	</row2>
+								<row3>	-0.183092 0.217723 -1.888692	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	AngelLCalfBlendBonegrave_gargoyle	</identifier>
+						<transform>
+							<row0>	0.557051 0.489518 -0.670869	</row0>
+							<row1>	-0.797030 0.088175 -0.597469	</row1>
+							<row2>	-0.233318 0.867523 0.439279	</row2>
+							<row3>	2.500006 0.151982 0.943473	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	AngelLCalfBlendBonegrave_gargoyle_unpush	</identifier>
+						<transform>
+							<row0>	0.557051 0.489518 -0.670869	</row0>
+							<row1>	-0.797030 0.088175 -0.597469	</row1>
+							<row2>	-0.233318 0.867523 0.439279	</row2>
+							<row3>	2.500006 0.151982 0.943473	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	AngelLThighBlendBonegrave_gargoyle	</identifier>
+					<transform>
+						<row0>	-0.812991 0.535795 0.227970	</row0>
+						<row1>	0.307876 0.063241 0.949322	</row1>
+						<row2>	0.494225 0.841976 -0.216373	</row2>
+						<row3>	-0.766554 0.254929 -2.215855	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	AngelLThighBlendBonegrave_gargoyle_unpush	</identifier>
+					<transform>
+						<row0>	-0.812991 0.535795 0.227970	</row0>
+						<row1>	0.307876 0.063241 0.949322	</row1>
+						<row2>	0.494225 0.841976 -0.216373	</row2>
+						<row3>	-0.766554 0.254929 -2.215855	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	AngelRThigh	</identifier>
+				<transform>
+					<row0>	0.379429 -0.812990 0.441680	</row0>
+					<row1>	-0.190498 -0.535795 -0.822578	</row1>
+					<row2>	0.905397 0.227971 -0.358169	</row2>
+					<row3>	0.014123 -0.254645 0.063679	</row3>
+				</transform>
+				<node>
+					<identifier>	AngelRCalf	</identifier>
+					<transform>
+						<row0>	-0.813561 -0.051600 -0.579186	</row0>
+						<row1>	-0.058088 0.998284 -0.007343	</row1>
+						<row2>	0.578571 0.027670 -0.815162	</row2>
+						<row3>	0.712725 0.000000 -0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	AngelRAnkle	</identifier>
+						<transform>
+							<row0>	-0.565844 0.116646 0.816220	</row0>
+							<row1>	0.029068 0.992149 -0.121636	</row1>
+							<row2>	-0.824000 -0.045102 -0.564792	</row2>
+							<row3>	0.846271 0.000000 -0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	AngelRDigit1F1	</identifier>
+							<transform>
+								<row0>	-0.045658 -0.907207 -0.418199	</row0>
+								<row1>	0.996973 -0.015011 -0.076282	</row1>
+								<row2>	0.062926 -0.420416 0.905147	</row2>
+								<row3>	-0.077033 -0.110800 -0.099793	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelRDigit1F1BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	-0.417926 0.906954 -0.052659	</row0>
+									<row1>	-0.381013 -0.122361 0.916437	</row1>
+									<row2>	0.824723 0.403066 0.396699	</row2>
+									<row3>	0.849953 0.031969 -1.580996	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelRDigit1F1BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	-0.417926 0.906954 -0.052659	</row0>
+									<row1>	-0.381013 -0.122361 0.916437	</row1>
+									<row2>	0.824723 0.403066 0.396699	</row2>
+									<row3>	0.849953 0.031969 -1.580996	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelRDigit2F1	</identifier>
+							<transform>
+								<row0>	0.975115 -0.076134 -0.208219	</row0>
+								<row1>	0.077264 0.997007 -0.002710	</row1>
+								<row2>	0.207802 -0.013445 0.978078	</row2>
+								<row3>	0.130260 -0.076368 -0.085953	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelRDigit2F1BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	0.855506 0.457434 0.242618	</row0>
+									<row1>	-0.250723 -0.044008 0.967058	</row1>
+									<row2>	0.453042 -0.888154 0.077040	</row2>
+									<row3>	0.080218 -0.160297 -1.826478	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelRDigit2F1BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	0.855506 0.457434 0.242618	</row0>
+									<row1>	-0.250723 -0.044008 0.967058	</row1>
+									<row2>	0.453042 -0.888154 0.077040	</row2>
+									<row3>	0.080218 -0.160297 -1.826478	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelRDigit3F1	</identifier>
+							<transform>
+								<row0>	0.911456 0.179064 -0.370384	</row0>
+								<row1>	-0.194641 0.980863 -0.004777	</row1>
+								<row2>	0.362441 0.076446 0.928866	</row2>
+								<row3>	0.153701 0.027007 -0.093162	</row3>
+							</transform>
+							<node>
+								<identifier>	AngelRDigit3F1BlendBonegrave_gargoyle	</identifier>
+								<transform>
+									<row0>	0.886480 0.200909 0.416879	</row0>
+									<row1>	-0.419250 -0.032702 0.907282	</row1>
+									<row2>	0.195913 -0.979064 0.055241	</row2>
+									<row3>	0.313922 -0.165868 -1.808670	</row3>
+								</transform>
+							</node>
+							<node>
+								<identifier>	AngelRDigit3F1BlendBonegrave_gargoyle_unpush	</identifier>
+								<transform>
+									<row0>	0.886480 0.200909 0.416879	</row0>
+									<row1>	-0.419250 -0.032702 0.907282	</row1>
+									<row2>	0.195913 -0.979064 0.055241	</row2>
+									<row3>	0.313922 -0.165868 -1.808670	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	AngelRAnkleBlendBonegrave_gargoyle	</identifier>
+							<transform>
+								<row0>	0.920050 0.387459 0.058165	</row0>
+								<row1>	-0.047193 -0.037780 0.998171	</row1>
+								<row2>	0.388948 -0.921112 -0.016474	</row2>
+								<row3>	-0.183016 -0.217663 -1.888741	</row3>
+							</transform>
+						</node>
+						<node>
+							<identifier>	AngelRAnkleBlendBonegrave_gargoyle_unpush	</identifier>
+							<transform>
+								<row0>	0.920050 0.387459 0.058165	</row0>
+								<row1>	-0.047193 -0.037780 0.998171	</row1>
+								<row2>	0.388948 -0.921112 -0.016474	</row2>
+								<row3>	-0.183016 -0.217663 -1.888741	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	AngelRCalfBlendBonegrave_gargoyle	</identifier>
+						<transform>
+							<row0>	-0.557158 0.489326 0.670921	</row0>
+							<row1>	-0.796964 -0.088110 -0.597566	</row1>
+							<row2>	-0.233290 -0.867638 0.439067	</row2>
+							<row3>	2.499926 -0.151981 0.943684	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	AngelRCalfBlendBonegrave_gargoyle_unpush	</identifier>
+						<transform>
+							<row0>	-0.557158 0.489326 0.670921	</row0>
+							<row1>	-0.796964 -0.088110 -0.597566	</row1>
+							<row2>	-0.233290 -0.867638 0.439067	</row2>
+							<row3>	2.499926 -0.151981 0.943684	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	AngelRThighBlendBonegrave_gargoyle	</identifier>
+					<transform>
+						<row0>	0.812990 0.535795 -0.227969	</row0>
+						<row1>	0.307876 -0.063241 0.949322	</row1>
+						<row2>	0.494226 -0.841976 -0.216373	</row2>
+						<row3>	-0.766554 -0.254929 -2.215855	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	AngelRThighBlendBonegrave_gargoyle_unpush	</identifier>
+					<transform>
+						<row0>	0.812990 0.535795 -0.227969	</row0>
+						<row1>	0.307876 -0.063241 0.949322	</row1>
+						<row2>	0.494226 -0.841976 -0.216373	</row2>
+						<row3>	-0.766554 -0.254929 -2.215855	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	AngelPelvisBlendBonegrave_gargoyle	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.000000 -0.000000	</row0>
+					<row1>	0.988378 -0.000000 -0.152013	</row1>
+					<row2>	0.152013 -0.000000 0.988378	</row2>
+					<row3>	-2.234397 0.000000 0.728454	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	AngelPelvisBlendBonegrave_gargoyle_unpush	</identifier>
+				<transform>
+					<row0>	-0.000000 -1.000000 -0.000000	</row0>
+					<row1>	0.988378 -0.000000 -0.152013	</row1>
+					<row2>	0.152013 -0.000000 0.988378	</row2>
+					<row3>	-2.234397 0.000000 0.728454	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLArmDigit3W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit3W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit2W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit1W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit2W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit1W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit1W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArm1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArm2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArmCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRForearmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRUpperarmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelPelvisBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail1BlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0a.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLArmDigit1W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArm2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit1W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArmPalmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit2W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit3W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit3W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit3W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit2W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLArmDigit2W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLForearmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLUpperarmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArm1BlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0b.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelNeck1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine4BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArmCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingRArmCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArm1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRUpperarmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelNeck2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRibcageBone01BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit1W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit1W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit1W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingRArm2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelNeck3BlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0c.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0c.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLAnkleBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLCalfBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit2F1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit1F1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit3F1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLThighBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelPelvisBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRThighBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRCalfBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRAnkleBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail2BlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0d.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0d.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLDigit11BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLPalmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit01BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLForearmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit21BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit31BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit02BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit13BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit12BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit22BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit23BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit33BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLDigit32BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail4BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelTail5BlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0e.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0e.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelRArmDigit3W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit1W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit3W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit2W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit2W3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit1W2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit1W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit2W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRArmDigit3W1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingRArmPalmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingRArm2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit01BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRPalmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit02BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit11BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRForearmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit21BlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0f.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0f.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelRDigit2F1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRAnkleBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRCalfBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit1F1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit3F1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRPalmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRForearmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit31BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit21BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit22BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit23BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit33BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit32BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit11BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit13BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRDigit12BlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0g.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0g.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelNeck1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLUpperarmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelNeck3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelNeck2BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelHeadBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelLCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelHeadBone01BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine3BlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRUpperarmBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelRCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<node>	AngelSpine4BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArm1BlendBonegrave_gargoyle_unpush	</node>
+		<node>	WingLArmCollarboneBlendBonegrave_gargoyle_unpush	</node>
+		<geometry>
+			<vertices>	grave_gargoyle_unpush0h.vertices	</vertices>
+			<primitive>	grave_gargoyle_unpush0h.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	inner_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_uvtransform2_alpha.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.700000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava01.bmp	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/shared/props/gargoyle/maps/lava02.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.020000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform_diffuse
+						<Vector4>	0.000000 1.000000 0.030000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform_diffuse
+						<Vector4>	1.000000 0.000000 0.010000 0.000000	</Vector4>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLArmDigit3W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit3W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit2W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit1W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit2W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit1W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit1W1BlendBonegrave_gargoyle	</node>
+		<node>	WingLArm1BlendBonegrave_gargoyle	</node>
+		<node>	WingLArm2BlendBonegrave_gargoyle	</node>
+		<node>	AngelLCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	AngelRForearmBlendBonegrave_gargoyle	</node>
+		<node>	AngelRUpperarmBlendBonegrave_gargoyle	</node>
+		<node>	AngelTail2BlendBonegrave_gargoyle	</node>
+		<node>	AngelTail3BlendBonegrave_gargoyle	</node>
+		<node>	AngelPelvisBlendBonegrave_gargoyle	</node>
+		<node>	AngelTail1BlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0a.vertices	</vertices>
+			<primitive>	grave_gargoyle0a.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLArmDigit1W1BlendBonegrave_gargoyle	</node>
+		<node>	WingLArm2BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit1W2BlendBonegrave_gargoyle	</node>
+		<node>	WingLArmPalmBlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit2W1BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit3W1BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit3W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit3W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit2W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelLArmDigit2W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelLForearmBlendBonegrave_gargoyle	</node>
+		<node>	AngelLUpperarmBlendBonegrave_gargoyle	</node>
+		<node>	AngelSpine2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle	</node>
+		<node>	AngelRCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	AngelLCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	WingLArm1BlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0b.vertices	</vertices>
+			<primitive>	grave_gargoyle0b.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelNeck1BlendBonegrave_gargoyle	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle	</node>
+		<node>	AngelSpine4BlendBonegrave_gargoyle	</node>
+		<node>	WingLArmCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	WingRArmCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	AngelNeck2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRibcageBone01BlendBonegrave_gargoyle	</node>
+		<node>	AngelSpine3BlendBonegrave_gargoyle	</node>
+		<node>	AngelSpine2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRUpperarmBlendBonegrave_gargoyle	</node>
+		<node>	AngelNeck3BlendBonegrave_gargoyle	</node>
+		<node>	AngelLUpperarmBlendBonegrave_gargoyle	</node>
+		<node>	AngelRCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	AngelRArm1BlendBonegrave_gargoyle	</node>
+		<node>	AngelHeadBlendBonegrave_gargoyle	</node>
+		<node>	AngelHeadBone01BlendBonegrave_gargoyle	</node>
+		<node>	AngelLCollarboneBlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0c.vertices	</vertices>
+			<primitive>	grave_gargoyle0c.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLAnkleBlendBonegrave_gargoyle	</node>
+		<node>	AngelLCalfBlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit2F1BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit1F1BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit3F1BlendBonegrave_gargoyle	</node>
+		<node>	AngelLThighBlendBonegrave_gargoyle	</node>
+		<node>	AngelPelvisBlendBonegrave_gargoyle	</node>
+		<node>	AngelRThighBlendBonegrave_gargoyle	</node>
+		<node>	AngelRCalfBlendBonegrave_gargoyle	</node>
+		<node>	AngelSpine1BlendBonegrave_gargoyle	</node>
+		<node>	AngelSpine2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle	</node>
+		<node>	AngelSpine3BlendBonegrave_gargoyle	</node>
+		<node>	AngelTail1BlendBonegrave_gargoyle	</node>
+		<node>	AngelRAnkleBlendBonegrave_gargoyle	</node>
+		<node>	AngelTail2BlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0d.vertices	</vertices>
+			<primitive>	grave_gargoyle0d.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelLDigit11BlendBonegrave_gargoyle	</node>
+		<node>	AngelLPalmBlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit01BlendBonegrave_gargoyle	</node>
+		<node>	AngelLForearmBlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit21BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit31BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit33BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit32BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit02BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit13BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit12BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit22BlendBonegrave_gargoyle	</node>
+		<node>	AngelLDigit23BlendBonegrave_gargoyle	</node>
+		<node>	AngelTail4BlendBonegrave_gargoyle	</node>
+		<node>	AngelTail3BlendBonegrave_gargoyle	</node>
+		<node>	AngelTail5BlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0e.vertices	</vertices>
+			<primitive>	grave_gargoyle0e.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelRArmDigit3W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit1W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit3W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit2W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit2W3BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit1W2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit1W1BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArm1BlendBonegrave_gargoyle	</node>
+		<node>	WingRArm2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit2W1BlendBonegrave_gargoyle	</node>
+		<node>	AngelRArmDigit3W1BlendBonegrave_gargoyle	</node>
+		<node>	WingRArmPalmBlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit33BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit31BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit32BlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0f.vertices	</vertices>
+			<primitive>	grave_gargoyle0f.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelRDigit2F1BlendBonegrave_gargoyle	</node>
+		<node>	AngelRAnkleBlendBonegrave_gargoyle	</node>
+		<node>	AngelRCalfBlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit1F1BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit3F1BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit01BlendBonegrave_gargoyle	</node>
+		<node>	AngelRPalmBlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit02BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit11BlendBonegrave_gargoyle	</node>
+		<node>	AngelRForearmBlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit21BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit31BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit33BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit13BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit12BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit22BlendBonegrave_gargoyle	</node>
+		<node>	AngelRDigit23BlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0g.vertices	</vertices>
+			<primitive>	grave_gargoyle0g.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	AngelNeck1BlendBonegrave_gargoyle	</node>
+		<node>	AngelNeck2BlendBonegrave_gargoyle	</node>
+		<node>	AngelRibcageBlendBonegrave_gargoyle	</node>
+		<node>	WingLArm1BlendBonegrave_gargoyle	</node>
+		<node>	WingLArmCollarboneBlendBonegrave_gargoyle	</node>
+		<node>	AngelLCollarboneBlendBonegrave_gargoyle	</node>
+		<geometry>
+			<vertices>	grave_gargoyle0h.vertices	</vertices>
+			<primitive>	grave_gargoyle0h.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Standard_10_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	86	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	0.000000	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/shared/props/gargoyle/grave_gargoyle_decay.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.232261 1.510134 -1.117211	</min>
+		<max>	1.232262 4.705393 0.868592	</max>
+	</boundingBox>
+	<materialKind>	2	</materialKind>
+</gargoyle_fire.visual>

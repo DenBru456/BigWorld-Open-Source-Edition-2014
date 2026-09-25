@@ -1,0 +1,278 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+		<Interface> ModeTarget </Interface>
+	</Implements>
+
+	<Properties>
+		<playerName>
+			<Type>			UNICODE_STRING	</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+			<DatabaseLength> 100			</DatabaseLength>
+			<Identifier>	true			</Identifier>
+		</playerName>
+
+		<avatarModel>
+			<Type>			PACKED_AVATAR_MODEL	</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</avatarModel>
+
+		<persistentAvatarModelData>
+			<Type>			PERSISTENT_AVATAR_MODEL		</Type>
+			<Flags>			BASE						</Flags>
+			<Persistent>	true						</Persistent>
+		</persistentAvatarModelData>		
+
+		<modelNumber>
+			<!-- Model Numbers are now deprecated in favour or more flexible Avatar Models.
+			This property has not been removed because of AI logic in Guard that depends on it. -->
+
+			<Type>			UINT16				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		1					</Default>
+			<Persistent>	true				</Persistent>
+			<!-- Data LoD'ing example.
+			<DetailLevel>	NEAR				</DetailLevel>
+			-->
+			<Editable>		true				</Editable>
+		</modelNumber>
+		
+		<customColour>
+			<Type>			INT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>	true				</Persistent>
+			<Default>		-1					</Default>
+		</customColour>
+
+		<rightHand>
+			<Type>			ITEMTYPE				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+		</rightHand>
+
+		<shoulder>
+			<Type>			ITEMTYPE			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</shoulder>
+
+		<rightHip>
+			<Type>			ITEMTYPE			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</rightHip>
+
+		<leftHip>
+			<Type>			ITEMTYPE			</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+		</leftHip>
+
+		<label>
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</label>
+
+		<health>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		250					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</health>
+
+		<maxHealth>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		250					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</maxHealth>
+
+		<healthPercent>
+			<Type>			INT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		100					</Default>
+		</healthPercent>
+
+		<frags>
+			<Type>			INT32				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		0					</Default>
+			<Persistent>	true				</Persistent>
+		</frags>
+
+		<mode>
+			<Type>			INT8				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		-1					</Default>
+		</mode>
+
+		<modeIntParam>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</modeIntParam>
+
+		<stance>
+			<Type>			INT8				</Type>
+			<Flags>			OTHER_CLIENTS		</Flags>
+			<Default>		-1					</Default>
+		</stance>
+
+		<ccInCharge>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</ccInCharge>
+
+		<ccTimerId>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</ccTimerId>
+
+		<ccOwnMove>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		-1					</Default>
+		</ccOwnMove>
+
+		<ccOthMove>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		-1					</Default>
+		</ccOthMove>
+
+		<ccDefence>
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		0					</Default>
+		</ccDefence>
+		
+		<delayedDamageList>
+			<!-- List of tuples: ( entityID, time ) -->
+			<Type>			PYTHON				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		[]					</Default>
+			<Persistent>	false				</Persistent>
+		</delayedDamageList>
+		
+		<delayedDamageTimerID>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</delayedDamageTimerID>
+	</Properties>
+
+	<ClientMethods>
+
+		<shonk>
+			<Args>
+				<opponentID>	OBJECT_ID			</opponentID>
+				<oppAction>		UINT8				</oppAction>
+				<ownAction>		UINT8				</ownAction>
+			</Args>
+		</shonk>
+
+		<handshake>
+			<Args>
+				<partnerID>	OBJECT_ID			</partnerID>
+			</Args>
+		</handshake>
+
+		<pullUp>
+			<Args>
+				<partnerID>	OBJECT_ID			</partnerID>
+			</Args>
+		</pullUp>
+
+		<pushUp>
+			<Args>
+				<partnerID>	OBJECT_ID			</partnerID>
+			</Args>
+		</pushUp>
+
+		<didGesture>
+			<Args>
+				<actionID>	UINT8					</actionID>
+			</Args>
+		</didGesture>
+
+		<fireWeapon>
+			<Args>
+				<shotid>	OBJECT_ID			</shotid>
+				<lock>		INT8				</lock>	<!-- lockLevel -->
+			</Args>
+		</fireWeapon>
+		
+		<castSpell>
+			<Args>
+				<targetID>		OBJECT_ID			</targetID>	<!-- shotid, or -->
+				<hitLocn>		VECTOR3				</hitLocn>	<!-- target location -->
+				<materialKind>	UINT8				</materialKind>	<!-- and material kind -->
+			</Args>
+		</castSpell>
+
+		<fragged>
+			<Args>
+				<shooterID>	OBJECT_ID			</shooterID>	<!-- shooterID -->
+			</Args>
+		</fragged>
+
+		<!--
+		<dropItem>
+			<Args>
+				<itemID>	OBJECT_ID			</itemID>
+			</Args>
+		</dropItem>
+		-->
+
+		<eat>
+			<Args>
+				<item>	ITEMTYPE				</item>	<!-- itemType -->
+			</Args>
+		</eat>
+
+		<assail>
+		</assail>
+
+		<salida>
+			<Args>
+				<result>	INT8					</result>
+			</Args>
+		</salida>
+		<chat>
+			<Args>
+				<msg>	UNICODE_STRING				</msg>	<!-- msg -->
+			</Args>
+			<!-- Data LoD'ing example.
+			<DetailDistance>	30		</DetailDistance>
+			-->
+		</chat>
+
+	</ClientMethods>
+
+	<BaseMethods>
+
+
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+</root>
+

@@ -1,0 +1,580 @@
+<house_well01.prefab>
+	<chunks>	</chunks>
+	<items>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	-0.068646 0.051205 0.305361	</row0>
+				<row1>	-0.015962 0.311774 -0.055868	</row1>
+				<row2>	-0.309212 -0.027462 -0.064906	</row2>
+				<row3>	29.821556 64.764748 83.637741	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.068646 0.051205 0.305361	</row0>
+				<row1>	-0.015962 0.311774 -0.055868	</row1>
+				<row2>	-0.309212 -0.027462 -0.064906	</row2>
+				<row3>	-8.028954 -2.228462 -10.034195	</row3>
+			</prefabTransform>
+		</speedtree>
+		<entity>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<guid>	763EA503.4FEE66DE.3BB5F0AB.C6DA6999	</guid>
+			<type>	Creature	</type>
+			<transform>
+				<row0>	0.965925 0.000000 0.258819	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.258819 0.000000 0.965925	</row2>
+				<row3>	33.573303 65.012840 85.619217	</row3>
+			</transform>
+			<clientOnly>	false	</clientOnly>
+			<properties>
+				<creatureType>	3	</creatureType>
+				<patrolPathNode>	</patrolPathNode>
+			</properties>
+			<backLinks>	</backLinks>
+			<prefabTransform>
+				<row0>	0.965925 0.000000 0.258819	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.258819 0.000000 0.965925	</row2>
+				<row3>	-4.277206 -1.980370 -8.052719	</row3>
+			</prefabTransform>
+		</entity>
+		<entity>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<guid>	208D6B2E.4F1CA5DF.B55399AB.BCE5DF07	</guid>
+			<type>	Creature	</type>
+			<transform>
+				<row0>	-0.258818 0.000000 -0.965925	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.965925 0.000000 -0.258818	</row2>
+				<row3>	36.894173 64.815804 85.598267	</row3>
+			</transform>
+			<clientOnly>	false	</clientOnly>
+			<properties>
+				<creatureType>	3	</creatureType>
+				<patrolPathNode>	</patrolPathNode>
+			</properties>
+			<backLinks>	</backLinks>
+			<prefabTransform>
+				<row0>	-0.258818 0.000000 -0.965925	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.965925 0.000000 -0.258818	</row2>
+				<row3>	-0.956337 -2.177406 -8.073669	</row3>
+			</prefabTransform>
+		</entity>
+		<entity>
+			<editorOnly>
+				<hidden>	false	</hidden>
+				<frozen>	false	</frozen>
+			</editorOnly>
+			<guid>	BB891A4D.48335C8A.F84ECFAE.959B1C89	</guid>
+			<type>	Creature	</type>
+			<transform>
+				<row0>	-0.707105 0.000000 -0.707106	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.707106 0.000000 -0.707105	</row2>
+				<row3>	35.435135 65.579231 86.901016	</row3>
+			</transform>
+			<clientOnly>	false	</clientOnly>
+			<properties>
+				<creatureType>	3	</creatureType>
+				<patrolPathNode>	</patrolPathNode>
+			</properties>
+			<backLinks>	</backLinks>
+			<prefabTransform>
+				<row0>	-0.707105 0.000000 -0.707106	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.707106 0.000000 -0.707105	</row2>
+				<row3>	-2.415375 -1.413979 -6.770920	</row3>
+			</prefabTransform>
+		</entity>
+		<model>
+			<resource>	sets/temperate/props/fd_boat_small.model	</resource>
+			<transform>
+				<row0>	-0.997229 -0.062816 0.039843	</row0>
+				<row1>	-0.069557 0.977294 -0.200148	</row1>
+				<row2>	-0.026367 -0.202365 -0.978954	</row2>
+				<row3>	26.886589 65.865578 90.100143	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.997229 -0.062816 0.039843	</row0>
+				<row1>	-0.069557 0.977294 -0.200148	</row1>
+				<row2>	-0.026367 -0.202365 -0.978954	</row2>
+				<row3>	-10.963921 -1.127632 -3.571793	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/mushrooms/mushroom04_cluster.model	</resource>
+			<transform>
+				<row0>	-0.984540 -0.175161 0.000000	</row0>
+				<row1>	-0.173866 0.977264 -0.121353	</row1>
+				<row2>	0.021256 -0.119477 -0.992609	</row2>
+				<row3>	31.555069 66.155457 89.257309	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.984540 -0.175161 0.000000	</row0>
+				<row1>	-0.173866 0.977264 -0.121353	</row1>
+				<row2>	0.021256 -0.119477 -0.992609	</row2>
+				<row3>	-6.295441 -0.837753 -4.414627	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/woodpile.model	</resource>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	34.675224 66.687500 89.927536	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-3.175285 -0.305710 -3.744400	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.188627 -0.080876 -0.321184	</row0>
+				<row1>	-0.023838 0.371975 -0.079666	</row1>
+				<row2>	0.330352 -0.019338 -0.189142	</row2>
+				<row3>	31.540016 66.119972 91.509964	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.188627 -0.080876 -0.321184	</row0>
+				<row1>	-0.023838 0.371975 -0.079666	</row1>
+				<row2>	0.330352 -0.019338 -0.189142	</row2>
+				<row3>	-6.310493 -0.873238 -2.161972	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.373424 -0.076319 0.003130	</row0>
+				<row1>	-0.076379 0.372937 -0.019092	</row1>
+				<row2>	0.000761 -0.019333 -0.380667	</row2>
+				<row3>	33.099998 66.529991 91.529984	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.373424 -0.076319 0.003130	</row0>
+				<row1>	-0.076379 0.372937 -0.019092	</row1>
+				<row2>	0.000761 -0.019333 -0.380667	</row2>
+				<row3>	-4.750511 -0.463219 -2.141953	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.300929 -0.150319 -0.179236	</row0>
+				<row1>	-0.179836 0.335431 0.020623	</row1>
+				<row2>	0.149602 0.100849 -0.335752	</row2>
+				<row3>	32.500000 66.389992 91.629990	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.300929 -0.150319 -0.179236	</row0>
+				<row1>	-0.179836 0.335431 0.020623	</row1>
+				<row2>	0.149602 0.100849 -0.335752	</row2>
+				<row3>	-5.350510 -0.603218 -2.041946	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.380035 -0.029206 -0.000910	</row0>
+				<row1>	-0.029173 0.379914 -0.009725	</row1>
+				<row2>	0.001652 -0.009627 -0.381032	</row2>
+				<row3>	30.790001 66.079994 91.999985	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.380035 -0.029206 -0.000910	</row0>
+				<row1>	-0.029173 0.379914 -0.009725	</row1>
+				<row2>	0.001652 -0.009627 -0.381032	</row2>
+				<row3>	-7.060509 -0.913216 -1.671951	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.373406 -0.076474 0.000000	</row0>
+				<row1>	-0.076468 0.373377 -0.004775	</row1>
+				<row2>	0.000958 -0.004678 -0.381127	</row2>
+				<row3>	33.150002 66.739983 92.289978	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.373406 -0.076474 0.000000	</row0>
+				<row1>	-0.076468 0.373377 -0.004775	</row1>
+				<row2>	0.000958 -0.004678 -0.381127	</row2>
+				<row3>	-4.700508 -0.253227 -1.381958	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.368255 -0.098193 0.005178	</row0>
+				<row1>	-0.097873 0.364106 -0.055928	</row1>
+				<row2>	0.009462 -0.055365 -0.376996	</row2>
+				<row3>	31.761169 66.426964 92.575333	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.368255 -0.098193 0.005178	</row0>
+				<row1>	-0.097873 0.364106 -0.055928	</row1>
+				<row2>	0.009462 -0.055365 -0.376996	</row2>
+				<row3>	-6.089340 -0.566246 -1.096603	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/fd_peasant_hut.model	</resource>
+			<transform>
+				<row0>	-0.000000 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000000	</row2>
+				<row3>	30.000000 66.039063 97.000000	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.000000 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 0.000000	</row2>
+				<row3>	-7.850510 -0.954147 3.328064	</row3>
+			</prefabTransform>
+		</model>
+		<particles>
+			<resource>	particles/chimney_smoke_black.xml	</resource>
+			<transform>
+				<row0>	-1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 -0.000000	</row1>
+				<row2>	0.000000 -0.000000 -1.000000	</row2>
+				<row3>	37.527740 78.413910 90.040680	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 -1.000000	</row2>
+				<row3>	-0.322769 11.420700 -3.631256	</row3>
+			</prefabTransform>
+		</particles>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.357723 0.028198 0.096505	</row0>
+				<row1>	0.018903 0.369172 -0.037803	</row1>
+				<row2>	-0.098747 -0.031485 -0.356836	</row2>
+				<row3>	38.489986 64.244469 80.606689	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.357723 0.028198 0.096505	</row0>
+				<row1>	0.018903 0.369172 -0.037803	</row1>
+				<row2>	-0.098747 -0.031485 -0.356836	</row2>
+				<row3>	0.639477 -2.748741 -13.065247	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/town/props/well.model	</resource>
+			<transform>
+				<row0>	0.999359 -0.035786 0.001205	</row0>
+				<row1>	0.035806 0.998716 -0.035807	</row1>
+				<row2>	0.000080 0.035827 0.999357	</row2>
+				<row3>	35.696823 64.471138 82.715607	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.999359 -0.035786 0.001205	</row0>
+				<row1>	0.035806 0.998716 -0.035807	</row1>
+				<row2>	0.000080 0.035827 0.999357	</row2>
+				<row3>	-2.153687 -2.522072 -10.956329	</row3>
+			</prefabTransform>
+		</model>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/cinnamon_fern/CinnamonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	-0.207234 0.005419 -0.187980	</row0>
+				<row1>	0.073210 0.259984 -0.073214	</row1>
+				<row2>	0.173223 -0.103396 -0.193946	</row2>
+				<row3>	44.149502 65.978294 90.272720	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.207234 0.005419 -0.187980	</row0>
+				<row1>	0.073210 0.259984 -0.073214	</row1>
+				<row2>	0.173223 -0.103396 -0.193946	</row2>
+				<row3>	6.298992 -1.014915 -3.399216	</row3>
+			</prefabTransform>
+		</speedtree>
+		<model>
+			<resource>	sets/temperate/props/mushrooms/mushroom01_cluster.model	</resource>
+			<transform>
+				<row0>	-1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.962559 -0.271071	</row1>
+				<row2>	0.000000 -0.271071 -0.962559	</row2>
+				<row3>	39.569218 66.665421 89.724518	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.962559 -0.271071	</row1>
+				<row2>	0.000000 -0.271071 -0.962559	</row2>
+				<row3>	1.718708 -0.327789 -3.947418	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/town/props/barrels/model/barrel.model	</resource>
+			<transform>
+				<row0>	-0.999358 -0.035817 0.000000	</row0>
+				<row1>	-0.035812 0.999240 -0.015350	</row1>
+				<row2>	0.000550 -0.015341 -0.999882	</row2>
+				<row3>	41.923950 66.818596 93.037460	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.999358 -0.035817 0.000000	</row0>
+				<row1>	-0.035812 0.999240 -0.015350	</row1>
+				<row2>	0.000550 -0.015341 -0.999882	</row2>
+				<row3>	4.073441 -0.174614 -0.634476	</row3>
+			</prefabTransform>
+		</model>
+		<speedtree>
+			<spt>	speedtree/shrubs_flowers/boston_fern/BostonFern_RT.spt	</spt>
+			<seed>	1	</seed>
+			<transform>
+				<row0>	-0.207993 0.071712 0.120225	</row0>
+				<row1>	0.061499 0.240237 -0.036902	</row1>
+				<row2>	-0.125756 -0.001123 -0.216891	</row2>
+				<row3>	47.179596 66.785278 95.463928	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.207993 0.071712 0.120225	</row0>
+				<row1>	0.061499 0.240237 -0.036902	</row1>
+				<row2>	-0.125756 -0.001123 -0.216891	</row2>
+				<row3>	9.329086 -0.207932 1.791992	</row3>
+			</prefabTransform>
+		</speedtree>
+		<model>
+			<resource>	sets/temperate/props/mushrooms/mushroom03_cluster.model	</resource>
+			<transform>
+				<row0>	-1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.992378 0.123230	</row1>
+				<row2>	0.000000 0.123230 -0.992378	</row2>
+				<row3>	46.503559 66.895348 96.549942	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 0.992378 0.123230	</row1>
+				<row2>	0.000000 0.123230 -0.992378	</row2>
+				<row3>	8.653049 -0.097862 2.878006	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/woodpile.model	</resource>
+			<transform>
+				<row0>	-0.000000 0.000000 -1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	1.000000 0.000000 -0.000000	</row2>
+				<row3>	45.219528 66.703125 99.199066	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.000000 0.000000 -1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	1.000000 0.000000 0.000000	</row2>
+				<row3>	7.369019 -0.290085 5.527130	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/town/props/t_stand.model	</resource>
+			<transform>
+				<row0>	-0.999959 0.000000 0.009078	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.009078 0.000000 -0.999959	</row2>
+				<row3>	42.030334 67.025681 5.502914	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.999959 0.000000 0.009078	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-0.009078 0.000000 -0.999959	</row2>
+				<row3>	4.179825 0.032471 11.830978	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/town/props/t_candle.model	</resource>
+			<transform>
+				<row0>	0.369442 0.000254 0.639893	</row0>
+				<row1>	-0.000143 0.738885 -0.000211	</row1>
+				<row2>	-0.639893 -0.000018 0.369442	</row2>
+				<row3>	42.227489 67.613419 5.450714	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	0.369442 0.000254 0.639893	</row0>
+				<row1>	-0.000143 0.738885 -0.000211	</row1>
+				<row2>	-0.639893 -0.000018 0.369442	</row2>
+				<row3>	4.376980 0.620209 11.778778	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/town/props/t_candle.model	</resource>
+			<transform>
+				<row0>	-0.398257 -0.000237 0.689801	</row0>
+				<row1>	-0.000386 0.796514 0.000051	</row1>
+				<row2>	-0.689801 -0.000308 -0.398257	</row2>
+				<row3>	41.928509 67.613419 5.569748	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.398257 -0.000237 0.689801	</row0>
+				<row1>	-0.000386 0.796514 0.000051	</row1>
+				<row2>	-0.689801 -0.000308 -0.398257	</row2>
+				<row3>	4.077999 0.620209 11.897812	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/town/props/t_candle.model	</resource>
+			<transform>
+				<row0>	-1.000000 0.000077 0.000000	</row0>
+				<row1>	0.000077 1.000000 0.000078	</row1>
+				<row2>	0.000000 0.000078 -1.000000	</row2>
+				<row3>	41.948235 67.613419 5.311508	</row3>
+			</transform>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-1.000000 0.000077 0.000000	</row0>
+				<row1>	0.000077 1.000000 0.000078	</row1>
+				<row2>	0.000000 0.000078 -1.000000	</row2>
+				<row3>	4.097725 0.620209 11.639572	</row3>
+			</prefabTransform>
+		</model>
+		<flare>
+			<resource>	environments/fx/corona.xml	</resource>
+			<position>	41.978798 67.963783 5.304596	</position>
+			<colour>	255.000000 128.000000 64.000000	</colour>
+			<prefabTransform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	4.128288 0.970573 11.632660	</row3>
+			</prefabTransform>
+		</flare>
+		<omniLight>
+			<colour>	192.000046 96.000023 40.000000	</colour>
+			<position>	42.596142 68.587830 5.489944	</position>
+			<innerRadius>	1.500000	</innerRadius>
+			<outerRadius>	5.000000	</outerRadius>
+			<dynamic>	true	</dynamic>
+			<static>	false	</static>
+			<specular>	true	</specular>
+			<multiplier>	0.500000	</multiplier>
+			<prefabTransform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	4.745632 1.594620 11.818008	</row3>
+			</prefabTransform>
+		</omniLight>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.358445 0.000391 0.097933	</row0>
+				<row1>	0.000358 0.371583 -0.000173	</row1>
+				<row2>	-0.097933 -0.000075 -0.358446	</row2>
+				<row3>	46.557606 70.306236 96.176849	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.358445 0.000391 0.097933	</row0>
+				<row1>	0.000358 0.371583 -0.000173	</row1>
+				<row2>	-0.097933 -0.000075 -0.358446	</row2>
+				<row3>	8.707096 3.313026 2.504913	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/pot_large.model	</resource>
+			<transform>
+				<row0>	-0.358445 0.000212 0.097933	</row0>
+				<row1>	0.000220 0.371583 0.000001	</row1>
+				<row2>	-0.097933 0.000057 -0.358446	</row2>
+				<row3>	46.506996 70.306267 94.508316	</row3>
+			</transform>
+			<reflectionVisible>	false	</reflectionVisible>
+			<prefabTransform>
+				<row0>	-0.358445 0.000212 0.097933	</row0>
+				<row1>	0.000220 0.371583 0.000001	</row1>
+				<row2>	-0.097933 0.000057 -0.358446	</row2>
+				<row3>	8.656487 3.313057 0.836380	</row3>
+			</prefabTransform>
+		</model>
+		<model>
+			<resource>	sets/temperate/props/fd_peasant_hut.model	</resource>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	37.500000 66.570313 97.000000	</row3>
+			</transform>
+			<reflectionVisible>	true	</reflectionVisible>
+			<editorOnly>
+				<castsShadow>	true	</castsShadow>
+			</editorOnly>
+			<prefabTransform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.350510 -0.422897 3.328064	</row3>
+			</prefabTransform>
+		</model>
+	</items>
+	<boundingBox>
+		<min>	-18.551804 -3.171761 -13.663284	</min>
+		<max>	10.543346 12.346687 14.029373	</max>
+	</boundingBox>
+	<snaps>
+		<position>	0.000000 0.000000 0.000000	</position>
+		<angle>	0.000000	</angle>
+	</snaps>
+</house_well01.prefab>

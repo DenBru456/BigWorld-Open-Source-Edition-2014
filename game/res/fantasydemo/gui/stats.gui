@@ -1,0 +1,211 @@
+<stats.gui>
+	<SimpleGUIComponent>	50906896
+		<position>	0.000000 0.000000 1.000000	</position>
+		<width>	0.000000	</width>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<children>
+			<health>	50592664	</health>
+			<lock>	50589824	</lock>
+		</children>
+		<shaders>
+			<fader>	72951448	</fader>
+		</shaders>
+		<widthMode>	1	</widthMode>
+		<heightMode>	1	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	50592664
+		<position>	0.310000 0.990000 1.000000	</position>
+		<width>	0.150000	</width>
+		<height>	0.200000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/tab_danger.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<children>
+			<back>	50586768	</back>
+			<bar>	51461600	</bar>
+			<sback>	50587392	</sback>
+			<stamina>	74471360	</stamina>
+		</children>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	50589824
+		<position>	-0.980000 0.990000 1.000000	</position>
+		<width>	0.100000	</width>
+		<height>	0.100000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	false	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/tab_aim.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<children>
+			<back>	50588296	</back>
+			<bar>	74472264	</bar>
+		</children>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	50586768
+		<position>	0.460000 0.990000 1.000000	</position>
+		<width>	0.520000	</width>
+		<height>	0.100000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar_back.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	51461600
+		<position>	0.460000 0.990000 1.000000	</position>
+		<width>	0.520000	</width>
+		<height>	0.100000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<clipper>	73118104	</clipper>
+			<colourer>	51207136	</colourer>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	50587392
+		<position>	0.460000 0.890000 1.000000	</position>
+		<width>	0.520000	</width>
+		<height>	0.100000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar_slotback.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	74471360
+		<position>	0.460000 0.890000 1.000000	</position>
+		<width>	0.520000	</width>
+		<height>	0.100000	</height>
+		<colour>	0.000000 100.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar_slotted.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<clipper>	51140368	</clipper>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	50588296
+		<position>	-0.880000 0.990000 1.000000	</position>
+		<width>	0.520000	</width>
+		<height>	0.100000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar_slotback.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	74472264
+		<position>	-0.880000 0.990000 1.000000	</position>
+		<width>	0.520000	</width>
+		<height>	0.100000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar_slotted.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<clipper>	50495624	</clipper>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</SimpleGUIComponent>
+	<AlphaGUIShader>	72951448
+		<mode>	0	</mode>
+		<stop>	-1.000000	</stop>
+		<start>	1.000000	</start>
+		<alpha>	1.000000	</alpha>
+		<speed>	0.500000	</speed>
+	</AlphaGUIShader>
+	<ClipGUIShader>	73118104
+		<mode>	0	</mode>
+		<value>	1.000000	</value>
+		<speed>	0.500000	</speed>
+	</ClipGUIShader>
+	<ColourGUIShader>	51207136
+		<start>	255.000000 0.000000 0.000000 192.000000	</start>
+		<middle>	255.000000 255.000000 0.000000 192.000000	</middle>
+		<end>	0.000000 255.000000 0.000000 192.000000	</end>
+		<value>	-0.001327	</value>
+		<speed>	0.500000	</speed>
+	</ColourGUIShader>
+	<ClipGUIShader>	51140368
+		<mode>	0	</mode>
+		<value>	0.000000	</value>
+		<speed>	0.000000	</speed>
+	</ClipGUIShader>
+	<ClipGUIShader>	50495624
+		<mode>	0	</mode>
+		<value>	1.000000	</value>
+		<speed>	0.000000	</speed>
+	</ClipGUIShader>
+</stats.gui>

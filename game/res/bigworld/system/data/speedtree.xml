@@ -1,0 +1,76 @@
+<speedtree.xml>
+	<lodMode> -2 </lodMode>
+	<!-- lodMode to use:
+		-1: dynamic (near and far LOD defined per tree using speedtreeCAD defined values);
+		-2: dynamic (use global near and far LOD values);
+		[0.0 - 1.0]: forces static value.
+	-->
+	
+	<lodNear> 40 </lodNear>
+	<!-- Distance from camera at which trees will start 
+		to display maximum detail. Only used if lodMode is -2 -->
+		
+	<lodFar> 160 </lodFar>
+	<!-- Distance from camera from which trees be rendered 
+	as billboards only. Only used if lodMode is -2 -->
+	
+	<lod0Yardstick> 60 </lod0Yardstick>
+	<!-- Trees taller than the yardstick will LOD to billboard farther than LodFar.
+	Trees shorter than the yardstick will LOD to billboard closer than LodFar.
+	This should be set to average the height of your trees-->
+	
+	<lod0Variance> 0.3 </lod0Variance>
+	<!-- How much will the lod level vary depending on the size of the tree -->
+	
+	<speedWindINI> system/data/speedwind.ini </speedWindINI>
+	<!-- Global SpeedWind setup file -->
+	
+	<fxFiles>
+		<branches> 		shaders/speedtree/branches.fx 	</branches> 
+		<leaves> 		shaders/speedtree/leaves.fx 	</leaves> 
+		<billboards> 	shaders/speedtree/billboards.fx </billboards>
+    <shadows> 		shaders/speedtree/speedtree_shadows.fx </shadows>
+    <depthOnlyBranches> 		shaders/speedtree/branches_z_pass.fx </depthOnlyBranches>
+    <depthOnlyLeaves> 		shaders/speedtree/leaves_z_pass.fx </depthOnlyLeaves>
+    <depthOnlyBillboards> 		shaders/speedtree/billboards_z_pass.fx </depthOnlyBillboards>
+  </fxFiles>
+	<!-- Effect file used to render trees -->
+	
+	<billboardOptimiser>
+		<fxFile>	shaders/speedtree/billboards_opt.fx	</fxFile>
+		<mipBias> -1.5 </mipBias>
+		<enabled>	true </enabled>
+		<textureAtlas>
+			<!-- The optimiser will create one big 
+			texture to hold all billboards -->
+			
+			<minSize>	128	</minSize>
+			<maxSize>	2048	</maxSize>
+			<mipLevels>	7		</mipLevels>
+			<!-- 
+				2^(mipLevels-1) should not 
+				be greater than minSize
+			-->
+			
+			<save>			false	</save>
+			<!-- If true, will save the texture atlas into a file called 
+			bboptimiser.dds, in the current work dir. This can be useful
+			for debugging and also to tune the ideal parameters of the 
+			texture atlas. The file will be resaved for every new tree 
+			type read from disk. So, make sure all tree types have been 
+			loaded before making any decision based on this file. -->
+			
+		</textureAtlas>
+		
+		<buffers>
+			<framesToRecycle>	5		</framesToRecycle>	
+			<!-- number of frames before a buffer is 
+			made available for reuse by a new chunk -->
+			
+			<framesToDelete>	100	</framesToDelete>	
+			<!-- number of frames since last time before a 
+			buffer is permanently deleted -->
+			
+		</buffers>
+	</billboardOptimiser>
+</speedtree.xml>

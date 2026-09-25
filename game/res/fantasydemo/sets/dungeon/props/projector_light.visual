@@ -1,0 +1,61 @@
+<projector_light.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	01 - Default	</identifier>
+					<fx>	sets/dungeon/materials/projector.fx	</fx>
+					<collisionFlags>	255	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.000000	</Float>
+					</property>
+					<property>	vTransform2
+						<Vector4>	0.000000 2.000000 0.100000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform2
+						<Vector4>	2.000000 0.000000 0.200000 0.000000	</Vector4>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.200000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap2
+						<Texture>	sets/dungeon/maps/dust1.tga	</Texture>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/dungeon/maps/dust1.tga	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/dungeon/maps/projector.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.000000 -0.001100 -1.000000	</min>
+		<max>	1.000000 4.000000 1.000000	</max>
+	</boundingBox>
+</projector_light.visual>

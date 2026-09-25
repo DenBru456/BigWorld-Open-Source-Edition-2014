@@ -1,0 +1,35 @@
+<t_shelf.static.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	sets/town/props/t_shelf.static.vertices	</vertices>
+			<primitive>	sets/town/props/t_shelf.static.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	t_wood_stressed	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/town/props/t_wood_stressed.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	0.001653 0.000000 -0.623999	</min>
+		<max>	1.988265 2.154302 -0.003183	</max>
+	</boundingBox>
+	<materialKind>	1	</materialKind>
+</t_shelf.static.visual>

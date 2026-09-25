@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="404" height="434" creationComplete="getChat();" backgroundGradientAlphas="[1.0, 1.0]" backgroundGradientColors="[#282C2D, #282C2D]">
+<mx:Script>
+<![CDATA[
+protected var chat_:ChatScript = null;
+import ChatScript;
+import mx.core.UIComponent;
+
+private function getChat():ChatScript 
+{
+	if (chat_ == null)
+	{
+		chat_ = new ChatScript(this);
+	}
+	return chat_;
+}
+]]>
+</mx:Script>
+
+	
+	<mx:TextArea x="10" y="10" width="384" height="345" id="textarea1" editable="false" wordWrap="true" maxChars="8000" fontSize="13" fontFamily="Arial"/>
+	<mx:TextInput x="10" y="372" width="384" height="37" id="textInput1" editable="true" maxChars="8000" fontSize="13"  click="getChat()"/>
+
+
+</mx:Application>

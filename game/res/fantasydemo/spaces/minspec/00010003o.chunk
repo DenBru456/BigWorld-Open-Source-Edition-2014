@@ -1,0 +1,1063 @@
+<root>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	-1.274057 0.000000 -0.341383	</row0>
+			<row1>	0.000000 1.319000 0.000000	</row1>
+			<row2>	0.341383 0.000000 -1.274057	</row2>
+			<row3>	83.191551 129.700165 4.252411	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.497917 0.770377 -0.398245	</row0>
+			<row1>	-0.385335 -0.607928 -0.694219	</row1>
+			<row2>	-0.776915 -0.192206 0.599551	</row2>
+			<row3>	60.044975 128.134735 45.418640	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.818140 -0.112623 -0.563882	</row0>
+			<row1>	-0.528037 -0.535381 -0.659200	</row1>
+			<row2>	-0.227649 0.837068 -0.497485	</row2>
+			<row3>	60.324760 128.145477 39.782196	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.099321 0.062735 -0.993076	</row0>
+			<row1>	-0.973056 -0.214821 0.083749	</row1>
+			<row2>	-0.208079 0.974636 0.082381	</row2>
+			<row3>	61.142509 128.381805 41.233978	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	-0.149664 -0.510542 -0.846727	</row0>
+			<row1>	-0.986314 0.137008 0.091727	</row1>
+			<row2>	0.069178 0.848866 -0.524060	</row2>
+			<row3>	62.108543 128.730438 36.034241	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.324567 -0.322542 0.889169	</row0>
+			<row1>	-0.377916 0.817546 0.434508	</row1>
+			<row2>	-0.867083 -0.477059 0.143455	</row2>
+			<row3>	61.873985 128.654266 37.528442	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	-1.076897 0.302513 0.779061	</row0>
+			<row1>	0.276744 1.328093 -0.133156	</row1>
+			<row2>	-0.788581 0.052969 -1.110625	</row2>
+			<row3>	60.695549 133.456024 84.974182	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_bare.model	</resource>
+		<transform>
+			<row0>	-0.801473 0.000000 -0.964781	</row0>
+			<row1>	0.000000 1.254256 0.000000	</row1>
+			<row2>	0.964781 0.000000 -0.801473	</row2>
+			<row3>	44.786797 127.040466 6.891235	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<resource>	particles/fireflies.xml	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	74.374382 135.788284 12.862915	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/table/models/table.model	</resource>
+		<transform>
+			<row0>	-0.965924 0.000000 -0.258819	</row0>
+			<row1>	0.000000 0.999998 0.000000	</row1>
+			<row2>	0.258819 0.000000 -0.965924	</row2>
+			<row3>	73.179649 136.659973 75.833832	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.999999 -0.001063 -0.000001	</row0>
+			<row1>	0.001063 0.999997 0.001908	</row1>
+			<row2>	-0.000001 -0.001908 0.999998	</row2>
+			<row3>	70.954155 138.219467 77.554718	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	1.102609 0.000000 -1.175628	</row0>
+			<row1>	0.000000 1.611785 0.000000	</row1>
+			<row2>	1.175628 0.000000 1.102609	</row2>
+			<row3>	53.380852 132.819305 90.451935	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.973330 0.000001 -0.682724	</row0>
+			<row1>	0.000000 1.188900 0.000001	</row1>
+			<row2>	0.682724 0.000001 -0.973330	</row2>
+			<row3>	65.720757 137.648407 98.785645	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.529851 -0.000001 -0.452954	</row0>
+			<row1>	-0.000000 0.697072 -0.000002	</row1>
+			<row2>	0.452954 0.000001 0.529851	</row2>
+			<row3>	82.414482 139.667938 99.318726	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/boat/models/boat.model	</resource>
+		<transform>
+			<row0>	0.991030 0.107992 0.078708	</row0>
+			<row1>	-0.128853 0.616163 0.777006	</row1>
+			<row2>	0.035414 -0.780178 0.624552	</row2>
+			<row3>	76.719994 132.103256 50.127563	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/particles/m_spec_chimney_smoke.xml	</resource>
+		<transform>
+			<row0>	-0.328866 0.000000 -0.944376	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.944376 0.000000 -0.328866	</row2>
+			<row3>	70.901207 152.598297 90.737274	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288070571	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/cart/models/cart.model	</resource>
+		<transform>
+			<row0>	-0.058110 -0.009161 0.998267	</row0>
+			<row1>	-0.155731 0.987798 0.000000	</row1>
+			<row2>	-0.986088 -0.155461 -0.058828	</row2>
+			<row3>	73.676353 129.314270 7.165314	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<overlapper>	8bdd430ai	</overlapper>
+	<overlapper>	958b16f7i	</overlapper>
+	<overlapper>	329fef99i	</overlapper>
+	<overlapper>	61a93d0di	</overlapper>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288132898	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	68.742668 130.049973 39.897827	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288132902	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/cart/models/cart.model	</resource>
+		<transform>
+			<row0>	-0.998887 -0.005127 0.046848	</row0>
+			<row1>	-0.005133 0.999985 0.000000	</row1>
+			<row2>	-0.046847 -0.000240 -0.998900	</row2>
+			<row3>	67.325493 130.046524 38.336975	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288132908	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/boat/models/boat.model	</resource>
+		<transform>
+			<row0>	0.904936 0.000930 0.425542	</row0>
+			<row1>	-0.303024 0.703495 0.642858	</row1>
+			<row2>	-0.298769 -0.710696 0.636902	</row2>
+			<row3>	74.977654 132.206070 50.856995	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<overlapper>	868801f3i	</overlapper>
+	<overlapper>	9c5395bdi	</overlapper>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288134649	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.056457 -0.063605 -1.072009	</row0>
+			<row1>	-0.005486 1.073492 -0.063404	</row1>
+			<row2>	1.073881 0.002140 -0.056683	</row2>
+			<row3>	98.638313 130.545197 35.227081	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288134655	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-1.348658 -0.034382 -0.960523	</row0>
+			<row1>	-0.021538 1.655704 -0.029025	</row1>
+			<row2>	0.960896 -0.011145 -1.348784	</row2>
+			<row3>	94.777275 129.782272 25.583710	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288134705	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.628025 0.096152 1.070742	</row0>
+			<row1>	0.026815 1.241077 -0.095720	</row1>
+			<row2>	-1.074717 -0.025222 -0.628091	</row2>
+			<row3>	91.897636 132.210587 11.286316	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158514	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/particles/m_spec_chimney_smoke.xml	</resource>
+		<transform>
+			<row0>	-0.994702 0.000000 -0.102792	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.102792 0.000000 -0.994702	</row2>
+			<row3>	81.417015 145.165634 44.317444	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158531	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/particles/m_spec_chimney_smoke.xml	</resource>
+		<transform>
+			<row0>	-0.680720 0.000000 0.732542	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	-0.732542 0.000000 -0.680720	</row2>
+			<row3>	55.665123 144.347565 12.917908	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158715	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158732	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	-0.495878 -0.000001 0.837887	</row0>
+			<row1>	-0.000001 0.973626 -0.000000	</row1>
+			<row2>	-0.837886 -0.000001 -0.495877	</row2>
+			<row3>	94.668999 129.932404 31.191040	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158715	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158735	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/tree_fallen/model/tree_fallen.model	</resource>
+		<transform>
+			<row0>	1.324185 -0.014158 0.369905	</row0>
+			<row1>	0.000477 1.374010 0.050880	</row1>
+			<row2>	-0.370173 -0.048873 1.323282	</row2>
+			<row3>	95.081841 130.288589 40.333374	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158715	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158777	</modified_on>
+		</metaData>
+		<resource>	sets/temperate/props/fd_campfire.model	</resource>
+		<transform>
+			<row0>	-0.497723 0.000000 -0.867333	</row0>
+			<row1>	0.000001 0.999998 -0.000000	</row1>
+			<row2>	0.867333 -0.000001 -0.497723	</row2>
+			<row3>	90.694267 129.932404 35.071228	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158715	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158777	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/particles/m_spec_chimney_smoke.xml	</resource>
+		<transform>
+			<row0>	-0.790656 0.033718 0.611325	</row0>
+			<row1>	0.033222 0.999370 -0.012154	</row1>
+			<row2>	-0.611353 0.010700 -0.791281	</row2>
+			<row3>	90.519463 130.136810 35.188751	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158715	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158777	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/particles/m_spec_bluefire_bridge.xml	</resource>
+		<transform>
+			<row0>	0.521018 0.016298 0.853386	</row0>
+			<row1>	-0.059243 0.998095 0.017108	</row1>
+			<row2>	-0.851483 -0.059470 0.520992	</row2>
+			<row3>	90.586967 130.171326 35.219147	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.999999 -0.001063 -0.000001	</row0>
+			<row1>	0.001063 0.999997 0.001908	</row1>
+			<row2>	-0.000001 -0.001908 0.999998	</row2>
+			<row3>	73.673759 131.514603 47.960114	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288159938	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288159945	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.999999 -0.001063 -0.000001	</row0>
+			<row1>	0.001063 0.999997 0.001908	</row1>
+			<row2>	-0.000001 -0.001908 0.999998	</row2>
+			<row3>	73.425804 131.514511 47.121490	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288159948	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288159951	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.999999 -0.001063 -0.000001	</row0>
+			<row1>	0.001063 0.999997 0.001908	</row1>
+			<row2>	-0.000001 -0.001908 0.999998	</row2>
+			<row3>	72.803154 131.516083 45.496124	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288159938	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288159945	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/barrel/models/barrel.model	</resource>
+		<transform>
+			<row0>	0.999999 -0.001063 -0.000001	</row0>
+			<row1>	0.001063 0.999997 0.001908	</row1>
+			<row2>	-0.000001 -0.001908 0.999998	</row2>
+			<row3>	70.986839 130.049988 47.514343	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<outsideOnly>	true	</outsideOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288070618	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288070625	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/house/models/house.model	</resource>
+		<transform>
+			<row0>	0.669432 0.000000 0.742869	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.742869 0.000000 0.669432	</row2>
+			<row3>	61.934593 128.613342 12.934326	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<outsideOnly>	true	</outsideOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288132837	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288132893	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/house/models/house.model	</resource>
+		<transform>
+			<row0>	-0.307745 0.000000 -0.951465	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.951465 0.000000 -0.307745	</row2>
+			<row3>	76.020927 129.740143 41.915405	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<outsideOnly>	true	</outsideOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288133001	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288133020	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/house/models/house.model	</resource>
+		<transform>
+			<row0>	0.891609 0.000000 -0.452798	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	0.452798 0.000000 0.891609	</row2>
+			<row3>	71.898674 136.463638 85.113953	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288324448	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288324457	</modified_on>
+		</metaData>
+		<colour>	255.000000 255.000000 255.000000	</colour>
+		<position>	91.808311 134.354446 35.098846	</position>
+		<innerRadius>	2.874059	</innerRadius>
+		<outerRadius>	6.960691	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	false	</static>
+		<specular>	false	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.000000	</multiplier>
+	</omniLight>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	00010003o.cdata/terrain2	</resource>
+	</terrain>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.907566 0.342317 0.243189	</row0>
+			<row1>	-0.330653 0.939583 -0.088599	</row1>
+			<row2>	-0.258826 -0.000001 0.965923	</row2>
+			<row3>	92.835411 138.321457 46.300995	</row3>
+		</transform>
+		<guid>	2796939C.408AE358.3B6BFEAF.FFCDB54B	</guid>
+		<properties>
+			<next>
+				<guid>	0DF16FB9.4471957B.CFF9B6B6.14D2E5DD	</guid>
+				<chunkId>	00010003o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	D4C20B61.494C6300.5F9B4E9B.D4EA0542	</guid>
+				<chunkId>	00010002o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.000000 0.264157 0.964479	</row0>
+			<row1>	0.000000 0.964479 -0.264157	</row1>
+			<row2>	-0.999999 0.000000 0.000000	</row2>
+			<row3>	50.292732 142.522858 69.750061	</row3>
+		</transform>
+		<guid>	0DF16FB9.4471957B.CFF9B6B6.14D2E5DD	</guid>
+		<properties>
+			<next>
+				<guid>	90095C81.4FAA5D62.6A5878B5.3DCF97D1	</guid>
+				<chunkId>	ffff0003o	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	2796939C.408AE358.3B6BFEAF.FFCDB54B	</guid>
+				<chunkId>	00010003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.274160 0.003160 -0.961671	</row0>
+			<row1>	0.098158 0.994674 0.031253	</row1>
+			<row2>	0.956654 -0.102965 0.272392	</row2>
+			<row3>	24.739937 154.619736 53.559967	</row3>
+		</transform>
+		<guid>	B8824B7C.45199612.77DBB09A.583C1AA6	</guid>
+		<properties>
+			<next>
+				<guid />
+				<chunkId />
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	5E000C76.46ADCFD4.3CB10396.557A378A	</guid>
+				<chunkId>	00010001o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	75.483849 129.665985 12.410065	</row3>
+		</transform>
+		<guid>	A6A3853A.4B440147.688B6999.828EF680	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	F339CE0D.491C41F3.3E10E2AE.78A3C06B	</guid>
+					<chunkId>	00010002o	</chunkId>
+				</item>
+			</patrolLinks>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	3A7F01F9.48D5E8AC.D8509880.914903CE	</guid>
+				<chunkId>	00010003o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288673362	</modified_on>
+		</metaData>
+		<type>	PatrolNode	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	87.324089 132.819305 64.288818	</row3>
+		</transform>
+		<guid>	3A7F01F9.48D5E8AC.D8509880.914903CE	</guid>
+		<properties>
+			<patrolLinks>
+				<item>
+					<guid>	A6A3853A.4B440147.688B6999.828EF680	</guid>
+					<chunkId>	00010003o	</chunkId>
+				</item>
+			</patrolLinks>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	29DB3B6B.45EB6EF9.A052B4AC.9D3658A7	</guid>
+				<chunkId>	00010003o	</chunkId>
+			</link>
+			<link>
+				<guid>	596E8D83.4D7F6811.6267818E.2FE2B77F	</guid>
+				<chunkId>	00020004o	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288070618	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288655545	</modified_on>
+		</metaData>
+		<guid>	3BD35192.46323063.67A9F198.EBA9CE84	</guid>
+		<type>	Door	</type>
+		<transform>
+			<row0>	0.667228 -0.000003 0.744851	</row0>
+			<row1>	0.000001 0.999998 0.000004	</row1>
+			<row2>	-0.744851 -0.000002 0.667228	</row2>
+			<row3>	65.083611 130.360947 8.492065	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<doorType>	1	</doorType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288132837	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288655545	</modified_on>
+		</metaData>
+		<guid>	C91CE47A.4FD960EA.B3BCD7B8.27E5EC04	</guid>
+		<type>	Door	</type>
+		<transform>
+			<row0>	-0.304923 -0.000003 -0.952375	</row0>
+			<row1>	0.000001 0.999998 -0.000004	</row1>
+			<row2>	0.952375 -0.000002 -0.304923	</row2>
+			<row3>	71.332481 131.487747 44.684479	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<doorType>	1	</doorType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288133001	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288655545	</modified_on>
+		</metaData>
+		<guid>	80C75DB1.495C58BE.355A418E.551E9F62	</guid>
+		<type>	Door	</type>
+		<transform>
+			<row0>	0.892949 -0.000003 -0.450154	</row0>
+			<row1>	0.000004 0.999998 -0.000000	</row1>
+			<row2>	0.450154 -0.000002 0.892949	</row2>
+			<row3>	68.430199 138.211243 80.916382	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<doorType>	1	</doorType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158815	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288158819	</modified_on>
+		</metaData>
+		<guid>	5221716C.41E66354.9EE747A1.99234B48	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	-0.258818 -0.000007 0.965917	</row0>
+			<row1>	-0.000109 0.999993 -0.000023	</row1>
+			<row2>	-0.965917 -0.000112 -0.258815	</row2>
+			<row3>	91.146667 130.231064 38.973846	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	3	</seatType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288655962	</modified_on>
+		</metaData>
+		<guid>	D057ED95.4DAD45B3.016BC28F.25CBA751	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	0.965921 -0.000007 -0.258817	</row0>
+			<row1>	0.000035 0.999995 0.000106	</row1>
+			<row2>	0.258818 -0.000112 0.965919	</row2>
+			<row3>	73.814507 136.812469 73.681244	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	3	</seatType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288656059	</modified_on>
+		</metaData>
+		<guid>	29DB3B6B.45EB6EF9.A052B4AC.9D3658A7	</guid>
+		<type>	Guard	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	83.635124 131.859344 57.140808	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<initialPatrolNode>
+				<guid>	3A7F01F9.48D5E8AC.D8509880.914903CE	</guid>
+				<chunkId>	00010003o	</chunkId>
+			</initialPatrolNode>
+			<guardType>	2	</guardType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288656106	</modified_on>
+		</metaData>
+		<guid>	F4439C92.4E6F5EB2.079AA1AF.F8D03E7D	</guid>
+		<type>	Landmark	</type>
+		<transform>
+			<row0>	0.999999 0.000000 0.000000	</row0>
+			<row1>	0.000000 0.999999 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	90.373741 130.968719 47.062164	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<radius>	49.040901	</radius>
+			<description>	Fishing Village	</description>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158793	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288656112	</modified_on>
+		</metaData>
+		<guid>	188E5A17.4B228047.C776DEAA.B6F5B948	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	-0.866020 -0.000007 0.499996	</row0>
+			<row1>	-0.000061 0.999994 -0.000093	</row1>
+			<row2>	-0.499997 -0.000112 -0.866018	</row2>
+			<row3>	87.413383 130.037079 35.641296	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	3	</seatType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<created_by>	AdamM	</created_by>
+			<created_on>	1288158811	</created_on>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1288656113	</modified_on>
+		</metaData>
+		<guid>	7EE1B990.40D6EDE8.A76DD0A2.E1436452	</guid>
+		<type>	Seat	</type>
+		<transform>
+			<row0>	-0.707101 -0.000007 -0.707102	</row0>
+			<row1>	0.000074 0.999994 -0.000083	</row1>
+			<row2>	0.707100 -0.000112 -0.707102	</row2>
+			<row3>	87.570763 129.943329 32.691528	</row3>
+		</transform>
+		<clientOnly>	false	</clientOnly>
+		<properties>
+			<seatType>	3	</seatType>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	00010003o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

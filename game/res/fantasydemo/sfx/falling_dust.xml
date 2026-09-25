@@ -1,0 +1,18 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>	particles/falling_dust.xml	</ParticleSystem>
+	</Actor>
+	
+	<Joint>	particles
+		<Entity/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	
+	<!--<Event>-->
+		<!--<PlaySound>	guns/shot	</PlaySound>-->
+	<!--</Event>-->
+
+</SFXFile>

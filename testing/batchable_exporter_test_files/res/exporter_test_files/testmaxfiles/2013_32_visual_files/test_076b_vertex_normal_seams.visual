@@ -1,0 +1,125 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	-0.828391 0.560150 0.000000	</row0>
+				<row1>	-0.000000 -0.000000 -1.000000	</row1>
+				<row2>	-0.560150 -0.828391 0.000000	</row2>
+				<row3>	0.446383 -0.223354 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	-0.071837 -0.000000 -0.997417	</row0>
+					<row1>	-0.000000 1.000000 -0.000000	</row1>
+					<row2>	0.997417 0.000000 -0.071837	</row2>
+					<row3>	0.400357 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	-0.985481 -0.000000 0.169785	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	-0.169785 0.000000 -0.985481	</row2>
+						<row3>	0.357647 -0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone04	</identifier>
+						<transform>
+							<row0>	0.038478 -0.000000 -0.999260	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	0.999260 0.000000 0.038478	</row2>
+							<row3>	0.389142 0.000000 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	Bone04BlendBoneObject01	</identifier>
+							<transform>
+								<row0>	-0.697718 -0.000000 -0.716372	</row0>
+								<row1>	0.716372 -0.000000 -0.697718	</row1>
+								<row2>	-0.000000 -1.000000 0.000000	</row2>
+								<row3>	0.017311 -0.000000 0.048498	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Bone03BlendBoneObject01	</identifier>
+						<transform>
+							<row0>	-0.742689 0.000000 0.669637	</row0>
+							<row1>	-0.669637 -0.000000 -0.742689	</row1>
+							<row2>	0.000000 -1.000000 0.000000	</row2>
+							<row3>	0.438270 -0.000000 -0.015432	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneObject01	</identifier>
+					<transform>
+						<row0>	0.618211 0.000000 -0.786012	</row0>
+						<row1>	0.786012 -0.000000 0.618211	</row1>
+						<row2>	-0.000000 -1.000000 -0.000000	</row2>
+						<row3>	-0.071640 -0.000000 0.089619	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneObject01	</identifier>
+				<transform>
+					<row0>	-0.828391 -0.000000 -0.560150	</row0>
+					<row1>	0.560150 -0.000000 -0.828391	</row1>
+					<row2>	0.000000 -1.000000 0.000000	</row2>
+					<row3>	0.494891 0.000000 0.065017	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone04BlendBoneObject01	</node>
+		<node>	Bone03BlendBoneObject01	</node>
+		<node>	Bone02BlendBoneObject01	</node>
+		<node>	Bone01BlendBoneObject01	</node>
+		<geometry>
+			<vertices>	Object01.vertices	</vertices>
+			<primitive>	Object01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	same_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse_grey.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/col_green.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	0.005354 0.000000 -0.621580	</min>
+		<max>	0.619855 0.614501 0.607423	</max>
+	</boundingBox>
+</root>

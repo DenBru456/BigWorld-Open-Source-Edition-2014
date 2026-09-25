@@ -1,0 +1,77 @@
+<information.model>
+	<animation>
+		<name>	information_inactive	</name>
+		<frameRate>	6.000000	</frameRate>
+		<nodes>	sets/items/information_inactive	</nodes>
+		<alpha>
+			<Bone01>	1.000000	</Bone01>
+			<textbone>	1.000000	</textbone>
+		</alpha>
+	</animation>
+	<animation>
+		<name>	information_active	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/items/information_active	</nodes>
+	</animation>
+	<dye>
+		<matter>	empty_skinned	</matter>
+		<replaces>	empty_skinned	</replaces>
+		<tint>
+			<name>	inactive	</name>
+			<material>
+				<fx>	shaders/std_effects/normalmap_chrome_glow_skinned.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	system/maps/col_white.bmp	</Texture>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	helpers/maps/col_yellow.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	0.300000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	system/maps/default_norms.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	helpers/maps/col_orange.bmp	</Texture>
+				</property>
+				<property>	reflectionAmount
+					<Float>	2.000000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	2.070000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<action>
+		<name>	PlayInactive	</name>
+		<animation>	information_inactive	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	PlayActive	</name>
+		<animation>	information_active	</animation>
+		<filler>	true	</filler>
+	</action>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.234964 0.652183 -0.235201	</min>
+		<max>	0.234965 1.701528 0.235201	</max>
+	</visibilityBox>
+	<nodefullVisual>	sets/items/information	</nodefullVisual>
+	<extent>	120.000000	</extent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	AdamM	</modified_by>
+		<modified_on>	1269319173	</modified_on>
+	</metaData>
+</information.model>

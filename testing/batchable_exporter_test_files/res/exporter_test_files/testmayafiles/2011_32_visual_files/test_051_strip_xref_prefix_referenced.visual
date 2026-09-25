@@ -1,0 +1,1072 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	CTRL_MASTER	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	CTRL_foot_L	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	CTRL_Knee_L	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CTRL_foot_R	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	CTRL_Knee_R	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CTRL_hand_L	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	CTRL_elbow_L	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	CTRL_hand_R	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	CTRL_elbow_R	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.000000 0.000000 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	ROOT_Grp	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	JNT_ROOT	</identifier>
+					<transform>
+						<row0>	-1.000000 0.000000 -0.000000	</row0>
+						<row1>	0.000000 0.989949 -0.141421	</row1>
+						<row2>	0.000000 -0.141421 -0.989949	</row2>
+						<row3>	0.000000 0.104000 0.006000	</row3>
+					</transform>
+					<node>
+						<identifier>	JNT_Hip_L	</identifier>
+						<transform>
+							<row0>	0.127069 -0.974902 0.182809	</row0>
+							<row1>	0.938445 0.177845 0.296128	</row1>
+							<row2>	-0.321208 0.133927 0.937491	</row2>
+							<row3>	0.008000 0.002263 0.001697	</row3>
+						</transform>
+						<node>
+							<identifier>	JNT_Knee_L	</identifier>
+							<transform>
+								<row0>	0.990957 -0.134179 0.000000	</row0>
+								<row1>	-0.127069 -0.938445 0.321208	</row1>
+								<row2>	-0.043099 -0.318303 -0.947009	</row2>
+								<row3>	0.039638 -0.005367 0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	JNT_Ankle_L	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 -0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	0.054000 -0.000000 -0.008000	</row3>
+								</transform>
+								<node>
+									<identifier>	JNT_Ball_L	</identifier>
+									<transform>
+										<row0>	0.000000 0.000000 1.000000	</row0>
+										<row1>	-1.000000 -0.000000 -0.000000	</row1>
+										<row2>	-0.000000 -1.000000 -0.000000	</row2>
+										<row3>	0.012000 0.000000 0.008000	</row3>
+									</transform>
+									<node>
+										<identifier>	JNT_Toe_L	</identifier>
+										<transform>
+											<row0>	0.000000 0.000000 -1.000000	</row0>
+											<row1>	0.000000 1.000000 0.000000	</row1>
+											<row2>	1.000000 0.000000 0.000000	</row2>
+											<row3>	0.010000 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	JNT_Toe_L_BlendBone	</identifier>
+											<transform>
+												<row0>	1.000000 0.000000 -0.000000	</row0>
+												<row1>	-0.000000 1.000000 -0.000000	</row1>
+												<row2>	-0.000000 -0.000000 -1.000000	</row2>
+												<row3>	0.008000 -0.000000 -0.014000	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	JNT_Ball_L_BlendBone	</identifier>
+										<transform>
+											<row0>	0.000000 0.000000 -1.000000	</row0>
+											<row1>	-0.000000 1.000000 0.000000	</row1>
+											<row2>	-1.000000 -0.000000 -0.000000	</row2>
+											<row3>	-0.004000 -0.000000 -0.008000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	JNT_Ankle_L_BlendBone	</identifier>
+									<transform>
+										<row0>	0.000000 1.000000 0.000000	</row0>
+										<row1>	-1.000000 0.000000 -0.000000	</row1>
+										<row2>	0.000000 0.000000 -1.000000	</row2>
+										<row3>	0.012000 0.008000 0.004000	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	JNT_Knee_L_BlendBone	</identifier>
+								<transform>
+									<row0>	0.000000 1.000000 0.000000	</row0>
+									<row1>	-1.000000 0.000000 -0.000000	</row1>
+									<row2>	0.000000 0.000000 -1.000000	</row2>
+									<row3>	0.066000 0.008000 -0.004000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	JNT_Hip_L_BlendBone	</identifier>
+							<transform>
+								<row0>	-0.127069 -0.938445 0.321208	</row0>
+								<row1>	-0.990957 0.134179 -0.000000	</row1>
+								<row2>	0.043099 0.318303 0.947009	</row2>
+								<row3>	0.104197 -0.020457 0.006358	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	JNT_Hip_R	</identifier>
+						<transform>
+							<row0>	0.127069 0.974902 -0.182809	</row0>
+							<row1>	0.938445 -0.177845 -0.296128	</row1>
+							<row2>	-0.321208 -0.133927 -0.937491	</row2>
+							<row3>	-0.008000 0.002263 0.001697	</row3>
+						</transform>
+						<node>
+							<identifier>	JNT_Knee_R	</identifier>
+							<transform>
+								<row0>	0.990957 -0.134179 0.000000	</row0>
+								<row1>	-0.127069 -0.938445 0.321208	</row1>
+								<row2>	-0.043099 -0.318303 -0.947009	</row2>
+								<row3>	-0.039638 0.005367 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	JNT_Ankle_R	</identifier>
+								<transform>
+									<row0>	1.000000 0.000000 -0.000000	</row0>
+									<row1>	-0.000000 1.000000 -0.000000	</row1>
+									<row2>	-0.000000 0.000000 1.000000	</row2>
+									<row3>	-0.054000 0.000000 0.008000	</row3>
+								</transform>
+								<node>
+									<identifier>	JNT_Ball_R	</identifier>
+									<transform>
+										<row0>	0.000000 -0.000000 1.000000	</row0>
+										<row1>	-1.000000 -0.000000 0.000000	</row1>
+										<row2>	0.000000 -1.000000 -0.000000	</row2>
+										<row3>	-0.012000 -0.000000 -0.008000	</row3>
+									</transform>
+									<node>
+										<identifier>	JNT_Toe_R	</identifier>
+										<transform>
+											<row0>	0.000000 -0.000000 -1.000000	</row0>
+											<row1>	-0.000000 1.000000 -0.000000	</row1>
+											<row2>	1.000000 0.000000 -0.000000	</row2>
+											<row3>	-0.010000 -0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	JNT_Toe_R_BlendBone	</identifier>
+											<transform>
+												<row0>	1.000000 -0.000000 -0.000000	</row0>
+												<row1>	-0.000000 -1.000000 -0.000000	</row1>
+												<row2>	0.000000 -0.000000 1.000000	</row2>
+												<row3>	-0.008000 -0.000000 0.014000	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	JNT_Ball_R_BlendBone	</identifier>
+										<transform>
+											<row0>	-0.000000 -0.000000 -1.000000	</row0>
+											<row1>	-0.000000 -1.000000 0.000000	</row1>
+											<row2>	1.000000 -0.000000 -0.000000	</row2>
+											<row3>	0.004000 0.000000 0.008000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	JNT_Ankle_R_BlendBone	</identifier>
+									<transform>
+										<row0>	-0.000000 1.000000 0.000000	</row0>
+										<row1>	1.000000 0.000000 -0.000000	</row1>
+										<row2>	0.000000 -0.000000 1.000000	</row2>
+										<row3>	-0.012000 -0.008000 -0.004000	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	JNT_Knee_R_BlendBone	</identifier>
+								<transform>
+									<row0>	-0.000000 1.000000 -0.000000	</row0>
+									<row1>	1.000000 0.000000 -0.000000	</row1>
+									<row2>	0.000000 0.000000 1.000000	</row2>
+									<row3>	-0.066000 -0.008000 0.004000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	JNT_Hip_R_BlendBone	</identifier>
+							<transform>
+								<row0>	-0.127069 -0.938445 0.321208	</row0>
+								<row1>	0.990957 -0.134179 0.000000	</row1>
+								<row2>	-0.043099 -0.318303 -0.947009	</row2>
+								<row3>	-0.104197 0.020457 -0.006358	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	JNT_spine1	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000000 -0.000000	</row0>
+							<row1>	0.000000 0.962064 0.272824	</row1>
+							<row2>	0.000000 -0.272824 0.962064	</row2>
+							<row3>	-0.000000 0.014142 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	JNT_spine2	</identifier>
+							<transform>
+								<row0>	1.000000 0.000000 -0.000000	</row0>
+								<row1>	-0.000000 0.913812 -0.406138	</row1>
+								<row2>	-0.000000 0.406138 0.913812	</row2>
+								<row3>	0.000000 0.019698 -0.000000	</row3>
+							</transform>
+							<node>
+								<identifier>	JNT_spine3	</identifier>
+								<transform>
+									<row0>	1.000000 -0.000000 -0.000000	</row0>
+									<row1>	-0.000000 0.970142 -0.242536	</row1>
+									<row2>	-0.000000 0.242536 0.970142	</row2>
+									<row3>	0.000000 0.022000 0.000000	</row3>
+								</transform>
+								<node>
+									<identifier>	CTRL_torso	</identifier>
+									<transform>
+										<row0>	1.000000 0.000000 0.000000	</row0>
+										<row1>	-0.000000 1.000000 -0.000000	</row1>
+										<row2>	-0.000000 0.000000 1.000000	</row2>
+										<row3>	0.000000 0.000000 0.000000	</row3>
+									</transform>
+									<node>
+										<identifier>	CTRL_shoulder_L	</identifier>
+										<transform>
+											<row0>	1.000000 0.000000 0.000000	</row0>
+											<row1>	-0.000000 1.000000 -0.000000	</row1>
+											<row2>	-0.000000 0.000000 1.000000	</row2>
+											<row3>	0.000000 0.000000 0.000000	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	CTRL_shoulder_R	</identifier>
+										<transform>
+											<row0>	1.000000 0.000000 0.000000	</row0>
+											<row1>	-0.000000 1.000000 -0.000000	</row1>
+											<row2>	-0.000000 0.000000 1.000000	</row2>
+											<row3>	0.000000 0.000000 0.000000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	JNT_blade_L	</identifier>
+									<transform>
+										<row0>	0.986394 0.159490 0.039873	</row0>
+										<row1>	-0.164399 0.956943 0.239236	</row1>
+										<row2>	0.000000 -0.242536 0.970142	</row2>
+										<row3>	0.010000 -0.004366 0.000970	</row3>
+									</transform>
+									<node>
+										<identifier>	JNT_shoulder_L	</identifier>
+										<transform>
+											<row0>	-0.163915 -0.983488 -0.076696	</row0>
+											<row1>	0.012609 0.075653 -0.997054	</row1>
+											<row2>	0.986394 -0.164399 -0.000000	</row2>
+											<row3>	0.012166 0.000000 0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	JNT_elbow_L	</identifier>
+											<transform>
+												<row0>	0.997123 0.075805 -0.000000	</row0>
+												<row1>	-0.075805 0.997123 -0.000000	</row1>
+												<row2>	0.000001 -0.000000 1.000000	</row2>
+												<row3>	0.026077 0.000000 -0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	JNT_wrist_L	</identifier>
+												<transform>
+													<row0>	0.995741 0.092198 -0.000000	</row0>
+													<row1>	-0.092198 0.995741 0.000000	</row1>
+													<row2>	0.000000 -0.000000 1.000000	</row2>
+													<row3>	0.026306 0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	JNT_finger1_L	</identifier>
+													<transform>
+														<row0>	1.000000 0.000000 0.000000	</row0>
+														<row1>	0.000000 1.000000 -0.000000	</row1>
+														<row2>	-0.000000 0.000000 1.000000	</row2>
+														<row3>	0.008246 0.000000 -0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	JNT_finger2_L	</identifier>
+														<transform>
+															<row0>	0.842665 0.064820 -0.534522	</row0>
+															<row1>	-0.492805 0.492805 -0.717137	</row1>
+															<row2>	0.216930 0.867722 0.447214	</row2>
+															<row3>	0.008246 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	JNT_finger3_L	</identifier>
+															<transform>
+																<row0>	0.534522 0.717137 -0.447214	</row0>
+																<row1>	-0.801784 0.597614 0.000000	</row1>
+																<row2>	0.267261 0.358569 0.894427	</row2>
+																<row3>	0.007483 -0.000000 -0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	JNT_finger3_L_BlendBone	</identifier>
+																<transform>
+																	<row0>	1.000000 0.000000 0.000000	</row0>
+																	<row1>	-0.000000 1.000000 -0.000000	</row1>
+																	<row2>	0.000000 0.000000 -1.000000	</row2>
+																	<row3>	0.018000 -0.082000 -0.006000	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	JNT_finger2_L_BlendBone	</identifier>
+															<transform>
+																<row0>	0.534522 0.717137 -0.447213	</row0>
+																<row1>	-0.801784 0.597614 0.000000	</row1>
+																<row2>	-0.267261 -0.358568 -0.894427	</row2>
+																<row3>	0.081247 -0.038247 -0.013416	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	JNT_finger1_L_BlendBone	</identifier>
+														<transform>
+															<row0>	0.000000 0.000000 -1.000000	</row0>
+															<row1>	-0.970143 0.242536 -0.000000	</row1>
+															<row2>	-0.242536 -0.970143 -0.000000	</row2>
+															<row3>	0.092649 -0.025224 -0.022000	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	JNT_thumb1_L	</identifier>
+													<transform>
+														<row0>	0.971825 0.000000 -0.235702	</row0>
+														<row1>	-0.161690 0.727607 -0.666667	</row1>
+														<row2>	0.171498 0.685994 0.707107	</row2>
+														<row3>	0.007276 0.004366 -0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	JNT_thumb2_L	</identifier>
+														<transform>
+															<row0>	0.235702 0.666667 -0.707107	</row0>
+															<row1>	-0.942809 0.333333 -0.000000	</row1>
+															<row2>	0.235702 0.666667 0.707107	</row2>
+															<row3>	0.008485 -0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	JNT_thumb2_L_BlendBone	</identifier>
+															<transform>
+																<row0>	1.000000 0.000000 0.000000	</row0>
+																<row1>	-0.000000 1.000000 -0.000000	</row1>
+																<row2>	0.000000 -0.000000 -1.000000	</row2>
+																<row3>	0.020000 -0.090000 -0.008000	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	JNT_thumb1_L_BlendBone	</identifier>
+														<transform>
+															<row0>	0.235702 0.666667 -0.707107	</row0>
+															<row1>	-0.942809 0.333333 0.000000	</row1>
+															<row2>	-0.235702 -0.666667 -0.707107	</row2>
+															<row3>	0.096167 -0.022000 -0.019799	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	JNT_wrist_L_BlendBone	</identifier>
+													<transform>
+														<row0>	0.000000 0.000000 -1.000000	</row0>
+														<row1>	-0.970143 0.242536 -0.000000	</row1>
+														<row2>	-0.242536 -0.970143 -0.000000	</row2>
+														<row3>	0.100895 -0.025224 -0.022000	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	JNT_elbow_L_BlendBone	</identifier>
+												<transform>
+													<row0>	0.000000 0.000000 -1.000000	</row0>
+													<row1>	-0.988372 0.152057 0.000000	</row1>
+													<row2>	-0.152057 -0.988372 -0.000000	</row2>
+													<row3>	0.129097 -0.015814 -0.022000	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	JNT_shoulder_L_BlendBone	</identifier>
+											<transform>
+												<row0>	0.000000 0.000000 -1.000000	</row0>
+												<row1>	-0.997054 0.076697 0.000000	</row1>
+												<row2>	-0.076697 -0.997054 -0.000000	</row2>
+												<row3>	0.156001 -0.005982 -0.022000	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	JNT_blade_L_BlendBone	</identifier>
+										<transform>
+											<row0>	-0.986394 0.164399 -0.000000	</row0>
+											<row1>	0.164399 0.986394 -0.000000	</row1>
+											<row2>	0.000000 0.000000 1.000000	</row2>
+											<row3>	-0.035181 -0.150261 -0.006000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	JNT_blade_R	</identifier>
+									<transform>
+										<row0>	0.986394 -0.159490 -0.039873	</row0>
+										<row1>	-0.164399 -0.956943 -0.239236	</row1>
+										<row2>	0.000000 0.242536 -0.970142	</row2>
+										<row3>	-0.010000 -0.004366 0.000970	</row3>
+									</transform>
+									<node>
+										<identifier>	JNT_shoulder_R	</identifier>
+										<transform>
+											<row0>	-0.163915 -0.983488 -0.076696	</row0>
+											<row1>	0.012609 0.075653 -0.997054	</row1>
+											<row2>	0.986394 -0.164399 0.000000	</row2>
+											<row3>	-0.012166 -0.000000 -0.000000	</row3>
+										</transform>
+										<node>
+											<identifier>	JNT_elbow_R	</identifier>
+											<transform>
+												<row0>	0.997123 0.075805 -0.000000	</row0>
+												<row1>	-0.075805 0.997123 -0.000000	</row1>
+												<row2>	0.000001 -0.000000 1.000000	</row2>
+												<row3>	-0.026077 0.000000 0.000000	</row3>
+											</transform>
+											<node>
+												<identifier>	JNT_wrist_R	</identifier>
+												<transform>
+													<row0>	0.995741 0.092198 -0.000000	</row0>
+													<row1>	-0.092198 0.995741 0.000000	</row1>
+													<row2>	0.000000 0.000000 1.000000	</row2>
+													<row3>	-0.026306 -0.000000 0.000000	</row3>
+												</transform>
+												<node>
+													<identifier>	JNT_finger1_R	</identifier>
+													<transform>
+														<row0>	1.000000 -0.000000 0.000000	</row0>
+														<row1>	0.000000 1.000000 0.000000	</row1>
+														<row2>	-0.000000 0.000000 1.000000	</row2>
+														<row3>	-0.008246 -0.000000 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	JNT_finger2_R	</identifier>
+														<transform>
+															<row0>	0.842665 0.064820 -0.534522	</row0>
+															<row1>	-0.492805 0.492805 -0.717137	</row1>
+															<row2>	0.216930 0.867722 0.447214	</row2>
+															<row3>	-0.008246 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	JNT_finger3_R	</identifier>
+															<transform>
+																<row0>	0.534522 0.717137 -0.447214	</row0>
+																<row1>	-0.801784 0.597614 0.000000	</row1>
+																<row2>	0.267261 0.358569 0.894427	</row2>
+																<row3>	-0.007483 0.000000 0.000000	</row3>
+															</transform>
+															<node>
+																<identifier>	JNT_finger3_R_BlendBone	</identifier>
+																<transform>
+																	<row0>	1.000000 -0.000000 0.000000	</row0>
+																	<row1>	-0.000000 -1.000000 -0.000000	</row1>
+																	<row2>	-0.000000 -0.000000 1.000000	</row2>
+																	<row3>	-0.018000 0.082000 0.006000	</row3>
+																</transform>
+															</node>
+														</node>
+														<node>
+															<identifier>	JNT_finger2_R_BlendBone	</identifier>
+															<transform>
+																<row0>	0.534522 0.717137 -0.447214	</row0>
+																<row1>	0.801784 -0.597614 0.000000	</row1>
+																<row2>	0.267261 0.358569 0.894427	</row2>
+																<row3>	-0.081247 0.038247 0.013416	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	JNT_finger1_R_BlendBone	</identifier>
+														<transform>
+															<row0>	0.000000 -0.000000 -1.000000	</row0>
+															<row1>	0.970143 -0.242536 0.000000	</row1>
+															<row2>	0.242536 0.970143 0.000000	</row2>
+															<row3>	-0.092649 0.025224 0.022000	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	JNT_thumb1_R	</identifier>
+													<transform>
+														<row0>	0.971825 -0.000000 -0.235702	</row0>
+														<row1>	-0.161690 0.727607 -0.666667	</row1>
+														<row2>	0.171498 0.685994 0.707107	</row2>
+														<row3>	-0.007276 -0.004366 0.000000	</row3>
+													</transform>
+													<node>
+														<identifier>	JNT_thumb2_R	</identifier>
+														<transform>
+															<row0>	0.235702 0.666667 -0.707107	</row0>
+															<row1>	-0.942809 0.333333 0.000000	</row1>
+															<row2>	0.235702 0.666667 0.707107	</row2>
+															<row3>	-0.008485 0.000000 0.000000	</row3>
+														</transform>
+														<node>
+															<identifier>	JNT_thumb2_R_BlendBone	</identifier>
+															<transform>
+																<row0>	1.000000 -0.000000 0.000000	</row0>
+																<row1>	-0.000000 -1.000000 0.000000	</row1>
+																<row2>	-0.000000 0.000000 1.000000	</row2>
+																<row3>	-0.020000 0.090000 0.008000	</row3>
+															</transform>
+														</node>
+													</node>
+													<node>
+														<identifier>	JNT_thumb1_R_BlendBone	</identifier>
+														<transform>
+															<row0>	0.235702 0.666667 -0.707107	</row0>
+															<row1>	0.942809 -0.333333 0.000000	</row1>
+															<row2>	0.235702 0.666667 0.707107	</row2>
+															<row3>	-0.096167 0.022000 0.019799	</row3>
+														</transform>
+													</node>
+												</node>
+												<node>
+													<identifier>	JNT_wrist_R_BlendBone	</identifier>
+													<transform>
+														<row0>	0.000000 -0.000000 -1.000000	</row0>
+														<row1>	0.970143 -0.242536 0.000000	</row1>
+														<row2>	0.242536 0.970143 0.000000	</row2>
+														<row3>	-0.100895 0.025224 0.022000	</row3>
+													</transform>
+												</node>
+											</node>
+											<node>
+												<identifier>	JNT_elbow_R_BlendBone	</identifier>
+												<transform>
+													<row0>	-0.000000 -0.000000 -1.000000	</row0>
+													<row1>	0.988372 -0.152057 -0.000000	</row1>
+													<row2>	0.152057 0.988372 -0.000000	</row2>
+													<row3>	-0.129097 0.015814 0.022000	</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>	JNT_shoulder_R_BlendBone	</identifier>
+											<transform>
+												<row0>	-0.000000 -0.000000 -1.000000	</row0>
+												<row1>	0.997054 -0.076697 -0.000000	</row1>
+												<row2>	0.076697 0.997054 -0.000000	</row2>
+												<row3>	-0.156001 0.005982 0.022000	</row3>
+											</transform>
+										</node>
+									</node>
+									<node>
+										<identifier>	JNT_blade_R_BlendBone	</identifier>
+										<transform>
+											<row0>	-0.986394 0.164399 -0.000000	</row0>
+											<row1>	-0.164399 -0.986394 0.000000	</row1>
+											<row2>	-0.000000 -0.000000 -1.000000	</row2>
+											<row3>	0.035181 0.150261 0.006000	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	JNT_neck	</identifier>
+									<transform>
+										<row0>	1.000000 0.000000 0.000000	</row0>
+										<row1>	-0.000000 0.998920 -0.046461	</row1>
+										<row2>	-0.000000 0.046461 0.998920	</row2>
+										<row3>	0.000000 0.014067 0.001455	</row3>
+									</transform>
+									<node>
+										<identifier>	JNT_neck_BlendBone	</identifier>
+										<transform>
+											<row0>	-1.000000 0.000000 0.000000	</row0>
+											<row1>	0.000000 0.957826 0.287348	</row1>
+											<row2>	0.000000 -0.287348 0.957826	</row2>
+											<row3>	-0.000000 -0.164171 -0.051339	</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>	JNT_spine3_BlendBone	</identifier>
+									<transform>
+										<row0>	-1.000000 0.000000 0.000000	</row0>
+										<row1>	0.000000 0.970143 0.242536	</row1>
+										<row2>	0.000000 -0.242536 0.970143	</row2>
+										<row3>	-0.000000 -0.152312 -0.042201	</row3>
+									</transform>
+								</node>
+							</node>
+							<node>
+								<identifier>	JNT_spine2_BlendBone	</identifier>
+								<transform>
+									<row0>	-1.000000 0.000000 0.000000	</row0>
+									<row1>	0.000000 1.000000 0.000000	</row1>
+									<row2>	0.000000 -0.000000 1.000000	</row2>
+									<row3>	-0.000000 -0.136000 -0.004000	</row3>
+								</transform>
+							</node>
+						</node>
+						<node>
+							<identifier>	JNT_spine1_BlendBone	</identifier>
+							<transform>
+								<row0>	-1.000000 0.000000 -0.000000	</row0>
+								<row1>	0.000000 0.913812 -0.406138	</row1>
+								<row2>	0.000000 0.406138 0.913812	</row2>
+								<row3>	-0.000000 -0.106205 0.051580	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	JNT_ROOT_BlendBone	</identifier>
+						<transform>
+							<row0>	-1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 0.989950 -0.141421	</row1>
+							<row2>	0.000000 0.141421 0.989950	</row2>
+							<row3>	-0.000000 -0.102106 0.020648	</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	JNT_neck_BlendBone	</node>
+		<node>	JNT_spine3_BlendBone	</node>
+		<geometry>
+			<vertices>	headShape.vertices	</vertices>
+			<primitive>	headShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	headtext_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	JNT_finger2_L_BlendBone	</node>
+		<node>	JNT_finger1_L_BlendBone	</node>
+		<node>	JNT_finger3_L_BlendBone	</node>
+		<node>	JNT_thumb1_L_BlendBone	</node>
+		<geometry>
+			<vertices>	bodyShape_split_2.vertices	</vertices>
+			<primitive>	bodyShape_split_2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bodytext_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	JNT_Knee_R_BlendBone	</node>
+		<node>	JNT_Hip_R_BlendBone	</node>
+		<node>	JNT_finger3_R_BlendBone	</node>
+		<node>	JNT_ROOT_BlendBone	</node>
+		<node>	JNT_Hip_L_BlendBone	</node>
+		<node>	JNT_Knee_L_BlendBone	</node>
+		<node>	JNT_finger3_L_BlendBone	</node>
+		<node>	JNT_Ankle_L_BlendBone	</node>
+		<node>	JNT_Ball_L_BlendBone	</node>
+		<node>	JNT_finger2_R_BlendBone	</node>
+		<node>	JNT_finger1_R_BlendBone	</node>
+		<node>	JNT_thumb1_R_BlendBone	</node>
+		<node>	JNT_wrist_R_BlendBone	</node>
+		<node>	JNT_elbow_R_BlendBone	</node>
+		<node>	JNT_thumb2_R_BlendBone	</node>
+		<geometry>
+			<vertices>	bodyShape_split_1.vertices	</vertices>
+			<primitive>	bodyShape_split_1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bodytext_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	JNT_Knee_R_BlendBone	</node>
+		<node>	JNT_Ankle_R_BlendBone	</node>
+		<node>	JNT_Ball_R_BlendBone	</node>
+		<node>	JNT_ROOT_BlendBone	</node>
+		<node>	JNT_spine1_BlendBone	</node>
+		<node>	JNT_spine2_BlendBone	</node>
+		<node>	JNT_spine3_BlendBone	</node>
+		<node>	JNT_blade_R_BlendBone	</node>
+		<node>	JNT_shoulder_R_BlendBone	</node>
+		<node>	JNT_elbow_R_BlendBone	</node>
+		<node>	JNT_blade_L_BlendBone	</node>
+		<node>	JNT_shoulder_L_BlendBone	</node>
+		<node>	JNT_elbow_L_BlendBone	</node>
+		<node>	JNT_wrist_L_BlendBone	</node>
+		<node>	JNT_thumb1_L_BlendBone	</node>
+		<node>	JNT_finger1_L_BlendBone	</node>
+		<node>	JNT_thumb2_L_BlendBone	</node>
+		<geometry>
+			<vertices>	bodyShape_split_0.vertices	</vertices>
+			<primitive>	bodyShape_split_0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bodytext_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints>
+		<orientConstraint>
+			<identifier>	JNT_head_orientConstraint1	</identifier>
+			<offset>	-0.244979 -3.141593 0.000000	</offset>
+			<source>
+				<identifier>	CTRL_Head	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</orientConstraint>
+		<orientConstraint>
+			<identifier>	JNT_neck_orientConstraint1	</identifier>
+			<target>	JNT_neck	</target>
+			<offset>	-0.046478 -0.000000 0.000000	</offset>
+			<source>
+				<identifier>	CTRL_Head	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</orientConstraint>
+		<orientConstraint>
+			<identifier>	JNT_wrist_L_orientConstraint2	</identifier>
+			<target>	JNT_wrist_L	</target>
+			<offset>	1.570796 -0.244979 -1.570796	</offset>
+			<source>
+				<identifier>	CTRL_hand_L	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</orientConstraint>
+		<orientConstraint>
+			<identifier>	JNT_blade_L_orientConstraint2	</identifier>
+			<target>	JNT_blade_L	</target>
+			<offset>	0.241775 -0.039883 0.160303	</offset>
+			<source>
+				<identifier>	CTRL_shoulder_L	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</orientConstraint>
+		<orientConstraint>
+			<identifier>	JNT_wrist_R_orientConstraint2	</identifier>
+			<target>	JNT_wrist_R	</target>
+			<offset>	-1.570796 0.244979 1.570796	</offset>
+			<source>
+				<identifier>	CTRL_hand_R	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</orientConstraint>
+		<orientConstraint>
+			<identifier>	JNT_blade_R_orientConstraint2	</identifier>
+			<target>	JNT_blade_R	</target>
+			<offset>	-2.899818 0.039883 -0.160303	</offset>
+			<source>
+				<identifier>	CTRL_shoulder_R	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</orientConstraint>
+		<orientConstraint>
+			<identifier>	JNT_ROOT1_orientConstraint1	</identifier>
+			<target>	JNT_ROOT	</target>
+			<offset>	-2.999696 -0.000000 -3.141593	</offset>
+			<source>
+				<identifier>	CTRL_hip	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</orientConstraint>
+		<pointConstraint>
+			<identifier>	IK_arm_L_pointConstraint2	</identifier>
+			<target>	IK_arm_L	</target>
+			<offset>	0.000000 0.000000 -0.000000	</offset>
+			<source>
+				<identifier>	CTRL_hand_L	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</pointConstraint>
+		<poleVectorConstraint>
+			<identifier>	IK_arm_L_poleVectorConstraint2	</identifier>
+			<target>	IK_arm_L	</target>
+			<offset>	0.000000 0.000000 -0.000000	</offset>
+			<source>
+				<identifier>	CTRL_elbow_L	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</poleVectorConstraint>
+		<pointConstraint>
+			<identifier>	IK_arm_R_pointConstraint1	</identifier>
+			<target>	IK_arm_R	</target>
+			<offset>	0.000000 0.000000 -0.000000	</offset>
+			<source>
+				<identifier>	CTRL_hand_R	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</pointConstraint>
+		<poleVectorConstraint>
+			<identifier>	IK_arm_R_poleVectorConstraint1	</identifier>
+			<target>	IK_arm_R	</target>
+			<offset>	0.000000 0.000000 -0.000000	</offset>
+			<source>
+				<identifier>	CTRL_elbow_R	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</poleVectorConstraint>
+		<poleVectorConstraint>
+			<identifier>	IK_ankle_L_poleVectorConstraint1	</identifier>
+			<target>	IK_ankle_L	</target>
+			<offset>	0.000000 0.000000 -0.000000	</offset>
+			<source>
+				<identifier>	CTRL_Knee_L	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</poleVectorConstraint>
+		<poleVectorConstraint>
+			<identifier>	IK_ankle_R_poleVectorConstraint1	</identifier>
+			<target>	IK_ankle_R	</target>
+			<offset>	0.000000 0.000000 -0.000000	</offset>
+			<source>
+				<identifier>	CTRL_Knee_R	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</poleVectorConstraint>
+		<pointConstraint>
+			<identifier>	JNT_ROOT1_pointConstraint1	</identifier>
+			<target>	JNT_ROOT	</target>
+			<offset>	0.000000 0.000000 -0.000000	</offset>
+			<source>
+				<identifier>	CTRL_hip	</identifier>
+				<weight>	1.000000	</weight>
+			</source>
+		</pointConstraint>
+		<ikHandle>
+			<identifier>	IK_arm_L	</identifier>
+			<startJoint>	JNT_shoulder_L	</startJoint>
+			<endJoint>	JNT_wrist_L	</endJoint>
+			<source>
+				<node>	IK_arm_L_pointConstraint2	</node>
+			</source>
+			<poleVector>
+				<node>	IK_arm_L_poleVectorConstraint2	</node>
+			</poleVector>
+		</ikHandle>
+		<ikHandle>
+			<identifier>	IK_arm_R	</identifier>
+			<startJoint>	JNT_shoulder_R	</startJoint>
+			<endJoint>	JNT_wrist_R	</endJoint>
+			<source>
+				<node>	IK_arm_R_pointConstraint1	</node>
+			</source>
+			<poleVector>
+				<node>	IK_arm_R_poleVectorConstraint1	</node>
+			</poleVector>
+		</ikHandle>
+		<ikHandle>
+			<identifier>	IK__ball_L	</identifier>
+			<startJoint>	JNT_Ankle_L	</startJoint>
+			<endJoint>	JNT_Ball_L	</endJoint>
+			<source>
+				<vector>	-0.008000 -0.000000 0.004000	</vector>
+			</source>
+			<poleVector>
+				<vector>	0.000000 0.000000 -1.000000	</vector>
+			</poleVector>
+		</ikHandle>
+		<ikHandle>
+			<identifier>	IK_ankle_L	</identifier>
+			<startJoint>	JNT_Hip_L	</startJoint>
+			<endJoint>	JNT_Ankle_L	</endJoint>
+			<source>
+				<vector>	-0.008000 0.012000 -0.004000	</vector>
+			</source>
+			<poleVector>
+				<node>	IK_ankle_L_poleVectorConstraint1	</node>
+			</poleVector>
+		</ikHandle>
+		<ikHandle>
+			<identifier>	IK_toe_L	</identifier>
+			<startJoint>	JNT_Ball_L	</startJoint>
+			<endJoint>	JNT_Toe_L	</endJoint>
+			<source>
+				<vector>	-0.008000 0.000000 0.014000	</vector>
+			</source>
+			<poleVector>
+				<vector>	0.000000 0.000000 -1.000000	</vector>
+			</poleVector>
+		</ikHandle>
+		<ikHandle>
+			<identifier>	IK__ball_R	</identifier>
+			<startJoint>	JNT_Ankle_R	</startJoint>
+			<source>
+				<vector>	0.008000 -0.000000 0.004000	</vector>
+			</source>
+			<poleVector>
+				<vector>	0.000000 0.000000 -1.000000	</vector>
+			</poleVector>
+		</ikHandle>
+		<ikHandle>
+			<identifier>	IK_ankle_R	</identifier>
+			<startJoint>	JNT_Hip_R	</startJoint>
+			<source>
+				<vector>	0.008000 0.012000 -0.004000	</vector>
+			</source>
+			<poleVector>
+				<node>	IK_ankle_R_poleVectorConstraint1	</node>
+			</poleVector>
+		</ikHandle>
+		<ikHandle>
+			<identifier>	IK_toe_R	</identifier>
+			<startJoint>	JNT_Ball_R	</startJoint>
+			<source>
+				<vector>	0.008000 0.000000 0.014000	</vector>
+			</source>
+			<poleVector>
+				<vector>	0.000000 0.000000 -1.000000	</vector>
+			</poleVector>
+		</ikHandle>
+	</constraints>
+	<boundingBox>
+		<min>	-0.028944 -0.000213 -0.013597	</min>
+		<max>	0.028944 0.194046 0.015056	</max>
+	</boundingBox>
+	<metaData>
+		<settings>
+			<exportAnimation>	false	</exportAnimation>
+			<exportMode>	0	</exportMode>
+			<boneCount>	17	</boneCount>
+			<transformToOrigin>	false	</transformToOrigin>
+			<allowScale>	false	</allowScale>
+			<bumpMapped>	true	</bumpMapped>
+			<keepExistingMaterials>	false	</keepExistingMaterials>
+			<snapVertices>	false	</snapVertices>
+			<stripRefPrefix>	false	</stripRefPrefix>
+			<useReferenceNode>	false	</useReferenceNode>
+			<referenceNodesFile>	exporter_test_files/testmayafiles/test_017_use_reference_hierarchy_1.visual	</referenceNodesFile>
+			<disableVisualChecker>	false	</disableVisualChecker>
+			<useLegacyScaling>	false	</useLegacyScaling>
+			<fixCylindrical>	false	</fixCylindrical>
+			<useLegacyOrientation>	false	</useLegacyOrientation>
+			<sceneRootAdded>	false	</sceneRootAdded>
+			<includeMeshes>	true	</includeMeshes>
+			<includeEnvelopesAndBones>	false	</includeEnvelopesAndBones>
+			<includeNodes>	true	</includeNodes>
+			<includeMaterials>	true	</includeMaterials>
+			<includeAnimations>	false	</includeAnimations>
+			<useCharacterMode>	false	</useCharacterMode>
+			<animationName>	anim	</animationName>
+			<includePortals>	false	</includePortals>
+			<worldSpaceOrigin>	false	</worldSpaceOrigin>
+			<unitScale>	0.100000	</unitScale>
+			<localHierarchy>	false	</localHierarchy>
+			<nodeFilter>	0	</nodeFilter>
+		</settings>
+	</metaData>
+</root>

@@ -1,0 +1,44 @@
+<dragon_animated_glass.model>
+	<animation>
+		<name>	dragon_roar	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_roar	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_fly	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_fly	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_relive01	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_relive01	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_rest01	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_rest01	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_rest02	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_rest02	</nodes>
+	</animation>
+	<animation>
+		<name>	dragon_rest03	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	sets/dungeon/props/animations/dragon_rest03	</nodes>
+	</animation>
+	<extent>	40.000000	</extent>
+	<nodefullVisual>	sets/dungeon/props/dragon_animated_glass	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-1.720961 -0.596345 -1.702989	</min>
+		<max>	1.676977 2.861483 1.760280	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377138	</modified_on>
+	</metaData>
+</dragon_animated_glass.model>

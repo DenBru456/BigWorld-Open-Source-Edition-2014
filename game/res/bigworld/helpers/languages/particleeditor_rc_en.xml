@@ -1,0 +1,481 @@
+<root>
+  <en>
+    <!-- COMMON DEFINITIONS -->
+    <RC_IDC_S_METRES>(m)</RC_IDC_S_METRES>
+    <RC_IDC_S_SECS>(s)</RC_IDC_S_SECS>
+    <RC_IDC_S_METRESPERS>(m/s)</RC_IDC_S_METRESPERS>
+    <RC_IDC_S_PARTSEC>(part./s)</RC_IDC_S_PARTSEC>
+    <RC_IDC_S_OK>OK</RC_IDC_S_OK>
+    <RC_IDC_S_CANCEL>Cancel</RC_IDC_S_CANCEL>
+
+    <!-- IDD_KEY_CUTS -->
+    <RC_IDD_KEY_CUTS_CAPTION>ParticleEditor Shortcuts</RC_IDD_KEY_CUTS_CAPTION>
+
+    <!-- IDD_PSA_SOURCE_PROPERTIES -->
+    <RC_IDD_PSA_SOURCE_PROPERTIES_CAPTION>Source</RC_IDD_PSA_SOURCE_PROPERTIES_CAPTION>
+    <RC_IDC_PSASOURCE_S_INITIALPOS>Initial Position Generator:</RC_IDC_PSASOURCE_S_INITIALPOS>
+    <RC_IDC_PSASOURCE_S_SHOW>Show</RC_IDC_PSASOURCE_S_SHOW>
+    <RC_IDC_PSASOURCE_S_INITIALVEL>Initial Velocity Generator:</RC_IDC_PSASOURCE_S_INITIALVEL>
+    <RC_IDC_PSASOURCE_S_VELINH>Velocity Inheritance Factor:</RC_IDC_PSASOURCE_S_VELINH>
+    <RC_IDC_PSA_SOURCE_TIMETRIGGERED>Time Trigger</RC_IDC_PSA_SOURCE_TIMETRIGGERED>
+    <RC_IDC_PSASOURCE_S_RATE>Emitter Rate:</RC_IDC_PSASOURCE_S_RATE>
+    <RC_IDC_PSASOURCE_S_SLEEP>Sleep Periods:</RC_IDC_PSASOURCE_S_SLEEP>
+    <RC_IDC_PSASOURCE_S_ACTIVE>Active Periods:</RC_IDC_PSASOURCE_S_ACTIVE>
+    <RC_IDC_PSASOURCE_S_MIN>Min:</RC_IDC_PSASOURCE_S_MIN>
+    <RC_IDC_PSASOURCE_S_MAX>Max:</RC_IDC_PSASOURCE_S_MAX>
+    <RC_IDC_PSA_SOURCE_MOTIONTRIGGERED>Motion Trigger</RC_IDC_PSA_SOURCE_MOTIONTRIGGERED>
+    <RC_IDC_PSASOURCE_S_MOTION>Motion Sensitivity:</RC_IDC_PSASOURCE_S_MOTION>
+    <RC_IDC_PSASOURCE_S_MPART>(m/part.)</RC_IDC_PSASOURCE_S_MPART>
+    <RC_IDC_PSA_SOURCE_GROUNDED>Grounded</RC_IDC_PSA_SOURCE_GROUNDED>
+    <RC_IDC_PSASOURCE_S_DROPDIST>Drop Distance:</RC_IDC_PSASOURCE_S_DROPDIST>
+    <RC_IDC_PSA_SOURCE_SIZEBOX>Particle Size</RC_IDC_PSA_SOURCE_SIZEBOX>
+    <RC_IDC_PSASOURCE_S_MINIMUM>Minimum:</RC_IDC_PSASOURCE_S_MINIMUM>
+    <RC_IDC_PSASOURCE_S_MAXIMUM>Maximum:</RC_IDC_PSASOURCE_S_MAXIMUM>
+    <RC_IDC_PSASOURCE_S_SPRITE>Sprite Only</RC_IDC_PSASOURCE_S_SPRITE>
+    <RC_IDC_PSASOURCE_S_INITIALORI>Initial Orientation (deg):</RC_IDC_PSASOURCE_S_INITIALORI>
+    <RC_IDC_PSASOURCE_S_RAND>Randomise</RC_IDC_PSASOURCE_S_RAND>
+    <RC_IDC_PSASOURCE_S_SPINRATE>Spin Rate (rev/s):</RC_IDC_PSASOURCE_S_SPINRATE>
+    <RC_IDC_PSA_SOURCE_MESHBOX>Mesh Only</RC_IDC_PSA_SOURCE_MESHBOX>
+    <RC_IDC_PSA_SOURCE_RANDOM_SPIN>Random Spin</RC_IDC_PSA_SOURCE_RANDOM_SPIN>
+    <RC_IDC_PSA_SOURCE_RANDDEG>Randomise (Deg. Range)</RC_IDC_PSA_SOURCE_RANDDEG>
+    <RC_IDC_PSASOURCE_S_PITCH>Pitch:</RC_IDC_PSASOURCE_S_PITCH>
+    <RC_IDC_PSASOURCE_S_YAW>Yaw:</RC_IDC_PSASOURCE_S_YAW>
+    <RC_IDC_PSASOURCE_S_NUMPAR>Number of particles to spawn on demand (required if Emitter Rate = 0):</RC_IDC_PSASOURCE_S_NUMPAR>
+    <RC_IDC_PSASOURCE_S_ALLTIME>Allowed time to create particles:</RC_IDC_PSASOURCE_S_ALLTIME>
+    <RC_IDC_PSASOURCE_S_MAXSPEED>The maximum speed:</RC_IDC_PSASOURCE_S_MAXSPEED>
+    <RC_IDC_PSASOURCE_S_TRIGG>Triggers/Grounded</RC_IDC_PSASOURCE_S_TRIGG>
+    <RC_IDC_PSASOURCE_S_VEL>Velocity</RC_IDC_PSASOURCE_S_VEL>
+    <RC_IDC_PSASOURCE_S_POS>Position</RC_IDC_PSASOURCE_S_POS>
+    <RC_IDC_PSASOURCE_S_MISC>Miscellaneous</RC_IDC_PSASOURCE_S_MISC>
+    <RC_IDC_PSASOURCE_S_MISC_HELP>(These are disabled for point sprites.)</RC_IDC_PSASOURCE_S_MISC_HELP>
+	<RC_IDC_PSA_DELAY>Delay</RC_IDC_PSA_DELAY>
+
+    <!-- IDD_PSA_SINK_PROPERTIES -->
+    <RC_IDD_PSA_SINK_PROPERTIES_CAPTION>Sink</RC_IDD_PSA_SINK_PROPERTIES_CAPTION>
+    <RC_IDC_PSASINK_S_AGE_HELP>Enter maximum age or minimum speed of particle for death to occur.</RC_IDC_PSASINK_S_AGE_HELP>
+    <RC_IDC_PSASINK_S_AGE_HELP2>In both cases -1 means not in use.</RC_IDC_PSASINK_S_AGE_HELP2>
+    <RC_IDC_PSASINK_S_MAXAGE>Maximum Age:</RC_IDC_PSASINK_S_MAXAGE>
+    <RC_IDC_PSASINK_S_MINSPEED>Minimum Speed:</RC_IDC_PSASINK_S_MINSPEED>
+    <RC_IDC_PSASINK_S_OUTSIDE_ONLY>Outside only</RC_IDC_PSASINK_S_OUTSIDE_ONLY>
+
+    <!-- IDD_PSA_BARRIER_PROPERTIES -->
+    <RC_IDD_PSA_BARRIER_PROPERTIES>Barrier</RC_IDD_PSA_BARRIER_PROPERTIES>
+    <RC_IDC_PSABARR_S_SHAPE>Barrier Shape:</RC_IDC_PSABARR_S_SHAPE>
+    <RC_IDC_PSABARR_S_EFFECT>Barrier Effect:</RC_IDC_PSABARR_S_EFFECT>
+    <RC_IDC_PSABARR_S_HELP>Adds a barrier against which particles can react.</RC_IDC_PSABARR_S_HELP>
+
+    <!-- IDD_PSA_TINT_SHADER_PROPERTIES -->
+    <RC_IDD_PSA_TINT_SHADER_PROPERTIES>TintShader</RC_IDD_PSA_TINT_SHADER_PROPERTIES>
+    <RC_IDC_PSATINT_S_FOG_BLEND>The Fog blend amount (0.0 - 1.0):</RC_IDC_PSATINT_S_FOG_BLEND>
+    <RC_IDC_PSATINT_S_HELP>Select a Tint Swab to Modify:</RC_IDC_PSATINT_S_HELP>
+    <RC_IDC_PSATINT_S_CYCLE>Tint Cycle Time:</RC_IDC_PSATINT_S_CYCLE>
+    <RC_IDC_PSATINT_S_LCYCLE>Loop Tint Cycle</RC_IDC_PSATINT_S_LCYCLE>
+    <RC_IDC_PSATINT_S_PLIFE>Particle Life (s)</RC_IDC_PSATINT_S_PLIFE>
+    <RC_IDC_PSATINT_S_ALPHA>Alpha</RC_IDC_PSATINT_S_ALPHA>
+    <RC_IDC_PSA_TINTSHADER_ADDNEWTINT>Add New Tint</RC_IDC_PSA_TINTSHADER_ADDNEWTINT>
+    <RC_IDC_PSA_TINTSHADER_DELETETINT>Delete Selected Tint</RC_IDC_PSA_TINTSHADER_DELETETINT>
+    <RC_IDC_PSATINT_S_HELP2>Visual particle systems require that the visual&apos;s material&#10;support the &quot;ParticleMeshTint&quot; constant.</RC_IDC_PSATINT_S_HELP2>
+    <RC_IDC_PSATINT_S_HELP3>Apply a colour tint to particles.</RC_IDC_PSATINT_S_HELP3>
+
+    <!-- IDD_MPS_PROPERTIES -->
+    <RC_IDD_META_DATA>Meta Data</RC_IDD_META_DATA>
+	<RC_IDC_DRAW_HELPER_MODEL>Draw helper model</RC_IDC_DRAW_HELPER_MODEL>
+	<RC_IDC_HELPER_MODEL>Helper model:</RC_IDC_HELPER_MODEL>
+	<RC_IDC_CENTER_ON_HARDPOINT>Center on hardpoint:</RC_IDC_CENTER_ON_HARDPOINT>
+
+    <!-- IDD_PS_PROPERTIES -->
+    <RC_IDD_PS_PROPERTIES>System Properties</RC_IDD_PS_PROPERTIES>
+    <RC_IDC_PSPROP_S_CAP>Capacity:</RC_IDC_PSPROP_S_CAP>
+    <RC_IDC_PSPROP_S_CAPHELP>(max = 65536)</RC_IDC_PSPROP_S_CAPHELP>
+    <RC_IDC_PSPROP_S_WIND>Wind Factor:</RC_IDC_PSPROP_S_WIND>
+    <RC_IDC_PSPROP_S_MAXLOD>Max Lod:</RC_IDC_PSPROP_S_MAXLOD>
+    <RC_IDC_PSPROP_S_MAXLODHELP>(0..1)</RC_IDC_PSPROP_S_MAXLODHELP>
+    <RC_IDC_PSPROP_S_PROPS>General properties of a particle system.</RC_IDC_PSPROP_S_PROPS>
+
+    <!-- IDD_PSA_FORCE_PROPERTIES -->
+    <RC_IDD_PSA_FORCE_PROPERTIES>Force</RC_IDD_PSA_FORCE_PROPERTIES>
+    <RC_IDC_PSAFORCE_S_HELP>Apply a directional force to the particles.</RC_IDC_PSAFORCE_S_HELP>
+
+    <!-- IDD_PSA_STREAM_PROPERTIES -->
+    <RC_IDD_PSA_STREAM_PROPERTIES>Stream</RC_IDD_PSA_STREAM_PROPERTIES>
+    <RC_IDC_PSASTREAM_S_HELP>This creates a stream effect in the direction and magnitude given by the stream direction.&#10;&#10;The halflife refers to the time taken to converge on the stream (-1 for no halflife).&#10;&#10;Drag can be simulated by setting the stream direction to (0, 0, 0).</RC_IDC_PSASTREAM_S_HELP>
+    <RC_IDC_PSASTREAM_S_DIR>Stream Direction:</RC_IDC_PSASTREAM_S_DIR>
+    <RC_IDC_PSASTREAM_S_HL>Half-life:</RC_IDC_PSASTREAM_S_HL>
+
+    <!-- IDD_PSA_SCALER_PROPERTIES -->
+    <RC_IDD_PSA_SCALER_PROPERTIES>Scaler</RC_IDD_PSA_SCALER_PROPERTIES>
+    <RC_IDC_PSASCALER_S_HELP>Scale the particle size over time.</RC_IDC_PSASCALER_S_HELP>
+    <RC_IDC_PSASCALER_S_SIZE>Final Particle Size:</RC_IDC_PSASCALER_S_SIZE>
+    <RC_IDC_PSASCALER_S_RATE>Rate:</RC_IDC_PSASCALER_S_RATE>
+    
+    <!-- IDD_PSA_ORBITOR_PROPERTIES -->
+    <RC_IDD_PSA_ORBITOR_PROPERTIES>Orbitor</RC_IDD_PSA_ORBITOR_PROPERTIES>
+    <RC_IDC_PSAORBIT_S_HELP>Create an axis around which the particles orbit.</RC_IDC_PSAORBIT_S_HELP>
+    <RC_IDC_PSAORBIT_S_YAXIS>Orbit Y-Axis:</RC_IDC_PSAORBIT_S_YAXIS>
+    <RC_IDC_PSAORBIT_S_ANGVEL>Angular Velocity:</RC_IDC_PSAORBIT_S_ANGVEL>
+    <RC_IDC_PSA_ORBITOR_AFFECTVELOCITY>Affect Velocity</RC_IDC_PSA_ORBITOR_AFFECTVELOCITY>
+
+    <!-- IDD_PSA_FLARE_PROPERTIES -->
+    <RC_IDD_PSA_FLARE_PROPERTIES>Flare</RC_IDD_PSA_FLARE_PROPERTIES>
+    <RC_IDC_PSAFLARE_S_NAME>Flare Name:</RC_IDC_PSAFLARE_S_NAME>
+    <RC_IDC_PSAFLARE_S_STEP>Flare Step:</RC_IDC_PSAFLARE_S_STEP>
+    <RC_IDC_PSA_FLARE_COLOURIZE>Colourise</RC_IDC_PSA_FLARE_COLOURIZE>
+    <RC_IDC_PSA_FLARE_USEPARTICLESIZE>Use Particle Size</RC_IDC_PSA_FLARE_USEPARTICLESIZE>
+    <RC_IDC_PSAFLARE_S_HELP>Add flare effect to particles.</RC_IDC_PSAFLARE_S_HELP>
+    
+    <!-- IDD_PS_RENDERER_PROPERTIES -->
+    <RC_IDD_PS_RENDERER_PROPERTIES>Renderer Properties</RC_IDD_PS_RENDERER_PROPERTIES>
+    <RC_IDC_PS_RENDERER_WORLDDEPENDENT>World Dependent</RC_IDC_PS_RENDERER_WORLDDEPENDENT>
+    <RC_IDC_PS_RENDERER_LOCALDEPENDENT>Local Dependent</RC_IDC_PS_RENDERER_LOCALDEPENDENT>
+    <RC_IDC_PS_RENDERER_VIEWDEPENDENT>View Dependent</RC_IDC_PS_RENDERER_VIEWDEPENDENT>
+    <RC_IDC_PS_RENDERER_SPRITE>Sprite:</RC_IDC_PS_RENDERER_SPRITE>
+    <RC_IDC_PSREND_S_BLEND>Blend mode:</RC_IDC_PSREND_S_BLEND>
+    <RC_IDC_PS_RENDERER_SPRITE_STATIC4>Frame Count:</RC_IDC_PS_RENDERER_SPRITE_STATIC4>
+    <RC_IDC_PS_RENDERER_SPRITE_STATIC3>Frame Rate:</RC_IDC_PS_RENDERER_SPRITE_STATIC3>
+    <RC_IDC_PS_RENDERER_SPRITE_POINTSPRITE>Point Sprite</RC_IDC_PS_RENDERER_SPRITE_POINTSPRITE>
+    <RC_IDC_PS_RENDERER_SPRITE_ORIENTATION>Enable Explicit Orientation</RC_IDC_PS_RENDERER_SPRITE_ORIENTATION>
+    <RC_IDC_PS_RENDERER_SPRITE_ORIENTX>x:</RC_IDC_PS_RENDERER_SPRITE_ORIENTX>
+    <RC_IDC_PS_RENDERER_SPRITE_ORIENTY>y:</RC_IDC_PS_RENDERER_SPRITE_ORIENTY>
+    <RC_IDC_PS_RENDERER_SPRITE_ORIENTZ>z:</RC_IDC_PS_RENDERER_SPRITE_ORIENTZ>
+
+    <RC_IDC_PS_RENDERER_SPRITE_SOFT_STATIC>Soft Particles (Deferred rendering only):</RC_IDC_PS_RENDERER_SPRITE_SOFT_STATIC>
+    <RC_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_RANGE>Depth Range</RC_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_RANGE>
+    <RC_IDC_PS_RENDERER_SPRITE_SOFT_FALLOFF_POWER>Falloff Power</RC_IDC_PS_RENDERER_SPRITE_SOFT_FALLOFF_POWER>
+    <RC_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_OFFSET>Depth Offset</RC_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_OFFSET>
+
+    <RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_STATIC>Near Plane Fading:</RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_STATIC>
+    <RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_CUTOFF>Cutoff Distance</RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_CUTOFF>
+    <RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_START>Start Distance</RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_START>
+    <RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_FALLOFF_POWER>Falloff Power</RC_IDC_PS_RENDERER_SPRITE_NEAR_FADE_FALLOFF_POWER>
+
+    <RC_IDC_PS_RENDERER_MESH>Mesh:</RC_IDC_PS_RENDERER_MESH>
+    <RC_IDC_PS_RENDERER_VISUAL>Visual:</RC_IDC_PS_RENDERER_VISUAL>
+    <RC_IDC_PS_RENDERER_AMP>Amp:</RC_IDC_PS_RENDERER_AMP>
+    <RC_IDC_PS_RENDERER_AMP_STATIC1>Width:</RC_IDC_PS_RENDERER_AMP_STATIC1>
+    <RC_IDC_PS_RENDERER_AMP_STATIC3>Steps:</RC_IDC_PS_RENDERER_AMP_STATIC3>
+    <RC_IDC_PS_RENDERER_AMP_STATIC2>Length:</RC_IDC_PS_RENDERER_AMP_STATIC2>
+    <RC_IDC_PS_RENDERER_AMP_STATIC4>Variation:</RC_IDC_PS_RENDERER_AMP_STATIC4>
+    <RC_IDC_PS_RENDERER_AMP_CIRCULAR>Circular</RC_IDC_PS_RENDERER_AMP_CIRCULAR>
+    <RC_IDC_PS_RENDERER_TRAIL>Trail:</RC_IDC_PS_RENDERER_TRAIL>
+    <RC_IDC_PS_RENDERER_TRAIL_STATIC1>Width:</RC_IDC_PS_RENDERER_TRAIL_STATIC1>
+    <RC_IDC_PS_RENDERER_TRAIL_STATIC2>Steps:</RC_IDC_PS_RENDERER_TRAIL_STATIC2>
+    <RC_IDC_PS_RENDERER_BLUR>Blur:</RC_IDC_PS_RENDERER_BLUR>
+    <RC_IDC_PS_RENDERER_BLUR_STATIC4>Width:</RC_IDC_PS_RENDERER_BLUR_STATIC4>
+    <RC_IDC_PS_RENDERER_BLUR_STATIC3>Time:</RC_IDC_PS_RENDERER_BLUR_STATIC3>
+    <RC_IDC_PSREND_S_SORT>Sorting:</RC_IDC_PSREND_S_SORT>
+
+    <!-- IDD_PSA_MAGNET_PROPERTIES -->
+    <RC_IDD_PSA_MAGNET_PROPERTIES>Magnet</RC_IDD_PSA_MAGNET_PROPERTIES>
+    <RC_IDC_PSAMAGNET_S_HELP>Add a particle magnet located at the origin. The magnet&apos;s effect is inversely proportional to its distance from the particle.</RC_IDC_PSAMAGNET_S_HELP>
+    <RC_IDC_PSAMAGNET_S_STRENGTH>Magnet Strength:</RC_IDC_PSAMAGNET_S_STRENGTH>
+    <RC_IDC_PSAMAGNET_S_MINDIST>Minimum Distance For Force Calculations:</RC_IDC_PSAMAGNET_S_MINDIST>
+
+    <!-- IDD_PSA_JITTER_PROPERTIES -->
+    <RC_IDD_PSA_JITTER_PROPERTIES>Jitter</RC_IDD_PSA_JITTER_PROPERTIES>
+    <RC_IDC_PSAJITTER_S_HELP>Add a jitter to all the particles. This adds a random change to the position and velocity of all the particles each frame.</RC_IDC_PSAJITTER_S_HELP>
+    <RC_IDC_PSA_JITTER_AFFECT_POSITION>Affect Position:</RC_IDC_PSA_JITTER_AFFECT_POSITION>
+    <RC_IDC_PSA_JITTER_AFFECT_VELOCITY>Affect Velocity:</RC_IDC_PSA_JITTER_AFFECT_VELOCITY>
+
+    <!-- IDD_PSA_COLLIDE_PROPERTIES -->
+    <RC_IDD_PSA_COLLIDE_PROPERTIES>Collide</RC_IDD_PSA_COLLIDE_PROPERTIES>
+    <RC_IDC_PSACOLLIDE_S_HELP>Specify how the particles should react when they collide with either the floor or an object.</RC_IDC_PSACOLLIDE_S_HELP>
+    <RC_IDC_PSACOLLIDE_S_ELAST>Elasticity:</RC_IDC_PSACOLLIDE_S_ELAST>
+
+    <!-- IDD_ERRORS -->
+    <RC_IDC_MSG_SHOW_TIME>Show Time</RC_IDC_MSG_SHOW_TIME>
+    <RC_IDC_MSG_SHOW_DATE>Show Date</RC_IDC_MSG_SHOW_DATE>
+    <RC_IDC_MSG_SHOW_PRIORITY>Show Priority</RC_IDC_MSG_SHOW_PRIORITY>
+    <RC_IDC_MSG_ERROR>Error</RC_IDC_MSG_ERROR>
+    <RC_IDC_MSG_WARNING>Warning</RC_IDC_MSG_WARNING>
+    <RC_IDC_MSG_NOTICE>Notice</RC_IDC_MSG_NOTICE>
+    <RC_IDC_MSG_INFO>Info</RC_IDC_MSG_INFO>
+    <RC_IDC_MSG_ASSETS>Assets</RC_IDC_MSG_ASSETS>
+	
+    <!-- IDD_COLOR_PICKER -->
+    <RC_IDD_COLOR_PICKER>Colour Picker</RC_IDD_COLOR_PICKER>
+
+    <!-- IDD_ACTION_SELECTION -->
+    <RC_IDC_PROPERTIES_GRP>Properties</RC_IDC_PROPERTIES_GRP>
+    <RC_IDC_PROPERTIES_S_COMP>Component:</RC_IDC_PROPERTIES_S_COMP>
+
+    <!-- IDD_PSA_MATRIXSWARM_PROPERTIES -->
+    <RC_IDD_PSA_MATRIXSWARM_PROPERTIES>MatrixSwarm</RC_IDD_PSA_MATRIXSWARM_PROPERTIES>
+    <RC_IDC_PSAMATSWA_S_HELP>The MatrixSwarm effect allows particles to be attached to a node or a list of nodes. This involves writing Python scripts in the game, in order to attach this particle system correctly.</RC_IDC_PSAMATSWA_S_HELP>
+    <RC_IDC_PSAMATSWA_S_HELP2>Adding a MatrixSwarm component in Particle Editor exposes the functionality in the game script.</RC_IDC_PSAMATSWA_S_HELP2>
+
+    <!-- IDD_PSA_NODECLAMP_PROPERTIES -->
+    <RC_IDD_PSA_NODECLAMP_PROPERTIES>NodeClamp</RC_IDD_PSA_NODECLAMP_PROPERTIES>
+    <RC_IDC_PSA_NODECLAMP_S_HELP>The Node Clamp component is used to determine that the generated particles should be clamped to the origin of the particle system&#10;There are no settings for this component.</RC_IDC_PSA_NODECLAMP_S_HELP>
+
+    <!-- IDD_PSA_SPLAT_PROPERTIES -->
+    <RC_IDD_PSA_SPLAT_PROPERTIES>Splat</RC_IDD_PSA_SPLAT_PROPERTIES>
+    <RC_IDC_PSA_SPLAT_S_HELP>Splats collided particles on the collision scene.&#10;There are no options for this selection.</RC_IDC_PSA_SPLAT_S_HELP>
+
+    <!--SHADERS_LOADING_DIALOG-->
+	<RC_SHADER_LOADING_DIALOG>Compiling Shaders...</RC_SHADER_LOADING_DIALOG>
+	<RC_SHADER_LOADING_STATIC>Shaders are compiling, this may take a few minutes.&#10;NOTE: This only occurs if shaders have been changed.</RC_SHADER_LOADING_STATIC>
+
+    <!-- IDD_ERRORS -->
+    <RC_IDC_MSG_SHOW_TIME>Show Time</RC_IDC_MSG_SHOW_TIME>
+    <RC_IDC_MSG_SHOW_DATE>Show Date</RC_IDC_MSG_SHOW_DATE>
+    <RC_IDC_MSG_SHOW_PRIORITY>Show Priority</RC_IDC_MSG_SHOW_PRIORITY>
+    <RC_IDC_MSG_ERROR>Error</RC_IDC_MSG_ERROR>
+    <RC_IDC_MSG_WARNING>Warning</RC_IDC_MSG_WARNING>
+    <RC_IDC_MSG_NOTICE>Notice</RC_IDC_MSG_NOTICE>
+    <RC_IDC_MSG_INFO>Info</RC_IDC_MSG_INFO>
+    <RC_IDC_MSG_ASSETS>Assets</RC_IDC_MSG_ASSETS>
+
+    <!-- STRING_TABLE -->
+    <RCS_IDR_MAINFRAME>ParticleEditor&#10;&#10;particle_editor&#10;&#10;&#10;particleeditor.Document&#10;particle_editor.Document</RCS_IDR_MAINFRAME>
+    <RCS_IDS_SRC_DESC>Source of new particles.</RCS_IDS_SRC_DESC>
+    <RCS_IDS_SINK_DESC>Destroy slow or old particles.</RCS_IDS_SINK_DESC>
+    <RCS_IDS_BARRIER_DESC>Barrier against which particles bounce or die.</RCS_IDS_BARRIER_DESC>
+    <RCS_IDS_FORCE_DESC>Apply a constant force.</RCS_IDS_FORCE_DESC>
+    <RCS_IDS_STREAM_DESC>Create a stream effect.</RCS_IDS_STREAM_DESC>
+    <RCS_IDS_JITTER_DESC>Add random change to position or velocity</RCS_IDS_JITTER_DESC>
+    <RCS_IDS_SCALER_DESC>Resize particles.</RCS_IDS_SCALER_DESC>
+    <RCS_IDS_TINT_DESC>Add colour to particles.</RCS_IDS_TINT_DESC>
+    <RCS_IDS_NODECLAMP_DESC>Clamp particles to the origin</RCS_IDS_NODECLAMP_DESC>
+    <RCS_IDS_ORBIT_DESC>Set axis around which particles orbit.</RCS_IDS_ORBIT_DESC>
+    <RCS_IDS_FLARE_DESC>Add a flare effect.</RCS_IDS_FLARE_DESC>
+    <RCS_IDS_COLLIDE_DESC>Collide against ground and other objects.</RCS_IDS_COLLIDE_DESC>
+    <RCS_IDS_MATRIXSWARM_DESC>Attach particles to a list of model nodes.</RCS_IDS_MATRIXSWARM_DESC>
+    <RCS_IDS_MAGNET_DESC>Particles become attracted to a magnet.</RCS_IDS_MAGNET_DESC>
+    <RCS_IDS_SPLAT_DESC>Splats particles onto the collision scene.</RCS_IDS_SPLAT_DESC>
+    <RCS_ID_FILE_NEW>Create a new document&#10;New</RCS_ID_FILE_NEW>
+    <RCS_ID_FILE_OPEN>Open an existing document&#10;Open</RCS_ID_FILE_OPEN>
+    <RCS_ID_FILE_CLOSE>Close the active document&#10;Close</RCS_ID_FILE_CLOSE>
+    <RCS_ID_FILE_SAVE_AS>Save the active document with a new name&#10;Save As</RCS_ID_FILE_SAVE_AS>
+    <RCS_ID_APP_ABOUT>Display program information, version number and copyright&#10;About</RCS_ID_APP_ABOUT>
+    <RCS_ID_APP_EXIT>Quit the application; prompts to save documents&#10;Exit</RCS_ID_APP_EXIT>
+    <RCS_ID_FILE_MRU_FILE>Open this document</RCS_ID_FILE_MRU_FILE>
+    <RCS_ID_NEXT_PANE>Switch to the next window pane&#10;Next Pane</RCS_ID_NEXT_PANE>
+    <RCS_ID_PREV_PANE>Switch back to the previous window pane&#10;Previous Pane</RCS_ID_PREV_PANE>
+    <RCS_ID_WINDOW_SPLIT>Split the active window into panes&#10;Split</RCS_ID_WINDOW_SPLIT>
+    <RCS_ID_EDIT_CLEAR>Erase the selection&#10;Erase</RCS_ID_EDIT_CLEAR>
+    <RCS_ID_EDIT_CLEAR_ALL>Erase everything&#10;Erase All</RCS_ID_EDIT_CLEAR_ALL>
+    <RCS_ID_EDIT_COPY>Copy the selection and put it on the Clipboard&#10;Copy</RCS_ID_EDIT_COPY>
+    <RCS_ID_EDIT_CUT>Cut the selection and put it on the Clipboard&#10;Cut</RCS_ID_EDIT_CUT>
+    <RCS_ID_EDIT_FIND>The Visual Exporter exported visual file to draw the mesh particles.&#10;You can drag and drop visuals from the asset locator.</RCS_ID_EDIT_FIND>
+    <RCS_ID_EDIT_PASTE>Insert Clipboard contents&#10;Paste</RCS_ID_EDIT_PASTE>
+    <RCS_ID_EDIT_REPEAT>Repeat the last action&#10;Repeat</RCS_ID_EDIT_REPEAT>
+    <RCS_ID_EDIT_REPLACE>Replace specific text with different text&#10;Replace</RCS_ID_EDIT_REPLACE>
+    <RCS_ID_EDIT_SELECT_ALL>Select the entire document&#10;Select All</RCS_ID_EDIT_SELECT_ALL>
+    <RCS_ID_EDIT_UNDO>Undo the last action&#10;Undo</RCS_ID_EDIT_UNDO>
+    <RCS_ID_EDIT_REDO>Redo the previously undone action&#10;Redo</RCS_ID_EDIT_REDO>
+    <RCS_ID_VIEW_TOOLBAR>Show or hide the toolbar&#10;Toggle ToolBar</RCS_ID_VIEW_TOOLBAR>
+    <RCS_ID_VIEW_STATUS_BAR>Show or hide the status bar&#10;Toggle StatusBar</RCS_ID_VIEW_STATUS_BAR>
+    <RCS_AFX_IDS_SCSIZE>Change the window size</RCS_AFX_IDS_SCSIZE>
+    <RCS_AFX_IDS_SCMOVE>Change the window position</RCS_AFX_IDS_SCMOVE>
+    <RCS_AFX_IDS_SCMINIMIZE>Reduce the window to an icon</RCS_AFX_IDS_SCMINIMIZE>
+    <RCS_AFX_IDS_SCMAXIMIZE>Enlarge the window to full size</RCS_AFX_IDS_SCMAXIMIZE>
+    <RCS_AFX_IDS_SCNEXTWINDOW>Switch to the next document window</RCS_AFX_IDS_SCNEXTWINDOW>
+    <RCS_AFX_IDS_SCPREVWINDOW>Switch to the previous document window</RCS_AFX_IDS_SCPREVWINDOW>
+    <RCS_AFX_IDS_SCCLOSE>Close the active window and prompts to save the documents</RCS_AFX_IDS_SCCLOSE>
+    <RCS_AFX_IDS_SCRESTORE>Restore the window to normal size</RCS_AFX_IDS_SCRESTORE>
+    <RCS_AFX_IDS_SCTASKLIST>Activate Task List</RCS_AFX_IDS_SCTASKLIST>
+    <RCS_IDS_CONFIRMDELETE_PS>This will remove the particle system permanently.&#10;Are you sure you wish to do this?</RCS_IDS_CONFIRMDELETE_PS>
+    <RCS_ID_COLORBUTTON_ALPHA>Change the alpha of this tab</RCS_ID_COLORBUTTON_ALPHA>
+    <RCS_IDS_CONFIRMDELETE_COMP>Delete particle system?</RCS_IDS_CONFIRMDELETE_COMP>
+    <RCS_ID_COLORBUTTON_DELETE>Delete this tab</RCS_ID_COLORBUTTON_DELETE>
+    <RCS_ID_COLORBUTTON_COLOR>Change the colour of this tab</RCS_ID_COLORBUTTON_COLOR>
+    <RCS_IDS_AS_FILTERTEXT>Particle System Name</RCS_IDS_AS_FILTERTEXT>
+    <RCS_ID_FILE_SAVE_PARTICLE_SYSTEM>Save the active document&#10;Save</RCS_ID_FILE_SAVE_PARTICLE_SYSTEM>
+    <RCS_ID_FILE_SVEPARTICLESYSTEM>Save current particle system (Ctrl-S)</RCS_ID_FILE_SVEPARTICLESYSTEM>
+    <RCS_IDS_NOTUNIQUENAME>The name should be unique.</RCS_IDS_NOTUNIQUENAME>
+    <RCS_IDS_INVALIDNAME>The name contains invalid characters.&#10;Characters such as &quot;/&lt;&gt;?*:.&quot; are not allowed and&#10;the name cannot begin with a number.</RCS_IDS_INVALIDNAME>
+    <RCS_IDS_BLENDED>Alpha blend</RCS_IDS_BLENDED>
+    <RCS_IDS_SOLID>Solid</RCS_IDS_SOLID>
+    <RCS_IDS_ADDITIVE>Additive</RCS_IDS_ADDITIVE>
+    <RCS_ID_APP_KEY_CUTS>Show the keyboard shortcuts for Particle Editor&#10;Keyboard Shortcuts</RCS_ID_APP_KEY_CUTS>
+    <RCS_IDS_BADPARTICLEFILE>The file %0 could not be loaded as a particle system.</RCS_IDS_BADPARTICLEFILE>
+    <RCS_IDS_ADDITIVE_ALPHA>Additive alpha</RCS_IDS_ADDITIVE_ALPHA>
+    <RCS_ID_BUTTON_VIEW_X>Look at Y-Z Plane&#10;Look at Y-Z Plane</RCS_ID_BUTTON_VIEW_X>
+    <RCS_ID_BUTTON_VIEW_Y>Look At X-Z Plane&#10;Look At X-Z Plane</RCS_ID_BUTTON_VIEW_Y>
+    <RCS_ID_BUTTON_VIEW_Z>Look At X-Y Plane&#10;Look At X-Y Plane</RCS_ID_BUTTON_VIEW_Z>
+    <RCS_ID_BUTTON_VIEW_ISO>normal 3D view</RCS_ID_BUTTON_VIEW_ISO>
+    <RCS_ID_BUTTON_VIEW_FREE>Free Camera Movement&#10;Free Camera</RCS_ID_BUTTON_VIEW_FREE>
+    <RCS_ID_BACKGROUND_COLOR>Choose Background Colour&#10;Background Colour</RCS_ID_BACKGROUND_COLOR>
+    <RCS_ID_SHOW_GROUND>Toggle Scene Visibility&#10;Toggle Scene</RCS_ID_SHOW_GROUND>
+    <RCS_ID_FRAMERATE_PLACEHOLDER>Frame Rate</RCS_ID_FRAMERATE_PLACEHOLDER>
+    <RCS_ID_UNDO>Undo the last operation (Ctrl+Z)&#10;Undo (Ctrl+Z)</RCS_ID_UNDO>
+    <RCS_ID_REDO>Redo the last operation (Ctrl+Y)&#10;Redo (Ctrl+Y)</RCS_ID_REDO>
+    <RCS_IDC_PSA_FLARE_FLARENAME_DIRECTORY_BTN>Browse for a new folder from which to get texture files.</RCS_IDC_PSA_FLARE_FLARENAME_DIRECTORY_BTN>
+    <RCS_IDC_PSA_COLLIDE_SOUND_TAG_DIRECTORY_BTN>Browse for a folder containing sound files.</RCS_IDC_PSA_COLLIDE_SOUND_TAG_DIRECTORY_BTN>
+    <RCS_IDC_PS_RENDERER_AMP_TEXTURENAME_DIRECTORY_BTN>Browse for a folder containing amp textures.</RCS_IDC_PS_RENDERER_AMP_TEXTURENAME_DIRECTORY_BTN>
+    <RCS_IDC_PS_RENDERER_TRAIL_TEXTURENAME_DIRECTORY_BTN>Browse for a folder containing trail textures.</RCS_IDC_PS_RENDERER_TRAIL_TEXTURENAME_DIRECTORY_BTN>
+    <RCS_IDC_PS_CAPACITY>Maximum number of particles to be generated by the system.</RCS_IDC_PS_CAPACITY>
+    <RCS_IDC_PS_WINDHALFLIFE>Effect of wind on the particle system (0 none..1 full).</RCS_IDC_PS_WINDHALFLIFE>
+    <RCS_IDC_PS_MAXLOD>Furthest distance from camera for which the particle system will still be drawn.</RCS_IDC_PS_MAXLOD>
+    <RCS_IDC_PSA_TINT_COLORS>Tint time Tint Timeline.</RCS_IDC_PSA_TINT_COLORS>
+    <RCS_IDC_PSA_TINTSHADER_PERIOD>Duration for the tint transition process.</RCS_IDC_PSA_TINTSHADER_PERIOD>
+    <RCS_IDC_PSA_TINTSHADER_REPEAT>Indicates that the tint transition process should be continuously applied&#10;to the particle system.</RCS_IDC_PSA_TINTSHADER_REPEAT>
+    <RCS_IDC_PSA_SOURCE_SLEEPPERIOD_MAX>Maximum time for inactivity.&#10;If Min is set to zero, and Max is set to -1,then particles will be&#10;continuously generated.&#10;If Max is set to -1, then only the Min value is used.</RCS_IDC_PSA_SOURCE_SLEEPPERIOD_MAX>
+    <RCS_IDC_PSA_SOURCE_SPRITE_INITORIENT>Inclination to apply to the particles (in degrees).</RCS_IDC_PSA_SOURCE_SPRITE_INITORIENT>
+    <RCS_IDC_PSA_SOURCE_SPRITE_SPINRATE>Number of revolutions per second to apply to the particles.</RCS_IDC_PSA_SOURCE_SPRITE_SPINRATE>
+    <RCS_IDC_PSA_SOURCE_SPRITE_INITORIENT_RAND>Maximum value to be used for randomising the particles&apos; inclination.</RCS_IDC_PSA_SOURCE_SPRITE_INITORIENT_RAND>
+    <RCS_IDC_PSA_SOURCE_SPRITE_SPINRATE_RAND>Maximum value to be used for randomising the particles&apos; spin rate.</RCS_IDC_PSA_SOURCE_SPRITE_SPINRATE_RAND>
+    <RCS_IDC_PSA_SOURCE_RANDOM_SPIN>Indicates that the mesh-based particles should revolve randomly.</RCS_IDC_PSA_SOURCE_RANDOM_SPIN>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_X>From x coordinate of the initial point of the position generator.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_X>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Y>From y coordinate of the initial point of the position generator.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Y>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Z>From z coordinate of the initial point of the position generator.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Z>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_X>From x coordinate of the initial point of the velocity generator.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_X>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Y>From y coordinate of the initial point of the velocity generator.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Y>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Z>From z coordinate of the initial point of the velocity generator.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Z>
+    <RCS_IDC_PSA_SOURCE_SENSITIVITY>How quickly the particles are released with motion, measured in&#10;metres per particle.</RCS_IDC_PSA_SOURCE_SENSITIVITY>
+    <RCS_IDC_PSA_SOURCE_ACTIVEPERIOD>Period during which new particles will be generated.</RCS_IDC_PSA_SOURCE_ACTIVEPERIOD>
+    <RCS_IDC_PSA_SOURCE_SLEEPPERIOD>Minimum time for inactivity.&#10;If Min is set to zero, and Max is set to -1,then particles will be&#10;continuously generated.&#10;If Max is set to -1, then only the Min value is used.</RCS_IDC_PSA_SOURCE_SLEEPPERIOD>
+    <RCS_IDC_PSA_SOURCE_MINIMUMSIZE>Minimum value of randomly sized particle.</RCS_IDC_PSA_SOURCE_MINIMUMSIZE>
+    <RCS_IDC_PSA_SOURCE_MAXIMUMSIZE>Maximum value of randomly sized particle.</RCS_IDC_PSA_SOURCE_MAXIMUMSIZE>
+    <RCS_IDC_PSA_SOURCE_FORCEDUNITSIZE>Number of particles to create, for non-continuous emitters.</RCS_IDC_PSA_SOURCE_FORCEDUNITSIZE>
+    <RCS_IDC_PSA_SOURCE_ALLOWEDTIME>Time (in seconds) allowed for the creation of particles.&#10;(This feature is only active in game)</RCS_IDC_PSA_SOURCE_ALLOWEDTIME>
+    <RCS_IDC_PSA_SOURCE_MAXSPEED>The maximum speed at which the particle system can&#10;be moving and still produce particles (0 - disabled).</RCS_IDC_PSA_SOURCE_MAXSPEED>
+    <RCS_IDC_PSA_SINK_MAXIMUMAGE>Maximum lifetime (in seconds) of each particle.</RCS_IDC_PSA_SINK_MAXIMUMAGE>
+    <RCS_IDC_PSA_SINK_MINIMUMSPEED>Minimum speed (in metres per second) that the particles may have&#10;before being removed.</RCS_IDC_PSA_SINK_MINIMUMSPEED>
+    <RCS_PSA_SINK_OUTSIDE_ONLY>These particles are destroyed when&#10;they move into an inside chunk.</RCS_PSA_SINK_OUTSIDE_ONLY>
+    <RCS_IDC_PS_RENDERER_MESH_VISUALNAME_DIRECTORY_BTN>Browse for a folder containing meshes.</RCS_IDC_PS_RENDERER_MESH_VISUALNAME_DIRECTORY_BTN>
+    <RCS_IDC_PSA_TINTSHADER_DELETETINT>Deletes the Time Point currently selected in the Tint Timeline.</RCS_IDC_PSA_TINTSHADER_DELETETINT>
+    <RCS_IDC_PSA_FLARE_FLARENAME>The flare effect on the particles.</RCS_IDC_PSA_FLARE_FLARENAME>
+    <RCS_IDC_PS_RENDERER_SPRITE_TEXTURENAME>List of files in the specified folder, and that are&#10;relevant to the specified renderer.&#10;You can drag and drop BMP, TGA, DDS and Texanim files from the asset locator.</RCS_IDC_PS_RENDERER_SPRITE_TEXTURENAME>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR>Geometry of the position generator.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR>
+    <RCS_IDC_PSA_BARRIER_SHAPE>Shape of the barrier.</RCS_IDC_PSA_BARRIER_SHAPE>
+    <RCS_IDC_PSA_JITTER_POSITION_GENERATOR>Shape within which the effect positions are created.</RCS_IDC_PSA_JITTER_POSITION_GENERATOR>
+    <RCS_IDC_PSA_COLLIDE_SOUND_TAG_COMBO>The selected sound to play upon collsion.</RCS_IDC_PSA_COLLIDE_SOUND_TAG_COMBO>
+    <RCS_IDC_PSA_ORBITOR_AFFECTVELOCITY>Indicates that the velocity should also be rotated with the particle.</RCS_IDC_PSA_ORBITOR_AFFECTVELOCITY>
+    <RCS_IDC_PSA_ORBITOR_ANGULARVELOCITY>Angular velocity of the orbit in degrees per second.</RCS_IDC_PSA_ORBITOR_ANGULARVELOCITY>
+    <RCS_IDC_PS_RENDERER_AMP_TEXTURENAME>List of files on the folder specified in button Folder, and that are&#10;relevant to the specified renderer.&#10;You can drag and drop BMP, TGA and DDS files from the asset locator.</RCS_IDC_PS_RENDERER_AMP_TEXTURENAME>
+    <RCS_IDC_PS_RENDERER_TRAIL_STEPS>Number of times that the sprite will be drawn behind each particle,&#10;thus actually altering the length of the trail.</RCS_IDC_PS_RENDERER_TRAIL_STEPS>
+    <RCS_IDC_PSA_MAGNET_STRENGTH>Strength of the magnet.</RCS_IDC_PSA_MAGNET_STRENGTH>
+    <RCS_IDC_PSA_JITTER_AFFECT_POSITION>Indicates that the jitter effect should be applied to the particles&apos; positions.</RCS_IDC_PSA_JITTER_AFFECT_POSITION>
+    <RCS_IDC_PSA_JITTER_AFFECT_VELOCITY>Indicates that the jitter effect should be applied to the particles&apos; velocities.</RCS_IDC_PSA_JITTER_AFFECT_VELOCITY>
+    <RCS_IDC_PSA_JITTER_VELOCITY_GENERATOR>Shape within which the velocity vectors are created.</RCS_IDC_PSA_JITTER_VELOCITY_GENERATOR>
+    <RCS_IDC_PSA_COLLIDE_ELASTICITY>Amount of bounce to apply to the particle when hitting the ground or other objects.</RCS_IDC_PSA_COLLIDE_ELASTICITY>
+    <RCS_IDC_PSA_COLLIDE_SOUND_IDX>Index of the sound to play upon collsion.</RCS_IDC_PSA_COLLIDE_SOUND_IDX>
+    <RCS_IDC_PSA_COLLIDE_SOUND_TAG_DIRECTORY_EDIT>The current directory containing sound files.</RCS_IDC_PSA_COLLIDE_SOUND_TAG_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_MESH_VISUALNAME>The Visual Exporter exported visual file to draw the mesh particles.&#10;You can drag and drop visuals from the asset locator.</RCS_IDC_PS_RENDERER_MESH_VISUALNAME>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_SHOW>Toggles visibility of the area defined for the position generator,&#10;and of the 3D gizmos attached to its initial and final (if applicable)&#10;points.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_SHOW>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_SHOW>Toggles visibility of the area defined for the velocity generator,&#10;and of the 3D gizmos attached to its initial and final (if applicable)&#10;points.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_SHOW>
+    <RCS_IDC_PSA_MAGNET_MINDIST>Area around the magnet in which it will not exert force.</RCS_IDC_PSA_MAGNET_MINDIST>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_X2>To x coordinate of the final point of the position generator.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_X2>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Y2>To y coordinate of the final point of the position generator.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Y2>
+    <RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Z2>To z coordinate of the final point of the position generator.</RCS_IDC_PSA_SOURCE_POSITION_GENERATOR_Z2>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_X2>To x coordinate of the final point of the velocity generator.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_X2>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Y2>To y coordinate of the final point of the velocity generator.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Y2>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Z2>To z coordinate of the final point of the velocity generator.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR_Z2>
+    <RCS_IDC_PS_RENDERER_AMP_CIRCULAR>Indicates that the sprites should be drawn connecting each particle to&#10;the next, instead of connecting each particle to the point of origin.</RCS_IDC_PS_RENDERER_AMP_CIRCULAR>
+    <RCS_IDC_ADD>Add a new meta particle system or a new child particle system.</RCS_IDC_ADD>
+    <RCS_IDC_COPY>Copy the current selection.</RCS_IDC_COPY>
+    <RCS_IDC_DELETE>Delete the current selection.</RCS_IDC_DELETE>
+    <RCS_IDC_ADD_COMP>Add the selected componet to the current particle system.</RCS_IDC_ADD_COMP>
+    <RCS_IDC_PS_RENDERER_SPRITE_FRAMECOUNT>Number of parts in which to cut the source file.</RCS_IDC_PS_RENDERER_SPRITE_FRAMECOUNT>
+    <RCS_IDC_PS_RENDERER_SPRITE_FRAMERATE>Number of frames to display per second.</RCS_IDC_PS_RENDERER_SPRITE_FRAMERATE>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR>Geometry of the velocity generator.</RCS_IDC_PSA_SOURCE_VELOCITY_GENERATOR>
+    <RCS_IDC_PSA_BARRIER_REACTION>How the particles should interact with the barrier.</RCS_IDC_PSA_BARRIER_REACTION>
+    <RCS_IDC_PSA_TINTSHADER_FOG_BLEND>The amount of the fog colour to blend in&#10;with the tint colour (0.0 - 1.0).</RCS_IDC_PSA_TINTSHADER_FOG_BLEND>
+    <RCS_IDC_PSA_TINTSHADER_COLORPICKER>Colour of chosen tint.</RCS_IDC_PSA_TINTSHADER_COLORPICKER>
+    <RCS_IDC_PSA_TINTSHADER_PICKER_GREEN>Green component of the tint in the selected Time Point.</RCS_IDC_PSA_TINTSHADER_PICKER_GREEN>
+    <RCS_IDC_PSA_TINTSHADER_PICKER_BLUE>Blue component of the tint in the selected Time Point.</RCS_IDC_PSA_TINTSHADER_PICKER_BLUE>
+    <RCS_IDC_PSA_TINTSHADER_PICKER_ALPHA>Numeric value for the alpha to be applied to the particle in the&#10;selected Time Point.</RCS_IDC_PSA_TINTSHADER_PICKER_ALPHA>
+    <RCS_IDC_PSA_TINTSHADER_PICKER_RED>Red component of the tint in the selected Time Point.</RCS_IDC_PSA_TINTSHADER_PICKER_RED>
+    <RCS_IDC_PSA_SOURCE_MOTIONTRIGGERED>Indicates that the particle system is attached to a moving object.</RCS_IDC_PSA_SOURCE_MOTIONTRIGGERED>
+    <RCS_IDC_PSA_SOURCE_TIMETRIGGERED>Indicates that the particle systems will periodically generate particles.</RCS_IDC_PSA_SOURCE_TIMETRIGGERED>
+    <RCS_IDC_PSA_SOURCE_GROUNDED>Indicates that particles should (if possible) be spawned at ground level.</RCS_IDC_PSA_SOURCE_GROUNDED>
+    <RCS_IDC_PSA_SOURCE_DROPDISTANCE>Maximum distance (in metres) allowed between the ground and the&#10;particle&apos;s initial height (specified in field Initial Position&#10;Generator-From-y) if the particle is to be generated.</RCS_IDC_PSA_SOURCE_DROPDISTANCE>
+    <RCS_IDC_PSA_SOURCE_RATE>Number of particles to be generated per second.</RCS_IDC_PSA_SOURCE_RATE>
+    <RCS_IDC_PS_RENDERER_BLUR_TEXTURENAME_DIRECTORY_BTN>Browse for a folder containing blur textures.</RCS_IDC_PS_RENDERER_BLUR_TEXTURENAME_DIRECTORY_BTN>
+    <RCS_IDC_PS_RENDERER_BLUR_TEXTURENAME>List of files on the folder specified in button Folder, and that are&#10;relevant to the specified renderer.&#10;You can drag and drop BMP, TGA and DDS files from the asset locator.</RCS_IDC_PS_RENDERER_BLUR_TEXTURENAME>
+    <RCS_IDC_PS_RENDERER_BLUR_WIDTH>Thickness with which to draw the image in source file.</RCS_IDC_PS_RENDERER_BLUR_WIDTH>
+    <RCS_IDC_PS_RENDERER_BLUR_TIME>How long to extend the particle back along its current velocity vector.</RCS_IDC_PS_RENDERER_BLUR_TIME>
+    <RCS_IDC_PSA_SOURCE_RANDOM_SPIN_MIN>Minimum values allowed for the randomisation of the number of&#10;revolutions per second that the particle should perform.</RCS_IDC_PSA_SOURCE_RANDOM_SPIN_MIN>
+    <RCS_IDC_PSA_SOURCE_RANDOM_SPIN_MAX>Maximum values allowed for the randomisation of the number of&#10;revolutions per second that the particle should perform.</RCS_IDC_PSA_SOURCE_RANDOM_SPIN_MAX>
+    <RCS_IDC_PSA_SOURCE_INITIALORIENT_X>Pitch of the initial position of the particles.</RCS_IDC_PSA_SOURCE_INITIALORIENT_X>
+    <RCS_IDC_PSA_SOURCE_INITIALORIENT_Y>Yaw of the initial position of the particles.</RCS_IDC_PSA_SOURCE_INITIALORIENT_Y>
+    <RCS_IDC_PSA_SOURCE_INITIALORIENT_RANDOMISE>Randomize degree range.</RCS_IDC_PSA_SOURCE_INITIALORIENT_RANDOMISE>
+    <RCS_IDC_PSA_SOURCE_INITIALORIENT_RANDOMISE_MIN>Maximum value to be used for randomising the particles&apos; pitch.</RCS_IDC_PSA_SOURCE_INITIALORIENT_RANDOMISE_MIN>
+    <RCS_IDC_PSA_SOURCE_INITIALORIENT_RANDOMISE_MAX>Maximum value to be used for randomising the particles&apos; yaw.</RCS_IDC_PSA_SOURCE_INITIALORIENT_RANDOMISE_MAX>
+    <RCS_IDC_PSA_FORCE_X>X component of the direction/magnitude of the force to be applied&#10;to the particles in the particle system.</RCS_IDC_PSA_FORCE_X>
+    <RCS_IDC_PSA_FORCE_Y>Y component of the direction/magnitude of the force to be applied&#10;to the particles in the particle system.</RCS_IDC_PSA_FORCE_Y>
+    <RCS_IDC_PSA_FORCE_Z>Z component of the direction/magnitude of the force to be applied&#10;to the particles in the particle system.</RCS_IDC_PSA_FORCE_Z>
+    <RCS_IDC_PSA_STREAM_VECTORY>Y coordinate for the direction/magnitude of the force to be applied&#10;to the particles.</RCS_IDC_PSA_STREAM_VECTORY>
+    <RCS_IDC_PSA_STREAM_VECTORX>X coordinate for the direction/magnitude of the force to be applied&#10;to the particles.</RCS_IDC_PSA_STREAM_VECTORX>
+    <RCS_IDC_PSA_STREAM_VECTORZ>Z coordinate for the direction/magnitude of the force to be applied&#10;to the particles.</RCS_IDC_PSA_STREAM_VECTORZ>
+    <RCS_IDC_PSA_STREAM_HALFLIFE>Number of seconds that the particle&apos;s velocity will take to move&#10;halfway towards the</RCS_IDC_PSA_STREAM_HALFLIFE>
+    <RCS_IDC_PSA_DELAY>Numbers of seconds to delay before the action starts</RCS_IDC_PSA_DELAY>
+    <RCS_IDC_PSA_SCALER_SIZE>Final size of the particle.</RCS_IDC_PSA_SCALER_SIZE>
+    <RCS_IDC_PSA_SCALER_RATE>Number of metres per seconds by which to increase or decrease the particle.</RCS_IDC_PSA_SCALER_RATE>
+    <RCS_IDC_PSA_ORBITOR_POINTZ>Z coordinate of the point around which the particles will orbit along the y-axis.</RCS_IDC_PSA_ORBITOR_POINTZ>
+    <RCS_IDC_PSA_ORBITOR_POINTX>X coordinate of the point around which the particles will orbit along the y-axis.</RCS_IDC_PSA_ORBITOR_POINTX>
+    <RCS_IDC_PSA_FLARE_FLARESTEP>Frequency in which to apply the flare effect to the particles.</RCS_IDC_PSA_FLARE_FLARESTEP>
+    <RCS_IDC_PS_RENDERER_TRAIL_TEXTURENAME>List of files on the folder specified in button Folder, and that are&#10;relevant to the specified renderer.&#10;You can drag and drop BMP, TGA and DDS files from the asset locator.</RCS_IDC_PS_RENDERER_TRAIL_TEXTURENAME>
+    <RCS_IDC_PS_RENDERER_SPRITE_TEXTURENAME_DIRECTORY_BTN>Browse for a folder containing sprite textures.</RCS_IDC_PS_RENDERER_SPRITE_TEXTURENAME_DIRECTORY_BTN>
+    <RCS_IDC_PSA_TINTSHADER_ADDNEWTINT>Adds a new Time Point in the Tint Timeline.</RCS_IDC_PSA_TINTSHADER_ADDNEWTINT>
+    <RCS_IDC_PS_RENDERER_TRAIL_WIDTH>Thickness with which to draw the image in source file.</RCS_IDC_PS_RENDERER_TRAIL_WIDTH>
+    <RCS_IDC_PS_RENDERER_AMP_WIDTH>Thickness with which to draw the image in source file.</RCS_IDC_PS_RENDERER_AMP_WIDTH>
+    <RCS_IDC_PS_RENDERER_AMP_HEIGHT>How compressed or elongated the original texture will be when&#10;rendering the particle.</RCS_IDC_PS_RENDERER_AMP_HEIGHT>
+    <RCS_IDC_PS_RENDERER_AMP_STEPS>Number of kinks in each line.</RCS_IDC_PS_RENDERER_AMP_STEPS>
+    <RCS_IDC_PS_RENDERER_AMP_VARIATION>How much to bend each line.</RCS_IDC_PS_RENDERER_AMP_VARIATION>
+    <RCS_IDC_PSA_FLARE_COLOURIZE>Uses the setting specified for the component TintShader (if any)&#10;to colour the particles.</RCS_IDC_PSA_FLARE_COLOURIZE>
+    <RCS_IDC_PSA_FLARE_USEPARTICLESIZE>Indicates that the flare should be the same size as the particle it is attached to.</RCS_IDC_PSA_FLARE_USEPARTICLESIZE>
+    <RCS_IDC_PSA_FLARE_FLARENAME_DIRECTORY_EDIT>Folder from which to list the flare effect files.</RCS_IDC_PSA_FLARE_FLARENAME_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_WORLDDEPENDENT>Sets if the particle system should be drawn in the world&apos;s&#10;coordinate system.</RCS_IDC_PS_RENDERER_WORLDDEPENDENT>
+    <RCS_IDC_PS_RENDERER_LOCALDEPENDENT>Sets if the particle system should be drawn in the local&#10;coordinate system instead of the world&apos;s coordinate system.</RCS_IDC_PS_RENDERER_LOCALDEPENDENT>
+    <RCS_IDC_PS_RENDERER_VIEWDEPENDENT>Sets if the particle system should be drawn in the camera&apos;s&#10;coordinate system instead of the world&apos;s coordinate system.</RCS_IDC_PS_RENDERER_VIEWDEPENDENT>
+    <RCS_IDC_PS_RENDERER_SPRITE_MATERIALFX>List of available modes to blend the particle.</RCS_IDC_PS_RENDERER_SPRITE_MATERIALFX>
+    <RCS_IDC_PS_RENDERER_SPRITE>A sprite is a bitmap that rotates to face the camera perspective.</RCS_IDC_PS_RENDERER_SPRITE>
+    <RCS_IDC_PS_RENDERER_MESH>Uses a Visual Exporter exported mesh (.visual file) as a particle.</RCS_IDC_PS_RENDERER_MESH>
+    <RCS_IDC_PS_RENDERER_BLUR>Draws a trail behind each particle, based on its velocity, but does not&#10;retain information about previous positions of each particle.</RCS_IDC_PS_RENDERER_BLUR>
+    <RCS_IDC_PS_RENDERER_AMP>Draws a series of sprites from the particle system&apos;s origin to each particle.&#10;Ideal for electrical effects.</RCS_IDC_PS_RENDERER_AMP>
+    <RCS_IDC_PS_RENDERER_TRAIL>Draws a trail behind each particle, while retaining information about&#10;previous positions of each particle, allowing you to use centrifugal&#10;forces like Orbitor.</RCS_IDC_PS_RENDERER_TRAIL>
+    <RCS_IDC_PS_RENDERER_MESH_MATERIALFX>The blending mode.</RCS_IDC_PS_RENDERER_MESH_MATERIALFX>
+    <RCS_IDC_PS_RENDERER_VISUAL>Uses a generic visual (.visual) file to draw the particles.</RCS_IDC_PS_RENDERER_VISUAL>
+    <RCS_IDS_PROMPTSAVE>The current particle system has been edited. Do you want to save your changes?</RCS_IDS_PROMPTSAVE>
+    <RCS_IDS_PROMPTSAVETITLE>Save changes?</RCS_IDS_PROMPTSAVETITLE>
+    <RCS_IDS_READONLY>The particle system &quot;%0&quot; is read only. Changes made to this particle system will not be saved.</RCS_IDS_READONLY>
+    <RCS_IDS_READONLYTITLE>File is Read Only</RCS_IDS_READONLYTITLE>
+    <RCS_IDS_POINT>Point</RCS_IDS_POINT>
+    <RCS_IDS_LINE>Line</RCS_IDS_LINE>
+    <RCS_IDS_CYLINDER>Cylinder</RCS_IDS_CYLINDER>
+    <RCS_IDS_SPHERE>Sphere</RCS_IDS_SPHERE>
+    <RCS_IDS_BOX>Box</RCS_IDS_BOX>
+    <RCS_IDS_BLENDED_COLOUR>Blended colour</RCS_IDS_BLENDED_COLOUR>
+    <RCS_BLENDED_INVERSE_COLOUR>Blended inverse colour</RCS_BLENDED_INVERSE_COLOUR>
+    <RCS_IDS_SHIMMER>Shimmer</RCS_IDS_SHIMMER>
+    <RCS_IDS_SOURCE_ALPHA>Alpha test</RCS_IDS_SOURCE_ALPHA>
+    <RCS_IDS_BLENDED_INVERSE_COLOUR>Blended inverse colour</RCS_IDS_BLENDED_INVERSE_COLOUR>
+    <RCS_IDB_SEARCHFILTER>Filter the list of particle systems.</RCS_IDB_SEARCHFILTER>
+    <RCS_IDS_NONE>None</RCS_IDS_NONE>
+    <RCS_IDS_QUICK>Quick</RCS_IDS_QUICK>
+    <RCS_IDS_ACCURATE>Accurate</RCS_IDS_ACCURATE>
+    <RCS_IDS_OPENINEXPLORER>Open folder in Explorer</RCS_IDS_OPENINEXPLORER>
+    <RCS_IDS_COPYPATHCLIPBOARD>Copy path to clipboard</RCS_IDS_COPYPATHCLIPBOARD>
+    <RCS_IDC_FILTER>Search filter.  Type the partial name of a particle system to filter the list.</RCS_IDC_FILTER>
+    <RCS_IDC_DIR>The current particle system directory.</RCS_IDC_DIR>
+    <RCS_IDC_PS_RENDERER_SPRITE_TEXTURENAME_DIRECTORY_EDIT>The currently chosen directory for sprite textures.&#10;You can drag and drop BMP, TGA and DDS files from the asset locator.</RCS_IDC_PS_RENDERER_SPRITE_TEXTURENAME_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_AMP_TEXTURENAME_DIRECTORY_EDIT>The currently chosen directory for amp textures.&#10;You can drag and drop BMP, TGA and DDS files from the asset locator.</RCS_IDC_PS_RENDERER_AMP_TEXTURENAME_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_TRAIL_TEXTURENAME_DIRECTORY_EDIT>The currently chosen directory for trail textures.&#10;You can drag and drop BMP, TGA and DDS files from the asset locator.</RCS_IDC_PS_RENDERER_TRAIL_TEXTURENAME_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_BLUR_TEXTURENAME_DIRECTORY_EDIT>The currently chosen directory for blur textures.&#10;You can drag and drop BMP, TGA and DDS files from the asset locator.</RCS_IDC_PS_RENDERER_BLUR_TEXTURENAME_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_MESH_VISUALNAME_DIRECTORY_EDIT>The currently chosen directory for meshes.&#10;You can drag and drop visuals from the asset locator.</RCS_IDC_PS_RENDERER_MESH_VISUALNAME_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_SPRITE_POINTSPRITE>Toggle point sprite usage.</RCS_IDC_PS_RENDERER_SPRITE_POINTSPRITE>
+    <RCS_IDC_PSA_SOURCE_VELOCITY_INHERITANCE>Percentage of velocity inherited from particle system (0 for none, 1 for all).</RCS_IDC_PSA_SOURCE_VELOCITY_INHERITANCE>
+    <RCS_IDC_PS_RENDERER_MESH_MATERIAL_OVERRIDE>If this is checked, and if a material is selected below then the mesh&apos;s visual&#10;will use the overridden material instead.</RCS_IDC_PS_RENDERER_MESH_MATERIAL_OVERRIDE>
+    <RCS_IDC_PS_RENDERER_MESH_MATERIAL_DIRECTORY_BTN>Browse to select a material folder.</RCS_IDC_PS_RENDERER_MESH_MATERIAL_DIRECTORY_BTN>
+    <RCS_IDC_PS_RENDERER_MESH_SORT>The sorting applied to the particles before drawing.</RCS_IDC_PS_RENDERER_MESH_SORT>
+    <RCS_SEARCH_FILTER_ID>Filter by particle system name.</RCS_SEARCH_FILTER_ID>
+    <RCS_IDC_CHECKBOX_DRAW_HELPER_MODEL>Turn on/off draw helper models</RCS_IDC_CHECKBOX_DRAW_HELPER_MODEL>
+    <RCS_IDC_EDIT_HELPER_MODEL_NAME>The currently chosen helper model</RCS_IDC_EDIT_HELPER_MODEL_NAME>
+    <RCS_IDC_BTN_CHOOSE_HELPER_MODEL>Click to choose a helper model</RCS_IDC_BTN_CHOOSE_HELPER_MODEL>
+    <RCS_IDC_COMBO_CHOOSE_HELPER_MODEL_HARDPOINT>Choose a hardpoint for the helper model</RCS_IDC_COMBO_CHOOSE_HELPER_MODEL_HARDPOINT>
+    <RCS_IDC_PS_RENDERER_VISUAL_VISUALNAME>The visual file to draw the particles.&#10;You can drag and drop visuals from the asset locator.</RCS_IDC_PS_RENDERER_VISUAL_VISUALNAME>
+    <RCS_IDC_PS_RENDERER_VISUAL_VISUALNAME_DIRECTORY_EDIT>The currently chosen directory for visuals.&#10;You can drag and drop visuals from the asset locator.</RCS_IDC_PS_RENDERER_VISUAL_VISUALNAME_DIRECTORY_EDIT>
+    <RCS_IDC_PS_RENDERER_VISUAL_VISUALNAME_DIRECTORY_BTN>Browse for a folder containing visuals.</RCS_IDC_PS_RENDERER_VISUAL_VISUALNAME_DIRECTORY_BTN>
+    <RCS_IDS_COULDNTOPENFILE>The file %0 could not be opened.</RCS_IDS_COULDNTOPENFILE>
+    <RCS_IDS_INVALIDFILENAME>The filename includes invalid characters.&#10;Characters such as &quot;/&lt;&gt;?*:.&quot; or spaces are not allowed.</RCS_IDS_INVALIDFILENAME>
+    <RCS_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_RANGE>Modifies range of depth difference to which softness is applied.&#10;Higher values will increase the fading range.&#10;A value of 0 essentially disables soft particles.</RCS_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_RANGE>
+    <RCS_IDC_PS_RENDERER_SPRITE_SOFT_FALLOFF_POWER>Falloff curve power. 1 is linear. Higher values increase fade rate.</RCS_IDC_PS_RENDERER_SPRITE_SOFT_FALLOFF_POWER>
+    <RCS_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_OFFSET>Offsets the depth difference used for softening by the length of the depth range.&#10;This can be used for tweaking the fade transition position along with depth range and falloff power.</RCS_IDC_PS_RENDERER_SPRITE_SOFT_DEPTH_OFFSET>
+    <RCS_IDC_PS_RENDERER_SPRITE_NEAR_FADE_CUTOFF>The close distance at which particles become completely invisible.</RCS_IDC_PS_RENDERER_SPRITE_NEAR_FADE_CUTOFF>
+    <RCS_IDC_PS_RENDERER_SPRITE_NEAR_FADE_START>The distance at which particles start fading as they come towards the screen.&#10;This value must be larger than the cutoff value for an effect.</RCS_IDC_PS_RENDERER_SPRITE_NEAR_FADE_START>
+    <RCS_IDC_PS_RENDERER_SPRITE_NEAR_FADE_FALLOFF_POWER>Falloff curve power, 1 is linear. Higher values increase fade rate.</RCS_IDC_PS_RENDERER_SPRITE_NEAR_FADE_FALLOFF_POWER>
+   
+  </en>
+</root>

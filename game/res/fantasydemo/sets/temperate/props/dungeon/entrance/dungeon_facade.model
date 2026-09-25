@@ -1,0 +1,24 @@
+<dungeon_facade.model>
+	<nodelessVisual>	sets/temperate/props/dungeon/entrance/dungeon_facade	</nodelessVisual>
+	<materialNames>
+		<material>
+			<original>	07 - Default	</original>
+			<display>	frame	</display>
+		</material>
+		<material>
+			<original>	02 - Default	</original>
+			<display>	steps	</display>
+		</material>
+	</materialNames>
+	<visibilityBox>
+		<min>	-3.395201 -0.242974 -2.830947	</min>
+		<max>	3.867891 6.859599 2.778383	</max>
+	</visibilityBox>
+	<extent>	50.000000	</extent>
+	<parent>	sets/temperate/props/dungeon/entrance/dungeon_facade_lod01	</parent>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377244	</modified_on>
+	</metaData>
+</dungeon_facade.model>

@@ -1,0 +1,72 @@
+<root>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.628289 -0.000001 -1.091475	</row0>
+			<row1>	-0.000000 1.259391 -0.000001	</row1>
+			<row2>	1.091475 -0.000001 -0.628289	</row2>
+			<row3>	0.954468 205.548828 90.929016	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.659413 0.000000 0.337586	</row0>
+			<row1>	-0.000001 1.693403 -0.000000	</row1>
+			<row2>	-0.337586 -0.000001 1.659413	</row2>
+			<row3>	5.699768 207.986328 94.734924	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	1.081612 0.000001 -0.996237	</row0>
+			<row1>	-0.000001 1.470500 0.000001	</row1>
+			<row2>	0.996237 -0.000001 1.081612	</row2>
+			<row3>	9.625671 207.198242 82.276123	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	00040002o.cdata/terrain2	</resource>
+	</terrain>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	0.351549 -0.000001 -0.991259	</row0>
+			<row1>	-0.000000 1.051752 -0.000001	</row1>
+			<row2>	0.991259 -0.000000 0.351549	</row2>
+			<row3>	7.748627 204.946289 74.810455	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<worldNavmesh>
+		<resource>	00040002o.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

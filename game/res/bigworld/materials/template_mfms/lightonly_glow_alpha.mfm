@@ -1,0 +1,32 @@
+<lightonly_glow_alpha.mfm>
+	<fx>	shaders/std_effects/lightonly_glow_alpha.fx	</fx>
+	<property>	destBlend
+		<Int>	6	</Int>
+	</property>
+	<property>	srcBlend
+		<Int>	5	</Int>
+	</property>
+	<property>	alphaReference
+		<Int>	0	</Int>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	selfIllumination
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	diffuseMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<property>	glowMap
+		<Texture>	helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<property>	glowFactor
+		<Float>	1.000000	</Float>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+</lightonly_glow_alpha.mfm>

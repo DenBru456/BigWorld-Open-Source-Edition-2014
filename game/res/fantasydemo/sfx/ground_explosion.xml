@@ -1,0 +1,39 @@
+<SFXFile>
+
+	<Actor> particles
+		<ParticleSystem>	particles/fx_frag_grenade_explosion_outside.xml	</ParticleSystem>
+	</Actor>
+	<Actor> shockwave
+		<ShockWaveModel/>
+	</Actor>
+
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>
+	<Joint>	shockwave
+		<ModelRoot/>
+	</Joint>
+
+	<Event> particles
+		<ForceParticle/>
+	</Event>
+	<!-- <Event> -->
+		<!-- <PlaySound>	grenades/frag/explode	</PlaySound> -->
+	<!-- </Event> -->
+	<Event> shockwave
+		<ShockWave>
+			<colour>	0.0364 0.0632 0.094 1.0 	</colour>
+			<actionName>	GoFrag				</actionName>
+			<shimmerStyle>	1				</shimmerStyle>
+		</ShockWave>
+	</Event>
+	<Event>
+		<AddDecal> 
+			<texture> system/maps/decal_default.dds </texture>
+			<bumpTexture> system/maps/decal_default_normal.dds </bumpTexture>
+			<size> 3.0 3.0 </size>
+			<extent> 0 -10 0 </extent>
+		</AddDecal>
+	</Event>
+	
+</SFXFile>

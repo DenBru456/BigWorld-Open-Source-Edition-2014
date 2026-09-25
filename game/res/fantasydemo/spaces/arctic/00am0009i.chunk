@@ -1,0 +1,106 @@
+<root>
+	<shell>
+		<resource>	sets/temperate/shells/dungeon/exit_shell.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	4652	</size>
+		</staticLighting>
+	</shell>
+	<ambientLight>
+		<colour>	20.000000 16.000000 25.000010	</colour>
+		<multiplier>	3.000000	</multiplier>
+	</ambientLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-0.000329 0.000000 0.999998	</row0>
+			<row1>	-0.999998 0.000104 -0.000329	</row1>
+			<row2>	-0.000104 -0.999999 -0.000000	</row2>
+			<row3>	4.350145 2.098753 -3.362991	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	4652	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<flare>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	environments/fx/corona.xml	</resource>
+		<position>	4.130236 2.538714 -3.360863	</position>
+		<maxDistance>	150.000000	</maxDistance>
+		<area>	1.000000	</area>
+		<fadeSpeed>	1.000000	</fadeSpeed>
+		<colour>	239.000015 193.000015 143.000000	</colour>
+	</flare>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	-0.225830 0.000000 0.974164	</row0>
+			<row1>	0.000000 0.999997 0.000000	</row1>
+			<row2>	-0.974164 0.000000 -0.225830	</row2>
+			<row3>	4.110891 2.451764 -3.361221	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1282784657	</modified_on>
+		</metaData>
+		<colour>	245.000183 221.000183 148.000000	</colour>
+		<position>	2.998510 2.510110 -3.519226	</position>
+		<innerRadius>	2.044891	</innerRadius>
+		<outerRadius>	9.555208	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.100000	</multiplier>
+	</omniLight>
+	<transform>
+		<row0>	-1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 -1.000000	</row2>
+		<row3>	-15.389962 -15.169998 -99.252068	</row3>
+	</transform>
+	<boundingBox>
+		<min>	-20.421881 -15.406736 -100.286751	</min>
+		<max>	-14.499882 -7.975804 -90.058258	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am0009i.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

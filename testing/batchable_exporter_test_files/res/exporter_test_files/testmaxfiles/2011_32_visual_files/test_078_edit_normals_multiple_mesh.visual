@@ -1,0 +1,247 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	0.999786 0.000000 -0.020685	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.020685 0.000000 0.999786	</row2>
+				<row3>	-4.296109 0.527022 0.078009	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	0.997714 0.000000 0.067580	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.067580 0.000000 0.997714	</row2>
+					<row3>	2.946685 0.000000 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	0.997851 0.000000 -0.065530	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.065530 0.000000 0.997851	</row2>
+						<row3>	3.030732 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone04	</identifier>
+						<transform>
+							<row0>	1.000000 0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	3.271697 0.000000 0.000000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone03BlendBoneObject01	</identifier>
+						<transform>
+							<row0>	0.999826 -0.000000 0.018631	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	-0.018631 0.000000 0.999826	</row2>
+							<row3>	-1.674079 -0.527022 -0.190504	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Bone03BlendBoneObject02	</identifier>
+						<transform>
+							<row0>	0.999826 -0.000000 0.018631	</row0>
+							<row1>	0.000000 1.000000 -0.000000	</row1>
+							<row2>	-0.018631 0.000000 0.999826	</row2>
+							<row3>	-1.674079 -0.527022 -0.190504	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneObject02	</identifier>
+					<transform>
+						<row0>	0.998898 0.000000 -0.046928	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.046928 -0.000000 0.998898	</row2>
+						<row3>	1.347766 -0.527022 -0.080392	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneObject03	</identifier>
+					<transform>
+						<row0>	0.998898 0.000000 -0.046928	</row0>
+						<row1>	-0.000000 1.000000 0.000000	</row1>
+						<row2>	0.046928 -0.000000 0.998898	</row2>
+						<row3>	1.347766 -0.527022 -0.080392	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneBox01	</identifier>
+				<transform>
+					<row0>	0.999786 0.000000 0.020685	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.020685 0.000000 0.999786	</row2>
+					<row3>	4.296803 -0.527022 0.010873	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneObject03	</identifier>
+				<transform>
+					<row0>	0.999786 0.000000 0.020685	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.020685 0.000000 0.999786	</row2>
+					<row3>	4.296803 -0.527022 0.010873	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneObject03	</node>
+		<node>	Bone02BlendBoneObject03	</node>
+		<geometry>
+			<vertices>	Object03.vertices	</vertices>
+			<primitive>	Object03.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #77_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse_grey.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/col_green.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone02BlendBoneObject02	</node>
+		<node>	Bone03BlendBoneObject02	</node>
+		<geometry>
+			<vertices>	Object02.vertices	</vertices>
+			<primitive>	Object02.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #77_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse_grey.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/col_green.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone03BlendBoneObject01	</node>
+		<geometry>
+			<vertices>	Object01.vertices	</vertices>
+			<primitive>	Object01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #77_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse_grey.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/col_green.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneBox01	</node>
+		<geometry>
+			<vertices>	Box01.vertices	</vertices>
+			<primitive>	Box01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #77_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<property>	diffuseMap
+						<Texture>	exporter_test_files/maps/diffuse_grey.bmp	</Texture>
+					</property>
+					<property>	normalMap
+						<Texture>	exporter_test_files/maps/normal_norms.tga	</Texture>
+					</property>
+					<property>	specularMap
+						<Texture>	exporter_test_files/maps/col_green.bmp	</Texture>
+					</property>
+					<property>	doubleSided
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	false	</Bool>
+					</property>
+					<property>	alphaReference
+						<Int>	0	</Int>
+					</property>
+					<property>	texAddressMode
+						<Int>	1	</Int>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-4.000000 0.000000 -0.500000	</min>
+		<max>	4.000000 1.000000 0.500000	</max>
+	</boundingBox>
+</root>

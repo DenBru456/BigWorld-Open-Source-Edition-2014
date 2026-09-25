@@ -1,0 +1,141 @@
+#
+# File list for server tools.
+#
+# If editing this, note that more specific file paths should come before
+# shorter file paths.
+
+# For example, if you are including game/tools/bigworld/server/space_viewer with
+# mode of 644, but you want space_viewer.py within that directory to be mode
+# 0755, add it before the space_viewer directory.
+#
+
+excludePathPatterns \.swp$
+excludePathPatterns \.svn
+excludePathPatterns \.nfs
+excludePathPatterns svn-commit\.tmp
+
+# RPMs don't require the flash source code
+excludePathPatterns game/tools/bigworld/server/web_console/stat_grapher/flash/
+excludeDestPathPatterns tools/bin/(bwmachined2|snapshot_helper|_bwlog.so)
+excludePathPatterns game/bin/tools/bwlockd/bwlockd_test.py
+
+addConfig game/tools/bigworld/server/install/profile.tools.sh,%{_sysconfdir}/profile.d/bw-tools.sh,0755
+
+addConfig game/tools/bigworld/server/install/bigworld.conf.sample,%{_sysconfdir}/bigworld.conf,0644,bwtools,bwtools
+
+add game/bin/server/%{platform_config}/tools,%{bigworld_tools_dir}/bin,0554,bwtools,bwtools
+add game/bin/server/%{platform_config}/tools/_bwlog.so,%{bigworld_tools_dir}/site-packages/_bwlog.so,554,bwtools,bwtools
+add game/bin/server/%{platform_config}/tools/_bw_profile.so,%{bigworld_tools_dir}/site-packages/_bw_profile.so,554,bwtools,bwtools
+
+add game/tools/bigworld/server/pycommon,%{bigworld_tools_dir}/pycommon,0444,bwtools,bwtools
+add game/tools/bigworld/server/cluster_commands,%{bigworld_tools_dir}/cluster_commands,0444,bwtools,bwtools
+
+add game/tools/bigworld/server/control_cluster.py,%{bigworld_tools_dir}/control_cluster.py,0555,bwtools,bwtools
+add game/tools/bigworld/server/bot_op.py,%{bigworld_tools_dir}/bot_op.py,0555,bwtools,bwtools
+#link bw_control_cluster
+
+add game/tools/bigworld/server/message_logger/mlcat.py,%{bigworld_tools_dir}/message_logger/mlcat.py,0555,bwtools,bwtools
+add game/tools/bigworld/server/message_logger/mlls.py,%{bigworld_tools_dir}/message_logger/mlls.py,0555,bwtools,bwtools
+add game/tools/bigworld/server/message_logger/mlrm.py,%{bigworld_tools_dir}/message_logger/mlrm.py,0554,bwtools,bwtools
+add game/tools/bigworld/server/message_logger/mlroll.py,%{bigworld_tools_dir}/message_logger/mlroll.py,0554,bwtools,bwtools
+add game/tools/bigworld/server/message_logger/mlsum.py,%{bigworld_tools_dir}/message_logger/mlsum.py,0555,bwtools,bwtools
+add game/tools/bigworld/server/message_logger/mltar.py,%{bigworld_tools_dir}/message_logger/mltar.py,0555,bwtools,bwtools
+add game/tools/bigworld/server/message_logger/message_logger.conf,%{bigworld_tools_dir}/message_logger/message_logger.conf.example,0444,bwtools,bwtools
+addConfig game/tools/bigworld/server/message_logger/message_logger.conf,%{bigworld_conf_dir}/message_logger.conf,0644,bwtools,bwtools
+add game/tools/bigworld/server/message_logger,%{bigworld_tools_dir}/message_logger,0444,bwtools,bwtools
+
+add game/tools/bigworld/server/message_logger/message_logger.1,%{bigworld_tools_dir}/man/man1/message_logger.1,0444,bwtools,bwtools
+add game/tools/bigworld/server/message_logger/mltar.1,%{bigworld_tools_dir}/man/man1/mltar.1,0444,bwtools,bwtools
+
+# add game/tools/bigworld/server/snapshot/snapshot.py,%{bigworld_tools_dir}/snapshot/snapshot.py,0555,bwtools,bwtools
+# add game/tools/bigworld/server/snapshot,%{bigworld_tools_dir}/snapshot,0444,bwtools,bwtools
+
+add game/tools/bigworld/server/stat_logger/stat_logger.py,%{bigworld_tools_dir}/stat_logger/stat_logger.py,0554,bwtools,bwtools
+add game/tools/bigworld/server/stat_logger,%{bigworld_tools_dir}/stat_logger,0444,bwtools,bwtools
+addConfig game/tools/bigworld/server/stat_logger/preferences.xml,%{bigworld_conf_dir}/stat_logger.xml,0640,bwtools,bwtools
+addConfig(noreplace) game/tools/bigworld/server/install/stat_logger,%{_sysconfdir}/default/stat_logger,0644,bwtools,bwtools
+
+add game/tools/bigworld/server/web_console/common/static/js,%{bigworld_tools_dir}/web_console/common/static/js,0744,bwtools,bwtools
+add game/tools/bigworld/server/web_console/start-web_console.py,%{bigworld_tools_dir}/web_console/start-web_console.py,0554,bwtools,bwtools
+addConfig game/tools/bigworld/server/install/web_console.cfg,%{bigworld_conf_dir}/web_console.conf,0640,bwtools,bwtools
+addConfig(noreplace) game/tools/bigworld/server/install/web_console,%{_sysconfdir}/default/web_console,0644,bwtools,bwtools
+add game/tools/bigworld/server/web_console,%{bigworld_tools_dir}/web_console,0444,bwtools,bwtools
+add %{bigworld_tmp_version_file},%{bigworld_tools_dir}/web_console/root/package_version,0444,bwtools,bwtools
+
+add,bwlockd game/bin/tools/bwlockd/bwlockd.py,%{bigworld_tools_dir}/bwlockd/bwlockd.py,0554,bwtools,bwtools
+add,bwlockd game/bin/tools/bwlockd,%{bigworld_tools_dir}/bwlockd,0444,bwtools,bwtools
+addConfig(noreplace),bwlockd game/tools/bigworld/server/install/bwlockd,%{_sysconfdir}/default/bwlockd,0644,bwtools,bwtools
+
+add game/tools/bigworld/server/install/bw_functions.sh,%{bigworld_initrd_dir}/bw_functions,0444
+add game/tools/bigworld/server/install/web_console.sh,%{bigworld_initrd_dir}/bw_web_console,0555
+add game/tools/bigworld/server/install/message_logger.sh,%{bigworld_initrd_dir}/bw_message_logger,0555
+add game/tools/bigworld/server/install/stat_logger.sh,%{bigworld_initrd_dir}/bw_stat_logger,0555
+add,bwlockd game/tools/bigworld/server/install/bwlockd.sh,%{bigworld_initrd_dir}/bw_lockd,0555
+
+# Should no longer be needed due to CentOS 5 providing MySQL-python 1.2.3
+#addConfig game/tools/bigworld/server/install/bw_web_console_access.cron,%{cron_hourly_dir}/bw_web_console_access,0554
+
+# logrotate scripts
+addConfig game/tools/bigworld/server/message_logger/message_logger.logrotate,%{logrotate_dir}/bw_message_logger,0644
+addConfig game/tools/bigworld/server/install/bw_server_tools.logrotate,%{logrotate_dir}/bw_server_tools,0644
+addConfig(noreplace) game/tools/bigworld/server/install/message_logger,%{_sysconfdir}/default/message_logger,0644,bwtools,bwtools
+
+filter %{logrotate_dir}/bw_message_logger |sed 's#<default_archive>#%{message_logger_dir}/message_logs.tar.gz#'
+
+filter %{logrotate_dir}/bw_message_logger |sed 's~###bigworld_initrd_dir###.*logrotate~su -c "&" %{bw_tools_user}~'
+filter %{logrotate_dir}/bw_server_tools |sed 's~###bigworld_initrd_dir###.*logrotate~su -c "&" %{bw_tools_user}~'
+filter %{logrotate_dir}/bw_message_logger |sed 's~###bigworld_initrd_dir###~%{bigworld_initrd_dir}~'
+filter %{logrotate_dir}/bw_server_tools |sed 's~###bigworld_initrd_dir###~%{bigworld_initrd_dir}~'
+
+# Create the links in /etc/init.d
+link %{bigworld_initrd_dir}/bw_web_console,%{_initrddir}/bw_web_console,0555
+link %{bigworld_initrd_dir}/bw_message_logger,%{_initrddir}/bw_message_logger,0555
+link %{bigworld_initrd_dir}/bw_stat_logger,%{_initrddir}/bw_stat_logger,0555
+link %{bigworld_initrd_dir}/bw_lockd,%{_initrddir}/bw_lockd,0555
+
+filter %{_sysconfdir}/bigworld.conf  |sed 's#location = .*#location = %{bigworld_tools_dir}#'
+filter %{_sysconfdir}/bigworld.conf  |sed 's#piddir = .*#piddir = %{pid_dir}#'
+
+filter %{bigworld_initrd_dir}/bw_functions  |sed 's#export BW_TOOLS_PIDDIR=.*#export BW_TOOLS_PIDDIR="%{pid_dir}"#'
+filter %{bigworld_initrd_dir}/bw_functions  |sed 's#export BW_TOOLS_USERNAME=.*#export BW_TOOLS_USERNAME="%{bw_tools_user}"#'
+filter %{bigworld_initrd_dir}/bw_functions  |sed 's#export BW_TOOLS_GROUPNAME=.*#export BW_TOOLS_GROUPNAME="%{bw_tools_user}"#'
+filter %{bigworld_initrd_dir}/bw_functions  |sed 's#export BW_TOOLS_DIR=.*#export BW_TOOLS_DIR="%{bigworld_tools_dir}"#'
+filter %{bigworld_initrd_dir}/bw_functions  |sed 's#export BW_TOOLS_BIN=.*#export BW_TOOLS_BIN="%{bigworld_tools_dir}/bin"#'
+filter %{bigworld_initrd_dir}/bw_functions  |sed 's#export BW_TOOLS_LOG_DIR=.*#export BW_TOOLS_LOG_DIR="%{daemon_log_dir}"#'
+
+filter %{bigworld_initrd_dir}/bw_message_logger  |sed 's#. /etc/init.d/bw_functions#. %{bigworld_initrd_dir}/bw_functions#'
+filter %{bigworld_initrd_dir}/bw_message_logger  |sed 's#CONFFILE=.*#CONFFILE=%{bigworld_conf_dir}/message_logger.conf#'
+
+filter %{bigworld_initrd_dir}/bw_web_console  |sed 's#. /etc/init.d/bw_functions#. %{bigworld_initrd_dir}/bw_functions#'
+filter %{bigworld_initrd_dir}/bw_web_console  |sed 's#WEB_CONSOLE_CONF=.*#WEB_CONSOLE_CONF=%{bigworld_conf_dir}/web_console.conf#'
+
+filter %{bigworld_initrd_dir}/bw_stat_logger  |sed 's#. /etc/init.d/bw_functions#. %{bigworld_initrd_dir}/bw_functions#'
+filter %{bigworld_initrd_dir}/bw_stat_logger  |sed 's#STAT_LOGGER_CONF=.*#STAT_LOGGER_CONF=%{bigworld_conf_dir}/stat_logger.xml#'
+
+filter,bwlockd %{bigworld_initrd_dir}/bw_lockd  |sed 's#BWLOCKD_HOME=.*#BWLOCKD_HOME=%{bigworld_tools_dir}/bwlockd#'
+filter,bwlockd %{bigworld_initrd_dir}/bw_lockd  |sed 's#BWLOCKD_DATA_DIR=.*#BWLOCKD_DATA_DIR=%{bwlockd_data_dir}#'
+filter %{bigworld_initrd_dir}/bw_lockd  |sed 's#. /etc/init.d/bw_functions#. %{bigworld_initrd_dir}/bw_functions#'
+filter %{bigworld_initrd_dir}/bw_lockd  |sed 's#INIT_RD_DIR=.*#INIT_RD_DIR="%{bigworld_initrd_dir}"#'
+
+filter %{bigworld_conf_dir}/message_logger.conf  |sed 's#default_archive.*#default_archive = %{message_logger_dir}/message_logs.tar.gz#'
+filter %{bigworld_conf_dir}/message_logger.conf  |sed 's#logdir.*#logdir = %{message_logger_dir}#'
+filter %{bigworld_conf_dir}/web_console.conf     |sed 's~###BW_SQLURI###~sqlobject.dburi="sqlite://%{web_console_data_dir}/web_console.sqlite"~'
+filter %{bigworld_conf_dir}/web_console.conf     |sed 's~###BW_STAT_LOGGER_CONF###~stat_logger.preferences = "%{bigworld_conf_dir}/stat_logger.xml"~'
+filter %{bigworld_conf_dir}/web_console.conf     |sed 's~###WEB_CONSOLE_SELF_PROFILING_DIR###~%{web_console_self_profiling_dir}~'
+filter %{bigworld_conf_dir}/web_console.conf     |sed 's~###WEB_CONSOLE_UPLOAD_DIR###~%{web_console_upload_dir}~'
+
+# BWLockD has been repositioned in the directory hierachy, so needs to look in a different location
+filter,bwlockd %{bigworld_tools_dir}/bwlockd/bwlockd.py  |sed 's#bwsetup.addPath( "../server" )#bwsetup.addPath( ".." )#'
+
+link %{bigworld_tools_dir},%{bigworld_current_dir}/tools,0555
+
+dir %{bigworld_dir},555
+dir %{bigworld_current_dir},555
+dir /opt/bigworld,555
+
+dir %{bigworld_tools_dir},0555,bwtools,bwtools
+dir %{bigworld_tools_dir}/init.d,0555,bwtools,bwtools
+dir %{bigworld_tools_dir}/bin,0555,bwtools,bwtools
+
+dir %{bigworld_conf_dir},0644,bwtools,bwtools
+dir %{pid_dir},0644

@@ -1,0 +1,173 @@
+<tree_stump.model>
+	<app>
+		<mainThreadCpuAffinity>	0	</mainThreadCpuAffinity>
+		<maxTimeDelta>	0.500000	</maxTimeDelta>
+		<timeScale>	1.000000	</timeScale>
+	</app>
+	<camera>
+		<invert>	0	</invert>
+		<mode>	0	</mode>
+		<orbitSpeed>	1.000000	</orbitSpeed>
+		<rotDir>	-1	</rotDir>
+		<speed>	Slow
+			<Slow>	1.000000
+				<turbo>	2.000000	</turbo>
+			</Slow>
+		</speed>
+	</camera>
+	<checkFileCase>	false	</checkFileCase>
+	<consoles>
+		<darkenBackground>	false	</darkenBackground>
+	</consoles>
+	<currentCountry>	</currentCountry>
+	<currentLanguage>	</currentLanguage>
+	<graphics>
+		<bpp>	32	</bpp>
+		<fullScreen>	false	</fullScreen>
+		<height>	768	</height>
+		<shadows>	false	</shadows>
+		<width>	1024	</width>
+	</graphics>
+	<input>
+		<exclusive>	false	</exclusive>
+	</input>
+	<lights>
+		<file0>	</file0>
+		<file1>	</file1>
+		<file2>	</file2>
+		<file3>	</file3>
+		<file4>	</file4>
+		<file5>	</file5>
+		<file6>	</file6>
+		<file7>	</file7>
+		<file8>	</file8>
+		<file9>	</file9>
+	</lights>
+	<precompileEffects>	1	</precompileEffects>
+	<render>
+		<environment>	0
+			<drawBloom>	1	</drawBloom>
+			<drawClouds>	0	</drawClouds>
+			<drawFog>	0	</drawFog>
+			<drawShimmer>	1	</drawShimmer>
+			<drawSky>	0	</drawSky>
+			<drawStaticSky>	0	</drawStaticSky>
+			<drawSunAndMoon>	0	</drawSunAndMoon>
+		</environment>
+		<misc>
+			<farPlane>	300.000000	</farPlane>
+			<nearPlane>	0.010000	</nearPlane>
+		</misc>
+		<scenery>	1
+			<drawWater>	1
+				<reflection>	1	</reflection>
+				<simulation>	1	</simulation>
+			</drawWater>
+			<wireFrame>	0	</wireFrame>
+		</scenery>
+		<terrain>	1
+			<wireFrame>	0	</wireFrame>
+		</terrain>
+	</render>
+	<renderer>
+		<shadows>
+			<quality>	2	</quality>
+		</shadows>
+	</renderer>
+	<settings>
+		<animateZoom>	1	</animateZoom>
+		<bkgColour>	255.000000 255.000000 255.000000	</bkgColour>
+		<centreModel>	0	</centreModel>
+		<checkForSparkles>	0	</checkForSparkles>
+		<floorTexture>	helpers/maps/system/default.bmp	</floorTexture>
+		<groundModel>	0	</groundModel>
+		<regenBBOnLoad>	1	</regenBBOnLoad>
+		<showActions>	0	</showActions>
+		<showAxes>	0	</showAxes>
+		<showBinormals>	0	</showBinormals>
+		<showBoundingBox>	0	</showBoundingBox>
+		<showBsp>	0	</showBsp>
+		<showCustomHull>	0	</showCustomHull>
+		<showEditorProxy>	0	</showEditorProxy>
+		<showHardPoints>	0	</showHardPoints>
+		<showLightModels>	1	</showLightModels>
+		<showModel>	1	</showModel>
+		<showNormals>	0	</showNormals>
+		<showOriginalAnim>	0	</showOriginalAnim>
+		<showPortals>	0	</showPortals>
+		<showShadowing>	1	</showShadowing>
+		<showSkeleton>	0	</showSkeleton>
+		<showWireframe>	0	</showWireframe>
+		<useCustomLighting>	0	</useCustomLighting>
+		<useTerrain>	1	</useTerrain>
+		<zoomDuration>	0.250000	</zoomDuration>
+		<floraDensity>	5	</floraDensity>
+		<gameTime>	15:26	</gameTime>
+		<lockLodParents>	0	</lockLodParents>
+		<useFloor>	0	</useFloor>
+		<zoomOnLoad>	1	</zoomOnLoad>
+	</settings>
+	<space>	helpers/spaces/pe	</space>
+	<startup>
+		<lastLoadOK>	true	</lastLoadOK>
+		<lastOrigin>	0.000000 0.000000 0.000000	</lastOrigin>
+		<lastView>
+			<row0>	1.000000 -0.000000 0.000000	</row0>
+			<row1>	-0.000000 1.000000 -0.000000	</row1>
+			<row2>	0.000000 -0.000000 1.000000	</row2>
+			<row3>	-0.000000 0.000000 -0.000000	</row3>
+		</lastView>
+		<loadLastModel>	1	</loadLastModel>
+		<showSplashScreen>	1	</showSplashScreen>
+		<loadLastLights>	1	</loadLastLights>
+	</startup>
+	<ualConfigPath>	resources/ual/ual_config.xml	</ualConfigPath>
+	<models>
+		<file0>	sets/minspec/props/tree_stump/model/tree_stump.model	</file0>
+		<file1>	</file1>
+		<file2>	</file2>
+		<file3>	</file3>
+		<file4>	</file4>
+		<file5>	</file5>
+		<file6>	</file6>
+		<file7>	</file7>
+		<file8>	</file8>
+		<file9>	</file9>
+	</models>
+	<fx>
+		<file0>	shaders/std_effects/lightonly.fx	</file0>
+		<file1>	</file1>
+		<file2>	</file2>
+		<file3>	</file3>
+		<file4>	</file4>
+		<file5>	</file5>
+		<file6>	</file6>
+		<file7>	</file7>
+		<file8>	</file8>
+		<file9>	</file9>
+	</fx>
+	<messages>
+		<assetMsgs>	</assetMsgs>
+		<errorMsgs>	</errorMsgs>
+		<infoMsgs>	</infoMsgs>
+		<noticeMsgs>	</noticeMsgs>
+		<showDate>	</showDate>
+		<showPriority>	</showPriority>
+		<showTime>	</showTime>
+		<warningMsgs>	</warningMsgs>
+	</messages>
+	<nodelessVisual>	sets/minspec/props/tree_stump/model/tree_stump	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<extent>	50.000000	</extent>
+	<visibilityBox>
+		<min>	-3.366501 -1.653154 -2.542671	</min>
+		<max>	1.142132 1.533691 2.643679	</max>
+	</visibilityBox>
+	<parent>	sets/minspec/props/tree_stump/model/tree_stump_lod01	</parent>
+	<batched>	true	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380766	</modified_on>
+	</metaData>
+</tree_stump.model>

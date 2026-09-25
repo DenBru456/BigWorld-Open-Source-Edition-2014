@@ -1,0 +1,79 @@
+<fx_shockwave.model>
+	<animation>
+		<name>	shockwave	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	objects/models/fx/fx_shockwave	</nodes>
+	</animation>
+	<animation>
+		<name>	fraggrenade_explosion	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	objects/models/fx/fx_fraggrenade_explosion	</nodes>
+	</animation>
+	<action>
+		<name>	Go	</name>
+		<animation>	shockwave	</animation>
+		<blendInTime>	0.002000	</blendInTime>
+		<blendOutTime>	0.002000	</blendOutTime>
+		<filler>	false	</filler>
+		<blended>	false	</blended>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<action>
+		<name>	GoFrag	</name>
+		<animation>	fraggrenade_explosion	</animation>
+		<blendInTime>	0.002000	</blendInTime>
+		<blendOutTime>	0.002000	</blendOutTime>
+		<filler>	false	</filler>
+		<blended>	false	</blended>
+		<isMovement>	false	</isMovement>
+		<isCoordinated>	false	</isCoordinated>
+		<isImpacting>	false	</isImpacting>
+	</action>
+	<dye>
+		<matter>	Material	</matter>
+		<replaces>	Material #21	</replaces>
+		<tint>
+			<name>	Fader	</name>
+			<material>
+				<fx>	objects/models/fx/fx_shockwave.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	colour
+					<Vector4>	0.5 0.20 0.0 1.0	</Vector4>
+				</property>
+				<property>	selfIllumination
+					<Float>	1.0	</Float>
+				</property>
+				<property>	vTransform
+					<Vector4>	0.0 1.0 0.0 0.0	</Vector4>
+				</property>
+				<property>	uTransform
+					<Vector4>	1.0 0.0 0.0 0.0	</Vector4>
+				</property>
+				<property>	otherMap
+					<Texture>	maps/fx/fx_plasmadistortsphere01.texanim	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	system/maps/col_black.bmp	</Texture>
+				</property>
+			</material>
+			<property>
+				<name>	colour	</name>
+				<default>	0.1 0.05 0.0 1.0	</default>
+			</property>
+		</tint>
+	</dye>
+	<nodefullVisual>	objects/models/fx/fx_shockwave	</nodefullVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-57.724308 -57.724308 -57.724308	</min>
+		<max>	57.724316 57.724316 57.724316	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378396	</modified_on>
+	</metaData>
+</fx_shockwave.model>

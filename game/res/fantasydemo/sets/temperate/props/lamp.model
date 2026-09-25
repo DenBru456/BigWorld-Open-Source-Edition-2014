@@ -1,0 +1,72 @@
+<lamp.model>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-0.275100 0.000800 -0.273000	</min>
+		<max>	0.273800 4.470800 0.275900	</max>
+	</visibilityBox>
+	<extent>	90.000000	</extent>
+	<nodelessVisual>	sets/temperate/props/lamp	</nodelessVisual>
+	<dye>
+		<matter>	lightpost	</matter>
+		<replaces>	lightpost	</replaces>
+		<tint>
+			<name>	light_on	</name>
+			<material>
+				<identifier>	lightpost	</identifier>
+				<fx>	shaders/std_effects/normalmap_chrome_glow.fx	</fx>
+				<collisionFlags>	0	</collisionFlags>
+				<materialKind>	0	</materialKind>
+				<property>	reflectionMask
+					<Texture>	sets/temperate/props/lamp_s.bmp	</Texture>
+				</property>
+				<property>	texAddressMode
+					<Int>	1	</Int>
+				</property>
+				<property>	doubleSided
+					<Bool>	false	</Bool>
+				</property>
+				<property>	alphaReference
+					<Int>	0	</Int>
+				</property>
+				<property>	alphaTestEnable
+					<Bool>	false	</Bool>
+				</property>
+				<property>	reflectionMap
+					<Texture>	system/maps/cloudyhillscubemap2.dds	</Texture>
+				</property>
+				<property>	glowMap
+					<Texture>	sets/minspec/props/lamp_post/maps/lamp_post_glow.bmp	</Texture>
+				</property>
+				<property>	glowFactor
+					<Float>	1.100000	</Float>
+				</property>
+				<property>	normalMap
+					<Texture>	sets/temperate/props/lamp_norm.bmp	</Texture>
+				</property>
+				<property>	diffuseMap
+					<Texture>	sets/temperate/props/lamp.bmp	</Texture>
+				</property>
+				<property>	selfIllumination
+					<Float>	0.000000	</Float>
+				</property>
+				<property>	materialSpecular
+					<Vector4>	1.000000 1.000000 1.000000 1.000000	</Vector4>
+				</property>
+				<property>	reflectionAmount
+					<Float>	1.000000	</Float>
+				</property>
+				<property>	fresnelConstant
+					<Float>	0.500000	</Float>
+				</property>
+				<property>	fresnelExp
+					<Float>	5.000000	</Float>
+				</property>
+			</material>
+		</tint>
+	</dye>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254379015	</modified_on>
+	</metaData>
+</lamp.model>

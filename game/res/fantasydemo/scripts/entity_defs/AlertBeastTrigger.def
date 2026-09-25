@@ -1,0 +1,50 @@
+<root>
+	<Volatile>
+	</Volatile>
+
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+
+		<trapRadius>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		3.0					</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	1.5	</gizmoRadius>
+			</Widget>
+		</trapRadius>
+		
+		
+		<findBeastRadius>
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Default>		50.0				</Default>
+			<Editable>		true				</Editable>
+			<Persistent>	true				</Persistent>
+			<Widget>	RADIUS
+				<colour>	255 255 255 192	</colour>
+				<gizmoRadius>	2.5	</gizmoRadius>
+			</Widget>
+		</findBeastRadius>
+
+	</Properties>
+	
+
+	<ClientMethods>
+	</ClientMethods>
+	
+
+	<CellMethods>
+	</CellMethods>
+
+
+	<BaseMethods>
+	</BaseMethods>
+</root>
+

@@ -1,0 +1,18 @@
+<root>
+
+	<!-- The repeated sequence of textures to be rendered. -->
+	<!-- If not specified, the list of textures will just cycle. -->
+	<frames>abcdedcbcbabcdeabcdedcbcdeabbaabcdcbabccdee</frames>
+	
+	<!-- The rate at which the frames should be displayed. -->
+	<fps> 10.0 </fps>
+	
+	<!-- The texture that will make up this animation, referenced above as a, b, c, etc... -->
+	<texture> sets/town/props/candle_glow00.bmp</texture>
+	<texture> sets/town/props/candle_glow01.bmp</texture>
+	<texture> sets/town/props/candle_glow02.bmp</texture>
+	<texture> sets/town/props/candle_glow03.bmp</texture>
+	<texture> sets/town/props/candle_glow04.bmp</texture>
+
+</root>
+

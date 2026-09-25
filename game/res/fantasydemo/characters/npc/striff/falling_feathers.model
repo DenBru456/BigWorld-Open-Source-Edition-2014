@@ -1,0 +1,41 @@
+<falling_feathers.model>
+	<action>
+		<name>	falling_feathers	</name>
+		<animation>	falling_feathers	</animation>
+		<filler>	false	</filler>
+		<track>	0	</track>
+		<isMovement>	false	</isMovement>
+	</action>
+	<action>
+		<name>	idle	</name>
+		<animation>	idle	</animation>
+		<filler>	true	</filler>
+		<blendInTime>	0.300000	</blendInTime>
+		<blendOutTime>	0.300000	</blendOutTime>
+		<track>	0	</track>
+	</action>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	falling_feathers	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/striff/animations/falling_feathers	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-1.817999 -2.165251 -1.546487	</min>
+		<max>	1.976862 1.691357 2.691975	</max>
+	</visibilityBox>
+	<extent>	60.000000	</extent>
+	<nodefullVisual>	characters/npc/striff/falling_feathers	</nodefullVisual>
+	<animation>
+		<name>	idle	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/striff/animations/falling_feathers	</nodes>
+		<firstFrame>	159	</firstFrame>
+		<lastFrame>	160	</lastFrame>
+	</animation>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377332	</modified_on>
+	</metaData>
+</falling_feathers.model>

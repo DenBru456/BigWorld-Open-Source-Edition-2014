@@ -1,0 +1,14 @@
+[Unit]
+Description=BigWorld Message Logger
+Requires=network.target time-sync.target bwmachined2.service
+After=network.target syslog.target time-sync.target bwmachined2.service
+
+[Service]
+Type=forking
+ExecStart=###bigworld_initrd_dir###/bw_message_logger start
+ExecStop=###bigworld_initrd_dir###/bw_message_logger stop
+PIDFile=###pid_dir###/message_logger.pid
+
+[Install]
+WantedBy=multi-user.target
+

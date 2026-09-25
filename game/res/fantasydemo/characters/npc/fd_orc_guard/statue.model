@@ -1,0 +1,56 @@
+<statue.model>
+	<action>
+		<name>	Deactivate	</name>
+		<animation>	statue_deactivate	</animation>
+	</action>
+	<action>
+		<name>	ActivateHold	</name>
+		<animation>	statue_point:hold	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	Activate	</name>
+		<animation>	statue_point:activate	</animation>
+	</action>
+	<action>
+		<name>	Idle	</name>
+		<animation>	statue_point:firstframe	</animation>
+		<filler>	true	</filler>
+	</action>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	statue_point:firstframe	</name>
+		<frameRate>	1.000000	</frameRate>
+		<nodes>	characters/npc/fd_orc_guard/statue_point	</nodes>
+		<firstFrame>	1	</firstFrame>
+		<lastFrame>	1	</lastFrame>
+	</animation>
+	<animation>
+		<name>	statue_point:activate	</name>
+		<frameRate>	100.000000	</frameRate>
+		<nodes>	characters/npc/fd_orc_guard/statue_point	</nodes>
+	</animation>
+	<animation>
+		<name>	statue_point:hold	</name>
+		<frameRate>	1.000000	</frameRate>
+		<nodes>	characters/npc/fd_orc_guard/statue_point	</nodes>
+		<firstFrame>	229	</firstFrame>
+		<lastFrame>	229	</lastFrame>
+	</animation>
+	<visibilityBox>
+		<min>	-0.666484 -0.097187 -0.666909	</min>
+		<max>	0.902884 1.886448 0.666909	</max>
+	</visibilityBox>
+	<animation>
+		<name>	statue_deactivate	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/fd_orc_guard/statue_deactivate	</nodes>
+	</animation>
+	<extent>	180.000000	</extent>
+	<nodefullVisual>	characters/npc/fd_orc_guard/statue	</nodefullVisual>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254380446	</modified_on>
+	</metaData>
+</statue.model>

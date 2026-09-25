@@ -1,0 +1,1928 @@
+<root>
+	<en_au>
+    <LanguageName>English (Australian)</LanguageName>
+    <EnglishLanguageName>English (Australian)</EnglishLanguageName>
+	</en_au>
+	<en>
+    <LanguageName>English</LanguageName>
+    <EnglishLanguageName>English</EnglishLanguageName>
+		<PARTICLE>
+			<CHUNK_PARTICLES>
+				<FAILED_LOAD>Failed to load particle system </FAILED_LOAD>
+			</CHUNK_PARTICLES>			
+		</PARTICLE>
+
+    <HELP>
+      <CONTENT_TOOLS_GUIDE_PATH>
+        http://docs.bigworldtech.com/%0/%1/html/content_tools_reference_guide/content_tools_reference_guide.html
+      </CONTENT_TOOLS_GUIDE_PATH>
+      <CONTENT_CREATION_GUIDE_PATH>
+        http://docs.bigworldtech.com/%0/%1/chunked/ccm/content_creation/index.html
+      </CONTENT_CREATION_GUIDE_PATH>
+      <HELP_NOT_FOUND>
+        Could not find help file:&#10; &quot; %0 &quot;&#10;Please check options.xml/help/ %1
+      </HELP_NOT_FOUND>
+    </HELP>
+    <GUITABS>
+			<CONTENT_CONTAINER>
+				<NO_CONTENT>&lt;No current content&gt;</NO_CONTENT>
+			</CONTENT_CONTAINER>
+			
+			<DRAG_MANAGER>
+				<MANY_TABS>&lt;many tabs&gt;</MANY_TABS>		 
+			</DRAG_MANAGER>
+			
+			<PANEL>
+				<NO_TAB_SELECTED>&lt;no tab selected&gt;</NO_TAB_SELECTED>
+			</PANEL>
+			
+			<TAB>
+				<NO_CONTENT>&lt;no content&gt;</NO_CONTENT>
+			</TAB>
+		</GUITABS>
+		
+		<GUIMANAGER>
+			<GUI_TOOLBAR>
+				<TOOLTIP_FORM0>%0 ( %1 , %2 cycles )</TOOLTIP_FORM0>	<!--Tooltip ( hotkey cycle_hotkey )-->
+				<TOOLTIP_FORM1>%0 ( %1 )</TOOLTIP_FORM1>							<!--Tooltip ( hotkey )             -->
+				<TOOLTIP_FORM2>%0 ( %1 cycles )</TOOLTIP_FORM2>			  <!--Tooltip ( cycle_hotkey )       -->
+			</GUI_TOOLBAR>		
+		</GUIMANAGER>
+
+    <GIZMO>
+      <PROPERTIES>
+        <FORMATTER>
+          <CM>%0cm</CM>
+          <M>%0m</M>
+          <KM>%0km</KM>
+          <DEGREES>%0deg.</DEGREES>
+        </FORMATTER>
+      </PROPERTIES>
+      <METADATA>
+        <MODIFY_META_DATA>Modify MetaData</MODIFY_META_DATA>
+        <MODIFY_COMMENT>Modify Comment</MODIFY_COMMENT>
+      </METADATA>
+      <UNDO>
+        <PROPERTY_SCALER>Scale</PROPERTY_SCALER>
+        <DYNAMIC_FLOAT_DEVICE>Scale</DYNAMIC_FLOAT_DEVICE>
+        <MATRIX_MOVER>Move group</MATRIX_MOVER>
+        <MATRIX_ROTATOR>Rotation</MATRIX_ROTATOR>
+        <WHEEL_ROTATOR>Rotation</WHEEL_ROTATOR>
+        <MOVE_PROPERTY>Move</MOVE_PROPERTY>
+        <TERRAIN_HEIGHT_FILTER>Terrain Height Change</TERRAIN_HEIGHT_FILTER>
+        <TERRAIN_HOLE>Terrain Hole Change</TERRAIN_HOLE>
+        <TERRAIN_SET_HEIGHT>Terrain Height Change</TERRAIN_SET_HEIGHT>
+        <TERRAIN_TEXTURE>Terrain Texture Paint</TERRAIN_TEXTURE>
+        <CHANGE_TOOL_MODE>Change tool mode</CHANGE_TOOL_MODE>
+      </UNDO>
+    </GIZMO>
+    
+    <POST_PROCESSING>
+		<EDIT_PHASE>	Set phase property '%0'	</EDIT_PHASE>
+    </POST_PROCESSING>
+
+		<CONTROLS>
+			<EDIT_NUMERIC>
+				<CANNOT_PASTE_TEXT>Cannot paste into the desired position as the resulting value would be invalid.&#10;&#10;If you want to replace a numeric value, make sure that either the edit box is empty or that the current value is selected entirely.</CANNOT_PASTE_TEXT>
+				<CANNOT_PASTE_TITLE>Paste Failed</CANNOT_PASTE_TITLE>
+				<VALUE_TOO_SMALL>WARNING: The numeric value you entered is too small.&#10;It will be set to %0 automatically. Continue?</VALUE_TOO_SMALL>
+				<VALUE_TOO_SMALL_TITLE>Value Too Small</VALUE_TOO_SMALL_TITLE>
+				<VALUE_TOO_BIG>WARNING: The numeric value you entered is too big.&#10;It will be set to %0 automatically. Continue?</VALUE_TOO_BIG>
+				<VALUE_TOO_BIG_TITLE>Value Too Big</VALUE_TOO_BIG_TITLE>
+			</EDIT_NUMERIC>
+			
+			<RESOURCE_FILE_DIALOG>
+				<MUST_BE_IN_RESOURCE_DIR>The file must reside in one of the resource folders&#10;</MUST_BE_IN_RESOURCE_DIR>
+				<OR>or&#10;</OR>
+			</RESOURCE_FILE_DIALOG>
+		</CONTROLS>
+		
+		<PHYSICS>
+			<MATERIAL_KINDS>
+				<INVALID_MATERIAL_KIND>invalid material kind</INVALID_MATERIAL_KIND>		 
+			</MATERIAL_KINDS>		
+		</PHYSICS>
+		
+		<SEARCH_FIELD>
+			<TOOL_TIP_SEARCH_CANCEL>Cancel the current search</TOOL_TIP_SEARCH_CANCEL>
+		</SEARCH_FIELD>
+		<UAL>
+			<SMART_LIST_CTRL>
+				<MORE>more ...</MORE>		 
+			</SMART_LIST_CTRL>
+			
+			<UAL_DIALOG>
+				<DEFAULT_SEARCH_IDLE_TEXT>Asset Name</DEFAULT_SEARCH_IDLE_TEXT>
+				<SHORT_CAPTION>Assets</SHORT_CAPTION>
+				<LONG_CAPTION>Asset Browser</LONG_CAPTION>
+				<TOOLTIP_SEARCH>Type in the partial name of the asset</TOOLTIP_SEARCH>
+				<TOOLTIP_SEARCH_FILTERS>Click to show/hide the search filters</TOOLTIP_SEARCH_FILTERS>
+				<CLEAR_HISTORY_TEXT>Are you sure you want to clear the entire asset history?</CLEAR_HISTORY_TEXT>
+				<CLEAR_HISTORY_TITLE>Clear Asset History</CLEAR_HISTORY_TITLE>
+				<CLEAR_FAVOURITES_TEXT>Are you sure you want to clear the favourites list?</CLEAR_FAVOURITES_TEXT>
+				<CLEAR_FAVOURITES_TITLE>Clear Favourites List</CLEAR_FAVOURITES_TITLE>
+				<LIST_VIEW_STYLES>List View Styles</LIST_VIEW_STYLES>
+				<OPEN_MODEL>Open Model</OPEN_MODEL>
+				<ADD_MODEL>Add Model</ADD_MODEL>
+				<USE_LIGHTING_SETUP>Use Lighting Setup</USE_LIGHTING_SETUP>
+				<LIST>List</LIST>
+				<SMALL_ICONS>Small Icons</SMALL_ICONS>
+				<BIG_ICONS>Big Icons</BIG_ICONS>
+				<REMOVE_FROM_FAVOURITES>Remove from Favourites</REMOVE_FROM_FAVOURITES>
+				<REMOVE_FROM_HISTORY>Remove from History</REMOVE_FROM_HISTORY>
+				<ADD_TO_FAVOURITES>Add to Favourites</ADD_TO_FAVOURITES>
+				<OPEN_FOLDER_IN_EXPLORER>Open Folder in Explorer</OPEN_FOLDER_IN_EXPLORER>
+				<COPY_PATH_TO_CLIPBOARD>Copy Path to Clipboard</COPY_PATH_TO_CLIPBOARD>
+				<OPEN_X_IN_EXPLORER>Open &apos;%0&apos; in Explorer</OPEN_X_IN_EXPLORER>
+				<COPY_X_TO_CLIPBOARD>Copy &apos;%0&apos; to Clipboard</COPY_X_TO_CLIPBOARD>
+				<CHANGE_PANEL_TITLE>Change this panel&apos;s title...</CHANGE_PANEL_TITLE>
+				<RELOAD_DEFAULT_FOLDERS>Reload default folders ...</RELOAD_DEFAULT_FOLDERS>
+				<REMOVE_X>Remove &apos;%0&apos;</REMOVE_X>
+				<CLEAR_CONTENTS>Clear Contents ...</CLEAR_CONTENTS>
+				<RELOAD_TEXT>Are you sure you want to reload the default folders for this dialog?</RELOAD_TEXT>
+				<RELOAD_TITLE>Reload Default Folders</RELOAD_TITLE>
+				<SELECTED_ITEMS>%0/%1 items</SELECTED_ITEMS>
+				<MANY_ITEMS> : (many items selected)</MANY_ITEMS>
+				<MULTI_DELETE_TEXT>Multiple items are selected.&#10;Are you sure you want to delete all the selected items?</MULTI_DELETE_TEXT>
+				<MULTI_DELETE_TITLE>Delete Multiple Items</MULTI_DELETE_TITLE>
+				<NL_PATH>&#10;Path: </NL_PATH>
+				<FRESH_ITEM_LIST>Refresh the item list</FRESH_ITEM_LIST>
+				<TREE_LAYOUT>Tree and List Layout Vertical/Horizontal</TREE_LAYOUT>
+			</UAL_DIALOG>
+			
+			<UAL_NAME_DLG>
+				<TYPE_BOTH_TEXT>Please type both the long and the short titles.</TYPE_BOTH_TEXT>
+				<TYPE_BOTH_TITLE>Change Asset Browser Title Error</TYPE_BOTH_TITLE>
+			</UAL_NAME_DLG>
+			
+			<VFOLDER_FILE_PROVIDER>
+				<DESCRIPTION>%0 (%1 items)</DESCRIPTION>
+				<DESCRIPTION_LOADING>%0 (%1 items and loading...)</DESCRIPTION_LOADING>
+			</VFOLDER_FILE_PROVIDER>
+			
+			<VFOLDER_MULTI_PROVIDER>
+				<DESCRIPTION>%0 (%1 items)</DESCRIPTION>
+				<DESCRIPTION_LOADING>%0 (%1 items and loading...)</DESCRIPTION_LOADING>					 
+			</VFOLDER_MULTI_PROVIDER>
+			
+			<VFOLDER_XML_PROVIDER>
+				<NUM_ITEMS>%0 (%1 items)</NUM_ITEMS>		 
+			</VFOLDER_XML_PROVIDER>
+		</UAL>
+		
+		<SCENEBROWSER>
+			<SHORT_NAME> Scene </SHORT_NAME>
+			<LONG_NAME> Scene Browser </LONG_NAME>
+			<NUM_ITEMS> (%0 items) </NUM_ITEMS>
+			
+			<HIDE_COLUMNS> Hide All Columns </HIDE_COLUMNS>
+			<SHOW_COLUMNS> Show All Columns </SHOW_COLUMNS>
+			
+			<LOAD_PRESET> Load a Saved Column Layout </LOAD_PRESET>
+			<SAVE_PRESET> Save Current Column Layout </SAVE_PRESET>
+			<RENAME_PRESET> Rename a Saved Column Layout </RENAME_PRESET>
+			<DELETE_PRESET> Delete a Saved Column Layout </DELETE_PRESET>
+			<NEW_PRESET> Save as New Column Layout... </NEW_PRESET>
+			<RESET_COLUMNS> Reset to the Default Column Layout </RESET_COLUMNS>
+			<PRESETS_CAPTION> Scene Browser Column Layouts </PRESETS_CAPTION>
+			<NEW_PRESET_EDIT> Type a Name for the New Column Layout: </NEW_PRESET_EDIT>
+			<RENAME_PRESET_EDIT> Type a New Name for the Column Layout: </RENAME_PRESET_EDIT>
+			<EMPTY_PRESET_MSG> A layout's name cannot be empty. Please enter a valid name. </EMPTY_PRESET_MSG>
+			<REPLACE_PRESET_MSG> Do you want to overrite this layout with the current column layout? </REPLACE_PRESET_MSG>
+			<DELETE_PRESET_MSG> Are you sure you want to delete this layout? </DELETE_PRESET_MSG>
+			<RESET_COLUMNS_MSG> Are you sure you want to reset to the default column layout? </RESET_COLUMNS_MSG>
+			
+			<CLOSE_COLUMNS_MENU> Close </CLOSE_COLUMNS_MENU>
+			
+			<ZOOM_TO> Zoom To </ZOOM_TO>
+			<COLLAPSE_ALL> Collapse All Groups </COLLAPSE_ALL>
+			<EXPAND_ALL> Expand All Groups </EXPAND_ALL>
+			<ITEM_PROPS> Properties... </ITEM_PROPS>
+			
+			<SEARCH_TIP> Type here to search for assets </SEARCH_TIP>
+			<SEARCH_FILTERS> Click for more search options </SEARCH_FILTERS>
+			
+			<NO_GROUP_BY> &lt;Flat List&gt; </NO_GROUP_BY>
+			
+			<STATUS_NO_SELECT> %0 items loaded, %1 triangles, %2 primitive groups </STATUS_NO_SELECT>
+			<STATUS_SELECT> Selected %0/%1 items loaded, %2/%3 triangles, %4/%5 primitive groups </STATUS_SELECT>
+			<STATUS_NO_SELECT_SEARCH> %0 items found, %1 triangles, %2 primitive groups </STATUS_NO_SELECT_SEARCH>
+			<STATUS_SELECT_SEARCH> Selected %0/%1 items found, %2/%3 triangles, %4/%5 primitive groups </STATUS_SELECT_SEARCH>
+			
+			<BOOL_COLUMN_BARRIER> Toggling boolean property %0 in the selected items </BOOL_COLUMN_BARRIER>
+			
+			<FILTER_VISIBLE> Search Visible Properties </FILTER_VISIBLE>
+			<FILTER_ALL> Search All Properties </FILTER_ALL>
+			<FILTER_ASSETNAME> Search by Asset Name </FILTER_ASSETNAME>
+			<FILTER_ASSETTYPE> Search by Asset Type </FILTER_ASSETTYPE>
+			<FILTER_CHUNK> Search by Chunk </FILTER_CHUNK>
+			<FILTER_PATH> Search by Path </FILTER_PATH>
+			
+			<COLUMNS>
+				<ASSET_NAME> Asset Name </ASSET_NAME>
+				<CHUNK> Chunk </CHUNK>
+				<ASSET_TYPE> Asset Type </ASSET_TYPE>
+				<HIDDEN> Hidden </HIDDEN>
+				<FROZEN> Frozen </FROZEN>
+				<PATH> Path </PATH>
+				<SHADOWS> Shadows </SHADOWS>
+				<REFLECTION> Reflection </REFLECTION>
+				<TRIS> Tris </TRIS>
+				<PRIMS> Primitives </PRIMS>
+			</COLUMNS>
+		</SCENEBROWSER>
+
+    <RESMGR>
+      <CHANGING_LANGUAGE>Application need to be restarted for language settings to take effect. Do you want to restart now?</CHANGING_LANGUAGE>
+      <CHANGING_LANGUAGE_TITLE>Changing Language</CHANGING_LANGUAGE_TITLE>
+      <SAVE_AND_RESTART>&amp;Save</SAVE_AND_RESTART>
+      <DISCARD_AND_RESTART>Restart without Save</DISCARD_AND_RESTART>
+      <RESTART_NOW>Restart &amp;Now</RESTART_NOW>
+      <RESTART_LATER>Restart &amp;Later</RESTART_LATER>
+      <CANCEL>&amp;Cancel</CANCEL>
+    </RESMGR>
+
+    <COMMON>
+	  <BASE_MAINFRAME>
+	    <CREATETOOLBARS>Failed to create application toolbar&#10;</CREATETOOLBARS>
+	  </BASE_MAINFRAME>
+	  
+      <DIRECTORY_CHECK>
+        <DIR_CHECK> You are running %0 from:&#10;&#9;\%1\&#10;This is not a correct folder for %2. Please run the exectable directly.</DIR_CHECK>
+      </DIRECTORY_CHECK>
+      
+      <MODEL_RELOAD>
+		<RELOADED_MODEL>Reloaded mode: &quot;%0&quot;&#10;</RELOADED_MODEL>
+      </MODEL_RELOAD>
+
+      <EDITOR_VIEWS>
+        <X_NAME>.x</X_NAME>
+        <Y_NAME>.y</Y_NAME>
+        <Z_NAME>.z</Z_NAME>
+        <NORMAL_NAME>normal</NORMAL_NAME>
+        <D_NAME>d</D_NAME>
+        <UAXIS_NAME>uAxis</UAXIS_NAME>
+        <LOCAL_CENTRE_NAME>local centre</LOCAL_CENTRE_NAME>
+        <POINTS_NAME>points</POINTS_NAME>
+        <POINT_NAME>point</POINT_NAME>
+        <EXTERN>extern</EXTERN>
+        <OTHER_CHUNK>otherChunk</OTHER_CHUNK>
+      <X>x</X>
+        <Y>y</Y>
+        <Z>z</Z>
+        <W>w</W>
+        <PITCH>.pitch</PITCH>
+        <YAW>.yaw</YAW>
+        <ROLL>.roll</ROLL>
+        <RED>Red</RED>
+        <RED_END> - red</RED_END>
+        <GREEN>Green</GREEN>
+        <GREEN_END> - green</GREEN_END>
+        <BLUE>Blue</BLUE>
+        <BLUE_END> - blue</BLUE_END>
+        <ALPHA>Alpha</ALPHA>
+        <ALPHA_END> - alpha</ALPHA_END>
+        <CHOICEVIEW_ELECT>Setting default value of %0 for %1&#10;</CHOICEVIEW_ELECT>
+	<OBJECT_SELECTED>%0 objects selected ...</OBJECT_SELECTED>
+      </EDITOR_VIEWS>
+
+      <MOUSE_LOOK_CAMERA>
+        <OUTPUT>MouseLookCamera&#10;</OUTPUT>
+      </MOUSE_LOOK_CAMERA>
+
+      <ORTHOGRAPHIC_CAMERA>
+        <OUTPUT>OrthographicCamera&#10;</OUTPUT>
+      </ORTHOGRAPHIC_CAMERA>
+
+      <ORBIT_CAMERA>
+        <OUTPUT>OrbitCamera&#10;</OUTPUT>
+      </ORBIT_CAMERA>
+
+      <PAGE_MESSAGES>
+        <INSTANCE>%0 (%1 instance%2)</INSTANCE>
+        <DATE>Date</DATE>
+        <TIME>Time</TIME>
+        <PRIORITY>Priority</PRIORITY>
+        <MESSAGE>Message</MESSAGE>
+        <PLURAL>s</PLURAL>
+      </PAGE_MESSAGES>
+
+      <PAGE_GRAPHICS_SETTINGS>
+        <SHORT_NAME>Settings</SHORT_NAME>
+        <LONG_NAME>Graphics Settings</LONG_NAME>
+        <NEED_RESTART>Setting will not take effect until the application is restarted.</NEED_RESTART>
+      </PAGE_GRAPHICS_SETTINGS>
+      
+      <PROPERTY_LIST>
+        <EXPOSE_PYTHON>This property can be exposed to Python by right clicking.</EXPOSE_PYTHON>
+        <PYTHON_EXPOSED>This property is currently exposed to Python as &quot;%0&quot;.</PYTHON_EXPOSED>
+        <ASSIGN_FEED>This texture can be assigned a texture feed by right clicking.</ASSIGN_FEED>
+        <FEED_ASSIGNED>This texture is currently using the texture feed name &quot;%0&quot;.</FEED_ASSIGNED>
+        <PYTHON_OFF>PythonOff;Expose to Python</PYTHON_OFF>
+        <PYTHON_ON>PythonOn;Hide from Python</PYTHON_ON>
+        <FEED_OFF>FeedOff;Enable Texture Feed...</FEED_OFF>
+        <FEED_ON>FeedOn;Change Texture Feed Name...;-;Remove Texture Feed</FEED_ON>
+        <FILE_IN_FOLDERS_ONLY>You can only select a file located in one of the resource folders.</FILE_IN_FOLDERS_ONLY>
+        <UNABLE_RESOLVE>Unable to resolve file path</UNABLE_RESOLVE>
+      </PROPERTY_LIST>
+
+      <SPACE_MGR>
+        <SELECT_FOLDER>&#10;Select the space folder to open.&#10;It must contain a &apos;space.settings&apos; file.</SELECT_FOLDER>
+      </SPACE_MGR>
+
+      <STRING_UTILS>
+        <COPY>Copy (</COPY>
+        <OF>) of</OF>
+        <COPY_OF>Copy of</COPY_OF>
+        <COPY_OF_N>Copy (%0) of %1</COPY_OF_N>
+      </STRING_UTILS>
+
+      <TOOLS_COMMON>
+        <EXPIRED>Sorry, this version of the %0 has expired.&#10;Please contact BigWorld to obtain a new version.&#10;&#10;Compile Time: %1</EXPIRED>
+        <TOOL_EXPIRED>Tool Expired</TOOL_EXPIRED>
+        <LICENSE_VALIDATION>Initialising %0 license manager</LICENSE_VALIDATION>
+      </TOOLS_COMMON>
+
+      <UAL_ENTITY_PROVIDER>
+        <ENTITIES>Entities (%0 items)</ENTITIES>
+      </UAL_ENTITY_PROVIDER>
+
+      <UTILITIES>
+        <BYTES>%0 Bytes</BYTES>
+        <KILOBYTES>%0 KB</KILOBYTES>
+        <MEGABYTES>%0 MB</MEGABYTES>
+        <GIGABYTES>%0 GB</GIGABYTES>
+        <TERABYTES>%0 TB</TERABYTES>
+      </UTILITIES>
+	  
+	  <MATERIAL_EDITOR>
+	    <TRYING_CREATE>Trying to create property for %0&#10;</TRYING_CREATE>
+		<CREATED>... created %0&#10;</CREATED>
+		<NOT_CREATED>Material Property not created by creator&#10;</NOT_CREATED>
+		<NOT_FOUND>Could not find editor for material property %0. Probably not yet implemented.&#10;</NOT_FOUND>
+		<DX_FAILED>MaterialUtility::listProperties - GetParameterDesc failed with DX error code %0&#10;</DX_FAILED>
+	  </MATERIAL_EDITOR>
+	  
+	  <ROMP_HARNESS>
+	    <TIME_OF_DAY>Client Settings/Time of Day</TIME_OF_DAY>
+	    <SECS_PER_HOUR>Client Settings/Secs Per Hour</SECS_PER_HOUR>
+		<SHIMMER_FAILED>Shimmer failed to initialise&#10;</SHIMMER_FAILED>
+		<SHIMMER_NOT_SUPPORTED>Heat Shimmer is not supported&#10;</SHIMMER_NOT_SUPPORTED>
+		<BLOOM_FAILED>Bloom failed to initialise&#10;</BLOOM_FAILED>
+		<BLOOM_NOT_SUPPORTED>Blooming is not supported&#10;</BLOOM_NOT_SUPPORTED>
+	  </ROMP_HARNESS>
+
+      <MODEL_RELOAD>
+        <RELOADED_MODEL>Reloaded %0</RELOADED_MODEL>
+      </MODEL_RELOAD>
+    </COMMON>
+
+    <MODELEDITOR>
+      <ANIMATIONS>animations</ANIMATIONS>
+      <ACTIONS>actions</ACTIONS>
+      <OTHER>(Other...)</OTHER>
+      <DEFAULT>Default</DEFAULT>
+      <UNTITLED>Untitled</UNTITLED>
+      <DASH_MODELEDITOR>%0 - ModelEditor</DASH_MODELEDITOR>
+
+      <APP>
+        <ME_SCRIPTER>
+          <UNDOING>Undoing: %0&#10;</UNDOING>
+          <REDOING>Redoing: %0&#10;</REDOING>
+          <MAKE_THUMBNAIL>Taking Thumbnail of &quot;%0&quot;&#10;</MAKE_THUMBNAIL>
+          <THUMBNAIL_ERROR>No thumbnail was created since there is no model loaded.&#10;</THUMBNAIL_ERROR>
+        </ME_SCRIPTER>
+
+        <ME_MODULE>
+          <POSITIVE_FPS>%0 fps</POSITIVE_FPS>
+          <ZERO_FPS>0 fps</ZERO_FPS>
+          <TRIANGLES>%0 triangles</TRIANGLES>
+        </ME_MODULE>
+
+        <ME_APP>
+          <SAVING>Saving Model: &quot;%0&quot;&#10;</SAVING>
+          <BAD_DIR>You can only save a model to a directory located in one of the resource folders.</BAD_DIR>
+          <UNABLE_RESOLVE>Unable to resolve model path</UNABLE_RESOLVE>
+          <MODEL_CHANGED>Model Changed</MODEL_CHANGED>
+          <MODEL_CHANGED_Q>Changes were made to the model.&#10;Do you want to save changes before closing?</MODEL_CHANGED_Q>
+          <MODEL_NOT_SAVED>Closing without saving changes to model.&#10;</MODEL_NOT_SAVED>
+          <LIGHTS_CHANGED>Lights Changed</LIGHTS_CHANGED>
+          <LIGHTS_CHANGED_Q>Changes were made to the lighting setup.&#10;Do you want to save changes before closing?</LIGHTS_CHANGED_Q>
+          <LIGHTS_NOT_SAVED>Closing without saving changes to lights.&#10;</LIGHTS_NOT_SAVED>
+          <EXITING>Exiting ModelEditor...&#10;</EXITING>
+          <REVERT_MODEL>Revert Model</REVERT_MODEL>
+          <REVERT_MODEL_Q>Are you sure you want to revert the model?&#10;All changes since the last save will be lost.</REVERT_MODEL_Q>
+          <REVERTING_MODEL>Reverting to last saved model.&#10;</REVERTING_MODEL>
+        </ME_APP>
+      </APP>
+
+      <GUI>
+        <TREE_LIST_DLG>
+          <NON_ANIMATED>&lt;Non-animated model&gt;</NON_ANIMATED>
+          <NO_ANIMATIONS>&lt;No %0&gt;</NO_ANIMATIONS>
+        </TREE_LIST_DLG>
+
+        <PANEL_MANAGER>
+          <LOAD_DEFAULT_Q>Are you sure you want to load the default panel layout?</LOAD_DEFAULT_Q>
+          <LOAD_DEFAULT>MaterialEditor - Load Default Panel Layout</LOAD_DEFAULT>
+          <LOAD_RECENT_Q>Are you sure you want to load the last saved panel layout?</LOAD_RECENT_Q>
+          <LOAD_RECENT>MaterialEditor - Load Most Recent Panel Layout</LOAD_RECENT>
+        </PANEL_MANAGER>
+
+        <NEW_TINT>
+          <BAD_DIR_EFFECT>You can only select an effect file located in one of the resource folders.</BAD_DIR_EFFECT>
+          <UNABLE_RESOLVE_EFFECT>Unable to resolve effect file path</UNABLE_RESOLVE_EFFECT>
+          <BAD_DIR_MFM>You can only select an MFM file located in one of the resource folders.</BAD_DIR_MFM>
+          <UNABLE_RESOLVE_MFM>Unable to resolve MFM file path</UNABLE_RESOLVE_MFM>
+          <BAD_TINT_NAME>Unable to create the tint since no name was given.&#10;At least one alphanumeric character is needed.</BAD_TINT_NAME>
+          <INVALID_TINT_NAME>Invalid tint name given</INVALID_TINT_NAME>
+          <TINT_ALREADY_EXISTS>Unable to create a tint with that name since one already exists, please select another name.</TINT_ALREADY_EXISTS>
+          <TINT_EXISTS>Tint name already used</TINT_EXISTS>
+          <DEFAULT_TINT_RESERVED>The tint name &quot;Default&quot; is reserved for the default tint, please select another name.</DEFAULT_TINT_RESERVED>
+          <DEFAULT_TINT>Cannot use &quot;Default&quot; as tint name</DEFAULT_TINT>
+        </NEW_TINT>
+
+        <MODEL_EDITOR>
+          <ME_CRASHED>The last time ModelEditor was run it exited unexpectedly.&#10;The model &quot;%0&quot; will not be loaded.</ME_CRASHED>
+          <MODEL_LOAD_ERROR>Model Load Error</MODEL_LOAD_ERROR>
+          <LOADING>Loading %0 ...</LOADING>
+          <LOADING_MODEL>Loading Model: &quot;%0&quot;&#10;</LOADING_MODEL>
+          <VIS_BOX_AUTO_CALC>The model&apos;s visibility box has been automatically recalculated.&#10;A save will be required.&#10;</VIS_BOX_AUTO_CALC>
+          <TOO_MANY_BLENDBONE_NODES>This model has more than 85 BlendBone nodes.  It may appear corrupted.&#10;</TOO_MANY_BLENDBONE_NODES>
+          <ADDED_MODEL>Added Model: &quot;%0&quot;&#10;</ADDED_MODEL>
+          <UNABLE_ADD_MODEL>Unable to add the model &quot;%0&quot; since it is already used.&#10;</UNABLE_ADD_MODEL>
+          <TEXTURE_MEM>%0 texture mem</TEXTURE_MEM>
+          <NO_HELP_FILE>Could not find help file: &#10;&quot;%0&quot;&#10;Please check options.xml/help/%1&#10;</NO_HELP_FILE>
+          <BAD_DIR_MODEL_LOAD>You can only load a model located in one of the resource folders.</BAD_DIR_MODEL_LOAD>
+          <BAD_DIR_MODEL_ADD>You can only add a model located in one of the resource folders.</BAD_DIR_MODEL_ADD>
+          <UNABLE_RESOLVE_MODEL>Unable to resolve model path</UNABLE_RESOLVE_MODEL>
+          <REGENERATING_VIS_BOX>Regenerating Visibility Box...</REGENERATING_VIS_BOX>
+          <REGENERATED_VIS_BOX>Regenerated visibility box&#10;</REGENERATED_VIS_BOX>
+          <BSP_MATERIAL>Added BSP material.</BSP_MATERIAL>
+          <BSP_MATERIAL_ADDED>Model &quot;%0&quot; was missing BSP material &quot;%1.&quot;&#10;Please check material settings or re-export if necessary.</BSP_MATERIAL_ADDED>
+        </MODEL_EDITOR>
+
+        <LOD_BAR>
+          <CHANGING_MODEL_EXTENT>Changing a LOD model extent</CHANGING_MODEL_EXTENT>
+        </LOD_BAR>
+
+        <ABOUT_BOX>
+          <VERSION_BUILT>Ver %0%1%2: Built on %3</VERSION_BUILT>
+          <EVAL>Eval</EVAL>
+          <DEBUG>Debug</DEBUG>
+        </ABOUT_BOX>
+      </GUI>
+
+      <MODELS>
+        <MUTANT_VALIDATION>
+          <CANT_LOCATE_Q>Unable to locate %0 file: &#10;&#10;&quot;%1.%2&quot;&#10;&#10;Do you want to try and locate this file?%3</CANT_LOCATE_Q>
+          <UNABLE_LOCATE>Unable to locate %0 file</UNABLE_LOCATE>
+          <READ_ONLY>The file &quot;%0&quot; is read only. Changes made to this file and all related files will not be saved.</READ_ONLY>
+          <READ_ONLY_TITLE>File is Read Only</READ_ONLY_TITLE>
+          <UNABLE_LOAD_OTHERWISE>&#10;&#10;You will be unable to load this model otherwise.</UNABLE_LOAD_OTHERWISE>
+        </MUTANT_VALIDATION>
+
+        <MUTANT_MATERIALS>
+          <CHANGE_TO>Change to %0</CHANGE_TO>
+          <CHANGING_MATERIAL_NAME>Changing a material name</CHANGING_MATERIAL_NAME>
+          <CHANGING_DYE_NAME>Changing a dye name</CHANGING_DYE_NAME>
+          <CHANGING_TINT_NAME>Changing a tint name</CHANGING_TINT_NAME>
+          <CHANGING_TINT_FLAG>Changing a tint flag</CHANGING_TINT_FLAG>
+          <CHANGING_MATERIAL_EFFECT>Changing the material effect</CHANGING_MATERIAL_EFFECT>
+          <CHANGING_MATERIAL_MFM>Changing the material MFM</CHANGING_MATERIAL_MFM>
+          <CHANGING_MATERIAL_FLAG>Changing a material flag</CHANGING_MATERIAL_FLAG>
+          <CHANGING_MATERIAL_KIND>Changing model material kind</CHANGING_MATERIAL_KIND>
+          <CHANGING_TEXTURE_FEED_NAME>Changing the texture feed name</CHANGING_TEXTURE_FEED_NAME>
+          <ADDING_TINT>Adding a tint</ADDING_TINT>
+          <DELETING_TINT>Deleting a tint</DELETING_TINT>
+          <SHADER_ERROR>Error applying shader</SHADER_ERROR>
+          <SOFTSKINNED_ERROR_MSG>Unable to apply a hardskinned shader to a softskinned object.</SOFTSKINNED_ERROR_MSG>
+          <HARDSKINNED_ERROR_MSG>Unable to apply a softskinned shader to a hardskinned object.</HARDSKINNED_ERROR_MSG>
+          <UNSKINNED_ERROR_MSG>Unable to apply a softskinned shader to an unskinned object.</UNSKINNED_ERROR_MSG>
+          <SOFTSKINNED_WARNING_MSG>You are applying an unskinned shader to a softskinned object.&#10;This is not recommended since the nonskinend shader won't do skinning and will render model in default pose instead.&#10;Use skinned shader to correctly display skinned model.</SOFTSKINNED_WARNING_MSG>
+          <SOFTSKINNED_WARNING>Applying an unskinned shader to a softskinned material</SOFTSKINNED_WARNING>
+          <HARDSKINNED_WARNING_MSG>You are applying an unskinned shader to a hardskinned object.&#10;This is not recommended since the nonskinned shader won't do skinning and will render model in default pose instead.&#10;Use skinned shader to correctly display skinned model.</HARDSKINNED_WARNING_MSG>
+          <HARDSKINNED_WARNING>Applying an unskinned shader to a hardskinned material</HARDSKINNED_WARNING>
+          <DISABLING_PYTHON>Disabling the exposed to Python state</DISABLING_PYTHON>
+          <ENABLING_PYTHON>Enabling the exposed to Python state</ENABLING_PYTHON>
+        </MUTANT_MATERIALS>
+
+        <MUTANT_ANIMATIONS>
+          <ADDING_ANIM>Adding a new animation</ADDING_ANIM>
+          <CHANGING_ANIM>Changing an animation source</CHANGING_ANIM>
+          <DELETING_ANIM>Deleting of animation</DELETING_ANIM>
+          <CHANGING_ANIM_NAME>Changing name of animation</CHANGING_ANIM_NAME>
+          <CHANGING_FIRST_FRAME>Changing first frame of animation</CHANGING_FIRST_FRAME>
+          <CHANGING_LAST_FRAME>Changing last frame of animation</CHANGING_LAST_FRAME>
+          <CHANGING_FRAME_RATE>Changing frame rate of animation</CHANGING_FRAME_RATE>
+          <SAVING_FRAME_RATE>Saving frame rate of animation</SAVING_FRAME_RATE>
+          <CHANGING_ANIM_FILE>Changing the animation file of an animation</CHANGING_ANIM_FILE>
+          <CHANGING_NODE_WEIGHT>Changing the node weight of animation</CHANGING_NODE_WEIGHT>
+          <REMOVING_BLEND>Removing a blend value of an animation</REMOVING_BLEND>
+        </MUTANT_ANIMATIONS>
+
+        <MUTANT_ACTIONS>
+          <ADDING_ACTION>Adding a new action</ADDING_ACTION>
+          <REMOVING_ACTION>Removing an action</REMOVING_ACTION>
+          <AN_ACTION>%0 an action</AN_ACTION>
+          <CHANGING_ACTION_NAME>Changing the name of an action</CHANGING_ACTION_NAME>
+          <CHANGING_ACTION_ANIM>Changing the animation of an action</CHANGING_ACTION_ANIM>
+          <CHANGING_ACTION_BLEND>Changing an action blend value</CHANGING_ACTION_BLEND>
+          <CHANGING_ACTION_FLAG>Changing an action flag</CHANGING_ACTION_FLAG>
+          <CHANGING_ACTION_TRACK>Changing the track of an action</CHANGING_ACTION_TRACK>
+          <CHANGING_ACTION_MATCHER>Changing an action matcher value</CHANGING_ACTION_MATCHER>
+          <CHANGING_ACTION_MATCHER_CAP>Changing an action matcher capabilties list</CHANGING_ACTION_MATCHER_CAP>
+          <CHANGING_ACTION_MATCHER_FLAG>Changing an action matcher flag</CHANGING_ACTION_MATCHER_FLAG>
+        </MUTANT_ACTIONS>
+
+        <MUTANT>
+          <CHANGING_BATCH>Changing the &quot;Allow Model Batching&quot; flag</CHANGING_BATCH>
+          <CHANGING_OCCLUDER>Changing the &quot;Use As Occluder&quot; flag</CHANGING_OCCLUDER>
+          <CHANGING_EDITOR_PROXY>Changing the editor proxy model</CHANGING_EDITOR_PROXY>
+          <REMOVING_EDITOR_PROXY>Removing the editor proxy model</REMOVING_EDITOR_PROXY>
+          <ADDING_MODEL>Adding a model</ADDING_MODEL>
+          <REMOVING_ADDED>Removing all added models</REMOVING_ADDED>
+          <UPDATING_VIS_BOX>Updating the model&apos;s visibility box.</UPDATING_VIS_BOX>
+          <SAVING>Saving file: %0&#10;</SAVING>
+        </MUTANT>
+
+        <LIGHTS>
+          <COLOUR>Colour</COLOUR>
+          <POSITION>Position</POSITION>
+          <DIRECTION>Direction</DIRECTION>
+          <RADIUS>Full Strength Radius</RADIUS>
+          <FALLOFF>Fall-off Radius</FALLOFF>
+          <MULTIPLIER>Multiplier</MULTIPLIER>
+          <CONE_ANGLE>Cone Angle</CONE_ANGLE>
+          <AMBIENT_COLOUR>The colour of the ambient light</AMBIENT_COLOUR>
+          <OMNI_COLOUR>The colour of the omni light</OMNI_COLOUR>
+          <OMNI_POSITION>The position of the omni light</OMNI_POSITION>
+          <OMNI_RADIUS>The full strength radius of the omni light</OMNI_RADIUS>
+          <OMNI_FALLOFF>The fall-off radius of the omni light</OMNI_FALLOFF>
+          <OMNI_INTENSITY>The intensity multiplier factor of the omni light</OMNI_INTENSITY>
+          <DIRECTIONAL_COLOUR>The colour of the directional light</DIRECTIONAL_COLOUR>
+          <DIRECTIONAL_DIRECTION>The direction of the directional light</DIRECTIONAL_DIRECTION>
+          <DIRECTIONAL_INTENSITY>The intensity multiplier factor of the directional light</DIRECTIONAL_INTENSITY>
+          <SPOT_COLOUR>The colour of the spot light</SPOT_COLOUR>
+          <SPOT_POSITION>The position of the spot light</SPOT_POSITION>
+          <SPOT_DIRECTION>The direction of the spot light</SPOT_DIRECTION>
+          <SPOT_RADIUS>The full strength radius of the spot light</SPOT_RADIUS>
+          <SPOT_FALLOFF>The fall-off radius of the spot light</SPOT_FALLOFF>
+          <SPOT_CONE_ANGLE>The cone angle of the spot light</SPOT_CONE_ANGLE>
+          <SPOT_INTENSITY>The intensity multiplier factor of the spot light</SPOT_INTENSITY>
+          <SAVING>Saving Lights: &quot;%0&quot;&#10;</SAVING>
+        </LIGHTS>
+      </MODELS>
+
+      <PAGES>
+        <PAGE_OBJECT>
+          <SHORT_NAME>Object</SHORT_NAME>
+          <LONG_NAME>Object Properties</LONG_NAME>
+          <BAD_DIR_EP>You cannot use the same editor proxy model as the model itself.</BAD_DIR_EP>
+          <UNABLE_RESOLVE_EP>Unable to use proxy model</UNABLE_RESOLVE_EP>
+        </PAGE_OBJECT>
+
+        <PAGE_MATERIALS>
+          <SHORT_NAME>Materials</SHORT_NAME>
+          <LONG_NAME>Materials Settings</LONG_NAME>
+          <DONT_RENDER>(Don&apos;t Render)</DONT_RENDER>
+          <COLLISION>Collision Flags</COLLISION>
+          <COLLISION_DESC>The Collision flag used for the material</COLLISION_DESC>
+          <KIND>Material Kind</KIND>
+          <KIND_DESC>The primary material kind of the material</KIND_DESC>
+          <NOT_FX_MFM>The file selected cannot be used for a material.&#10;Please select either an effect (*.fx) or an MFM (*.mfm) file.</NOT_FX_MFM>
+          <INVALID_FILE_TYPE>Invalid material file type</INVALID_FILE_TYPE>
+          <BAD_DIR_MATERIAL>You can only load material files from one of the resource folders.</BAD_DIR_MATERIAL>
+          <UNABLE_RESOLVE_MATERIAL>Unable to resolve material file path</UNABLE_RESOLVE_MATERIAL>
+          <ERROR_SAVE_MFM>An error occured while trying to save the MFM.</ERROR_SAVE_MFM>
+          <NO_SAVE_MFM>Failed to Save MFM</NO_SAVE_MFM>
+          <BAD_DIR_MFM>You can only save an MFM into one of the resource folders.</BAD_DIR_MFM>
+          <UNABLE_RESOLVE_MFM>Unable to resolve MFM path</UNABLE_RESOLVE_MFM>
+          <NO_RENAME_MATERIAL>Unable to rename the material since no name was given.&#10;At least one alphanumeric character is needed.</NO_RENAME_MATERIAL>
+          <INVALID_MATERIAL_NAME>Invalid material name given</INVALID_MATERIAL_NAME>
+          <MATERIAL_NAME_USED>Unable to rename the material since there is already a material with the same name.</MATERIAL_NAME_USED>
+          <MATERIAL_NAME_EXISTS>Material name already used</MATERIAL_NAME_EXISTS>
+          <NO_RENAME_DYE>Unable to rename the dye since no name was given.&#10;At least one alphanumeric character is needed.</NO_RENAME_DYE>
+          <INVALID_DYE_NAME>Invalid dye name given</INVALID_DYE_NAME>
+          <DYE_NAME_USED>Unable to rename the dye since there is already a dye with the same name.</DYE_NAME_USED>
+          <DYE_NAME_EXISTS>Dye name already used</DYE_NAME_EXISTS>
+          <NO_RENAME_TINT>Unable to rename the tint since no name was given.&#10;At least one alphanumeric character is needed.</NO_RENAME_TINT>
+          <INVALID_DYE_TINT>Invalid tint name given</INVALID_DYE_TINT>
+          <TINT_NAME_USED>Unable to rename the tint since there is already a tint with the same name.</TINT_NAME_USED>
+          <TINT_NAME_EXISTS>Tint name already used</TINT_NAME_EXISTS>
+          <INVALID>[invalid]</INVALID>
+          <BAD_DIR_EFFECT>You can only select an effect file located in one of the resource folders.</BAD_DIR_EFFECT>
+          <UNABLE_RESOLVE_EFFECT>Unable to resolve effect file path</UNABLE_RESOLVE_EFFECT>
+        </PAGE_MATERIALS>
+
+        <PAGE_LOD>
+          <SHORT_NAME>LOD</SHORT_NAME>
+          <LONG_NAME>Level of Detail</LONG_NAME>
+          <MODEL>Model</MODEL>
+          <MIN>Min</MIN>
+          <MAX>Max</MAX>
+          <STATE>State</STATE>
+          <LOCKED>%0 &lt;locked&gt;</LOCKED>
+          <NOTHING>%0</NOTHING>
+          <HIDDEN>Hidden</HIDDEN>
+          <MISSING>Missing</MISSING>
+          <ADDING_LOD>Adding a new LOD model</ADDING_LOD>
+          <CHANGING_LOD>Changing a LOD model</CHANGING_LOD>
+          <REMOVING_LOD>Removing a LOD model</REMOVING_LOD>
+          <LOD_UP>Moving a model up the LOD list</LOD_UP>
+          <LOD_DOWN>Moving a model down the LOD list</LOD_DOWN>
+          <CHANGING_EXTENT>Changing a LOD model extent</CHANGING_EXTENT>
+          <INFINITY>Extending a LOD model extent to infinity</INFINITY>
+          <TOGGLE_VIS>Toggling a LOD model visibility</TOGGLE_VIS>
+          <UNABLE_LOD>Unable to add the model since the LOD parent models are locked.&#10;&#10;Unlock the model using the Preferences dialog to be able to edit the LOD list.</UNABLE_LOD>
+          <LOD_LOCKED>Model parents locked</LOD_LOCKED>
+        </PAGE_LOD>
+
+        <PAGE_LIGHTS>
+          <SHORT_NAME>Lights</SHORT_NAME>
+          <LONG_NAME>Lighting Setup</LONG_NAME>
+          <AMBIENT>Ambient Light</AMBIENT>
+          <OMNI>Omni %0</OMNI>
+          <DIRECTIONAL>Directional %0</DIRECTIONAL>
+          <SPOT>Spot %0</SPOT>
+          <LIGHTS_FILE_MISSING>Unable to load the light setup file &quot;%0&quot;. Make sure this file exists.</LIGHTS_FILE_MISSING>
+          <UNABLE_LIGHTS>Unable to load light setup</UNABLE_LIGHTS>
+          <BAD_DIR_LOAD>You can only load a lighting setup located in one of the resource folders.</BAD_DIR_LOAD>
+          <BAD_DIR_SAVE>You can only save a lighting setup located in one of the resource folders.</BAD_DIR_SAVE>
+          <UNABLE_RESOLVE>Unable to resolve lighting setup file path</UNABLE_RESOLVE>
+        </PAGE_LIGHTS>
+
+        <PAGE_DISPLAY>
+          <SHORT_NAME>Display</SHORT_NAME>
+          <LONG_NAME>Display Settings</LONG_NAME>
+          <FLORA_DENSITY> Flora Density</FLORA_DENSITY>
+          <DISABLE_FLORA>Disable Flora</DISABLE_FLORA>
+          <BAD_DIR>You can only use a texture located in one of the resource folders.</BAD_DIR>
+          <UNABLE_RESOLVE>Unable to resolve floor texture path</UNABLE_RESOLVE>
+        </PAGE_DISPLAY>
+
+        <PAGE_ANIMATIONS_COMP>
+          <COMPRESSED_DATA>Original Size = %0 KB&#10;Compressed Size = %1 KB&#10;Compression Ratio = %2 %</COMPRESSED_DATA>
+        </PAGE_ANIMATIONS_COMP>
+
+        <PAGE_ANIMATIONS>
+          <SHORT_NAME>Animations</SHORT_NAME>
+          <LONG_NAME>Animations</LONG_NAME>
+          <MODEL>%0 (model)</MODEL>
+          <NODES>%0 nodes</NODES>
+          <BLENDBONE_NODES>%0 BlendBone nodes</BLENDBONE_NODES>
+          <GREATER_THAN_85_BLENDBONE_NODES>&gt;85 BlendBone nodes</GREATER_THAN_85_BLENDBONE_NODES>
+          <NO_RENAME_ANIMATION>Unable to rename the animation since no name was given.&#10;At least one alphanumeric character is needed.</NO_RENAME_ANIMATION>
+          <INVALID_ANIMATION_NAME>Invalid animation name given</INVALID_ANIMATION_NAME>
+          <ANIMATION_NAME_USED>Unable to rename the animation since there is already an animation with the same name.</ANIMATION_NAME_USED>
+          <ANIMATION_NAME_EXISTS>Animation name already used</ANIMATION_NAME_EXISTS>
+          <UNABLE_ADD_ANIM>Unable to add the animation(s) since the selected model is locked.&#10;&#10;Either select the top-level model or unlock the parent models using the Preferences dialog.</UNABLE_ADD_ANIM>
+          <MODEL_LOCKED>Model locked</MODEL_LOCKED>
+        </PAGE_ANIMATIONS>
+
+        <PAGE_ACTIONS>
+          <SHORT_NAME>Actions</SHORT_NAME>
+          <LONG_NAME>Actions</LONG_NAME>
+          <NO_RENAME_ACTION>Unable to rename the action since no name was given.&#10;At least one alphanumeric character is needed.</NO_RENAME_ACTION>
+          <INVALID_ACTION_NAME>Invalid action name given</INVALID_ACTION_NAME>
+          <ACTION_NAME_USED>Unable to rename the action since there is already an action with the same name.</ACTION_NAME_USED>
+          <ACTION_NAME_EXISTS>Action name already used</ACTION_NAME_EXISTS>
+        </PAGE_ACTIONS>
+      </PAGES>
+    </MODELEDITOR>
+
+    <PARTICLEEDITOR>
+      <OPEN>Open</OPEN>
+      <CHOOSE_DIR>Choose Directory..</CHOOSE_DIR>
+      <CHOOSE_PS_DIR>Choose particle system directory...</CHOOSE_PS_DIR>
+      <UNTITLED>Untitled</UNTITLED>
+      <DASH_PARTICLEEDITOR>%0 - ParticleEditor</DASH_PARTICLEEDITOR>
+      
+      <GUI>
+        <SYSTEM_PROP>System Properties</SYSTEM_PROP>
+        <RENDERER_PROP>Renderer Properties</RENDERER_PROP>
+        
+        <PSA_TINT_SHADER_PROPERTIES>
+          <TOGGLE_TINT_CYCLE>Toggle tint cycle</TOGGLE_TINT_CYCLE>
+          <CHANGE_COLOUR_TINT>Change colour tint</CHANGE_COLOUR_TINT>
+          <MODIFIED_COLOUR_TINT>Modified color tint</MODIFIED_COLOUR_TINT>
+          <CHANGE_TINT_CYCLE>Change tint cycle</CHANGE_TINT_CYCLE>
+          <DELETE_COLOUR_TINT>Delete color tint</DELETE_COLOUR_TINT>
+        </PSA_TINT_SHADER_PROPERTIES>
+
+        <PSA_SINK_PROPERTIES>
+          <SET_SINK>Set Sink Age</SET_SINK>
+        </PSA_SINK_PROPERTIES>
+
+        <PSA_PROPERTIES>
+          <CHANGE>Change %0</CHANGE>
+          <COPY_DATA>Copy Data</COPY_DATA>
+        </PSA_PROPERTIES>
+
+        <PSA_COLLIDE_PROPERTIES>
+          <ENABLE_SOUND>Change to sound enabled state for collision</ENABLE_SOUND>
+          <CHANGE_SOUND_PROJECT>Change sound project</CHANGE_SOUND_PROJECT>
+          <CHANGE_SOUND_GROUP>Change sound group</CHANGE_SOUND_GROUP>
+          <CHANGE_SOUND_NAME>Change sound name</CHANGE_SOUND_NAME>
+	  <CHANGE_SOUND_BANK>Change sound bank</CHANGE_SOUND_BANK>
+        </PSA_COLLIDE_PROPERTIES>
+	
+	<PSA_TINTSHADER_PROPERTIES>
+		<SET_FOG_BLEND>Set fog blend</SET_FOG_BLEND>
+	</PSA_TINTSHADER_PROPERTIES>
+
+        <PSA_FLARE_PROPERTIES>
+	      <NO_FLARES_FOUND>--no flares found--</NO_FLARES_FOUND>
+        </PSA_FLARE_PROPERTIES>
+
+        <PS_RENDERER_PROPERTIES>
+          <CHANGE_WORLD>Change to World Dependent Rendering</CHANGE_WORLD>
+          <CHANGE_LOCAL>Change to Local Dependent Rendering</CHANGE_LOCAL>
+          <CHANGE_VIEW>Change to View Dependent Rendering</CHANGE_VIEW>
+          <SET_PARAM>Set Renderer Parameter</SET_PARAM>
+          <CHANGE_MESH>Change to Mesh Renderer</CHANGE_MESH>
+         <CHANGE_SPRITE>Change to Sprite Renderer</CHANGE_SPRITE>
+          <CHANGE_VISUAL>Change to Visual Renderer</CHANGE_VISUAL>
+          <CHANGE_AMP>Change to Amp Renderer</CHANGE_AMP>
+          <CHANGE_TRAIL>Change to Trail Renderer</CHANGE_TRAIL>
+          <CHANGE_BLUR>Change to Blur Renderer</CHANGE_BLUR>
+          <SELECT_VISUAL_FAIL>%0 is not a suitable visual file.</SELECT_VISUAL_FAIL>
+        </PS_RENDERER_PROPERTIES>
+
+        <PS_PROPERTIES>
+          <SET_PARAM>Set System Parameter</SET_PARAM>
+        </PS_PROPERTIES>
+
+        <PANEL_MANAGER>
+          <LOAD_DEFAULT_Q>Are you sure you want to load the default panel layout?</LOAD_DEFAULT_Q>
+          <LOAD_DEFAULT>ParticleEditor - Load Default Panel Layout</LOAD_DEFAULT>
+          <LOAD_RECENT_Q>Are you sure you want to load the last saved panel layout?</LOAD_RECENT_Q>
+          <LOAD_RECENT>ParticleEditor - Load Most Recent Panel Layout</LOAD_RECENT>
+        </PANEL_MANAGER>
+
+        <ACTION_SELECTION>
+          <RENAME>Rename</RENAME>
+          <ADD_ACTION>Add Action</ADD_ACTION>
+          <DUPLICATE>Duplicate</DUPLICATE>
+          <DELETE>Delete</DELETE>
+          <COPY>Copy</COPY>
+          <PROPERTIES>Properties</PROPERTIES>
+          <SHORT_NAME>Systems</SHORT_NAME>
+          <LONG_NAME>Systems</LONG_NAME>
+        </ACTION_SELECTION>
+
+        <ABOUT_BOX>
+          <VERSION_BUILT>Ver %0%1%2: Built on %3</VERSION_BUILT>
+          <EVAL>Eval</EVAL>
+          <DEBUG>Debug</DEBUG>
+        </ABOUT_BOX>
+      </GUI>
+
+      <MAIN>
+        <PARTICLE_EDITOR>
+          <UNABLE_LOCATE_BODY>Unable to locate %0 at &quot;%1&quot;, cannot load content creation.</UNABLE_LOCATE_BODY>
+          <UNABLE_LOCATE_TITLE>Can&apos;t locate %0</UNABLE_LOCATE_TITLE>
+        </PARTICLE_EDITOR>
+      </MAIN>
+
+      <SHELL>
+        <PE_MODULE>
+          <FPS_PARTICLES>%0 fps | %1 particles | memory usage = %2 kB</FPS_PARTICLES>
+          <FPS_NO_PARTICLES>%0 fps | No particle system loaded</FPS_NO_PARTICLES>
+          <GIZMO_INTERACTION>Gizmo Interaction</GIZMO_INTERACTION>
+        </PE_MODULE>
+      </SHELL>
+    </PARTICLEEDITOR>
+	
+    <WORLDEDITOR>
+      <APPLICATION_NAME>WorldEditor</APPLICATION_NAME>
+      <INITIALISING_WORLDEDITOR_MSG>Initialising WorldEditor...</INITIALISING_WORLDEDITOR_MSG>
+
+      <GUI>
+        <CONTROLS>
+          <CHUNK_WATCH_CONTROL>
+            <NOT_LOADED_STRING>not loaded</NOT_LOADED_STRING>
+          </CHUNK_WATCH_CONTROL>
+        </CONTROLS>
+        <BIGBANG>
+          <HELP_NOT_FOUND>Could not find help file:&#10; &quot; %0 &quot;&#10;Please check options.xml/help/ %1</HELP_NOT_FOUND>
+          <VERSION_BUILT>Ver %0%1%2: Built on %3</VERSION_BUILT>
+          <EVAL>Eval</EVAL>
+          <DEBUG>Debug</DEBUG>
+        </BIGBANG>
+        <MAINFRAME>
+          <CAN_CLOSE_EXIT>E&amp;xit</CAN_CLOSE_EXIT>
+          <PREFAB_WARNING>You must select something to save as a prefab</PREFAB_WARNING>
+        </MAINFRAME>
+        <NEW_PLACEMENT_DLG>
+          <PRESET_WARNING_TEXT>The entered text is not a valid preset name.</PRESET_WARNING_TEXT>
+          <PRESET_WARNING_TITLE>Placement Preset Name Error</PRESET_WARNING_TITLE>
+        </NEW_PLACEMENT_DLG>
+        <PAGE_CHUNK_TEXTURE>
+          <SHORT_NAME>Chunk Textures</SHORT_NAME>
+          <LONG_NAME>Chunk Textures</LONG_NAME>
+          <LAYER_PROJECTION_CHANGE>Terrain texture layer projection change</LAYER_PROJECTION_CHANGE>
+          <LAYER_DELETE>Terrain texture layer deleted</LAYER_DELETE>
+          <LAYERS_MERGED>Terrain texture layers merged</LAYERS_MERGED>
+          <MENU_USE_TEXTURE>Use Texture</MENU_USE_TEXTURE>
+          <MENU_EDIT_PROJECTION_AND_SCALE>Edit Projection And Scale</MENU_EDIT_PROJECTION_AND_SCALE>
+          <MENU_SET_TEXTURE_MASK>Set as Texture Mask</MENU_SET_TEXTURE_MASK>
+          <MENU_REMOVE_TEXTURE>Remove Texture</MENU_REMOVE_TEXTURE>
+          <MENU_REMOVE_TEXTURES>Remove Textures</MENU_REMOVE_TEXTURES>
+          <MENU_MERGE_TEXTURES>Merge Textures</MENU_MERGE_TEXTURES>
+        </PAGE_CHUNK_TEXTURE>
+        <PAGE_CHUNK_WATCHER>
+          <SHORT_NAME>Chunk Watcher</SHORT_NAME>
+          <LONG_NAME>Chunk Watcher</LONG_NAME>
+          <POSITION>Position:</POSITION>
+          <CHUNK>Chunk:</CHUNK>
+        </PAGE_CHUNK_WATCHER>
+        <PAGE_MESSAGE_IMPL>
+          <SCRIPT_ERROR>Script Error</SCRIPT_ERROR>
+        </PAGE_MESSAGE_IMPL>
+        <PAGE_MESSAGES>
+          <SHORT_NAME>Messages</SHORT_NAME>
+          <LONG_NAME>BigWorld Messages</LONG_NAME>
+        </PAGE_MESSAGES>
+        <PAGE_OBJECTS>
+          <SHORT_NAME>Tool: Objects</SHORT_NAME>
+          <LONG_NAME>Tool Options: Objects</LONG_NAME>
+        </PAGE_OBJECTS>
+        <PAGE_DECALS>
+          <SHORT_NAME>Decals</SHORT_NAME>
+          <LONG_NAME>Scene Decals</LONG_NAME>
+		</PAGE_DECALS>
+        <PAGE_OPTIONS_ENVIRONMENT>
+          <SHORT_NAME>Environment</SHORT_NAME>
+          <LONG_NAME>Environment Options</LONG_NAME>
+          <SET_SKY_FILE>Set sky file</SET_SKY_FILE>
+          <COPY_SKY_FILE>Copy sky file</COPY_SKY_FILE>
+          <SET_TIME_OF_DAY_FILE>Set time of day file</SET_TIME_OF_DAY_FILE>
+          <COPY_TIME_OF_DAY_FILE>Copy time of day file</COPY_TIME_OF_DAY_FILE>
+          <ADD_SKY_DOME>Add sky dome</ADD_SKY_DOME>
+          <CLEAR_SKY_DOME>Clear sky domes</CLEAR_SKY_DOME>
+		  <WEATHER_PARTITION>Weather Systems</WEATHER_PARTITION>
+          <LOAD_SKY_BOX_TEXTURE>Load sky box texture</LOAD_SKY_BOX_TEXTURE>
+          <MOVE_SKY_DOME_UP>Move sky dome up</MOVE_SKY_DOME_UP>
+          <MOVE_SKY_DOME_DOWN>Move sky dome down</MOVE_SKY_DOME_DOWN>
+          <DELETE_SKY_DOME>Delete sky dome</DELETE_SKY_DOME>
+          <EDIT_HOUR_LENGTH>Edit hour length</EDIT_HOUR_LENGTH>
+          <ON_EDIT_START_TIME>On edit start time</ON_EDIT_START_TIME>
+          <SET_SUN_ANGLE>Set sun angle</SET_SUN_ANGLE>
+          <SET_MOON_ANGLE>Set moon angle</SET_MOON_ANGLE>
+          <RESET_ENVIRONMENT_ANIMATION>Reset environment animation</RESET_ENVIRONMENT_ANIMATION>
+          <DELETE_ENVIRONMENT_ANIMATION_COLOR>Delete environment animation color</DELETE_ENVIRONMENT_ANIMATION_COLOR>
+          <EDIT_ENVIRONMENT_COLOR>Edit environment color</EDIT_ENVIRONMENT_COLOR>
+          <EDIT_ENVIRONMENT_TIMELINE>Edit environment timeline</EDIT_ENVIRONMENT_TIMELINE>
+          <ADD_ENVIRONMENT_COLOR>Add environment color</ADD_ENVIRONMENT_COLOR>
+          <EDIT_ENVIRONMENT_COLOR>Edit environment color</EDIT_ENVIRONMENT_COLOR>
+          <EDIT_ATMOSPHERIC_COLOR>Edit atmospheric effects</EDIT_ATMOSPHERIC_COLOR>
+          <SET_TERRAINLOD>Set terrain LOD distances.</SET_TERRAINLOD>
+        </PAGE_OPTIONS_ENVIRONMENT>
+        <PAGE_OPTIONS_GENERAL>
+          <SHORT_NAME>Options</SHORT_NAME>
+          <LONG_NAME>General Options</LONG_NAME>
+		      <NEED_RESTART>Setting will not take effect until the application is restarted.</NEED_RESTART>
+        </PAGE_OPTIONS_GENERAL>
+        <PAGE_OPTIONS_HISTOGRAM>
+          <SHORT_NAME>Histogram</SHORT_NAME>
+          <LONG_NAME>Histogram</LONG_NAME>
+        </PAGE_OPTIONS_HISTOGRAM>
+        <PAGE_OPTIONS_NAVIGATION>
+          <SHORT_NAME>Navigation</SHORT_NAME>
+          <LONG_NAME>Navigation</LONG_NAME>
+          <OVERWRITTEN_LOCATION_MARK_TEXT>
+            Are you sure you want to override the location marker &quot;%0&quot;?
+          </OVERWRITTEN_LOCATION_MARK_TEXT>
+          <OVERWRITTEN_LOCATION_MARK_TITLE>Overwrite location marker?</OVERWRITTEN_LOCATION_MARK_TITLE>
+          <UNTITLED>Untitled</UNTITLED>
+          <UNTITLED_D>Untitled %0</UNTITLED_D>
+        </PAGE_OPTIONS_NAVIGATION>
+        <PAGE_OPTIONS_WEATHER>
+          <SHORT_NAME>Weather</SHORT_NAME>
+          <LONG_NAME>Weather Systems</LONG_NAME>
+		  <WEATHER_DEFAULT>(default)</WEATHER_DEFAULT>
+          <CLOUD_VELOCITY>Cloud Velocity</CLOUD_VELOCITY>
+          <CLOUD_VELOCITY_DESC>The speed at which the clouds move across the sky</CLOUD_VELOCITY_DESC>
+          <CLEAR_WEIGHT>Clear Weighting</CLEAR_WEIGHT>
+          <CLEAR_WEIGHT_DESC>The chance of clear weather weighted against the other types</CLEAR_WEIGHT_DESC>
+          <CLOUD_WEIGHTING>Cloud Weighting</CLOUD_WEIGHTING>
+          <CLOUD_WEIGHTING_DESC>The chance of cloudy weather weighted against the other types</CLOUD_WEIGHTING_DESC>
+          <CLOUD_COVER>Cloud Cover</CLOUD_COVER>
+          <CLOUD_COVER_DESC>The amount of cloud cover</CLOUD_COVER_DESC>
+          <CLOUD_COHENSION>Cloud Cohesion</CLOUD_COHENSION>
+          <CLOUD_COHENSION_DESC>How clumpy the clouds are</CLOUD_COHENSION_DESC>
+          <RAIN_WEIGHTING>Rain Weighting</RAIN_WEIGHTING>
+          <RAIN_WEIGHTING_DESC>The chance of rain weighted against the other types</RAIN_WEIGHTING_DESC>
+          <DARKNESS>Darkness</DARKNESS>
+          <DARKNESS_DESC>The final darkness of the whole scene</DARKNESS_DESC>
+          <EFFECT_DROP_SIZE>Effective Drop Size</EFFECT_DROP_SIZE>
+          <EFFECT_DROP_SIZE_DESC>How big the rain drops are if it is raining</EFFECT_DROP_SIZE_DESC>
+          <STORM_WEIGHTING>Storm Weighting</STORM_WEIGHTING>
+          <STORM_WEIGHTING_DESC>The chance of a storm weighted against the other types</STORM_WEIGHTING_DESC>          
+          <WIND_VELOCITY_X>Wind Velocity X</WIND_VELOCITY_X>
+          <WIND_VELOCITY_X_DESC>The velocity of the global wind along the X axis</WIND_VELOCITY_X_DESC>
+          <WIND_VELOCITY_Z>Wind Velocity Z</WIND_VELOCITY_Z>
+          <WIND_VELOCITY_Z_DESC>The velocity of the global wind along the Z axis</WIND_VELOCITY_Z_DESC>
+          <TEMPERATURE>Temperature</TEMPERATURE>
+          <TEMPERATURE_DESC>The ambient temperature</TEMPERATURE_DESC>
+          <PANEL_DESC>
+            This panel allows previewing of the space under various weather conditions.&#10;
+            These are not saved as part of the space.
+          </PANEL_DESC>
+        </PAGE_OPTIONS_WEATHER>
+        <PAGE_PROJECT>
+          <SHORT_NAME>Tool: Project</SHORT_NAME>
+          <LONG_NAME>Tool Options: Project</LONG_NAME>
+          <FAILED_TO_CONNECT>failed to connect to bwlockd, you cannot use the related functionality.</FAILED_TO_CONNECT>
+          <COMMIT_MESSAGE>You must enter a message before commit</COMMIT_MESSAGE>
+        </PAGE_PROJECT>
+        <PAGE_PROPERTIES>
+          <SHORT_NAME>Properties</SHORT_NAME>
+          <LONG_NAME>Properties</LONG_NAME>
+        </PAGE_PROPERTIES>
+        <PAGE_SCENE>
+          <NEW_GROUP>New Group</NEW_GROUP>
+          <ROOT>Root</ROOT>
+        </PAGE_SCENE>
+        <PAGE_TERRAIN_FILTER>
+          <SHORT_NAME>Tool: Filter</SHORT_NAME>
+          <LONG_NAME>Tool Options: Terrain Filtering</LONG_NAME>
+          <UNKNOWN_FILTER>unknown filter</UNKNOWN_FILTER>
+        </PAGE_TERRAIN_FILTER>
+        <PAGE_TERRAIN_HEIGHT>
+          <SHORT_NAME>Tool: Height</SHORT_NAME>
+          <LONG_NAME>Tool Options: Terrain Height</LONG_NAME>
+        </PAGE_TERRAIN_HEIGHT>
+        <PAGE_TERRAIN_IMPORT>
+          <SHORT_NAME>Tool: Import/Export</SHORT_NAME>
+          <LONG_NAME>Tool Options: Terrain Import/Export</LONG_NAME>
+        </PAGE_TERRAIN_IMPORT>
+        <PAGE_TERRAIN_MESH>
+          <SHORT_NAME>Tool: Mesh</SHORT_NAME>
+          <LONG_NAME>Tool Options: Terrain Mesh Cut/Repair</LONG_NAME>
+        </PAGE_TERRAIN_MESH>
+        <PAGE_TERRAIN_TEXTURE>
+          <SHORT_NAME>Tool: Texture</SHORT_NAME>
+          <LONG_NAME>Tool Options: Terrain Texturing</LONG_NAME>
+          <SIZE>Size: %0x%1</SIZE>
+          <MEMORY>Memory: %0kb Main, %1kb GPU</MEMORY>
+          <SCALE>scale</SCALE>
+          <ROTATION>rotation</ROTATION>
+          <LAYER_NOT_LOADED>Selected texture layer possibly goes beyond loaded area</LAYER_NOT_LOADED>
+          <LAYER_NOT_WRITABLE>Selected texture layer possibly goes beyond writable area</LAYER_NOT_WRITABLE>
+          <TEXTURE_NOT_WRITABLE>Selected texture layer is locked</TEXTURE_NOT_WRITABLE>
+			
+<!--do not translate this line, it's used by progress bar-->
+          <PAINTING_MASK>Painting space with mask</PAINTING_MASK>
+
+			<PAINT_MASK>Paint texture mask</PAINT_MASK>
+
+<!--do not translate this line, it's used by progress bar-->
+			<GENERATE_UNDO_REDO_FOR_MASK>Generating undo/redo for mask paint</GENERATE_UNDO_REDO_FOR_MASK>
+
+			<PAINTING_MASK>Painting space using mask</PAINTING_MASK>
+          <LARGE_REPLACE>This will swap textures for %0 chunks, and could take some time.&#10;Do you wish to proceed?</LARGE_REPLACE>
+          <ENTER_EDIT_MSG>Editing texture projections - press ESC to cancel</ENTER_EDIT_MSG>
+          <ENTER_PAINT_MSG>Painting textures</ENTER_PAINT_MSG>
+          <TEXTURE_WITHOUT_ALPHA>WARNING! Alpha channel is missing from %0</TEXTURE_WITHOUT_ALPHA>
+          <BUMP_TEXTURE_NOT_FOUND>The related bump map texture could not be found. (%0)</BUMP_TEXTURE_NOT_FOUND>
+		</PAGE_TERRAIN_TEXTURE>
+        <PANEL_MANAGER>
+          <LOAD_DEFAULT_LAYOUT_TEXT>Are you sure you want to load the default panel layout?</LOAD_DEFAULT_LAYOUT_TEXT>
+          <LOAD_DEFAULT_LAYOUT_TITLE>Load Default Panel Layout</LOAD_DEFAULT_LAYOUT_TITLE>
+          <LOAD_LAST_LAYOUT_TEXT>Are you sure you want to load the last saved panel layout?</LOAD_LAST_LAYOUT_TEXT>
+          <LOAD_LAST_LAYOUT_TITLE>Load Most Recent Panel Layout</LOAD_LAST_LAYOUT_TITLE>
+        </PANEL_MANAGER>
+        <PLACEMENT_CTRLS_DLG>
+          <SHORT_NAME>Placement</SHORT_NAME>
+          <LONG_NAME>Placement Controls</LONG_NAME>
+          <DELETE_PRESET_TEXT>Do you want to delete the selected preset?</DELETE_PRESET_TEXT>
+          <DELETE_PRESET_TITLE>Placement Controls</DELETE_PRESET_TITLE>
+        </PLACEMENT_CTRLS_DLG>
+		<NEW_PLACEMENT_DLG>
+			<BAD_PRESET_NAME_TITLE>Placement Preset Name Error</BAD_PRESET_NAME_TITLE>
+			<BAD_PRESET_NAME_TEXT>The entered text is not a valid preset name.&#10;It should not match any existing preset names and should not be empty &#10;or contain any of the characters &quot;&lt;&gt;/\:!@#$%^&amp;*()&quot;.</BAD_PRESET_NAME_TEXT>
+		</NEW_PLACEMENT_DLG>
+		<EXPAND_SPACE_DLG>
+			<EXCEEDED_MAX_CHUNK_SIZE>The provided dimensions are too big. The resulting space cannot be bigger than 1000 chunks in any direction.</EXCEEDED_MAX_CHUNK_SIZE>
+		</EXPAND_SPACE_DLG>
+		
+        <PAGE_POST_PROCESSING>
+          <SHORT_NAME>Post</SHORT_NAME>
+          <LONG_NAME>Post-Processing</LONG_NAME>
+		  <EFFECT>
+			<PROP_LABEL> Effect Name </PROP_LABEL>
+			<PROP_LABEL_DESC> Name of this effect </PROP_LABEL_DESC> 
+			<BYPASS> Bypass </BYPASS>
+			<BYPASS_DESC> Bypass vector for this effect (set it to 1 to activate this effect) </BYPASS_DESC>
+		  </EFFECT>
+		  <PHASE>
+			<PROP_LABEL> Phase Name </PROP_LABEL>
+			<PROP_LABEL_DESC> Name of this phase </PROP_LABEL_DESC> 
+		  </PHASE>
+		  <PY_PHASE>
+			<RENDER_TARGET> Render Target </RENDER_TARGET>
+			<RENDER_TARGET_DESC> Output render target (you can drag a render target from the Asset Browser) </RENDER_TARGET_DESC> 
+			<CLEAR_RENDER_TARGET> Clear Render Target </CLEAR_RENDER_TARGET>
+			<CLEAR_RENDER_TARGET_DESC> Clear the render target </CLEAR_RENDER_TARGET_DESC>
+			<FILTERQUAD_TYPE> Filter Quad Type </FILTERQUAD_TYPE>
+			<FILTERQUAD_TYPE_DESC> Select the desired type of Filter Quad from this list </FILTERQUAD_TYPE_DESC>
+			<MATERIAL_FX> FX File </MATERIAL_FX>
+			<MATERIAL_FX_DESC> FX file (you can drag an FX file from the Asset Browser) </MATERIAL_FX_DESC>
+		  </PY_PHASE>
+		  <PY_COPY_BACK_BUFFER>
+			<RENDER_TARGET> Render Target </RENDER_TARGET>
+			<RENDER_TARGET_DESC> Output render target (you can drag a render target from the Asset Browser) </RENDER_TARGET_DESC> 
+		  </PY_COPY_BACK_BUFFER>
+		  <PY_FILTERQUAD>
+			<FILTERQUAD_TEX> Filter Quad Texture </FILTERQUAD_TEX>
+			<FILTERQUAD_TEX_DESC> Usually the same as the phase's input texture, or empty to use UV coordinates directly </FILTERQUAD_TEX_DESC>
+			<MODIFY_FILTERQUAD>Modify Phase Filter Quad</MODIFY_FILTERQUAD>
+		  </PY_FILTERQUAD>
+		  <PY_VISUALXFERMESH>
+			<RESOURCE> Transfer Mesh </RESOURCE>
+			<RESOURCE_DESC> Controls how the phase's result is applied to output render target </RESOURCE_DESC>
+		  </PY_VISUALXFERMESH>
+		  <EFFECTS_PROVIDER_INFO> Post-Processing Effects (%0 items) </EFFECTS_PROVIDER_INFO>
+		  <PHASES_PROVIDER_INFO> Post-Processing Phases (%0 items) </PHASES_PROVIDER_INFO>
+		  <RENDER_TARGETS_PROVIDER_INFO> Post-Processing Render Targets (%0 items) </RENDER_TARGETS_PROVIDER_INFO>
+          <DELETE_PHASE_TEXT>Are you sure you want to delete this phase?</DELETE_PHASE_TEXT>
+          <DELETE_PHASE_CAPTION>World Editor</DELETE_PHASE_CAPTION>
+          <DELETE_EFFECT_TEXT>Are you sure you want to delete this effect and all its phases?</DELETE_EFFECT_TEXT>
+          <DELETE_EFFECT_CAPTION>World Editor</DELETE_EFFECT_CAPTION>
+          <DEFAULT_CHAIN_NAME>Default Chain</DEFAULT_CHAIN_NAME>
+		  
+		  <CAPTIONBAR_TEXT>Using %0 MB of video memory in this chain.</CAPTIONBAR_TEXT>
+		  <CAPTIONBAR_TEXT_PROFILE>Using %0ms of GPU time and %1 MB of video memory in this chain.</CAPTIONBAR_TEXT_PROFILE>
+		  
+		  <DELETE_ALL_TEXT>Are you sure you want to clear the post-processing chain?</DELETE_ALL_TEXT>
+		  <DELETE_ALL_CAPTION>World Editor</DELETE_ALL_CAPTION>
+		  
+		  <CHAIN_MODIFIED_TEXT>Save changes to the post-processing chain?</CHAIN_MODIFIED_TEXT>
+		  <CHAIN_MODIFIED_TITLE>World Editor</CHAIN_MODIFIED_TITLE>
+		  
+		  <CHAIN_NAME_TEXT>Please enter the name for the chain</CHAIN_NAME_TEXT>
+		  <CHAIN_NAME_TITLE>Post-Processing Panel - Chain Name</CHAIN_NAME_TITLE>
+		  <CHAIN_NAME_INVALID_TEXT>The chain name you entered is invalid. Please try again.</CHAIN_NAME_INVALID_TEXT>
+		  <CHAIN_NAME_INVALID_TITLE>World Editor</CHAIN_NAME_INVALID_TITLE>
+		  
+		  <DELETE_TEXT>Deleting this chain cannot be undone.&#10;Are you sure you want to delete this post-processing chain?</DELETE_TEXT>
+		  <DELETE_TITLE>Post-Processing Panel - Delete Chain</DELETE_TITLE>
+		  
+		  <DISCARD_TEXT>Are you sure you want to discard your changes to the post-processing chain?</DISCARD_TEXT>
+		  <DISCARD_TITLE>Post-Processing Panel - Discard Changes</DISCARD_TITLE>
+		  
+		  <UNDO_CHAIN>Modify the effect chain</UNDO_CHAIN>
+		  <UNDO_PHASES>Modify an effect's phases</UNDO_PHASES>
+		  
+		  <FOOTER>Drag nodes to move them, or drag &quot;Effects&quot; and &quot;Phases&quot; from the Asset Browser</FOOTER>
+		  
+		  <PHASE_PREVIEW_NOT_AVAILABLE> N/A </PHASE_PREVIEW_NOT_AVAILABLE>
+		</PAGE_POST_PROCESSING>
+	<PAGE_FLORA_SETTING>
+		<SHORT_NAME>Flora</SHORT_NAME>
+		<LONG_NAME>Flora setting</LONG_NAME>
+		<DELETE_ITEM_TITLE>Delete item</DELETE_ITEM_TITLE>
+		<DELETE_ITEM_ENSURE>Are you sure you want to delete this section?</DELETE_ITEM_ENSURE>
+		<DELETE_ITEM_CANNOT>This section is required, you are not allowed to delete it.</DELETE_ITEM_CANNOT>
+		<YES>Yes</YES>
+		<NO>No</NO>
+		<TERRAIN_TEXTURE>Terrain texture: %0</TERRAIN_TEXTURE>
+		<VISUAL_TEXTURE>Visual texture: %0, derived from %1</VISUAL_TEXTURE>
+		<VISUAL>%0, %1 vertices, maximum %2 objects per block</VISUAL>
+		<VISUAL_TEXTURE_WRONG>Texture different from the ecotype</VISUAL_TEXTURE_WRONG>
+		<FILE_MISSING>This file doesn't exist</FILE_MISSING>
+		<TERRAIN_USED_IN_OTHER>Terrain texure used in other ecotype</TERRAIN_USED_IN_OTHER>
+		<REFRESH_ICON>	Save and refresh flora</REFRESH_ICON>
+		<NEW_ECOTYPE_ICON>Create a new ecotype</NEW_ECOTYPE_ICON>
+		<MOVE_UP_ICON>Move up</MOVE_UP_ICON>
+		<MOVE_DOWN_ICON>Move down</MOVE_DOWN_ICON>
+		<DELETE_ITEM_ICON>Delete item</DELETE_ITEM_ICON>
+		<TURN_ON_3D_VIEW>High light visual</TURN_ON_3D_VIEW>
+		<TURN_OFF_3D_VIEW>Don't high light visual</TURN_OFF_3D_VIEW>
+		<SAVE_PROMPT> The flora setting has been changed, please refresh the flora before doing this action.</SAVE_PROMPT>
+		<DEFAULT_SEARCH_IDLE_TEXT>Asset Name</DEFAULT_SEARCH_IDLE_TEXT>			
+		<NAME_REPEAT> %0 already exist</NAME_REPEAT>
+		<INVALID_CHARACTER> invalid character</INVALID_CHARACTER>
+	</PAGE_FLORA_SETTING>
+      </GUI>
+      
+      <WORLDEDITOR>
+        <BIGBANG>
+          <BIG_BANG>
+            <MEMORY_LOAD> Memory Load: %0%%</MEMORY_LOAD>
+            <TRIS>%0 tris.</TRIS>
+            <SNAP>%0, %1, %2</SNAP>
+            <SNAP_TERRAIN>0cm., T, 0cm.</SNAP_TERRAIN>
+            <SNAP_FREE>snaps free.</SNAP_FREE>
+            <CHUNK_LOCATOR_POSITION>%0, %1, %2 %3 m: %4 pg: %5</CHUNK_LOCATOR_POSITION>
+            <LOCATOR_POSITION>%0.2f, %0.2f, %0.2f</LOCATOR_POSITION>
+            <FPS>%0 fps.</FPS>
+            <CHUNK_LOADED_WITH_DIRTY>%0 chunks loaded (%1)</CHUNK_LOADED_WITH_DIRTY>
+            <CHUNK_LOADED>%0 chunks loaded</CHUNK_LOADED>
+            <OPEN_SPACE_TITLE>Open space</OPEN_SPACE_TITLE>
+            <OPEN_SPACE_TEXT>
+              WorldEditor cannot find a valid default space to open, do you want to open one, create one or exit WorldEditor?
+            </OPEN_SPACE_TEXT>
+            <BAD_SPACE_VERSION_TEXT>
+              Cannot open space %0. This space is incompatible with this version of World Editor. See Messages tab for more information.
+            </BAD_SPACE_VERSION_TEXT>
+            <OPEN_SPACE_OPEN>&amp;Open</OPEN_SPACE_OPEN>
+            <OPEN_SPACE_CREATE>&amp;Create</OPEN_SPACE_CREATE>
+            <OPEN_SPACE_EXIT>E&amp;xit</OPEN_SPACE_EXIT>
+            <CONNECT_TO_BWLOCKD_DONE>Connecting to BigWorld lock server %0 ... done</CONNECT_TO_BWLOCKD_DONE>
+            <CONNECT_TO_BWLOCKD_FAILED>Connecting to BigWorld lock server %0 ... failed</CONNECT_TO_BWLOCKD_FAILED>
+            <UNABLE_TO_CONNECT>Unable to connect to bwlockd</UNABLE_TO_CONNECT>
+			  
+            <RE_STITCHING_ALL_TERRAIN_BLOCKS>Re-stitching all terrain blocks...</RE_STITCHING_ALL_TERRAIN_BLOCKS>
+            <REGENERATING_THUMBNAILS>Regenerating thumbnails...</REGENERATING_THUMBNAILS>
+            <REGENERATING_LODS>Regenerating terrain LODs...</REGENERATING_LODS>
+            <CONVERTING_TO_ZIP>Converting to Zip...</CONVERTING_TO_ZIP>
+            <SAVE_SCENE_DATA>Saving scenery data...</SAVE_SCENE_DATA>
+            <SAVE_THUMBNAIL_DATA>Saving thumbnail data...</SAVE_THUMBNAIL_DATA>
+            <SYNC_CLEAN_LIST>Sync clean list with chunks...</SYNC_CLEAN_LIST>
+            <READ_ONLY>Preparing chunks...</READ_ONLY>
+            <RECALC_SHADOW>Stage 1 of 2: Recalculating shadow, lighting and thumbnail...</RECALC_SHADOW>
+            <RESAVE_TERRAIN>Re-saving all terrain blocks...</RESAVE_TERRAIN>
+            <SAVE_TERRAIN>Saving terrain data...</SAVE_TERRAIN>
+            <CREATING_SPACE_IMAGE>Creating space image...</CREATING_SPACE_IMAGE>
+            <CREATING_LEVEL_IMAGES>Creating level images...</CREATING_LEVEL_IMAGES>
+			<TOUCH_ALL_CHUNKS>Invalidating all chunks...</TOUCH_ALL_CHUNKS>
+			<REPLACING_OBJECTS>Replacing objects...</REPLACING_OBJECTS>
+			<LOAD_ALL_CHUNK_LODS>Processing all chunks...</LOAD_ALL_CHUNK_LODS>
+			  
+            <SAVING>Saving %0</SAVING>
+            <ERROR_SAVING_CDATA>Error saving %0.cData</ERROR_SAVING_CDATA>
+            <SAVING_CDATA>Saving %0.cData</SAVING_CDATA>
+            <READ_ONLY_WARN_TEXT>WorldEditor is running in Read Only mode. You cannot save any modifications</READ_ONLY_WARN_TEXT>
+            <READ_ONLY_WARN_TITLE>Read Only</READ_ONLY_WARN_TITLE>
+            <QUICK_SAVING>Quick Saving...</QUICK_SAVING>
+            <QUICK_SAVE_ERROR_TEXT>Quick Save completed with errors. See the Messages tab for more information.</QUICK_SAVE_ERROR_TEXT>
+            <QUICK_SAVE_ERROR_TITLE>Errors while performing a Quick Save</QUICK_SAVE_ERROR_TITLE>
+            <QUICK_SAVE_ERROR_COMPLETE>Quick Save complete</QUICK_SAVE_ERROR_COMPLETE>
+            <CALC_LIGHTING>Calculating lighting for %0</CALC_LIGHTING>
+            <CALC_SHADOW>Calculating shadows for %0</CALC_SHADOW>
+            <CALC_THUMBNAIL>Calculating thumbnails for %0</CALC_THUMBNAIL>
+            <FULL_SAVE_ERROR_TEXT>Full Save completed with errors. See Errors tab for more information.</FULL_SAVE_ERROR_TEXT>
+            <FULL_SAVE_ERROR_TITLE>Errors while performing a Full Save</FULL_SAVE_ERROR_TITLE>
+            <SAVE_COMPLETE>Save complete</SAVE_COMPLETE>
+            <SAVE_COMPLETE_WITH_DIRTY_LIGHTING>WARNING! There are still non-loaded chunks with dirty lighting.</SAVE_COMPLETE_WITH_DIRTY_LIGHTING>
+            <SAVE_COMPLETE_WITH_DIRTY_SHADOW>WARNING! There are still non-loaded chunks with dirty terrain shadows.</SAVE_COMPLETE_WITH_DIRTY_SHADOW>
+            <SAVE_COMPLETE_WITH_DIRTY_THUMBNAIL>WARNING! There are still non-loaded chunks with dirty thumbnails.</SAVE_COMPLETE_WITH_DIRTY_THUMBNAIL>
+            <SAVE_COMPLETE_WITH_DIRTY_VLO_REF>WARNING! There are still non-loaded chunks with dirty vlo references.</SAVE_COMPLETE_WITH_DIRTY_VLO_REF>
+            <SAVE_COMPLETE_WITH_DIRTY_TEXLOD>WARNING! There are still non-loaded chunks with dirty texture LODs.</SAVE_COMPLETE_WITH_DIRTY_TEXLOD>
+            <RELOAD>&amp;Reload</RELOAD>
+            <INVALIDATE>&amp;Invalidate all chunks</INVALIDATE>
+            <TAKEPHOTOS>&amp;Create space image</TAKEPHOTOS>
+            <CONVERT>Con&amp;vert</CONVERT>
+	    <RESIZEMAP>&amp;Resize map</RESIZEMAP>
+            <EMPTY>(empty)</EMPTY>
+            <TRACK_CURSOR>%0Track Cursor</TRACK_CURSOR>
+            <MANAGE_TEXTURE>Manage Textures...</MANAGE_TEXTURE>
+            <EDIT_PROJECTION_AND_SCALE>Edit Projection And Scale</EDIT_PROJECTION_AND_SCALE>
+            <MATCH_OPACITY>Select Texture and Opacity for Painting</MATCH_OPACITY>
+            <MATCH_OPACITY_ENTRY>%0 (%1%%)</MATCH_OPACITY_ENTRY>
+            <SELECT_TEXTURE>Select Texture for Painting</SELECT_TEXTURE>
+            <SELECT_TEXTURE_FOR_MASK>Select Texture for Mask</SELECT_TEXTURE_FOR_MASK>
+            <SELECT_TEXTURE_AND_PROJ_FOR_MASK>Select Texture and Projection for Mask</SELECT_TEXTURE_AND_PROJ_FOR_MASK>
+            <DESELECT_CHUNK>Deselect Chunk</DESELECT_CHUNK>
+            <SELECTION_CHANGE>Selection Change</SELECTION_CHANGE>
+            <UNABLE_TO_OPEN_SPACE>Unable to open space %0 because it is opened in another application</UNABLE_TO_OPEN_SPACE>
+            <OK>OK</OK>
+            <CHANGE_SPACE>C&amp;hange Space</CHANGE_SPACE>
+            <EDIT_SPACE>Edit Space</EDIT_SPACE>
+            <CANNOT_CHANGE_SPACE>Cannot open the space %0</CANNOT_CHANGE_SPACE>
+            <CANNOT_OPEN_RES>Can&apos;t open %0 to save dirty lists&#10;</CANNOT_OPEN_RES>
+            <CHANGED_FILES_TITLE>%0 - Changed Files</CHANGED_FILES_TITLE>
+            <CHANGED_FILES_TEXT>
+              Changes were made to the scene. Do you want to save changes first?&#10;&#10;
+              Note: Process then Save will recalculate lighting and thumbnails
+            </CHANGED_FILES_TEXT>
+            <SAVE>&amp;Save</SAVE>
+            <PROCESS_AND_SAVE>&amp;Process then Save</PROCESS_AND_SAVE>
+            <WITHOUT_SAVE>%0 without Save</WITHOUT_SAVE>
+            <CANCEL>&amp;Cancel</CANCEL>
+            <CONNECT_TO_BWLOCKD>Connecting to BigWorld lock server %0 ...</CONNECT_TO_BWLOCKD>
+            <SAVING>Saving...</SAVING>
+            <PROPERTIES>Properties...</PROPERTIES>
+			<SEE_IN_SCENE_BROWSER>Show in Scene Browser...</SEE_IN_SCENE_BROWSER>
+            <RCLK_HIDE>Hide</RCLK_HIDE>
+            <RCLK_UNHIDE_ALL_FILTER>Unhide All Selectable</RCLK_UNHIDE_ALL_FILTER>
+            <RCLK_UNHIDE_ALL>Unhide All</RCLK_UNHIDE_ALL>
+            <RCLK_FREEZE>Freeze</RCLK_FREEZE>
+            <RCLK_UNFREEZE_ALL_FILTER>Unfreeze All Selectable</RCLK_UNFREEZE_ALL_FILTER>
+            <RCLK_UNFREEZE_ALL>Unfreeze All</RCLK_UNFREEZE_ALL>
+			<RCLK_GENERATE_RECAST_MESH>Generate Recast Mesh</RCLK_GENERATE_RECAST_MESH>
+			<VIS_LIGHT_CONTRIBUTION>Visualise dynamic light contribution</VIS_LIGHT_CONTRIBUTION>
+			<CLEAR_LIGHT_CONTRIBUTION_VIS>Clear dynamic light contribution visualisation</CLEAR_LIGHT_CONTRIBUTION_VIS>
+            <CREATE_SPACE>
+              <ACTION>C&amp;reate New Space</ACTION>
+              <STAGE1>1/1: Creating chunks</STAGE1>
+            </CREATE_SPACE>
+			<RECREATE_SPACE>
+				<ACTION>C&amp;reate Duplicate of Current Space</ACTION>
+				<STAGE1>1/7: Creating space directory</STAGE1>
+				<STAGE2>2/7: Creating space settings</STAGE2>
+				<STAGE3>3/7: Creating chunks</STAGE3>
+				<STAGE4>4/7: Copying indoor chunks</STAGE4>
+				<STAGE5>5/7: Copying station graphs</STAGE5>
+				<STAGE6>6/7: Copying VLOs</STAGE6>
+				<STAGE7>7/7: Patching cross-chunk data</STAGE7>
+				<WARNING_CLEARS_LOCALUVMAPPING_TEXTURE>Base terrain layer must be retextured for new chunk size</WARNING_CLEARS_LOCALUVMAPPING_TEXTURE>
+				<WARNING_HEIGHTMAP_RES_REDUCED>Heightmap resolution has significantly decreased</WARNING_HEIGHTMAP_RES_REDUCED>
+				<WARNING_HOLEMAP_RES_REDUCED>Holemap resolution has significantly decreased</WARNING_HOLEMAP_RES_REDUCED>
+				<WARNING_BLENDMAP_RES_REDUCED>Blendmap resolution has significantly decreased</WARNING_BLENDMAP_RES_REDUCED>
+        <WARNING_SHADOWMAP_RES_REDUCED>Shadowmap resolution has significantly decreased</WARNING_SHADOWMAP_RES_REDUCED>
+			</RECREATE_SPACE>
+			
+            <SEE_MSG_PANEL>(see Messages panel for details)</SEE_MSG_PANEL>
+
+<!--do not translate this line, it's used by progress bar-->
+			  <RESIZEMAPS_PROGRESS>Resizing Terrain Texture Blends Map</RESIZEMAPS_PROGRESS>
+
+			  <WARN_NOT_LOCKED>The space must be entirely locked for editing to be able to do this operation.</WARN_NOT_LOCKED>
+		    <WARN_NOT_LOCKED_CAPTION>World Editor</WARN_NOT_LOCKED_CAPTION>
+			  
+<!--do not translate this line, it's used by progress bar-->
+			  <UPDATE_TEXTURE_LODS>Updating terrain texture LODs.</UPDATE_TEXTURE_LODS>
+			  
+            <RECALC_ERROR>Errors occurred during chunk processing. See the Messages tab for more information.</RECALC_ERROR>
+			
+            <POST_PROCESSING_WARNING_TEXT>Post-processing is used by various systems, such as the Weather and the Post-processing graphics settings.&#10;Since you have made changes to the Post-processing chain in the Post-Processing Panel, these systems won't&#10;be able to update the post-processing chain until you save or discard your changes.</POST_PROCESSING_WARNING_TEXT>
+            <POST_PROCESSING_WARNING_TITLE>Post-Processing Panel - Warning</POST_PROCESSING_WARNING_TITLE>
+			
+			<REPLACE_WARNING_INVALID>Invalid asset path: '%0', please specify correct full asset path</REPLACE_WARNING_INVALID>
+			<REPLACE_WARNING_TITLE>World Editor</REPLACE_WARNING_TITLE>
+          </BIG_BANG>
+			
+<!--do not translate this section, it's used by progress bar-->
+          <BIG_BANG_PROGRESS_BAR>
+            <ESCAPE_SAVE>Press Esc to Cancel</ESCAPE_SAVE>
+            <QUITTING>Quitting, please wait...</QUITTING>
+            <CANCELLING>Cancelling, please wait...</CANCELLING>
+            <FINISHING>Finishing, please wait...</FINISHING>
+          </BIG_BANG_PROGRESS_BAR>
+          
+          <CVS_WRAPPER>
+          	<CVS_WRAPPER_TITLE>Repository Wrapper</CVS_WRAPPER_TITLE>
+          	<CVS_WRAPPER_EXIT>E&amp;xit WorldEditor</CVS_WRAPPER_EXIT>
+          	<CVS_WRAPPER_CONTINUE_WITHOUT>&amp;Continue without repository manager</CVS_WRAPPER_CONTINUE_WITHOUT>
+          	<CVS_WRAPPER_CANNOT_FIND_STUB>Repository manager is enabled in options.xml but WorldEditor cannot find the stub: %0</CVS_WRAPPER_CANNOT_FIND_STUB>
+          	<CVS_WRAPPER_CANNOT_EXECUTE_STUB>Repository manager is enabled in options.xml but WorldEditor cannot execute the stub: %0</CVS_WRAPPER_CANNOT_EXECUTE_STUB>
+          	<CVS_WRAPPER_CHECK_FAILED>Repository manager is enabled in options.xml but the &quot;check&quot; command of stub failed with error: %0</CVS_WRAPPER_CHECK_FAILED>
+          </CVS_WRAPPER>
+        </BIGBANG>
+        
+        <SCENE_BROWSER>
+			<ASSET_MD_PREFIX>asset</ASSET_MD_PREFIX>
+		</SCENE_BROWSER>
+
+        <TERRAIN>
+          <EDITOR_CHUNK_TERRAIN>
+            <FORCEDLOD>Forced LOD</FORCEDLOD>
+          </EDITOR_CHUNK_TERRAIN>  
+        </TERRAIN>
+        
+        <CHUNK>
+          <CHUNK_ITEM_PLACER>
+		      	<CREATE_ASSET>Create %0</CREATE_ASSET>
+            <AUTO_SNAP>Auto Snap</AUTO_SNAP>
+            <CANNOT_ADD_ASSET_ON_NON_LOCKED_CHUNK>
+              Could not add asset on non-locked chunk. Please go to Project panel to lock it before editing.
+            </CANNOT_ADD_ASSET_ON_NON_LOCKED_CHUNK>
+            <CANNOT_ADD_ASSET>
+              Could not add asset. Either the asset is corrupt or it is not an asset that can be placed by WorldEditor.
+            </CANNOT_ADD_ASSET>
+            <CREATE_BARRIER>Create %0</CREATE_BARRIER>
+            <ITEM_TOO_SMALL>the item is too small in at least one axis, please check its bounding box</ITEM_TOO_SMALL>
+            <DELETE_BARRIER>Delete %0</DELETE_BARRIER>
+            <DELETE_ITEMS_BARRIER>Delete Items</DELETE_ITEMS_BARRIER>
+            <CANT_DELETE_ITEM>Cannot delete item %0. The item might be frozen or not editable.&#10;</CANT_DELETE_ITEM>
+            <CANT_DELETE_CHUNK>Cannot delete chunk %0. The chunk might contain items that are frozen or not editable.&#10;</CANT_DELETE_CHUNK>
+            <HIDE_BARRIER>Hide %0</HIDE_BARRIER>
+            <HIDE_ITEMS_BARRIER>Hide Items</HIDE_ITEMS_BARRIER>
+            <FREEZE_BARRIER>Freeze %0</FREEZE_BARRIER>
+            <FREEZE_ITEMS_BARRIER>Freeze Items</FREEZE_ITEMS_BARRIER>
+            <WILL_BE_SCALED>%0 is too big. It has been scaled to a smaller size.</WILL_BE_SCALED>
+            <TARGET_NOT_WRITABLE>The target chunk of %0 is not writable.</TARGET_NOT_WRITABLE>
+            <CLONED_ITEM>Clone %0</CLONED_ITEM>
+            <CLONED_ITEMS>Clone items</CLONED_ITEMS>
+            <CLONED_SELECTION>Cloned Selection</CLONED_SELECTION>
+          </CHUNK_ITEM_PLACER>
+          <CHUNK_OVERLAPPER>
+            <FAIL_TO_LOAD>Failed to load chunk overlapper</FAIL_TO_LOAD>
+          </CHUNK_OVERLAPPER>
+          <CHUNK_PLACER>
+            <CREATE_CHUNK>Create Chunk %0</CREATE_CHUNK>
+            <AUTO_CLONE_CHUNK>Auto Clone Chunk %0</AUTO_CLONE_CHUNK>
+            <SHELL_ONLY>Only shells could be saved as templates</SHELL_ONLY>
+            <TEMPLATE_SAVED>Saved Shell template</TEMPLATE_SAVED>
+          </CHUNK_PLACER>
+          <CHUNK_PLACER_PREFAB>
+            <SAVED_PREFAB_MSG>Saved chunk prefab: %0</SAVED_PREFAB_MSG>
+            <LOAD_PREFAB_BARRIER>load prefab</LOAD_PREFAB_BARRIER>
+          </CHUNK_PLACER_PREFAB>
+          <EDITOR_CHUNK>
+            <SAVE_CHUNK_WITHOUT_DATASECTION>
+              EditorChunkCache::edSave: Tried to save chunk %0 without recorded DataSection!
+            </SAVE_CHUNK_WITHOUT_DATASECTION>
+            <SAVE_CHUNK_WITHOUT_LOCK>
+              EditorChunkCache::edSave: Tried to save chunk %0 when it&apos;s not locked!
+            </SAVE_CHUNK_WITHOUT_LOCK>
+            <SAVE_CHUNK_READONLY>
+              EditorChunkCache::edSave: Tried to save chunk %0 when it&apos;s read only!
+            </SAVE_CHUNK_READONLY>
+            <MOVE_CHUNK>Move Chunk %0</MOVE_CHUNK>
+            <IDENTIFIER>identifier</IDENTIFIER>
+            <SHELL_NAME>shell name</SHELL_NAME>
+            <DESCRIPTION>description</DESCRIPTION>
+            <CHUNK_IDENTIFIER>Chunk identifier %0</CHUNK_IDENTIFIER>
+            <POSITION>position</POSITION>
+            <ROTATION>rotation</ROTATION>
+            <CANNOT_OPEN_FILE>EditorChunkCache::edSaveCData: Unable to open file &quot;%0&quot;</CANNOT_OPEN_FILE>
+            <REFLECTION_VISIBLE>reflection visible</REFLECTION_VISIBLE>
+            <SPACE_IMAGE_CREATED>Space image created in %0 </SPACE_IMAGE_CREATED>
+			<SPACE_IMAGE_CREAT_FAILED>Space image creation failed, please refer worldeditor.log for more information </SPACE_IMAGE_CREAT_FAILED>
+			<SPACE_EXPANDED>Space expanded succefully</SPACE_EXPANDED>
+			<EXPAND_SPACE_SIZE_ERROR>The provided space dimensions are invalid</EXPAND_SPACE_SIZE_ERROR>
+			<EXPAND_SPACE_CDATA_ERROR>Failed to create default chunk data</EXPAND_SPACE_CDATA_ERROR>
+      <EXPAND_SPACE_NOT_SUPPORTED>This operation is not supported on spaces that use terrain 1. Please upgrade to terrain 2 first.</EXPAND_SPACE_NOT_SUPPORTED>
+      <EXPAND_SPACE_NOT_SUPPORTED_TITLE>Space not supported</EXPAND_SPACE_NOT_SUPPORTED_TITLE>
+          </EDITOR_CHUNK>
+          <EDITOR_CHUNK_BINDING>
+            <ED_DESCRIPTION>binding</ED_DESCRIPTION>
+          </EDITOR_CHUNK_BINDING>
+          <EDITOR_CHUNK_ENTITY>
+            <TYPE>type</TYPE>
+            <POSITION>position</POSITION>
+            <DIRECTION>direction</DIRECTION>
+            <CLIENT_ONLY>client only</CLIENT_ONLY>
+            <LAST_SCRIPT_ERROR>last script error</LAST_SCRIPT_ERROR>
+            <GRAPH>graph</GRAPH>
+            <NODE>node</NODE>
+            <ED_DESCRIPTION>%0 entity item</ED_DESCRIPTION>
+            <CANNOT_DELETE>Can't delete this entity (guid %0) because it's linked to chunks that are not locked for writing.</CANNOT_DELETE>
+          </EDITOR_CHUNK_ENTITY>
+		  <EDITOR_CHUNK_USER_DATA_OBJECT>
+            <TYPE>type</TYPE>
+            <POSITION>position</POSITION>
+            <DIRECTION>direction</DIRECTION>
+            <LAST_SCRIPT_ERROR>last script error</LAST_SCRIPT_ERROR>
+            <ED_DESCRIPTION>%0 user data object item</ED_DESCRIPTION>
+            <UNDO_DEL_ITEM>Delete item</UNDO_DEL_ITEM>
+            <CANNOT_DELETE>Can't delete this User Object (guid %0) because it's linked to chunks that are not locked for writing.\n</CANNOT_DELETE>
+      </EDITOR_CHUNK_USER_DATA_OBJECT>
+		  <EDITOR_ENTITY_PROXY>
+            <SET_OP>Set %0 %1</SET_OP>
+            <BAD_ENUM>Bad enumeration for %0.%1</BAD_ENUM>
+            <UNDO_ADD_ARRAY_ITEM>Add array item</UNDO_ADD_ARRAY_ITEM>
+            <UNDO_DEL_ARRAY_ITEM>Delete array item</UNDO_DEL_ARRAY_ITEM>
+            <UNDO_CLEAR_ARRAY>Delete all array items</UNDO_CLEAR_ARRAY>
+		  </EDITOR_ENTITY_PROXY>
+		  <EDITOR_PROPERTY_MANAGER>
+            <ADD_PROPERTY_BARRIER>adding property to %0</ADD_PROPERTY_BARRIER>
+            <REMOVE_PROPERTY>removing property from %0</REMOVE_PROPERTY>
+		  </EDITOR_PROPERTY_MANAGER>
+
+          <EDITOR_CHUNK_FLARE>
+            <SET_COLOUR>Set %0 colour</SET_COLOUR>
+            <FLARE>flare</FLARE>
+            <POSITION>position</POSITION>
+            <COLOUR>colour</COLOUR>
+            <MAXDISTANCE>max distance</MAXDISTANCE>
+            <AREA>area</AREA>
+            <FADESPEED>fade speed</FADESPEED>
+          </EDITOR_CHUNK_FLARE>
+          <EDITOR_CHUNK_LIGHT>
+            <SET_COLOUR>Set %0 colour</SET_COLOUR>
+            <COLOUR>colour</COLOUR>
+            <POSITION>position</POSITION>
+            <DIRECTION>direction</DIRECTION>
+            <STATIC>static</STATIC>
+            <DYNAMIC>dynamic</DYNAMIC>
+            <SPECULAR>specular</SPECULAR>
+            <MULTIPLIER>multiplier</MULTIPLIER>
+            <INNER_RADIUS>inner radius</INNER_RADIUS>
+            <OUTER_RADIUS>outer radius</OUTER_RADIUS>
+            <CONE_ANGLE>cone angle</CONE_ANGLE>
+			<PRIORITY>priority</PRIORITY>
+			<TIMESCALE>time scale</TIMESCALE>
+			<DURATION>duration</DURATION>
+			<ANIMATION>animation</ANIMATION>
+            <SET_INNER_RADIUS>Set %0 inner radius</SET_INNER_RADIUS>
+            <SET_OUTER_RADIUS>Set %0 outer radius</SET_OUTER_RADIUS>
+            <SET_COLOUR>Set %0 colour</SET_COLOUR>
+            <SET_CONE_ANGLE>Set %0 cone angle</SET_CONE_ANGLE>
+            <MODIFY_PULSE_ANIMATION>Modify animation for pulse light</MODIFY_PULSE_ANIMATION>
+          </EDITOR_CHUNK_LIGHT>
+          <EDITOR_CHUNK_LINK>
+            <DISCONNECT>Disconnect</DISCONNECT>
+            <SWAP_DIRECTION_THIS_LINK>Swap direction (this link)</SWAP_DIRECTION_THIS_LINK>
+            <BOTH_DIRECTION_THIS_LINK>Both directions (this link)</BOTH_DIRECTION_THIS_LINK>
+            <SWAP_DIRECTION_RUN_LINK>Swap direction (run of links)</SWAP_DIRECTION_RUN_LINK>
+            <BOTH_DIRECTION_RUN_LINK>Both directions (run of links)</BOTH_DIRECTION_RUN_LINK>
+            <SPLIT>Split</SPLIT>
+            <VALIDATE>Validate</VALIDATE>
+            <DELETE>Delete</DELETE>
+            <DELETE_LINK>Delete link</DELETE_LINK>
+            <DELETE_ALL>Delete All</DELETE_ALL>
+            <BOTH_LINK_DIRECTION>Both link directions</BOTH_LINK_DIRECTION>
+            <SWAP_LINK_DIRECTION>Swap link direction</SWAP_LINK_DIRECTION>
+          </EDITOR_CHUNK_LINK>
+          <EDITOR_CHUNK_MARK>
+            <ED_DESCRIPTION>marker</ED_DESCRIPTION>
+            <POSITION>position</POSITION>
+            <ROTATION>rotation</ROTATION>
+            <CATEGORY>category</CATEGORY>
+          </EDITOR_CHUNK_MARK>
+          <EDITOR_CHUNK_MARK_CLUSTER>
+            <ED_DESCRIPTION>mark cluster</ED_DESCRIPTION>
+            <POSITION>position</POSITION>
+            <NUMBER_SPAWNED>number spawned</NUMBER_SPAWNED>
+            <NUMBER_CHILDREN>number children</NUMBER_CHILDREN>
+            <RESETTING_PARENT>Resetting parent cluster available markers</RESETTING_PARENT>
+          </EDITOR_CHUNK_MARK_CLUSTER>
+		  <EDITOR_CHUNK_DECAL>
+			<POSITION>position</POSITION>
+            <ROTATION>rotation</ROTATION>
+            <SCALE>scale</SCALE>
+			<DIFF_TEXTURE>diffuse texture</DIFF_TEXTURE>
+			<BUMP_TEXTURE>bump texture</BUMP_TEXTURE>
+		  </EDITOR_CHUNK_DECAL>
+          <EDITOR_CHUNK_MODEL>
+            <DEFAULT_TINT_NAME>default</DEFAULT_TINT_NAME>
+            <MODEL_TOO_BIG>Model too big: VLO created instead.</MODEL_TOO_BIG>
+            <TREE_TOO_BIG>SpeedTree too big: VLO models don't support SpeedTrees.</TREE_TOO_BIG>
+            <POSITION>position</POSITION>
+            <ROTATION>rotation</ROTATION>
+            <SCALE>scale</SCALE>
+            <OUTSIDE_ONLY>outside only</OUTSIDE_ONLY>
+            <CASTS_SHADOW>casts shadow</CASTS_SHADOW>
+            <REFLECTION_VISIBLE>reflection visible</REFLECTION_VISIBLE>
+            <ANIMATION>animation</ANIMATION>
+            <ANIMATION_SPEED>animation speed</ANIMATION_SPEED>
+            <MODEL_NAME>model name</MODEL_NAME>
+            <MODEL_NAMES>model names</MODEL_NAMES>
+            <ED_DESCRIPTION>Chunk %0</ED_DESCRIPTION>
+            <UNKNOWN_CHUNK>Unknown Chunk</UNKNOWN_CHUNK>
+            <EDIT_IN_MODEL_EDITOR>Edit in Model Editor...</EDIT_IN_MODEL_EDITOR>
+            <ASSET_META_DATA>asset metadata</ASSET_META_DATA>
+			<REPLACE_PROGRESS>"Replace in progress (%0 of %1)..."</REPLACE_PROGRESS>
+			<REPLACE_FINISHED>%0 objects are replaced</REPLACE_FINISHED>
+          </EDITOR_CHUNK_MODEL>
+          <EDITOR_CHUNK_PARTICLE>
+            <POSITION>position</POSITION>
+            <ROTATION>rotation</ROTATION>
+            <PARTICLE_NAME>particleName</PARTICLE_NAME>
+            <REFLECTION_VISIBLE>reflection visible</REFLECTION_VISIBLE>
+            <EDIT_IN_PARTICLE_EDITOR>Edit in Particle Editor...</EDIT_IN_PARTICLE_EDITOR>
+            <ASSET_META_DATA>asset metadata</ASSET_META_DATA>
+          </EDITOR_CHUNK_PARTICLE>
+          <EDITOR_CHUNK_PORTAL>
+            <POSITION>position</POSITION>
+            <LABEL>label</LABEL>
+          </EDITOR_CHUNK_PORTAL>
+          <EDITOR_CHUNK_SOUND>
+            <THREED>3d</THREED>
+            <RESOURCE>resource</RESOURCE>
+            <POSITION>position</POSITION>
+            <INNER_RADIUS>inner radius</INNER_RADIUS>
+            <OUTER_RADIUS>outer radius</OUTER_RADIUS>
+            <ATTENUATION>attenuation</ATTENUATION>
+            <OUTSIDE_EXTRA_ATTENUATION>outside extra attenuation</OUTSIDE_EXTRA_ATTENUATION>
+            <INSIDE_EXTRA_ATTENUATION>inside extra attenuation</INSIDE_EXTRA_ATTENUATION>
+            <CENTRE_HOUR>centre hour</CENTRE_HOUR>
+            <INNER_HOUR>inner hours</INNER_HOUR>
+            <OUTER_HOUR>outer hours</OUTER_HOUR>
+            <LOOP>loop</LOOP>
+            <LOOP_DELAY>loop delay</LOOP_DELAY>
+            <LOOP_DELAY_VARIANCE>loop delay variance</LOOP_DELAY_VARIANCE>
+          </EDITOR_CHUNK_SOUND>
+          <EDITOR_CHUNK_STATION>
+            <ED_DESCRIPTION>patrol node</ED_DESCRIPTION>
+            <POSITION>position</POSITION>
+            <ID>id</ID>
+            <GRAPH>graph</GRAPH>
+            <USER_STRING>user string</USER_STRING>
+            <LINK>link</LINK>
+            <SPLIT_LINK>split link</SPLIT_LINK>
+            <CONNECT_TO>Connected to %0</CONNECT_TO>
+          </EDITOR_CHUNK_STATION>
+          <EDITOR_CHUNK_TREE>
+            <POSITION>position</POSITION>
+            <ROTATION>rotation</ROTATION>
+            <SCALE>scale</SCALE>
+            <CASTS_SHADOW>casts shadow</CASTS_SHADOW>
+            <FILENAME>filename</FILENAME>
+            <REFLECTION_VISIBLE>reflection visible</REFLECTION_VISIBLE>
+            <CHANGE_IN_SPT_CAD>(change in SpeedTreeCAD)</CHANGE_IN_SPT_CAD>
+            <SEED>seed</SEED>
+            <COULD_NOT_CHANGE_TREE_SEED>Could not change tree&apos;s seed: %0</COULD_NOT_CHANGE_TREE_SEED>
+            <COULD_NOT_CHANGE_TREE_FILE>Could not change tree&apos;s file: %0</COULD_NOT_CHANGE_TREE_FILE>
+            <ERROR_LOADING_TREE>Error loading tree: %0</ERROR_LOADING_TREE>
+          </EDITOR_CHUNK_TREE>
+          <EDITOR_CHUNK_VLO>
+            <ED_DESCRIPTION>%0 Reference</ED_DESCRIPTION>
+            <VLO_REFENRENCE>VLO Reference</VLO_REFENRENCE>
+			<POSITION_LOCKED>Cannot modify the object's transform because some chunks it touches are read-only.</POSITION_LOCKED>
+          </EDITOR_CHUNK_VLO>
+          <EDITOR_CHUNK_WATER>
+            <USE_SHADOWS>use shadows</USE_SHADOWS>
+            <SET_FLOAT_PROPERTY>Set float property</SET_FLOAT_PROPERTY>
+            <BAD_MESH_SIZE>Invalid mesh size. Please enter a valid mesh size.</BAD_MESH_SIZE>
+            <SET_DATA>Set data</SET_DATA>
+            <POSITION>position</POSITION>
+            <ORIENTATION>orientation</ORIENTATION>
+            <SIZE>size</SIZE>
+            <FRESNEL_CONSTANT>fresnel constant</FRESNEL_CONSTANT>
+            <FRESNEL_EXPONENT>fresnel exponent</FRESNEL_EXPONENT>
+            <FREQ_X>wave frequency X</FREQ_X>
+            <FREQ_Z>wave frequency Z</FREQ_Z>
+            <WAVE_HEIGHT>wave height</WAVE_HEIGHT>
+            <CAUSTICS_POWER>caustics power</CAUSTICS_POWER>
+            <WAVE_TEXTURE_NUMBER>wave texture number</WAVE_TEXTURE_NUMBER>
+            <WATER_CONTRAST>water contrast</WATER_CONTRAST>
+            <ANIMATION_SPEED>animation speed</ANIMATION_SPEED>
+            <REFLECTION_TINT>reflection tint</REFLECTION_TINT>
+            <REFLECTION_STRENGTH>reflection strength</REFLECTION_STRENGTH>
+            <REFRACTION_TINT>refraction tint</REFRACTION_TINT>
+            <REFRACTION_STRENGTH>refraction strength</REFRACTION_STRENGTH>
+            <MESH_SIZE>mesh size</MESH_SIZE>
+            <CONSISTENCY>consistency</CONSISTENCY>
+            <TEXTURE_SIZE>texture size</TEXTURE_SIZE>
+            <SCROLL_SPEED_1_U>scroll speed 1 U</SCROLL_SPEED_1_U>
+            <SCROLL_SPEED_1_V>scroll speed 1 V</SCROLL_SPEED_1_V>
+            <SCROLL_SPEED_2_U>scroll speed 2 U</SCROLL_SPEED_2_U>
+			<SCROLL_SPEED_2_V>scroll speed 2 V</SCROLL_SPEED_2_V>
+            <WAVE_SCALE_U>wave scale 1</WAVE_SCALE_U>
+            <WAVE_SCALE_V>wave scale 2</WAVE_SCALE_V>
+            <DEEP_COLOUR> deep colour </DEEP_COLOUR>
+            <FADE_DEPTH> fade start depth </FADE_DEPTH>
+            <FOAM_INTERSECTION> foam intersection </FOAM_INTERSECTION>
+            <FOAM_MULTIPLIER> foam multiplier </FOAM_MULTIPLIER>
+            <FOAM_TILING> foam tiling </FOAM_TILING>
+            <FOAM_FREQ> foam slide frequency </FOAM_FREQ>
+            <FOAM_AMPLITUDE> foam slide amplitude </FOAM_AMPLITUDE>
+            <FOAM_WIDTH> foam width </FOAM_WIDTH>
+            <BYPASS_DEPTH> bypass depth </BYPASS_DEPTH>
+            <WIND_SPEED>wind speed</WIND_SPEED>
+            <SURFACE_SMOOTHNESS>surface smoothness</SURFACE_SMOOTHNESS>
+            <SUN_POWER>sun power</SUN_POWER>
+            <SUN_SCALE>sun scale</SUN_SCALE>
+            <FOAM_TEXTURE>foam texture</FOAM_TEXTURE>
+			<REFLECTION_TEXTURE>reflection texture</REFLECTION_TEXTURE>
+            <WAVE_TEXTURE>wave texture</WAVE_TEXTURE>
+            <SIM_CELL_SIZE>sim cell size</SIM_CELL_SIZE>
+            <USE_EDGE_ALPHA>use edge alpha</USE_EDGE_ALPHA>
+			<USE_CUBE_MAP>use cube map reflections</USE_CUBE_MAP>
+            <USE_SIMULATION>use simulation</USE_SIMULATION>
+            <REFLECT_BOTTOM>reflect bottom</REFLECT_BOTTOM>
+            <VISIBILITY>visibility</VISIBILITY>
+            <ALWAYS_VISIBLE>Always</ALWAYS_VISIBLE>
+            <INSIDE_ONLY>Inside shells only</INSIDE_ONLY>
+            <OUTSIDE_ONLY>Outside only</OUTSIDE_ONLY>
+          </EDITOR_CHUNK_WATER>
+          <EDITOR_CHUNK_META_DATA>
+          	<POSITION>position</POSITION>          	
+          </EDITOR_CHUNK_META_DATA>
+        </CHUNK>
+        
+        <HEIGHT>
+          <HEIGHT_MAP>
+<!--do not translate this line, it's used by progress bar-->
+			  <GENERATING_TEXTURE>Generating height map texture</GENERATING_TEXTURE>
+			  <INCOMPATIBLE>The item's height map is not compatible with the space's height map and was not copied.</INCOMPATIBLE>
+		  </HEIGHT_MAP>
+          <HEIGHT_MODULE>
+<!--do not translate this line, it's used by progress bar-->
+			  <IMPORT_TERRAIN>Import terrain</IMPORT_TERRAIN>
+
+			  <MEMORY_LOAD>Memory Load: %0%%</MEMORY_LOAD>
+            <CHUNK_LOADED_WITH_DIRTY>%0 chunks loaded (%1)</CHUNK_LOADED_WITH_DIRTY>
+            <CHUNK_LOADED>%0 chunks loaded</CHUNK_LOADED>
+          </HEIGHT_MODULE>
+        </HEIGHT>
+
+<!--do not translate this section, it's used by progress bar-->
+		  <IMPORT>
+          <ELEVATION_BLIT>
+            <SAVE_TERRAIN_DATA>Saving Terrain Data for undo/redo</SAVE_TERRAIN_DATA>
+            <IMPORT_TERRAIN_DATA>Importing Terrain Data</IMPORT_TERRAIN_DATA>
+            <EXPORT_TERRAIN_DATA>Exporting Terrain Data</EXPORT_TERRAIN_DATA>
+            <EXPORT_CALC_HEIGHTS>Finding Terrain Heights</EXPORT_CALC_HEIGHTS>
+          </ELEVATION_BLIT>
+        </IMPORT>
+        
+        <PROJECT>
+          <BIGBANGD_CONNECTION>
+            <CANNOT_RESOLVE_ADDR>BigBangdConnection::Connect(): Couldn&apos;t resolve address %0</CANNOT_RESOLVE_ADDR>
+            <CAMNOT_CONNECT>BigBangdConnection::Connect(): Couldn&apos;t connect, last error is %0</CAMNOT_CONNECT>
+            <CONNECTED>Connected to bwlockd</CONNECTED>
+            <LOCK>%0 from %1 has locked (%2, %3) - (%4, %5) for %6</LOCK>
+            <UNLOCK>%0 from %1 has unlocked (%2, %3) - (%4, %5) for %6</UNLOCK>
+          </BIGBANGD_CONNECTION>
+          <PROJECT_MODULE>
+            <MEMORY_LOAD>Memory Load: %0%%</MEMORY_LOAD>
+            <CHUNK_LOADED_WITH_DIRTY>%0 chunks loaded (%1)</CHUNK_LOADED_WITH_DIRTY>
+            <CHUNK_LOADED>%0 chunks loaded</CHUNK_LOADED>
+            <UNABLE_TO_CONNECT>Unable to connect to bwlockd&#10;</UNABLE_TO_CONNECT>
+            <CANNOT_LOCK>Can&apos;t lock when not connected!</CANNOT_LOCK>
+            <REGION_LOCKED>Region Locked</REGION_LOCKED>
+            <LOCK_SELECTION_TITLE>Lock Selection</LOCK_SELECTION_TITLE>
+            <UPDATE_FAILED>	CVS was unable to update, please exit WorldEditor and update manually, ensuring there are no conflicts.&#10;	</UPDATE_FAILED>
+            <CANNOT_COMMIT>Can&apos;t commit when not connected!</CANNOT_COMMIT>
+            <COMMIT_CHANGES_TITLE>Commit Changes</COMMIT_CHANGES_TITLE>
+            <COMMITTING>Committing...&#10;</COMMITTING>
+            <COMMIT_CHANGES_TEXT>Please wait while WorldEditor saves and commits the changes to the server.</COMMIT_CHANGES_TEXT>
+            <CHANGES_COMMITED>Changes Commited</CHANGES_COMMITED>
+            <DISCARD_LOCKS_TITLE>Discard Locks</DISCARD_LOCKS_TITLE>
+            <DISCARD_LOCKS_TEXT>
+              Please wait while WorldEditor retrieves the latest version of the unlocked area from the server.
+            </DISCARD_LOCKS_TEXT>
+            <CHUNK_LOCKS_DISCARDED>Chunk locks Discarded</CHUNK_LOCKS_DISCARDED>
+            <CHANGES_DISCARDED>Changes Discarded</CHANGES_DISCARDED>
+            <UPDATE_SPACE_TITLE>Update Space</UPDATE_SPACE_TITLE>
+            <UPDATE_SPACE_TEXT>Please wait while WorldEditor updates the space from server.</UPDATE_SPACE_TEXT>
+            <SPACE_NOT_CONTROLLED>Space not under version control</SPACE_NOT_CONTROLLED>
+            <SPACE_UPDATED>Space updated</SPACE_UPDATED>
+          </PROJECT_MODULE>
+          <SPACE_MAP>
+<!--do not translate this line, it's used by progress bar-->
+			  <UPDATE_PROJECT_VIEW>Updating project view</UPDATE_PROJECT_VIEW>
+          </SPACE_MAP>
+        </PROJECT>
+        
+        <PROPERTIES>
+          <CHUNK_EDITOR>
+            <CHUNK_IDENTIFIER>Chunk %0</CHUNK_IDENTIFIER>
+          </CHUNK_EDITOR>
+          <CHUNK_LINK_PROXY>
+            <LINK_ENTITY_TO_GRAPH>Link entity to graph</LINK_ENTITY_TO_GRAPH>
+            <LINK_ENTITIES_TO_GRAPH>Link entities to graph</LINK_ENTITIES_TO_GRAPH>
+          </CHUNK_LINK_PROXY>
+          <ITEM_EDITOR>
+            <CHUNK>chunk</CHUNK>
+          </ITEM_EDITOR>
+          <ITEM_PROPERTIES>
+          	<ITEM_TOO_BIG>You cannot scale this item to larger than %0m in x or z direction.</ITEM_TOO_BIG>
+          </ITEM_PROPERTIES>
+          <STATION_NODE_LINK_PROXY>
+            <LINK_ENTITY_TO_GRAPH>Link entity to graph</LINK_ENTITY_TO_GRAPH>
+            <LINK_NODES>Link nodes</LINK_NODES>
+          </STATION_NODE_LINK_PROXY>
+		  <WEATHER_EDITOR>
+			<SPECIAL_EFFECT_FILE>Special Effect File
+				<TOOLTIP>Special Effect File to attach to the camera when the system is summoned</TOOLTIP>
+			</SPECIAL_EFFECT_FILE>
+			<SUNLIGHT>Sun
+				<TOOLTIP>Additional colour tint for the time-of-day sunlight&#10;The multiplier allows over-brightening of the sunlight</TOOLTIP>
+			</SUNLIGHT>
+			<AMBIENT>Ambient
+				<TOOLTIP>Additional colour tint for the time-of-day ambient lighting&#10;The multiplier allows over-brightening of the ambient lighting</TOOLTIP>
+			</AMBIENT>
+			<MULTIPLIER>Multiplier</MULTIPLIER>
+			<FOG>Fog
+				<TOOLTIP>Colour tint for the time-of-day fog&#10;The density parameter adds extra fog into the scene&#10;Density values range from 1.0 (no extra fog) to 5.0 (thick fog)</TOOLTIP>
+			</FOG>
+			<DENSITY>Density</DENSITY>
+			<FOG_FACTOR>Sky Box Fog Response
+				<TOOLTIP>Specifies how the sky boxes respond to the fog density parameter above&#10;This value ranges from 0.0 (sky boxes receive no extra fog) to 2.0 (sky boxes respond strongly to extra fog)</TOOLTIP>
+			</FOG_FACTOR>
+			<WIND_SPEED>Wind Speed
+				<TOOLTIP>The wind speed, in metres per second</TOOLTIP>
+			</WIND_SPEED>
+			<WIND_GUSTINESS>Wind Gustiness
+				<TOOLTIP>Specifies how much random variation there is in the wind speed</TOOLTIP>
+			</WIND_GUSTINESS>
+			<ATTENUATION>Attenuation
+				<TOOLTIP>Colour tint applied to each pass of the bloom filter&#10;With a higher number of bloom passes, the blooming becomes more sensitive to this colour tint</TOOLTIP>
+			</ATTENUATION>
+			<NUM_PASSES>Num Passes
+				<TOOLTIP>Number of blurring passes for the bloom filter&#10;Setting this to a higher value provides a larger colour bleed area, but at an added performance cost</TOOLTIP>
+			</NUM_PASSES>
+			<SENSITIVITY>Sensitivity
+				<TOOLTIP>Specifies how sensitive the bloom filter is to bright colours&#10;Setting this to a low value causes the bloom effect respond to dark colours and become washed out&#10;Higher values cause the bloom filter to respond only to brighter colours</TOOLTIP>
+			</SENSITIVITY>
+			<FILTER_WIDTH>Filter Width
+				<TOOLTIP>Specifies the width of the blurring kernel for the bloom filter&#10;Higher values provide a larger colour bleed area, with no added performance cost&#10;Specifying a high filter width, with a low number of passes can make the bloom filter look fragmented</TOOLTIP>
+			</FILTER_WIDTH>
+			<BLOOM_SETTINGS>Bloom Settings</BLOOM_SETTINGS>
+		  </WEATHER_EDITOR>
+        </PROPERTIES>
+        
+        <TOOL>
+          <PLACEMENT_PRESETS>
+            <EDIT_PRESET>(Edit Presets...)</EDIT_PRESET>
+            <NORMAL_PLACEMENT>(Normal Placement)</NORMAL_PLACEMENT>
+          </PLACEMENT_PRESETS>
+          <TERRAIN_FUNCTOR>
+            <CANNOT_EDITOR_UNLOCKED_TERRAIN>
+              Could not edit terrain of non-locked chunk. Please go to Project panel to lock it before editing.
+            </CANNOT_EDITOR_UNLOCKED_TERRAIN>
+            <TERRAIN_TEXTURE_CHANGE>Terrain Texture Change</TERRAIN_TEXTURE_CHANGE>
+            <UNKNOWN_FILTER>unknown filter</UNKNOWN_FILTER>
+            <TERRAIN_HEIGHT_CHANGE>Terrain Height Change</TERRAIN_HEIGHT_CHANGE>
+            <TERRAIN_HOLE_CHANGE>Terrain Hole Change</TERRAIN_HOLE_CHANGE>
+            <SELECTED_FILTER>Selected filter %0: %0</SELECTED_FILTER>
+          </TERRAIN_FUNCTOR>
+        </TOOL>
+        
+      </WORLDEDITOR>
+      <TERRAIN>
+        <TERRAIN_HEIGHT_FILTER_FUNCTOR>
+          <SELECT_FILDER>Selected filter %0: %1</SELECT_FILDER>
+        </TERRAIN_HEIGHT_FILTER_FUNCTOR>
+      </TERRAIN>
+    </WORLDEDITOR>
+    
+    <CHUNK>
+      <EDITOR>
+        <EDITOR_CHUNK_ITEM>
+          <UNKNOWN>Unknown</UNKNOWN>
+          <ED_DESCRIPTION>%0 item</ED_DESCRIPTION>
+          <ED_DESCRIPTION_WITH_LABEL>%0 item &apos;%1&apos;</ED_DESCRIPTION_WITH_LABEL>
+        </EDITOR_CHUNK_ITEM>
+      </EDITOR>
+      
+      <FRAMEWORK>
+        <CHUNK_LINK>
+          <NO_START_ITEM>No start item</NO_START_ITEM>
+          <NO_END_ITEM>No end item</NO_END_ITEM>
+          <DIRECTION_IS_NONE>direction is none</DIRECTION_IS_NONE>
+          <NODES_IN_DIFFERENT_GRAPH>Nodes in different graph</NODES_IN_DIFFERENT_GRAPH>
+          <LINK_NOT_IN_CHUNK>Link not in chunk</LINK_NOT_IN_CHUNK>
+        </CHUNK_LINK>
+      </FRAMEWORK>
+      
+      <INHABITANTS>
+        <CHUNK_STATIONNODE>
+          <INVALID_ID>Invalid id</INVALID_ID>
+          <NOT_CONNECTED_TO_GRAPH>Not connected to a graph</NOT_CONNECTED_TO_GRAPH>
+          <LINK_SIZE_UNEQUAL>links_.size() != preloadLinks_.size()</LINK_SIZE_UNEQUAL>
+          <NOT_MATCH_END_ITEM>link doesn&apos;t match end items</NOT_MATCH_END_ITEM>
+          <PRELOAD_IS_MISSING_LINK>preload is missing link</PRELOAD_IS_MISSING_LINK>
+          <LINK_PRELOAD_WRONG_DIRECTION>link direction != preload direction</LINK_PRELOAD_WRONG_DIRECTION>
+          <LINK_IN_PRELOAD_NOT_IN_LINK>Link in preload_ not in links_</LINK_IN_PRELOAD_NOT_IN_LINK>
+          <NODE_NOT_REGISTER_TO_GRAPH>Node not registered to graph</NODE_NOT_REGISTER_TO_GRAPH>
+          <NODE_NOT_IN_CHUNK>Node not in chunk</NODE_NOT_IN_CHUNK>
+        </CHUNK_STATIONNODE>
+        <STATION_GRAPH>
+          <NODE_SIZE_UNEQUAL>edNodes_.size() != nodes_.size()</NODE_SIZE_UNEQUAL>
+        </STATION_GRAPH>
+      </INHABITANTS>
+      
+    </CHUNK>
+    
+    <ROMP>
+      <WATER>
+        <WATER>
+          <TOO_MANY_VERTICES>
+            WARNING! Water surface contains excess vertices, please INCREASE the &quot;Mesh Size&quot; parameter
+          </TOO_MANY_VERTICES>
+        </WATER>
+      </WATER>
+    </ROMP>
+
+    <SCRIPT>
+      <PATROL_NODE_PY>
+        <SPLIT_LINK>Split link</SPLIT_LINK>
+        <SWAP_LINK_DIRECTION>Swap Link Direction</SWAP_LINK_DIRECTION>
+        <BOTH_DIRECTIONS>Both Directions</BOTH_DIRECTIONS>
+        <SWAP_LINK_DIRECTION_RUN_OF_LINKS>Swap Link Directions (Run Of Links)</SWAP_LINK_DIRECTION_RUN_OF_LINKS>
+        <BOTH_DIRECTIONS_RUN_OF_LINKS>Both Directions (Run Of Links)</BOTH_DIRECTIONS_RUN_OF_LINKS>
+      </PATROL_NODE_PY>
+      <PLATFORM_NODE_PY>
+        <SPLIT_LINK>Split link</SPLIT_LINK>
+        <SWAP_LINK_DIRECTION>Swap Link Direction</SWAP_LINK_DIRECTION>
+        <SWAP_LINK_DIRECTION_RUN_OF_LINKS>Swap Link Directions (Run Of Links)</SWAP_LINK_DIRECTION_RUN_OF_LINKS>
+      </PLATFORM_NODE_PY>
+      <WORLD_EDITOR_DIRECTOR_PY>
+        <ERROR_INIT_POSTPROCESSING>Error initialising PostProcessing: %0</ERROR_INIT_POSTPROCESSING>
+        <ERROR_INIT_GAMEDATA>Error initialising GameData: %0</ERROR_INIT_GAMEDATA>
+        <FAILED_TO_CHANGE_PP_CHAIN>Failed to change the the post-processing chain, it's modified in the Post-Processing Panel. Save it or discard changes first.</FAILED_TO_CHANGE_PP_CHAIN>
+        <ENABLE_DRAG_ON_SELECT>Enabling Drag on Select</ENABLE_DRAG_ON_SELECT>
+        <DISABLE_DRAG_ON_SELECT>Disabling Drag on Select</DISABLE_DRAG_ON_SELECT>
+        <ENTER_SNAP_MODE>Entering %0 snap mode</ENTER_SNAP_MODE>
+        <LIGHTING_MODE>Lighting mode: %0</LIGHTING_MODE>
+        <ENABLE_OBJECT_GRID_SNAP>Enabling Object Grid Snaps</ENABLE_OBJECT_GRID_SNAP>
+        <DISABLE_OBJECT_GRID_SNAP>Disabling Object Grid Snaps</DISABLE_OBJECT_GRID_SNAP>
+        <DRAW_CUSTOM_BSP>Drawing custom BSPs (%0)</DRAW_CUSTOM_BSP>
+        <NORMAL_DRAW_MODE>Normal draw mode</NORMAL_DRAW_MODE>
+        <DRAW_CUSTOM_BSP_NONE>No models selected</DRAW_CUSTOM_BSP_NONE>
+        <DRAW_CUSTOM_BSP_SPEEDTREES>SpeedTrees selected</DRAW_CUSTOM_BSP_SPEEDTREES>
+        <DRAW_CUSTOM_BSP_OTHERMODELS>Other models selected</DRAW_CUSTOM_BSP_OTHERMODELS>
+        <DRAW_CUSTOM_BSP_ALL>All models selected</DRAW_CUSTOM_BSP_ALL>
+        <REFERENCE_COORDINATE_SYSTEM>Reference coordinate system: %0</REFERENCE_COORDINATE_SYSTEM>
+        <TOOL_SIZE>Tool size %0</TOOL_SIZE>
+        <TOOL_STRENGTH>Tool strength %0</TOOL_STRENGTH>
+        <NEW_CAMERA_SPEED>New camera speed: %0</NEW_CAMERA_SPEED>
+        <ENTER_WALK_THROUGH_MODE>Entered Avatar Walkthrough mode</ENTER_WALK_THROUGH_MODE>
+        <ENTER_FREE_SNAP_MODE>Entering Free snap mode</ENTER_FREE_SNAP_MODE>
+        <ENTER_TERRAIN_SNAP_MODE>Entering Terrain snap mode</ENTER_TERRAIN_SNAP_MODE>
+        <ENTER_OBSTACLE_SNAP_MODE>Entering Obstacle snap mode</ENTER_OBSTACLE_SNAP_MODE>
+        <UNKNOWN_SNAP_MODE>Unknown snap mode</UNKNOWN_SNAP_MODE>
+        <ENTERED_TERRAIN_TEXTURE_MODE>Entered Terrain Texture Mode</ENTERED_TERRAIN_TEXTURE_MODE>
+        <ENTERED_TERRAIN_HEIGHT_MODE>Entered Terrain Height Mode</ENTERED_TERRAIN_HEIGHT_MODE>
+        <ENTERED_TERRAIN_FILTER_MODE>Entered Terrain Filter Mode</ENTERED_TERRAIN_FILTER_MODE>
+        <ENTERED_TERRAIN_HOLE_MODE>Entered Terrain Hole Mode</ENTERED_TERRAIN_HOLE_MODE>
+        <ENTERED_OBJECT_MODE>Entered Object Mode</ENTERED_OBJECT_MODE>
+        <ENTERED_PROJECT_MODE>Entered Project Mode</ENTERED_PROJECT_MODE>
+        <ENTERED_HEIGHT_MODE>Entered Height Mode</ENTERED_HEIGHT_MODE>
+        <MODE_NOT_IMPLEMENTED>%0 mode not yet implemented</MODE_NOT_IMPLEMENTED>
+        <ADDED>Added %0</ADDED>
+        <COULD_NOT_CREATE_DATA_SECTION>Could not create data section</COULD_NOT_CREATE_DATA_SECTION>
+        <COULD_NOT_OPEN_MODEL_FILE>Could not open model file. Shell not added</COULD_NOT_OPEN_MODEL_FILE>
+        <MODEL_IS_NODEFULL>Warning: model is nodefull, shell not statically lit</MODEL_IS_NODEFULL>
+        <RECREATE_CHUNKS>Recreated chunks</RECREATE_CHUNKS>
+        <CLONED_SELECTION>Cloned selection</CLONED_SELECTION>
+        <NO_MATCHING_PORTALS>No matching portals</NO_MATCHING_PORTALS>
+        <NORMAL_MAP_NOT_FOUND>Normal map for static decal was not found, a diffuse decal will be created (filename: %0)</NORMAL_MAP_NOT_FOUND>
+	  </WORLD_EDITOR_DIRECTOR_PY>
+      <ACTIONS_PY>
+        <EXECUTE_NOT_IMPLEMENTED>%0 execute not yet implemented</EXECUTE_NOT_IMPLEMENTED>
+        <NOTHING_SELECTED>Nothing selected</NOTHING_SELECTED>
+      </ACTIONS_PY>
+      <UIEXT_PY>
+        <UNDOING>Undoing: %0</UNDOING>
+        <REDOING>Redoing: %0</REDOING>
+        <NOTHING_SELECTED>Nothing selected</NOTHING_SELECTED>
+        <UNABLE_TO_OPEN_LOCAL_DIRECTORY>Unable to open local directory %0</UNABLE_TO_OPEN_LOCAL_DIRECTORY>
+        <UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>Unable to create space.localsettings</UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>
+        <CAMERA_POSITION_SAVED>Camera position saved</CAMERA_POSITION_SAVED>
+        <UNABLE_TO_OPEN_SPACE_SETTINGS>Unable to create space.settings</UNABLE_TO_OPEN_SPACE_SETTINGS>
+        <START_POSITION_SET_TO_CAMERA_POSITION>Start position set to camera position</START_POSITION_SET_TO_CAMERA_POSITION>
+        <UMBRA_NOT_INCLUDED>Umbra is not included in this executable.</UMBRA_NOT_INCLUDED>
+        <UNHIDE_ALL_OBJECTS>Unhiding all objects</UNHIDE_ALL_OBJECTS>
+        <UNHIDE_ALL_SELECTABLE_OBJECTS>Unhiding all selectable objects</UNHIDE_ALL_SELECTABLE_OBJECTS>
+        <UNFREEZE_ALL_OBJECTS>Unfreeze all objects</UNFREEZE_ALL_OBJECTS>
+        <UNFREEZE_ALL_SELECTABLE_OBJECTS>Unfreeze all selectable objects</UNFREEZE_ALL_SELECTABLE_OBJECTS>
+      </UIEXT_PY>
+      <SPACEIMAGECREATOR_PY>
+	<IMAGE_SIZE_TOO_SMALL>	The specified image size is too small, no tile is generated.	</IMAGE_SIZE_TOO_SMALL>
+      </SPACEIMAGECREATOR_PY>      
+      <UIADAPTER_PY>
+        <CLICK_NOT_IMPLEMENTED>%0 click not yet implemented</CLICK_NOT_IMPLEMENTED>
+        <ADJUST_NOT_IMPLEMENTED>%0 adjust not yet implemented %1 &lt; %2 &lt; %3</ADJUST_NOT_IMPLEMENTED>
+        <TOGGLE_NOT_IMPLEMENTED>%0 toggle not yet implemented. value = %1</TOGGLE_NOT_IMPLEMENTED>
+        <SELECT_NOT_IMPLEMENTED>%0 select not yet implemented. selection = %1</SELECT_NOT_IMPLEMENTED>
+        <EVENT_NOT_IMPLEMENTED>Generic event (%0, %1) not yet implemented</EVENT_NOT_IMPLEMENTED>
+        <ITEM_NOT_IMPLEMENTED>%0 browser item (%1) select not yet implemented</ITEM_NOT_IMPLEMENTED>
+        <LIST_ITEM_NOT_IMPLEMENTED>%0 list item[%1] select not yet implemented</LIST_ITEM_NOT_IMPLEMENTED>
+        <SELECTION_FILTER>Selection filter: %0</SELECTION_FILTER>
+        <REFERENCE_COORDINATE_SYSTEM>Reference coordinate system: %0</REFERENCE_COORDINATE_SYSTEM>
+        <UNABLE_TO_OPEN_LOCAL_DIRECTORY>Unable to open local directory %0</UNABLE_TO_OPEN_LOCAL_DIRECTORY>
+        <UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>Unable to create space.localsettings</UNABLE_TO_OPEN_SPACE_LOCALSETTINGS>
+        <CAMERA_POSITION_SAVED>Camera position saved</CAMERA_POSITION_SAVED>
+        <UNABLE_TO_OPEN_SPACE_SETTINGS>Unable to create space.settings</UNABLE_TO_OPEN_SPACE_SETTINGS>
+        <START_POSITION_SET_TO_CAMERA_POSITION>Start position set to camera position</START_POSITION_SET_TO_CAMERA_POSITION>
+		<FILTER_LIST>
+			<ALL>All</ALL>
+			<All_EXCEPT_TERRAIN_AND_SHELLS>All Except Terrain and Shells</All_EXCEPT_TERRAIN_AND_SHELLS>
+			<SHELL_CONTENTS>Shells + Contents</SHELL_CONTENTS>
+			<ALL_LIGHTS>All Lights</ALL_LIGHTS>
+			<OMNI_LIGHTS>Omni Lights</OMNI_LIGHTS>
+			<AMBIENT_LIGHTS>Ambient Lights</AMBIENT_LIGHTS>
+			<DIRECTIONAL_LIGHTS>Directional Lights</DIRECTIONAL_LIGHTS>
+			<PULSE_LIGHTS>Pulse Lights</PULSE_LIGHTS>
+			<SPOT_LIGHTS>Spot Lights</SPOT_LIGHTS>
+			<MODELS>Models</MODELS>
+			<TREES>Trees</TREES>
+			<ENTITIES>Entities</ENTITIES>
+			<CLUSTERS_AND_MARKERS>Clusters and Markers</CLUSTERS_AND_MARKERS>
+			<PARTICLES>Particles</PARTICLES>
+			<WAYPOINT_STATIONS>Waypoint Stations</WAYPOINT_STATIONS>
+			<TERRAIN>Terrain</TERRAIN>
+			<SOUNDS>Sounds</SOUNDS>
+			<WATER>Water</WATER>
+			<PORTALS>Portals</PORTALS>
+			<USER_DATA_OBJECTS>User Data Objects</USER_DATA_OBJECTS>
+			<HIDDEN_OBJECTS>Hidden Objects</HIDDEN_OBJECTS>
+			<FROZEN_OBJECTS>Frozen Objects</FROZEN_OBJECTS>
+		</FILTER_LIST>
+      </UIADAPTER_PY>
+      <ECOTYPES_PY>
+        <FINISHED_CALC_ECOTYPES>finished calculating ecotypes</FINISHED_CALC_ECOTYPES>
+      </ECOTYPES_PY>
+      <POST_PROCESSING_UI_ADAPTER_PY>
+        <FAILED_LOADING_CHAIN>Failed loading chain %0.</FAILED_LOADING_CHAIN>
+        <FAILED_REMOVING_CHAIN>Failed to remove chain %0.</FAILED_REMOVING_CHAIN>
+        <CHAIN_SAVED_TO>Chain saved to %0.</CHAIN_SAVED_TO>
+        <FAILED_SAVING_CHAIN>Failed saving chain %0.</FAILED_SAVING_CHAIN>
+      </POST_PROCESSING_UI_ADAPTER_PY>
+      <TERRAIN_UI_ADAPTER>
+        <UNKNOWN_TAB>%0 unknown tab</UNKNOWN_TAB>
+      </TERRAIN_UI_ADAPTER>
+      <TOOLBAR_UI_ADAPTER>
+        <UNDOING>Undoing: %0</UNDOING>
+        <REDOING>Redoing: %0</REDOING>
+        <MOVEMENT_SNAPS>Movement snaps are %0,%0,%0</MOVEMENT_SNAPS>
+        <ROTATION_SNAPS>Rotation snaps are %0</ROTATION_SNAPS>
+      </TOOLBAR_UI_ADAPTER>
+      <PROGRESS_BAR_MSG>
+        <CREATING_LEVEL_IMAGES>Creating level images...</CREATING_LEVEL_IMAGES>
+        <CREATING_SPACE_MAP>Creating space map...</CREATING_SPACE_MAP>
+      </PROGRESS_BAR_MSG>
+    </SCRIPT>
+	</en>
+</root>

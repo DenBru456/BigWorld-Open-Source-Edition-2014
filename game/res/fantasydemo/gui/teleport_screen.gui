@@ -1,0 +1,88 @@
+<teleport_screen.gui>
+	<GoboComponent>	223357328
+		<position>	0.000000 0.000000 0.2500000	</position>
+		<width>	2.000000	</width>
+		<height>	2.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;PyGUI.TeleportProgressBar&quot;
+			<checkRate>	0.05	</checkRate>
+			<timeout>	60	</timeout>
+			<aspectRatio>	-1 </aspectRatio>
+		</script>
+		<children>
+			<back>	221780832	</back>
+			<bar>	221997344	</bar>
+		</children>
+		<shaders>
+			<fader>	222080408	</fader>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</GoboComponent>
+	<SimpleGUIComponent>	221780832
+		<position>	0.050000 -0.600000 1.000000	</position>
+		<width>	1.037109	</width>
+		<height>	0.151042	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/loadingbar_backing.dds	</textureName>
+		<materialFX>	9	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	221997344
+		<position>	0.050000 -0.600000 0.950000	</position>
+		<width>	0.978516	</width>
+		<height>	0.151042	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/loadingbar_bar.dds	</textureName>
+		<materialFX>	9	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<clipper>	220885320	</clipper>
+		</shaders>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+		<filterType>	2	</filterType>
+	</SimpleGUIComponent>
+	<AlphaGUIShader>	222080408
+		<mode>	0	</mode>
+		<stop>	-1.000000	</stop>
+		<start>	1.000000	</start>
+		<alpha>	1.000000	</alpha>
+		<speed>	2.000000	</speed>
+	</AlphaGUIShader>
+	<ClipGUIShader>	220885320
+		<mode>	0	</mode>
+		<value>	0.000000	</value>
+		<speed>	0.150000	</speed>
+		<delay>	0.000000	</delay>
+		<slant>	0.000000	</slant>
+	</ClipGUIShader>
+</teleport_screen.gui>

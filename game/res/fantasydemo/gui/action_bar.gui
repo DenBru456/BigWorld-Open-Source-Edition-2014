@@ -1,0 +1,982 @@
+<action_bar.gui>
+	<WindowGUIComponent>	514636176
+		<position>	0.000000 -1.000000 0.600000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	991.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	53.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<textureName>	gui/maps/action_bar.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	false	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.828125	</coords1>
+			<coords2>	0.967773 0.828125	</coords2>
+			<coords3>	0.967773 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.ActionBar&quot;	</script>
+		<children>
+			<uiDisplayButton>	444854704	</uiDisplayButton>
+			<terrainWireframeButton>	514639232	</terrainWireframeButton>
+			<helpButton>	514639808	</helpButton>
+			<inventoryButton>	514640384	</inventoryButton>
+			<postProcessingWindowButton>	514640960	</postProcessingWindowButton>
+			<voipButton>	514641536	</voipButton>
+			<chatButton>	444802304	</chatButton>
+			<ingameMenuButton>	444802880	</ingameMenuButton>
+			<environmentWindowButton>	444803456	</environmentWindowButton>
+			<networkStatsButton>	444804032	</networkStatsButton>
+			<jobSystemButton>	444804608	</jobSystemButton>
+			<flyThroughButton>	444805184	</flyThroughButton>
+			<umbraButton>	444805760	</umbraButton>
+			<pythonButton>	444806336	</pythonButton>
+			<watcherButton>	444806912	</watcherButton>
+			<fpsButton>	444807488	</fpsButton>
+			<histogramButton>	444808064	</histogramButton>
+			<cellBoundsButton>	444808640	</cellBoundsButton>
+			<objectWireframeButton>	444809216	</objectWireframeButton>
+			<webButton>	444809792	</webButton>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444854704
+		<position>	880.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	514639232
+		<position>	834.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	514639808
+		<position>	7.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	514640384
+		<position>	98.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<line2>	player&apos;s inventory window.	</line2>
+					<line3>	</line3>
+					<line1>	Toggles the display of the	</line1>
+					<shortcut>	(I)	</shortcut>
+					<title>	Inventory	</title>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	514640960
+		<position>	145.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<line1>	Toggles the display of the	</line1>
+					<line2>	post processing window.	</line2>
+					<line3>	</line3>
+					<shortcut>	(P)	</shortcut>
+					<title>	Post Processing	</title>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	514641536
+		<position>	191.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.351563 0.000000	</coords0>
+			<coords1>	0.351563 0.351563	</coords1>
+			<coords2>	0.527344 0.351563	</coords2>
+			<coords3>	0.527344 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	true	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444802304
+		<position>	237.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444802880
+		<position>	283.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444803456
+		<position>	344.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip2line	</templateName>
+				<items>
+					<line1>	Toggles the display of the	</line1>
+					<line2>	environment window.	</line2>
+					<line3>	</line3>
+					<shortcut>	(T)	</shortcut>
+					<title>	Environment	</title>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444804032
+		<position>	390.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444804608
+		<position>	436.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444805184
+		<position>	941.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+		<materialFX>	9	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.351563 0.000000	</coords0>
+			<coords1>	0.351563 0.351563	</coords1>
+			<coords2>	0.527344 0.351563	</coords2>
+			<coords3>	0.527344 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	true	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444805760
+		<position>	696.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444806336
+		<position>	497.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/action_bar_hl.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.527344 0.000000	</coords0>
+			<coords1>	0.527344 0.351563	</coords1>
+			<coords2>	0.703125 0.351563	</coords2>
+			<coords3>	0.703125 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444806912
+		<position>	543.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444807488
+		<position>	589.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444808064
+		<position>	635.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444808640
+		<position>	742.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444809216
+		<position>	788.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>	
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	444809792
+		<position>	52.000000 5.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	45.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	45.000000	</height>
+		<colour>	0.000000 0.000000 0.000000 0.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/maps/col_white.dds	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<mouseButtonFocus>	true	</mouseButtonFocus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 6.250000	</coords1>
+			<coords2>	6.250000 6.250000	</coords2>
+			<coords3>	6.250000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip2line	</templateName>
+				<items>
+					<line2>	Web Browser.	</line2>
+					<line3>	</line3>
+					<line1>	Toggles the display of the	</line1>
+					<shortcut>	(F2)	</shortcut>
+					<title>	Web	</title>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	togglebutton	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/action_bar_button.xml	</external>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+</action_bar.gui>

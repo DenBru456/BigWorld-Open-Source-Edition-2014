@@ -1,0 +1,143 @@
+<root>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-1.467803 0.000002 -0.089020	</row0>
+			<row1>	0.000002 1.470500 -0.000001	</row1>
+			<row2>	0.089020 -0.000003 -1.467803	</row2>
+			<row3>	29.820160 202.517578 74.818512	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<resource>	sets/minspec/props/tree/model/tree_mid.model	</resource>
+		<transform>
+			<row0>	-0.717217 0.000003 1.066128	</row0>
+			<row1>	0.000002 1.284923 -0.000003	</row1>
+			<row2>	-1.066128 -0.000000 -0.717217	</row2>
+			<row3>	25.124237 201.847656 99.442749	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.958152 0.000000 0.433735	</row0>
+			<row1>	0.000001 1.051752 -0.000001	</row1>
+			<row2>	-0.433735 -0.000001 -0.958152	</row2>
+			<row3>	25.740265 202.163086 81.346466	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.632823 -0.000001 -0.801902	</row0>
+			<row1>	0.000001 1.021526 -0.000002	</row1>
+			<row2>	0.801902 -0.000003 -0.632823	</row2>
+			<row3>	20.969543 201.633789 90.379639	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.485590 -0.000001 -0.615332	</row0>
+			<row1>	0.000001 0.783858 -0.000002	</row1>
+			<row2>	0.615332 -0.000002 -0.485590	</row2>
+			<row3>	16.017029 201.385742 87.886963	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.479995 0.000000 0.704686	</row0>
+			<row1>	0.000001 0.852630 -0.000000	</row1>
+			<row2>	-0.704686 -0.000000 -0.479995	</row2>
+			<row3>	31.478882 202.777344 91.378876	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData />
+		<resource>	sets/minspec/props/tree/model/tree.model	</resource>
+		<transform>
+			<row0>	-0.724979 -0.000001 -0.918681	</row0>
+			<row1>	0.000002 1.170288 -0.000003	</row1>
+			<row2>	0.918681 -0.000003 -0.724979	</row2>
+			<row3>	16.271851 201.083008 98.293976	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</model>
+	<terrain>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<resource>	0003fffeo.cdata/terrain2	</resource>
+	</terrain>
+	<vlo>
+		<uid>	ed050d0c.4e047eff.772d4987.72100cf0	</uid>
+		<type>	water	</type>
+	</vlo>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<guid>	E146C5BD.46FE6688.6F6445B8.A8D8C9C6	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<worldNavmesh>
+		<resource>	0003fffeo.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

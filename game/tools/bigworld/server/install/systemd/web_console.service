@@ -1,0 +1,14 @@
+[Unit]
+Description=BigWorld WebConsole
+Requires=network.target time-sync.target bwmachined2.service bw_message_logger.service
+After=network.target syslog.target time-sync.target bwmachined2.service bw_message_logger.service
+
+[Service]
+Type=forking
+ExecStart=###bigworld_initrd_dir###/bw_web_console start
+ExecStop=###bigworld_initrd_dir###/bw_web_console stop
+PIDFile=###pid_dir###/web_console.pid
+
+[Install]
+WantedBy=multi-user.target
+

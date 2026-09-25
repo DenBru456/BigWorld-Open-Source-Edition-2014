@@ -1,0 +1,167 @@
+<root>
+	<!-- Scene Browser's toolbar-->
+	<Toolbar>
+		<item>
+			<name>	SBToolbar	</name>
+			<type>	GROUP	</type>
+			<item>
+				<!-- Hide Object(s) -->
+				<type>	ACTION	</type>
+				<description>	SCENEBROWSERTOOLBAR/HIDE_SELECTED	</description>
+				<action>	doHideSelectionAndKeep	</action>
+				<imageNormal>	resources/scene_browser/toolbar.bmp:0,0,16,16	</imageNormal>
+				<transparency> 255,0,255 </transparency>
+			</item>
+			<item>
+				<!-- Unhide Object(s) -->
+				<type>	ACTION	</type>
+				<description>	SCENEBROWSERTOOLBAR/UNHIDE_SELECTED	</description>
+				<action>	doUnhideSelectionAndKeep	</action>
+				<imageNormal>	resources/scene_browser/toolbar.bmp:16,0,32,16	</imageNormal>
+				<transparency> 255,0,255 </transparency>
+			</item>
+			<item>
+				<!-- Freeze Object(s) -->
+				<type>	ACTION	</type>
+				<description>	SCENEBROWSERTOOLBAR/FREEZE_SELECTED	</description>
+				<action>	doFreezeSelectionAndKeep	</action>
+				<imageNormal>	resources/scene_browser/toolbar.bmp:32,0,48,16	</imageNormal>
+				<transparency> 255,0,255 </transparency>
+			</item>
+			<item>
+				<!-- Unfreeze Object(s) -->
+				<type>	ACTION	</type>
+				<description>	SCENEBROWSERTOOLBAR/UNFREEZE_SELECTED	</description>
+				<action>	doUnfreezeSelectionAndKeep	</action>
+				<imageNormal>	resources/scene_browser/toolbar.bmp:48,0,64,16	</imageNormal>
+				<transparency> 255,0,255 </transparency>
+			</item>
+			<item>
+				<type>	SEPARATOR	</type>
+			</item>
+			<item>
+				<!-- Auto-zoom to Object toggle button -->
+				<type>	TOGGLE	</type>
+				<description>	SCENEBROWSERTOOLBAR/AUTOZOOM	</description>
+				<imageNormal>	resources/scene_browser/toolbar.bmp:64,0,80,16	</imageNormal>
+				<transparency> 255,0,255 </transparency>
+				<item>
+					<type>	CHILD	</type>
+					<action> scenebrowser/autozoom = 1 </action>
+					<updater> scenebrowser/autozoom == 0 </updater>
+				</item>
+				<item>
+					<type>	CHILD	</type>
+					<action> scenebrowser/autozoom = 0 </action>
+				</item>
+			</item>
+		</item>
+	</Toolbar>
+	
+	<!-- Scene Browser's list default configuration and column properties -->
+	<List>
+		<DefaultColumnLayout>
+			<!-- List header image size. Don't change these values. -->
+			<headerImageWidth> 16 </headerImageWidth>
+			<headerImageHeight> 13 </headerImageHeight>
+			<headerImageMargin> 2 </headerImageMargin>
+			
+			<!-- "Asset Name" column -->
+			<Column> SCENEBROWSER/COLUMNS/ASSET_NAME
+			
+				<!-- The "typeName" corresponds to the property's name, or to
+				one of the built-in types. -->
+				<typeName> builtin_assetName </typeName>
+				
+				<!-- The "type" corresponds to the property's type, be it BOOL,
+				INT, FLOAT, STRING, VECTOR, COLOUR or FILEPATH. -->
+				<type> STRING </type>
+				
+				<!-- This tag specifies the width of the column, in pixels. -->
+				<width> 180 </width>
+				
+				<!-- This flag tells the Scene Browser whether to show this
+				column in the "Group By" drop-down list in the panel. -->
+				<allowGrouping>	true </allowGrouping>
+				
+				<!-- The image tag allows showing an image in the header. -->
+				<!-- <image> resources/scene_browser/my_image.bmp </image> -->
+			</Column>
+			
+			<!-- "Chunk ID" column -->
+			<Column> SCENEBROWSER/COLUMNS/CHUNK
+				<typeName> builtin_chunkId </typeName>
+				<type> STRING </type>
+				<width> 70 </width>
+				<allowGrouping> true </allowGrouping>
+			</Column>
+			
+			<!-- "Asset Type" column -->
+			<Column> SCENEBROWSER/COLUMNS/ASSET_TYPE
+				<typeName> builtin_assetType </typeName>
+				<type> STRING </type>
+				<width> 95 </width>
+				<allowGrouping> true </allowGrouping>
+			</Column>
+			
+			<!-- "Is Hidden" column -->
+			<Column> SCENEBROWSER/COLUMNS/HIDDEN
+				
+				<!-- This tag allows showing an image in the column header. -->
+				<image> resources/scene_browser/hidden.bmp </image>
+				
+				<typeName> builtin_hidden </typeName>
+				<type> BOOL </type>
+				<width> 25 </width>
+			</Column>
+			
+			<!-- "Is Frozen" column -->
+			<Column> SCENEBROWSER/COLUMNS/FROZEN
+				<image> resources/scene_browser/frozen.bmp </image>
+				<typeName> builtin_frozen </typeName>
+				<type> BOOL </type>
+				<width> 25 </width>
+			</Column>
+			
+			<!-- "File Path" column -->
+			<Column> SCENEBROWSER/COLUMNS/PATH
+				<typeName> builtin_filePath </typeName>
+				<type> FILEPATH </type>
+				<width> 200 </width>
+				<allowGrouping> true </allowGrouping>
+			</Column>
+
+			<!-- "Casts Shadow" column -->
+			<Column> SCENEBROWSER/COLUMNS/SHADOWS
+				<image> resources/scene_browser/shadows.bmp </image>
+				<typeName> `WORLDEDITOR/WORLDEDITOR/CHUNK/EDITOR_CHUNK_MODEL/CASTS_SHADOW </typeName>
+				<type> BOOL </type>
+				<width> 25 </width>
+			</Column>
+
+			<!-- "Reflection Visible" column -->
+			<Column> SCENEBROWSER/COLUMNS/REFLECTION
+				<image> resources/scene_browser/reflection.bmp </image>
+				<typeName> `WORLDEDITOR/WORLDEDITOR/CHUNK/EDITOR_CHUNK_MODEL/REFLECTION_VISIBLE </typeName>
+				<type> BOOL </type>
+				<width> 25 </width>
+			</Column>
+
+			<!-- "Number of Triangles" column -->
+			<Column> SCENEBROWSER/COLUMNS/TRIS
+				<typeName> builtin_numTris </typeName>
+				<type> INT </type>
+				<width> 45 </width>
+				<allowGrouping> true </allowGrouping>
+			</Column>
+			
+			<!-- "Number of Primitives" column -->
+			<Column> SCENEBROWSER/COLUMNS/PRIMS
+				<typeName> builtin_numPrims </typeName>
+				<type> INT </type>
+				<width> 45 </width>
+				<allowGrouping> true </allowGrouping>
+			</Column>
+		</DefaultColumnLayout>
+	</List>
+</root>

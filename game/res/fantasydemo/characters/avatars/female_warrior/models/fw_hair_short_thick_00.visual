@@ -1,0 +1,164 @@
+<fw_hair_short_thick_00.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	biped	</identifier>
+			<transform>
+				<row0>	-0.000001 0.000000 1.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	-1.000000 0.000000 -0.000001	</row2>
+				<row3>	-0.000000 1.039428 -0.024950	</row3>
+			</transform>
+			<node>
+				<identifier>	biped Pelvis	</identifier>
+				<transform>
+					<row0>	0.000000 1.000000 -0.000001	</row0>
+					<row1>	-0.000001 0.000001 1.000000	</row1>
+					<row2>	1.000000 0.000000 0.000001	</row2>
+					<row3>	-0.031719 0.000416 -0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	biped Spine	</identifier>
+					<transform>
+						<row0>	0.965720 0.000001 0.259588	</row0>
+						<row1>	-0.000002 1.000000 0.000004	</row1>
+						<row2>	-0.259588 -0.000004 0.965720	</row2>
+						<row3>	0.064957 -0.000000 0.026584	</row3>
+					</transform>
+					<node>
+						<identifier>	biped Spine1	</identifier>
+						<transform>
+							<row0>	0.947772 -0.000001 -0.318950	</row0>
+							<row1>	0.000001 1.000000 -0.000000	</row1>
+							<row2>	0.318950 -0.000000 0.947772	</row2>
+							<row3>	0.136475 -0.000000 -0.000103	</row3>
+						</transform>
+						<node>
+							<identifier>	biped Spine2	</identifier>
+							<transform>
+								<row0>	0.939693 -0.000001 -0.342020	</row0>
+								<row1>	0.000001 1.000000 -0.000000	</row1>
+								<row2>	0.342020 -0.000000 0.939693	</row2>
+								<row3>	0.136468 -0.000000 -0.000115	</row3>
+							</transform>
+							<node>
+								<identifier>	biped Neck	</identifier>
+								<transform>
+									<row0>	0.733122 0.040302 0.678902	</row0>
+									<row1>	-0.146589 0.984143 0.099873	</row1>
+									<row2>	-0.664111 -0.172739 0.727405	</row2>
+									<row3>	0.202632 0.000000 -0.012916	</row3>
+								</transform>
+								<node>
+									<identifier>	biped Head	</identifier>
+									<transform>
+										<row0>	0.984764 -0.068390 -0.159887	</row0>
+										<row1>	0.040301 0.984143 -0.172738	</row1>
+										<row2>	0.169165 0.163663 0.971904	</row2>
+										<row3>	0.062487 -0.002811 -0.001435	</row3>
+									</transform>
+									<node>
+										<identifier>	biped HeadBlendBoneHair_Short_Thick_00	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000001	</row0>
+											<row1>	0.986286 -0.000000 -0.165046	</row1>
+											<row2>	0.165046 0.000001 0.986286	</row2>
+											<row3>	-1.577638 0.000001 0.342461	</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>	biped HeadBlendBoneHair_Short_Lod0	</identifier>
+										<transform>
+											<row0>	-0.000000 -1.000000 0.000001	</row0>
+											<row1>	0.986286 -0.000000 -0.165046	</row1>
+											<row2>	0.165046 0.000001 0.986286	</row2>
+											<row3>	-1.578195 0.000001 0.342495	</row3>
+										</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped HeadBlendBoneHair_Short_Lod0	</node>
+		<geometry>
+			<vertices>	Hair_Short_Lod0.vertices	</vertices>
+			<primitive>	Hair_Short_Lod0.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Hair_Short_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	11	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/avatars/female_warrior/maps/hair_short_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	142	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/avatars/female_warrior/maps/hair_short_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/hair_short.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	biped HeadBlendBoneHair_Short_Thick_00	</node>
+		<geometry>
+			<vertices>	Hair_Short_Thick_00.vertices	</vertices>
+			<primitive>	Hair_Short_Thick_00.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Hair_Short_skinned	</identifier>
+					<fx>	shaders/std_effects/normalmap_specmap_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	11	</materialKind>
+					<property>	specularMap
+						<Texture>	characters/avatars/female_warrior/maps/hair_short_s.bmp	</Texture>
+					</property>
+					<property>	alphaReference
+						<Int>	142	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	normalMap
+						<Texture>	characters/avatars/female_warrior/maps/hair_short_norms.bmp	</Texture>
+					</property>
+					<property>	diffuseMap
+						<Texture>	characters/avatars/female_warrior/maps/hair_short.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.103876 1.628880 -0.187148	</min>
+		<max>	0.090553 1.835950 0.035698	</max>
+	</boundingBox>
+</fw_hair_short_thick_00.visual>

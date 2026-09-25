@@ -1,0 +1,42 @@
+<root>
+	<Flare>
+		<type>	materials/fx/corona.mfm</type>
+		<width>	2.0	</width>
+		<height> 0.05		</height>
+		<depth>	1.0		</depth>
+		<rgba>	255 255 255 128 </rgba>
+
+		<secondaries>
+			<Flare>
+				<type>	materials/fx/corona.mfm </type>
+				<size>	0.3	</size>
+				<depth>	1.0		</depth>
+				<rgba>	512 512 512 255 </rgba>
+			</Flare>
+			<Flare>
+				<type>	materials/fx/secondary.mfm </type>
+				<size>	0.1	</size>
+				<depth>	0.8		</depth>
+				<rgba>	255 128 192 32 </rgba>
+			</Flare>
+			<Flare>
+				<type>	materials/fx/secondary.mfm </type>
+				<size>	0.05	</size>
+				<depth>	0.4		</depth>
+				<rgba>	128 255 192 32 </rgba>
+			</Flare>
+			<Flare>
+				<type>	materials/fx/secondary.mfm </type>
+				<size>	0.025	</size>
+				<depth>	0.3		</depth>
+				<rgba>	128 128 192 32 </rgba>
+			</Flare>
+			<Flare>
+				<type>	materials/fx/rainbow.mfm </type>
+				<size>	1.1	</size>
+				<depth>	1.0		</depth>
+				<rgba>	128 128 128 16 </rgba>
+			</Flare>
+		</secondaries>
+	</Flare>
+</root>

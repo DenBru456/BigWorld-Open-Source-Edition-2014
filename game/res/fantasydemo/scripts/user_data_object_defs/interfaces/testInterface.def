@@ -1,0 +1,11 @@
+<root>
+	<Domain>	CELL 		</Domain>
+	<Properties>
+		<testInterfaceProperty>
+			<Type>	BOOL 	</Type>
+			<Flags>	OWN_CLIENT </Flags>
+			<Default> 1		</Default>
+			<Editable>	true	</Editable>
+		</testInterfaceProperty>	
+	</Properties>
+</root>

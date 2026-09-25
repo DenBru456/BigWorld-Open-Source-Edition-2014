@@ -1,0 +1,127 @@
+<testsetoptions.xml>
+	<currentLocation>	10000	</currentLocation>
+	<command>	CMD_SET_OPTIONS
+		<option>	CLASSIC_TERRAIN_QUALITY
+			<optionValue>	TERRAIN_SHADER_MODEL_0	</optionValue>
+		</option>
+		<option>	FAR_PLANE
+			<optionValue>	Near	</optionValue>
+		</option>
+		<option>	FLORA_DENSITY
+			<optionValue>	Off	</optionValue>
+		</option>
+		<option>	FOOT_PRINTS
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	MORPH_VERTICES
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	MRT_DEPTH
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	OBJECT_LOD
+			<optionValue>	Low	</optionValue>
+		</option>
+		<option>	SHADOWS_COUNT
+			<optionValue>	0	</optionValue>
+		</option>
+		<option>	SHADOWS_QUALITY
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	SKY_LIGHT_MAP
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	SPEEDTREE_QUALITY
+			<optionValue>	LOW	</optionValue>
+		</option>
+		<option>	TERRAIN_LOD
+			<optionValue>	Near	</optionValue>
+		</option>
+		<option>	TERRAIN_MESH_RESOLUTION
+			<optionValue>	LOW	</optionValue>
+		</option>
+		<option>	TEXTURE_COMPRESSION
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	TEXTURE_FILTERING
+			<optionValue>	POINT	</optionValue>
+		</option>
+		<option>	TEXTURE_QUALITY
+			<optionValue>	LOW	</optionValue>
+		</option>
+		<option>	VideoMode
+			<optionValue>	1600x1200x32	</optionValue>
+		</option>
+		<option>	WATER_QUALITY
+			<optionValue>	LOWEST	</optionValue>
+		</option>
+		<option>	WATER_SIMULATION
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	WindowedMode
+			<optionValue>	OFF	</optionValue>
+		</option>
+	</command>
+	<command>	CMD_SET_OPTIONS
+		<option>	CLASSIC_TERRAIN_QUALITY
+			<optionValue>	TERRAIN_SHADER_MODEL_2	</optionValue>
+		</option>
+		<option>	FAR_PLANE
+			<optionValue>	Far	</optionValue>
+		</option>
+		<option>	FLORA_DENSITY
+			<optionValue>	Very High	</optionValue>
+		</option>
+		<option>	FOOT_PRINTS
+			<optionValue>	ON	</optionValue>
+		</option>
+		<option>	MORPH_VERTICES
+			<optionValue>	ON	</optionValue>
+		</option>
+		<option>	MRT_DEPTH
+			<optionValue>	ON	</optionValue>
+		</option>
+		<option>	OBJECT_LOD
+			<optionValue>	High	</optionValue>
+		</option>
+		<option>	SHADOWS_COUNT
+			<optionValue>	64	</optionValue>
+		</option>
+		<option>	SHADOWS_QUALITY
+			<optionValue>	HIGH	</optionValue>
+		</option>
+		<option>	SKY_LIGHT_MAP
+			<optionValue>	ON	</optionValue>
+		</option>
+		<option>	SPEEDTREE_QUALITY
+			<optionValue>	VERYHIGH	</optionValue>
+		</option>
+		<option>	TERRAIN_LOD
+			<optionValue>	Far	</optionValue>
+		</option>
+		<option>	TERRAIN_MESH_RESOLUTION
+			<optionValue>	HIGH	</optionValue>
+		</option>
+		<option>	TEXTURE_COMPRESSION
+			<optionValue>	ON	</optionValue>
+		</option>
+		<option>	TEXTURE_FILTERING
+			<optionValue>	ANISOTROPIC_16X	</optionValue>
+		</option>
+		<option>	TEXTURE_QUALITY
+			<optionValue>	HIGH	</optionValue>
+		</option>
+		<option>	VideoMode
+			<optionValue>	640x480x32	</optionValue>
+		</option>
+		<option>	WATER_QUALITY
+			<optionValue>	HIGH	</optionValue>
+		</option>
+		<option>	WATER_SIMULATION
+			<optionValue>	HIGH	</optionValue>
+		</option>
+		<option>	WindowedMode
+			<optionValue>	ON	</optionValue>
+		</option>
+	</command>
+</testsetoptions.xml>

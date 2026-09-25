@@ -1,0 +1,93 @@
+<house_interior.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Scene Root	</node>
+		<geometry>
+			<vertices>	vertices	</vertices>
+			<primitive>	indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	house	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/props/house/maps/house.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	floor	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	1	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/shells/house/maps/house_floor.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	chimney	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	2	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/minspec/shells/house/maps/chimney.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-7.333856 1.277046 -4.190486	</min>
+		<max>	7.644208 14.433733 5.605807	</max>
+	</boundingBox>
+	<boundary>
+		<normal>	-1.000000 0.000000 0.000000	</normal>
+		<d>	-6.500000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 1.000000 -0.000000	</normal>
+		<d>	1.277046	</d>
+	</boundary>
+	<boundary>
+		<normal>	1.000000 0.000000 0.000000	</normal>
+		<d>	-6.199999	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.649851 -0.760062	</normal>
+		<d>	-9.870875	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 -1.000000	</normal>
+		<d>	-5.400000	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 -0.644481 0.764620	</normal>
+		<d>	-7.783365	</d>
+	</boundary>
+	<boundary>
+		<normal>	0.000000 0.000000 1.000000	</normal>
+		<d>	-2.700000	</d>
+		<portal>
+			<uAxis>	1.000000 0.000000 0.000000	</uAxis>
+			<point>	-1.650000 4.999999 0.000000	</point>
+			<point>	2.200000 4.999999 0.000000	</point>
+			<point>	2.200000 1.500000 0.000000	</point>
+			<point>	-1.650000 1.500000 0.000000	</point>
+		</portal>
+	</boundary>
+	<customHull>	true	</customHull>
+	<materialKind>	1	</materialKind>
+</house_interior.visual>

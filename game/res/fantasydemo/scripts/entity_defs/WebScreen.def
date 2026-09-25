@@ -1,0 +1,142 @@
+<root>
+	<Properties>
+   		<webScreenType>
+			<Type>		ENUM			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</webScreenType>
+
+		<textureFeedName>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		bone_tv			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</textureFeedName>
+
+		<triggerRadius>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		10.0			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+			<Widget>	RADIUS
+				<colour>	255 0 0 192	</colour>
+				<gizmoRadius>	1.5	</gizmoRadius>
+			</Widget>
+		</triggerRadius>
+
+		<feedSourcesInput>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>					</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</feedSourcesInput>
+
+		<feedUpdateDelay>
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</feedUpdateDelay>
+
+		<ratePerSecond>
+			<Type>		FLOAT			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</ratePerSecond>
+
+
+		<interactiveRatePerSecond>
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		20			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</interactiveRatePerSecond>
+
+		<dynamic>
+			<Type>			BOOL				</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</dynamic>
+
+		<interactive>
+			<Type>			BOOL				</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</interactive>
+
+		<usedTint>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		tv2			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</usedTint>
+
+		<scale>
+			<Type>		VECTOR3			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1.0 1.0 1.0			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</scale>
+
+		<width>
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		1024			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</width>
+
+		<height>
+			<Type>		UINT16			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		768			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</height>
+
+		<mipmap>
+			<Type>			BOOL				</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</mipmap>
+
+		<graphicsSettingsBehaviour>
+			<Type>		ENUM			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true			</Persistent>
+			<Editable>		true			</Editable>
+		</graphicsSettingsBehaviour>
+
+		<mozillaHandlesKeyboard>
+			<Type>			BOOL				</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Editable>		true			</Editable>
+			<Persistent>	true			</Persistent>
+		</mozillaHandlesKeyboard>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

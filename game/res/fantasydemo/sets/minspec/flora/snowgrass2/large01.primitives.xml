@@ -1,0 +1,113 @@
+<root>
+	<Scene Root>
+		<IndexHeader>
+			<IndexFormat>	list	</IndexFormat>
+			<NumIndices>	18	</NumIndices>
+			<NumPrimGroups>	1	</NumPrimGroups>
+		</IndexHeader>
+		<Indices>
+			<Index>	0	</Index>
+			<Index>	1	</Index>
+			<Index>	2	</Index>
+			<Index>	2	</Index>
+			<Index>	3	</Index>
+			<Index>	0	</Index>
+			<Index>	4	</Index>
+			<Index>	5	</Index>
+			<Index>	6	</Index>
+			<Index>	6	</Index>
+			<Index>	7	</Index>
+			<Index>	4	</Index>
+			<Index>	8	</Index>
+			<Index>	9	</Index>
+			<Index>	6	</Index>
+			<Index>	6	</Index>
+			<Index>	5	</Index>
+			<Index>	8	</Index>
+		</Indices>
+		<PrimGroups>
+			<PrimGroup>
+				<NumPrimGroups>	6	</NumPrimGroups>
+				<NumVertices>	10	</NumVertices>
+				<StartIndex>	0	</StartIndex>
+				<StartVertex>	0	</StartVertex>
+			</PrimGroup>
+		</PrimGroups>
+		<VertexHeader>
+			<VertexFormat>	xyznuvtb	</VertexFormat>
+			<NumVertices>	10	</NumVertices>
+		</VertexHeader>
+		<Vertices>
+			<Vertex>
+				<Pos>	0.003118 0.170885 0.123377	</Pos>
+				<Normal>	1025	</Normal>
+				<UV>	0.605499 0.001871	</UV>
+				<Tangent>	-2134902784	</Tangent>
+				<Binormal>	2093056	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	0.003118 -0.001098 0.123377	</Pos>
+				<Normal>	1025	</Normal>
+				<UV>	0.605499 1.001871	</UV>
+				<Tangent>	-2134902784	</Tangent>
+				<Binormal>	2093056	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	0.003118 -0.001098 -0.125974	</Pos>
+				<Normal>	1025	</Normal>
+				<UV>	1.000935 1.000000	</UV>
+				<Tangent>	-2134902784	</Tangent>
+				<Binormal>	2093056	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	0.003118 0.170885 -0.125974	</Pos>
+				<Normal>	1025	</Normal>
+				<UV>	1.000935 -0.000000	</UV>
+				<Tangent>	-2134902784	</Tangent>
+				<Binormal>	2093056	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	-0.022272 -0.001549 -0.096401	</Pos>
+				<Normal>	-562043942	</Normal>
+				<UV>	0.009353 0.476244	</UV>
+				<Tangent>	2063597840	</Tangent>
+				<Binormal>	2093060	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	0.003716 -0.001513 -0.000611	</Pos>
+				<Normal>	-1287675089	</Normal>
+				<UV>	0.269566 0.476244	</UV>
+				<Tangent>	1707082345	</Tangent>
+				<Binormal>	-10489847	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	0.004315 0.133846 -0.002513	</Pos>
+				<Normal>	-1275077837	</Normal>
+				<UV>	0.358604 0.005536	</UV>
+				<Tangent>	1715470948	</Tangent>
+				<Binormal>	-2101245	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	-0.022272 0.133775 -0.096401	</Pos>
+				<Normal>	-583007272	</Normal>
+				<UV>	0.009353 0.005572	</UV>
+				<Tangent>	2059403542	</Tangent>
+				<Binormal>	2093056	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	0.094928 -0.001549 0.054551	</Pos>
+				<Normal>	-1820343784	</Normal>
+				<UV>	0.537411 0.476244	</UV>
+				<Tangent>	1119880039	</Tangent>
+				<Binormal>	-10489852	</Binormal>
+			</Vertex>
+			<Vertex>
+				<Pos>	0.094928 0.133775 0.054551	</Pos>
+				<Normal>	-1811938783	</Normal>
+				<UV>	0.537411 0.005572	</UV>
+				<Tangent>	1140851553	</Tangent>
+				<Binormal>	2093056	</Binormal>
+			</Vertex>
+		</Vertices>
+	</Scene Root>
+</root>

@@ -1,0 +1,95 @@
+<target.gui>
+	<BoundingBoxGUIComponent>	50887832
+		<position>	0.000000 0.000000 1.000000	</position>
+		<width>	32.000000	</width>
+		<height>	32.000000	</height>
+		<colour>	255.000000 164.000000 0.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;PyGUI.PyGUIBase&quot;	</script>
+		<children>
+			<name>	50595160	</name>
+			<health>	50591760	</health>
+			<healthBk>	50591761	</healthBk>
+		</children>
+		<absoluteSubspace>	2	</absoluteSubspace>
+		<widthMode>	1	</widthMode>
+		<heightMode>	1	</heightMode>
+	</BoundingBoxGUIComponent>
+	<TextGUIComponent>	50595160
+		<position>	0.500000 1.000000 1.000000	</position>
+		<width>	128.000000	</width>
+		<height>	16.000000	</height>
+		<colour>	255.000 64.000000 64.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	2	</verticalAnchor>
+		<font>	default_medium.font	</font>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<label>	</label>
+		<widthMode>	1	</widthMode>
+		<heightMode>	1	</heightMode>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	50591761
+		<position>	0.500000 1.000000 1.000000	</position>
+		<width>	64.000000	</width>
+		<height>	8.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar_back.tga	</textureName>
+		<materialFX>	1	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	1	</widthMode>
+		<heightMode>	1	</heightMode>
+	</SimpleGUIComponent>
+	<SimpleGUIComponent>	50591760
+		<position>	0.500000 1.000000 0.990000	</position>
+		<width>	64.000000	</width>
+		<height>	8.000000	</height>
+		<colour>	0.000000 255.000000 0.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_bar.tga	</textureName>
+		<materialFX>	0	</materialFX>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<shaders>
+			<clipper>	51203512	</clipper>
+			<colourer>	19381784	</colourer>
+		</shaders>
+		<widthMode>	1	</widthMode>
+		<heightMode>	1	</heightMode>
+	</SimpleGUIComponent>
+	<ClipGUIShader>	51203512
+		<mode>	0	</mode>
+		<value>	1.000000	</value>
+		<speed>	0.500000	</speed>
+	</ClipGUIShader>
+	<ColourGUIShader>	19381784
+		<start>	255.000000 0.000000 0.000000 192.000000	</start>
+		<middle>	255.000000 255.000000 0.000000 192.000000	</middle>
+		<end>	0.000000 255.000000 0.000000 192.000000	</end>
+		<value>	1.000000	</value>
+		<speed>	0.500000	</speed>
+	</ColourGUIShader>
+</target.gui>

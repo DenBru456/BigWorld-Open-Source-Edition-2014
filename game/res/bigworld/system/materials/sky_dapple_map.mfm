@@ -1,0 +1,9 @@
+<light_map.mfm>
+	<fx>	shaders/terrain/sky_dapple_map.fx	</fx>
+	<property>	dappleMap
+		<Texture>	system/maps/dapple_map.tga	</Texture>
+	</property>
+	<property>	tile
+		<Float>	20.0	</Float>
+	</property>
+</light_map.mfm>

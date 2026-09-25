@@ -1,0 +1,2758 @@
+<weather_window.gui>
+	<WindowGUIComponent>	108025680
+		<position>	-0.731250 0.398489 0.475000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	344.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	512.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	0.6699219 1.000000	</coords2>
+			<coords3>	0.6699219 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;FDGUI.WeatherWindow&quot;
+			<horzDrag>	true	</horzDrag>
+			<vertDrag>	true	</vertDrag>
+			<restrictToParent>	true	</restrictToParent>
+		</script>
+		<children>
+			<windowLabel>	108033824	</windowLabel>
+			<timeOfDayLabel>	108036320	</timeOfDayLabel>
+			<weatherLabel>	108039008	</weatherLabel>
+			<weatherName>	108041696	</weatherName>
+			<windSpeedLabel>	108383888	</windSpeedLabel>
+			<timeOfDaySlider>	108389280	</timeOfDaySlider>
+			<timeOfDay>	108044768	</timeOfDay>
+			<windSpeedSlider>	108053168	</windSpeedSlider>
+			<windSpeed>	108063984	</windSpeed>
+			<closeBox>	108074160	</closeBox>
+			<accelerateTimeCheckBox>	107146864	</accelerateTimeCheckBox>
+			<randomWeatherCheckBox>	107230176	</randomWeatherCheckBox>
+			<environmentSyncCheckBox>	107230177	</environmentSyncCheckBox>
+			<weatherGrid>	107231856	</weatherGrid>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	108033824
+		<position>	16.000000 8.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.323438	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.046875	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Black_18.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Environment	</label>
+		<font>	Heading.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	108036320
+		<position>	31.000000 44.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.118750	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Time of Day	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	108039008
+		<position>	31.000000 174.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.084375	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Weather	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	108041696
+		<position>	313.000000 174.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.054688	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Clear	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<TextGUIComponent>	108383888
+		<position>	31.000000 290.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.117187	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Wind Speed	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+
+	<WindowGUIComponent>	108389280
+		<position>	172.000000 86.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	241.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Slider&quot;
+			<isHorizontal>	true	</isHorizontal>
+			<minValue>	0.000000	</minValue>
+			<maxValue>	24.000000	</maxValue>
+			<stepSize>	0.100000	</stepSize>
+			<visualStates>
+				<external>	gui/visual_states/slider.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<thumb>	107145920	</thumb>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<TextGUIComponent>	108044768
+		<position>	313.000000 44.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.062500	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	18:19	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	108053168
+		<position>	171.000000 320.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	241.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Slider&quot;
+			<isHorizontal>	true	</isHorizontal>
+			<minValue>	0.000000	</minValue>
+			<maxValue>	15.000000	</maxValue>
+			<stepSize>	0.100000	</stepSize>
+			<visualStates>
+				<external>	gui/visual_states/slider.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<thumb>	107080960	</thumb>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+
+	<TextGUIComponent>	108063984
+		<position>	313.000000 290.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.073438	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	0.0 m/s	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+
+	<WindowGUIComponent>	108074160
+		<position>	330.000000 10.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	21.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	2	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.171875	</coords0>
+			<coords1>	0.000000 0.253906	</coords1>
+			<coords2>	0.082031 0.253906	</coords2>
+			<coords3>	0.082031 0.171875	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	pressbutton	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/close_box.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<label>	36694224	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107146864
+		<position>	111.000000 121.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	150.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.CheckBox&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	checkbox	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/checkbox.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<box>	107115792	</box>
+			<label>	100369088	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107230176
+		<position>	177.000000 366.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	192.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.CheckBox&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	checkbox	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/checkbox.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<box>	108055984	</box>
+			<label>	63983824	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107231856
+		<position>	30.000000 201.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	285.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	85.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Grid&quot;
+			<horizontalFirst>	true	</horizontalFirst>
+			<gridWidth>	6.000000	</gridWidth>
+			<gridHeight>	2.000000	</gridHeight>
+			<borderTop>	0.000000	</borderTop>
+			<borderBottom>	0.000000	</borderBottom>
+			<borderLeft>	0.000000	</borderLeft>
+			<borderRight>	0.000000	</borderRight>
+			<horizontalGap>	9.000000	</horizontalGap>
+			<verticalGap>	5.000000	</verticalGap>
+		</script>
+		<children>
+			<clearWeatherButton>	107131600	</clearWeatherButton>
+			<cloudyWeatherButton>	107133280	</cloudyWeatherButton>
+			<cloudy2WeatherButton>	107225536	</cloudy2WeatherButton>
+			<cloudy3WeatherButton>	107137552	</cloudy3WeatherButton>
+			<stormyWeatherButton>	107153184	</stormyWeatherButton>
+			<rainyWeatherButton>	107158752	</rainyWeatherButton>
+			<hailWeatherButton>	107039664	</hailWeatherButton>
+			<dustStormWeatherButton>	107045664	</dustStormWeatherButton>
+			<snowWeatherButton>	108174640	</snowWeatherButton>
+			<blizzardWeatherButton>	108180640	</blizzardWeatherButton>
+			<fogWeatherButton>	107050800	</fogWeatherButton>
+			<peaSoupWeatherButton>	107056800	</peaSoupWeatherButton>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107145920
+		<position>	0.497994 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	13.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.253906	</coords0>
+			<coords1>	0.000000 0.335938	</coords1>
+			<coords2>	0.050781 0.335938	</coords2>
+			<coords3>	0.050781 0.253906	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.SliderThumb&quot;	</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107080960
+		<position>	-0.946058 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	13.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	21.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.253906	</coords0>
+			<coords1>	0.000000 0.335938	</coords1>
+			<coords2>	0.050781 0.335938	</coords2>
+			<coords3>	0.050781 0.253906	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.SliderThumb&quot;	</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+
+	<TextGUIComponent>	36694224
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	2	</horizontalPositionMode>
+		<verticalPositionMode>	2	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.000000	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/HGSoeiKakugothicUB_20.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	</label>
+		<font>	default_medium.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	107115792
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	22.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.085938 0.000000	</coords0>
+			<coords1>	0.085938 0.085938	</coords1>
+			<coords2>	0.171875 0.085938	</coords2>
+			<coords3>	0.171875 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	100369088
+		<position>	30.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.157812	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Accelerate Time	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<SimpleGUIComponent>	108055984
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	22.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	63983824
+		<position>	30.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Random	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+	<WindowGUIComponent>	107131600
+		<position>	0.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.906250 0.000000	</coords0>
+			<coords1>	0.906250 0.078125	</coords1>
+			<coords2>	0.984375 0.078125	</coords2>
+			<coords3>	0.984375 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Clear	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 0.000000	</coords0>
+							<coords1>	384.000000 40.000000	</coords1>
+							<coords2>	424.000000 40.000000	</coords2>
+							<coords3>	424.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 0.000000	</coords0>
+							<coords1>	344.000000 40.000000	</coords1>
+							<coords2>	384.000000 40.000000	</coords2>
+							<coords3>	384.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 0.000000	</coords0>
+							<coords1>	464.000000 40.000000	</coords1>
+							<coords2>	504.000000 40.000000	</coords2>
+							<coords3>	504.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 0.000000	</coords0>
+							<coords1>	345.000000 40.000000	</coords1>
+							<coords2>	386.000000 40.000000	</coords2>
+							<coords3>	386.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 0.000000	</coords0>
+							<coords1>	424.000000 40.000000	</coords1>
+							<coords2>	464.000000 40.000000	</coords2>
+							<coords3>	464.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 0.000000	</coords0>
+							<coords1>	464.000000 40.000000	</coords1>
+							<coords2>	504.000000 40.000000	</coords2>
+							<coords3>	504.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 0.000000	</coords0>
+							<coords1>	464.000000 40.000000	</coords1>
+							<coords2>	504.000000 40.000000	</coords2>
+							<coords3>	504.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 0.000000	</coords0>
+							<coords1>	464.000000 40.000000	</coords1>
+							<coords2>	504.000000 40.000000	</coords2>
+							<coords3>	504.000000 0.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107133280
+		<position>	49.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.078125	</coords0>
+			<coords1>	0.671875 0.156250	</coords1>
+			<coords2>	0.750000 0.156250	</coords2>
+			<coords3>	0.750000 0.078125	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Cloudy	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 40.000000	</coords0>
+							<coords1>	384.000000 80.000000	</coords1>
+							<coords2>	424.000000 80.000000	</coords2>
+							<coords3>	424.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 40.000000	</coords0>
+							<coords1>	344.000000 80.000000	</coords1>
+							<coords2>	384.000000 80.000000	</coords2>
+							<coords3>	384.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 40.000000	</coords0>
+							<coords1>	464.000000 80.000000	</coords1>
+							<coords2>	504.000000 80.000000	</coords2>
+							<coords3>	504.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 40.000000	</coords0>
+							<coords1>	345.000000 80.000000	</coords1>
+							<coords2>	386.000000 80.000000	</coords2>
+							<coords3>	386.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 40.000000	</coords0>
+							<coords1>	424.000000 80.000000	</coords1>
+							<coords2>	464.000000 80.000000	</coords2>
+							<coords3>	464.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 40.000000	</coords0>
+							<coords1>	464.000000 80.000000	</coords1>
+							<coords2>	504.000000 80.000000	</coords2>
+							<coords3>	504.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 40.000000	</coords0>
+							<coords1>	464.000000 80.000000	</coords1>
+							<coords2>	504.000000 80.000000	</coords2>
+							<coords3>	504.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 40.000000	</coords0>
+							<coords1>	464.000000 80.000000	</coords1>
+							<coords2>	504.000000 80.000000	</coords2>
+							<coords3>	504.000000 40.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107225536
+		<position>	98.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.156250	</coords0>
+			<coords1>	0.671875 0.234375	</coords1>
+			<coords2>	0.750000 0.234375	</coords2>
+			<coords3>	0.750000 0.156250	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Cloudy2	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 80.000000	</coords0>
+							<coords1>	384.000000 120.000000	</coords1>
+							<coords2>	424.000000 120.000000	</coords2>
+							<coords3>	424.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 80.000000	</coords0>
+							<coords1>	344.000000 120.000000	</coords1>
+							<coords2>	384.000000 120.000000	</coords2>
+							<coords3>	384.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 80.000000	</coords0>
+							<coords1>	464.000000 120.000000	</coords1>
+							<coords2>	504.000000 120.000000	</coords2>
+							<coords3>	504.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 80.000000	</coords0>
+							<coords1>	345.000000 120.000000	</coords1>
+							<coords2>	386.000000 120.000000	</coords2>
+							<coords3>	386.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 80.000000	</coords0>
+							<coords1>	424.000000 120.000000	</coords1>
+							<coords2>	464.000000 120.000000	</coords2>
+							<coords3>	464.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 80.000000	</coords0>
+							<coords1>	464.000000 120.000000	</coords1>
+							<coords2>	504.000000 120.000000	</coords2>
+							<coords3>	504.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 80.000000	</coords0>
+							<coords1>	464.000000 120.000000	</coords1>
+							<coords2>	504.000000 120.000000	</coords2>
+							<coords3>	504.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 80.000000	</coords0>
+							<coords1>	464.000000 120.000000	</coords1>
+							<coords2>	504.000000 120.000000	</coords2>
+							<coords3>	504.000000 80.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107137552
+		<position>	147.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.234375	</coords0>
+			<coords1>	0.671875 0.312500	</coords1>
+			<coords2>	0.750000 0.312500	</coords2>
+			<coords3>	0.750000 0.234375	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Cloudy3	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 120.000000	</coords0>
+							<coords1>	384.000000 160.000000	</coords1>
+							<coords2>	424.000000 160.000000	</coords2>
+							<coords3>	424.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 120.000000	</coords0>
+							<coords1>	344.000000 160.000000	</coords1>
+							<coords2>	384.000000 160.000000	</coords2>
+							<coords3>	384.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 120.000000	</coords0>
+							<coords1>	464.000000 160.000000	</coords1>
+							<coords2>	504.000000 160.000000	</coords2>
+							<coords3>	504.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 120.000000	</coords0>
+							<coords1>	345.000000 160.000000	</coords1>
+							<coords2>	386.000000 160.000000	</coords2>
+							<coords3>	386.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 120.000000	</coords0>
+							<coords1>	424.000000 160.000000	</coords1>
+							<coords2>	464.000000 160.000000	</coords2>
+							<coords3>	464.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 120.000000	</coords0>
+							<coords1>	464.000000 160.000000	</coords1>
+							<coords2>	504.000000 160.000000	</coords2>
+							<coords3>	504.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 120.000000	</coords0>
+							<coords1>	464.000000 160.000000	</coords1>
+							<coords2>	504.000000 160.000000	</coords2>
+							<coords3>	504.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 120.000000	</coords0>
+							<coords1>	464.000000 160.000000	</coords1>
+							<coords2>	504.000000 160.000000	</coords2>
+							<coords3>	504.000000 120.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107153184
+		<position>	196.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.312500	</coords0>
+			<coords1>	0.671875 0.390625	</coords1>
+			<coords2>	0.750000 0.390625	</coords2>
+			<coords3>	0.750000 0.312500	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Stormy	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 160.000000	</coords0>
+							<coords1>	384.000000 200.000000	</coords1>
+							<coords2>	424.000000 200.000000	</coords2>
+							<coords3>	424.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 160.000000	</coords0>
+							<coords1>	344.000000 200.000000	</coords1>
+							<coords2>	384.000000 200.000000	</coords2>
+							<coords3>	384.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 160.000000	</coords0>
+							<coords1>	464.000000 200.000000	</coords1>
+							<coords2>	504.000000 200.000000	</coords2>
+							<coords3>	504.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 160.000000	</coords0>
+							<coords1>	345.000000 200.000000	</coords1>
+							<coords2>	386.000000 200.000000	</coords2>
+							<coords3>	386.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 160.000000	</coords0>
+							<coords1>	424.000000 200.000000	</coords1>
+							<coords2>	464.000000 200.000000	</coords2>
+							<coords3>	464.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 160.000000	</coords0>
+							<coords1>	464.000000 200.000000	</coords1>
+							<coords2>	504.000000 200.000000	</coords2>
+							<coords3>	504.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 160.000000	</coords0>
+							<coords1>	464.000000 200.000000	</coords1>
+							<coords2>	504.000000 200.000000	</coords2>
+							<coords3>	504.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 160.000000	</coords0>
+							<coords1>	464.000000 200.000000	</coords1>
+							<coords2>	504.000000 200.000000	</coords2>
+							<coords3>	504.000000 160.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107158752
+		<position>	245.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.390625	</coords0>
+			<coords1>	0.671875 0.468750	</coords1>
+			<coords2>	0.750000 0.468750	</coords2>
+			<coords3>	0.750000 0.390625	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Rainy	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 200.000000	</coords0>
+							<coords1>	384.000000 240.000000	</coords1>
+							<coords2>	424.000000 240.000000	</coords2>
+							<coords3>	424.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 200.000000	</coords0>
+							<coords1>	344.000000 240.000000	</coords1>
+							<coords2>	384.000000 240.000000	</coords2>
+							<coords3>	384.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 200.000000	</coords0>
+							<coords1>	464.000000 240.000000	</coords1>
+							<coords2>	504.000000 240.000000	</coords2>
+							<coords3>	504.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 200.000000	</coords0>
+							<coords1>	345.000000 240.000000	</coords1>
+							<coords2>	386.000000 240.000000	</coords2>
+							<coords3>	386.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 200.000000	</coords0>
+							<coords1>	424.000000 240.000000	</coords1>
+							<coords2>	464.000000 240.000000	</coords2>
+							<coords3>	464.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 200.000000	</coords0>
+							<coords1>	464.000000 240.000000	</coords1>
+							<coords2>	504.000000 240.000000	</coords2>
+							<coords3>	504.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 200.000000	</coords0>
+							<coords1>	464.000000 240.000000	</coords1>
+							<coords2>	504.000000 240.000000	</coords2>
+							<coords3>	504.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 200.000000	</coords0>
+							<coords1>	464.000000 240.000000	</coords1>
+							<coords2>	504.000000 240.000000	</coords2>
+							<coords3>	504.000000 200.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107039664
+		<position>	0.000000 45.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.468750	</coords0>
+			<coords1>	0.671875 0.546875	</coords1>
+			<coords2>	0.750000 0.546875	</coords2>
+			<coords3>	0.750000 0.468750	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Hail	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 240.000000	</coords0>
+							<coords1>	384.000000 280.000000	</coords1>
+							<coords2>	424.000000 280.000000	</coords2>
+							<coords3>	424.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 240.000000	</coords0>
+							<coords1>	344.000000 280.000000	</coords1>
+							<coords2>	384.000000 280.000000	</coords2>
+							<coords3>	384.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 240.000000	</coords0>
+							<coords1>	464.000000 280.000000	</coords1>
+							<coords2>	504.000000 280.000000	</coords2>
+							<coords3>	504.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 240.000000	</coords0>
+							<coords1>	345.000000 280.000000	</coords1>
+							<coords2>	386.000000 280.000000	</coords2>
+							<coords3>	386.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 240.000000	</coords0>
+							<coords1>	424.000000 280.000000	</coords1>
+							<coords2>	464.000000 280.000000	</coords2>
+							<coords3>	464.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 240.000000	</coords0>
+							<coords1>	464.000000 280.000000	</coords1>
+							<coords2>	504.000000 280.000000	</coords2>
+							<coords3>	504.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 240.000000	</coords0>
+							<coords1>	464.000000 280.000000	</coords1>
+							<coords2>	504.000000 280.000000	</coords2>
+							<coords3>	504.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 240.000000	</coords0>
+							<coords1>	464.000000 280.000000	</coords1>
+							<coords2>	504.000000 280.000000	</coords2>
+							<coords3>	504.000000 240.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107045664
+		<position>	49.000000 45.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.546875	</coords0>
+			<coords1>	0.671875 0.625000	</coords1>
+			<coords2>	0.750000 0.625000	</coords2>
+			<coords3>	0.750000 0.546875	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	DustStorm	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 280.000000	</coords0>
+							<coords1>	384.000000 320.000000	</coords1>
+							<coords2>	424.000000 320.000000	</coords2>
+							<coords3>	424.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 280.000000	</coords0>
+							<coords1>	344.000000 320.000000	</coords1>
+							<coords2>	384.000000 320.000000	</coords2>
+							<coords3>	384.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 280.000000	</coords0>
+							<coords1>	464.000000 320.000000	</coords1>
+							<coords2>	504.000000 320.000000	</coords2>
+							<coords3>	504.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 280.000000	</coords0>
+							<coords1>	345.000000 320.000000	</coords1>
+							<coords2>	386.000000 320.000000	</coords2>
+							<coords3>	386.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 280.000000	</coords0>
+							<coords1>	424.000000 320.000000	</coords1>
+							<coords2>	464.000000 320.000000	</coords2>
+							<coords3>	464.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 280.000000	</coords0>
+							<coords1>	464.000000 320.000000	</coords1>
+							<coords2>	504.000000 320.000000	</coords2>
+							<coords3>	504.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 280.000000	</coords0>
+							<coords1>	464.000000 320.000000	</coords1>
+							<coords2>	504.000000 320.000000	</coords2>
+							<coords3>	504.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 280.000000	</coords0>
+							<coords1>	464.000000 320.000000	</coords1>
+							<coords2>	504.000000 320.000000	</coords2>
+							<coords3>	504.000000 280.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	108174640
+		<position>	98.000000 45.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.625000	</coords0>
+			<coords1>	0.671875 0.703125	</coords1>
+			<coords2>	0.750000 0.703125	</coords2>
+			<coords3>	0.750000 0.625000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Snow	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 320.000000	</coords0>
+							<coords1>	384.000000 360.000000	</coords1>
+							<coords2>	424.000000 360.000000	</coords2>
+							<coords3>	424.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 320.000000	</coords0>
+							<coords1>	344.000000 360.000000	</coords1>
+							<coords2>	384.000000 360.000000	</coords2>
+							<coords3>	384.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 320.000000	</coords0>
+							<coords1>	464.000000 360.000000	</coords1>
+							<coords2>	504.000000 360.000000	</coords2>
+							<coords3>	504.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 320.000000	</coords0>
+							<coords1>	345.000000 360.000000	</coords1>
+							<coords2>	386.000000 360.000000	</coords2>
+							<coords3>	386.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 320.000000	</coords0>
+							<coords1>	424.000000 360.000000	</coords1>
+							<coords2>	464.000000 360.000000	</coords2>
+							<coords3>	464.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 320.000000	</coords0>
+							<coords1>	464.000000 360.000000	</coords1>
+							<coords2>	504.000000 360.000000	</coords2>
+							<coords3>	504.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 320.000000	</coords0>
+							<coords1>	464.000000 360.000000	</coords1>
+							<coords2>	504.000000 360.000000	</coords2>
+							<coords3>	504.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 320.000000	</coords0>
+							<coords1>	464.000000 360.000000	</coords1>
+							<coords2>	504.000000 360.000000	</coords2>
+							<coords3>	504.000000 320.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	108180640
+		<position>	147.000000 45.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.703125	</coords0>
+			<coords1>	0.671875 0.781250	</coords1>
+			<coords2>	0.750000 0.781250	</coords2>
+			<coords3>	0.750000 0.703125	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Blizzard	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 360.000000	</coords0>
+							<coords1>	384.000000 400.000000	</coords1>
+							<coords2>	424.000000 400.000000	</coords2>
+							<coords3>	424.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 360.000000	</coords0>
+							<coords1>	344.000000 400.000000	</coords1>
+							<coords2>	384.000000 400.000000	</coords2>
+							<coords3>	384.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 360.000000	</coords0>
+							<coords1>	464.000000 400.000000	</coords1>
+							<coords2>	504.000000 400.000000	</coords2>
+							<coords3>	504.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 360.000000	</coords0>
+							<coords1>	345.000000 400.000000	</coords1>
+							<coords2>	386.000000 400.000000	</coords2>
+							<coords3>	386.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 360.000000	</coords0>
+							<coords1>	424.000000 400.000000	</coords1>
+							<coords2>	464.000000 400.000000	</coords2>
+							<coords3>	464.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 360.000000	</coords0>
+							<coords1>	464.000000 400.000000	</coords1>
+							<coords2>	504.000000 400.000000	</coords2>
+							<coords3>	504.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 360.000000	</coords0>
+							<coords1>	464.000000 400.000000	</coords1>
+							<coords2>	504.000000 400.000000	</coords2>
+							<coords3>	504.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 360.000000	</coords0>
+							<coords1>	464.000000 400.000000	</coords1>
+							<coords2>	504.000000 400.000000	</coords2>
+							<coords3>	504.000000 360.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107050800
+		<position>	196.000000 45.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.781250	</coords0>
+			<coords1>	0.671875 0.859375	</coords1>
+			<coords2>	0.750000 0.859375	</coords2>
+			<coords3>	0.750000 0.781250	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	Fog	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 400.000000	</coords0>
+							<coords1>	384.000000 440.000000	</coords1>
+							<coords2>	424.000000 440.000000	</coords2>
+							<coords3>	424.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 400.000000	</coords0>
+							<coords1>	344.000000 440.000000	</coords1>
+							<coords2>	384.000000 440.000000	</coords2>
+							<coords3>	384.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 400.000000	</coords0>
+							<coords1>	464.000000 440.000000	</coords1>
+							<coords2>	504.000000 440.000000	</coords2>
+							<coords3>	504.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 400.000000	</coords0>
+							<coords1>	345.000000 440.000000	</coords1>
+							<coords2>	386.000000 440.000000	</coords2>
+							<coords3>	386.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 400.000000	</coords0>
+							<coords1>	424.000000 440.000000	</coords1>
+							<coords2>	464.000000 440.000000	</coords2>
+							<coords3>	464.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 400.000000	</coords0>
+							<coords1>	464.000000 440.000000	</coords1>
+							<coords2>	504.000000 440.000000	</coords2>
+							<coords3>	504.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 400.000000	</coords0>
+							<coords1>	464.000000 440.000000	</coords1>
+							<coords2>	504.000000 440.000000	</coords2>
+							<coords3>	504.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 400.000000	</coords0>
+							<coords1>	464.000000 440.000000	</coords1>
+							<coords2>	504.000000 440.000000	</coords2>
+							<coords3>	504.000000 400.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107056800
+		<position>	245.000000 45.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	40.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	40.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	0	</verticalAnchor>
+		<textureName>	gui/maps/window_weather.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.671875 0.859375	</coords0>
+			<coords1>	0.671875 0.937500	</coords1>
+			<coords2>	0.750000 0.937500	</coords2>
+			<coords3>	0.750000 0.859375	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.Button&quot;
+			<toolTipInfo>
+				<templateName>	tooltip1line	</templateName>
+				<items>
+					<text>	PeaSoup	</text>
+					<shortcut>	</shortcut>
+				</items>
+			</toolTipInfo>
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	radiobutton	</buttonStyle>
+			<groupName>	weather	</groupName>
+			<visualStates>	PyGUI.ButtonVisualState
+				<hover>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	384.000000 440.000000	</coords0>
+							<coords1>	384.000000 480.000000	</coords1>
+							<coords2>	424.000000 480.000000	</coords2>
+							<coords3>	424.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover>
+				<normal>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	344.000000 440.000000	</coords0>
+							<coords1>	344.000000 480.000000	</coords1>
+							<coords2>	384.000000 480.000000	</coords2>
+							<coords3>	384.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</normal>
+				<hover_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 440.000000	</coords0>
+							<coords1>	464.000000 480.000000	</coords1>
+							<coords2>	504.000000 480.000000	</coords2>
+							<coords3>	504.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</hover_active>
+				<disabled>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	345.000000 440.000000	</coords0>
+							<coords1>	345.000000 480.000000	</coords1>
+							<coords2>	386.000000 480.000000	</coords2>
+							<coords3>	386.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled>
+				<pressed>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	424.000000 440.000000	</coords0>
+							<coords1>	424.000000 480.000000	</coords1>
+							<coords2>	464.000000 480.000000	</coords2>
+							<coords3>	464.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed>
+				<active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 440.000000	</coords0>
+							<coords1>	464.000000 480.000000	</coords1>
+							<coords2>	504.000000 480.000000	</coords2>
+							<coords3>	504.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</active>
+				<pressed_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 440.000000	</coords0>
+							<coords1>	464.000000 480.000000	</coords1>
+							<coords2>	504.000000 480.000000	</coords2>
+							<coords3>	504.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+					</icon>
+				</pressed_active>
+				<disabled_active>
+					<icon>
+						<textureName>	gui/maps/window_weather.dds	</textureName>
+						<materialFX>	</materialFX>
+						<mapping>	PIXEL
+							<coords0>	464.000000 440.000000	</coords0>
+							<coords1>	464.000000 480.000000	</coords1>
+							<coords2>	504.000000 480.000000	</coords2>
+							<coords3>	504.000000 440.000000	</coords3>
+						</mapping>
+						<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+					</icon>
+				</disabled_active>
+			</visualStates>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<WindowGUIComponent>	107230177
+		<position>	30.000000 366.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	1	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	147.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	true	</focus>
+		<moveFocus>	true	</moveFocus>
+		<crossFocus>	true	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 1.000000	</coords1>
+			<coords2>	1.000000 1.000000	</coords2>
+			<coords3>	1.000000 0.000000	</coords3>
+		</mapping>
+		<script>	&quot;PyGUI.CheckBox&quot;
+			<buttonDisabled>	false	</buttonDisabled>
+			<buttonStyle>	checkbox	</buttonStyle>
+			<visualStates>
+				<external>	gui/visual_states/checkbox.xml	</external>
+			</visualStates>
+		</script>
+		<children>
+			<box>	108055985	</box>
+			<label>	63983825	</label>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+	</WindowGUIComponent>
+	<SimpleGUIComponent>	108055985
+		<position>	-1.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	0	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	1	</widthMode>
+		<width>	22.000000	</width>
+		<heightMode>	1	</heightMode>
+		<height>	22.000000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/gui_general.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<mapping>
+			<coords0>	0.000000 0.000000	</coords0>
+			<coords1>	0.000000 0.085938	</coords1>
+			<coords2>	0.085938 0.085938	</coords2>
+			<coords3>	0.085938 0.000000	</coords3>
+		</mapping>
+	</SimpleGUIComponent>
+	<TextGUIComponent>	63983825
+		<position>	30.000000 0.000000 1.000000	</position>
+		<horizontalPositionMode>	1	</horizontalPositionMode>
+		<verticalPositionMode>	0	</verticalPositionMode>
+		<widthMode>	2	</widthMode>
+		<width>	0.165625	</width>
+		<heightMode>	2	</heightMode>
+		<height>	0.039063	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	0	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	system/fonts/BellGothicStd-Bold_14.dds	</textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	1	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<pixelSnap>	true	</pixelSnap>
+		<focus>	false	</focus>
+		<moveFocus>	false	</moveFocus>
+		<crossFocus>	false	</crossFocus>
+		<dragFocus>	false	</dragFocus>
+		<dropFocus>	false	</dropFocus>
+		<label>	Server Sync	</label>
+		<font>	Label.font	</font>
+		<explicitSize>	false	</explicitSize>
+	</TextGUIComponent>
+</weather_window.gui>

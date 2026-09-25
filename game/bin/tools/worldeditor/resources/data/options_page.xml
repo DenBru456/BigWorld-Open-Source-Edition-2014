@@ -1,0 +1,79 @@
+<root>
+
+  <Game_Objects> actDrawGameObjects
+    <Entities> actDrawEntities </Entities>
+    <User_Data_Objects> actDrawUserDataObjects </User_Data_Objects>
+    <Meta_Data> actDrawChunkMetaData </Meta_Data>
+  </Game_Objects>
+
+	<Scenery> actDrawScenery
+		<Wireframe> actDrawSceneryWireframe </Wireframe>
+		<Particles> actDrawSceneryParticle </Particles>
+		<BSP> actDrawSceneryBSP
+			<SpeedTrees> actDrawSpeedTreesBSP </SpeedTrees>
+			<Other_Models> actDrawOtherModelsBSP </Other_Models>
+		</BSP>
+        <Particle_System_Bounding_Boxes> actDrawDebugBB </Particle_System_Bounding_Boxes>
+		<Water> actDrawWater
+			<Reflection> actDrawWaterReflection </Reflection>
+		</Water>	
+	    <Shells>
+			actDrawShells
+			<Game_Visibility> actDrawShellNeighboursPortals </Game_Visibility>
+		</Shells>
+		<Flares> actDrawChunkFlares </Flares>
+		<Lights> actDrawChunkLights </Lights>
+	</Scenery>
+	<Proxies> actDrawProxys
+		<Editor_Proxies> actDrawEditorProxies </Editor_Proxies>
+		<Particles> actDrawParticleProxy
+			<Large> actDrawLargeParticleProxy </Large>
+		</Particles>
+		<Lights> actDrawLightProxys
+			<Static_Lights> actDrawStaticLightProxy
+				<Large> actDrawLargeStaticLightProxy </Large>
+			</Static_Lights>
+			<Dynamic_Lights> actDrawDynamicLightProxy
+				<Large> actDrawLargeDynamicLightProxy </Large>
+			</Dynamic_Lights>
+			<Specular_Lights> actDrawSpecularLightProxy
+				<Large> actDrawLargeSpecularLightProxy </Large>
+			</Specular_Lights>
+			<Ambient_Lights> actDrawAmbientLightProxy
+				<Large> actDrawLargeAmbientLightProxy </Large>
+			</Ambient_Lights>
+			<Pulse_Lights> actDrawPulseLightProxy
+				<Large> actDrawLargePulseLightProxy </Large>
+			</Pulse_Lights>
+			<Spot_Lights> actDrawSpotLightProxy
+				<Large> actDrawLargeSpotLightProxy </Large>
+			</Spot_Lights>
+			<Flares> actDrawFlareProxy
+				<Large> actDrawLargeFlareProxy </Large>
+			</Flares>
+		</Lights>
+	</Proxies>
+	<Terrain> actDrawTerrain
+		<Wireframe> actDrawTerrainWireframe </Wireframe>
+		<Dynamic_Level_of_Detail> actToggleLOD </Dynamic_Level_of_Detail>
+		<Display_Forced_LOD_Level> actDrawTerrainLODLocks </Display_Forced_LOD_Level>
+	</Terrain>
+	
+	<Static_Decals> actStaticDecals
+		<Show_Texture_Atlas> actShowStaticTextureAtlas </Show_Texture_Atlas>
+		<Show_Overdraw> actShowStaticDecalsOverdraw </Show_Overdraw>
+		<Auto_Size> actAutoSizeDecals </Auto_Size>
+	</Static_Decals>
+
+	<Environment> actDrawEnvironment
+		<Sky> actDrawSky </Sky>
+		<SkyBoxes> actDrawSkyBoxes </SkyBoxes>
+		<Sun_and_Moon> actDrawSunAndMoon </Sun_and_Moon>
+		<Fog> actDrawFog </Fog>
+	</Environment>
+
+	<Heaven_and_Earth_Portals> actDrawHeavenAndEarth </Heaven_and_Earth_Portals>
+	<Shade_Read-only_Areas> actShadeReadOnlyAreas </Shade_Read-only_Areas>
+	<Shade_Frozen_Objects> actShadeFrozenObjects </Shade_Frozen_Objects>
+
+</root>

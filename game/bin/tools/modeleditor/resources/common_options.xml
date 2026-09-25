@@ -1,0 +1,25 @@
+<root>
+	<cooperative>
+		<!-- Mode can be AUTO, ON or OFF:
+		- AUTO: Is recommended and default, and ensures the BigWorld tools release
+		  their video memory when an application in the <apps> list below is running
+		  and the application is in the background.
+		- ON: Always releases DX resources when in the background to allow maximum
+		  compatibility with other apps, but makes switching between apps slow.
+		- OFF: Never releases its DX resources, making application switching fast,
+		  but can result in crashes when running multiple DX applications.
+		-->
+		<mode>	AUTO  </mode>
+		
+		<!-- List of applications we need to cooperate with. DOS-style wildcards are
+		allowed. See the AUTO mode above for more info. -->
+		<apps>
+			<app>worldeditor*.exe</app>
+			<app>modeleditor*.exe</app>
+			<app>particleeditor*.exe</app>
+			
+			<app>3dsmax.exe</app>
+			<app>maya.exe</app>
+		</apps>
+	</cooperative>
+</root>

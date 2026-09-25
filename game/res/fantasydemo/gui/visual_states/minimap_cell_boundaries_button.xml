@@ -1,0 +1,94 @@
+<minimap_cell_boundaries_button.xml> &quot;PyGUI.ButtonVisualState&quot;
+	<hover>
+		<icon>
+			<textureName>	gui/maps/mini_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	35.000000 378.000000	</coords0>
+				<coords1>	35.000000 413.000000	</coords1>
+				<coords2>	70.000000 413.000000	</coords2>
+				<coords3>	70.000000 378.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover>
+	<normal>
+		<icon>
+			<textureName>	gui/maps/mini_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	0.000000 378.000000	</coords0>
+				<coords1>	0.000000 413.000000	</coords1>
+				<coords2>	35.000000 413.000000	</coords2>
+				<coords3>	35.000000 378.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</normal>
+	<hover_active>
+		<icon>
+			<textureName>	gui/maps/mini_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	140.000000 378.000000	</coords0>
+				<coords1>	140.000000 413.000000	</coords1>
+				<coords2>	175.000000 413.000000	</coords2>
+				<coords3>	175.000000 378.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</hover_active>
+	<disabled>
+		<textStyle>	ButtonDisabled	</textStyle>
+		<icon>
+			<textureName>	gui/maps/mini_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	210.000000 378.000000	</coords0>
+				<coords1>	210.000000 413.000000	</coords1>
+				<coords2>	245.000000 413.000000	</coords2>
+				<coords3>	245.000000 378.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</disabled>
+	<pressed>
+		<icon>
+			<textureName>	gui/maps/mini_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	70.000000 378.000000	</coords0>
+				<coords1>	70.000000 413.000000	</coords1>
+				<coords2>	105.000000 413.000000	</coords2>
+				<coords3>	105.000000 378.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed>
+	<active>
+		<icon>
+			<textureName>	gui/maps/mini_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	105.000000 378.000000	</coords0>
+				<coords1>	105.000000 413.000000	</coords1>
+				<coords2>	140.000000 413.000000	</coords2>
+				<coords3>	140.000000 378.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</active>
+	<pressed_active>
+		<icon>
+			<textureName>	gui/maps/mini_map.dds	</textureName>
+			<materialFX>	</materialFX>
+			<mapping>	PIXEL
+				<coords0>	175.000000 378.000000	</coords0>
+				<coords1>	175.000000 413.000000	</coords1>
+				<coords2>	210.000000 413.000000	</coords2>
+				<coords3>	210.000000 378.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</icon>
+	</pressed_active>
+</minimap_cell_boundaries_button.xml>

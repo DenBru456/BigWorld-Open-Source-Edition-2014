@@ -1,0 +1,19 @@
+<fantasydemo>
+  <rule pattern=".*">
+    <lodMode>1</lodMode>
+  </rule>
+  <rule pattern=".*(\.tga)$">
+    <lodMode>1</lodMode>
+  </rule>
+  <rule pattern=".*(\.bmp)$">
+    <lodMode>1</lodMode>
+  </rule>
+
+  <rule pattern=".*(_gradient).*">
+    <format>	A8R8G8B8 </format>
+  </rule>
+  <rule pattern=".*(\.thumbnail\.).*">
+    <streamable>	false	</streamable>
+    <lodMode>	0	</lodMode>
+  </rule>
+ </fantasydemo>

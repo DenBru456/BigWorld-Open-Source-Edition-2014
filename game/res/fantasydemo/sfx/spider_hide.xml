@@ -1,0 +1,27 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/spider_spawn.xml  </ParticleSystem>
+	</Actor>	
+		
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>	
+	
+	<Event> particles
+		<ResetTimeTriggeredParticles/>
+	</Event>	
+	
+	<Event> particles
+		<ClearParticles/>
+	</Event>
+		
+	<Event> particles
+		<RampTimeTriggeredParticles>
+			<duration>	5.0	</duration>
+			<fadeTime>	3.0	</fadeTime>
+		</RampTimeTriggeredParticles>
+	</Event>		
+
+</SFXFile>
+
+

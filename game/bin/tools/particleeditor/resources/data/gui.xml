@@ -1,0 +1,537 @@
+<GUI>
+		<item>
+				<name>	AppToolbars </name>
+				<type>	GROUP	</type>
+				<item>
+						<name>	MainToolbar </name>
+				</item>
+		</item>	
+		<item>
+				<name> MainMenu </name>
+				<type>  GROUP   </type>
+				<item>
+						<name> File </name>
+						<type>  GROUP   </type>
+						<displayName> MENU/FILE </displayName>
+						<description> MENU/FILE/DESC </description>
+						<item>
+								<name> OpenDir </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/FILE/OPENDIR </displayName>
+								<description> MENU/FILE/OPENDIR/DESC </description>
+								<shortcut> Ctrl+O </shortcut>
+								<action> doOpenFile </action>
+						</item>
+						<item>
+								<name> SavePS </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/FILE/SAVEPS </displayName>
+								<description> MENU/FILE/SAVEPS/DESC </description>
+								<shortcut> Ctrl+S </shortcut>
+								<action> doSavePS </action>
+						</item>
+						<item>
+								<type>  SEPARATOR   </type>
+						</item>
+						<item>
+								<name> ReloadTextures </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/FILE/RELOADTEX </displayName>
+								<description> MENU/FILE/RELOADTEX/DESC </description>
+								<shortcut> Ctrl+T </shortcut>
+								<action> doReloadTextures </action> 
+						</item>
+						<item>
+								<type>  SEPARATOR   </type>
+						</item>          
+						<item>
+								<name> Exit </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/FILE/EXIT </displayName>
+								<description> MENU/FILE/EXIT/DESC </description>
+								<action> doExit </action>
+						</item>
+				</item>
+				<item>
+						<name> Edit </name>
+						<type> GROUP </type>
+						<displayName> MENU/EDIT </displayName>
+						<item>
+								<name> Undo </name>
+								<type> ACTION </type>
+								<displayName> MENU/EDIT/UNDO </displayName>
+								<description> MENU/EDIT/UNDO/DESC </description>
+								<shortcut> Ctrl+Z </shortcut>
+								<action> doUndo </action>
+								<updater> updateUndo </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal>  resources/data/toolbar.bmp:216,0,240,24 </imageNormal>
+						</item>
+						<item>
+								<name> Redo </name>
+								<type> ACTION </type>
+								<displayName> MENU/EDIT/REDO </displayName>
+								<description> MENU/EDIT/REDO/SPACES </description>
+								<shortcut> Ctrl+Y </shortcut>
+								<action> doRedo </action>
+								<updater> updateRedo </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:240,0,264,24 </imageNormal>
+						</item>            
+				</item>        
+				<item>
+					<name> View </name>
+					<type>  GROUP   </type>
+					<displayName> MENU/VIEW </displayName>
+					<description> MENU/VIEW/DESC  </description>
+				  <item>
+				      <!-- The app will look for the item called ShowToolbarsSubmenu
+				      and will fill it with the toolbars loaded from the AppToolbars
+				      section above. -->
+				      <name>	ShowToolbarsSubmenu	</name>
+				      <type>	GROUP	</type>
+				      <displayName>	MENU/VIEW/TOOLBARS	</displayName>
+		      </item>
+			    <item>
+					    <name>  Status Bar  </name>
+					    <type>  TOGGLE   </type>
+					    <displayName>  MENU/VIEW/STATUSBAR  </displayName>
+					    <description>  MENU/VIEW/STATUSBAR/DESC </description>
+					    <item>
+							    <type> CHILD </type>
+							    <action> doShowStatusbar </action>
+							    <updater> updateShowStatusbar </updater>
+					    </item>
+					    <item>
+							    <type> CHILD </type>
+							    <action> doHideStatusbar </action>
+					    </item>
+			    </item>
+			    <item>
+					    <type>  SEPARATOR   </type>
+			    </item>
+			    <item>
+					    <name>  ShowPanels </name>
+					    <type>  TOGGLE  </type>
+					    <displayName>   MENU/VIEW/SHOWPANEL  </displayName>
+					    <description>   MENU/VIEW/SHOWPANEL/DESC  </description>
+					    <shortcut> Ctrl+H </shortcut>
+					    <item>
+							    <type> CHILD </type>
+							    <action> doShowPanels </action>
+							    <updater> updateSidePanel </updater>
+					    </item>
+					    <item>
+							    <type> CHILD </type>
+							    <action> doShowPanels </action>
+					    </item>
+			    </item>
+			  <item>
+				  <name>	ShowPanelUAL	</name>
+				  <type>  TOGGLE  </type>
+				  <displayName>	MENU/VIEW/SHOW_PANEL_UAL	</displayName>
+				  <item>
+					  <type> CHILD </type>
+					  <action> doShowPanelUAL </action>
+					  <updater> updateUalPanel </updater>
+				  </item>
+				  <item>
+					  <type> CHILD </type>
+					  <action> doShowPanelUAL </action>
+				  </item>
+			  </item>
+			  <item>
+				  <name>	ShowPanelMsgs	</name>
+				  <type>  TOGGLE  </type>
+				  <displayName>	MENU/VIEW/SHOW_PANEL_MSGS	</displayName>
+				  <item>
+					  <type> CHILD </type>
+					  <action> doShowPanelMsgs </action>
+					  <updater> updateMsgsPanel </updater>
+				  </item>
+				  <item>
+					  <type> CHILD </type>
+					  <action> doShowPanelMsgs </action>
+				  </item>
+			  </item>
+			    <item>
+					    <type>  SEPARATOR   </type>
+			    </item>
+			    <item>
+					    <name> Load Default Panel Layout </name>
+					    <type> ACTION </type>
+					    <displayName> MENU/VIEW/DEFAULTPANELS </displayName>
+					    <description> MENU/VIEW/DEFAULTPANELS/DESC </description>
+					    <action> doDefaultPanelLayout </action>
+			    </item>
+			    <item>
+					    <name> Load Most Recent Panel Layout </name>
+					    <type> ACTION </type>
+					    <displayName> MENU/VIEW/RECENTPANELS </displayName>
+					    <description> MENU/VIEW/RECENTPANELS/DESC </description>
+					    <action> doLoadPanelLayout </action>
+			    </item>
+		    </item>
+				  <item>
+						<name> Help </name>
+						<type>  GROUP   </type>
+						<displayName> MENU/HELP </displayName>
+						<description> MENU/HELP/DESC </description>
+						<item>
+								<name> About </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/HELP/ABOUT </displayName>
+								<description> MENU/HELP/ABOUT/DESC </description>
+								<action> doAboutApp </action>
+						</item>
+						<item>
+								<name>  ToolsReferenceGuide </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/HELP/TOOLSREFGUIDE </displayName>
+								<description> MENU/HELP/TOOLSREFGUIDE/DESC </description>
+								<action> doToolsReferenceGuide   </action>
+						</item>
+						<item>
+								<name>  ContentCreation </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/HELP/CONTENTCREATION </displayName>
+								<description> MENU/HELP/CONTENTCREATION/DESC </description>
+								<action> doContentCreation   </action>
+						</item>
+						<item>
+								<name>  KeyboardShortcuts   </name>
+								<type>  ACTION  </type>
+								<displayName> MENU/HELP/SHORTCUTS </displayName>
+								<description> MENU/HELP/SHORTCUTS/DESC </description>
+								<shortcut> F1 </shortcut>
+								<action> doShortcuts </action>
+						</item>
+						<item>
+								<name>	SEPARATOR	</name>
+								<type>	SEPARATOR	</type>
+						</item>
+						<item>
+								<name>	RequestFeature	</name>
+								<type>	ACTION	</type>
+								<displayName>	MENU/HELP/REQUEST_FEATURE	</displayName>
+								<description> MENU/HELP/REQUEST_FEATURE/DESC </description>
+								<action>	doRequestFeature	</action>
+						</item>
+				</item>
+		</item>
+		<item>
+				<name> MainToolbar </name>
+				<type> GROUP </type>
+				<displayName> MAINTOOLBAR </displayName>
+				<item>
+						<name> SavePS </name>
+						<type>  ACTION  </type>
+						<displayName> MAINTOOLBAR/SAVEPS </displayName>
+						<description> MAINTOOLBAR/SAVEPS/DESC </description>
+						<shortcut> Ctrl+S </shortcut>
+						<action> doSavePS </action>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal>  resources/data/save_toolbar.bmp:0,0,24,24 </imageNormal>
+				</item>
+				<item>
+						<type> SEPARATOR </type>
+				</item>
+				<item>
+						<name> Undo </name>
+						<type> ACTION </type>
+						<displayName> MAINTOOLBAR/UNDO </displayName>
+						<description> MAINTOOLBAR/UNDO/DESC </description>
+						<shortcut> Ctrl+Z </shortcut>
+						<action> ToolbarUIAdapter.doUndo </action>
+						<updater> ToolbarUIAdapter.updateUndo </updater>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal>  resources/data/toolbar.bmp:384,0,408,24 </imageNormal>
+				</item>
+				<item>
+						<name> Redo </name>
+						<type> ACTION </type>
+						<displayName> MAINTOOLBAR/REDO </displayName>
+						<description> MAINTOOLBAR/REDO/DESC </description>
+						<shortcut> Ctrl+Y </shortcut>
+						<action> ToolbarUIAdapter.doRedo </action>
+						<updater> ToolbarUIAdapter.updateRedo </updater>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal> resources/data/toolbar.bmp:408,0,432,24 </imageNormal>
+				</item>
+				<item>
+						<type> SEPARATOR </type>
+				</item>
+				<item>
+						<name> Zoom </name>
+						<type>	ACTION	</type>
+						<displayName> MAINTOOLBAR/ZOOM </displayName>
+						<description> MAINTOOLBAR/ZOOM/DESC </description>
+						<action> ToolbarUIAdapter.doZoomExtents </action>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal>	resources/data/toolbar.bmp:0,0,24,24	</imageNormal>
+				</item>
+				<item>
+						<type>	SEPARATOR	</type>
+				</item>
+				<item>
+						<name> CameraMode </name>
+						<type> CHOICE </type>
+						<displayName> MAINTOOLBAR/CAMERAMODE </displayName>
+						<shortcut> Ctrl+M </shortcut>
+						<item>
+								<type>	CHILD	</type>
+								<name> Free Camera </name>
+								<displayName> MAINTOOLBAR/CAMERAMODE/FREE </displayName>
+								<description> MAINTOOLBAR/CAMERAMODE/FREE/DESC </description>
+								<action> ToolbarUIAdapter.doViewFree </action>
+								<updater> ToolbarUIAdapter.updateFreeCamera </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal>	resources/data/toolbar.bmp:24,0,48,24	</imageNormal>
+						</item>
+						<item>
+								<name> View X </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/CAMERAMODE/VIEWX </displayName>
+								<description> MAINTOOLBAR/CAMERAMODE/VIEWX/DESC </description>
+								<action> ToolbarUIAdapter.doViewX </action>
+								<updater> ToolbarUIAdapter.updateXCamera </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:48,0,72,24 </imageNormal>
+						</item>
+						<item>
+								<name> View Y </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/CAMERAMODE/VIEWY </displayName>
+								<description> MAINTOOLBAR/CAMERAMODE/VIEWY/DESC </description>
+								<action> ToolbarUIAdapter.doViewY </action>
+								<updater> ToolbarUIAdapter.updateYCamera </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:72,0,96,24 </imageNormal>
+						</item>
+						<item>
+								<name> View Z </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/CAMERAMODE/VIEWZ </displayName>
+								<description> MAINTOOLBAR/CAMERAMODE/VIEWZ/DESC </description>
+								<action> ToolbarUIAdapter.doViewZ </action>
+								<updater> ToolbarUIAdapter.updateZCamera </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:96,0,120,24 </imageNormal>
+						</item>
+						<item>
+								<type>	CHILD	</type>
+								<name> Orbit Camera </name>
+								<displayName> MAINTOOLBAR/CAMERAMODE/ORBIT </displayName>
+								<description> MAINTOOLBAR/CAMERAMODE/ORBIT/DESC </description>
+								<action>	ToolbarUIAdapter.doViewOrbit	</action>
+								<updater> ToolbarUIAdapter.updateOrbitCamera </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal>	resources/data/toolbar.bmp:120,0,144,24	</imageNormal>
+						</item>
+				</item>
+				<item>
+						<type> SEPARATOR </type>
+				</item>
+				<item>
+						<name> CameraSpeed </name>
+						<type> CHOICE </type>
+						<displayName> MAINTOOLBAR/CAMERASPEED </displayName>
+						<shortcut> Ctrl+I </shortcut>
+						<item>
+								<type>	CHILD	</type>
+								<name> Slow </name>
+								<shortcut> Ctrl+1 </shortcut>
+								<displayName> MAINTOOLBAR/CAMERASPEED/SLOW </displayName>
+								<description> MAINTOOLBAR/CAMERASPEED/SLOW/DESC </description>
+								<action>	ToolbarUIAdapter.doSlowCamera	</action>
+								<updater> camera/speed	== Slow </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal>	resources/data/toolbar.bmp:144,0,168,24	</imageNormal>
+						</item>
+						<item>
+								<type>	CHILD	</type>
+								<name> Medium </name>
+								<shortcut> Ctrl+2 </shortcut>
+								<displayName> MAINTOOLBAR/CAMERASPEED/MEDIUM </displayName>
+								<description> MAINTOOLBAR/CAMERASPEED/MEDIUM/DESC </description>
+								<action>	ToolbarUIAdapter.doMediumCamera	</action>
+								<updater> camera/speed	== Medium </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal>	resources/data/toolbar.bmp:168,0,192,24	</imageNormal>
+						</item>
+						<item>
+								<type>	CHILD	</type>
+								<name> Fast </name>
+								<shortcut> Ctrl+3 </shortcut>
+								<displayName> MAINTOOLBAR/CAMERASPEED/FAST </displayName>
+								<description> MAINTOOLBAR/CAMERASPEED/FAST/DESC </description>
+								<action>	ToolbarUIAdapter.doFastCamera	</action>
+								<updater> camera/speed	== Fast </updater>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal>	resources/data/toolbar.bmp:192,0,216,24	</imageNormal>
+						</item>
+				<item>
+						<type>	CHILD	</type>
+						<name> SuperFast </name>
+						<shortcut> Ctrl+4 </shortcut>
+						<displayName> MAINTOOLBAR/CAMERASPEED/SUPERFAST </displayName>
+						<description> MAINTOOLBAR/CAMERASPEED/SUPERFAST/DESC </description>
+						<action>	ToolbarUIAdapter.doSuperFastCamera	</action>
+						<updater> camera/speed	== SuperFast </updater>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal>	resources/data/toolbar.bmp:216,0,240,24	</imageNormal>
+				</item>			   
+		</item>    
+				<item>
+						<type> SEPARATOR </type>
+				</item>
+				<item>
+						<name> Background </name>
+						<type> TOGGLE </type>
+						<displayName> MAINTOOLBAR/BACKGROUND </displayName>
+						<description> MAINTOOLBAR/BACKGROUND/DESC </description>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal> resources/data/toolbar.bmp:240,0,264,24 </imageNormal>
+						<item>
+								<type> CHILD </type>
+								<action> ToolbarUIAdapter.doSetBkClr </action>
+								<updater> ToolbarUIAdapter.updateBkClr </updater>
+						</item>
+						<item>
+								<type> CHILD </type>
+								<action> ToolbarUIAdapter.doSetBkClr </action>
+						</item>
+				</item>
+				<item>
+						<type> SEPARATOR </type>
+				</item>
+				<item>
+						<name> BKGMode </name>
+						<type> CHOICE </type>
+						<displayName> MAINTOOLBAR/BACKMODE </displayName>            
+						<item>
+								<name> Terrain </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/BACKMODE/TERRAIN </displayName>
+								<description> MAINTOOLBAR/BACKMODE/TERRAIN/DESC </description>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:264,0,288,24 </imageNormal>
+								<action> defaults/bkgMode = Terrain  </action>
+								<updater> defaults/bkgMode == Terrain </updater>
+						</item>
+						<item>
+								<name> Floor </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/BACKMODE/FLOOR </displayName>
+								<description> MAINTOOLBAR/BACKMODE/FLOOR/DESC </description>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:288,0,312,24 </imageNormal>
+								<action> defaults/bkgMode = Floor  </action>
+								<updater> defaults/bkgMode == Floor </updater>
+						</item>
+						<item>
+								<name> None </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/BACKMODE/NONE </displayName>
+								<description> MAINTOOLBAR/BACKMODE/NONE/DESC </description>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:312,0,336,24 </imageNormal>
+								<action> defaults/bkgMode = None  </action>
+								<updater> defaults/bkgMode == None </updater>
+						</item>
+				</item>
+				<item>
+						<type> SEPARATOR </type>
+				</item>
+				<item>
+						<name> Grid </name>
+						<type> TOGGLE </type>
+						<displayName> MAINTOOLBAR/GRID </displayName>
+						<description> MAINTOOLBAR/GRID/DESC </description>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal> resources/data/toolbar.bmp:336,0,360,24 </imageNormal>
+						<item>
+								<type> CHILD </type>
+								<action> render/showGrid = 1 </action>
+								<updater> render/showGrid == 0 </updater>
+						</item>
+						<item>
+								<type> CHILD </type>
+								<action> render/showGrid = 0  </action>
+						</item>
+				</item>
+				<item>
+						<name> BoundingBox </name>
+						<type> TOGGLE </type>
+						<displayName> MAINTOOLBAR/BOUNDINGBOX </displayName>
+						<description>MAINTOOLBAR/BOUNDINGBOX/DESC </description>
+						<transparency> 255,0,255 </transparency>
+						<imageNormal> resources/data/toolbar.bmp:360,0,384,24 </imageNormal>
+						<item>
+								<type> CHILD </type>
+								<action> render/showBB = 1  </action>
+								<updater> render/showBB == 0 </updater>
+						</item>
+						<item>
+								<type> CHILD </type>
+								<action> render/showBB = 0  </action>
+						</item>
+				</item>
+				<item>
+						<type> SEPARATOR </type>
+				</item>
+        <item>
+          <name> Spawn </name>
+          <type>  ACTION  </type>
+          <displayName> MAINTOOLBAR/PLAYBACK/SPAWN </displayName>
+          <description> MAINTOOLBAR/PLAYBACK/SPAWN/DESC </description>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal> resources/data/toolbar.bmp:552,0,576,24 </imageNormal>
+          <action> ToolbarUIAdapter.doSpawn </action>
+        </item>
+        <item>
+          <name> Restart </name>
+          <type>  ACTION  </type>
+          <displayName> MAINTOOLBAR/PLAYBACK/RESTART </displayName>
+          <description> MAINTOOLBAR/PLAYBACK/RESTART/DESC </description>
+          <transparency> 255,0,255 </transparency>
+          <imageNormal> resources/data/toolbar.bmp:504,0,528,24 </imageNormal>
+          <action> ToolbarUIAdapter.doRestart </action>
+        </item>
+				<item>
+						<name> PlayStop </name>
+						<type> CHOICE </type>
+						<displayName> MAINTOOLBAR/PLAYBACK </displayName>
+						<item>
+								<name> Play </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/PLAYBACK/PLAY </displayName>
+								<description> MAINTOOLBAR/PLAYBACK/PLAY/DESC </description>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:432,0,456,24 </imageNormal>
+								<action> ToolbarUIAdapter.doPlay </action>
+								<updater> ToolbarUIAdapter.updateDoPlay </updater>
+						</item>
+						<item>
+								<name> Stop </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/PLAYBACK/STOP </displayName>
+								<description> MAINTOOLBAR/PLAYBACK/STOP/DESC </description>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:456,0,480,24 </imageNormal>
+								<action> ToolbarUIAdapter.doStop </action>
+								<updater> ToolbarUIAdapter.updateDoStop </updater>
+						</item>
+						<item>
+								<name> Pause </name>
+								<type> CHILD </type>
+								<displayName> MAINTOOLBAR/PLAYBACK/PAUSE </displayName>
+								<description> MAINTOOLBAR/PLAYBACK/PAUSE/DESC </description>
+								<transparency> 255,0,255 </transparency>
+								<imageNormal> resources/data/toolbar.bmp:480,0,504,24 </imageNormal>
+								<action> ToolbarUIAdapter.doPause </action>
+								<updater> ToolbarUIAdapter.updateDoPause </updater>
+						</item>
+				</item>
+		</item>
+</GUI>

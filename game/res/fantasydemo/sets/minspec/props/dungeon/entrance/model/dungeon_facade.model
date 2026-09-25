@@ -1,0 +1,25 @@
+<dungeon_facade.model>
+	<nodelessVisual>	sets/minspec/props/dungeon/entrance/model/dungeon_facade	</nodelessVisual>
+	<materialNames>
+		<material>
+			<original>	brick	</original>
+			<display>	stairs	</display>
+		</material>
+		<material>
+			<original>	tunnel_shader	</original>
+			<display>	frame	</display>
+		</material>
+	</materialNames>
+	<extent>	50.000000	</extent>
+	<visibilityBox>
+		<min>	-3.395201 -0.242974 -2.830947	</min>
+		<max>	3.867891 6.859599 2.778383	</max>
+	</visibilityBox>
+	<parent>	sets/minspec/props/dungeon/entrance/model/dungeon_facade_lod01	</parent>
+	<batched>	true	</batched>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254377150	</modified_on>
+	</metaData>
+</dungeon_facade.model>

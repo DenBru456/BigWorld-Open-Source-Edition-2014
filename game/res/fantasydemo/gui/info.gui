@@ -1,0 +1,75 @@
+<info.gui>
+	<WindowGUIComponent>	216301392
+		<position>	0.000000 0.700000 0.900000	</position>
+		<width>	0.800000	</width>
+		<height>	0.300000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;PyGUI.PyGUIBase&quot; </script>
+		<children>
+			<frameGUI>	216302480	</frameGUI>
+			<windowGUI>	215794688	</windowGUI>
+		</children>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</WindowGUIComponent>
+	<FrameGUIComponent2>	216302480
+		<position>	0.000000 0.000000 0.900000	</position>
+		<width>	0.800000	</width>
+		<height>	0.300000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	gui/maps/tooltip_frame.tga </textureName>
+		<materialFX>	1	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	true	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</FrameGUIComponent2>
+	<WindowGUIComponent>	215794688
+		<position>	0.000000 0.000000 0.900000	</position>
+		<width>	0.750000	</width>
+		<height>	0.250000	</height>
+		<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		<angle>	0	</angle>
+		<flip>	0	</flip>
+		<visible>	true	</visible>
+		<horizontalAnchor>	1	</horizontalAnchor>
+		<verticalAnchor>	1	</verticalAnchor>
+		<textureName>	</textureName>
+		<materialFX>	0	</materialFX>
+		<filterType>	2	</filterType>
+		<tiled>	false	</tiled>
+		<tileWidth>	16	</tileWidth>
+		<tileHeight>	16	</tileHeight>
+		<script>	&quot;PyGUI.TextField&quot;
+			<transcript>	</transcript>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+			<font>	verdana_small.font	</font>
+		</script>
+		<scroll>	0.000000 0.000000	</scroll>
+		<minScroll>	0.000000 0.000000	</minScroll>
+		<maxScroll>	0.000000 0.000000	</maxScroll>
+		<widthMode>	2	</widthMode>
+		<heightMode>	2	</heightMode>
+	</WindowGUIComponent>
+</info.gui>

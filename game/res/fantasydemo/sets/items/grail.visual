@@ -1,0 +1,53 @@
+<grail.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_right_hand	</identifier>
+			<transform>
+				<row0>	0.0352 0.9978 -0.0561	</row0>
+				<row1>	0.9984 -0.0376 -0.0423	</row1>
+				<row2>	-0.0444 -0.0546 -0.9975	</row2>
+				<row3>	-0.0174 0.1127 -0.0133	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	NGon01	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000	</row2>
+				<row3>	-0.0136 0.0000 0.1375	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	NGon01	</node>
+		<geometry>
+			<vertices>	sets/items/grail.NGon01.vertices	</vertices>
+			<primitive>	sets/items/grail.NGon01.lindices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	Material #1	</identifier>
+					<fx>	shaders/std_effects/lightonly.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	diffuseMap
+						<Texture>	sets/items/grail_iron.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.09 0.01 -0.10	</min>
+		<max>	0.08 0.26 0.07	</max>
+	</boundingBox>
+	<materialKind>	4	</materialKind>
+</grail.visual>

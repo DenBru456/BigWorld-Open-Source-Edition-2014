@@ -1,0 +1,82 @@
+<root>
+	<!-- The model used for the beast entity. -->
+	<modelName> characters/npc/beast/beast.model </modelName>
+
+	<!-- The model attached to the left foot and right foot hard-points to -->
+	<!-- support water simulation. -->
+	<splashModelName> sets/temperate/props/flagstone_slab.model </splashModelName>
+
+	<!-- The particle systems attached to each of the -->
+	<!-- left and right eye hard points. -->
+	<eyeParticleSystem> particles/beast_eye.xml </eyeParticleSystem>
+	
+	
+	<!-- The particle systems attached to the left and -->
+	<!-- right mouth hard points. -->
+	<spitParticleSystem> particles/beast_spit.xml </spitParticleSystem>
+	
+
+
+	<!-- The following is data for a temporary Beast only solution for		-->
+	<!-- data driven action events. It is hoped that one day this			-->
+	<!-- functionality will be handled directly by the animation system		-->
+	<!-- and have tool support												-->
+	<!-- Action Entry formats:												-->
+	<!-- <action name>														-->
+	<!-- 	<playSound>														-->
+	<!-- 		<frame> frame to play sound </frame>						-->
+	<!-- 		<sound> name of fmod sound event </sound>					-->
+	<!-- 	</playSound>													-->
+	<!-- 																	-->
+	<!-- 	<playEffect>													-->
+	<!-- 		<frame> frame to play effect </frame>						-->
+	<!-- 		<effect> name of sfx effect to play </effect>				-->
+	<!--	</playEffect>													-->
+	<!-- 																	-->
+	<!-- 	<runScript>														-->
+	<!-- 		<frame> frame to run script </frame>						-->
+	<!--		<function> name of beast member function to run </function>	-->
+	<!--	</runScript>													-->
+	<!-- </action name>														-->
+	<!-- 																	-->
+	<!-- Note:	Fames are in 30ths of a second as in Model Editor			-->
+	<!-- Note:	Order doesn't matter. Just frame numbers. 					-->
+	<!-- 		Multiple events can have the same frame number.				-->
+
+	<actionEvents>
+		<Roar>
+			<playEffect>
+				<frame> 45 </frame>
+				<effect> sfx/beast_stomp_right_foot.xml </effect>
+			</playEffect>
+			
+			<playEffect>
+				<frame> 88 </frame>
+				<effect> sfx/beast_stomp_right_foot.xml </effect>
+			</playEffect>
+			
+			<runScript>
+				<frame> 45 </frame>
+				<function> onFootStomp </function>
+			</runScript>
+			
+			<runScript>
+				<frame> 88 </frame>
+				<function> onFootStomp </function>
+			</runScript>
+		</Roar>
+
+		<Rage>
+			<playEffect>
+				<frame> 28 </frame>
+				<effect> sfx/beast_stomp_left_foot.xml </effect>
+			</playEffect>			
+			
+			<runScript>
+				<frame> 28 </frame>
+				<function> onFootStomp </function>
+			</runScript>
+		</Rage>
+	</actionEvents>
+	
+</root>

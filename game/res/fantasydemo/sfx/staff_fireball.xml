@@ -1,0 +1,41 @@
+<SFXFile>
+	<Actor> particles
+		<ParticleSystem>  particles/staff_fireball.xml  </ParticleSystem>
+	</Actor>
+	
+	<Actor> light
+		<Light>
+			<innerRadius>	2		</innerRadius>
+			<outerRadius>	8		</outerRadius>
+			<colour>	192 255 512 255 </colour>
+			<priority>		1		</priority>
+		</Light>
+	</Actor>
+
+	
+	<Joint>	particles
+		<ModelRoot/>
+	</Joint>
+
+	<Joint>	light
+		<LightSource>  Scene Root </LightSource>
+	</Joint>
+
+
+
+	<Event> particles
+		<ClearParticles/>
+	</Event>
+
+	<Event> particles
+		<ResetTimeTriggeredParticles/>
+	</Event>
+
+	<Event> light
+		<Flicker>			
+			<amplitude>	0.1	</amplitude>
+			<speed>	0.5	</speed>
+		</Flicker>
+	</Event>
+
+</SFXFile>

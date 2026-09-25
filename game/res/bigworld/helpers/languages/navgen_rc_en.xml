@@ -1,0 +1,69 @@
+<root>
+  <en>
+    <RC_ID_FILE>&amp;File</RC_ID_FILE>
+    <RC_ID_FILE_OPENSPACE>Open &amp;Space...</RC_ID_FILE_OPENSPACE>
+    <RC_ID_FILE_OPEN>&amp;Open...</RC_ID_FILE_OPEN>
+    <RC_ID_FILE_REMOVE_ALL>Remove All NavGen Data...</RC_ID_FILE_REMOVE_ALL>
+    <RC_ID_FILE_GENERATE_ALL>Generate All</RC_ID_FILE_GENERATE_ALL>
+    <RC_ID_FILE_GENERATE_ALL_OVERWRITE>Generate All Overwrite...</RC_ID_FILE_GENERATE_ALL_OVERWRITE>
+    <RC_ID_FILE_CLUSTERGENERATE>Cluster Generate...</RC_ID_FILE_CLUSTERGENERATE>
+    <RC_ID_FILE_EXIT>E&amp;xit</RC_ID_FILE_EXIT>
+    <RC_ID_VIEW>&amp;View</RC_ID_VIEW>
+    <RC_ID_VIEW_SET>Se&amp;ts</RC_ID_VIEW_SET>
+    <RC_ID_VIEW_SET_ALL>&amp;All</RC_ID_VIEW_SET_ALL>
+    <RC_ID_VIEW_SET_NONE>&amp;None</RC_ID_VIEW_SET_NONE>
+    <RC_ID_VIEW_ADJACENCIES>&amp;Adjacencies</RC_ID_VIEW_ADJACENCIES>
+    <RC_ID_VIEW_BSPNODES>BSP &amp;Nodes</RC_ID_VIEW_BSPNODES>
+    <RC_ID_VIEW_POLYGONAREA>&amp;Polygon Area</RC_ID_VIEW_POLYGONAREA>
+    <RC_ID_VIEW_POLYGONBORDERS>Polygon &amp;Borders</RC_ID_VIEW_POLYGONBORDERS>
+    <RC_ID_VIEW_STATISTICS>&amp;Statistics...</RC_ID_VIEW_STATISTICS>
+    <RC_ID_VIEW_WAYPOINTINFO>Navpoly &amp;Info...</RC_ID_VIEW_WAYPOINTINFO>
+    <RC_ID_VIEW_RENDEREDSCENE>&amp;Rendered Scene...</RC_ID_VIEW_RENDEREDSCENE>
+    <RC_ID_VIEW_ERRORLOG>&amp;Error Log...</RC_ID_VIEW_ERRORLOG>
+    <RC_ID_ZOOM>&amp;Zoom</RC_ID_ZOOM>
+    <RC_ID_ZOOM_IN>Zoom &amp;In On NavMesh (+)</RC_ID_ZOOM_IN>
+    <RC_ID_ZOOM_OUT>Zoom &amp;Out On NavMesh (-)</RC_ID_ZOOM_OUT>
+    <RC_ID_CHUNK>Chunk</RC_ID_CHUNK>
+    <RC_ID_CHUNK_DISPLAY>Display (Enter)</RC_ID_CHUNK_DISPLAY>
+    <RC_ID_CHUNK_GENERATE>Generate (!)</RC_ID_CHUNK_GENERATE>
+    <RC_ID_CHUNK_GENERATE_SHRUNK>Generate Shrunk (@)</RC_ID_CHUNK_GENERATE_SHRUNK>
+    <RC_ID_CHUNK_REANNOTATE>Reannotate (*)</RC_ID_CHUNK_REANNOTATE>
+    <RC_ID_HELP>Help</RC_ID_HELP>
+    <RC_ID_HELP_HELP>Chunk Generation Colours...&#9;F1</RC_ID_HELP_HELP>
+    <RC_WAYPOINT_INFO_CAPTION>Navpoly Info</RC_WAYPOINT_INFO_CAPTION>
+    <RC_WAYPOINT_INFO_ID>Navpoly ID:</RC_WAYPOINT_INFO_ID>
+    <RC_WAYPOINT_INFO_HEIGHT>Height:</RC_WAYPOINT_INFO_HEIGHT>
+    <RC_MESSAGE_CAPTION>Error Log</RC_MESSAGE_CAPTION>
+    <RC_CLUSTER_GEN_CAPTION>Cluster Generate</RC_CLUSTER_GEN_CAPTION>
+    <RC_CLUSTER_GEN_ID_OK>&amp;Start</RC_CLUSTER_GEN_ID_OK>
+    <RC_CLUSTER_GEN_ID_CANCEL>&amp;Cancel</RC_CLUSTER_GEN_ID_CANCEL>
+    <RC_CLUSTER_GEN_NUM_COMPUTERS>Total Number of Computers:</RC_CLUSTER_GEN_NUM_COMPUTERS>
+    <RC_CLUSTER_GEN_INDEX>My Index:</RC_CLUSTER_GEN_INDEX>
+    <RC_CLUSTER_GEN_WARNING>Note: there is no specific coordination between the machines, Nav Gen will just process a separate portion of the world on each machine based on its index number.</RC_CLUSTER_GEN_WARNING>
+    <RC_CLUSTER_GEN_USAGE>Cluster Generate is used to generate navigation mesh data in parallel. Start Nav Gen running on all available machines, and select ""Cluster Generate"". Make sure the Total field is the same on each machine, and set a unique Index on each machine.</RC_CLUSTER_GEN_USAGE>
+    <RC_STATISTICS_CAPTION>Statistics</RC_STATISTICS_CAPTION>
+    <RC_STATISTICS_ID_OK>OK</RC_STATISTICS_ID_OK>
+    <RC_STATISTICS_BSP_NODES>BSP Nodes:</RC_STATISTICS_BSP_NODES>
+    <RC_STATISTICS_NAV_POLYS>Navigation Polygons:</RC_STATISTICS_NAV_POLYS>
+    <RC_STATISTICS_NAV_VERTS>Navpoly Vertices:</RC_STATISTICS_NAV_VERTS>
+    <RC_STATISTICS_ID_BSP_NODES>Static</RC_STATISTICS_ID_BSP_NODES>
+    <RC_STATISTICS_ID_WAYPOINT_POLYS>Static</RC_STATISTICS_ID_WAYPOINT_POLYS>
+    <RC_STATISTICS_ID_WAYPOINT_VERTS>Static</RC_STATISTICS_ID_WAYPOINT_VERTS>
+    <RC_STATISTICS_BINARY_FILE_SIZE>Binary File Size:</RC_STATISTICS_BINARY_FILE_SIZE>
+    <RC_STATISTICS_ID_BINARY_FILE_SIZE>Static</RC_STATISTICS_ID_BINARY_FILE_SIZE>
+    <RC_STATISTICS_NAVPOLY_ADJACENCIES>Navpoly Adjacencies:</RC_STATISTICS_NAVPOLY_ADJACENCIES>
+    <RC_STATISTICS_WAYPOINT_ADJACENCIES>Static</RC_STATISTICS_WAYPOINT_ADJACENCIES>
+    <RC_INFO_CAPTION>Info</RC_INFO_CAPTION>
+    <RC_INFO_ID_OK>OK</RC_INFO_ID_OK>
+    <RC_INFO_MESSAGE>Static</RC_INFO_MESSAGE>
+    <RC_CHUNK_GEN_COLOURS_CAPTION>Chunk Generation Colours</RC_CHUNK_GEN_COLOURS_CAPTION>
+    <RC_CHUNK_GEN_CAPTION>OK</RC_CHUNK_GEN_CAPTION>
+    <RC_CHUNK_GEN_USAGE_PROGRESS_BAR>While generating the NavMesh the progress bar is drawn inside each chunk.  The colours are used to show status:</RC_CHUNK_GEN_USAGE_PROGRESS_BAR>
+    <RC_CHUNK_GEN_USAGE_WHITE>White box:&#9;Loaded chunk</RC_CHUNK_GEN_USAGE_WHITE>
+    <RC_CHUNK_GEN_USAGE_CYAN>Cyan:&#9;&#9;Waiting for neighbouring chunks to be loaded</RC_CHUNK_GEN_USAGE_CYAN>
+    <RC_CHUNK_GEN_USAGE_BLUE_YELLOW>Blue/Yellow:&#9;Currently generating chunk</RC_CHUNK_GEN_USAGE_BLUE_YELLOW>
+    <RC_CHUNK_GEN_USAGE_GREY>Grey:&#9;&#9;Skipped chunk (to be calculated by other computer during cluster&#10;&#9;&#9;generate)</RC_CHUNK_GEN_USAGE_GREY>
+    <RC_CHUNK_GEN_USAGE_ORANGE>Orange:&#9;Skipped chunk (no changes since last run)</RC_CHUNK_GEN_USAGE_ORANGE>
+    <RC_CHUNK_GEN_USAGE_GREEN>Green:&#9;&#9;Completed chunk</RC_CHUNK_GEN_USAGE_GREEN>
+  </en>
+</root>

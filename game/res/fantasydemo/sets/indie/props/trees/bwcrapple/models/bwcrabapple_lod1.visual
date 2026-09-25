@@ -1,0 +1,251 @@
+<exporter_012_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone01	</identifier>
+			<transform>
+				<row0>	-0.059037 0.998256 -0.000000	</row0>
+				<row1>	-0.000001 -0.000000 1.000000	</row1>
+				<row2>	0.998256 0.059037 0.000001	</row2>
+				<row3>	0.347694 -0.223028 -0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone02	</identifier>
+				<transform>
+					<row0>	0.996860 -0.000000 0.079187	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.079187 -0.000000 0.996860	</row2>
+					<row3>	13.098411 -0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone03	</identifier>
+					<transform>
+						<row0>	0.988607 -0.000879 -0.150519	</row0>
+						<row1>	0.001563 0.999989 0.004432	</row1>
+						<row2>	0.150513 -0.004617 0.988597	</row2>
+						<row3>	6.960992 0.000000 0.000002	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone03BlendBoneCylinder01	</identifier>
+						<transform>
+							<row0>	-0.130521 0.004463 0.991436	</row0>
+							<row1>	0.991445 0.001474 0.130515	</row1>
+							<row2>	-0.000879 0.999989 -0.004617	</row2>
+							<row3>	-19.679817 -0.027924 -2.303232	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone05	</identifier>
+					<transform>
+						<row0>	0.489277 -0.000000 -0.872128	</row0>
+						<row1>	0.000000 1.000000 -0.000000	</row1>
+						<row2>	0.872128 0.000000 0.489277	</row2>
+						<row3>	6.960992 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone05BlendBoneCylinder01	</identifier>
+						<transform>
+							<row0>	-0.862068 -0.000000 0.506792	</row0>
+							<row1>	0.506792 0.000000 0.862068	</row1>
+							<row2>	-0.000000 1.000000 0.000000	</row2>
+							<row3>	-10.286311 -0.000000 -16.934956	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone07	</identifier>
+					<transform>
+						<row0>	0.438491 -0.000000 0.898735	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	-0.898735 0.000000 0.438491	</row2>
+						<row3>	6.960992 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone07BlendBoneCylinder01	</identifier>
+						<transform>
+							<row0>	0.907409 0.000000 0.420250	</row0>
+							<row1>	0.420250 0.000000 -0.907409	</row1>
+							<row2>	-0.000000 1.000000 0.000000	</row2>
+							<row3>	-8.067424 -0.000002 18.097446	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone04	</identifier>
+					<transform>
+						<row0>	0.573341 -0.819131 -0.017444	</row0>
+						<row1>	0.819068 0.573562 -0.012442	</row1>
+						<row2>	0.020197 -0.007154 0.999770	</row2>
+						<row3>	6.960992 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone04BlendBoneCylinder01	</identifier>
+						<transform>
+							<row0>	-0.005860 0.004103 0.999974	</row0>
+							<row1>	0.573576 0.819152 0.000000	</row1>
+							<row2>	-0.819131 0.573562 -0.007154	</row2>
+							<row3>	-11.365429 -16.227962 0.284986	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone06	</identifier>
+					<transform>
+						<row0>	0.424686 0.900014 0.098069	</row0>
+						<row1>	0.905119 -0.419683 -0.068016	</row1>
+						<row2>	-0.020057 0.117649 -0.992853	</row2>
+						<row3>	6.960992 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bone06BlendBoneCylinder01	</identifier>
+						<transform>
+							<row0>	0.106626 -0.049721 -0.993055	</row0>
+							<row1>	0.422618 0.906308 0.000000	</row1>
+							<row2>	0.900014 -0.419683 0.117649	</row2>
+							<row3>	-8.342570 -17.970043 -0.283018	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bone02BlendBoneCylinder01	</identifier>
+					<transform>
+						<row0>	0.020197 -0.000000 0.999796	</row0>
+						<row1>	0.999796 0.000000 -0.020197	</row1>
+						<row2>	-0.000000 1.000000 0.000000	</row2>
+						<row3>	-12.841318 -0.000000 0.685093	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone09	</identifier>
+				<transform>
+					<row0>	0.134429 -0.000001 0.990923	</row0>
+					<row1>	0.000000 1.000000 0.000001	</row1>
+					<row2>	-0.990923 -0.000000 0.134429	</row2>
+					<row3>	13.098409 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone09BlendBoneCylinder01	</identifier>
+					<transform>
+						<row0>	0.981259 0.000000 0.192695	</row0>
+						<row1>	0.192695 0.000000 -0.981259	</row1>
+						<row2>	-0.000000 1.000000 0.000000	</row2>
+						<row3>	-2.059007 -0.000001 12.693670	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone11	</identifier>
+				<transform>
+					<row0>	0.255042 0.000000 -0.966930	</row0>
+					<row1>	-0.000000 1.000000 0.000000	</row1>
+					<row2>	0.966930 0.000000 0.255042	</row2>
+					<row3>	13.098409 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone11BlendBoneCylinder01	</identifier>
+					<transform>
+						<row0>	-0.980300 -0.000000 0.197513	</row0>
+						<row1>	0.197513 -0.000000 0.980300	</row1>
+						<row2>	-0.000000 1.000000 0.000000	</row2>
+						<row3>	-2.955756 0.000002 -12.515283	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone08	</identifier>
+				<transform>
+					<row0>	0.284197 0.958619 0.016808	</row0>
+					<row1>	0.059037 0.000001 -0.998256	</row1>
+					<row2>	-0.956947 0.284694 -0.056593	</row2>
+					<row3>	13.098409 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone08BlendBoneCylinder01	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.284694 0.000000 -0.958619	</row1>
+						<row2>	0.958619 -0.000000 0.284694	</row2>
+						<row3>	-3.659035 -0.425591 12.320678	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone10	</identifier>
+				<transform>
+					<row0>	0.493216 -0.869418 0.029168	</row0>
+					<row1>	0.059036 0.000001 -0.998256	</row1>
+					<row2>	0.867902 0.494077 0.051327	</row2>
+					<row3>	13.098409 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	Bone10BlendBoneCylinder01	</identifier>
+					<transform>
+						<row0>	-0.000000 -1.000000 -0.000000	</row0>
+						<row1>	0.494077 -0.000000 0.869418	</row1>
+						<row2>	-0.869418 -0.000000 0.494077	</row2>
+						<row3>	-6.350142 -0.425586 -11.174224	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Bone01BlendBoneCylinder01	</identifier>
+				<transform>
+					<row0>	-0.059037 -0.000001 0.998256	</row0>
+					<row1>	0.998256 -0.000000 0.059037	</row1>
+					<row2>	-0.000000 1.000000 0.000001	</row2>
+					<row3>	0.243165 0.000000 -0.333920	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone01BlendBoneCylinder01	</node>
+		<node>	Bone02BlendBoneCylinder01	</node>
+		<node>	Bone03BlendBoneCylinder01	</node>
+		<node>	Bone06BlendBoneCylinder01	</node>
+		<node>	Bone11BlendBoneCylinder01	</node>
+		<node>	Bone05BlendBoneCylinder01	</node>
+		<node>	Bone08BlendBoneCylinder01	</node>
+		<node>	Bone10BlendBoneCylinder01	</node>
+		<node>	Bone04BlendBoneCylinder01	</node>
+		<node>	Bone09BlendBoneCylinder01	</node>
+		<node>	Bone07BlendBoneCylinder01	</node>
+		<geometry>
+			<vertices>	Cylinder01.vertices	</vertices>
+			<primitive>	Cylinder01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	bwcrabapple_skinned	</identifier>
+					<fx>	shaders/std_effects/lightonly_skinned.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	alphaReference
+						<Int>	150	</Int>
+					</property>
+					<property>	alphaTestEnable
+						<Bool>	true	</Bool>
+					</property>
+					<property>	doubleSided
+						<Bool>	true	</Bool>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/indie/props/trees/bwcrapple/maps/bwcrabapple_flowers_color.tga	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-17.222002 -0.721286 -14.392923	</min>
+		<max>	16.133675 35.163704 16.360144	</max>
+	</boundingBox>
+</exporter_012_temp.visual>

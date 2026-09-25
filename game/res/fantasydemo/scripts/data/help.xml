@@ -1,0 +1,100 @@
+<help.xml>
+
+	<category> Welcome
+		<item> Welcome to the BigWorld Technology </item>
+		<item> client demo! </item>
+		<item> </item>
+		<item> Click the '>' button below for basic operating </item>
+		<item> instructions.</item>
+	</category>
+
+
+	<category> Game Keys
+		<item> Movement			<action> W/A/S/D	</action> </item>
+		<item> Crouch			<action> C			</action> </item>
+		<item> Walk				<action> Shift		</action> </item>
+		<item> Dash				<action> Ctrl		</action> </item>
+		<item> Prev/Next Item	<action> Q/E		</action> </item>
+		<item> Drop Item		<action> X			</action> </item>
+		<item> Stow Sword		<action> 1/2/3		</action> </item>
+		<item> Exit Mode/Vehicle			<action> Esc	</action> </item>
+		<item> Next/Prev player model		<action> V/B	</action> </item>
+		<item> Random player model			<action> Ctrl+B	</action> </item>
+		<item> Random player customisation	<action> Ctrl+V </action> </item>
+		<item> Paper/Scissors/Rock		<action> NumPad 7/8/9</action> </item>
+		<item> Perform Gesture			<action> NumPad 0-6	</action> </item>
+		<item> Shake hands with target	<action> NumPad .	</action> </item>
+	</category>
+
+
+	<category> Camera &amp; Mouse Controls
+		<item> Press Tab to cycle through the 3 camera modes:</item>
+		<item> Normal camera, Orbit camera, Free camera</item>
+		<item> In Free camera mode use the Arrow keys to</item>
+		<item> move the camera. </item>
+		<item> </item>
+		<item> Hold down RMB to point the camera. </item>
+		<item> Hold down LMB to orbit the camera. </item>
+		<item> Hold down both LMB &amp; RMB to move the player. </item>
+		<item> Use the Mouse Wheel to zoom the camera. </item>
+		<item> </item>
+		<item> Things that you can interact with are indicated </item>
+		<item> with a title when targeted with the mouse cursor.</item>
+		<item> Left Click to "Use" the item (pick up item, attack </item>
+		<item> monster, etc). </item>
+
+</category>
+	
+
+	<category> General
+		<item> Toggle full-screen mode	<action> Alt+Enter	</action> </item>
+		<item> Change window size		<action> Tilde+F2</action> </item>
+		<item> Screen-capture to Game Dir. <action> PrintScreen </action> </item>
+		<item> Teleport to locations 1-4<action> Ctrl+1-4 </action> </item>
+		<item> </item>
+		<item> Chat Window Controls </item>
+		<item> Open chat window			<action> Enter	</action> </item>
+		<item> Send chat				<action> Type msg and press Enter</action> </item>
+		<item> Close chat window		<action> Enter/Esc </action> </item>
+		<item> Command help				<action> /help </action> </item>
+		<item> </item>
+		<item> Console Window Controls </item>
+		<item> Toggle dark background	<action> Tilde+F9 </action> </item>
+		<item> Close console			<action> Esc		</action> </item>
+	</category>
+
+	<category> Real-time Profiling Console
+		<item> Profile Modes 			<action> P		</action> </item>
+		<item> Hierarchical Profiling	<action> H			</action> </item>
+		<item> Thread Profiling			<action> T			</action> </item>
+		<item> Main Screen				<action> M			</action> </item>
+		<item> Prev/Next Entry			<action> PgUp/PgDn	</action> </item>
+		<item> Expand/Collapse Entry	<action> Enter		</action> </item>
+		<item> 	</item>
+		<item> Profile Data Mode</item>
+		<item> Toggle thread displays 	<action> 0-9		</action> </item>
+		<item> Freeze display &amp; dump data <action> F	</action> </item>
+		<item> Toggle inclusive timing  <action> I			</action> </item>
+		<item> Toggle profile bar graphs <action> B			</action> </item>
+	</category>
+		
+	<category> Debug (Watcher) Console
+		<item> Prev/Next watcher		<action> PgUp/PgDn	</action> </item>
+		<item> Enter watcher directory 	<action> Enter		</action> </item>
+		<item> Previous watcher directory <action> Backspace </action> </item>
+		<item> Edit watcher value		<action> Enter		</action> </item>
+	</category>
+
+
+	<category> Debug Controls
+		<item> Float (debug)			<action> Space	</action> </item>
+		<item> Toggle Fly mode			<action> Ctrl+F	</action> </item>
+		<item> Toggle Speed				<action> Ctrl+U	</action> </item>
+		<item> Toggle sky components	<action> Tilde+F6 </action> </item>
+		<item> Cycle wireframe modes	<action> Tilde+F8 </action> </item>
+		<item> Reload scripts (with console) <action> Tilde+F11	</action> </item>
+		<item> Reload chunks			<action> Tilde+F	</action> </item>
+		<item> Invert mouse movement	<action> Tilde+I	</action> </item>
+	</category>
+
+</help.xml>

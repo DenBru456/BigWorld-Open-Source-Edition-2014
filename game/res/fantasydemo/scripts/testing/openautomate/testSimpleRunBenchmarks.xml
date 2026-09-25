@@ -1,0 +1,37 @@
+<testSimpleRunBenchmarks.xml>
+	<currentLocation>	10000	</currentLocation>
+	<command>	CMD_SET_OPTIONS
+		<option>	VideoMode
+			<optionValue>	1600x1200x32	</optionValue>
+		</option>
+		<option>	WATER_QUALITY
+			<optionValue>	LOWEST	</optionValue>
+		</option>
+		<option>	WATER_SIMULATION
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	WindowedMode
+			<optionValue>	OFF	</optionValue>
+		</option>
+	</command>
+	<command>	CMD_RUN_BENCHMARK
+		<benchmark>	RunProfilerMinspec	</benchmark>
+	</command>
+	<command>	CMD_SET_OPTIONS
+		<option>	VideoMode
+			<optionValue>	640x480x32	</optionValue>
+		</option>
+		<option>	WATER_QUALITY
+			<optionValue>	LOWEST	</optionValue>
+		</option>
+		<option>	WATER_SIMULATION
+			<optionValue>	OFF	</optionValue>
+		</option>
+		<option>	WindowedMode
+			<optionValue>	ON	</optionValue>
+		</option>
+	</command>
+	<command>	CMD_RUN_BENCHMARK
+		<benchmark>	RunProfilerMinspec1	</benchmark>
+	</command>
+</testSimpleRunBenchmarks.xml>

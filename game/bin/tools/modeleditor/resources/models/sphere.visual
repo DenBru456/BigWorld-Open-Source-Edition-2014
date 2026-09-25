@@ -1,0 +1,48 @@
+<exporter_006_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Bone04	</identifier>
+			<transform>
+				<row0>	0.785638 0.000000 -0.618686	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.618686 0.000000 0.785638	</row2>
+				<row3>	0.066088 0.000000 -0.052696	</row3>
+			</transform>
+			<node>
+				<identifier>	Bone04BlendBoneSphere01	</identifier>
+				<transform>
+					<row0>	0.785638 0.000000 0.618686	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	-0.618686 0.000000 0.785638	</row2>
+					<row3>	-0.084524 -0.000000 0.000512	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	Bone04BlendBoneSphere01	</node>
+		<geometry>
+			<vertices>	Sphere01.vertices	</vertices>
+			<stream>	Sphere01.uv2	</stream>
+			<stream>	Sphere01.colour	</stream>
+			<primitive>	Sphere01.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	empty	</identifier>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.989074 0.000000 -0.994522	</min>
+		<max>	0.989074 2.000000 0.994522	</max>
+	</boundingBox>
+</exporter_006_temp.visual>

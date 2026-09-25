@@ -1,0 +1,90 @@
+<guard_model_data.xml>
+	<!--
+	This file contains information about what models can be used as guard
+	models. Guards like players use the avatar model system and so all model files
+	referenced must be included in the file avatar_model_data.xml
+
+	The structure of the guard model is such that a base model is chosen
+	which will then have a list of available customisations.
+	Customisations can be either model customisations or material
+	customisations. One option is chosen from each customisation.
+
+	A material customisation contains a list of tint options to be applied to a
+	set of material groups(aka matters). Note that the material group must have
+	at least one tint in Model Editor to be used in a material customisation.
+
+	Example:
+	<materialCustomisation>
+		<name>	Pants Colour		</name>
+		<materialGroups>
+			<materialGroup>		Legs_skinned	</materialGroup>
+		</materialGroups>
+		<tints>
+			<tint>
+				<name>	Red Pants	</name>
+				<tintName>	Default	</tintName>
+			</tint>
+			<tint>
+				<name>	Merchant Pants	</name>
+				<tintName>	Merchant	</tintName>
+			</tint>
+		</tints>
+	</materialCustomisation>
+
+	Model customisations contain a list of model options in the same format as
+	the base model. They may include additional customisations possibilities
+	that only exist when that model is selected.
+
+	Example:
+	<modelCustomisation>
+		<name>	Head	</name>
+		<models>
+			<model>
+				<name>	Warrior Hair - Short	</name>
+				<models>
+					<resPath>	characters/avatars/warrior/hair.model </resPath>
+				</models>
+				<customisations>
+				</customisations>
+			</model>
+			<model>
+				<name>	Warrior Hair - Long	</name>
+				<models>
+					<resPath>	characters/avatars/warrior/hair00.model </resPath>
+				</models>
+				<customisations>
+				</customisations>
+			</model>
+		</models>
+	</modelCustomisation>
+	-->
+
+	<baseModels>
+		<baseModel>
+			<name>		Highlands Guard	</name>
+			<models>
+				<resPath>	characters/npc/fd_orc_guard/orc.model </resPath>
+			</models>
+			<customisations>
+			</customisations>
+		</baseModel>
+
+		<baseModel>
+			<name>		Minspec Guard		</name>
+			<models>
+				<resPath>	sets/minspec/characters/npc/orcguard/model/orcguard.model </resPath>
+			</models>
+			<customisations>
+			</customisations>
+		</baseModel>
+
+		<baseModel>
+			<name> 	deprecated </name>name>
+			<models>
+				<resPath> </resPath>
+			</models>
+			<customisations>
+			</customisations>
+		</baseModel>
+	</baseModels>
+</guard_model_data.xml>

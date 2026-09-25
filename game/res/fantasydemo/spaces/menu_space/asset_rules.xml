@@ -1,0 +1,7 @@
+<root>
+  <rule pattern="^(space\.settings)$">
+    <root>true</root>
+    <converter>SpaceConverter</converter>
+    <converterParams>-includeInsideChunks</converterParams>
+  </rule>
+</root>

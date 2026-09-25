@@ -1,0 +1,100 @@
+<razor_flare.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	HP_flare	</identifier>
+			<transform>
+				<row0>	0.0000 -0.0000 -1.000	</row0>
+				<row1>	1.000 0.0000 -0.0000	</row1>
+				<row2>	0.0000 -1.000 0.0000	</row2>
+				<row3>	0.0003 1.5587 -1.2003	</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>	flare	</identifier>
+			<transform>
+				<row0>	0.0000 -0.0000 -1.0000	</row0>
+				<row1>	1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 -1.0000 0.0000	</row2>
+				<row3>	0.0003 1.5587 -1.3385	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	flare	</node>
+		<geometry>
+			<vertices>	sets/vehicles/razor_flare.flare.vertices	</vertices>
+			<primitive>	sets/vehicles/razor_flare.flare.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	AFX_razflare	</identifier>
+					<fx>	shaders/std_effects/lightonly_normal_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	textureOperation
+						<Int>	4	</Int>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/vehicles/AFX_razflare.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.000000 1.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.000000 0.000000 0.000000 0.000000	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/vehicles/ref_spot6_falloff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>	AFX_razglow	</identifier>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	2
+				<material>
+					<identifier>	razflare_glow	</identifier>
+					<fx>	shaders/std_effects/lightonly_normal_add.fx	</fx>
+					<collisionFlags>	0	</collisionFlags>
+					<materialKind>	0	</materialKind>
+					<property>	textureOperation
+						<Int>	4	</Int>
+					</property>
+					<property>	selfIllumination
+						<Float>	1.0	</Float>
+					</property>
+					<property>	diffuseMap
+						<Texture>	sets/vehicles/AFX_razflare.bmp	</Texture>
+					</property>
+					<property>	vTransform
+						<Vector4>	0.0 1.0 0.0 0.0	</Vector4>
+					</property>
+					<property>	uTransform
+						<Vector4>	1.0 0.0 0.0 0.0	</Vector4>
+					</property>
+					<property>	otherMap
+						<Texture>	sets/vehicles/ref_spot6_falloff.bmp	</Texture>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-1.18 0.27 -2.59	</min>
+		<max>	1.17 2.61 -1.22	</max>
+	</boundingBox>
+</razor_flare.visual>

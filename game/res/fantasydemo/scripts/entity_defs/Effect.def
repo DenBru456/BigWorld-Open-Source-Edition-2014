@@ -1,0 +1,21 @@
+<root>
+	<Implements>
+		<Interface> BaseAndCell </Interface>
+	</Implements>
+
+	<Properties>
+		<effectType>
+			<Type>		INT8			</Type>
+			<Flags>		OTHER_CLIENTS	</Flags>
+			<Default>	0				</Default>	<!-- See Effect -->
+			<Persistent>	true		</Persistent>
+			<Editable>	true			</Editable>
+		</effectType>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

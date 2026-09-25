@@ -1,0 +1,90 @@
+<slider.xml>	&quot;PyGUI.SliderVisualState&quot;
+	<disabled>
+		<background>
+			<textureName>	</textureName>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	125.000000 125.000000 125.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<mapping>	PIXEL
+				<coords0>	0.000000 65.000000	</coords0>
+				<coords1>	0.000000 86.000000	</coords1>
+				<coords2>	13.000000 86.000000	</coords2>
+				<coords3>	13.000000 65.000000	</coords3>
+			</mapping>
+			<colour>	200.000000 200.000000 200.000000 255.000000	</colour>
+		</thumb>
+	</disabled>
+	<hover>
+		<background>
+			<textureName>	</textureName>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<mapping>	PIXEL
+				<coords0>	22.000000 65.000000	</coords0>
+				<coords1>	22.000000 86.000000	</coords1>
+				<coords2>	35.000000 86.000000	</coords2>
+				<coords3>	35.000000 65.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</thumb>
+	</hover>
+	<pressed>
+		<background>
+			<textureName>	</textureName>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<mapping>	PIXEL
+				<coords0>	22.000000 65.000000	</coords0>
+				<coords1>	22.000000 86.000000	</coords1>
+				<coords2>	35.000000 86.000000	</coords2>
+				<coords3>	35.000000 65.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</thumb>
+	</pressed>
+	<normal>
+		<background>
+			<textureName>	</textureName>
+			<mapping>	UV
+				<coords0>	0.000000 0.000000	</coords0>
+				<coords1>	0.000000 1.000000	</coords1>
+				<coords2>	1.000000 1.000000	</coords2>
+				<coords3>	1.000000 0.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</background>
+		<thumb>
+			<textureName>	gui/maps/gui_general.dds	</textureName>
+			<mapping>	PIXEL
+				<coords0>	0.000000 65.000000	</coords0>
+				<coords1>	0.000000 86.000000	</coords1>
+				<coords2>	13.000000 86.000000	</coords2>
+				<coords3>	13.000000 65.000000	</coords3>
+			</mapping>
+			<colour>	255.000000 255.000000 255.000000 255.000000	</colour>
+		</thumb>
+	</normal>
+</slider.xml>

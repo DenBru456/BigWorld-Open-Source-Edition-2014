@@ -1,0 +1,144 @@
+<root>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	joint1	</identifier>
+			<transform>
+				<row0>	0.025308 -0.999680 0.000000	</row0>
+				<row1>	0.999680 0.025308 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	-0.005543 0.161446 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	joint2	</identifier>
+				<transform>
+					<row0>	0.999781 -0.020924 0.000000	</row0>
+					<row1>	0.020924 0.999781 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.080797 0.000000 0.000000	</row3>
+				</transform>
+				<node>
+					<identifier>	joint3	</identifier>
+					<transform>
+						<row0>	0.021836 0.999762 0.000000	</row0>
+						<row1>	-0.999762 0.021836 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.077704 0.000000 0.000000	</row3>
+					</transform>
+					<node>
+						<identifier>	joint4	</identifier>
+						<transform>
+							<row0>	1.000000 -0.000000 0.000000	</row0>
+							<row1>	0.000000 1.000000 0.000000	</row1>
+							<row2>	0.000000 0.000000 1.000000	</row2>
+							<row3>	0.092358 -0.001704 0.000000	</row3>
+						</transform>
+						<node>
+							<identifier>	joint4_BlendBone	</identifier>
+							<transform>
+								<row0>	0.999848 0.017451 0.000000	</row0>
+								<row1>	-0.017451 0.999848 0.000000	</row1>
+								<row2>	0.000000 0.000000 -1.000000	</row2>
+								<row3>	-0.089150 -0.001213 0.000000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	joint3_BlendBone	</identifier>
+						<transform>
+							<row0>	0.999848 0.017451 0.000000	</row0>
+							<row1>	-0.017451 0.999848 0.000000	</row1>
+							<row2>	0.000000 0.000000 -1.000000	</row2>
+							<row3>	0.003208 -0.002917 0.000000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	joint2_BlendBone	</identifier>
+					<transform>
+						<row0>	0.004386 0.999990 0.000000	</row0>
+						<row1>	-0.999990 0.004386 0.000000	</row1>
+						<row2>	0.000000 0.000000 -1.000000	</row2>
+						<row3>	0.080690 0.003144 0.000000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	joint1_BlendBone	</identifier>
+				<transform>
+					<row0>	0.025308 0.999680 0.000000	</row0>
+					<row1>	-0.999680 0.025308 0.000000	</row1>
+					<row2>	0.000000 0.000000 -1.000000	</row2>
+					<row3>	0.161535 0.001455 0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>	pCube1	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.035607 0.078314 0.094954	</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint3_BlendBone	</node>
+		<node>	joint2_BlendBone	</node>
+		<node>	joint4_BlendBone	</node>
+		<node>	joint1_BlendBone	</node>
+		<geometry>
+			<vertices>	pCylinderShape1.vertices	</vertices>
+			<primitive>	pCylinderShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	pCube1	</node>
+		<geometry>
+			<vertices>	pCubeShape1.vertices	</vertices>
+			<primitive>	pCubeShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	joint4_BlendBone	</node>
+		<node>	joint3_BlendBone	</node>
+		<node>	joint2_BlendBone	</node>
+		<geometry>
+			<vertices>	pConeShape1.vertices	</vertices>
+			<primitive>	pConeShape1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	lambert1_skinned	</identifier>
+					<mfm>	materials/template_mfms/lightonly_skinned.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<constraints />
+	<boundingBox>
+		<min>	-0.069611 -0.000000 -0.052471	</min>
+		<max>	0.113796 0.160969 0.108499	</max>
+	</boundingBox>
+</root>

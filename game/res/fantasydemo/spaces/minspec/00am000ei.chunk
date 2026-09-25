@@ -1,0 +1,283 @@
+<root>
+	<shell>
+		<resource>	sets/minspec/shells/dungeon/dungeon_tunnel/model/dungeon_tunnel_corner_stairs_002.model	</resource>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	true	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	0	</offset>
+			<size>	7540	</size>
+		</staticLighting>
+	</shell>
+	<model>
+		<resource>	sets/dungeon/props/web_corner02.model	</resource>
+		<transform>
+			<row0>	0.458163 0.037694 -0.888068	</row0>
+			<row1>	-0.046058 -0.996751 -0.066069	</row1>
+			<row2>	-0.887674 0.071173 -0.454939	</row2>
+			<row3>	-5.706828 2.880707 -3.587021	</row3>
+		</transform>
+		<editorOnly>
+			<castsShadow>	true	</castsShadow>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<reflectionVisible>	false	</reflectionVisible>
+		<metaData />
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	7540	</offset>
+			<size>	28	</size>
+		</staticLighting>
+	</model>
+	<ambientLight>
+		<colour>	67.000000 51.000015 81.000000	</colour>
+		<multiplier>	1.000000	</multiplier>
+	</ambientLight>
+	<omniLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237480	</modified_on>
+		</metaData>
+		<colour>	245.000092 221.000092 148.000000	</colour>
+		<position>	-5.584961 1.736176 -3.772705	</position>
+		<innerRadius>	0.297317	</innerRadius>
+		<outerRadius>	5.304735	</outerRadius>
+		<dynamic>	true	</dynamic>
+		<static>	true	</static>
+		<specular>	true	</specular>
+		<priority>	0	</priority>
+		<multiplier>	1.500000	</multiplier>
+	</omniLight>
+	<pulseLight>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237487	</modified_on>
+		</metaData>
+		<colour>	255.000000 183.000000 74.000000	</colour>
+		<position>	-5.425610 0.862640 -3.647789	</position>
+		<innerRadius>	1.000000	</innerRadius>
+		<outerRadius>	5.000000	</outerRadius>
+		<multiplier>	1.000000	</multiplier>
+		<timeScale>	0.500000	</timeScale>
+		<duration>	6.600000	</duration>
+		<animation>	system/animation/lightnoise.animation	</animation>
+		<priority>	0	</priority>
+		<frame>	0.000000 0.450000	</frame>
+		<frame>	0.600000 0.650000	</frame>
+		<frame>	0.700000 0.400000	</frame>
+		<frame>	0.900000 0.650000	</frame>
+		<frame>	1.200000 0.410000	</frame>
+		<frame>	1.500000 0.650000	</frame>
+		<frame>	1.700000 0.410000	</frame>
+		<frame>	1.900000 0.700000	</frame>
+		<frame>	2.100000 0.450000	</frame>
+		<frame>	2.400000 0.620000	</frame>
+		<frame>	2.700000 0.540000	</frame>
+		<frame>	3.200000 0.620000	</frame>
+		<frame>	3.700000 0.520000	</frame>
+		<frame>	3.900000 0.680000	</frame>
+		<frame>	4.200000 0.380000	</frame>
+		<frame>	4.400000 0.660000	</frame>
+		<frame>	4.800000 0.560000	</frame>
+		<frame>	5.500000 0.660000	</frame>
+		<frame>	5.800000 0.420000	</frame>
+		<frame>	6.300000 0.600000	</frame>
+		<frame>	6.500000 0.540000	</frame>
+	</pulseLight>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237557	</modified_on>
+		</metaData>
+		<resource>	sets/minspec/props/dungeon_misc/models/torch_dungeon.model	</resource>
+		<transform>
+			<row0>	-0.744179 0.000003 -0.667979	</row0>
+			<row1>	0.667979 -0.000028 -0.744179	</row1>
+			<row2>	-0.000021 -1.000000 0.000019	</row2>
+			<row3>	-6.227077 0.830627 -2.423759	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	7568	</offset>
+			<size>	4360	</size>
+		</staticLighting>
+	</model>
+	<model>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+			<castsShadow>	true	</castsShadow>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237584	</modified_on>
+		</metaData>
+		<resource>	sets/dungeon/props/flameplane.model	</resource>
+		<transform>
+			<row0>	0.198321 -0.000001 0.178014	</row0>
+			<row1>	0.000006 0.266497 -0.000005	</row1>
+			<row2>	-0.178014 0.000007 0.198321	</row2>
+			<row3>	-6.051647 1.175888 -2.561691	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+		<castsShadow>	true	</castsShadow>
+		<staticLighting>
+			<offset>	11928	</offset>
+			<size>	36	</size>
+		</staticLighting>
+	</model>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237626	</modified_on>
+		</metaData>
+		<resource>	particles/fire_shimmer_smoke_embers.xml	</resource>
+		<transform>
+			<row0>	0.744177 -0.000003 0.667978	</row0>
+			<row1>	0.000021 0.999997 -0.000019	</row1>
+			<row2>	-0.667978 0.000028 0.744177	</row2>
+			<row3>	-6.075119 1.243195 -2.594849	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<particles>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237651	</modified_on>
+		</metaData>
+		<resource>	particles/torch_fire_menu.xml	</resource>
+		<transform>
+			<row0>	-0.587050 -0.000003 -0.809549	</row0>
+			<row1>	0.000021 0.999999 -0.000019	</row1>
+			<row2>	0.809549 -0.000028 -0.587050	</row2>
+			<row3>	-6.080112 1.192444 -2.581642	</row3>
+		</transform>
+		<reflectionVisible>	false	</reflectionVisible>
+	</particles>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	-0.861162 0.206708 0.464403	</row0>
+			<row1>	0.114001 0.968850 -0.219843	</row1>
+			<row2>	-0.495381 -0.136379 -0.857902	</row2>
+			<row3>	-4.801453 0.496658 -4.388565	</row3>
+		</transform>
+		<guid>	01174761.4E036A03.E3807195.FBBFBB6C	</guid>
+		<properties>
+			<next>
+				<guid>	18643233.480C95AF.368F6789.2CA0030F	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	1E5846DD.4AF0816A.5D2EDAAB.B408B6E4	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<UserDataObject>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData />
+		<type>	CameraNode	</type>
+		<transform>
+			<row0>	0.517494 -0.429624 -0.740013	</row0>
+			<row1>	0.144829 0.896318 -0.419089	</row1>
+			<row2>	0.843340 0.109701 0.526063	</row2>
+			<row3>	-6.340759 0.528259 -5.598389	</row3>
+		</transform>
+		<guid>	F83DDD53.40DA25E0.5613F1B8.D817E4A0	</guid>
+		<properties>
+			<next>
+				<guid>	A80137A8.46EF8275.2759B188.D766E130	</guid>
+				<chunkId>	0000ffffo	</chunkId>
+			</next>
+		</properties>
+		<backLinks>
+			<link>
+				<guid>	DED8C35D.4F635F0E.D8298983.584561AF	</guid>
+				<chunkId>	0000fffeo	</chunkId>
+			</link>
+		</backLinks>
+	</UserDataObject>
+	<entity>
+		<editorOnly>
+			<hidden>	false	</hidden>
+			<frozen>	false	</frozen>
+		</editorOnly>
+		<metaData>
+			<modified_by>	AdamM	</modified_by>
+			<modified_on>	1276237526	</modified_on>
+		</metaData>
+		<guid>	1B2467F8.441A5699.7E6D5CA9.62E7A075	</guid>
+		<type>	Info	</type>
+		<transform>
+			<row0>	0.008086 -0.108091 -0.994108	</row0>
+			<row1>	-0.148345 0.983010 -0.108091	</row1>
+			<row2>	0.988902 0.148345 -0.008086	</row2>
+			<row3>	-5.177853 -0.729019 -3.266724	</row3>
+		</transform>
+		<clientOnly>	true	</clientOnly>
+		<properties>
+			<text>	Note the dynamic lighting.	</text>
+			<showWhenNear>	1	</showWhenNear>
+			<patrolPathNode />
+		</properties>
+		<backLinks />
+	</entity>
+	<transform>
+		<row0>	1.000000 0.000000 0.000000	</row0>
+		<row1>	0.000000 1.000000 0.000000	</row1>
+		<row2>	0.000000 0.000000 1.000000	</row2>
+		<row3>	51.849995 200.079956 -92.947899	</row3>
+	</transform>
+	<boundingBox>
+		<min>	41.348442 196.629303 -104.458191	</min>
+		<max>	52.591129 206.014877 -92.347900	</max>
+	</boundingBox>
+	<worldNavmesh>
+		<resource>	00am000ei.cdata/worldNavmesh	</resource>
+	</worldNavmesh>
+</root>

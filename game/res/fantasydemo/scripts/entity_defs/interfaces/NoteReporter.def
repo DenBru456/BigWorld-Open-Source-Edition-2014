@@ -1,0 +1,31 @@
+<root>
+	<ClientMethods>
+		<!-- Invoked when a note has been added to the external DB -->
+		<onAddNote>
+			<Args>
+				<id>	NOTE_ID			</id>	<!-- Note ID of the new note -->
+			</Args>
+		</onAddNote>
+
+		<onGetNotes>
+			<Args>
+				<noteList> NOTES </noteList>
+			</Args>
+		</onGetNotes>
+	</ClientMethods>
+
+	<BaseMethods>
+
+		<addNote>
+			<Exposed/>
+			<Args>
+				<description>	UNICODE_STRING	</description>
+			</Args>
+		</addNote>
+
+		<!-- Will callback the client's onGetNotes -->
+		<getNotes>
+			<Exposed/>
+		</getNotes>
+	</BaseMethods>
+</root>

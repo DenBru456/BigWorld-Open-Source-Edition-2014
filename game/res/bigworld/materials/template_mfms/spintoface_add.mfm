@@ -1,0 +1,20 @@
+<root>
+	<fx>	shaders/std_effects/spintoface_add.fx	</fx>
+	<property>	srcBlend
+		<Int>	2	</Int>
+	</property>
+	<property>	alphaReference
+		<Int>	0	</Int>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	diffuseMap
+		<Texture> helpers\maps\aid_builder.tga	</Texture>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<materialKind>	0	</materialKind>
+</root>

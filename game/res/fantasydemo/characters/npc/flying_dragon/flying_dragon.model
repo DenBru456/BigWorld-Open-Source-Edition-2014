@@ -1,0 +1,241 @@
+<flying_dragon.model>
+	<action>
+		<name>	fly_idle_trans	</name>
+		<animation>	fly_idle_trans	</animation>
+		<isMovement>	true	</isMovement>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	3.500000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-95.000000	</minModelYaw>
+				<maxModelYaw>	95.000000	</maxModelYaw>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+		</match>
+	</action>
+	<action>
+		<name>	fly_backward_trans	</name>
+		<animation>	fly_backward_trans	</animation>
+		<match>
+			<trigger>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minEntitySpeed>	0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minModelYaw>	94.000000	</minModelYaw>
+				<maxModelYaw>	266.000000	</maxModelYaw>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+		</match>
+		<isMovement>	true	</isMovement>
+	</action>
+	<action>
+		<name>	fly_forward_ultra_trans	</name>
+		<animation>	fly_forward_ultra_trans	</animation>
+		<match>
+			<trigger>
+				<minEntitySpeed>	8.000000	</minEntitySpeed>
+				<maxEntitySpeed>	100.000000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-95.000000	</minModelYaw>
+				<maxModelYaw>	95.000000	</maxModelYaw>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+		</match>
+		<isMovement>	true	</isMovement>
+	</action>
+	<action>
+		<name>	begin_bankright	</name>
+		<animation>	begin_bankright	</animation>
+	</action>
+	<action>
+		<name>	bankright	</name>
+		<animation>	bankright	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	fly_glide_trans	</name>
+		<animation>	fly_glide_trans	</animation>
+		<match>
+			<trigger>
+				<minEntitySpeed>	-25.000000	</minEntitySpeed>
+				<maxEntitySpeed>	-100.000000	</maxEntitySpeed>
+				<minEntityAux1>	-180.000000	</minEntityAux1>
+				<maxEntityAux1>	133.500000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+		</match>
+		<isMovement>	true	</isMovement>
+	</action>
+	<action>
+		<name>	fly_forward_slow_trans	</name>
+		<animation>	fly_forward_slow_trans	</animation>
+		<filler>	false	</filler>
+		<isMovement>	true	</isMovement>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.100000	</minEntitySpeed>
+				<maxEntitySpeed>	8.100000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-95.000000	</minModelYaw>
+				<maxModelYaw>	95.000000	</maxModelYaw>
+			</trigger>
+			<feetFollowDirection>	true	</feetFollowDirection>
+			<scalePlaybackSpeed>	true	</scalePlaybackSpeed>
+		</match>
+	</action>
+	<action>
+		<name>	begin_bankleft	</name>
+		<animation>	begin_bankleft	</animation>
+	</action>
+	<action>
+		<name>	bankleft	</name>
+		<animation>	bankleft	</animation>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	fire_ball_50	</name>
+		<animation>	fire_ball_50	</animation>
+		<track>	-1	</track>
+		<blendOutTime>	0.400000	</blendOutTime>
+	</action>
+	<action>
+		<name>	fly_turnleft_headonly	</name>
+		<animation>	fly_turnleft_headonly	</animation>
+		<track>	-1	</track>
+		<filler>	true	</filler>
+	</action>
+	<action>
+		<name>	Idle	</name>
+		<animation>	fly_idle	</animation>
+		<match>
+			<trigger>
+				<minEntitySpeed>	0.000000	</minEntitySpeed>
+				<maxEntitySpeed>	3.500000	</maxEntitySpeed>
+				<minEntityAux1>	-360.000000	</minEntityAux1>
+				<maxEntityAux1>	360.000000	</maxEntityAux1>
+				<minModelYaw>	-360.000000	</minModelYaw>
+				<maxModelYaw>	360.000000	</maxModelYaw>
+			</trigger>
+		</match>
+		<isMovement>	false	</isMovement>
+	</action>
+	<materialNames>	</materialNames>
+	<animation>
+		<name>	test_flight	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/test_flight	</nodes>
+	</animation>
+	<visibilityBox>
+		<min>	-18.245573 -10.311707 -20.036415	</min>
+		<max>	18.179804 22.888994 13.359072	</max>
+	</visibilityBox>
+	<metaData>
+		<copyright>	Copyright BigWorld Pty Ltd.  Use freely in any BigWorld licensed game.	</copyright>
+		<modified_by>	adamm	</modified_by>
+		<modified_on>	1254378155	</modified_on>
+	</metaData>
+	<animation>
+		<name>	test_flight_offset	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/test_flight_offset	</nodes>
+	</animation>
+	<animation>
+		<name>	fire_ball	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fire_ball	</nodes>
+		<alpha>
+			<English..Dragon>	0.000000	</English..Dragon>
+			<English..DragonPelvis>	0.000000	</English..DragonPelvis>
+			<CATRigNeck01>	10.000000	</CATRigNeck01>
+			<CATRigFRLegPlatform>	1.000000	</CATRigFRLegPlatform>
+		</alpha>
+	</animation>
+	<animation>
+		<name>	fire_ball_50	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fire_ball_50	</nodes>
+		<alpha>
+			<English..Dragon>	0.000000	</English..Dragon>
+			<English..DragonPelvis>	0.000000	</English..DragonPelvis>
+			<CATRigNeck01>	10.000000	</CATRigNeck01>
+		</alpha>
+	</animation>
+	<animation>
+		<name>	bankleft	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/bankleft	</nodes>
+	</animation>
+	<animation>
+		<name>	begin_bankleft	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/begin_bankleft	</nodes>
+	</animation>
+	<nodefullVisual>	characters/npc/flying_dragon/flying_dragon	</nodefullVisual>
+	<animation>
+		<name>	bankright	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/bankright	</nodes>
+	</animation>
+	<animation>
+		<name>	begin_bankright	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/begin_bankright	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_backward	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_backward	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_forward_01	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_forward_01	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_glide_trans	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_glide_trans	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_backward_trans	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_backward_trans	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_forward_slow_trans	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_forward_slow_trans	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_idle	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_idle	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_idle_trans	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_idle_trans	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_forward_ultra_trans	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_forward_ultra_trans	</nodes>
+	</animation>
+	<animation>
+		<name>	fly_turnleft_headonly	</name>
+		<frameRate>	30.000000	</frameRate>
+		<nodes>	characters/npc/flying_dragon/animations/fly_turnleft_headonly	</nodes>
+		<alpha>
+			<English..Dragon>	0.000000	</English..Dragon>
+			<English..DragonPelvis>	0.000000	</English..DragonPelvis>
+			<CATRigNeck01>	1.000000	</CATRigNeck01>
+		</alpha>
+	</animation>
+</flying_dragon.model>
