@@ -68,11 +68,12 @@ float g_buffer_readLinearZ(in float2 uv)
 }
 
 //-- reconstruct world space normal from the normals texture for desired screen space position.
+//-- Note: channel #1 is an A16B16G16R16F render target holding octahedral encoded normals.
 //--------------------------------------------------------------------------------------------------
 half3 g_buffer_readWorldNormal(in float2 uv)
 {
-	half2 enc = tex2D(g_GBufferChannel1Sml, uv).rg;
-    return sphericalToCartesian(enc);
+	float2 enc = tex2D(g_GBufferChannel1Sml, uv).rg;
+	return octDecode(enc);
 }
 
 //--------------------------------------------------------------------------------------------------

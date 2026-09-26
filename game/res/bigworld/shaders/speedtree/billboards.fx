@@ -20,7 +20,7 @@ ColorVS2PS vs_color_generic_3_0(const VS_INPUT_BB i, const SpeedTreeInstance ins
 	ColorVS2PS o = (ColorVS2PS)0;
 
 	//-- calculate view space position with respect to the wind animation.
-	float3 wPos	 = i.pos;
+	float3 wPos	 = i.pos.xyz;
 	wPos.xyz	*= inst.m_scale;
 	wPos		 = qrot(wPos, inst.m_rotationQuat);
 	wPos.xyz	+= inst.m_translation;
@@ -37,7 +37,7 @@ ColorVS2PS vs_color_generic_3_0(const VS_INPUT_BB i, const SpeedTreeInstance ins
 
 	//-- world space alpha normal for imposters blending.
 	float3 wAlphaNormal = qrot(i.alphaNormal, inst.m_rotationQuat);
-	o.tcAlphaRef.z = calculateAlpha(wAlphaNormal, g_cameraDir, inst.m_alphaRef);
+	o.tcAlphaRef.z = calculateAlpha(wAlphaNormal, g_cameraDir.xyz, inst.m_alphaRef);
 	
 	return o;
 }
@@ -102,14 +102,14 @@ ShadowsVS2PS vs_shadows_generic_3_0(const VS_INPUT_BB i, const SpeedTreeInstance
 	ShadowsVS2PS o = (ShadowsVS2PS)0;
 
 	//-- calculate view space position with respect to the wind animation.
-	float3 wPos	 = i.pos;
+	float3 wPos	 = i.pos.xyz;
 	wPos		*= inst.m_scale;
 	wPos		 = qrot(wPos, inst.m_rotationQuat);
 	wPos		+= inst.m_translation;
 
 	//-- world space alpha normal for imposters blending.
 	float3 wAlphaNormal = qrot(i.alphaNormal, inst.m_rotationQuat);
-	float alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir, inst.m_alphaRef);
+	float alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir.xyz, inst.m_alphaRef);
 
 	o.pos		 = mul(float4(wPos, 1.0f), g_viewProjMat);
 	o.tcAlphaRef = float3(i.tc, alphaRef);
@@ -141,7 +141,7 @@ float4 ps_shadows_3_0(ShadowsVS2PS i) : COLOR0
 	//-- To prevent self shadowing on billboards.
 	const float biasing = 0.0001f;
 
-	return i.clipPos.x / i.clipPos.y + biasing;
+	return float4(i.clipPos.x / i.clipPos.y + biasing, 0.0f, 0.0f, 0.0f);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -157,14 +157,14 @@ DepthVS2PS vs_depth_generic_3_0(const VS_INPUT_BB i, const SpeedTreeInstance ins
 	DepthVS2PS o = (DepthVS2PS)0;
 
 	//-- calculate view space position with respect to the wind animation.
-	float3 wPos	 = i.pos;
+	float3 wPos	 = i.pos.xyz;
 	wPos		*= inst.m_scale;
 	wPos		 = qrot(wPos, inst.m_rotationQuat);
 	wPos		+= inst.m_translation;
 
 	//-- world space alpha normal for imposters blending.
 	float3 wAlphaNormal = qrot(i.alphaNormal, inst.m_rotationQuat);
-	float alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir, inst.m_alphaRef);
+	float alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir.xyz, inst.m_alphaRef);
 
 	o.pos		 = mul(float4(wPos, 1.0f), g_viewProjMat);
 	o.tcAlphaRef = float3(i.tc, alphaRef);
@@ -192,7 +192,7 @@ float4 ps_depth_3_0(DepthVS2PS i) : COLOR0
 	//-- alpha test.
 	clip(alpha - i.tcAlphaRef.z);
 
-	return float4(0,0,0,0);
+	return float4(0.0f, 0.0f, 0.0f, 0.0f);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -208,14 +208,14 @@ ReflectionVS2PS vs_reflection_generic_3_0(const VS_INPUT_BB i, const SpeedTreeIn
 {
 	ReflectionVS2PS o = (ReflectionVS2PS) 0;
 
-	float3 wPos	 = i.pos;
+	float3 wPos	 = i.pos.xyz;
 	wPos.xyz	*= inst.m_scale;
 	wPos.xyz	 = qrot(wPos, inst.m_rotationQuat);
 	wPos.xyz	+= inst.m_translation;
 
 	//-- world space alpha normal for imposters blending.
 	float3 wAlphaNormal = qrot(i.alphaNormal, inst.m_rotationQuat);
-	float  alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir, inst.m_alphaRef);
+	float  alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir.xyz, inst.m_alphaRef);
 
 	o.pos		 = mul(float4(wPos, 1.0f), g_viewProjMat);
 	o.tcAlphaRef = float3(i.tc, alphaRef);
@@ -225,7 +225,7 @@ ReflectionVS2PS vs_reflection_generic_3_0(const VS_INPUT_BB i, const SpeedTreeIn
 	o.normalFog.xyz	= qrot(normal, inst.m_rotationQuat);
 
 	//-- fog
-	o.normalFog.w	= vertexFog(float4(wPos, 1), o.pos.w);
+	o.normalFog.w	= o.normalFog.w = bw_vertexFog(float4(wPos, 1.0f), o.pos.w);
 		
 	return o;
 }
@@ -430,7 +430,7 @@ ColorVS2PS vs_color_2_0(const VS_INPUT_BB i)
 
 	//-- world space alpha normal for imposters blending.
 	float3 wAlphaNormal = qrot(i.alphaNormal, g_instance.m_rotationQuat);
-	float  alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir, g_instance.m_alphaRef);
+	float  alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir.xyz, g_instance.m_alphaRef);
 
 	o.pos		 = mul(float4(wPos, 1.0f), g_viewProjMat);
 	o.tcAlphaRef = float3(i.tc, alphaRef);
@@ -489,14 +489,14 @@ DepthVS2PS vs_depth_2_0(const VS_INPUT_BB i)
 	DepthVS2PS o = (DepthVS2PS)0;
 
 	//-- calculate view space position with respect to the wind animation.
-	float3 wPos	 = i.pos;
+	float3 wPos	 = i.pos.xyz;
 	wPos		*= g_instance.m_scale;
 	wPos		 = qrot(wPos, g_instance.m_rotationQuat);
 	wPos		+= g_instance.m_translation;
 
 	//-- world space alpha normal for imposters blending.
 	float3 wAlphaNormal = qrot(i.alphaNormal, g_instance.m_rotationQuat);
-	float alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir, g_instance.m_alphaRef);
+	float alphaRef = calculateAlpha(wAlphaNormal, g_cameraDir.xyz, g_instance.m_alphaRef);
 
 	o.pos		 = mul(float4(wPos, 1.0f), g_viewProjMat);
 	o.tcAlphaRef = float3(i.tc, alphaRef);
@@ -512,7 +512,7 @@ float4 ps_depth_2_0(DepthVS2PS i) : COLOR0
 	//-- alpha test.
 	clip(alpha - i.tcAlphaRef.z);
 
-	return float4(0,0,0,0);
+	return float4(0.0f, 0.0f, 0.0f, 0.0f);
 }
 
 //--------------------------------------------------------------------------------------------------

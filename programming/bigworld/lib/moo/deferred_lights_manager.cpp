@@ -24,15 +24,15 @@ using namespace Moo;
 namespace
 {
     //----------------------------------------------------------------------------------------------
-    const uint32 g_instanceCount    = 1000;
-    const float  g_LODRadiusError   = 0.5f;
+    const uint32 g_instanceCount = 1000;
+    const float  g_LODRadiusError = 0.5f;
 
     //-- ToDo: improve. Do sorting of indices or pointer on objects instead of the real objects.
     //----------------------------------------------------------------------------------------------
     class OmniLightSorter
     {
     public:
-        OmniLightSorter(const Vector3& camPos) : m_camPos(camPos) { }
+        OmniLightSorter(const Vector3& camPos) : m_camPos(camPos) {}
         bool operator()(const Moo::OmniLight::GPU& lft, const Moo::OmniLight::GPU& rht)
         {
             return lft.m_pos.w > rht.m_pos.w;
@@ -86,13 +86,13 @@ void LightsManager::draw()
 {
     BW_GUARD;
     BW_SCOPED_DOG_WATCHER("lighting")
-    BW_SCOPED_RENDER_PERF_MARKER("Deferred Lighting");
+        BW_SCOPED_RENDER_PERF_MARKER("Deferred Lighting");
 
     IRendererPipeline* rp = Renderer::instance().pipeline();
 
     //-- 1. prepare lights.
     prepareLights();
-    
+
     //-- 2. draw sun light with ambient and shadow term.
     drawSunLight();
 
@@ -118,7 +118,7 @@ void LightsManager::drawSunLight()
 
     SSAOSupport* ssao = rp().ssaoSupport();
     ShadowManager* ds = rp().dynamicShadow();
-    
+
     ID3DXEffect* effect = m_material->pEffect()->pEffect();
     {
         //-- shadows
@@ -127,7 +127,7 @@ void LightsManager::drawSunLight()
 
         //-- ssao
 
-        effect->SetBool   ("g_enableSSAO", ssao->enable());
+        effect->SetBool("g_enableSSAO", ssao->enable());
         effect->SetTexture("g_texSSAO", ssao->screenSpaceAmbienOcclusionMap());
 
         //-- commit
@@ -147,7 +147,7 @@ void LightsManager::drawSpots()
     BW_SCOPED_RENDER_PERF_MARKER("Spots");
 
     //-- ToDo: implement.
-    
+
     m_material->hTechnique("SPOT_FALLBACK");
     for (uint i = 0; i < m_gpuSpotsFallbacks.size(); ++i)
     {
@@ -182,12 +182,12 @@ void LightsManager::drawOmnis()
     {
         BW_SCOPED_DOG_WATCHER("instanced")
 
-        //-- fill instance data vertex buffer.
+            //-- fill instance data vertex buffer.
         {
             BW_SCOPED_DOG_WATCHER("fill instancing buffer")
-            
-            Moo::VertexLock<Moo::OmniLight::GPU> vl(m_instancedVB, 0,
-                numInstanced * 64, D3DLOCK_DISCARD);
+
+                Moo::VertexLock<Moo::OmniLight::GPU> vl(m_instancedVB, 0,
+                    numInstanced * 64, D3DLOCK_DISCARD);
             if (vl)
             {
                 for (uint i = 0; i < numInstanced && i < g_instanceCount; ++i)
@@ -223,7 +223,7 @@ void LightsManager::drawOmnis()
     {
         BW_SCOPED_DOG_WATCHER("fallbacks")
 
-        m_material->hTechnique("OMNI_FALLBACK");
+            m_material->hTechnique("OMNI_FALLBACK");
         if (m_material->begin())
         {
             for (uint32 i = 0; i < m_material->numPasses(); ++i)
@@ -263,7 +263,7 @@ void LightsManager::prepareLights()
     BW_GUARD;
     BW_SCOPED_DOG_WATCHER("prepare lights")
 
-    float   camNearDist = Moo::rc().camera().nearPlane() / cosf(Moo::rc().camera().fov() * 0.5f);
+        float   camNearDist = Moo::rc().camera().nearPlane() / cosf(Moo::rc().camera().fov() * 0.5f);
     Vector3 camWorldPos = Moo::rc().invView().applyToOrigin();
 
     //-- collect all the omni light for the current chunk. 
@@ -278,9 +278,9 @@ void LightsManager::prepareLights()
         oOmni.m_pos.w = (iOmni->worldPosition() - camWorldPos).lengthSquared();
 
         //-- find distance at which we change rendering optimization algo.
-        float fallbackDist        = (camNearDist + iOmni->outerRadius() + 0.25f) + g_LODRadiusError;
+        float fallbackDist = (camNearDist + iOmni->outerRadius() + 0.25f) + g_LODRadiusError;
         float squaredFallbackDist = fallbackDist * fallbackDist;
-    
+
         if (oOmni.m_pos.w > squaredFallbackDist)
         {
             m_gpuOmnisInstanced.push_back(oOmni);
@@ -308,11 +308,11 @@ void LightsManager::sortLights()
     BW_GUARD;
     BW_SCOPED_DOG_WATCHER("sort lights")
 
-    //-- sort omni and spot lights from back to front relative to the camera.
-    //-- That helps reduce overdraw.
-    std::sort(
-        m_gpuOmnisInstanced.begin(), m_gpuOmnisInstanced.end(),
-        OmniLightSorter(Moo::rc().invView().applyToOrigin())
+        //-- sort omni and spot lights from back to front relative to the camera.
+        //-- That helps reduce overdraw.
+        std::sort(
+            m_gpuOmnisInstanced.begin(), m_gpuOmnisInstanced.end(),
+            OmniLightSorter(Moo::rc().invView().applyToOrigin())
         );
 }
 
@@ -335,7 +335,7 @@ void LightsManager::createUnmanagedObjects()
     success &= SUCCEEDED(m_instancedVB.create(
         64 * g_instanceCount, D3DUSAGE_DYNAMIC | D3DUSAGE_WRITEONLY, 0, D3DPOOL_DEFAULT,
         "vertex buffer/light instancing VB"
-        ));
+    ));
 
     MF_ASSERT(success && "Can't create instancing buffer for lighting pass.");
 }
@@ -356,7 +356,7 @@ void LightsManager::createManagedObjects()
     bool success = true;
     success &= createEffect(m_material, "shaders/std_effects/resolve_lighting.fx");
 
-    m_cone   = Moo::VisualManager::instance()->get("system/models/fx_unite_cone.visual");
+    m_cone = Moo::VisualManager::instance()->get("system/models/fx_unite_cone.visual");
     m_sphere = Moo::VisualManager::instance()->get("system/models/fx_unit_sphere.visual");
 
     success &= m_cone.exists() && m_sphere.exists();
@@ -370,8 +370,8 @@ void LightsManager::deleteManagedObjects()
     BW_GUARD;
 
     m_material = NULL;
-    m_cone     = NULL;
-    m_sphere   = NULL;
+    m_cone = NULL;
+    m_sphere = NULL;
 }
 
 BW_END_NAMESPACE

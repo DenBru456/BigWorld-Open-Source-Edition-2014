@@ -92,7 +92,7 @@ ColorVS2PS vs_color_3_0(VS_INPUT_BB_OPT i)
 	o.normalMatID.w = i.texCoordsMatID.z;
 
 	//-- world space alpha normal for imposters blending.
-	float bbAlphaRef		= dot(g_bbAlphaRefs196[i.alphaIndex], i.alphaMask);
+	float bbAlphaRef		= dot(g_bbAlphaRefs196[(int)i.alphaIndex], i.alphaMask);
 	o.tcLinearZBlendAlpha.w = calculateAlpha(i.alphaNormal, g_cameraDir.xyz, bbAlphaRef);
 	
 	return o;
@@ -148,7 +148,7 @@ ShadowsVS2PS vs_shadows_3_0(VS_INPUT_BB_OPT i)
 	o.clipPos		= o.pos.zw;
 
 	//-- world space alpha normal for imposters blending.
-	float bbAlphaRef = dot(g_bbAlphaRefs196[i.alphaIndex], i.alphaMask);
+	float bbAlphaRef = dot(g_bbAlphaRefs196[(int)i.alphaIndex], i.alphaMask);
 	o.tcAlphaRef.z   = calculateAlpha(i.alphaNormal, g_cameraDir.xyz, bbAlphaRef);
 	
 	return o;
@@ -157,12 +157,12 @@ ShadowsVS2PS vs_shadows_3_0(VS_INPUT_BB_OPT i)
 //--------------------------------------------------------------------------------------------------
 float4 ps_shadows_3_0(ShadowsVS2PS i) : COLOR0
 {
-	half alpha = tex2D(speedTreeDiffuseSampler, i.tcAlphaRef.xy).a;
+	half alpha = tex2D(speedTreeDiffuseSamplerBiased, i.tcAlphaRef.xy).a;
 
 	//-- alpha test.
 	clip(alpha - i.tcAlphaRef.z);
 
-	return i.clipPos.x / i.clipPos.y;
+	return float4(i.clipPos.x / i.clipPos.y, 0.0f, 0.0f, 0.0f);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -182,7 +182,7 @@ DepthVS2PS vs_depth_3_0(VS_INPUT_BB_OPT i)
 	o.tcAlphaRef.xy = i.texCoordsMatID.xy * g_UVScale;
 
 	//-- world space alpha normal for imposters blending.
-	float bbAlphaRef = dot(g_bbAlphaRefs196[i.alphaIndex], i.alphaMask);
+	float bbAlphaRef = dot(g_bbAlphaRefs196[(int)i.alphaIndex], i.alphaMask);
 	o.tcAlphaRef.z   = calculateAlpha(i.alphaNormal, g_cameraDir.xyz, bbAlphaRef);
 	
 	return o;
@@ -196,7 +196,7 @@ float4 ps_depth_3_0(DepthVS2PS i) : COLOR0
 	//-- alpha test.
 	clip(alpha - i.tcAlphaRef.z);
 
-	return float4(0,0,0,0);
+	return float4(0.0f, 0.0f, 0.0f, 0.0f);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -218,7 +218,7 @@ ReflectionVS2PS vs_reflection_3_0(const VS_INPUT_BB_OPT i)
 	o.tcAlphaRef.xy		 = i.texCoordsMatID.xy * g_UVScale.xy;
 
 	// view angle alpha
-	float bbAlphaRef	 = dot(g_bbAlphaRefs196[i.alphaIndex], i.alphaMask);
+	float bbAlphaRef	 = dot(g_bbAlphaRefs196[(int)i.alphaIndex], i.alphaMask);
 	o.tcAlphaRef.z		 = calculateAlpha(i.alphaNormal, g_cameraDir.xyz, bbAlphaRef);
 
 	o.material0			 = i.diffuseNAdjust;
@@ -226,7 +226,7 @@ ReflectionVS2PS vs_reflection_3_0(const VS_INPUT_BB_OPT i)
 	
 	// normal mapping data
 	o.normalFog.xyz		 = normalize(cross(i.tangent, i.binormal));
-	o.normalFog.w		 = vertexFog(i.pos, o.pos.w);
+	o.normalFog.w		 = bw_vertexFog(i.pos, o.pos.w);
 	
 	return o;
 };
@@ -349,7 +349,7 @@ ColorVS2PS vs_color_2_0(const VS_INPUT_BB_OPT i)
 	o.tcAlphaRef.xy	 = i.texCoordsMatID.xy * g_UVScale.xy;
 
 	// view angle alpha
-	float bbAlphaRef = dot(g_bbAlphaRefs196[i.alphaIndex], i.alphaMask);
+	float bbAlphaRef = dot(g_bbAlphaRefs196[(int)i.alphaIndex], i.alphaMask);
 	o.tcAlphaRef.z	 = calculateAlpha(i.alphaNormal, g_cameraDir.xyz, bbAlphaRef);
 
 	o.material0		= i.diffuseNAdjust;
@@ -413,7 +413,7 @@ DepthVS2PS vs_depth_2_0(VS_INPUT_BB_OPT i)
 	o.tcAlphaRef.xy = i.texCoordsMatID.xy * g_UVScale;
 
 	//-- world space alpha normal for imposters blending.
-	float bbAlphaRef = dot(g_bbAlphaRefs196[i.alphaIndex], i.alphaMask);
+	float bbAlphaRef = dot(g_bbAlphaRefs196[(int)i.alphaIndex], i.alphaMask);
 	o.tcAlphaRef.z   = calculateAlpha(i.alphaNormal, g_cameraDir.xyz, bbAlphaRef);
 	
 	return o;
@@ -427,7 +427,7 @@ float4 ps_depth_2_0(DepthVS2PS i) : COLOR0
 	//-- alpha test.
 	clip(alpha - i.tcAlphaRef.z);
 
-	return float4(0,0,0,0);
+	return float4(0.0f, 0.0f, 0.0f, 0.0f);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -441,7 +441,6 @@ BW_COLOR_TECHNIQUE(false, false)
 {
 	pass Pass_0
 	{
-		BW_FOG
 		ZENABLE				= TRUE;
 		ZWRITEENABLE		= g_useZPrePass ? 0 : 1;
 		ZFUNC				= g_useZPrePass ? BW_CMP_EQUAL : BW_CMP_LESSEQUAL;

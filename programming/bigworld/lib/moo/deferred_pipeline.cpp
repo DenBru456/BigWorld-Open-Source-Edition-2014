@@ -24,7 +24,7 @@ BW_BEGIN_NAMESPACE
 
 //-- start unnamed namespace.
 //--------------------------------------------------------------------------------------------------
-namespace 
+namespace
 {
     //-- watcher variable for debug displaying g-buffer channels.
     int  g_showGBufferChannel = -1;
@@ -37,9 +37,9 @@ namespace
     //-- for optimization gain we disable clearing the g-buffer render targets.
     bool g_clearGBuffer =
 #ifdef EDITOR_ENABLED
-    true;
+        true;
 #else
-    false;
+        false;
 #endif
 
     //--
@@ -83,11 +83,12 @@ namespace
         struct Desc
         {
             Desc(const Vector4& offsetMask, const Vector4& visibilityMask, DX::BaseTexture* map)
-                :   m_offsetMask(offsetMask), m_visibilityMask(visibilityMask), m_map(map) { }
+                : m_offsetMask(offsetMask), m_visibilityMask(visibilityMask), m_map(map) {
+            }
 
             Vector4             m_offsetMask;
             Vector4             m_visibilityMask;
-            DX::BaseTexture*    m_map;
+            DX::BaseTexture* m_map;
         };
 
     public:
@@ -105,9 +106,9 @@ namespace
             //-- set shader properties and display channel as a fullscreen quad.
             ID3DXEffect* effect = m_material->pEffect()->pEffect();
             {
-                effect->SetTexture  ("g_srcMap", desc.m_map);
-                effect->SetVector   ("g_offsetMask", &desc.m_offsetMask);
-                effect->SetVector   ("g_visibilityMask", &desc.m_visibilityMask);
+                effect->SetTexture("g_srcMap", desc.m_map);
+                effect->SetVector("g_offsetMask", &desc.m_offsetMask);
+                effect->SetVector("g_visibilityMask", &desc.m_visibilityMask);
                 effect->CommitChanges();
             }
             Moo::rc().fsQuad().draw(*m_material.get());
@@ -123,11 +124,11 @@ namespace
         Moo::RenderTarget* inoutRT, Moo::RenderTarget* inRT, Moo::EffectMaterial& mat, DX::Viewport& vp)
     {
         //-- prepare common constants.
-        uint    vpWidth  = vp.Width;
+        uint    vpWidth = vp.Width;
         uint    vpHeight = vp.Height;
-        Vector4 screen   = Vector4(
+        Vector4 screen = Vector4(
             static_cast<float>(vp.Width), static_cast<float>(vp.Height), 1.0f / vp.Width, 1.0f / vp.Height
-            );
+        );
 
         //-- 1. do horizontal blur stage.
         mat.hTechnique("HORIZONTAL_PASS");
@@ -138,7 +139,7 @@ namespace
             ID3DXEffect* effect = mat.pEffect()->pEffect();
             {
                 effect->SetTexture("g_srcMap", inoutRT->pTexture());
-                effect->SetVector ("g_srcSize", &screen);
+                effect->SetVector("g_srcSize", &screen);
                 mat.commitChanges();
 
                 Moo::rc().fsQuad().draw(mat, vpWidth, vpHeight);
@@ -156,7 +157,7 @@ namespace
             ID3DXEffect* effect = mat.pEffect()->pEffect();
             {
                 effect->SetTexture("g_srcMap", inRT->pTexture());
-                effect->SetVector ("g_srcSize", &screen);
+                effect->SetVector("g_srcSize", &screen);
                 mat.commitChanges();
 
                 Moo::rc().fsQuad().draw(mat, vpWidth, vpHeight);
@@ -176,39 +177,39 @@ using namespace Moo;
 
 //--------------------------------------------------------------------------------------------------
 DeferredPipeline::DeferredPipeline()
-    :   m_decalsManager(new DecalsManager()),
-        m_lightsManager(new LightsManager()),
-        m_dynamicShadowManager(new ShadowManager()),
-        m_HDRSupport(new HDRSupport()),
-        m_SSAOSupport(new SSAOSupport()),
-        m_spt(new SpeedTreeOptimizer())
+    : m_decalsManager(new DecalsManager()),
+    m_lightsManager(new LightsManager()),
+    m_dynamicShadowManager(new ShadowManager()),
+    m_HDRSupport(new HDRSupport()),
+    m_SSAOSupport(new SSAOSupport()),
+    m_spt(new SpeedTreeOptimizer())
 {
     MF_WATCH("Render/DS/show g-buffer channel",
         g_showGBufferChannel, Watcher::WT_READ_WRITE,
         "-1 nothing to display, 0 - depth, 1 - object kind, 2 - albedo,"
         "3 - normal, 4 - user data #2, 5 - spec amount, 6 - user data #1"
-        );
+    );
 
     MF_WATCH("Render/DS/clear g-buffer",
         g_clearGBuffer, Watcher::WT_READ_WRITE,
         "Disable clearing g-buffers render targets to save fillrate. On some system that may give "
         "additional performance boost."
-        );
+    );
 
     MF_WATCH("Render/DS/use speedtree optimizer",
         g_useSpeedTreeOptimizer, Watcher::WT_READ_WRITE,
         "ToDo: document."
-        );
+    );
 
     MF_WATCH("Render/DS/draw smit-transparent trees",
         g_drawSemiTransparentTrees, Watcher::WT_READ_WRITE,
         "ToDo: document."
-        );
+    );
 
     MF_WATCH("Render/DS/blur smit-transparent trees",
         g_blurSemiTransparentTrees, Watcher::WT_READ_WRITE,
         "ToDo: document."
-        );
+    );
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -234,7 +235,7 @@ bool DeferredPipeline::init()
     bool success = true;
 
     //-- initialize sub-system related to this pipeline: shadows, decals, lighting and so on.
-    success &= m_decalsManager->init(); 
+    success &= m_decalsManager->init();
     success &= m_lightsManager->init();
 
     //-- initialize shadows sub-system.
@@ -262,10 +263,10 @@ void DeferredPipeline::begin()
 
     DX::Viewport viewport;
     Moo::rc().getViewport(&viewport);
-    viewport.Width  = (DWORD)Moo::rc().screenWidth();
+    viewport.Width = (DWORD)Moo::rc().screenWidth();
     viewport.Height = (DWORD)Moo::rc().screenHeight();
-    viewport.X      = 0;
-    viewport.Y      = 0;
+    viewport.X = 0;
+    viewport.Y = 0;
     Moo::rc().setViewport(&viewport);
 
     uint32 clearFlags = D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER;
@@ -274,7 +275,7 @@ void DeferredPipeline::begin()
         clearFlags |= D3DCLEAR_STENCIL;
     }
 
-    Moo::rc().device()->Clear(0, NULL, clearFlags, Moo::Colour(0,0,0,0), 1, 0);
+    Moo::rc().device()->Clear(0, NULL, clearFlags, Moo::Colour(0, 0, 0, 0), 1, 0);
 
     //-- reset stencil.
     resetStencil(customStencilWriteMask());
@@ -304,14 +305,14 @@ void DeferredPipeline::drawDebugStuff()
     else if (m_SSAOSupport->showBuffer())
     {
         g_mapVisualizer->visualize(MapVisualizer::Desc(
-            Vector4(0,0,0,0), Vector4(1,1,1,0), m_SSAOSupport->screenSpaceAmbienOcclusionMap()
-            ));
+            Vector4(0, 0, 0, 0), Vector4(1, 1, 1, 0), m_SSAOSupport->screenSpaceAmbienOcclusionMap()
+        ));
     }
     else if (m_decalsManager->showStaticDecalsAtlas())
     {
         g_mapVisualizer->visualize(MapVisualizer::Desc(
-            Vector4(0,1,2,0), Vector4(1,1,1,0), m_decalsManager->staticDecalAtlas()
-            ));
+            Vector4(0, 1, 2, 0), Vector4(1, 1, 1, 0), m_decalsManager->staticDecalAtlas()
+        ));
     }
 
     //-- ToDo: reconsider.
@@ -319,11 +320,11 @@ void DeferredPipeline::drawDebugStuff()
 }
 
 //--------------------------------------------------------------------------------------------------
-void DeferredPipeline::beginCastShadows( Moo::DrawContext& shadowDrawContext )
+void DeferredPipeline::beginCastShadows(Moo::DrawContext& shadowDrawContext)
 {
     BW_GUARD;
-    
-    m_dynamicShadowManager->cast( shadowDrawContext );
+
+    m_dynamicShadowManager->cast(shadowDrawContext);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -345,11 +346,11 @@ void DeferredPipeline::beginOpaqueDraw()
         Moo::rc().setWriteMask(i, 0xFFFFFFFF);
         Moo::rc().setRenderTarget(i, m_surfaces[i].pComObject());
     }
-    
+
     //-- Note: clear only color RTs, depth-stencil surface cleared from the main code.
     if (g_clearGBuffer)
     {
-        Moo::rc().device()->Clear(0, NULL, D3DCLEAR_TARGET, Moo::Colour(0,0,0,0), 1, 0);
+        Moo::rc().device()->Clear(0, NULL, D3DCLEAR_TARGET, Moo::Colour(0, 0, 0, 0), 1, 0);
     }
 
     //-- Note: depth stencil buffer already installed, so don't worry about it. 
@@ -370,7 +371,7 @@ void DeferredPipeline::endOpaqueDraw()
     Moo::rc().popRenderTarget();
 
     //--
-    Moo::rc().setWriteMask(0, D3DCOLORWRITEENABLE_BLUE|D3DCOLORWRITEENABLE_RED|D3DCOLORWRITEENABLE_GREEN);
+    Moo::rc().setWriteMask(0, D3DCOLORWRITEENABLE_BLUE | D3DCOLORWRITEENABLE_RED | D3DCOLORWRITEENABLE_GREEN);
     Moo::rc().setWriteMask(1, 0);
     Moo::rc().setWriteMask(2, 0);
 }
@@ -418,27 +419,27 @@ void DeferredPipeline::onGraphicsOptionSelected(EGraphicsSetting setting, int op
     switch (setting)
     {
     case GRAPHICS_SETTING_SHADOWS_QUALITY:
-        {
-            m_dynamicShadowManager->setQualityOption(option);
-            break;
-        }
+    {
+        m_dynamicShadowManager->setQualityOption(option);
+        break;
+    }
     case GRAPHICS_SETTING_DECALS_QUALITY:
-        {
-            m_decalsManager->setQualityOption(option);
-            break;
-        }
+    {
+        m_decalsManager->setQualityOption(option);
+        break;
+    }
     case GRAPHICS_SETTING_LIGHTING_QUALITY:
-        {
-            //-- ToDo (b_sviglo): reconsider.
-            m_SSAOSupport->setQualityOption(option);
-            m_HDRSupport->setQualityOption(option);
-            break;
-        }
+    {
+        //-- ToDo (b_sviglo): reconsider.
+        m_SSAOSupport->setQualityOption(option);
+        m_HDRSupport->setQualityOption(option);
+        break;
+    }
     default:
-        {
-            MF_ASSERT(!"Undefined graphics setting.");
-            break;
-        }
+    {
+        MF_ASSERT(!"Undefined graphics setting.");
+        break;
+    }
     }
 }
 
@@ -448,9 +449,9 @@ void DeferredPipeline::applyLighting()
     BW_GUARD;
 
     //-- save stencil state because it's used for optimization in underlying sub-systems.
-    Moo::rc().pushRenderState( D3DRS_STENCILENABLE );
+    Moo::rc().pushRenderState(D3DRS_STENCILENABLE);
     //-- save color write because it's modified by sun material pass
-    Moo::rc().pushRenderState( D3DRS_COLORWRITEENABLE );
+    Moo::rc().pushRenderState(D3DRS_COLORWRITEENABLE);
 
 
     //-- draw decals.
@@ -514,21 +515,23 @@ void DeferredPipeline::createUnmanagedObjects()
     //-- Warning: should be in sync with G_BUFFER_LAYOUT in write_g_buffer.fxh.
     const D3DFORMAT dxFormats[] =
     {
-        D3DFMT_A8R8G8B8, //-- RGBA8: RGB - depth. A - object kind.
-        D3DFMT_A8R8G8B8, //-- RGBA8: RG - normal. B - specular amount. A - user data #2     
-        D3DFMT_A8R8G8B8  //-- RGBA8: RGB - albedo (diffuse) color, A - user data #1.
+        D3DFMT_A8R8G8B8,       //-- RGBA8: RGB - depth. A - object kind.
+        D3DFMT_A16B16G16R16F,  //-- RGBA16F: RG - octahedral encoded normal. B - specular amount. A - user data #2.
+        //-- FIX (banding): was A8R8G8B8 with spherical encoded normals -
+        //-- 8-bit theta through an atan2 LUT caused "topo ring" banding on smooth surfaces.
+D3DFMT_A8R8G8B8        //-- RGBA8: RGB - albedo (diffuse) color, A - user data #1.
     };
 
     //-- create g-buffer render targets.
     for (uint i = 0; i < COLOR_BUFFERS; ++i)
     {
         //-- create render target.
-        m_rts[i] =  Moo::rc().createTexture(
+        m_rts[i] = Moo::rc().createTexture(
             static_cast<UINT>(Moo::rc().screenWidth()), static_cast<UINT>(Moo::rc().screenHeight()),
             1, D3DUSAGE_RENDERTARGET, dxFormats[i], D3DPOOL_DEFAULT, "g-buffer channel"
-            );
+        );
         success &= (m_rts[i].pComObject() != NULL);
-                    
+
         //-- extract surface from the render target.
         if (success)
         {
@@ -552,7 +555,7 @@ void DeferredPipeline::createUnmanagedObjects()
 
         createRenderTarget(
             m_gbufferCopyRT, bbDesc.Width, bbDesc.Height, D3DFMT_A8R8G8B8, "g-buffer copy map", true, true
-            );
+        );
     }
 }
 
@@ -579,18 +582,18 @@ void DeferredPipeline::createManagedObjects()
     Moo::rc().effectVisualContext().registerAutoConstant(
         Moo::EffectVisualContext::AUTO_CONSTANT_TYPE_PER_FRAME, "GBufferChannel0",
         new GBufferChannelConstant(0, *this)
-        );
+    );
 
     Moo::rc().effectVisualContext().registerAutoConstant(
         Moo::EffectVisualContext::AUTO_CONSTANT_TYPE_PER_FRAME, "GBufferChannel1",
         new GBufferChannelConstant(1, *this)
-        );
+    );
 
     Moo::rc().effectVisualContext().registerAutoConstant(
         Moo::EffectVisualContext::AUTO_CONSTANT_TYPE_PER_FRAME, "GBufferChannel2",
         new GBufferChannelConstant(2, *this)
-        );
-    
+    );
+
     //--
     g_mapVisualizer.reset(new MapVisualizer());
 }
@@ -603,15 +606,15 @@ void DeferredPipeline::deleteManagedObjects()
     //-- unregister shared auto-constant.
     Moo::rc().effectVisualContext().unregisterAutoConstant(
         Moo::EffectVisualContext::AUTO_CONSTANT_TYPE_PER_FRAME, "GBufferChannel0"
-        );
+    );
 
     Moo::rc().effectVisualContext().unregisterAutoConstant(
         Moo::EffectVisualContext::AUTO_CONSTANT_TYPE_PER_FRAME, "GBufferChannel1"
-        );
+    );
 
     Moo::rc().effectVisualContext().unregisterAutoConstant(
         Moo::EffectVisualContext::AUTO_CONSTANT_TYPE_PER_FRAME, "GBufferChannel2"
-        );
+    );
 
     //--
     g_mapVisualizer.reset();
@@ -650,9 +653,9 @@ void DeferredPipeline::drawPostDeferred()
     BW_GUARD;
 
     //-- ToDo: reconsider.
-    const BW::vector< Flora* > &floras = Flora::floras();
+    const BW::vector< Flora* >& floras = Flora::floras();
     BW::vector< Flora* >::const_iterator it;
-    for( it = floras.begin(); it != floras.end(); it++ )
+    for (it = floras.begin(); it != floras.end(); it++)
         (*it)->drawPostDeferred();
 }
 
@@ -676,13 +679,13 @@ void SpeedTreeOptimizer::draw()
         //-- setup view port.
         DX::Viewport vp;
         Moo::rc().getViewport(&vp);
-        vp.Width  = m_rt1->width();
+        vp.Width = m_rt1->width();
         vp.Height = m_rt1->height();
         Moo::rc().setViewport(&vp);
         Moo::rc().effectVisualContext().updateSharedConstants(Moo::CONSTANTS_PER_SCREEN);
 
         uint32 clearFlags = D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER | D3DCLEAR_STENCIL;
-        Moo::rc().device()->Clear(0, NULL, clearFlags, Colour(0,0,0,0), 1, 0);
+        Moo::rc().device()->Clear(0, NULL, clearFlags, Colour(0, 0, 0, 0), 1, 0);
 
         ID3DXEffect* effect = m_mat->pEffect()->pEffect();
         {
@@ -707,7 +710,7 @@ void SpeedTreeOptimizer::draw()
         //-- setup view port.
         DX::Viewport vp;
         Moo::rc().getViewport(&vp);
-        vp.Width  = m_rt1->width();
+        vp.Width = m_rt1->width();
         vp.Height = m_rt1->height();
 
         doGaussianBlur(m_rt1.get(), m_rt2.get(), *m_blurMat.get(), vp);
@@ -751,7 +754,7 @@ void SpeedTreeOptimizer::createManagedObjects()
 void SpeedTreeOptimizer::deleteManagedObjects()
 {
     BW_GUARD;
-    
+
     m_rt1 = NULL;
     m_rt2 = NULL;
     m_mat = NULL;

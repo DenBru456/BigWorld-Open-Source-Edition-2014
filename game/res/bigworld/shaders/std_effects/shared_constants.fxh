@@ -69,7 +69,6 @@ struct FogParams
 	shared texture		g_envCubeMap			:	EnvironmentCubeMap		BW_SHARED;
 	shared texture		g_noiseMap				:	NoiseMap				BW_SHARED;
 	shared texture		g_bitwiseLUTMap			:	BitwiseLUTMap			BW_SHARED;
-	shared texture		g_atan2LUTMap			:	Atan2LUTMap				BW_SHARED;
 	shared texture		g_speedTreeMaterialsMap	:	SpeedTreeMaterials		BW_SHARED;
 	shared SunLight		g_sunLight				:	SunLight				BW_SHARED;
 	shared FogParams	g_fogParams				:	FogParams				BW_SHARED;

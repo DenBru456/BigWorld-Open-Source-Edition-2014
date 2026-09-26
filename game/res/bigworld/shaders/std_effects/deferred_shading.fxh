@@ -96,19 +96,52 @@ float2 TS2CS(in float2 ts)
 }
 
 //--------------------------------------------------------------------------------------------------
-sampler g_atan2LUTMapSml = sampler_state
+//--
+//-- FIX (banding): the old normal encoding packed theta through an 8-bit atan2 LUT
+//-- (256x256, POINT sampled) and stored it into an 8-bit channel, giving ~1.4 degree
+//-- buckets and up to ~5 degrees of compounded angular error. On smooth, low-curvature
+//-- surfaces the resulting NdotL steps showed up as hard "topographic" contour rings in
+//-- deferred mode (spherical encoding via g_atan2LUTMap / cartesianToSpherical /
+//-- sphericalToCartesian has been removed).
+//--
+//-- The replacement is octahedral normal encoding (Cigolle et al., "A Survey of Efficient
+//-- Representations for Normal Unit Vectors", JCGT 2014). The g-buffer's normal channel is
+//-- now an A16B16G16R16F render target (see DeferredPipeline::createUnmanagedObjects), so
+//-- each octahedral coordinate carries ~11 bits of precision: max angular error ~0.05
+//-- degrees, far below what an 8-bit backbuffer can display.
+//--
+//-- Note: encode/decode deliberately use float, not half, precision.
+//--------------------------------------------------------------------------------------------------
+float2 octEncode(in float3 n)
 {
-	Texture   = <g_atan2LUTMap>;
-	ADDRESSU  = CLAMP;
-	ADDRESSV  = CLAMP;
-	MinFilter = POINT;
-	MagFilter = POINT;
-};
+	n /= (abs(n.x) + abs(n.y) + abs(n.z));
+
+	if (n.z < 0.0f)
+	{
+		//-- wrap the lower hemisphere onto the octahedron's diagonals.
+		//-- sign(v): +1 when v >= 0, -1 otherwise (component-wise).
+		float2 sgn = 1.0f - 2.0f * step(n.xy, 0.0f);
+		n.xy = (1.0f - abs(n.yx)) * sgn;
+	}
+
+	return n.xy * 0.5f + 0.5f;
+}
 
 //--------------------------------------------------------------------------------------------------
-half lookup_atan2(half y, half x)
+float3 octDecode(in float2 enc)
 {
-	return tex2Dlod(g_atan2LUTMapSml, half4(y, x, 0, 0)).x;
+	enc = enc * 2.0f - 1.0f;
+
+	float3 n = float3(enc.xy, 1.0f - abs(enc.x) - abs(enc.y));
+
+	if (n.z < 0.0f)
+	{
+		//-- mirror of the encode wrap: recover the lower hemisphere.
+		float2 sgn = 1.0f - 2.0f * step(enc.xy, 0.0f);
+		n.xy = (1.0f - abs(n.yx)) * sgn;
+	}
+
+	return normalize(n);
 }
 
 //-- from ShaderX5 "2.6 Normal Mapping without Pre-Computed Tangents".
@@ -165,38 +198,6 @@ float unpackFloatFromVec3(const float3 value)
 	static const float3 bitSh = float3(255.0/256, 255.0/(256*256), 255.0/(256*256*256));
 
 	return dot(value, bitSh);
-}
-
-//-- converts a normalized cartesian direction vector to spherical coordinates.
-//--------------------------------------------------------------------------------------------------
-half2 cartesianToSpherical(in half3 cartesian)
-{
-#if 0
-	static const half invPi = 1.0h / 3.14159h;
-	half2 spherical;
-	spherical.x = atan2(cartesian.y, cartesian.x) * invPi;
-	spherical.y = cartesian.z;
-	return spherical * 0.5h + 0.5h;
-#else
-	half3 packed = cartesian * 0.5h + 0.5h;
-	half2 spherical;
-	spherical.x = lookup_atan2(packed.y, packed.x);
-	spherical.y = packed.z;
-	return spherical;
-#endif
-}
-
-//-- Converts a spherical coordinate to a normalized cartesian direction vector.
-//--------------------------------------------------------------------------------------------------
-half3 sphericalToCartesian(half2 spherical)
-{
-  half2 sinCosTheta, sinCosPhi;
-
-  spherical = spherical * 2 - 1;
-  sincos(spherical.x * 3.14159h, sinCosTheta.x, sinCosTheta.y);
-  sinCosPhi = half2(sqrt(1 - spherical.y * spherical.y), spherical.y);
-
-  return half3(sinCosTheta.y * sinCosPhi.x, sinCosTheta.x * sinCosPhi.x, sinCosPhi.y);    
 }
 
 //--------------------------------------------------------------------------------------------------

@@ -471,7 +471,7 @@ DECAL_PS_OUT_TWO_RT PS_BUMP(const DECAL_VS2PS_EXT i, in float2 vPos : VPOS)
 	//-- calculate world normal.
 	float4 map2Src = tex2D(g_atlasMapSml, atlas2UV);
 	float3 nn	   = map2Src.xyz * 2.0f - 1.0f;
-	float3 oNormal = float3(cartesianToSpherical(normalize(mul(nn, TBN))), map2Src.w);
+	float3 oNormal = float3(octEncode(normalize(mul(nn, TBN))), map2Src.w);
 
 	//-- alpha value for blending.
 	float alpha = oColor.w;
@@ -532,7 +532,7 @@ DECAL_PS_OUT_TWO_RT PS_PARALLAX(const DECAL_VS2PS_EXT i, in float2 vPos : VPOS)
 
 	//-- calculate world normal.
 	float3 nn	   = (tex2D(g_atlasMapSml, newAtlas2UV).xyz * 2.0f) - 1.0f;
-	float3 oNormal = float3(cartesianToSpherical(normalize(mul(nn, TBN))), 0);
+	float3 oNormal = float3(octEncode(normalize(mul(nn, TBN))), 0);
 
 	//-- alpha value for blending.
 	float alpha = oColor.w;

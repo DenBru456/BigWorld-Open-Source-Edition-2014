@@ -244,7 +244,7 @@
 		<path>  shaders/   </path>
 	</shaderPaths>
   <assetServer>
-    <path>../../bin/tools/asset_pipeline_release/jit_compiler</path>
+    <path>../../bin/tools/asset_pipeline/win32/jit_compiler</path>
     <params>-j 4</params>
   </assetServer>
 </resources.xml>
