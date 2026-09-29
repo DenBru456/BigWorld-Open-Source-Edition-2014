@@ -11,6 +11,7 @@
 #include "resmgr/multi_file_system.hpp"
 
 #include "cstdmf/command_line.hpp"
+#include "cstdmf/debug_message_file_logger.hpp"
 
 BW_BEGIN_NAMESPACE
 DECLARE_WATCHER_DATA( NULL )
@@ -42,6 +43,48 @@ namespace
 	}
 }
 
+
+
+#define JIT_COMPILER_LOG_FILE_ENABLED 1
+
+// Starts a log file named <exe name>.log in the exe directory and
+// routes engine debug messages into it. Disable at runtime with
+// the "disableLogFile" command line parameter.
+void initLogFile(const BW::CommandLine& commandLine)
+{
+#if JIT_COMPILER_LOG_FILE_ENABLED
+	static BW::DebugMessageFileLogger logFile;
+
+	if (commandLine.hasParam("disableLog"))
+	{
+		logFile.enable(false);
+		return;
+	}
+
+	wchar_t exePath[MAX_PATH] = { 0 };
+	::GetModuleFileNameW(NULL, exePath, MAX_PATH);
+	BW::string logFileName = BW::bw_wtoutf8(exePath);
+
+	size_t slashPos = logFileName.find_last_of('\\');
+	size_t dotPos = logFileName.find_last_of('.');
+	if (dotPos != BW::string::npos &&
+		(slashPos == BW::string::npos || dotPos > slashPos))
+	{
+		logFileName.erase(dotPos);
+	}
+	logFileName += ".log";
+
+	logFile.config(logFileName,
+		BW::DebugMessageFileLogger::SERVERITY_ALL,
+		"",
+		BW::DebugMessageFileLogger::SOURCE_ALL,
+		BW::DebugMessageFileLogger::OVERWRITE,
+		true);
+#endif // JIT_COMPILER_LOG_FILE_ENABLED
+}
+
+
+
 #pragma comment(linker,"\"/manifestdependency:type='win32' \
 name='Microsoft.Windows.Common-Controls' version='6.0.0.0' \
 processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
@@ -55,6 +98,11 @@ int WINAPI WinMain( HINSTANCE instance, HINSTANCE prevInstance, LPSTR commandLin
 #endif
 
 	int exitCode = 1;
+
+	BW::CommandLine logCommandLine(
+		BW::bw_wtoutf8(GetCommandLineW()).c_str());
+	initLogFile(logCommandLine);
+
 	if (init())
 	{
 		BW::AssetCompilerOptions options;
