@@ -1,7 +1,7 @@
 #ifndef CONFIG_HPP
 #define CONFIG_HPP
 
-#define BUILT_BY_BIGWORLD							1
+#define BUILT_BY_BIGWORLD							0
 
 #if defined( MF_SERVER ) && defined( CONSUMER_CLIENT )
 #	error "The CONSUMER_CLIENT macro should not be used when building the server."
