@@ -18,15 +18,21 @@
 #define NV_CONST
 
 // Set standard function names.
+// FIX: VS2015 (v140/v140_xp/v141) provides the conformant snprintf,
+// vsnprintf and va_copy in the UCRT, and ucrt\stdio.h hard-#errors
+// ("Macro definition of snprintf conflicts with Standard Library
+// function declaration") if snprintf is redefined as a macro. Only
+// apply the pre-2015 shims on genuinely old compilers.
+#if _MSC_VER < 1900
 #define snprintf _snprintf
+#define vsscanf _vsscanf
+#define va_copy(a, b)	a = b
+#endif
 #if _MSC_VER < 1500
 #	define vsnprintf _vsnprintf
 #endif
-#define vsscanf _vsscanf
 #define chdir _chdir
 #define getcwd _getcwd 
-
-#define va_copy(a, b)	a = b
 
 #if !defined restrict
 #define restrict

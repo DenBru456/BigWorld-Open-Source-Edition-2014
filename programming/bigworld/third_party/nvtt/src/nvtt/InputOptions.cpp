@@ -224,16 +224,21 @@ bool InputOptions::setMipmapDataRect(const void * data, int x0, int y0, int x1, 
 	m.images[idx].data = new nv::Image();
 	m.images[idx].data->allocate(width, height);
 	
-	if (width == fullwidth && height == fullheight && x0 == 0 && x1 == 0)
+	// FIX (BigWorld/nvtt bug): the fast path tested "x0 == 0 && x1 == 0"
+	// (x1 is never 0 in a valid rect, so it never triggered) and the line
+	// by line copy below never accounted for y0, so any mip taken from a
+	// vertical strip (y0 > 0) was read from the top of the image instead
+	// of its strip row - garbage mips below mip 0.
+	if (x0 == 0 && y0 == 0 && width == fullwidth && height == fullheight)
 	{
 		memcpy(m.images[idx].data->pixels(), data, width * height * 4); 
 	}
 	else
 	{
-		// line by line copy
+		// line by line copy honouring the x0/y0 rect origin
 		unsigned char* dst = (unsigned char*)m.images[idx].data->pixels();
-		unsigned char* src = (unsigned char*)data;
-		src += x0 * 4;
+		const unsigned char* src = (const unsigned char*)data;
+		src += (y0 * fullwidth + x0) * 4;
 		for (int h = 0; h < height; ++h)
 		{
 			memcpy(dst, src, width * 4);

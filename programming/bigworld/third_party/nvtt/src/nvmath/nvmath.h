@@ -48,8 +48,14 @@
 #define IS_NEGATIVE_FLOAT(x)	(IR(x)&SIGN_BITMASK)
 */
 
-// BW: This conflicts with C++11 headers in vc11
-#ifndef _HAS_CPP0X
+// BW: This conflicts with C++11 headers in vc11.
+// FIX (2026): the old gate relied on _HAS_CPP0X being defined by the
+// VS2012/VS2013 standard headers (yvals.h). VS2015+ removed that macro,
+// which re-enabled the "sqrt -> sqrt_assert" macros on v140/v140_xp/v141
+// and broke xtgmath.h with C2732 (acos_assert / asin_assert /
+// sqrt_assert linkage contradictions). Disable the whole block on
+// _MSC_VER >= 1900; other compilers keep the original behavior.
+#if !defined(_HAS_CPP0X) && !(defined(_MSC_VER) && _MSC_VER >= 1900)
 inline double sqrt_assert(const double f)
 {
 	nvDebugCheck(f >= 0.0f);
