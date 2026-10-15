@@ -406,7 +406,11 @@ private:
             BWResource::dissolveFilename( spaceName_ ) + 
             "/" + SPACE_FLORA_SETTING_FILE_NAME );
 
-        Vector2 fadeRange = DecalsManager::instance().getFadeRange();
+        Vector2 fadeRange(100.0f, 120.0f);
+        if (DecalsManager::pInstance() != NULL)
+        {
+            fadeRange = DecalsManager::instance().getFadeRange();
+        }
         settings->writeFloat( "decals/fadeStart", fadeRange.x);
         settings->writeFloat( "decals/fadeEnd", fadeRange.y);
 
