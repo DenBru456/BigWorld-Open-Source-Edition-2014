@@ -14,39 +14,39 @@ BW_BEGIN_NAMESPACE
 namespace Moo
 {
 
-class TextureDetailLevel;
+	class TextureDetailLevel;
 
-class TextureCompressor
-{
-public:
-	TextureCompressor( DX::Texture*	srcTexture );
-	TextureCompressor( const BW::StringRef&	srcTextureName );
+	class TextureCompressor
+	{
+	public:
+		TextureCompressor(DX::Texture* srcTexture);
+		TextureCompressor(const BW::StringRef& srcTextureName);
 
-	bool save( const BW::StringRef & dstFilename, D3DFORMAT format,
-				uint numMips = 0, uint maxExtent = 0 );
-	bool save( const BW::StringRef & dstFilename, 
-				const SmartPointer< TextureDetailLevel >& dstInfo,
-				const bool bCompressed );
-	bool stow( DataSectionPtr pSection, const BW::StringRef & childTag,
-				D3DFORMAT format, uint numMips = 0, uint maxExtent = 0);
-	BinaryPtr compressToMemory( D3DFORMAT format, uint numMips,
-								uint maxExtent = 0, D3DXIMAGE_FILEFORMAT imgFormat = D3DXIFF_DDS );
-	BinaryPtr compressToMemory( const SmartPointer< TextureDetailLevel >& dstInfo,
-		const bool bCompressed );
+		bool save(const BW::StringRef& dstFilename, D3DFORMAT format,
+			uint numMips = 0, uint maxExtent = 0);
+		bool save(const BW::StringRef& dstFilename,
+			const SmartPointer< TextureDetailLevel >& dstInfo,
+			const bool bCompressed);
+		bool stow(DataSectionPtr pSection, const BW::StringRef& childTag,
+			D3DFORMAT format, uint numMips = 0, uint maxExtent = 0);
+		BinaryPtr compressToMemory(D3DFORMAT format, uint numMips,
+			uint maxExtent = 0, D3DXIMAGE_FILEFORMAT imgFormat = D3DXIFF_DDS);
+		BinaryPtr compressToMemory(const SmartPointer< TextureDetailLevel >& dstInfo,
+			const bool bCompressed);
 
-	ComObjectWrap<DX::Texture> compress( D3DFORMAT format,
-					uint numMips = 0, uint maxExtent = 0 ) const;
-	void compress( ComObjectWrap<DX::Texture>& dstTexture );
+		ComObjectWrap<DX::Texture> compress(D3DFORMAT format,
+			uint numMips = 0, uint maxExtent = 0) const;
+		bool compress(ComObjectWrap<DX::Texture>& dstTexture);
 
-	static D3DXIMAGE_FILEFORMAT getD3DImageFileFormat( const BW::StringRef& fileName,
-													D3DXIMAGE_FILEFORMAT defaultVal );
+		static D3DXIMAGE_FILEFORMAT getD3DImageFileFormat(const BW::StringRef& fileName,
+			D3DXIMAGE_FILEFORMAT defaultVal);
 
-private:
-	TextureCompressor( const TextureCompressor& );
-	TextureCompressor& operator=( const TextureCompressor& );
-	ComObjectWrap<DX::Texture>	srcTexture_;
-	BW::string					srcTextureName_;
-};
+	private:
+		TextureCompressor(const TextureCompressor&);
+		TextureCompressor& operator=(const TextureCompressor&);
+		ComObjectWrap<DX::Texture>	srcTexture_;
+		BW::string					srcTextureName_;
+	};
 
 } // namespace Moo
 

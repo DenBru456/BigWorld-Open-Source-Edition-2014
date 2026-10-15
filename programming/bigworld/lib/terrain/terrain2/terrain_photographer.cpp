@@ -12,7 +12,7 @@
 #include "moo/render_target.hpp"
 #include "moo/effect_visual_context.hpp"
 
-DECLARE_DEBUG_COMPONENT2( "Terrain", 0 )
+DECLARE_DEBUG_COMPONENT2("Terrain", 0)
 
 
 BW_BEGIN_NAMESPACE
@@ -24,28 +24,28 @@ class SurfaceHelper
 public:
 	typedef ComObjectWrap<DX::Surface> Surface;
 
-	bool initOffscreenPlain( uint32 width, uint32 height, D3DFORMAT format, 
-		D3DPOOL pool )
+	bool initOffscreenPlain(uint32 width, uint32 height, D3DFORMAT format,
+		D3DPOOL pool)
 	{
 		BW_GUARD;
 		pSurface_ = NULL;
-		HRESULT hr = Moo::rc().device()->CreateOffscreenPlainSurface( width, height,
-			format, pool, &pSurface_, NULL );
-		return SUCCEEDED( hr );
+		HRESULT hr = Moo::rc().device()->CreateOffscreenPlainSurface(width, height,
+			format, pool, &pSurface_, NULL);
+		return SUCCEEDED(hr);
 	}
 
-	bool initRenderTarget( uint32 width, uint32 height, D3DFORMAT format )
+	bool initRenderTarget(uint32 width, uint32 height, D3DFORMAT format)
 	{
 		BW_GUARD;
 		pSurface_ = NULL;
 
-		HRESULT hr = Moo::rc().device()->CreateRenderTarget( width, height, format,
-			D3DMULTISAMPLE_NONE, 0, false, &pSurface_, NULL );
+		HRESULT hr = Moo::rc().device()->CreateRenderTarget(width, height, format,
+			D3DMULTISAMPLE_NONE, 0, false, &pSurface_, NULL);
 
-		return SUCCEEDED( hr );
+		return SUCCEEDED(hr);
 	}
 
-	bool initFromMooRenderTarget( Moo::RenderTargetPtr pTarget )
+	bool initFromMooRenderTarget(Moo::RenderTargetPtr pTarget)
 	{
 		BW_GUARD;
 		bool res = false;
@@ -53,7 +53,7 @@ public:
 		DX::Texture* pTexture = (DX::Texture*)pTarget->pTexture();
 		if (pTexture)
 		{
-			HRESULT hr = pTexture->GetSurfaceLevel( 0, &pSurface_ );
+			HRESULT hr = pTexture->GetSurfaceLevel(0, &pSurface_);
 			if (SUCCEEDED(hr))
 			{
 				res = true;
@@ -62,7 +62,7 @@ public:
 		return res;
 	}
 
-	operator DX::Surface*()
+	operator DX::Surface* ()
 	{
 		return pSurface_.pComObject();
 	}
@@ -92,17 +92,17 @@ TerrainPhotographer::~TerrainPhotographer()
 }
 
 
-bool TerrainPhotographer::init( uint32 basePhotoSize )
+bool TerrainPhotographer::init(uint32 basePhotoSize)
 {
 	BW_GUARD;
 	bool ret = true;
 
 	// re-create base photo if its the wrong size or doesn't exist.
-	if ( !pBasePhoto_ || ( pBasePhoto_->width() != basePhotoSize ) )
+	if (!pBasePhoto_ || (pBasePhoto_->width() != basePhotoSize))
 	{
 		// pBasePhoto_ is a smart pointer, just re-assign.
 		pBasePhoto_ = new Moo::RenderTarget("terrain photographer");
-		ret = pBasePhoto_->create( basePhotoSize, basePhotoSize );
+		ret = pBasePhoto_->create(basePhotoSize, basePhotoSize);
 
 		if (!ret)
 		{
@@ -113,47 +113,57 @@ bool TerrainPhotographer::init( uint32 basePhotoSize )
 	return ret;
 }
 
-bool TerrainPhotographer::photographBlock( BaseTerrainBlock*	pBlock,
-										   const Matrix&		transform )
+bool TerrainPhotographer::photographBlock(BaseTerrainBlock* pBlock,
+	const Matrix& transform)
 {
 	BW_GUARD;
 	bool res = false;
 	if (pBasePhoto_)
 	{
-		//-- push color writing states.
-		Moo::rc().pushRenderState( D3DRS_COLORWRITEENABLE );
-		Moo::rc().pushRenderState( D3DRS_COLORWRITEENABLE1 );
-		Moo::rc().pushRenderState( D3DRS_COLORWRITEENABLE2 );
-		Moo::rc().pushRenderState( D3DRS_COLORWRITEENABLE3 );
+		// [POOL-FIX] This function renders the block's LOD texture
+		// through a top-down orthographic camera and pumps the shared
+		// constant pools with it (CONSTANTS_ALL), clobbering the live
+		// camera's view/projection and the pooled per-view constants
+		// for the rest of the frame. Save the matrices here and
+		// restore + re-pump after the photograph so the main render
+		// sees the real camera again immediately.
+		Matrix savedView = Moo::rc().view();
+		Matrix savedProj = Moo::rc().projection();
 
-		Moo::rc().setWriteMask( 0, 0xFF );
-		Moo::rc().setWriteMask( 1, 0 );
-		Moo::rc().setWriteMask( 2, 0 );
-		Moo::rc().setWriteMask( 3, 0 );
+		//-- push color writing states.
+		Moo::rc().pushRenderState(D3DRS_COLORWRITEENABLE);
+		Moo::rc().pushRenderState(D3DRS_COLORWRITEENABLE1);
+		Moo::rc().pushRenderState(D3DRS_COLORWRITEENABLE2);
+		Moo::rc().pushRenderState(D3DRS_COLORWRITEENABLE3);
+
+		Moo::rc().setWriteMask(0, 0xFF);
+		Moo::rc().setWriteMask(1, 0);
+		Moo::rc().setWriteMask(2, 0);
+		Moo::rc().setWriteMask(3, 0);
 
 		if (pBasePhoto_->push())
 		{
 			Moo::rc().device()->Clear(0, NULL, D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, 0, 1, 0);
 
 			// Save old texture filter setting
- 			Moo::GraphicsSetting::GraphicsSettingPtr textureQualitySettingPtr = 
- 				Moo::GraphicsSetting::getFromLabel( "TEXTURE_QUALITY" );
-			MF_ASSERT( textureQualitySettingPtr && "Missing texture quality option" );
- 			int oldTextureQualityOption = textureQualitySettingPtr->activeOption();
+			Moo::GraphicsSetting::GraphicsSettingPtr textureQualitySettingPtr =
+				Moo::GraphicsSetting::getFromLabel("TEXTURE_QUALITY");
+			MF_ASSERT(textureQualitySettingPtr && "Missing texture quality option");
+			int oldTextureQualityOption = textureQualitySettingPtr->activeOption();
 
 			// set new to highest supported option
-			textureQualitySettingPtr->selectOption( 0 );
+			textureQualitySettingPtr->selectOption(0);
 
 			float imageSize = pBlock->blockSize();
 
 			Matrix projection;
-			projection.orthogonalProjection( imageSize, imageSize, -5000, 5000 );
+			projection.orthogonalProjection(imageSize, imageSize, -5000, 5000);
 			Matrix view;
-			view.lookAt( Vector3( imageSize * 0.50375f, 0, imageSize * 0.49625f ) + transform.applyToOrigin(), 
-				Vector3( 0, -1, 0), Vector3( 0, 0, 1 ) );
+			view.lookAt(Vector3(imageSize * 0.50375f, 0, imageSize * 0.49625f) + transform.applyToOrigin(),
+				Vector3(0, -1, 0), Vector3(0, 0, 1));
 
-			Moo::rc().projection( projection );	
-			Moo::rc().view( view );
+			Moo::rc().projection(projection);
+			Moo::rc().view(view);
 			Moo::rc().updateViewTransforms();
 
 			// hide overlays.
@@ -174,10 +184,19 @@ bool TerrainPhotographer::photographBlock( BaseTerrainBlock*	pBlock,
 			Moo::rc().effectVisualContext().updateSharedConstants(Moo::CONSTANTS_ALL);
 
 			// Reset old texture filter option
- 			textureQualitySettingPtr->selectOption( oldTextureQualityOption );
+			textureQualitySettingPtr->selectOption(oldTextureQualityOption);
 
 			pBasePhoto_->pop();
 		}
+
+		// [POOL-FIX] restore the main camera's view/projection and
+		// re-pump the shared constant pools with it (same pattern as
+		// the water reflection / thumbnail pump-back fixes).
+		Moo::rc().projection(savedProj);
+		Moo::rc().view(savedView);
+		Moo::rc().updateViewTransforms();
+		Moo::rc().effectVisualContext().updateSharedConstants(
+			Moo::CONSTANTS_ALL);
 
 		// restore color write state.
 		Moo::rc().popRenderState();
@@ -197,21 +216,26 @@ bool TerrainPhotographer::photographBlock( BaseTerrainBlock*	pBlock,
  *	@param destImageFormat	Format of new texture (if needed).
  *
  */
-bool TerrainPhotographer::output(	ComObjectWrap<DX::Texture>&	pDestTexture,
-									D3DFORMAT					destImageFormat)
+bool TerrainPhotographer::output(ComObjectWrap<DX::Texture>& pDestTexture,
+	D3DFORMAT					destImageFormat)
 {
 	if (!pBasePhoto_->pTexture())
 	{
 		return false;
 	}
-	Moo::TextureCompressor	tc( (DX::Texture*)pBasePhoto_->pTexture() ); 
+	Moo::TextureCompressor	tc((DX::Texture*)pBasePhoto_->pTexture());
 	if (pDestTexture.hasComObject())
 	{
-		tc.compress( pDestTexture );
+		if (!tc.compress(pDestTexture))
+		{
+			ERROR_MSG("TerrainPhotographer::output: failed to compress the "
+				"terrain photo (out of memory?).\n");
+			return false;
+		}
 	}
 	else
 	{
-		pDestTexture = tc.compress( destImageFormat );
+		pDestTexture = tc.compress(destImageFormat);
 	}
 
 	return pDestTexture.hasComObject();
