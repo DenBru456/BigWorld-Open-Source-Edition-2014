@@ -82,15 +82,15 @@ public:
 		const BW::vector<Chunk*>& pVisibleChunks,
 		bool outsideChunks, float nearPoint);
 
+	// Resolves the chunk to draw from; falls back to the last
+	// known camera chunk when the camera is over an unloaded chunk.
+	Chunk* resolveDrawSeedChunk();
+
 #if UMBRA_ENABLE
 	void addChunkShadowCaster(Chunk* item);
 	void clearChunkShadowCasters();
 	const BW::vector<Chunk*>& umbraChunkShadowCasters() const { return umbraChunkShadowCasters_; }
 	void umbraDraw(Moo::DrawContext& drawContext);
-
-	// Resolves the chunk to draw from; falls back to the last
-	// known camera chunk when the camera is over an unloaded chunk.
-	Chunk* resolveDrawSeedChunk();
 	void umbraRepeat(Moo::DrawContext& drawContext);
 #endif
 

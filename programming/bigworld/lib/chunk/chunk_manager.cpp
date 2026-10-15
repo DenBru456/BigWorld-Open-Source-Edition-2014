@@ -834,24 +834,6 @@ struct PortalDrawState
 };
 
 
-#if UMBRA_ENABLE
-void ChunkManager::addChunkShadowCaster(Chunk* item)
-{
-    umbraChunkShadowCasters_.push_back(item);
-}
-
-void ChunkManager::clearChunkShadowCasters()
-{
-    BW::vector<Chunk*>::iterator chunkIt;
-    for (chunkIt = umbraChunkShadowCasters_.begin(); chunkIt != umbraChunkShadowCasters_.end(); ++chunkIt)
-    {
-        Chunk* pChunk = *chunkIt;
-        pChunk->clearShadowCasters();
-    }
-
-    umbraChunkShadowCasters_.clear();
-}
-
 namespace
 {
     // Last chunk the camera was known to be in, kept by name so the lookup
@@ -900,6 +882,25 @@ Chunk* ChunkManager::resolveDrawSeedChunk()
     pDrawSeedChunk_ = cameraChunk_;
     return cameraChunk_;
 }
+
+#if UMBRA_ENABLE
+void ChunkManager::addChunkShadowCaster(Chunk* item)
+{
+    umbraChunkShadowCasters_.push_back(item);
+}
+
+void ChunkManager::clearChunkShadowCasters()
+{
+    BW::vector<Chunk*>::iterator chunkIt;
+    for (chunkIt = umbraChunkShadowCasters_.begin(); chunkIt != umbraChunkShadowCasters_.end(); ++chunkIt)
+    {
+        Chunk* pChunk = *chunkIt;
+        pChunk->clearShadowCasters();
+    }
+
+    umbraChunkShadowCasters_.clear();
+}
+
 
 /**
  *  This method traverses and draws the scene using umbra for outdoor objects
