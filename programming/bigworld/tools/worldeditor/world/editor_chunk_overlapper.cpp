@@ -10,7 +10,7 @@
 #include "cstdmf/debug.hpp"
 
 
-DECLARE_DEBUG_COMPONENT2( "Editor", 0 )
+DECLARE_DEBUG_COMPONENT2("Editor", 0)
 
 BW_BEGIN_NAMESPACE
 
@@ -20,7 +20,7 @@ BW_BEGIN_NAMESPACE
 
 #undef IMPLEMENT_CHUNK_ITEM_ARGS
 #define IMPLEMENT_CHUNK_ITEM_ARGS (pSection, pChunk, &errorString)
-IMPLEMENT_CHUNK_ITEM( EditorChunkOverlapper, overlapper, 0 )
+IMPLEMENT_CHUNK_ITEM(EditorChunkOverlapper, overlapper, 0)
 
 bool EditorChunkOverlapper::s_drawAlways_ = false;
 uint32 EditorChunkOverlapper::s_settingsMark_ = -16;
@@ -34,7 +34,7 @@ BW::vector<Chunk*> EditorChunkOverlapper::drawList;
  *	Constructor.
  */
 EditorChunkOverlapper::EditorChunkOverlapper() :
-	bound_( false )
+	bound_(false)
 {
 }
 
@@ -50,7 +50,7 @@ EditorChunkOverlapper::~EditorChunkOverlapper()
 /**
  *	Load method. Creates an unappointed chunk for our overlapper.
  */
-bool EditorChunkOverlapper::load( DataSectionPtr pSection, Chunk * pChunk, BW::string* errorString )
+bool EditorChunkOverlapper::load(DataSectionPtr pSection, Chunk* pChunk, BW::string* errorString)
 {
 	BW_GUARD;
 
@@ -60,7 +60,7 @@ bool EditorChunkOverlapper::load( DataSectionPtr pSection, Chunk * pChunk, BW::s
 
 	if (overlapperID_.empty())
 	{
-		if ( errorString )
+		if (errorString)
 		{
 			*errorString = LocaliseUTF8(L"WORLDEDITOR/WORLDEDITOR/CHUNK/CHUNK_OVERLAPPER/FAIL_TO_LOAD");
 		}
@@ -68,9 +68,9 @@ bool EditorChunkOverlapper::load( DataSectionPtr pSection, Chunk * pChunk, BW::s
 		return false;
 	}
 
-	pOverlappingChunk_ = new Chunk( overlapperID_, pChunk->mapping() );
+	pOverlappingChunk_ = new Chunk(overlapperID_, pChunk->mapping());
 
-	ChunkManager::instance().addChunkToSpace( pOverlappingChunk_, pChunk->space()->id() );
+	ChunkManager::instance().addChunkToSpace(pOverlappingChunk_, pChunk->space()->id());
 
 	return true;
 }
@@ -80,15 +80,15 @@ bool EditorChunkOverlapper::load( DataSectionPtr pSection, Chunk * pChunk, BW::s
  *	Toss method. If we get moved to another chunk that is bound
  *	(or we are created in it) then we can do our bind action now.
  */
-void EditorChunkOverlapper::toss( Chunk * pChunk )
+void EditorChunkOverlapper::toss(Chunk* pChunk)
 {
 	BW_GUARD;
 
-	if (pChunk_ != NULL) EditorChunkOverlappers::instance( *pChunk_ ).del( this );
+	if (pChunk_ != NULL) EditorChunkOverlappers::instance(*pChunk_).del(this);
 
-	ChunkOverlapper::toss( pChunk );
+	ChunkOverlapper::toss(pChunk);
 
-	if (pChunk_ != NULL) EditorChunkOverlappers::instance( *pChunk_ ).add( this );
+	if (pChunk_ != NULL) EditorChunkOverlappers::instance(*pChunk_).add(this);
 
 	if (pChunk_ != NULL && pChunk_->isBound())
 	{
@@ -100,7 +100,7 @@ void EditorChunkOverlapper::toss( Chunk * pChunk )
  *	Draw method. We add the chunk we refer to to the fringe drawing list
  *	if chunk overlappers are being drawn.
  */
-void EditorChunkOverlapper::draw( Moo::DrawContext& drawContext )
+void EditorChunkOverlapper::draw(Moo::DrawContext& drawContext)
 {
 	BW_GUARD;
 
@@ -109,26 +109,40 @@ void EditorChunkOverlapper::draw( Moo::DrawContext& drawContext )
 		return;
 	}
 
-	ChunkManager & cmi = ChunkManager::instance();
+	ChunkManager& cmi = ChunkManager::instance();
 
-	if (cmi.cameraChunk()->drawMark() != s_settingsMark_)
+	// The camera chunk is NULL while the chunk under the camera is not loaded
+	// (e.g. flying into an unloaded area). The draw passes now keep running in
+	// that state, so never dereference it blindly. Use the draw seed that the
+	// chunk manager is traversing from this frame instead.
+	Chunk* pSeed = cmi.cameraChunk();
+	if (pSeed == NULL)
+	{
+		pSeed = cmi.drawSeedChunk();
+	}
+	if (pSeed == NULL)
+	{
+		return;
+	}
+
+	if (pSeed->drawMark() != s_settingsMark_)
 	{
 		bool drawAllShells = Options::getOptionInt(
-			"render/scenery/shells/gameVisibility", s_drawAlways_ ? 0 : 1 ) == 0;
+			"render/scenery/shells/gameVisibility", s_drawAlways_ ? 0 : 1) == 0;
 		bool hideAllOutside = Options::getOptionInt(
-			"render/hideOutsideObjects" , s_drawAlways_ ? 1 : 0 ) == 1;
+			"render/hideOutsideObjects", s_drawAlways_ ? 1 : 0) == 1;
 
 		s_drawAlways_ = drawAllShells || hideAllOutside;
-		s_settingsMark_ = cmi.cameraChunk()->drawMark();
+		s_settingsMark_ = pSeed->drawMark();
 	}
 
 	if (EditorChunkOverlapper::s_drawAlways_)
 	{
-		if (pOverlappingChunk_->drawMark() != cmi.cameraChunk()->drawMark() &&
+		if (pOverlappingChunk_->drawMark() != pSeed->drawMark() &&
 			pOverlappingChunk_->fringePrev() == NULL)
 		{
-			if ( std::find( drawList.begin(), drawList.end(), pOverlappingChunk_ ) == drawList.end() ) 			
-				drawList.push_back( pOverlappingChunk_ );
+			if (std::find(drawList.begin(), drawList.end(), pOverlappingChunk_) == drawList.end())
+				drawList.push_back(pOverlappingChunk_);
 		}
 	}
 }
@@ -140,7 +154,7 @@ void EditorChunkOverlapper::draw( Moo::DrawContext& drawContext )
  *	would normally go in the chunk itself (except it is editor specific),
  *	so I don't really feel a need to add a 'bind' method to ChunkItem.
  */
-void EditorChunkOverlapper::lend( Chunk * pLender )
+void EditorChunkOverlapper::lend(Chunk* pLender)
 {
 	BW_GUARD;
 
@@ -159,7 +173,7 @@ void EditorChunkOverlapper::bindStuff()
 	if (bound_) return;
 
 	pOverlappingChunk_ = pOverlappingChunk_->space()->findOrAddChunk(
-							pOverlappingChunk_ );
+		pOverlappingChunk_);
 	bound_ = true;
 
 	if (!pOverlappingChunk_->isBound())
@@ -167,7 +181,7 @@ void EditorChunkOverlapper::bindStuff()
 		ChunkManager::instance().loadChunkExplicitly(
 			pOverlappingChunk_->identifier(),
 			WorldManager::instance().geometryMapping(),
-			true );
+			true);
 	}
 }
 
@@ -180,8 +194,8 @@ void EditorChunkOverlapper::bindStuff()
 /**
  *	Constructor
  */
-EditorChunkOverlappers::EditorChunkOverlappers( Chunk & chunk ) :
-	pChunk_( &chunk )
+EditorChunkOverlappers::EditorChunkOverlappers(Chunk& chunk) :
+	pChunk_(&chunk)
 {
 }
 
@@ -196,25 +210,25 @@ EditorChunkOverlappers::~EditorChunkOverlappers()
 /**
  *	Add this overlapper item to our collection
  */
-void EditorChunkOverlappers::add( EditorChunkOverlapperPtr pOverlapper )
+void EditorChunkOverlappers::add(EditorChunkOverlapperPtr pOverlapper)
 {
 	BW_GUARD;
 
-	items_.push_back( pOverlapper );
+	items_.push_back(pOverlapper);
 }
 
 /**
  *	Remove this overlapper item from our collection
  */
-void EditorChunkOverlappers::del( EditorChunkOverlapperPtr pOverlapper )
+void EditorChunkOverlappers::del(EditorChunkOverlapperPtr pOverlapper)
 {
 	BW_GUARD;
 
 	Items::iterator found =
-		std::find( items_.begin(), items_.end(), pOverlapper );
+		std::find(items_.begin(), items_.end(), pOverlapper);
 	if (found != items_.end())
 	{
-		items_.erase( found );
+		items_.erase(found);
 	}
 }
 
@@ -223,32 +237,32 @@ void EditorChunkOverlappers::del( EditorChunkOverlapperPtr pOverlapper )
  *	Make a new overlapper item in the chunk we are a cache for to
  *	specify the input chunk as an overlapper
  */
-void EditorChunkOverlappers::form( Chunk * pOverlapper )
+void EditorChunkOverlappers::form(Chunk* pOverlapper)
 {
 	BW_GUARD;
 
 	// make the datasection element
 	DataSectionPtr pSect =
-		EditorChunkCache::instance( *pChunk_ ).pChunkSection();
-	pSect = pSect->newSection( "overlapper" );
-	pSect->setString( pOverlapper->identifier() );
+		EditorChunkCache::instance(*pChunk_).pChunkSection();
+	pSect = pSect->newSection("overlapper");
+	pSect->setString(pOverlapper->identifier());
 
 	// we don't use the normal chunk item creation pathway here 'coz we
 	// don't want to the normal undo/redo baggage.
 
 	// now load that item, which will automatically add itself to our list
-	MF_ASSERT( pChunk_->loadItem( pSect ) );
+	MF_ASSERT(pChunk_->loadItem(pSect));
 
 	// and flag ourselves as dirty
 	BW::set<Chunk*> chunks;
-	chunks.insert( pChunk_ );
-	chunks.insert( pOverlapper );
+	chunks.insert(pChunk_);
+	chunks.insert(pOverlapper);
 
-	WorldManager::instance().changedChunks( 
+	WorldManager::instance().changedChunks(
 		chunks,
 		InvalidateFlags::FLAG_THUMBNAIL |
 		InvalidateFlags::FLAG_NAV_MESH |
-		InvalidateFlags::FLAG_SHADOW_MAP );
+		InvalidateFlags::FLAG_SHADOW_MAP);
 
 }
 
@@ -256,7 +270,7 @@ void EditorChunkOverlappers::form( Chunk * pOverlapper )
  *	Get rid of the overlapper item in the chunk we are a cache for
  *	that specified the input chunk as an overlapper
  */
-void EditorChunkOverlappers::cut( Chunk * pOverlapper )
+void EditorChunkOverlappers::cut(Chunk* pOverlapper)
 {
 	BW_GUARD;
 
@@ -268,21 +282,21 @@ void EditorChunkOverlappers::cut( Chunk * pOverlapper )
 
 			// delete its datasection
 			DataSectionPtr pParent =
-				EditorChunkCache::instance( *pChunk_ ).pChunkSection();
-			pParent->delChild( (*it)->pOwnSect() );
+				EditorChunkCache::instance(*pChunk_).pChunkSection();
+			pParent->delChild((*it)->pOwnSect());
 
 			// and delete the item itself
-			pChunk_->delStaticItem( *it );
+			pChunk_->delStaticItem(*it);
 
 			// and it's gone, so get out
 			//  (our iterator is stuffed now anyway)
 
 			// flag ourselves as dirty
-			WorldManager::instance().changedChunk( 
+			WorldManager::instance().changedChunk(
 				pChunk_,
 				InvalidateFlags::FLAG_THUMBNAIL |
 				InvalidateFlags::FLAG_NAV_MESH |
-				InvalidateFlags::FLAG_SHADOW_MAP );
+				InvalidateFlags::FLAG_SHADOW_MAP);
 
 			return;
 		}
@@ -291,9 +305,9 @@ void EditorChunkOverlappers::cut( Chunk * pOverlapper )
 	// we didn't find one. this is ok for now, but should be upgraded to
 	// an error when all overlapping chunks have an 'overlapper' item in
 	// the chunk they overlap.
-	WARNING_MSG( "EditorChunkOverlappers::cut: "
+	WARNING_MSG("EditorChunkOverlappers::cut: "
 		"No overlapper item in %s points to %s\n",
-		pChunk_->identifier().c_str(), pOverlapper->identifier().c_str() );
+		pChunk_->identifier().c_str(), pOverlapper->identifier().c_str());
 }
 
 

@@ -21,7 +21,7 @@
 #if UMBRA_ENABLE
 namespace Umbra
 {
-	namespace OB 
+	namespace OB
 	{
 		class Camera;
 		class Cell;
@@ -63,83 +63,93 @@ public:
 	ChunkManager();
 	~ChunkManager();
 
-	bool init( DataSectionPtr configSection = NULL );
+	bool init(DataSectionPtr configSection = NULL);
 	bool fini();
 
 	// set the camera position
-	void camera( const Matrix & cameraTransform, ChunkSpacePtr pSpace, Chunk* pOverride = NULL );
+	void camera(const Matrix& cameraTransform, ChunkSpacePtr pSpace, Chunk* pOverride = NULL);
 	// get camera transform
-	const Matrix & cameraTrans() const { return cameraTrans_; }
+	const Matrix& cameraTrans() const { return cameraTrans_; }
 
 	// call everyone's tick method, plus scan for
 	// new chunks to load and old chunks to dispose
-	void tick( float dTime );
+	void tick(float dTime);
 	void updateAnimations();
 
 	// draw the scene from the set camera position
-	void draw( Moo::DrawContext& drawContext );
-	void drawReflection( Moo::DrawContext& reflectionDrawContext,
+	void draw(Moo::DrawContext& drawContext);
+	void drawReflection(Moo::DrawContext& reflectionDrawContext,
 		const BW::vector<Chunk*>& pVisibleChunks,
-		bool outsideChunks, float nearPoint );
+		bool outsideChunks, float nearPoint);
 
 #if UMBRA_ENABLE
-	void addChunkShadowCaster( Chunk* item );
+	void addChunkShadowCaster(Chunk* item);
 	void clearChunkShadowCasters();
-	const BW::vector<Chunk*> & umbraChunkShadowCasters() const { return umbraChunkShadowCasters_; }
-	void umbraDraw( Moo::DrawContext& drawContext );
-	void umbraRepeat( Moo::DrawContext& drawContext );
+	const BW::vector<Chunk*>& umbraChunkShadowCasters() const { return umbraChunkShadowCasters_; }
+	void umbraDraw(Moo::DrawContext& drawContext);
+
+	// Resolves the chunk to draw from; falls back to the last
+	// known camera chunk when the camera is over an unloaded chunk.
+	Chunk* resolveDrawSeedChunk();
+	void umbraRepeat(Moo::DrawContext& drawContext);
 #endif
 
 	// add/del fringe chunks from this draw call
-	void addFringe( Chunk * pChunk );
-	void delFringe( Chunk * pChunk );
+	void addFringe(Chunk* pChunk);
+	void delFringe(Chunk* pChunk);
 
 	// add the given chunk pointer into the space, can be called from background thread.
-	void addChunkToSpace( Chunk * pChunk, ChunkSpaceID spaceID );
+	void addChunkToSpace(Chunk* pChunk, ChunkSpaceID spaceID);
 
 	// append the given chunk to the load list
 //	void loadChunkExplicitly( const BW::string & identifier, int spaceID );
-	void loadChunkExplicitly( const BW::string & identifier,
-		GeometryMapping * pMapping, bool isOverlapper = false );
+	void loadChunkExplicitly(const BW::string& identifier,
+		GeometryMapping* pMapping, bool isOverlapper = false);
 
-	Chunk* findChunkByName( const BW::string & identifier, 
-        GeometryMapping * pMapping, bool createIfNotFound = true );
-	Chunk* findChunkByGrid( int16 x, int16 z, GeometryMapping * pMapping );
-	Chunk* findOutdoorChunkByPosition( float x, float z, GeometryMapping * pMapping );
+	Chunk* findChunkByName(const BW::string& identifier,
+		GeometryMapping* pMapping, bool createIfNotFound = true);
+	Chunk* findChunkByGrid(int16 x, int16 z, GeometryMapping* pMapping);
+	Chunk* findOutdoorChunkByPosition(float x, float z, GeometryMapping* pMapping);
 
-	void loadChunkNow( Chunk* chunk );
-	void loadChunkNow( const BW::string & identifier, GeometryMapping * pMapping );
+	void loadChunkNow(Chunk* chunk);
+	void loadChunkNow(const BW::string& identifier, GeometryMapping* pMapping);
 
 	// accessors
-	ChunkSpacePtr space( ChunkSpaceID spaceID, bool createIfMissing = true );
+	ChunkSpacePtr space(ChunkSpaceID spaceID, bool createIfMissing = true);
 
 	ChunkSpacePtr cameraSpace() const;
-	Chunk * cameraChunk() const			{ return cameraChunk_; }
+	Chunk* cameraChunk() const { return cameraChunk_; }
 
-	void clearSpace( ChunkSpace * pSpace );
+	// The chunk the last draw pass traversed from. Equals cameraChunk() when
+	// the camera chunk is loaded, otherwise the last known camera chunk (or
+	// NULL). Use this instead of cameraChunk() in any code that runs during
+	// drawing and must not crash while the camera chunk is unloaded.
+	Chunk* drawSeedChunk() const { return pDrawSeedChunk_; }
 
-	bool busy() const			{ return !loadingChunks_.empty(); }
-	bool loadPending()			{ return busy() || findSeedTask_; }
+	void clearSpace(ChunkSpace* pSpace);
 
-	void enableScan()			{ scanEnabled_ = true; }
-	void disableScan()			{ scanEnabled_ = false; }
-	bool scanEnabled() const	{ return scanEnabled_; }
-	float maxLoadPath() const	{ return maxLoadPath_; }
-	float minUnloadPath() const	{ return minUnloadPath_; }
-	void maxLoadPath( float v )		{ maxLoadPath_ = v; }
-	void minUnloadPath( float v )	{ minUnloadPath_ = v; }
-	void maxUnloadChunks( unsigned int maxUnloadChunks)	{ maxUnloadChunks_ = maxUnloadChunks; }
-	void autoSetPathConstraints( float farPlane );
-	float closestUnloadedChunk( ChunkSpacePtr pSpace ) const;
+	bool busy() const { return !loadingChunks_.empty(); }
+	bool loadPending() { return busy() || findSeedTask_; }
 
-	void addSpace( ChunkSpace * pSpace );
-	void delSpace( ChunkSpace * pSpace );
+	void enableScan() { scanEnabled_ = true; }
+	void disableScan() { scanEnabled_ = false; }
+	bool scanEnabled() const { return scanEnabled_; }
+	float maxLoadPath() const { return maxLoadPath_; }
+	float minUnloadPath() const { return minUnloadPath_; }
+	void maxLoadPath(float v) { maxLoadPath_ = v; }
+	void minUnloadPath(float v) { minUnloadPath_ = v; }
+	void maxUnloadChunks(unsigned int maxUnloadChunks) { maxUnloadChunks_ = maxUnloadChunks; }
+	void autoSetPathConstraints(float farPlane);
+	float closestUnloadedChunk(ChunkSpacePtr pSpace) const;
 
-	static ChunkManager & instance();
+	void addSpace(ChunkSpace* pSpace);
+	void delSpace(ChunkSpace* pSpace);
 
-	static void drawTreeBranch( Chunk * pChunk, const BW::string & why );
+	static ChunkManager& instance();
+
+	static void drawTreeBranch(Chunk* pChunk, const BW::string& why);
 	static void drawTreeReturn();
-	static const BW::string & drawTree();
+	static const BW::string& drawTree();
 
 	static int      s_chunksTraversed;
 	static int      s_chunksVisible;
@@ -154,26 +164,26 @@ public:
 	void cancelLoadingChunks();
 
 	bool canLoadChunks() const { return canLoadChunks_; }
-	void canLoadChunks( bool canLoadChunks ) { canLoadChunks_ = canLoadChunks; }
+	void canLoadChunks(bool canLoadChunks) { canLoadChunks_ = canLoadChunks; }
 
-	void switchToSyncMode( bool sync );
-	void switchToSyncTerrainLoad( bool sync );
+	void switchToSyncMode(bool sync);
+	void switchToSyncTerrainLoad(bool sync);
 
-	void chunkDeleted( Chunk* pChunk );
-	void mappingCondemned( GeometryMapping* pMapping );
+	void chunkDeleted(Chunk* pChunk);
+	void mappingCondemned(GeometryMapping* pMapping);
 
 #if UMBRA_ENABLE
-	Umbra::OB::Camera*	getUmbraCamera() { return umbraCamera_; }
-	void			setUmbraCamera( Umbra::OB::Camera* pCamera ) { umbraCamera_ = pCamera; }
+	Umbra::OB::Camera* getUmbraCamera() { return umbraCamera_; }
+	void			setUmbraCamera(Umbra::OB::Camera* pCamera) { umbraCamera_ = pCamera; }
 
-	ChunkUmbra*			umbra() const { return umbra_; }
+	ChunkUmbra* umbra() const { return umbra_; }
 #endif	
 
 	Vector3 cameraNearPoint() const;
 	Vector3 cameraAxis(int axis) const;
 
 	/**
-	 * Allow debug_app to write this to "special" console. 
+	 * Allow debug_app to write this to "special" console.
 	 */
 	static BW::string s_specialConsoleString;
 
@@ -195,29 +205,30 @@ public:
 
 	/**
 	 * Start the loading timer and pass in the function to call
-	 * when loading has finished. The callback function takes the 
+	 * when loading has finished. The callback function takes the
 	 * const char* which is printed to the Python console.
 	 * waitForFinish skips waiting for loading to start and instead
 	 * starts waiting for the load to complete.
 	 */
 	void startTimeLoading(
-		void ( *callback )( const char* ),
-		bool waitForFinish = false );
+		void (*callback)(const char*),
+		bool waitForFinish = false);
 
 private:
 	bool		initted_;
 
-	typedef BW::map<ChunkSpaceID,ChunkSpace*>	ChunkSpaces;
+	typedef BW::map<ChunkSpaceID, ChunkSpace*>	ChunkSpaces;
 	ChunkSpaces			spaces_;
 
 	Matrix			cameraTrans_;
 	ChunkSpacePtr	pCameraSpace_;
-	Chunk			* cameraChunk_;
+	Chunk* cameraChunk_;
+	Chunk* pDrawSeedChunk_;
 
 	typedef BW::vector<Chunk*>		ChunkVector;
 	ChunkVector		loadingChunks_;
 	SmartPointer<FindSeedTask> findSeedTask_;
-	Chunk			* fringeHead_;
+	Chunk* fringeHead_;
 
 	typedef std::pair<BW::string, GeometryMapping*> StrMappingPair;
 	BW::set<StrMappingPair>	pendingChunks_;
@@ -228,18 +239,21 @@ private:
 	BW::set<Chunk*>				deletedChunks_;
 	SimpleMutex				pendingChunkPtrsMutex_;
 #if ENABLE_RELOAD_MODEL
-	FloraVisualManager*		floraVisualManager_;
+	FloraVisualManager* floraVisualManager_;
 #endif//RELOAD_MODEL_SUPPORT
 
 	bool scan();
 	bool blindpanic();
 	bool autoBootstrapSeedChunk();
 
-	void loadChunk( Chunk * pChunk, bool highPriority );
+	// Loads the chunk on the background task manager at the given priority
+	// (BgTaskManager::HIGH ... DEFAULT). Distance-based priority fixes near
+	// chunks binding after previously-queued far ones while moving.
+	void loadChunk(Chunk* pChunk, int priority);
 
 	struct PortalBounds
 	{
-		bool init( Portal2DRef portal, float minDepth );
+		bool init(Portal2DRef portal, float minDepth);
 		Vector2 min_;
 		Vector2 max_;
 		float	minDepth_;
@@ -248,10 +262,10 @@ private:
 
 	typedef BW::vector<PortalBounds> PortalBoundsVector;
 
-	void cullInsideChunks( Chunk* pChunk, ChunkBoundary::Portal *pPortal, Portal2DRef portal2D, 
-								  ChunkVector& chunks, PortalBoundsVector& outsidePortals, bool ignoreOutsidePortals );
+	void cullInsideChunks(Chunk* pChunk, ChunkBoundary::Portal* pPortal, Portal2DRef portal2D,
+		ChunkVector& chunks, PortalBoundsVector& outsidePortals, bool ignoreOutsidePortals);
 
-	void cullOutsideChunks( ChunkVector& chunks, const PortalBoundsVector& outsidePortals );
+	void cullOutsideChunks(ChunkVector& chunks, const PortalBoundsVector& outsidePortals);
 
 
 	void			checkCameraBoundaries();
@@ -273,8 +287,8 @@ private:
 	unsigned int	waitingForTerrainLoad_;
 #if UMBRA_ENABLE
 	// umbra
-	ChunkUmbra*			umbra_;
-	Umbra::OB::Camera*	umbraCamera_;
+	ChunkUmbra* umbra_;
+	Umbra::OB::Camera* umbraCamera_;
 	ChunkVector    umbraChunkShadowCasters_;
 	bool useLatentOcclusionQueries_;
 	ChunkVector		umbraInsideChunks_;
@@ -315,23 +329,23 @@ private:
 
 	uint64 loadingTimes_[NUM_TIMING_STATES];
 	// function to call when loading finishes
-	void ( *timeLoadingCallback_ )( const char* ); 
+	void (*timeLoadingCallback_)(const char*);
 };
 
 
 /**
- *  This class is used to turn on/off sync mode of the ChunkManager in a 
+ *  This class is used to turn on/off sync mode of the ChunkManager in a
  *  scoped fashion.
  */
 class ScopedSyncMode
 {
 public:
-    ScopedSyncMode();
-    ~ScopedSyncMode();
+	ScopedSyncMode();
+	~ScopedSyncMode();
 
 private:
-    ScopedSyncMode(const ScopedSyncMode &);             // not allowed
-    ScopedSyncMode &operator=(const ScopedSyncMode &);  // not allowed
+	ScopedSyncMode(const ScopedSyncMode&);             // not allowed
+	ScopedSyncMode& operator=(const ScopedSyncMode&);  // not allowed
 };
 
 BW_END_NAMESPACE
