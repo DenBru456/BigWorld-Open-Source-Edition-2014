@@ -1,1 +1,15 @@
 \build_*
+*.processed
+*.deps
+*.pyc
+*.fxo
+*.dds
+*.jpg
+game/bin/**/*.exe
+game/bin/**/*.dll
+game/bin/**/*.pdb
+*.log
+space.bin
+Browse.VC.db
+*.db
+*.cdata
