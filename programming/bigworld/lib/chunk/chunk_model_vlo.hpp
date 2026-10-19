@@ -62,6 +62,8 @@ protected:
 private:
 #ifndef MF_SERVER
 	Chunk *			drawnChunk_;
+	Chunk *			shadowDrawnChunk_;
+	unsigned int	shadowVPKey_;
 #endif // !MF_SERVER
 	Matrix			worldTransform_;
 

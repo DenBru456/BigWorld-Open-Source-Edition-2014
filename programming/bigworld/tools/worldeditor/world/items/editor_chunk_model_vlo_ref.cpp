@@ -265,6 +265,15 @@ bool EditorChunkModelVLORef::load( const BW::string & uid, Chunk * pChunk )
 	{	
 		uid_ = uid;
 		updateTransform( pChunk );
+#ifndef MF_SERVER
+		// Runtime-created refs (VLOManager::createReference during move /
+		// scale re-homing) must carry the casting flags exactly like the
+		// DataSection load path in ChunkVLO::load, otherwise the shadow pass
+		// post-filter (DynamicShadowObjectFilter) strips the ref from the
+		// caster set and the VLO shadow dies after any drag.
+		sceneObject_.flags().isCastingStaticShadow( true );
+		sceneObject_.flags().isCastingDynamicShadow( true );
+#endif // !MF_SERVER
 		return true;
 	}	
 

@@ -354,6 +354,15 @@ bool ChunkVLO::load( DataSectionPtr pSection, Chunk * pChunk )
 		{
 			MF_ASSERT( pObject_ != NULL );
 			pObject_->addItem( this );
+#ifndef MF_SERVER
+			// Mirrors ChunkModel::load: without these flags the shadow-pass
+			// cull (DynamicShadowObjectFilter in dynamic_shadow.cpp) strips
+			// the ref from the caster set, so the VLO never reaches the
+			// shadow atlas and its shadow dies on load.
+			const bool castsShadow = pSection->readBool( "castsShadow", true );
+			sceneObject_.flags().isCastingStaticShadow( castsShadow );
+			sceneObject_.flags().isCastingDynamicShadow( castsShadow );
+#endif // !MF_SERVER
 		}
 		else if (pObject_)
 		{
@@ -721,6 +730,26 @@ VeryLargeObject::ChunkItemList VeryLargeObject::chunkItems() const
 {
 	SimpleMutexHolder holder( s_itemListMutex );
 	return itemList_;
+}
+
+
+/**
+ *	Returns a snapshot of every unique VLO currently instantiated.
+ */
+BW::vector< VeryLargeObjectPtr > VeryLargeObject::allUniqueObjects()
+{
+	SimpleMutexHolder smh( s_uniqueObjectsMutex_ );
+	BW::vector< VeryLargeObjectPtr > objects;
+	UniqueObjectList::iterator it = s_uniqueObjects_.begin();
+	while (it != s_uniqueObjects_.end())
+	{
+		if (it->second.exists())
+		{
+			objects.push_back( it->second );
+		}
+		++it;
+	}
+	return objects;
 }
 
 

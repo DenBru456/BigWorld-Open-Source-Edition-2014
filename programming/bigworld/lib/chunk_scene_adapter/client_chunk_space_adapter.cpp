@@ -16,6 +16,7 @@
 #include "scene/draw_operation.hpp"
 
 #include "chunk/chunk_manager.hpp"
+#include "chunk/chunk_vlo.hpp"
 #include "chunk/chunk_light.hpp"
 #include "chunk/chunk_terrain.hpp"
 #include "chunk/chunk_overlapper.hpp"
@@ -642,6 +643,98 @@ public:
 				}
 			}
 		}
+
+#if !UMBRA_ENABLE
+		// Without Umbra, VLO casters are only reachable through the chunks
+		// that hold their references, and culling is per-chunk-box. The per
+		// split shadow volumes are small light-space boxes: whenever none of
+		// the ref chunk boxes intersects one, the whole caster is silently
+		// dropped from that split's tile and its shadow is sliced at the
+		// split boundary (an iso-distance circle around the camera). Cull
+		// VLO casters by their object bounds instead.
+		if (context.onlyShadowCasters() && context.includeStaticObjects())
+		{
+			BW::vector< VeryLargeObject* > includedVLOs;
+			for (uint32 typeIndex = 0; typeIndex < intersection.maxType();
+				++typeIndex)
+			{
+				const IntersectionSet::SceneObjectList& objs =
+					intersection.objectsOfType( typeIndex );
+				for (size_t oi = 0; oi < objs.size(); ++oi)
+				{
+					ChunkItem* pItem = objs[oi].getAs< ChunkItem >();
+					ChunkVLO* pFound = pItem ?
+						dynamic_cast< ChunkVLO* >( pItem ) : NULL;
+					if (pFound != NULL && pFound->object() != NULL)
+					{
+						includedVLOs.push_back( pFound->object().get() );
+					}
+				}
+			}
+
+			BW::vector< VeryLargeObjectPtr > vlos =
+				VeryLargeObject::allUniqueObjects();
+
+			for (size_t vi = 0; vi < vlos.size(); ++vi)
+			{
+				VeryLargeObject* pVLO = vlos[vi].get();
+				if (pVLO == NULL)
+				{
+					continue;
+				}
+
+				bool alreadyIncluded = false;
+				for (size_t ii = 0; ii < includedVLOs.size(); ++ii)
+				{
+					if (includedVLOs[ii] == pVLO)
+					{
+						alreadyIncluded = true;
+						break;
+					}
+				}
+				if (alreadyIncluded)
+				{
+					continue;
+				}
+
+				// Pick any reference in a loaded chunk; the object draws at
+				// most once per pass no matter which ref is used.
+				ChunkVLO* pRef = NULL;
+				VeryLargeObject::ChunkItemList items = pVLO->chunkItems();
+				for (VeryLargeObject::ChunkItemList::const_iterator ri =
+					items.begin(); ri != items.end(); ++ri)
+				{
+					if (*ri && (*ri)->chunk() != NULL)
+					{
+						pRef = *ri;
+						break;
+					}
+				}
+				if (pRef == NULL)
+				{
+					continue;
+				}
+
+				// World-space object bounds.
+				BoundingBox bb( pVLO->chunkBB( pRef->chunk() ) );
+				if (bb.insideOut())
+				{
+					continue;
+				}
+				bb.transformBy( pRef->chunk()->transform() );
+
+				if (!hull.intersects( bb ))
+				{
+					continue;
+				}
+
+				// Casting flags are checked by the caller's post-filter,
+				// matching the regular chunk path.
+				intersection.insert( pRef->sceneObject() );
+				++totalObjects;
+			}
+		}
+#endif // !UMBRA_ENABLE
 
 		return totalObjects;
 	}

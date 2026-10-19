@@ -36,6 +36,8 @@ ChunkModelVLO::ChunkModelVLO( const BW::string & uid )
 #else // MF_SERVER
 	, proxiedModel_( new ChunkModel() )
 	, drawnChunk_( NULL )
+	, shadowDrawnChunk_( NULL )
+	, shadowVPKey_( 0 )
 #endif // MF_SERVER
 {
 }
@@ -132,6 +134,13 @@ BoundingBox ChunkModelVLO::chunkBB( Chunk* pChunk )
 /*virtual */void ChunkModelVLO::tick( float dTime )
 {
 	drawnChunk_ = NULL;
+#ifndef MF_SERVER
+	// All shadow atlas splits render within one frame; the per-split latch
+	// is keyed on the viewport and must reset only per frame, like
+	// drawnChunk_.
+	shadowDrawnChunk_ = NULL;
+	shadowVPKey_ = 0;
+#endif // !MF_SERVER
 }
 
 
@@ -154,13 +163,41 @@ BoundingBox ChunkModelVLO::chunkBB( Chunk* pChunk )
 {
 	BW_GUARD;
 
-	if (drawnChunk_ != NULL &&
-		drawnChunk_ != pChunk)
+#ifndef MF_SERVER
+	if (drawContext.renderingPassType() == Moo::RENDERING_PASS_SHADOWS)
 	{
-		return;
+		// All atlas splits render within the same frame through the same
+		// shadow DrawContext, each split with its own atlas viewport
+		// (dynamic_shadow.cpp: X = mapSize * splitIndex). A per-frame
+		// latch would let only the first split draw the model and leave
+		// the other split tiles empty, slicing the shadow at split
+		// boundaries. De-duplicate refs per split instead, keyed on the
+		// current viewport.
+		DX::Viewport vp;
+		Moo::rc().getViewport( &vp );
+		const unsigned int vpKey = (vp.X << 16) ^ vp.Y;
+		if (shadowVPKey_ == vpKey)
+		{
+			if (shadowDrawnChunk_ != NULL &&
+				shadowDrawnChunk_ != pChunk)
+			{
+				return;
+			}
+		}
+		shadowVPKey_ = vpKey;
+		shadowDrawnChunk_ = pChunk;
 	}
-	bool chunkUpdated = drawnChunk_ == pChunk;
-	drawnChunk_ = pChunk;
+	else
+#endif // !MF_SERVER
+	{
+		if (drawnChunk_ != NULL &&
+			drawnChunk_ != pChunk)
+		{
+			return;
+		}
+		bool chunkUpdated = drawnChunk_ == pChunk;
+		drawnChunk_ = pChunk;
+	}
 
 	if (proxiedModel_)
 	{

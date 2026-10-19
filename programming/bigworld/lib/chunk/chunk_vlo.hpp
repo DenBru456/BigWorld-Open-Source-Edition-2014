@@ -1,6 +1,8 @@
 #ifndef CHUNK_VLO_HPP
 #define CHUNK_VLO_HPP
 
+#include "cstdmf/bw_vector.hpp"
+
 #include "math/vector2.hpp"
 #include "math/vector3.hpp"
 
@@ -82,6 +84,11 @@ public:
 	MetaData::MetaData& metaData() { return metaData_; }
 
 	ChunkItemList chunkItems() const;
+
+	/**
+	 *	Returns a snapshot of every unique VLO currently instantiated.
+	 */
+	static BW::vector< VeryLargeObjectPtr > allUniqueObjects();
 
 	virtual bool visibleInside() const { return true; }
 
