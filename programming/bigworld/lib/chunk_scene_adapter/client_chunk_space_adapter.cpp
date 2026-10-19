@@ -45,234 +45,234 @@ BW_BEGIN_NAMESPACE
 namespace ChunkItemOps
 {
 
-class ChunkItemScriptObjectQuery : 
-	public IScriptObjectQueryOperationTypeHandler
-{
-public:
-	virtual ScriptObject doGetScriptObject( const SceneObject & object )
+	class ChunkItemScriptObjectQuery :
+		public IScriptObjectQueryOperationTypeHandler
 	{
-		ChunkItem* pItem = object.getAs<ChunkItem>();
-		MF_ASSERT( pItem );
-
-		if (pItem && (pItem->userFlags() & 
-			ChunkObstacle::DYNAMIC_OBSTACLE_USER_FLAG))
+	public:
+		virtual ScriptObject doGetScriptObject(const SceneObject& object)
 		{
-			ChunkEmbodiment * pCE = static_cast<ChunkEmbodiment*>(pItem);
-			PyObject * pObj = &*(pCE->pPyObject());
-			return ScriptObject(pObj);
-		}
-		else
-		{
-			return ScriptObject();
-		}
-	}
-};
+			ChunkItem* pItem = object.getAs<ChunkItem>();
+			MF_ASSERT(pItem);
 
-class ChunkItemDrawOperation : 
-	public IDrawOperationTypeHandler
-{
-public:
-	virtual void doDraw( const SceneDrawContext & drawContext,
-		const SceneObject * pObjects, size_t count )
+			if (pItem && (pItem->userFlags() &
+				ChunkObstacle::DYNAMIC_OBSTACLE_USER_FLAG))
+			{
+				ChunkEmbodiment* pCE = static_cast<ChunkEmbodiment*>(pItem);
+				PyObject* pObj = &*(pCE->pPyObject());
+				return ScriptObject(pObj);
+			}
+			else
+			{
+				return ScriptObject();
+			}
+		}
+	};
+
+	class ChunkItemDrawOperation :
+		public IDrawOperationTypeHandler
 	{
-		const Matrix& lodCameraView = drawContext.lodCameraView();
-		Matrix lodInvView;
-		lodInvView.invert(lodCameraView);
+	public:
+		virtual void doDraw(const SceneDrawContext& drawContext,
+			const SceneObject* pObjects, size_t count)
+		{
+			const Matrix& lodCameraView = drawContext.lodCameraView();
+			Matrix lodInvView;
+			lodInvView.invert(lodCameraView);
 
-		ClientSpacePtr cameraSpace = DeprecatedSpaceHelpers::cameraSpace();
-		MF_ASSERT( cameraSpace != NULL );
+			ClientSpacePtr cameraSpace = DeprecatedSpaceHelpers::cameraSpace();
+			MF_ASSERT(cameraSpace != NULL);
 #if SPEEDTREE_SUPPORT
-		speedtree::SpeedTreeRenderer::beginFrame( &cameraSpace->enviro(),
-			drawContext.drawContext().renderingPassType(),
-			lodInvView);
+			speedtree::SpeedTreeRenderer::beginFrame(&cameraSpace->enviro(),
+				drawContext.drawContext().renderingPassType(),
+				lodInvView);
 #endif
-		for (size_t i = 0; i < count; ++i)
-		{
-			ChunkItem* pItem = pObjects[i].getAs<ChunkItem>();
-			MF_ASSERT( pItem );
-
-			if (!pItem->chunk())
+			for (size_t i = 0; i < count; ++i)
 			{
-				continue;
-			}
+				ChunkItem* pItem = pObjects[i].getAs<ChunkItem>();
+				MF_ASSERT(pItem);
 
-			Moo::rc().world( pItem->chunk()->transform() );
-
-			pItem->draw( drawContext.drawContext() );
-		}
-#if SPEEDTREE_SUPPORT
-		speedtree::SpeedTreeRenderer::endFrame();
-#endif
-	}
-};
-
-class ChunkItemTextureStreamingOperation : 
-	public Moo::ITextureStreamingObjectOperationTypeHandler
-{
-public:
-	virtual bool registerTextureUsage( 
-		const SceneObject& object,
-		Moo::ModelTextureUsageGroup& usageGroup )
-	{
-		ChunkItem* pItem = object.getAs<ChunkItem>();
-		MF_ASSERT( pItem );
-
-		// TODO: Ideally this pattern would be re-implemented
-		// using a visitor pattern available on ChunkItem.
-		// No such framework is available yet though.
-		{
-			ChunkModel* pModel = 
-				dynamic_cast< ChunkModel* >( pItem );
-			if (pModel)
-			{
-				updateModelBounds( pModel, usageGroup );
-				pModel->generateTextureUsage( usageGroup );
-				return true;
-			}
-		}
-		{
-			ChunkTree* pTree = 
-				dynamic_cast< ChunkTree* >( pItem );
-			if (pTree)
-			{
-				updateTreeBounds( pTree, usageGroup );
-				pTree->generateTextureUsage( usageGroup );
-				return true;
-			}
-		}
-		{
-			ChunkAttachment* pAttachment = 
-				dynamic_cast< ChunkAttachment* >( pItem );
-			if (pAttachment)
-			{
-				if (!updateAttachmentBounds( pAttachment, usageGroup ))
+				if (!pItem->chunk())
 				{
-					// No valid texture usages found
-					return false;
+					continue;
 				}
-				pAttachment->generateTextureUsage( usageGroup );
-				return true;
+
+				Moo::rc().world(pItem->chunk()->transform());
+
+				pItem->draw(drawContext.drawContext());
 			}
+#if SPEEDTREE_SUPPORT
+			speedtree::SpeedTreeRenderer::endFrame();
+#endif
 		}
+	};
+
+	class ChunkItemTextureStreamingOperation :
+		public Moo::ITextureStreamingObjectOperationTypeHandler
+	{
+	public:
+		virtual bool registerTextureUsage(
+			const SceneObject& object,
+			Moo::ModelTextureUsageGroup& usageGroup)
 		{
-			ChunkDynamicObstacle* pObstacle = 
-				dynamic_cast< ChunkDynamicObstacle* >( pItem );
-			if (pObstacle)
+			ChunkItem* pItem = object.getAs<ChunkItem>();
+			MF_ASSERT(pItem);
+
+			// TODO: Ideally this pattern would be re-implemented
+			// using a visitor pattern available on ChunkItem.
+			// No such framework is available yet though.
 			{
-				updateObstacleBounds( pObstacle, usageGroup );
-				pObstacle->pObstacle()->superModel()->generateTextureUsage( usageGroup );
-				return true;
+				ChunkModel* pModel =
+					dynamic_cast<ChunkModel*>(pItem);
+				if (pModel)
+				{
+					updateModelBounds(pModel, usageGroup);
+					pModel->generateTextureUsage(usageGroup);
+					return true;
+				}
 			}
-		}
-
-		return false;
-	}
-
-	virtual bool updateTextureUsage( 
-		const SceneObject& object,
-		Moo::ModelTextureUsageGroup& usageGroup )
-	{
-		ChunkItem* pItem = object.getAs<ChunkItem>();
-		MF_ASSERT( pItem );
-
-		{
-			ChunkAttachment* pAttachment = 
-				dynamic_cast< ChunkAttachment* >( pItem );
-			if (pAttachment)
 			{
-				return updateAttachmentBounds( pAttachment, usageGroup );
+				ChunkTree* pTree =
+					dynamic_cast<ChunkTree*>(pItem);
+				if (pTree)
+				{
+					updateTreeBounds(pTree, usageGroup);
+					pTree->generateTextureUsage(usageGroup);
+					return true;
+				}
 			}
-		}
-		{
-			ChunkDynamicObstacle* pObstacle = 
-				dynamic_cast< ChunkDynamicObstacle* >( pItem );
-			if (pObstacle)
 			{
-				updateObstacleBounds( pObstacle, usageGroup );
-				return true;
+				ChunkAttachment* pAttachment =
+					dynamic_cast<ChunkAttachment*>(pItem);
+				if (pAttachment)
+				{
+					if (!updateAttachmentBounds(pAttachment, usageGroup))
+					{
+						// No valid texture usages found
+						return false;
+					}
+					pAttachment->generateTextureUsage(usageGroup);
+					return true;
+				}
 			}
-		}
+			{
+				ChunkDynamicObstacle* pObstacle =
+					dynamic_cast<ChunkDynamicObstacle*>(pItem);
+				if (pObstacle)
+				{
+					updateObstacleBounds(pObstacle, usageGroup);
+					pObstacle->pObstacle()->superModel()->generateTextureUsage(usageGroup);
+					return true;
+				}
+			}
 
-		return false;
-	}
-
-	void updateModelBounds( ChunkModel* pModel,
-		Moo::ModelTextureUsageGroup& usageGroup )
-	{
-		Matrix worldXform = pModel->worldTransform();
-		BoundingBox worldBB = pModel->localBB();
-		worldBB.transformBy( worldXform );
-
-		usageGroup.setWorldScale_FromTransform( worldXform );
-		usageGroup.setWorldBoundSphere( Sphere( worldBB ) );
-	}
-
-	void updateTreeBounds( ChunkTree* pTree,
-		Moo::ModelTextureUsageGroup& usageGroup  )
-	{
-		Matrix worldXform = pTree->chunk()->transform();
-		worldXform.preMultiply( pTree->transform() );
-		BoundingBox worldBB;
-		pTree->localBB( worldBB );
-		worldBB.transformBy( worldXform );
-
-		usageGroup.setWorldScale_FromTransform( worldXform );
-		usageGroup.setWorldBoundSphere( Sphere( worldBB ) );
-	}
-
-	bool updateAttachmentBounds( ChunkAttachment* pAttachment,
-		Moo::ModelTextureUsageGroup& usageGroup  )
-	{
-		Matrix worldXform = pAttachment->worldTransform();
-		BoundingBox textureUsageBB;
-		pAttachment->pAttachment()->textureUsageWorldBox( textureUsageBB, worldXform );
-
-		if (textureUsageBB.insideOut())
-		{
 			return false;
 		}
 
-		usageGroup.setWorldScale_FromTransform( worldXform );
-		usageGroup.setWorldBoundSphere( Sphere( textureUsageBB ) );
+		virtual bool updateTextureUsage(
+			const SceneObject& object,
+			Moo::ModelTextureUsageGroup& usageGroup)
+		{
+			ChunkItem* pItem = object.getAs<ChunkItem>();
+			MF_ASSERT(pItem);
 
-		return true;
-	}
+			{
+				ChunkAttachment* pAttachment =
+					dynamic_cast<ChunkAttachment*>(pItem);
+				if (pAttachment)
+				{
+					return updateAttachmentBounds(pAttachment, usageGroup);
+				}
+			}
+			{
+				ChunkDynamicObstacle* pObstacle =
+					dynamic_cast<ChunkDynamicObstacle*>(pItem);
+				if (pObstacle)
+				{
+					updateObstacleBounds(pObstacle, usageGroup);
+					return true;
+				}
+			}
 
-	void updateObstacleBounds( ChunkDynamicObstacle* pObstacle,
-		Moo::ModelTextureUsageGroup& usageGroup  )
+			return false;
+		}
+
+		void updateModelBounds(ChunkModel* pModel,
+			Moo::ModelTextureUsageGroup& usageGroup)
+		{
+			Matrix worldXform = pModel->worldTransform();
+			BoundingBox worldBB = pModel->localBB();
+			worldBB.transformBy(worldXform);
+
+			usageGroup.setWorldScale_FromTransform(worldXform);
+			usageGroup.setWorldBoundSphere(Sphere(worldBB));
+		}
+
+		void updateTreeBounds(ChunkTree* pTree,
+			Moo::ModelTextureUsageGroup& usageGroup)
+		{
+			Matrix worldXform = pTree->chunk()->transform();
+			worldXform.preMultiply(pTree->transform());
+			BoundingBox worldBB;
+			pTree->localBB(worldBB);
+			worldBB.transformBy(worldXform);
+
+			usageGroup.setWorldScale_FromTransform(worldXform);
+			usageGroup.setWorldBoundSphere(Sphere(worldBB));
+		}
+
+		bool updateAttachmentBounds(ChunkAttachment* pAttachment,
+			Moo::ModelTextureUsageGroup& usageGroup)
+		{
+			Matrix worldXform = pAttachment->worldTransform();
+			BoundingBox textureUsageBB;
+			pAttachment->pAttachment()->textureUsageWorldBox(textureUsageBB, worldXform);
+
+			if (textureUsageBB.insideOut())
+			{
+				return false;
+			}
+
+			usageGroup.setWorldScale_FromTransform(worldXform);
+			usageGroup.setWorldBoundSphere(Sphere(textureUsageBB));
+
+			return true;
+		}
+
+		void updateObstacleBounds(ChunkDynamicObstacle* pObstacle,
+			Moo::ModelTextureUsageGroup& usageGroup)
+		{
+			Matrix worldXform = pObstacle->worldTransform();
+			BoundingBox textureUsageBB;
+			pObstacle->worldBoundingBox(textureUsageBB, worldXform);
+
+			usageGroup.setWorldScale_FromTransform(worldXform);
+			usageGroup.setWorldBoundSphere(Sphere(textureUsageBB));
+		}
+	};
+
+	void registerHandlers(Scene& scene)
 	{
-		Matrix worldXform = pObstacle->worldTransform();
-		BoundingBox textureUsageBB;
-		pObstacle->worldBoundingBox( textureUsageBB, worldXform );
+		ScriptObjectQueryOperation* pScriptObjectOp =
+			scene.getObjectOperation<ScriptObjectQueryOperation>();
+		MF_ASSERT(pScriptObjectOp != NULL);
 
-		usageGroup.setWorldScale_FromTransform( worldXform );
-		usageGroup.setWorldBoundSphere( Sphere( textureUsageBB ) );
+		// Must add a handler for chunk item to fetch the script objects as well.
+		// This is because collisions just return ChunkItems, and thus callers 
+		// only really ever understand chunk items.
+		pScriptObjectOp->addHandler<ChunkItem, ChunkItemScriptObjectQuery>();
+
+		DrawOperation* pDrawOp =
+			scene.getObjectOperation<DrawOperation>();
+		MF_ASSERT(pDrawOp != NULL);
+
+		pDrawOp->addHandler<ChunkItem, ChunkItemDrawOperation>();
+
+		Moo::TextureStreamingObjectOperation* pTexStreamOp =
+			scene.getObjectOperation<Moo::TextureStreamingObjectOperation>();
+		MF_ASSERT(pTexStreamOp != NULL);
+
+		pTexStreamOp->addHandler<ChunkItem, ChunkItemTextureStreamingOperation>();
 	}
-};
-
-void registerHandlers( Scene& scene )
-{
-	ScriptObjectQueryOperation* pScriptObjectOp =
-		scene.getObjectOperation<ScriptObjectQueryOperation>();
-	MF_ASSERT( pScriptObjectOp != NULL );
-
-	// Must add a handler for chunk item to fetch the script objects as well.
-	// This is because collisions just return ChunkItems, and thus callers 
-	// only really ever understand chunk items.
-	pScriptObjectOp->addHandler<ChunkItem, ChunkItemScriptObjectQuery>();
-
-	DrawOperation* pDrawOp = 
-		scene.getObjectOperation<DrawOperation>();
-	MF_ASSERT( pDrawOp != NULL );
-
-	pDrawOp->addHandler<ChunkItem, ChunkItemDrawOperation>();
-
-	Moo::TextureStreamingObjectOperation* pTexStreamOp = 
-		scene.getObjectOperation<Moo::TextureStreamingObjectOperation>();
-	MF_ASSERT( pTexStreamOp != NULL );
-
-	pTexStreamOp->addHandler<ChunkItem, ChunkItemTextureStreamingOperation>();
-}
 
 } // End namespace ChunkItemOps
 
@@ -281,22 +281,22 @@ ClientChunkSpaceFactory::ClientChunkSpaceFactory()
 
 }
 
-ClientSpace * ClientChunkSpaceFactory::createSpace( SpaceID spaceID ) const
+ClientSpace* ClientChunkSpaceFactory::createSpace(SpaceID spaceID) const
 {
-	ChunkSpace* pChunkSpace = new ChunkSpace( spaceID );
-	return new ClientChunkSpaceAdapter( pChunkSpace );
+	ChunkSpace* pChunkSpace = new ChunkSpace(spaceID);
+	return new ClientChunkSpaceAdapter(pChunkSpace);
 }
 
 
-IEntityEmbodimentPtr ClientChunkSpaceFactory::createEntityEmbodiment( 
-	const ScriptObject& object ) const
+IEntityEmbodimentPtr ClientChunkSpaceFactory::createEntityEmbodiment(
+	const ScriptObject& object) const
 {
 	ChunkEmbodimentPtr pNewEmbodiment;
-	int ret = Script::setData( object.get(), pNewEmbodiment, "Entity.model" );
+	int ret = Script::setData(object.get(), pNewEmbodiment, "Entity.model");
 
 	if (ret == 0 && pNewEmbodiment)
 	{
-		return new ClientChunkSpaceAdapter::EntityEmbodiment( pNewEmbodiment );
+		return new ClientChunkSpaceAdapter::EntityEmbodiment(pNewEmbodiment);
 	}
 	else
 	{
@@ -305,25 +305,25 @@ IEntityEmbodimentPtr ClientChunkSpaceFactory::createEntityEmbodiment(
 }
 
 
-IOmniLightEmbodiment * ClientChunkSpaceFactory::createOmniLightEmbodiment(
-	const PyOmniLight & pyOmniLight ) const
+IOmniLightEmbodiment* ClientChunkSpaceFactory::createOmniLightEmbodiment(
+	const PyOmniLight& pyOmniLight) const
 {
-	return new ChunkOmniLightEmbodiment( pyOmniLight );
+	return new ChunkOmniLightEmbodiment(pyOmniLight);
 }
 
 
-ISpotLightEmbodiment * ClientChunkSpaceFactory::createSpotLightEmbodiment(
-	const PySpotLight & pySpotLight ) const
+ISpotLightEmbodiment* ClientChunkSpaceFactory::createSpotLightEmbodiment(
+	const PySpotLight& pySpotLight) const
 {
-	return new ChunkSpotLightEmbodiment( pySpotLight );
+	return new ChunkSpotLightEmbodiment(pySpotLight);
 }
 
 
-ChunkSpacePtr ClientChunkSpaceAdapter::getChunkSpace( const ClientSpacePtr& space )
+ChunkSpacePtr ClientChunkSpaceAdapter::getChunkSpace(const ClientSpacePtr& space)
 {
 	if (space)
 	{
-		return ChunkManager::instance().space( space->id(), false );
+		return ChunkManager::instance().space(space->id(), false);
 	}
 	else
 	{
@@ -332,11 +332,11 @@ ChunkSpacePtr ClientChunkSpaceAdapter::getChunkSpace( const ClientSpacePtr& spac
 }
 
 
-ClientSpacePtr ClientChunkSpaceAdapter::getSpace( const ChunkSpacePtr& space )
+ClientSpacePtr ClientChunkSpaceAdapter::getSpace(const ChunkSpacePtr& space)
 {
 	if (space)
 	{
-		return SpaceManager::instance().space( space->id() );
+		return SpaceManager::instance().space(space->id());
 	}
 	else
 	{
@@ -349,60 +349,60 @@ void ClientChunkSpaceAdapter::init()
 	// If no factory has been set, let's default to chunk spaces.
 	if (SpaceManager::instance().factory() == NULL)
 	{
-		SpaceManager::instance().factory( new ClientChunkSpaceFactory() );
-		RompCollider::setDefaultCreationFuction( 
-			&ChunkRompCollider::create );
+		SpaceManager::instance().factory(new ClientChunkSpaceFactory());
+		RompCollider::setDefaultCreationFuction(
+			&ChunkRompCollider::create);
 	}
 }
 
 
-ClientChunkSpaceAdapter::ClientChunkSpaceAdapter( ChunkSpace * pChunkSpace ) :	
-	ClientSpace( pChunkSpace->id() ),
-	provider_( pChunkSpace ),
-	pChunkSpace_( pChunkSpace )
+ClientChunkSpaceAdapter::ClientChunkSpaceAdapter(ChunkSpace* pChunkSpace) :
+	ClientSpace(pChunkSpace->id()),
+	provider_(pChunkSpace),
+	pChunkSpace_(pChunkSpace)
 {
-	EntityEmbodiment::registerHandlers( this->scene() );
-	ChunkItemOps::registerHandlers( this->scene() );
-	MF_ASSERT( pChunkSpace_ );
-	pChunkSpace_->setChunkSceneProvider( &provider_ );
-	scene().addProvider( &provider_ );
+	EntityEmbodiment::registerHandlers(this->scene());
+	ChunkItemOps::registerHandlers(this->scene());
+	MF_ASSERT(pChunkSpace_);
+	pChunkSpace_->setChunkSceneProvider(&provider_);
+	scene().addProvider(&provider_);
 }
 
 
 ClientChunkSpaceAdapter::~ClientChunkSpaceAdapter()
 {
-	pChunkSpace_->setChunkSceneProvider( NULL );
-	scene().removeProvider( &provider_ );
+	pChunkSpace_->setChunkSceneProvider(NULL);
+	scene().removeProvider(&provider_);
 }
 
-bool ClientChunkSpaceAdapter::doAddMapping( GeometryMappingID mappingID,
-				  Matrix& transform, const BW::string & path, 
-				  const SmartPointer< DataSection >& pSettings )
+bool ClientChunkSpaceAdapter::doAddMapping(GeometryMappingID mappingID,
+	Matrix& transform, const BW::string& path,
+	const SmartPointer< DataSection >& pSettings)
 {
-	return pChunkSpace_->addMapping( 
-		*(SpaceEntryID*)&mappingID, 
-		transform, path, pSettings ) != NULL;
+	return pChunkSpace_->addMapping(
+		*(SpaceEntryID*)&mappingID,
+		transform, path, pSettings) != NULL;
 }
 
 
-void ClientChunkSpaceAdapter::doDelMapping( GeometryMappingID mappingID )
+void ClientChunkSpaceAdapter::doDelMapping(GeometryMappingID mappingID)
 {
-	return pChunkSpace_->delMapping( *(SpaceEntryID*)&mappingID );
+	return pChunkSpace_->delMapping(*(SpaceEntryID*)&mappingID);
 }
 
 
-float ClientChunkSpaceAdapter::doGetLoadStatus( float distance ) const
+float ClientChunkSpaceAdapter::doGetLoadStatus(float distance) const
 {
 	if (distance < 0.f)
 	{
 		distance = Moo::rc().camera().farPlane();
 	}
-	float chunkDist = ChunkManager::instance().closestUnloadedChunk( pChunkSpace_ );
+	float chunkDist = ChunkManager::instance().closestUnloadedChunk(pChunkSpace_);
 	float streamDist = Terrain::BasicTerrainLodController::instance().closestUnstreamedBlock();
 
-	float dist = std::min( chunkDist, streamDist );
+	float dist = std::min(chunkDist, streamDist);
 
-	return std::min( 1.f, dist / distance );
+	return std::min(1.f, dist / distance);
 }
 
 
@@ -412,51 +412,51 @@ AABB ClientChunkSpaceAdapter::doGetBounds() const
 }
 
 
-Vector3 ClientChunkSpaceAdapter::doClampToBounds( const Vector3& position ) const
+Vector3 ClientChunkSpaceAdapter::doClampToBounds(const Vector3& position) const
 {
 	Vector3 result = position;
 
-	result.x = Math::clamp( pChunkSpace_->minCoordX() + 0.05f,
+	result.x = Math::clamp(pChunkSpace_->minCoordX() + 0.05f,
 		result.x,
-		pChunkSpace_->maxCoordX() - 0.05f );
-	result.z = Math::clamp( pChunkSpace_->minCoordZ() + 0.05f,
+		pChunkSpace_->maxCoordX() - 0.05f);
+	result.z = Math::clamp(pChunkSpace_->minCoordZ() + 0.05f,
 		result.z,
-		pChunkSpace_->maxCoordZ() - 0.05f );
+		pChunkSpace_->maxCoordZ() - 0.05f);
 
 	return result;
 }
 
 
-float ClientChunkSpaceAdapter::doCollide( const Vector3 & start, 
-	const Vector3 & end,
-	CollisionCallback & cc ) const
+float ClientChunkSpaceAdapter::doCollide(const Vector3& start,
+	const Vector3& end,
+	CollisionCallback& cc) const
 {
-	return pChunkSpace_->collide( start, end, cc );
+	return pChunkSpace_->collide(start, end, cc);
 }
 
 
-float ClientChunkSpaceAdapter::doCollide( const WorldTriangle & triangle, 
-	const Vector3 & translation, 
-	CollisionCallback & cc ) const
+float ClientChunkSpaceAdapter::doCollide(const WorldTriangle& triangle,
+	const Vector3& translation,
+	CollisionCallback& cc) const
 {
-	return pChunkSpace_->collide( triangle, translation, cc );
+	return pChunkSpace_->collide(triangle, translation, cc);
 }
 
 
-float ClientChunkSpaceAdapter::doFindTerrainHeight( const Vector3 & position ) const
+float ClientChunkSpaceAdapter::doFindTerrainHeight(const Vector3& position) const
 {
 	ClientSpacePtr pSpace;
-	ChunkSpace::Column * csCol;
-	Chunk * oCh;
-	ChunkTerrain * pTer;
+	ChunkSpace::Column* csCol;
+	Chunk* oCh;
+	ChunkTerrain* pTer;
 
-	if ((csCol = pChunkSpace_->column( position, false )) != NULL &&
+	if ((csCol = pChunkSpace_->column(position, false)) != NULL &&
 		(oCh = csCol->pOutsideChunk()) != NULL &&
-		(pTer = ChunkTerrainCache::instance( *oCh ).pTerrain()) != NULL)
+		(pTer = ChunkTerrainCache::instance(*oCh).pTerrain()) != NULL)
 	{
-		const Matrix & trInv = oCh->transformInverse();
-		Vector3 terPos = trInv.applyPoint( position );
-		float terrainHeight = pTer->block()->heightAt( terPos[0], terPos[2] ) -
+		const Matrix& trInv = oCh->transformInverse();
+		Vector3 terPos = trInv.applyPoint(position);
+		float terrainHeight = pTer->block()->heightAt(terPos[0], terPos[2]) -
 			trInv.applyToOrigin()[1];
 		return terrainHeight;
 	}
@@ -469,57 +469,57 @@ float ClientChunkSpaceAdapter::doFindTerrainHeight( const Vector3 & position ) c
 
 void ClientChunkSpaceAdapter::doClear()
 {
-	return ChunkManager::instance().clearSpace( pChunkSpace_.get() );
+	return ChunkManager::instance().clearSpace(pChunkSpace_.get());
 }
 
-EnviroMinder & ClientChunkSpaceAdapter::doEnviro()
+EnviroMinder& ClientChunkSpaceAdapter::doEnviro()
 {
 	return pChunkSpace_->enviro();
 }
 
 
-void ClientChunkSpaceAdapter::doTick( float dTime )
+void ClientChunkSpaceAdapter::doTick(float dTime)
 {
 	// Do nothing. Chunks tick via ChunkManager::tick.
 }
 
 
-void ClientChunkSpaceAdapter::doUpdateAnimations( float /* dTime */ )
+void ClientChunkSpaceAdapter::doUpdateAnimations(float /* dTime */)
 {
 	pChunkSpace_->updateAnimations();
 	pChunkSpace_->enviro().updateAnimations();
 }
 
 
-const Moo::DirectionalLightPtr & ClientChunkSpaceAdapter::doGetSunLight() const
+const Moo::DirectionalLightPtr& ClientChunkSpaceAdapter::doGetSunLight() const
 {
 	return pChunkSpace_->sunLight();
 }
 
 
-const Moo::Colour & ClientChunkSpaceAdapter::doGetAmbientLight() const
+const Moo::Colour& ClientChunkSpaceAdapter::doGetAmbientLight() const
 {
 	return pChunkSpace_->ambientLight();
 }
 
-const Moo::LightContainerPtr & ClientChunkSpaceAdapter::doGetLights() const
+const Moo::LightContainerPtr& ClientChunkSpaceAdapter::doGetLights() const
 {
 	return pChunkSpace_->lights();
 }
 
 
-bool ClientChunkSpaceAdapter::doGetLightsInArea( const AABB& worldBB, 
-	Moo::LightContainerPtr* allLights )
+bool ClientChunkSpaceAdapter::doGetLightsInArea(const AABB& worldBB,
+	Moo::LightContainerPtr* allLights)
 {
-	Chunk * pChunk = pChunkSpace_->findChunkFromPoint( worldBB.centre() );
+	Chunk* pChunk = pChunkSpace_->findChunkFromPoint(worldBB.centre());
 
 	if (pChunk == NULL)
 	{
 		return false;
 	}
 
-	ChunkLightCache & clc = ChunkLightCache::instance( *pChunk );
-	
+	ChunkLightCache& clc = ChunkLightCache::instance(*pChunk);
+
 	clc.update();
 	if (allLights)
 	{
@@ -530,19 +530,19 @@ bool ClientChunkSpaceAdapter::doGetLightsInArea( const AABB& worldBB,
 }
 
 
-ClientChunkSpaceAdapter::SceneProvider::SceneProvider(ChunkSpace* pChunkSpace) : 
-	pChunkSpace_( pChunkSpace )
+ClientChunkSpaceAdapter::SceneProvider::SceneProvider(ChunkSpace* pChunkSpace) :
+	pChunkSpace_(pChunkSpace)
 {
 
 }
 
 
-bool ClientChunkSpaceAdapter::SceneProvider::setClosestPortalState( 
-	const Vector3 & point,
-	bool isPermissive, WorldTriangle::Flags collisionFlags )
+bool ClientChunkSpaceAdapter::SceneProvider::setClosestPortalState(
+	const Vector3& point,
+	bool isPermissive, WorldTriangle::Flags collisionFlags)
 {
-	return pChunkSpace_->setClosestPortalState( 
-		point, isPermissive, collisionFlags );
+	return pChunkSpace_->setClosestPortalState(
+		point, isPermissive, collisionFlags);
 }
 
 
@@ -551,46 +551,46 @@ class ClientChunkSpaceAdapter::SceneProvider::Detail
 public:
 #if UMBRA_ENABLE
 	template <typename IntersectionTest>
-	static uint32 intersectUmbraCasters( const SceneProvider* pThis,
+	static uint32 intersectUmbraCasters(const SceneProvider* pThis,
 		IntersectionTest& test,
 		const SceneIntersectContext& context,
-		const ConvexHull& hull, 
-		IntersectionSet & intersection )
+		const ConvexHull& hull,
+		IntersectionSet& intersection)
 	{
 		BW_GUARD;
-		const BW::vector<Chunk*>& allChunk = 
+		const BW::vector<Chunk*>& allChunk =
 			ChunkManager::instance().umbraChunkShadowCasters();
 
 		uint32 totalItems = 0;
 		BW::vector<Chunk*>::const_iterator chunkIt = allChunk.begin();
-		for ( ; chunkIt != allChunk.end(); ++chunkIt )
+		for (; chunkIt != allChunk.end(); ++chunkIt)
 		{
 			Chunk& c = **chunkIt;
 
-			if (!c.isBound() ) 
+			if (!c.isBound())
 			{
 				continue;
 			}
 
 			BoundingBox bb = c.visibilityBox();
-			if (!hull.intersects( bb ))
+			if (!hull.intersects(bb))
 			{
 				continue;
 			}
 
-			totalItems += cullItems( test, c.shadowItems(), c.transform(), 
-				hull, intersection );
+			totalItems += cullItems(test, c.shadowItems(), c.transform(),
+				hull, intersection);
 		}
 		return totalItems;
 	}
 #endif // UMBRA_ENABLE
 
 	template <typename IntersectionTest>
-	static uint32 intersect( const SceneProvider* pThis,
+	static uint32 intersect(const SceneProvider* pThis,
 		IntersectionTest& test,
 		const SceneIntersectContext& context,
-		const ConvexHull& hull, 
-		IntersectionSet & intersection )
+		const ConvexHull& hull,
+		IntersectionSet& intersection)
 	{
 		GridChunkMap& gcm = pThis->pChunkSpace_->gridChunks();
 
@@ -600,17 +600,17 @@ public:
 		int max_y = pThis->pChunkSpace_->maxGridY();
 
 		uint32 totalObjects = 0;
-		for (int i = min_x; i <= max_x; ++i ) 
+		for (int i = min_x; i <= max_x; ++i)
 		{
-			for (int j = min_y; j <= max_y; ++j ) 
+			for (int j = min_y; j <= max_y; ++j)
 			{
-				BW::vector<Chunk*>& chunkList = gcm[ std::make_pair(i, j) ];
+				BW::vector<Chunk*>& chunkList = gcm[std::make_pair(i, j)];
 
-				for (size_t ci = 0; ci < chunkList.size(); ++ci ) 
+				for (size_t ci = 0; ci < chunkList.size(); ++ci)
 				{
 					Chunk& c = *chunkList[ci];
 
-					if (!c.isBound() ) 
+					if (!c.isBound())
 					{
 						continue;
 					}
@@ -622,22 +622,22 @@ public:
 						continue;
 					}
 
-					if (!hull.intersects( bb ))
+					if (!hull.intersects(bb))
 					{
 						continue;
 					}
 
 					if (context.includeStaticObjects())
 					{
-						totalObjects += Detail::cullItems( test,
-							c.selfItems(), c.transform(), 
-							hull, intersection );
+						totalObjects += Detail::cullItems(test,
+							c.selfItems(), c.transform(),
+							hull, intersection);
 					}
 					if (context.includeDynamicObjects())
 					{
-						totalObjects += Detail::cullItems( test,
-							c.dynoItems(), c.transform(), 
-							hull, intersection );
+						totalObjects += Detail::cullItems(test,
+							c.dynoItems(), c.transform(),
+							hull, intersection);
 					}
 				}
 			}
@@ -647,22 +647,22 @@ public:
 	}
 
 	template <typename IntersectionTest>
-	static uint32 cullItems( IntersectionTest& test,
-		const Chunk::Items& itemList, 
-		const Matrix & chunkTransform, 
-		const ConvexHull& hull, 
-		IntersectionSet & intersection )
+	static uint32 cullItems(IntersectionTest& test,
+		const Chunk::Items& itemList,
+		const Matrix& chunkTransform,
+		const ConvexHull& hull,
+		IntersectionSet& intersection)
 	{
 		Chunk::Items::const_iterator itemIt = itemList.begin();
 
 		uint32 total = 0;
-		for ( ; itemIt != itemList.end(); ++itemIt )
+		for (; itemIt != itemList.end(); ++itemIt)
 		{
 			ChunkItem* item = (*itemIt).get();
 
-			if (test( item, hull ))
+			if (test(item, hull))
 			{
-				intersection.insert( item->sceneObject() );
+				intersection.insert(item->sceneObject());
 				++total;
 			}
 		}
@@ -670,14 +670,14 @@ public:
 	}
 };
 
-size_t ClientChunkSpaceAdapter::SceneProvider::intersect( 
+size_t ClientChunkSpaceAdapter::SceneProvider::intersect(
 	const SceneIntersectContext& context,
-	const ConvexHull& hull, 
-	IntersectionSet & intersection) const
+	const ConvexHull& hull,
+	IntersectionSet& intersection) const
 {
 	struct VisibleBoundsTest
 	{
-		bool operator()( ChunkItem* pItem, const ConvexHull& hull )
+		bool operator()(ChunkItem* pItem, const ConvexHull& hull)
 		{
 			if (!pItem->wantsDraw())
 			{
@@ -686,57 +686,65 @@ size_t ClientChunkSpaceAdapter::SceneProvider::intersect(
 
 #if UMBRA_ENABLE
 			UmbraDrawShadowItem* pShadowItem = pItem->pUmbraDrawShadowItem();
-			if ( !pShadowItem || pShadowItem->isDynamic() )
+			if (!pShadowItem || pShadowItem->isDynamic())
 			{
 				return true;
 			}
 			else
 			{
 				BoundingBox bb = pShadowItem->bbox();
-				bb.transformBy( pShadowItem->transform() );
+				bb.transformBy(pShadowItem->transform());
 
-				if( hull.intersects( bb ) ) 
+				if (hull.intersects(bb))
 				{
 					return true;
 				}
 			}
 #endif
 
+#if UMBRA_ENABLE
+			// The item has an Umbra shadow object and its bounds missed
+			// the culling hull above.
 			return false;
+#else
+			// Without Umbra the item passed its chunk's visibility test
+			// against the culling hull already, so it is visible here.
+			return true;
+#endif
 		}
 	};
 
 #if UMBRA_ENABLE
-	if (context.onlyShadowCasters() && 
+	if (context.onlyShadowCasters() &&
 		ChunkManager::instance().umbra()->castShadowCullingEnabled())
 	{
 		VisibleBoundsTest test;
-		return Detail::intersectUmbraCasters( this, test, context, hull, intersection );
+		return Detail::intersectUmbraCasters(this, test, context, hull, intersection);
 	}
 	else
 #endif // UMBRA_ENABLE
 	{
 		VisibleBoundsTest test;
-		return Detail::intersect( this, test, context, hull, intersection );
+		return Detail::intersect(this, test, context, hull, intersection);
 	}
 }
 
 
-void ClientChunkSpaceAdapter::SceneProvider::updateDivisionConfig( 
-	Moo::IntBoundBox2& bounds, 
-	float& divisionSize )
+void ClientChunkSpaceAdapter::SceneProvider::updateDivisionConfig(
+	Moo::IntBoundBox2& bounds,
+	float& divisionSize)
 {
 	divisionSize = pChunkSpace_->gridSize();
-	bounds.max_.x = std::max( bounds.max_.x, pChunkSpace_->maxGridX() );
-	bounds.max_.y = std::max( bounds.max_.y, pChunkSpace_->maxGridY() );
-	bounds.min_.x = std::min( bounds.min_.x, pChunkSpace_->minGridX() );
-	bounds.min_.y = std::min( bounds.min_.y, pChunkSpace_->minGridY() );
+	bounds.max_.x = std::max(bounds.max_.x, pChunkSpace_->maxGridX());
+	bounds.max_.y = std::max(bounds.max_.y, pChunkSpace_->maxGridY());
+	bounds.min_.x = std::min(bounds.min_.x, pChunkSpace_->minGridX());
+	bounds.min_.y = std::min(bounds.min_.y, pChunkSpace_->minGridY());
 }
 
 
-void ClientChunkSpaceAdapter::SceneProvider::addDivisionBounds( 
-	const Moo::IntVector2& divisionCoords, 
-	AABB& divisionBounds )
+void ClientChunkSpaceAdapter::SceneProvider::addDivisionBounds(
+	const Moo::IntVector2& divisionCoords,
+	AABB& divisionBounds)
 {
 	std::pair<int, int> gridCoord(divisionCoords.x, divisionCoords.y);
 	GridChunkMap& gcm = pChunkSpace_->gridChunks();
@@ -744,15 +752,15 @@ void ClientChunkSpaceAdapter::SceneProvider::addDivisionBounds(
 
 	if (chunks.size() > 0 && chunks[0]->isBound())
 	{
-		divisionBounds.addBounds( chunks[0]->visibilityBox() );
+		divisionBounds.addBounds(chunks[0]->visibilityBox());
 	}
 }
 
 
-void * ClientChunkSpaceAdapter::SceneProvider::getView( 
-	const SceneTypeSystem::RuntimeTypeID & viewTypeID )
+void* ClientChunkSpaceAdapter::SceneProvider::getView(
+	const SceneTypeSystem::RuntimeTypeID& viewTypeID)
 {
-	void * result = NULL;
+	void* result = NULL;
 
 	exposeView<IIntersectSceneViewProvider>(this, viewTypeID, result);
 	exposeView<IPortalSceneViewProvider>(this, viewTypeID, result);
@@ -764,21 +772,21 @@ void * ClientChunkSpaceAdapter::SceneProvider::getView(
 
 
 //static
-void ClientChunkSpaceAdapter::EntityEmbodiment::registerHandlers( Scene & scene )
+void ClientChunkSpaceAdapter::EntityEmbodiment::registerHandlers(Scene& scene)
 {
 	ScriptObjectQueryOperation* pScriptObjectOp =
 		scene.getObjectOperation<ScriptObjectQueryOperation>();
-	MF_ASSERT( pScriptObjectOp != NULL );
+	MF_ASSERT(pScriptObjectOp != NULL);
 
 	pScriptObjectOp->addHandler<ClientChunkSpaceAdapter::EntityEmbodiment,
 		ScriptObjectQuery<ClientChunkSpaceAdapter::EntityEmbodiment> >();
 }
 
 
-ClientChunkSpaceAdapter::EntityEmbodiment::EntityEmbodiment( 
-	const ChunkEmbodimentPtr& object ) :
-		IEntityEmbodiment( ScriptObject( object->pPyObject() ) ),
-		embodiment_( object )
+ClientChunkSpaceAdapter::EntityEmbodiment::EntityEmbodiment(
+	const ChunkEmbodimentPtr& object) :
+	IEntityEmbodiment(ScriptObject(object->pPyObject())),
+	embodiment_(object)
 {
 
 }
@@ -790,45 +798,45 @@ ClientChunkSpaceAdapter::EntityEmbodiment::~EntityEmbodiment()
 }
 
 
-void ClientChunkSpaceAdapter::EntityEmbodiment::doEnterSpace( 
-	ClientSpacePtr pSpace, bool transient )
+void ClientChunkSpaceAdapter::EntityEmbodiment::doEnterSpace(
+	ClientSpacePtr pSpace, bool transient)
 {
-	embodiment_->enterSpace( getChunkSpace( pSpace ), transient );
+	embodiment_->enterSpace(getChunkSpace(pSpace), transient);
 }
 
 
-void ClientChunkSpaceAdapter::EntityEmbodiment::doLeaveSpace( 
-	bool transient )
+void ClientChunkSpaceAdapter::EntityEmbodiment::doLeaveSpace(
+	bool transient)
 {
-	embodiment_->leaveSpace( transient );
+	embodiment_->leaveSpace(transient);
 }
 
 
-void ClientChunkSpaceAdapter::EntityEmbodiment::doMove( float dTime )
+void ClientChunkSpaceAdapter::EntityEmbodiment::doMove(float dTime)
 {
-	embodiment_->move( dTime );
+	embodiment_->move(dTime);
 }
 
 
-void ClientChunkSpaceAdapter::EntityEmbodiment::doWorldTransform( const Matrix & transform )
+void ClientChunkSpaceAdapter::EntityEmbodiment::doWorldTransform(const Matrix& transform)
 {
-	ChunkAttachment * pAttachment = 
-		dynamic_cast< ChunkAttachment * >( embodiment_.get() );
-	MF_ASSERT( pAttachment );
-	pAttachment->setMatrix( transform );
+	ChunkAttachment* pAttachment =
+		dynamic_cast<ChunkAttachment*>(embodiment_.get());
+	MF_ASSERT(pAttachment);
+	pAttachment->setMatrix(transform);
 }
 
 
-const Matrix & ClientChunkSpaceAdapter::EntityEmbodiment::doWorldTransform() const
+const Matrix& ClientChunkSpaceAdapter::EntityEmbodiment::doWorldTransform() const
 {
 	return embodiment_->worldTransform();
 }
 
 
-const AABB& ClientChunkSpaceAdapter::EntityEmbodiment::doLocalBoundingBox() 
-	const
+const AABB& ClientChunkSpaceAdapter::EntityEmbodiment::doLocalBoundingBox()
+const
 {
-	embodiment_->localBoundingBox( localBB_, true );
+	embodiment_->localBoundingBox(localBB_, true);
 	return localBB_;
 }
 
@@ -840,8 +848,8 @@ bool ClientChunkSpaceAdapter::EntityEmbodiment::doIsOutside() const
 }
 
 
-bool ClientChunkSpaceAdapter::EntityEmbodiment::doIsRegionLoaded( Vector3 testPos, 
-	float radius ) const
+bool ClientChunkSpaceAdapter::EntityEmbodiment::doIsRegionLoaded(Vector3 testPos,
+	float radius) const
 {
 	// no idea of chunk, so not loaded
 	if (embodiment_->chunk() == NULL)
@@ -851,10 +859,10 @@ bool ClientChunkSpaceAdapter::EntityEmbodiment::doIsRegionLoaded( Vector3 testPo
 
 	if (embodiment_->chunk()->isOutsideChunk())
 	{
-		ChunkOverlappers& o = ChunkOverlappers::instance( 
-			*(embodiment_->chunk()) );
+		ChunkOverlappers& o = ChunkOverlappers::instance(
+			*(embodiment_->chunk()));
 		const ChunkOverlappers::Overlappers& overlappers = o.overlappers();
-		
+
 		// Have all overlappers loaded?
 		if (!o.complete())
 		{
@@ -864,15 +872,15 @@ bool ClientChunkSpaceAdapter::EntityEmbodiment::doIsRegionLoaded( Vector3 testPo
 		// Check each overlapper if it is ready
 		for (uint i = 0; i < overlappers.size(); i++)
 		{
-			ChunkOverlapper * pOverlapper = &*overlappers[i];
-			if (pOverlapper->focussed()) 
+			ChunkOverlapper* pOverlapper = &*overlappers[i];
+			if (pOverlapper->focussed())
 			{
 				continue;
 			}
 
 			// near an unloaded overlapper, so not loaded
-			if (!pOverlapper->bbReady() || 
-				pOverlapper->bb().intersects( testPos, radius ))
+			if (!pOverlapper->bbReady() ||
+				pOverlapper->bb().intersects(testPos, radius))
 			{
 				return false;
 			}
@@ -883,9 +891,9 @@ bool ClientChunkSpaceAdapter::EntityEmbodiment::doIsRegionLoaded( Vector3 testPo
 }
 
 
-void ClientChunkSpaceAdapter::EntityEmbodiment::doDraw( Moo::DrawContext & drawContext )
+void ClientChunkSpaceAdapter::EntityEmbodiment::doDraw(Moo::DrawContext& drawContext)
 {
-	return embodiment_->draw( drawContext );
+	return embodiment_->draw(drawContext);
 }
 
 
