@@ -12,7 +12,6 @@
 
 DECLARE_DEBUG_COMPONENT2( "Chunk", 0 )
 
-
 BW_BEGIN_NAMESPACE
 
 // -----------------------------------------------------------------------------
@@ -28,14 +27,11 @@ ServerChunkTree::ServerChunkTree() :
 	BaseChunkTree()
 {}
 
-
-
 /**
  *	Destructor.
  */
 ServerChunkTree::~ServerChunkTree()
 {}
-
 
 /**
  *	Load method
@@ -61,12 +57,17 @@ bool ServerChunkTree::load( DataSectionPtr pSection, Chunk * pChunk )
 	}
 	catch (const std::runtime_error &err)
 	{
-		ERROR_MSG( "Error loading tree: %s\n", err.what() );
+		static BW::set< BW::string > s_reportedLoadErrors;
+		const BW::string failureKey = filename + " : " + err.what();
+		if (s_reportedLoadErrors.insert( failureKey ).second)
+		{
+			ERROR_MSG( "Error loading tree: %s (further trees using this "
+				"file will fail silently)\n", err.what() );
+		}
 	}
 
 	return result;
 }
-
 
 /// Static factory initialiser
 #undef IMPLEMENT_CHUNK_ITEM_ARGS

@@ -41,8 +41,9 @@ namespace
 	const char * WARNING_OPTION_PATH = "messages/warningMsgs";
 	const char * NOTICE_OPTION_PATH = "messages/noticeMsgs";
 	const char * INFO_OPTION_PATH = "messages/infoMsgs";
+const char * TRACE_OPTION_PATH = "messages/traceMsgs";
+const char * DEBUG_OPTION_PATH = "messages/debugMsgs";
 	const char * ASSET_OPTION_PATH = "messages/assetMsgs";
-
 
 	int getOrCreateOption( const BW::string & name, int defaultVal )
 	{
@@ -53,14 +54,12 @@ namespace
 		return Options::getOptionInt( name );
 	}
 
-
 	void toggleOption( const BW::string & name )
 	{
 		Options::setOptionInt( name,
 				Options::getOptionInt( name ) == 0 ? 1 : 0 );
 	}
 } // anonymous
-
 
 struct PageMessagesImpl: public SafeReferenceCount
 {
@@ -80,6 +79,8 @@ struct PageMessagesImpl: public SafeReferenceCount
 	CButton warningMsgsChk;
 	CButton noticeMsgsChk;
 	CButton infoMsgsChk;
+	CButton traceMsgsChk;
+	CButton debugMsgsChk;
 	CButton assetMsgsChk;
 
 	int showDate;
@@ -89,6 +90,8 @@ struct PageMessagesImpl: public SafeReferenceCount
 	int warningMsgs;
 	int noticeMsgs;
 	int infoMsgs;
+	int traceMsgs;
+	int debugMsgs;
 	int assetMsgs;
 
 	size_t dateWidth_;
@@ -106,7 +109,6 @@ struct PageMessagesImpl: public SafeReferenceCount
 };
 
 /*static*/ PageMessages* PageMessagesImpl::s_currPage = NULL;
-
 
 // PageMessages
 
@@ -168,7 +170,6 @@ void PageMessages::mainFrame( CFrameWnd* mf )
 	pImpl_->mainFrame = mf;
 }
 
-
 bool PageMessages::showFilter( int priority )
 {
 	BW_GUARD;
@@ -218,36 +219,52 @@ bool PageMessages::addItem( BWMessageInfoPtr message )
 	BW_GUARD;
 
 	BW::string msg = message->msgStr();
+
+	BW::string key = (message->group() != NULL) ? message->group() : msg;
 		
 	bool createIndex = false;
 	bool willShow = true;
 	bool subItem = true;
 	int index = 0;
-	int numInst = MsgHandler::instance().numAssetMsgs( msg );
-	if ((numInst > 0) && (message->priority() == MESSAGE_PRIORITY_ASSET))
+	const int msgPriority = message->priority();
+	const bool groupable = (msgPriority == MESSAGE_PRIORITY_ASSET) ||
+		(msgPriority == MESSAGE_PRIORITY_NOTICE) ||
+		(msgPriority == MESSAGE_PRIORITY_WARNING);
+	int numInst = MsgHandler::instance().numInstances( key );
+	if ((numInst > 0) && groupable)
 	{
-		if (index_.find( msg ) == index_.end())
+		if (index_.find( key ) == index_.end())
 		{
-			index_[ msg ] = 0;
+			index_[ key ] = 0;
 			createIndex = true;
 		}
 		else
 		{
-			BWMessageInfo* itemData = (BWMessageInfo*)( msgList_.GetItemData( index_[ msg ] - 1 ));
+			BWMessageInfo* itemData = (BWMessageInfo*)( msgList_.GetItemData( index_[ key ] - 1 ));
 			if (itemData)
 			{
-				const wchar_t* plural = numInst > 1 ? Localise(L"COMMON/PAGE_MESSAGES/PLURAL") : L"";
-				msgList_.SetItemText( index_[ msg ] - 1, MSG_COL, 
-					Localise(L"COMMON/PAGE_MESSAGES/INSTANCE", itemData->msgStr(), numInst, plural ) );
+				if (numInst > 1)
+				{
+					const wchar_t* plural = Localise(L"COMMON/PAGE_MESSAGES/PLURAL");
+					msgList_.SetItem( index_[ key ] - 1, 0, LVIF_IMAGE, NULL, 1 + ( expanded_[ key ] ? 1 : 0 ), 0, 0, 0 );
+					msgList_.SetItemText( index_[ key ] - 1, MSG_COL, 
+						Localise(L"COMMON/PAGE_MESSAGES/INSTANCE", itemData->msgStr(), numInst, plural ) );
+				}
+				else
+				{
+					msgList_.SetItem( index_[ key ] - 1, 0, LVIF_IMAGE, NULL, 0, 0, 0, 0 );
+					msgList_.SetItemText( index_[ key ] - 1, MSG_COL, 
+						bw_utf8tow( itemData->msgStr() ).c_str() );
+				}
 			}
 		}
 
-		if (!expanded_[ msg ])
+		if (!expanded_[ key ])
 		{
 			willShow = false;
 		}
 
-		index = index_[ msg ];
+		index = index_[ key ];
 		
 	}
 	else
@@ -287,23 +304,25 @@ bool PageMessages::addItem( BWMessageInfoPtr message )
 
 	if (createIndex)
 	{
-		BWMessageInfo* entry = new BWMessageInfo( MESSAGE_PRIORITY_ASSET, "", "", "", msg.c_str() );
+		BWMessageInfo* entry = new BWMessageInfo( MESSAGE_PRIORITY_ASSET, "", "", "", key.c_str() );
 
 		const wchar_t* plural = numInst > 1 ? Localise(L"PLURAL") : L"";
 
-		int nIndex = msgList_.InsertItem( index, L"", 1 + willShow );
+		int nIndex = msgList_.InsertItem( index, L"", numInst > 1 ? 1 + willShow : 0 );
 		msgList_.SetItemText( nIndex, DATE_COL, bw_utf8tow( message->dateStr() ).c_str() );
 		msgList_.SetItemText( nIndex, TIME_COL, bw_utf8tow( message->timeStr() ).c_str() );
 		msgList_.SetItemText( nIndex, PRIORITY_COL, bw_utf8tow( message->priorityStr() ).c_str() );
 		msgList_.SetItemText( nIndex, MSG_COL, 
-			Localise(L"COMMON/PAGE_MESSAGES/INSTANCE", msg, numInst, plural ) );
+			numInst > 1
+			? Localise(L"COMMON/PAGE_MESSAGES/INSTANCE", key.c_str(), numInst, plural )
+			: bw_utf8tow( key ).c_str() );
 
 		msgList_.SetItemData( nIndex, (DWORD_PTR)&*entry );
 		if ( pImpl_->tempData.size() == pImpl_->tempData.capacity() )
 			pImpl_->tempData.reserve( pImpl_->tempData.size() + 256 );
 		pImpl_->tempData.push_back( entry );
 
-		if (msg == selected_)
+		if (key == selected_)
 		{
 			msgList_.SetItemState( nIndex, LVIS_SELECTED, LVIS_SELECTED );
 		}
@@ -442,9 +461,15 @@ void PageMessages::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_MSG_WARNING, pImpl_->warningMsgsChk);
 	DDX_Control(pDX, IDC_MSG_NOTICE, pImpl_->noticeMsgsChk);
 	DDX_Control(pDX, IDC_MSG_INFO, pImpl_->infoMsgsChk);
+	DDX_Control(pDX, IDC_MSG_TRACE, pImpl_->traceMsgsChk);
+	DDX_Control(pDX, IDC_MSG_DEBUG, pImpl_->debugMsgsChk);
 	DDX_Control(pDX, IDC_MSG_ASSETS, pImpl_->assetMsgsChk);
 
 	pImpl_->inited = true;
+
+	CRect initRC;
+	GetClientRect( &initRC );
+	SendMessage( WM_SIZE, 0, MAKELPARAM( initRC.Width(), initRC.Height() ) );
 }
 
 BOOL PageMessages::OnInitDialog()
@@ -475,6 +500,8 @@ BEGIN_MESSAGE_MAP(PageMessages, CFormView)
 	ON_BN_CLICKED(IDC_MSG_WARNING, OnBnClickedErrorsWarning)
 	ON_BN_CLICKED(IDC_MSG_NOTICE, OnBnClickedErrorsNotice)
 	ON_BN_CLICKED(IDC_MSG_INFO, OnBnClickedErrorsInfo)
+	ON_BN_CLICKED(IDC_MSG_TRACE, OnBnClickedErrorsTrace)
+	ON_BN_CLICKED(IDC_MSG_DEBUG, OnBnClickedErrorsDebug)
 
 	ON_MESSAGE(WM_SHOW_TOOLTIP, OnShowTooltip)
 	ON_MESSAGE(WM_HIDE_TOOLTIP, OnHideTooltip)
@@ -535,37 +562,92 @@ void PageMessages::OnSize(UINT nType, int cx, int cy)
 
 	if (!pImpl_->inited) return;
 	
-	if ( cx < 642 )
 	{
-		Utilities::stretchToBottomRight( this, msgList_, cx, 12, cy, 74 );
+		CWnd* flagCtrls[] = {
+			&pImpl_->showDateChk,  &pImpl_->showTimeChk,  &pImpl_->showPriorityChk,
+			&pImpl_->errorMsgsChk, &pImpl_->warningMsgsChk, &pImpl_->noticeMsgsChk,
+			&pImpl_->infoMsgsChk,  &pImpl_->assetMsgsChk,
+			&pImpl_->traceMsgsChk, &pImpl_->debugMsgsChk
+		};
+		const int numFlags = sizeof( flagCtrls ) / sizeof( flagCtrls[0] );
+		const int leftMargin = 12;
+		const int rightMargin = 12;
+		const int flagGap = 12;   // uniform gap everywhere, matches the margin
+		const int rowStep = 20;   // vertical distance between wrapped rows
+		const int bottomOffset = 8;
 
-		Utilities::moveToBottomLeft( this, pImpl_->showDateChk, cy, 48, 12 );
-		Utilities::moveToBottomLeft( this, pImpl_->showTimeChk, cy, 28, 12 );
-		Utilities::moveToBottomLeft( this, pImpl_->showPriorityChk, cy, 8, 12 );
+		{
+			CClientDC dc( this );
+			for ( int i = 0; i < numFlags; ++i )
+			{
+				CString label;
+				flagCtrls[i]->GetWindowText( label );
 
-		Utilities::moveToBottomLeft( this, pImpl_->errorMsgsChk, cy, 48, 112 );
-		Utilities::moveToBottomLeft( this, pImpl_->warningMsgsChk, cy, 28, 112 );
-		Utilities::moveToBottomLeft( this, pImpl_->noticeMsgsChk, cy, 8, 112 );
+				CFont* pOldFont = dc.SelectObject( flagCtrls[i]->GetFont() );
+				CSize textSize = dc.GetTextExtent( label );
+				dc.SelectObject( pOldFont );
 
-		Utilities::moveToBottomLeft( this, pImpl_->assetMsgsChk, cy, 48, 180 );
-		Utilities::moveToBottomLeft( this, pImpl_->infoMsgsChk, cy, 28, 180 );
+				int tightW = textSize.cx + 24; // glyph + gap + right padding
+
+				CRect flagRect;
+				flagCtrls[i]->GetWindowRect( &flagRect );
+				int curW = flagRect.Width();
+				if ( curW - tightW > 1 || tightW - curW > 1 )
+				{
+					flagCtrls[i]->SetWindowPos( NULL, 0, 0, tightW, flagRect.Height(),
+						SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE );
+				}
+			}
+		}
+
+		int widths[numFlags];
+		int totalW = leftMargin + rightMargin;
+		int maxW = 0;
+		for ( int i = 0; i < numFlags; ++i )
+		{
+			CRect flagRect;
+			flagCtrls[i]->GetWindowRect( &flagRect );
+			widths[i] = flagRect.Width();
+			totalW += widths[i] + flagGap;
+			if ( widths[i] > maxW ) maxW = widths[i];
+		}
+		totalW -= flagGap;
+
+		int rows = 1;
+		int flagX[numFlags];
+		int flagRow[numFlags];
+
+		if ( totalW <= cx )
+		{
+			int curX = leftMargin;
+			for ( int i = 0; i < numFlags; ++i )
+			{
+				flagX[i] = curX;
+				flagRow[i] = 0;
+				curX += widths[i] + flagGap;
+			}
+		}
+		else
+		{
+			int cols = ( cx - leftMargin - rightMargin + flagGap ) / ( maxW + flagGap );
+			if ( cols < 1 ) cols = 1;
+			if ( cols > numFlags ) cols = numFlags;
+			rows = ( numFlags + cols - 1 ) / cols;
+			for ( int i = 0; i < numFlags; ++i )
+			{
+				flagX[i] = leftMargin + ( i % cols ) * ( maxW + flagGap );
+				flagRow[i] = i / cols;
+			}
+		}
+
+		Utilities::stretchToBottomRight( this, msgList_, cx, 12, cy,
+			bottomOffset + rows * rowStep + 6 );
+		for ( int i = 0; i < numFlags; ++i )
+		{
+			Utilities::moveToBottomLeft( this, *flagCtrls[i], cy,
+				bottomOffset + ( rows - 1 - flagRow[i] ) * rowStep, flagX[i] );
+		}
 	}
-	else
-	{
-		Utilities::stretchToBottomRight( this, msgList_, cx, 12, cy, 34 );
-
-		Utilities::moveToBottomLeft( this, pImpl_->showDateChk, cy, 8, 12 );
-		Utilities::moveToBottomLeft( this, pImpl_->showTimeChk, cy, 8, 102 );
-		Utilities::moveToBottomLeft( this, pImpl_->showPriorityChk, cy, 8, 192 );
-
-		Utilities::moveToBottomLeft( this, pImpl_->errorMsgsChk, cy, 8, 292 );
-		Utilities::moveToBottomLeft( this, pImpl_->warningMsgsChk, cy, 8, 362 );
-		Utilities::moveToBottomLeft( this, pImpl_->noticeMsgsChk, cy, 8, 432 );
-
-		Utilities::moveToBottomLeft( this, pImpl_->assetMsgsChk, cy, 8, 502 );
-		Utilities::moveToBottomLeft( this, pImpl_->infoMsgsChk, cy, 8, 572 );
-	}
-
 	updateColumnWidths( true );
 			
 	CFormView::OnSize( nType, cx, cy );
@@ -577,6 +659,8 @@ void PageMessages::OnSize(UINT nType, int cx, int cy)
 	pImpl_->warningMsgsChk.RedrawWindow();
 	pImpl_->noticeMsgsChk.RedrawWindow();
 	pImpl_->infoMsgsChk.RedrawWindow();
+	pImpl_->traceMsgsChk.RedrawWindow();
+	pImpl_->debugMsgsChk.RedrawWindow();
 	pImpl_->assetMsgsChk.RedrawWindow();
 }
 
@@ -683,6 +767,22 @@ afx_msg LRESULT PageMessages::OnUpdateControls(WPARAM wParam, LPARAM lParam)
 		pImpl_->infoMsgs = !!checked;
 	}	
 
+	checked = getOrCreateOption( TRACE_OPTION_PATH, 0 );
+	pImpl_->traceMsgsChk.SetCheck( checked ? BST_CHECKED : BST_UNCHECKED );
+	if ( checked != pImpl_->traceMsgs )
+	{
+		setPriority( MESSAGE_PRIORITY_TRACE, !!checked );
+		pImpl_->traceMsgs = !!checked;
+	}
+
+	checked = getOrCreateOption( DEBUG_OPTION_PATH, 0 );
+	pImpl_->debugMsgsChk.SetCheck( checked ? BST_CHECKED : BST_UNCHECKED );
+	if ( checked != pImpl_->debugMsgs )
+	{
+		setPriority( MESSAGE_PRIORITY_DEBUG, !!checked );
+		pImpl_->debugMsgs = !!checked;
+	}
+
 	checked = getOrCreateOption( ASSET_OPTION_PATH, 1 );
 	pImpl_->assetMsgsChk.SetCheck( checked ? BST_CHECKED : BST_UNCHECKED );
 	if ( checked != pImpl_->assetMsgs )
@@ -777,6 +877,20 @@ void PageMessages::OnBnClickedErrorsInfo()
 	BW_GUARD;
 
 	toggleOption( INFO_OPTION_PATH );
+}
+
+void PageMessages::OnBnClickedErrorsTrace()
+{
+	BW_GUARD;
+
+	toggleOption( TRACE_OPTION_PATH );
+}
+
+void PageMessages::OnBnClickedErrorsDebug()
+{
+	BW_GUARD;
+
+	toggleOption( DEBUG_OPTION_PATH );
 }
 void PageMessages::OnBnClickedMsgAssets()
 {

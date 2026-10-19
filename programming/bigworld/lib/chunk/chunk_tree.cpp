@@ -31,7 +31,6 @@
 
 DECLARE_DEBUG_COMPONENT2( "Chunk", 0 )
 
-
 BW_BEGIN_NAMESPACE
 
 // -----------------------------------------------------------------------------
@@ -39,7 +38,6 @@ BW_BEGIN_NAMESPACE
 // -----------------------------------------------------------------------------
 
 static AutoConfigString s_treeToModelMapping( "environment/treeToModelMapping" );
-
 
 int ChunkTree_token;
 
@@ -56,13 +54,11 @@ ChunkTree::ChunkTree() :
     castsShadow_( true )
 {}
 
-
 /**
  *  Destructor.
  */
 ChunkTree::~ChunkTree()
 {}
-
 
 /**
  *  The overridden load method
@@ -105,7 +101,27 @@ bool ChunkTree::load(DataSectionPtr pSection, Chunk * pChunk, BW::string* errorS
 
     return result;
 #else
-    return false;
+    this->setTransform( pSection->readMatrix34( "transform", Matrix::identity ) );
+    this->reflectionVisible_ = pSection->readBool(
+        "reflectionVisible", reflectionVisible_ );
+
+    errorInfo_.reset( new ErrorInfo );
+    errorInfo_->what     = "SpeedTree support is not compiled in";
+    errorInfo_->filename = pSection->readString( "spt" );
+    errorInfo_->seed     = pSection->readInt( "seed", 1 );
+
+    castsShadow_ = pSection->readBool( "castsShadow", castsShadow_ );
+    castsShadow_ = pSection->readBool( "editorOnly/castsShadow", castsShadow_ );
+
+    static bool s_speedTreeOffWarned = false;
+    if (!s_speedTreeOffWarned)
+    {
+        s_speedTreeOffWarned = true;
+        WARNING_MSG( "ChunkTree: SpeedTree support is not compiled in; "
+            "tree items load without trees (editor placeholders). "
+            "Reported once.\n" );
+    }
+    return true;
 #endif
 }
 
@@ -144,7 +160,13 @@ bool ChunkTree::loadTree(const char * filename, int seed, Chunk * chunk)
         this->errorInfo_->filename = filename;
         this->errorInfo_->seed     = seed;
 
-        ERROR_MSG( "Error loading tree: %s\n", err.what() );
+        static BW::set< BW::string > s_reportedLoadErrors;
+        const BW::string failureKey = filename + " : " + err.what();
+        if (s_reportedLoadErrors.insert( failureKey ).second)
+        {
+            ERROR_MSG( "Error loading tree: %s (further trees using this "
+                "file will fail silently)\n", err.what() );
+        }
     }
     return this->errorInfo_.get() == NULL;
 #else
@@ -217,7 +239,6 @@ void ChunkTree::syncInit()
 #endif
 }
 
-
 CollisionSceneProviderPtr ChunkTree::getCollisionSceneProvider( Chunk* ) const
 {
     const BSPTree* tree = this->bspTree();
@@ -233,7 +254,6 @@ CollisionSceneProviderPtr ChunkTree::getCollisionSceneProvider( Chunk* ) const
 
     return NULL;
 }
-
 
 //bool use_water_culling = true;
 
@@ -287,7 +307,6 @@ void ChunkTree::draw( Moo::DrawContext& drawContext )
 #endif
 }
 
-
 /**
  *  Add this model to (or remove it from) this chunk
  */
@@ -305,7 +324,6 @@ void ChunkTree::toss( Chunk * pChunk )
     }
 #endif
 }
-
 
 #if ENABLE_BSP_MODEL_RENDERING
 /**
@@ -355,7 +373,6 @@ bool ChunkTree::drawBspInternal()
     return false;
 }
 #endif // ENABLE_BSP_MODEL_RENDERING
-
 
 /**
  *  The overridden lend method
@@ -434,7 +451,7 @@ uint ChunkTree::seed() const
         ? this->tree_->seed()
         : this->errorInfo_->seed;
 #else
-    return 0;
+    return this->errorInfo_.get() != NULL ? this->errorInfo_->seed : 0;
 #endif
 }
 
@@ -472,7 +489,8 @@ const char * ChunkTree::filename() const
         ? this->tree_->filename()
         : this->errorInfo_->filename.c_str();
 #else
-    return "";
+    return this->errorInfo_.get() != NULL
+        ? this->errorInfo_->filename.c_str() : "";
 #endif
 }
 
@@ -534,7 +552,6 @@ const char * ChunkTree::lastError() const
         : "";
 }
 
-
 /**
  *  This method returns whether or not this tree should cast a shadow.
  *
@@ -544,7 +561,6 @@ bool ChunkTree::affectShadow() const
 {
     return castsShadow_;
 }
-
 
 /// Static factory initialiser
 #undef IMPLEMENT_CHUNK_ITEM_ARGS

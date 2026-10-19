@@ -12,15 +12,67 @@
 
 DECLARE_DEBUG_COMPONENT2( "Moo", 0 );
 
-
 BW_BEGIN_NAMESPACE
 
 #ifndef CODE_INLINE
+#include <set>
+
 #include "effect_material.ipp"
 #endif
 
 namespace Moo
 {
+
+/*static*/ EffectMaterial::MissingParameterHandler
+	EffectMaterial::s_missingParameterHandler_ = NULL;
+
+/**
+ *	This method (un)registers the UI handler for missing parameters.
+ */
+/*static*/ void EffectMaterial::missingParameterHandler(
+	MissingParameterHandler handler )
+{
+	s_missingParameterHandler_ = handler;
+}
+
+/**
+ *	This method invokes the registered UI handler for missing parameters
+ *	(if any). Public so non-friend code (e.g. file-local helpers) can
+ *	forward reports without touching the private handler storage.
+ */
+/*static*/ bool EffectMaterial::invokeMissingParameterHandler(
+	const BW::StringRef& paramName, const BW::string& fxResourceID )
+{
+	if (s_missingParameterHandler_ != NULL)
+	{
+		s_missingParameterHandler_( paramName, fxResourceID );
+		return true;
+	}
+	return false;
+}
+
+namespace
+{
+
+void reportMissingParameter( const BW::StringRef& paramName,
+	const BW::string& fxResourceID )
+{
+	if (EffectMaterial::invokeMissingParameterHandler( paramName, fxResourceID ))
+	{
+		return; // a UI handler consumed the report (no console NOTICE;
+	}
+
+	BW::string msg = "EffectMaterial: missing parameter '" +
+		paramName.to_string() + "' in .fx file '" + fxResourceID + "'";
+
+	static BW::set< BW::string > s_reportedPairs;
+	if (s_reportedPairs.insert( msg ).second)
+	{
+		NOTICE_MSG( "%s\n", msg.c_str() );
+	}
+}
+
+} // anonymous namespace
 
 // -----------------------------------------------------------------------------
 // Section: EffectMaterial
@@ -109,7 +161,6 @@ bool EffectMaterial::begin() const
 	return pManagedEffect_->begin( true );
 }
 
-
 void EffectMaterial::setProperties() const
 {
 	BW_GUARD;
@@ -124,7 +175,6 @@ void EffectMaterial::setProperties() const
 		it++;
 	}
 }
-
 
 /**
  * This method commits state changes on the material's effect to Direct3D.
@@ -258,7 +308,6 @@ void EffectMaterial::save( DataSectionPtr pSection )
 	//pSection->writeInt( "collisionFlags", this->collisionFlags() );
 	//pSection->writeInt( "materialKind", this->materialKind() );
 }
-
 
 /*
  * This method is the internal load method from a data section.
@@ -431,11 +480,8 @@ void EffectMaterial::loadPropertyHandles(
 		// No handle for property
 		else if (!suppressPropertyWarnings)
 		{
-			NOTICE_MSG( 
-				"EffectMaterial::load - no parameter "
-				"\"%s\" found in .fx file \"%s\"\n",
-				builder.string(),
-				pManagedEffect_->resourceID().c_str() );
+			reportMissingParameter( it->first,
+				pManagedEffect_->resourceID() );
 		}
 	}
 }
@@ -493,11 +539,8 @@ void EffectMaterial::reloadPropertyHandles()
 		// No handle for property
 		else
 		{
-			NOTICE_MSG( 
-				"EffectMaterial::load - no parameter "
-					"\"%s\" found in .fx file \"%s\"\n",
-				name.c_str(),
-				pManagedEffect_->resourceID().c_str() );
+			reportMissingParameter( name,
+				pManagedEffect_->resourceID() );
 		}
 	}
 }
@@ -658,7 +701,6 @@ EffectMaterial & EffectMaterial::operator=( const EffectMaterial & other )
 
 	return *this;
 }
-
 
 /**
  *	Retrieves value of the first property with the specified name.
@@ -927,7 +969,6 @@ ChannelType EffectMaterial::channelType() const
 	return ret;
 }
 
-
 /**
  *  This method returns true if the given property is a default property.
  */
@@ -950,7 +991,6 @@ bool EffectMaterial::isDefault( EffectPropertyPtr pProperty )
 
 	return false;
 }
-
 
 /**
  *  This method finds all shared default properties in the material, and

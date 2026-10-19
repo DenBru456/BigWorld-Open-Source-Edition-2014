@@ -98,14 +98,18 @@ void BBMsgImpl::OnNMClickMsgList(NMHDR *pNMHDR, LRESULT *pResult)
 			::MessageBox( AfxGetApp()->m_pMainWnd->GetSafeHwnd(),
 				bw_utf8tow( clicked->stackTrace() ).c_str(), Localise(L"WORLDEDITOR/GUI/PAGE_MESSAGE_IMPL/SCRIPT_ERROR"), MB_OK | MB_TASKMODAL );
 		}
-		else if (clicked->priority() == MESSAGE_PRIORITY_ASSET)
+		else if (clicked->priority() == MESSAGE_PRIORITY_ASSET ||
+			clicked->priority() == MESSAGE_PRIORITY_NOTICE ||
+			clicked->priority() == MESSAGE_PRIORITY_WARNING)
 		{
-			msgs_->expanded_[ clicked->msgStr() ] = ! msgs_->expanded_[ clicked->msgStr() ];
-			msgs_->selected_ = BW::string( clicked->msgStr() );
-			msgs_->redrawList();
+			if (MsgHandler::instance().numInstances( clicked->msgStr() ) > 1)
+			{
+				msgs_->expanded_[ clicked->msgStr() ] = ! msgs_->expanded_[ clicked->msgStr() ];
+				msgs_->selected_ = BW::string( clicked->msgStr() );
+				msgs_->redrawList();
+			}
 		}
 	}
-
 
 	*pResult = 0;
 }
@@ -132,7 +136,8 @@ void BBMsgImpl::OnNMCustomdrawMsgList(NMHDR *pNMHDR, LRESULT *pResult)
 		BW::map< BW::string, int >::iterator end = msgs_->index_.end();
 		for (; it != end; ++it)
 		{
-			if ((*it).second == pLVCD->nmcd.dwItemSpec + 1)
+			if ((*it).second == pLVCD->nmcd.dwItemSpec + 1 &&
+				MsgHandler::instance().numInstances( (*it).first ) > 1)
 			{
 				HDC dc		= pLVCD->nmcd.hdc;
 				HFONT old = (HFONT)SelectObject( dc, boldFont );

@@ -102,6 +102,8 @@ public:
 	afx_msg void OnBnClickedErrorsWarning();
 	afx_msg void OnBnClickedErrorsNotice();
 	afx_msg void OnBnClickedErrorsInfo();
+	afx_msg void OnBnClickedErrorsTrace();
+	afx_msg void OnBnClickedErrorsDebug();
 	afx_msg void OnBnClickedMsgAssets();
 
 	afx_msg void OnNMClickMsgList(NMHDR *pNMHDR, LRESULT *pResult);

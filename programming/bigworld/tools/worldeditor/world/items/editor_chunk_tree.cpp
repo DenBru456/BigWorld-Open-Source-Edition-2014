@@ -17,6 +17,9 @@
 #include "appmgr/options.hpp"
 #include "appmgr/module_manager.hpp"
 #include "common/tools_common.hpp"
+#include "common/bw_message_info.hpp"
+#include "romp/effect_parameter_cache.hpp"
+#include "moo/effect_material.hpp"
 #include "speedtree/speedtree_config.hpp"
 #include "speedtree/speedtree_collision.hpp"
 #include "speedtree/billboard_optimiser.hpp"
@@ -32,13 +35,58 @@
 #include "resmgr/resource_cache.hpp"
 #include "cstdmf/debug.hpp"
 
-
 DECLARE_DEBUG_COMPONENT2( "Chunk", 0 )
+
+namespace
+{
+
+void missingEffectParameterCB( const BW::string& message )
+{
+	if (&BW::MsgHandler::instance())
+	{
+		BW::MsgHandler::instance().addGroupedNotice( message );
+	}
+}
+
+void missingMaterialParameterCB( const BW::StringRef& paramName,
+	const BW::string& fxResourceID )
+{
+	static BW::set< BW::string > s_reported;
+	BW::string pair = paramName.to_string() + '\n' + fxResourceID;
+	if (!s_reported.insert( pair ).second)
+	{
+		return; // shader already listed under this parameter
+	}
+
+	BW::string group = "EffectMaterial: missing parameter '" +
+		paramName.to_string() + "' in .fx file(s)";
+	BW::string msg = "EffectMaterial: missing parameter '" +
+		paramName.to_string() + "' in .fx file '" + fxResourceID + "'";
+
+	if (&BW::MsgHandler::instance())
+	{
+		BW::MsgHandler::instance().addGroupedNotice( msg, group.c_str() );
+	}
+}
+
+struct MissingEffectParameterHandlerRegisterer
+{
+	MissingEffectParameterHandlerRegisterer()
+	{
+		BW::EffectParameterCache::missingParameterHandler(
+			&missingEffectParameterCB );
+		BW::Moo::EffectMaterial::missingParameterHandler(
+			&missingMaterialParameterCB );
+	}
+};
+
+MissingEffectParameterHandlerRegisterer s_missingEffectParameterHandlerRegisterer;
+
+} // anonymous namespace
 
 BW_BEGIN_NAMESPACE
 
 static AutoConfigString s_chunkTreeNotFoundModel( "system/notFoundModel" );	
-
 
 namespace
 {
@@ -138,14 +186,12 @@ EditorChunkTree::EditorChunkTree() :
 	ResourceCache::instance().addResource( missingTreeModel_ );
 }
 
-
 /**
  *	Destructor.
  */
 EditorChunkTree::~EditorChunkTree()
 {
 }
-
 
 /**
  *	overridden edShouldDraw method
@@ -303,7 +349,8 @@ bool EditorChunkTree::load( DataSectionPtr pSection, Chunk * pChunk )
 	edCommonLoad( pSection );
 
 	this->pOwnSect_ = pSection;	
-	if (this->ChunkTree::load(pSection, pChunk))
+	bool baseLoaded = this->ChunkTree::load(pSection, pChunk);
+	if (baseLoaded && !this->loadFailed())
 	{
 		// File path used for locating BSP in cache
 		fullPath_ = this->ChunkTree::filename();
@@ -351,9 +398,20 @@ bool EditorChunkTree::load( DataSectionPtr pSection, Chunk * pChunk )
 		
 		BW::string msg = LocaliseUTF8(L"WORLDEDITOR/WORLDEDITOR/CHUNK/EDITOR_CHUNK_TREE/ERROR_LOADING_TREE",
 			this->ChunkTree::lastError() );
-		WorldManager::instance().addError(
-			pChunk, this, "%s",  
-			msg.substr(0, 255).c_str());
+		static bool s_speedTreeOffReported = false;
+		const bool speedTreeDisabled =
+			this->errorInfo_.get() != NULL &&
+			this->errorInfo_->what == "SpeedTree support is not compiled in";
+		if (!speedTreeDisabled || !s_speedTreeOffReported)
+		{
+			if (speedTreeDisabled)
+			{
+				s_speedTreeOffReported = true;
+			}
+			WorldManager::instance().addError(
+				pChunk, this, "%s",
+				msg.substr(0, 255).c_str());
+		}
 	
 		this->hasPostLoaded_ = true;
 	}
@@ -396,7 +454,6 @@ InvalidateFlags EditorChunkTree::edInvalidateFlags()
 		InvalidateFlags::FLAG_THUMBNAIL;
 }
 
-
 /**
  *	This method does extra stuff when this item is tossed between chunks.
  *
@@ -425,7 +482,6 @@ void EditorChunkTree::toss( Chunk * pChunk )
 	// Update the database
 	ItemInfoDB::instance().toss( this, pChunk != NULL );
 }
-
 
 /**
  *	Save to the given section
@@ -492,14 +548,10 @@ bool EditorChunkTree::edTransform( const Matrix & m, bool transient )
 		|| !EditorChunkCache::instance( *pNewChunk ).edIsWriteable())
 		return false;
 
-
 	Matrix transform = this->transform();
 	transform.multiply( m, pOldChunk->transform() );
 	transform.postMultiply( pNewChunk->transformInverse() );
 	this->setTransform( transform );
-
-
-
 
 	// note that both affected chunks have seen changes
 	edMove( pOldChunk, pNewChunk );
@@ -512,14 +564,12 @@ bool EditorChunkTree::edTransform( const Matrix & m, bool transient )
 	return true;
 }
 
-
 void EditorChunkTree::edPreDelete()
 {
 	BW_GUARD;
 
 	EditorChunkItem::edPreDelete();
 }
-
 
 /**
  *	Get the bounding box
@@ -530,7 +580,6 @@ void EditorChunkTree::edBounds( BoundingBox& bbRet ) const
 
 	bbRet = this->boundingBox();
 }
-
 
 /**                                                                             
  *  Get the bounding box used for showing the selection                         
@@ -554,7 +603,6 @@ void EditorChunkTree::edSelectedBox( BoundingBox& bbRet ) const
         this->edBounds( bbRet );                                                
     }                                                                           
 }                                                                               
-
 
 /**
  *	This method adds this item's properties to the given editor
@@ -609,7 +657,6 @@ bool EditorChunkTree::edEdit( GeneralEditor & editor )
 	return true;
 }
 
-
 /**
  *	Find the drop chunk for this item
  */
@@ -639,7 +686,6 @@ Name EditorChunkTree::edDescription()
 	return desc_;
 }
 
-
 /**
  *	This returns the number of triangles of this tree.
  */
@@ -653,7 +699,6 @@ int EditorChunkTree::edNumTriangles() const
 	return 0;
 #endif // SPEEDTREE_SUPPORT
 }
-
 
 /**
  *	This returns the number of primitive groups of this tree.
@@ -669,7 +714,6 @@ int EditorChunkTree::edNumPrimitives() const
 #endif // SPEEDTREE_SUPPORT
 }
 
-
 /**
  *	This returns the file for the asset of this tree.
  */
@@ -680,7 +724,6 @@ BW::string EditorChunkTree::edAssetName() const
 	return BWResource::getFilename( filename() ).to_string();
 }
 
-
 /**
  *	This returns the file for the asset of this tree.
  */
@@ -688,7 +731,6 @@ BW::string EditorChunkTree::edFilePath() const
 {
 	return filename();
 }
-
 
 Vector3 EditorChunkTree::edMovementDeltaSnaps()
 {
@@ -740,7 +782,6 @@ bool EditorChunkTree::setCastsShadow( const bool & castsShadow )
 
 		MF_ASSERT( pChunk_ != NULL );
 
-
 		BoundingBox bb = BoundingBox::s_insideOut_;
 		this->edBounds( bb );
 		bb.transformBy( this->edTransform() );
@@ -771,7 +812,6 @@ Moo::LightContainerPtr EditorChunkTree::edVisualiseLightContainer()
 
 	return lc;
 }
-
 
 /// Write the factory statics stuff
 /// Write the factory statics stuff

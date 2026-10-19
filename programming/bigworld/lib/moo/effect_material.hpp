@@ -94,7 +94,6 @@ public:
 	bool vectorProperty( Vector4 & result, const BW::StringRef & name ) const;
 	bool matrixProperty( Matrix & result, const BW::StringRef & name ) const;
 
-
 	bool setProperty(
 		const BW::StringRef & name,
 		const bool value,
@@ -154,6 +153,12 @@ public:
 	bool bspModified_;
 #endif
 
+	typedef void (*MissingParameterHandler)( const BW::StringRef& paramName,
+		const BW::string& fxResourceID );
+	static void missingParameterHandler( MissingParameterHandler handler );
+	static bool invokeMissingParameterHandler( const BW::StringRef& paramName,
+		const BW::string& fxResourceID );
+
 private:
 
 	template<class T>
@@ -189,6 +194,8 @@ private:
 	Properties			properties_;
 
 	D3DXHANDLE			hOverriddenTechnique_; // if 0, then no override
+
+	static MissingParameterHandler s_missingParameterHandler_;
 
 	BW::string			identifier_;
 

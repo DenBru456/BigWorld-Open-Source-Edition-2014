@@ -1,7 +1,6 @@
 #ifndef EFFECTPARAMETERCACHE_HPP
 #define EFFECTPARAMETERCACHE_HPP
 
-
 BW_BEGIN_NAMESPACE
 
 namespace Moo
@@ -14,7 +13,6 @@ namespace Moo
 	{															\
 		return spEffect_->Set##X( parameter(name), v );			\
 	}															\
-
 
 /**
  *	This class is a simple helper for setting manual parameters
@@ -75,7 +73,11 @@ public:
 		return spEffect_->SetFloatArray( parameter(name), af, ( UINT ) n );
 	}
 
+	typedef void (*MissingParameterHandler)( const BW::string& message );
+	static void missingParameterHandler( MissingParameterHandler handler );
+
 private:
+	static MissingParameterHandler s_missingParameterHandler;
 	void cache(const BW::string& name );
 	D3DXHANDLE parameter( const BW::string& key )
 	{

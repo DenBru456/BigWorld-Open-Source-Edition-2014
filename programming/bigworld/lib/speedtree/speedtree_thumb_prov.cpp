@@ -14,10 +14,7 @@
 #include "cstdmf/string_utils.hpp"
 #include "moo/effect_visual_context.hpp"
 
-
-
 DECLARE_DEBUG_COMPONENT2("SpeedTree", 0)
-
 
 BW_BEGIN_NAMESPACE
 
@@ -64,7 +61,11 @@ bool SpeedTreeThumbProv::prepare(const ThumbnailManager& manager, const BW::wstr
 	}
 	catch (const std::runtime_error &err)
 	{
-		ERROR_MSG("Error loading tree: %s\n", err.what());
+		static BW::set< BW::string > s_reportedLoadErrors;
+		if (s_reportedLoadErrors.insert( BW::string(err.what()) ).second)
+		{
+			ERROR_MSG("Error loading tree: %s (reported once)\n", err.what());
+		}
 		if ( tree_ )
 		{
 			delete tree_;
@@ -124,7 +125,11 @@ bool SpeedTreeThumbProv::render( const ThumbnailManager& manager, const BW::wstr
 	}
 	catch (const std::runtime_error &err)
 	{
-		ERROR_MSG("Error loading tree: %s\n", err.what());
+		static BW::set< BW::string > s_reportedLoadErrors;
+		if (s_reportedLoadErrors.insert( BW::string(err.what()) ).second)
+		{
+			ERROR_MSG("Error loading tree: %s (reported once)\n", err.what());
+		}
 	}
 	delete tree_;
 	tree_ = 0;

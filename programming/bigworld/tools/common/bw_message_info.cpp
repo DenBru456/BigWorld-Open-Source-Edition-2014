@@ -13,7 +13,6 @@
 
 #define MAX_INFO_MESSAGES 1024
 
-
 BW_BEGIN_NAMESPACE
 
 void BWMessageInfo::registerItem()
@@ -27,7 +26,6 @@ void BWMessageInfo::registerItem()
 	}
 }
 
-
 void BWMessageInfo::unregisterItem()
 {
 	BW_GUARD;
@@ -38,7 +36,6 @@ void BWMessageInfo::unregisterItem()
 		tmp->deleteMessage( this );
 	}
 }
-
 
 void BWMessageInfo::hideSelf()
 {
@@ -51,7 +48,6 @@ void BWMessageInfo::hideSelf()
 		isItemHidden_ = true;
 	}
 }
-
 
 void BWMessageInfo::displaySelf()
 {
@@ -67,7 +63,6 @@ void BWMessageInfo::displaySelf()
 
 static MsgHandler* s_pMsgHandler = NULL;
 static bool s_finalised = false;
-
 
 MsgHandler::MsgHandler():
 	newMessages_( false ),
@@ -99,7 +94,6 @@ MsgHandler::~MsgHandler()
 	return *s_pMsgHandler;
 }
 
-
 /*static*/ void MsgHandler::fini()
 {
 	BW_GUARD;
@@ -107,7 +101,6 @@ MsgHandler::~MsgHandler()
 	s_finalised = true;
 	bw_safe_delete(s_pMsgHandler);
 }
-
 
 void MsgHandler::clear()
 {
@@ -117,6 +110,7 @@ void MsgHandler::clear()
 	messages_.clear();
 	newMessages_ = true;
 	numInfoMessages_ = 0;
+	noticeWarnList_.clear();
 }
 
 const bool MsgHandler::updateMessages() 
@@ -144,7 +138,7 @@ const BW::vector< BWMessageInfoPtr > MsgHandler::messages() const
 	return messages_;
 }
 
-bool MsgHandler::addAssetErrorMessage( BW::string msg, Chunk* chunk, ChunkItem* item, const char* stackTrace )
+bool MsgHandler::addAssetErrorMessage( BW::string msg, Chunk* chunk, ChunkItem* item, const char* stackTrace, const char* group )
 {
 	BW_GUARD;
 
@@ -153,7 +147,7 @@ bool MsgHandler::addAssetErrorMessage( BW::string msg, Chunk* chunk, ChunkItem* 
 	//Replace any newline characters with spaces
 	std::replace( msg.begin(), msg.end(), '\n', ' ' );
 	
-	assetErrorList_[ msg ]++;
+	assetErrorList_[ group ? BW::string( group ) : msg ]++;
 
 	DebugMessagePriority messagePriority = MESSAGE_PRIORITY_ASSET;
 	const char * priorityStr = messagePrefix( messagePriority );
@@ -166,10 +160,35 @@ bool MsgHandler::addAssetErrorMessage( BW::string msg, Chunk* chunk, ChunkItem* 
 	
 	if ( messages_.size() == messages_.capacity() )
 		messages_.reserve( messages_.size() + 256 );
-	messages_.push_back( new BWMessageInfo( messagePriority, dateStr, timeStr, priorityStr, msg.c_str(), chunk, item, stackTrace ));
+	messages_.push_back( new BWMessageInfo( messagePriority, dateStr, timeStr, priorityStr, msg.c_str(), chunk, item, stackTrace, group ));
 	newMessages_ = true;
 
 	return true;
+}
+
+void MsgHandler::addGroupedNotice( BW::string msg, const char* group )
+{
+	BW_GUARD;
+
+	SimpleMutexHolder smh( mutex_ );
+
+	std::replace( msg.begin(), msg.end(), '\n', ' ' );
+
+	noticeWarnList_[ group ? BW::string( group ) : msg ]++;
+
+	DebugMessagePriority messagePriority = MESSAGE_PRIORITY_NOTICE;
+	const char * priorityStr = messagePrefix( messagePriority );
+
+	char dateStr [9];
+	char timeStr [9];
+	_strdate( dateStr );
+	_strtime( timeStr );
+
+	if ( messages_.size() == messages_.capacity() )
+		messages_.reserve( messages_.size() + 256 );
+	messages_.push_back( new BWMessageInfo( messagePriority, dateStr, timeStr,
+		priorityStr, msg.c_str(), NULL, NULL, NULL, group ));
+	newMessages_ = true;
 }
 
 void MsgHandler::removeAssetErrorMessages()
@@ -192,10 +211,27 @@ void MsgHandler::removeAssetErrorMessages()
 	newMessages_ = true;
 }
 
-
 /*
  *	Override from DebugMessageCallback
  */
+static const char* groupedWarningKey( const char* msg, BW::string& out )
+{
+	static const char BSP_WARN[] = "BSP is using unreferenced material \"";
+	const char* p = strstr( msg, BSP_WARN );
+	if (p == NULL)
+	{
+		return NULL;
+	}
+	const char* start = p + sizeof( BSP_WARN ) - 1;
+	const char* end = strchr( start, '"' );
+	if (end == NULL)
+	{
+		return NULL;
+	}
+	out.assign( p, ( end - p ) + 1 );
+	return out.c_str();
+}
+
 bool MsgHandler::handleMessage(
 	DebugMessagePriority messagePriority, const char * /*pCategory*/,
 	DebugMessageSource /*messageSource*/, const LogMetaData & /*metaData*/,
@@ -210,7 +246,9 @@ bool MsgHandler::handleMessage(
 	//Anything that is not an error, warning or notice should be filtered with info
 	if ((messagePriority != MESSAGE_PRIORITY_ERROR) &&
 		(messagePriority != MESSAGE_PRIORITY_WARNING) &&
-		(messagePriority != MESSAGE_PRIORITY_NOTICE))
+		(messagePriority != MESSAGE_PRIORITY_NOTICE) &&
+		(messagePriority != MESSAGE_PRIORITY_TRACE) &&
+		(messagePriority != MESSAGE_PRIORITY_DEBUG))
 	{
 		filterLevel = MESSAGE_PRIORITY_INFO;
 	}
@@ -258,12 +296,17 @@ bool MsgHandler::handleMessage(
 
 	if (filterLevel != MESSAGE_PRIORITY_INFO || MAX_INFO_MESSAGES > 0)
 	{
-		if (filterLevel == MESSAGE_PRIORITY_INFO)
+		if ((filterLevel == MESSAGE_PRIORITY_INFO) ||
+			(filterLevel == MESSAGE_PRIORITY_TRACE) ||
+			(filterLevel == MESSAGE_PRIORITY_DEBUG))
 		{
 			for (BW::vector< BWMessageInfoPtr >::iterator it = messages_.begin();
 				it != messages_.end() && numInfoMessages_ >= MAX_INFO_MESSAGES;)
 			{
-				if ((*it)->priority() == MESSAGE_PRIORITY_INFO)
+				const int pr = (*it)->priority();
+				if ((pr == MESSAGE_PRIORITY_INFO) ||
+					(pr == MESSAGE_PRIORITY_TRACE) ||
+					(pr == MESSAGE_PRIORITY_DEBUG))
 				{
 					it = messages_.erase( it );
 					--numInfoMessages_;
@@ -278,9 +321,22 @@ bool MsgHandler::handleMessage(
 			messages_.reserve( messages_.size() + 256 );
 		}
 
+		BW::string groupStr;
+		const char* groupKey = ((filterLevel == MESSAGE_PRIORITY_NOTICE) ||
+			(filterLevel == MESSAGE_PRIORITY_WARNING)) ?
+			groupedWarningKey( tempString.buffer_, groupStr ) : NULL;
+
 		messages_.push_back( new BWMessageInfo( filterLevel, dateStr, timeStr,
-								priorityStr, tempString.buffer_ ));
+								priorityStr, tempString.buffer_, NULL, NULL, NULL, groupKey ));
 		newMessages_ = true;
+
+		if ((filterLevel == MESSAGE_PRIORITY_NOTICE) ||
+			(filterLevel == MESSAGE_PRIORITY_WARNING))
+		{
+			BW::string groupStr;
+			const char* groupKey = groupedWarningKey( tempString.buffer_, groupStr );
+			noticeWarnList_[ groupKey ? BW::string( groupKey ) : BW::string( tempString.buffer_ ) ]++;
+		}
 	}
 
 	if (messagePriority == MESSAGE_PRIORITY_ERROR)
@@ -291,7 +347,6 @@ bool MsgHandler::handleMessage(
 	return false;
 }
 
-
 int MsgHandler::numAssetMsgs( const BW::string& msg )
 {
 	BW_GUARD;
@@ -299,6 +354,26 @@ int MsgHandler::numAssetMsgs( const BW::string& msg )
 	SimpleMutexHolder smh( mutex_ );
 
 	return (assetErrorList_.find( msg ) == assetErrorList_.end()) ? 0 : assetErrorList_[ msg ];
+}
+
+int MsgHandler::numInstances( const BW::string& msg )
+{
+	BW_GUARD;
+
+	SimpleMutexHolder smh( mutex_ );
+
+	int total = 0;
+	BW::map< BW::string, int >::const_iterator it = assetErrorList_.find( msg );
+	if (it != assetErrorList_.end())
+	{
+		total += it->second;
+	}
+	it = noticeWarnList_.find( msg );
+	if (it != noticeWarnList_.end())
+	{
+		total += it->second;
+	}
+	return total;
 }
 
 BW_END_NAMESPACE

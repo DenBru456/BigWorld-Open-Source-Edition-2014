@@ -18,12 +18,14 @@ class BWMessageInfo: public SafeReferenceCount
 {
 public:
 	BWMessageInfo( int priority, const char* dateStr, const char* timeStr, const char* priorityStr, const char* msgStr,
-		Chunk* chunk = NULL, ChunkItem* item = NULL, const char* stackTrace = NULL ):
+		Chunk* chunk = NULL, ChunkItem* item = NULL, const char* stackTrace = NULL,
+		const char* group = NULL ):
 	priority_(priority),
 	chunk_(chunk),
 	item_(item),
 	isItemHidden_( false ),
-	stackTrace_(NULL)
+	stackTrace_(NULL),
+	group_(NULL)
 	{
 		BW_GUARD;
 
@@ -41,6 +43,12 @@ public:
 
 		registerItem();
 
+		if (group)
+		{
+			group_ = new char[ strlen(group) + 1 ];
+			strcpy( group_, group );
+		}
+
 		if (stackTrace)
 		{
 			stackTrace_ = new char[ strlen(stackTrace) + 1 ];
@@ -57,6 +65,7 @@ public:
 		bw_safe_delete_array(priorityStr_);
 		bw_safe_delete_array(msgStr_);
 		bw_safe_delete_array(stackTrace_);
+		bw_safe_delete_array(group_);
 	}
 	int priority() { return priority_; }
 	const char* dateStr() { return dateStr_; }
@@ -67,6 +76,7 @@ public:
 	ChunkItem* item() { return isItemHidden_ ? NULL : item_; }
 	ChunkItem* realItem() { return item_; }
 	const char* stackTrace() { return stackTrace_; }
+	const char* group() { return group_; }
 	void deleteItem() { item_ = NULL; }
 	void hideSelf();
 	void displaySelf();
@@ -80,6 +90,7 @@ private:
 	Chunk* chunk_;
 	ChunkItem* item_;
 	char* stackTrace_;
+	char* group_;
 	bool isItemHidden_;
 
 	void registerItem();
@@ -112,7 +123,7 @@ public:
 	// returns a copy of the array because it's not a thread-safe vector
 	const BW::vector< BWMessageInfoPtr > messages() const;
 
-	bool addAssetErrorMessage( BW::string msg, Chunk* chunk = NULL, ChunkItem* item = NULL, const char * stacktrace = NULL );
+	bool addAssetErrorMessage( BW::string msg, Chunk* chunk = NULL, ChunkItem* item = NULL, const char * stacktrace = NULL, const char * group = NULL );
 
 	void removeAssetErrorMessages();
 		
@@ -122,6 +133,9 @@ public:
 		const char * pFormat, va_list argPtr );
 
 	int numAssetMsgs( const BW::string& msg );
+	int numInstances( const BW::string& msg );
+
+	void addGroupedNotice( BW::string msg, const char* group = NULL );
 
 private:
 	mutable SimpleMutex mutex_;
@@ -129,6 +143,7 @@ private:
 	bool newMessages_;
 	int numInfoMessages_;
 	BW::map< BW::string, int > assetErrorList_;
+	BW::map< BW::string, int > noticeWarnList_;
 	bool needsRedraw_;
 };
 

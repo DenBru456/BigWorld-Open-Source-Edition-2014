@@ -14,6 +14,8 @@
 #define IDC_MSG_LIST                    4010
 #define IDC_MSG_ASSETS                  4011
 #define IDC_SHADER_PROGRESS_BAR         4012
+#define IDC_MSG_TRACE                   4050
+#define IDC_MSG_DEBUG                   4051
 
 
 
