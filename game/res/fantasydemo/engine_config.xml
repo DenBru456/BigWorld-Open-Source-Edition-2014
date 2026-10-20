@@ -435,8 +435,14 @@ customise the behaviour of the BigWorld Client Engine. -->
 		<loggerID> 0 </loggerID>
 		
 		<file>  <!--if name is not set, then the executable_file_name.log will be used.-->
-			<enabled> false </enabled><!--if not set, then default as false-->
-			<openMode> a </openMode><!--possible value: "a"(append)  or "w"(overwrite), if not set, then default as "a"-->
+			<enabled> true </enabled><!--if not set, then default as false-->
+			<severity>	TRACE	</severity>
+			<severity>	DEBUG	</severity>
+			<severity>	INFO	</severity>
+			<severity>	NOTICE	</severity>
+			<severity>	WARNING	</severity>
+			<severity>	ERROR	</severity>
+			<openMode> w </openMode><!--possible value: "a"(append)  or "w"(overwrite), if not set, then default as "a"-->
 		</file>
 		<file> python.log <!--if name is not set,, then the executable_file_name.log will be used.-->
 			<enabled> false </enabled><!--f name is not set, then default as false-->
@@ -451,4 +457,5 @@ customise the behaviour of the BigWorld Client Engine. -->
 		</file>
 
 	</logging>
+	<printAutoDetect> true </printAutoDetect>
 </engine_config.xml>
