@@ -678,13 +678,95 @@ GraphicsSettingsAutoDetector::SystemPerformance GraphicsSettingsAutoDetector::de
 	
 	//	Check by video card model.
 	//	Note: now works only for Nvidia GPUs
-	const Moo::DeviceInfo& di = rc().deviceInfo( 0 );
-	if(di.identifier_.VendorId == 0x10DE) // NVIDIA
-		quality = max(quality, CheckNvidiaGPUId(di.identifier_.Description)); 
-	else if(di.identifier_.VendorId == 0x1002) // ATI
-		quality = max(quality, CheckAtiGPUId(di.identifier_.Description)); 
-	else if(di.identifier_.VendorId == 0x8086) // Intel
-		quality = max(quality, CheckIntelGPUId(di.identifier_.Description)); 
+	const Moo::DeviceInfo& di = rc().deviceInfo(0);
+	Vendors vendor = VENDOR_COUNT;
+	if (di.identifier_.VendorId == 0x10DE) // NVIDIA
+		vendor = NVIDIA;
+	else if (di.identifier_.VendorId == 0x1002) // ATI
+		vendor = ATI;
+	else if (di.identifier_.VendorId == 0x8086) // Intel
+		vendor = INTEL;
+
+	// Names are only tiered by the tables when they follow
+	// a scheme the tables know: a table prefix somewhere in the description,
+	// then only check-grammar markers (X/HD for ATI, HD/GMA for Intel) before
+	// the model number. Modern sub-brands ("Radeon RX 470" -> 470,
+	// "GeForce RTX 3080" -> 3080) used to yield a bogus number that failed
+	// every group bar and forced MIN, overriding the capability checks.
+	bool knownLegacyName = false;
+	if (vendor != VENDOR_COUNT)
+	{
+		const char* description = di.identifier_.Description;
+		for (int level = 0; level < PERF_LEVEL_COUNT && !knownLegacyName; ++level)
+		{
+			const DeviceInfo& info = bounds[level].deviceInfo[vendor];
+			if (!info.need_check || info.prefix.empty())
+				continue;
+			const char* prefix = info.prefix.c_str();
+			for (const char* at = description; !knownLegacyName && *at != '\0'; ++at)
+			{
+				int i = 0;
+				while (prefix[i] != '\0' && at[i] != '\0')
+				{
+					char a = at[i];
+					char b = prefix[i];
+					if (a >= 'A' && a <= 'Z') a = (char)(a - 'A' + 'a');
+					if (b >= 'A' && b <= 'Z') b = (char)(b - 'A' + 'a');
+					if (a != b)
+						break;
+					++i;
+				}
+				if (at != description && at[-1] != ' ')
+					continue;
+				if (at[i] != '\0' && at[i] != ' ')
+					continue;
+				const char* token = at + i;
+				for (;;)
+				{
+					while (*token == ' ')
+						++token;
+					if (*token == '\0')
+						break;
+					const char* space = strchr(token, ' ');
+					const char* p = token;
+					int marker = 0;
+					if (vendor == ATI && p[0] == 'X')
+						marker = 1; // "X1950" / "X 300"
+					else if (p[0] == 'H' && p[1] == 'D')
+						marker = 2; // "HD4870" / "HD 4870"
+					else if (vendor == INTEL && p[0] == 'G' && p[1] == 'M' && p[2] == 'A')
+						marker = 3; // "GMA3100" / "GMA 3100"
+					p += marker;
+					if (*p >= '0' && *p <= '9')
+					{
+						knownLegacyName = true; // model number reached
+						break;
+					}
+					if (marker == 0 || space == NULL)
+						break; // unknown sub-brand token ("RX", "GTX", "RTX", "(TM)", ...)
+					token = space + 1;
+				}
+			}
+		}
+	}
+
+	if (knownLegacyName)
+	{
+		switch (vendor)
+		{
+		case NVIDIA:
+			quality = max(quality, CheckNvidiaGPUId(di.identifier_.Description));
+			break;
+		case ATI:
+			quality = max(quality, CheckAtiGPUId(di.identifier_.Description));
+			break;
+		case INTEL:
+			quality = max(quality, CheckIntelGPUId(di.identifier_.Description));
+			break;
+		default:
+			break;
+		}
+	}
 	qualitiesAfterEachParameter[indexForQualities++] = quality;
 	
 	INFO_MSG( "Performance detected as %u\n", (UINT)quality );
