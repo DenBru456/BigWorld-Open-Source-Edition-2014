@@ -908,7 +908,6 @@ BW_BLOB_SOURCES( BLOB_SRCS
     )
 
 BW_ADD_TOOL_EXE( worldeditor worldeditor WIN32 ${BLOB_SRCS} )
-BW_APPEND_LINK_FLAGS( worldeditor "/LARGEADDRESSAWARE" )
 BW_TARGET_LINK_LIBRARIES( worldeditor
     appmgr
     chunk
