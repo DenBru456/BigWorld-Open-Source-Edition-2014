@@ -227,9 +227,12 @@ bool PageMessages::addItem( BWMessageInfoPtr message )
 	bool subItem = true;
 	int index = 0;
 	const int msgPriority = message->priority();
+	// Repeated identical ERRORs fold as well (e.g. the throttled
+	// "Memory is Low" message, one row per 5 seconds of low memory).
 	const bool groupable = (msgPriority == MESSAGE_PRIORITY_ASSET) ||
 		(msgPriority == MESSAGE_PRIORITY_NOTICE) ||
-		(msgPriority == MESSAGE_PRIORITY_WARNING);
+		(msgPriority == MESSAGE_PRIORITY_WARNING) ||
+		(msgPriority == MESSAGE_PRIORITY_ERROR);
 	int numInst = MsgHandler::instance().numInstances( key );
 	if ((numInst > 0) && groupable)
 	{

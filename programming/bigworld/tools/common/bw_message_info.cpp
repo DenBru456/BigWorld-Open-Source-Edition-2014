@@ -330,8 +330,10 @@ bool MsgHandler::handleMessage(
 								priorityStr, tempString.buffer_, NULL, NULL, NULL, groupKey ));
 		newMessages_ = true;
 
+		// count ERRORs too: identical repeated errors fold into one entry
 		if ((filterLevel == MESSAGE_PRIORITY_NOTICE) ||
-			(filterLevel == MESSAGE_PRIORITY_WARNING))
+			(filterLevel == MESSAGE_PRIORITY_WARNING) ||
+			(filterLevel == MESSAGE_PRIORITY_ERROR))
 		{
 			BW::string groupStr;
 			const char* groupKey = groupedWarningKey( tempString.buffer_, groupStr );

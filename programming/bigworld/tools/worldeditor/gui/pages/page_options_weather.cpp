@@ -588,6 +588,33 @@ END_MESSAGE_MAP()
 
 	if (pageReady_)
 	{
+		// MFC sends degenerate WM_SIZE(1,1)
+		// events while the page is HIDDEN (the window is resized while a
+		// different tab is active) - see the same quirk noted in
+		// PageChunkTexture::OnSize. With a degenerate cy the stretch math
+		// below would compute a NEGATIVE height and collapse the property
+		// list to a sliver, and nothing would re-layout it later because
+		// OnUpdateControls early-returns while the page is hidden.
+		if (cx <= 1 && cy <= 1)
+		{
+			return;
+		}
+
+		// capture the template rect once - at the
+		// first real layout the control still sits at its dialog-template
+		// position - so the list can never be stretched BELOW its designed
+		// size, even if GetTotalSize() under-reports or the window shrinks.
+		static CRect s_listTemplate;
+		static bool  s_haveListTemplate = false;
+		CRect listRect;
+		propertyList()->GetWindowRect( &listRect );
+		ScreenToClient( &listRect );
+		if (!s_haveListTemplate)
+		{
+			s_listTemplate = listRect;
+			s_haveListTemplate = true;
+		}
+
 		// totalSize is the size of the form as designed in the resource editor
 		CSize totalSize = GetTotalSize();
 
@@ -595,10 +622,13 @@ END_MESSAGE_MAP()
 		cx = max( cx, (int)totalSize.cx );
 		cy = max( cy, (int)totalSize.cy );	
 
-		Utilities::stretchToBottomRight(
-			this, *propertyList(),
-			cx, 12,
-			cy, 5 );
+		// same stretch as Utilities::stretchToBottomRight,
+		// but floored at the template size
+		const int width  = max( cx - (int)listRect.left - 12, (int)s_listTemplate.Width() );
+		const int height = max( cy - (int)listRect.top  -  5, (int)s_listTemplate.Height() );
+		propertyList()->SetWindowPos(
+			NULL, listRect.left, listRect.top,
+			width, height, SWP_NOZORDER );
 
 		WeatherSettingsTable::OnSize( nType, cx, cy );
 	}
@@ -667,6 +697,30 @@ BOOL PageOptionsWeather::OnToolTipText(UINT, NMHDR* pNMHDR, LRESULT *result)
 		InitPage();
 		pageReady_ = true;		
 		SetRedraw();
+
+		// [WEATHER-LAYOUT-FIX] The initial WM_SIZE arrives while pageReady_ is
+		// still false, so OnSize skipped the layout and the controls kept their
+		// dialog-template positions. No WM_SIZE is generated after the page
+		// becomes ready, so the page stays broken until it is manually resized.
+		// Replay a WM_SIZE with the current client size to lay everything out.
+		CRect rc;
+		GetClientRect( &rc );
+		SendMessage( WM_SIZE, 0, MAKELPARAM( rc.Width(), rc.Height() ) );
+	}
+
+	// Replay the layout whenever the page is visible and its client size
+	// changed since the last pass: WM_SIZE keeps firing while the page is
+	// hidden, so opening the Weather tab must always heal the layout.
+	{
+		CRect rc;
+		GetClientRect( &rc );
+		static CSize s_lastLayout( -1, -1 );
+		if (rc.Width() != s_lastLayout.cx || rc.Height() != s_lastLayout.cy)
+		{
+			s_lastLayout.cx = rc.Width();
+			s_lastLayout.cy = rc.Height();
+			SendMessage( WM_SIZE, 0, MAKELPARAM( rc.Width(), rc.Height() ) );
+		}
 	}
 
     SendMessageToDescendants
