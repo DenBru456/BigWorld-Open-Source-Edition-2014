@@ -723,35 +723,6 @@ bool VeryLargeObject::isObjectCreated() const
 }
 
 
-/**
- *	This method returns the list of references to this VLO.
- */
-VeryLargeObject::ChunkItemList VeryLargeObject::chunkItems() const
-{
-	SimpleMutexHolder holder( s_itemListMutex );
-	return itemList_;
-}
-
-
-/**
- *	Returns a snapshot of every unique VLO currently instantiated.
- */
-BW::vector< VeryLargeObjectPtr > VeryLargeObject::allUniqueObjects()
-{
-	SimpleMutexHolder smh( s_uniqueObjectsMutex_ );
-	BW::vector< VeryLargeObjectPtr > objects;
-	UniqueObjectList::iterator it = s_uniqueObjects_.begin();
-	while (it != s_uniqueObjects_.end())
-	{
-		if (it->second.exists())
-		{
-			objects.push_back( it->second );
-		}
-		++it;
-	}
-	return objects;
-}
-
 
 /**
  *	Generate a unique id for a VLO
@@ -768,6 +739,35 @@ BW::string VeryLargeObject::generateUID()
 
 
 #endif //EDITOR_ENABLED
+
+/**
+ *	This method returns the list of references to this VLO.
+ */
+VeryLargeObject::ChunkItemList VeryLargeObject::chunkItems() const
+{
+	SimpleMutexHolder holder(s_itemListMutex);
+	return itemList_;
+}
+
+
+/**
+ *	Returns a snapshot of every unique VLO currently instantiated.
+ */
+BW::vector< VeryLargeObjectPtr > VeryLargeObject::allUniqueObjects()
+{
+	SimpleMutexHolder smh(s_uniqueObjectsMutex_);
+	BW::vector< VeryLargeObjectPtr > objects;
+	UniqueObjectList::iterator it = s_uniqueObjects_.begin();
+	while (it != s_uniqueObjects_.end())
+	{
+		if (it->second.exists())
+		{
+			objects.push_back(it->second);
+		}
+		++it;
+	}
+	return objects;
+}
 
 
 /**

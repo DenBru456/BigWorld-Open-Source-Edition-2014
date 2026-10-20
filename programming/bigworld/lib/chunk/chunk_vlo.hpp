@@ -83,13 +83,6 @@ public:
 
 	MetaData::MetaData& metaData() { return metaData_; }
 
-	ChunkItemList chunkItems() const;
-
-	/**
-	 *	Returns a snapshot of every unique VLO currently instantiated.
-	 */
-	static BW::vector< VeryLargeObjectPtr > allUniqueObjects();
-
 	virtual bool visibleInside() const { return true; }
 
 	virtual bool visibleOutside() const { return true; }
@@ -175,6 +168,14 @@ public:
 	virtual void syncInit(ChunkVLO* pVLO) {}
 
 	static void tickAll( float dTime );
+
+	ChunkItemList chunkItems() const;
+
+	/**
+	 *	Returns a snapshot of every unique VLO currently instantiated.
+	 */
+	static BW::vector< VeryLargeObjectPtr > allUniqueObjects();
+
 protected:
 	static UniqueObjectList s_uniqueObjects_;
 	friend class EditorChunkVLO;
