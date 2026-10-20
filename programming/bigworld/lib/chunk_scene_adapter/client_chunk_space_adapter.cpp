@@ -828,6 +828,23 @@ void ClientChunkSpaceAdapter::SceneProvider::updateDivisionConfig(
 	float& divisionSize)
 {
 	divisionSize = pChunkSpace_->gridSize();
+
+	// Union the mapping settings bounds with the bounds of the chunk
+	// cells that actually exist in the space. Terrain can extend beyond
+	// the settings bounds; deriving the semi shadow division layout from
+	// the settings alone locks the semi coverage window to them.
+	GridChunkMap& gcm = pChunkSpace_->gridChunks();
+	for (GridChunkMap::iterator it = gcm.begin(); it != gcm.end(); ++it)
+	{
+		if (it->second.empty())
+			continue;
+
+		bounds.max_.x = std::max(bounds.max_.x, it->first.first);
+		bounds.max_.y = std::max(bounds.max_.y, it->first.second);
+		bounds.min_.x = std::min(bounds.min_.x, it->first.first);
+		bounds.min_.y = std::min(bounds.min_.y, it->first.second);
+	}
+
 	bounds.max_.x = std::max(bounds.max_.x, pChunkSpace_->maxGridX());
 	bounds.max_.y = std::max(bounds.max_.y, pChunkSpace_->maxGridY());
 	bounds.min_.x = std::min(bounds.min_.x, pChunkSpace_->minGridX());

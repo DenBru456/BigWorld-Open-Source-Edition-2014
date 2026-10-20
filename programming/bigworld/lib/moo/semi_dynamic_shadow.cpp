@@ -36,6 +36,9 @@
 #include "romp/sun_and_moon.hpp"
 
 #include "duplo/pymodel.hpp"
+#include "moo/geometrics.hpp"
+#include "moo/custom_mesh.hpp"
+#include "moo/material.hpp"
 
 
 BW_BEGIN_NAMESPACE
@@ -110,13 +113,21 @@ namespace
 
     /// It is used in the calculation of division crop-matrixs.
     /// Now for all the divisions used one and same limits visibility.
+    /// The z-slab must span the whole space along the sun direction.
+    /// Vanilla's origin-anchored 3000 m slab mapped every receiver with
+    /// dot(P, sunDir) > +1500 m to z > 1 (forced shadowed - solid cyan
+    /// on clear terrain) and everything with dot(P, sunDir) < -1500 m
+    /// to z < 0 (never shadowed). 100 km covers any OSE space (up to
+    /// ~70 km across the diagonal), origin-anchored as before.
+    /// NOTE: the terrain caster bias in semi_terrain2_cast.fx is in crop
+    /// units and must stay ~30 world metres: 30 / 100000 = 0.0003.
     const float g_cropZn = 0.f; // can be used unnecessarily 0.f orthogonal
                                 // projection
-    const float g_cropZf = 3000.f;
+    const float g_cropZf = 100000.f;
 
     /// It is used in the calculation of the matrix view-sun,
     /// the distance of the sun from the center of the world.
-    const float g_lightDist = 1500.f;
+    const float g_lightDist = 50000.f;
 
     /// Time at which the divisions redraw the shadow of the request for renewal.
     float g_divisionUpdateTime = 2.f;
@@ -129,6 +140,15 @@ namespace
     bool g_updateTerrainOnly = true;
 
     int g_updatePerimeter = 2; // 3;
+
+    /// How far beyond a division's bounds the caster cull reaches, in
+    /// metres. Casters just outside a division (trees, rocks, relief on
+    /// the neighbouring slope) must render into this division's slot or
+    /// their shadows leak away at the division edge. The crop is widened
+    /// by this margin, which also slightly coarsens the slot's texels.
+    /// Takes effect when a division re-binds its crop (TOD scrub, camera
+    /// coverage crossing, chunk edits).
+    float g_casterMargin = 100.f;
 
     /// The minimum number of SceneObjects to be drawn in a single frame
     /// When updating the shadows.
@@ -184,6 +204,58 @@ enum CUQ_FLAGS
 //-----------------------------------------------------------------------------
 namespace 
 {
+    // Debug-only helper for drawDebugInfo: the indirection TC map stores
+    // byte values (slot coordinates 0..16, quality 0..1) so the raw blit is
+    // always near-black. Boost it 16x with four fixed-function MODULATE2X
+    // stages so the values become visible. No shaders involved.
+    void _drawDebugTexturedRect16x( const Vector2& topLeft, 
+        const Vector2& bottomRight, DX::BaseTexture* texture, 
+        bool alphaReplicate = false )
+    {
+        BW_GUARD;
+
+        Moo::RenderContext& rc = Moo::rc();
+        if (rc.device() == NULL)
+            return;
+
+        rc.setRenderState( D3DRS_ALPHATESTENABLE, FALSE );
+        rc.setRenderState( D3DRS_ALPHABLENDENABLE, FALSE );
+        rc.setRenderState( D3DRS_DESTBLEND, D3DBLEND_ZERO );
+        rc.setRenderState( D3DRS_SRCBLEND, D3DBLEND_ONE );
+        rc.setRenderState( D3DRS_LIGHTING, FALSE );
+        rc.setRenderState( D3DRS_FOGENABLE, FALSE );
+        rc.setRenderState( D3DRS_ZENABLE, FALSE );
+        rc.setRenderState( D3DRS_ZWRITEENABLE, FALSE );
+
+        rc.setRenderState( D3DRS_TEXTUREFACTOR, 0xFFFFFFFF );
+        rc.setTexture( 0, texture );
+
+        // 16x boost: 4 MODULATE2X stages against the white texture factor.
+        DWORD arg1 = D3DTA_TEXTURE | (alphaReplicate ? D3DTA_ALPHAREPLICATE : 0);
+        rc.setTextureStageState( 0, D3DTSS_COLOROP,  D3DTOP_MODULATE2X );
+        rc.setTextureStageState( 0, D3DTSS_COLORARG1, arg1 );
+        rc.setTextureStageState( 0, D3DTSS_COLORARG2, D3DTA_TFACTOR );
+        rc.setTextureStageState( 0, D3DTSS_ALPHAOP, D3DTOP_DISABLE );
+        for (DWORD stage = 1; stage <= 3; ++stage)
+        {
+            rc.setTextureStageState( stage, D3DTSS_COLOROP,  D3DTOP_MODULATE2X );
+            rc.setTextureStageState( stage, D3DTSS_COLORARG1, D3DTA_CURRENT );
+            rc.setTextureStageState( stage, D3DTSS_COLORARG2, D3DTA_TFACTOR );
+            rc.setTextureStageState( stage, D3DTSS_ALPHAOP, D3DTOP_DISABLE );
+        }
+        rc.setTextureStageState( 4, D3DTSS_COLOROP, D3DTOP_DISABLE );
+        rc.setTextureStageState( 4, D3DTSS_ALPHAOP, D3DTOP_DISABLE );
+
+        CustomMesh< Moo::VertexTLUV > mesh( D3DPT_TRIANGLESTRIP );
+        Geometrics::createRectMesh( topLeft, bottomRight, 
+            Moo::Colour(1.f, 1.f, 1.f, 1.f), false, mesh );
+        mesh.draw();
+
+        // Restore a sane fixed function state for the rest of the frame.
+        Moo::Material::setVertexColour();
+        rc.setTexture( 0, NULL );
+    }
+
    //----------------------------------------------------------------------------------------------
     // Calculate data divisions need for casting.
     // As long as it's only crop-matrix.
@@ -195,6 +267,9 @@ namespace
         MF_ASSERT( !divisionBounds.insideOut() );
 
         BoundingBox bb = divisionBounds;
+        // Widen the crop so casters outside the division still land in
+        // this slot; without this their shadows stop at the division edge.
+        bb.expandSymmetrically( Vector3( g_casterMargin, 0.f, g_casterMargin ) );
         bb.transformBy(sunViewMatrix);
 
         Matrix translate;
@@ -1431,15 +1506,20 @@ private:
             Moo::rc().pop();
         }
 
-#if SPEEDTREE_SUPPORT
-        // Now render all objects as well
+        // Now render all objects as well.
+        // NOTE: this pass must NOT be compiled out when there is no
+        // SpeedTree support: only the tree frame setup below needs it.
+        // Without this pass static objects never reach the semi atlas
+        // and the division renderer never completes its update.
         if (m_updateData.updateFlags & UI_OBJECTS &&
             m_castingObjects.numObjects() > 0)
         {
+#if SPEEDTREE_SUPPORT
             EnviroMinder* em = &DeprecatedSpaceHelpers::cameraSpace()->enviro();
             speedtree::SpeedTreeRenderer::beginFrame( em, 
                 Moo::RENDERING_PASS_SHADOWS, Moo::rc().view()); // lod camera is not used
             float oldTreeLodeMode = speedtree::SpeedTreeRenderer::lodMode( 1.0f );
+#endif
 
             Moo::rc().pushRenderState( D3DRS_COLORWRITEENABLE );
             Moo::rc().setWriteMask( 0, D3DCOLORWRITEENABLE_GREEN );
@@ -1499,8 +1579,10 @@ private:
             drawContext.end( Moo::DrawContext::OPAQUE_CHANNEL_MASK );
             drawContext.flush( Moo::DrawContext::OPAQUE_CHANNEL_MASK );
 
+#if SPEEDTREE_SUPPORT
             speedtree::SpeedTreeRenderer::endFrame();
             speedtree::SpeedTreeRenderer::lodMode(oldTreeLodeMode);
+#endif
 
             Moo::rc().popRenderState();
 
@@ -1514,7 +1596,6 @@ private:
         {
             m_state |= CastItems;
         }
-#endif // SPEEDTREE_SUPPORT
 
         PyStickerModel::s_enabledDrawing = true;
 
@@ -1900,14 +1981,13 @@ bool SemiDynamicShadow::Impl::updateConfig()
         requiresReset = true;
     }
 
-    if (!requiresReset && !m_recentLoadEvent)
-    {
-        // No changes required
-        return true;
-    }
-
-    // Now to query the layout of the divisions in this space 
-    // (possible load event changed it).
+    // Now to query the layout of the divisions in this space.
+    // Chunk-based spaces never send ChangeSceneView notifications, so
+    // m_recentLoadEvent cannot be relied on to learn that the loaded
+    // grid grew - the coverage window then stays locked to the bounds
+    // known at the first bind. The query is a couple of cheap provider
+    // reads, so re-check the live configuration every frame instead
+    // and rebuild the arrangement whenever the grid bounds change.
     m_pShadowView = 
         cs->scene().getView<Moo::SemiDynamicShadowSceneView>();
 
@@ -1922,12 +2002,31 @@ bool SemiDynamicShadow::Impl::updateConfig()
     {
         m_divisionSize = divisionSize;
 
-        // Check if the new builds require a rearrangement of the shadow maps
+        // Rebuild the arrangement only when the live bounds EXPAND past
+        // what the arrangement already covers, and pad the new bounds so
+        // a streaming frontier does not trigger a rebuild (and the atlas
+        // wipe that goes with it) every time a chunk binds at a new
+        // extreme. Shrinking (chunks unbinding at the frontier) is
+        // deliberately ignored: divisions without data simply do not
+        // bind.
+        const int pad = int(m_coveredAreaSize / 2);
+        bounds.min_.x -= pad;
+        bounds.min_.y -= pad;
+        bounds.max_.x += pad;
+        bounds.max_.y += pad;
+
         divisionArrangementChanged = 
-            (m_worldDivisionArrangement.max().x != bounds.max_.x ||
-            m_worldDivisionArrangement.max().y != bounds.max_.y ||
-            m_worldDivisionArrangement.min().x != bounds.min_.x ||
-            m_worldDivisionArrangement.min().y != bounds.min_.y);
+            (bounds.max_.x > m_worldDivisionArrangement.max().x ||
+            bounds.max_.y > m_worldDivisionArrangement.max().y ||
+            bounds.min_.x < m_worldDivisionArrangement.min().x ||
+            bounds.min_.y < m_worldDivisionArrangement.min().y);
+    }
+
+    if (configurationValid && !requiresReset && !m_recentLoadEvent && 
+        !divisionArrangementChanged)
+    {
+        // No changes required
+        return true;
     }
 
     if (requiresReset || divisionArrangementChanged)
@@ -2805,6 +2904,9 @@ namespace Moo {
             MF_WATCH("Render/Shadows/UpdateDivisionMaxFrames",
                 g_updateDivisionMaxFrames, Watcher::WT_READ_WRITE,
                 "Max frames count for update division.");
+            MF_WATCH("Render/Shadows/Semi/CasterMargin",
+                g_casterMargin, Watcher::WT_READ_WRITE,
+                "Caster cull margin beyond division bounds (metres).");
         }
     }
 
@@ -3029,9 +3131,14 @@ namespace Moo {
 
         Moo::drawDebugTexturedRect(Vector2(300.f, 0.f), Vector2(500.f, 200.f),
             m_impl->m_shadowMapRT->pTexture());
-        Moo::drawDebugTexturedRect(Vector2(300.f, 200.f), Vector2(400.f, 300.f),
+        // The TC map bytes carry (A: slot x, R: slot y, G: quality, B: 0).
+        // Show RGB 16x-boosted (left) and the alpha channel, i.e. slot x,
+        // replicated into grey (right). Both read 0..16 as black..bright.
+        _drawDebugTexturedRect16x(Vector2(300.f, 200.f), Vector2(400.f, 300.f),
             m_impl->m_indirectionMapTcPtr->pTexture());
-        Moo::drawDebugTexturedRect(Vector2(400.f, 200.f), Vector2(500.f, 300.f),
+        _drawDebugTexturedRect16x(Vector2(400.f, 200.f), Vector2(500.f, 300.f),
+            m_impl->m_indirectionMapTcPtr->pTexture(), true);
+        Moo::drawDebugTexturedRect(Vector2(500.f, 200.f), Vector2(600.f, 300.f),
             m_impl->m_indirectionMapProjPtr->pTexture());
     }
 
