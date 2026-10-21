@@ -1608,7 +1608,7 @@ void dumpRefs()
 		PyObject * pReferee = it->first;
 		PyObject * pRefereeStr = PyObject_Str( pReferee );
 		fprintf( f, "References to object at 0x%p type %s "
-				"aka '%s' (found %d/%d):\n",
+				"aka '%s' (found %Iu/%Id):\n",
 			pReferee, pReferee->ob_type->tp_name,
 			PyString_AsString( pRefereeStr ),
 			it->second.size(), pReferee->ob_refcnt );

@@ -92,6 +92,20 @@ namespace Moo
 			return (bLockable && bParamMatch);
 		}
 
+		/**
+		 *	This function returns true if the format is a DX9 block-compressed
+		 *	format. Block compression requires power-of-two surfaces on DX9
+		 *	class hardware.
+		 */
+		bool	isBlockCompressedFormat(D3DFORMAT format)
+		{
+			return format == D3DFMT_DXT1 ||
+				format == D3DFMT_DXT2 ||
+				format == D3DFMT_DXT3 ||
+				format == D3DFMT_DXT4 ||
+				format == D3DFMT_DXT5;
+		}
+
 #if ENABLE_NVTT
 		/**
 		*	This function converts source texture to in-memory dds file using
@@ -111,7 +125,9 @@ namespace Moo
 		BinaryPtr compressToMemoryNVTT(
 			const BW::string& srcTextureName,
 			const SmartPointer<TextureDetailLevel>& dstInfo,
-			D3DFORMAT format)
+			D3DFORMAT format,
+			bool effNoResize,
+			uint effMipCount)
 		{
 			BW_GUARD;
 
@@ -176,7 +192,7 @@ namespace Moo
 				inputOptions.setMaxExtents(dstInfo->maxExtent());
 			}
 
-			if (!dstInfo->noResize())
+			if (!effNoResize)
 			{
 				// upscale to the next power of 2 to support old hardware
 				inputOptions.setRoundMode(nvtt::RoundMode_ToNextPowerOfTwo);
@@ -240,7 +256,7 @@ namespace Moo
 
 			// get desired number of mip levels
 			// it might be too big, we still need to calculate real number
-			int numMips = (int)dstInfo->mipCount();
+			int numMips = (int)effMipCount;
 			if (dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_NO_MIPMAPS)
 			{
 				inputOptions.setTextureLayout(nvtt::TextureType_2D, srcInfo.Width,
@@ -397,19 +413,33 @@ namespace Moo
 
 #endif // CONSUMER_CLIENT_BUILD
 		/**
-		 *	This function loads texture using d3dx functionality
-		 *  It supports prebaked horizontal or vertical mipmaps
+		 *	This function loads a texture using d3dx functionality.
+		 *
+		 *	The shape of the source decides the path:
+		 *
+		 *	1. A plain single image (sourceMipmaps() == SOURCE_NO_MIPMAPS).
+		 *	   The image is mip 0 and any further levels are generated from
+		 *	   it. noResize() keeps it at native dimensions; otherwise it
+		 *	   is scaled to the nearest power of two first. mipCount() == 0
+		 *	   means "full mip chain" - the same convention the nvtt path
+		 *	   uses.
+		 *
+		 *	2. A prebaked mipchain stacked into one image (SOURCE_HORIZONTAL_MIPMAPS
+		 *	   / SOURCE_VERTICAL_MIPMAPS). The levels are sliced out at native
+		 *	   dimensions; nothing is generated or filtered.
 		 *
 		 *	@param	string	Texture name
 		 *	@param	TextureDetailLevel	Texture detail level
-		*	@param	output uint	number of mipmaps
+		 *	@param	output uint	number of mipmaps
 		 *
 		 *	@return DX::Texture
 		 */
 		ComObjectWrap<DX::Texture> loadD3DXTexture(
 			const BW::string& srcTextureName,
 			const SmartPointer<TextureDetailLevel>& dstInfo,
-			uint* pNumMips)
+			uint* pNumMips,
+			bool effNoResize,
+			uint effMipCount)
 		{
 			BW_GUARD;
 
@@ -420,115 +450,297 @@ namespace Moo
 
 			*pNumMips = 0;
 			// failed to read texture data
-			BinaryPtr inputBin = BWResource::instance().rootSection()->readBinary(srcTextureName);
+			BinaryPtr inputBin =
+				BWResource::instance().rootSection()->readBinary(srcTextureName);
 			if (!inputBin)
 			{
+				ASSET_MSG("loadD3DXTexture - could not read texture data %s\n",
+					srcTextureName.c_str());
 				return NULL;
 			}
 
-			ComObjectWrap<DX::Texture> outputTexture;
-			if (dstInfo->mipCount() == 0 && !dstInfo->noResize())
+			// Load the source at its NATIVE dimensions. noResize handling and
+			// level slicing both need the true image size, so the pow2 scaling
+			// D3DX applies with D3DX_DEFAULT dims must not happen here. Plain
+			// images that are allowed to resize are reloaded at pow2 dims below.
+			ComObjectWrap<DX::Texture> tex = rc().createTextureFromFileInMemoryEx(
+				inputBin->data(), inputBin->len(),
+				D3DX_DEFAULT_NONPOW2, D3DX_DEFAULT_NONPOW2, 1, 0, D3DFMT_A8R8G8B8,
+				D3DPOOL_SCRATCH, D3DX_FILTER_NONE, D3DX_FILTER_NONE, 0, NULL, NULL);
+			if (!tex.hasComObject())
 			{
-				// Create the texture and the mipmaps.
-				outputTexture = rc().createTextureFromFileInMemoryEx(
-					inputBin->data(), inputBin->len(),
-					D3DX_DEFAULT, D3DX_DEFAULT, D3DX_DEFAULT, 0, D3DFMT_A8R8G8B8,
-					D3DPOOL_SYSTEMMEM, D3DX_FILTER_BOX | D3DX_FILTER_MIRROR,
-					D3DX_FILTER_BOX | D3DX_FILTER_MIRROR, 0, NULL, NULL);
+				ASSET_MSG("loadD3DXTexture - failed to load source texture %s\n",
+					srcTextureName.c_str());
+				return NULL;
 			}
-			else
+
+			D3DSURFACE_DESC desc;
+			HRESULT hr = tex->GetLevelDesc(0, &desc);
+			if (FAILED(hr))
 			{
-				// create temporary texture and process horizontal or vertical mipmaps
-				ComObjectWrap<DX::Texture> tex = rc().createTextureFromFileInMemoryEx(
-					inputBin->data(), inputBin->len(),
-					D3DX_DEFAULT, D3DX_DEFAULT, 1, 0, D3DFMT_A8R8G8B8,
-					D3DPOOL_SCRATCH, D3DX_FILTER_NONE, D3DX_FILTER_NONE, 0, NULL, NULL);
+				ASSET_MSG("loadD3DXTexture - failed to get level description "
+					"for %s (hr=0x%x)\n", srcTextureName.c_str(), uint32(hr));
+				return NULL;
+			}
 
-				if (tex)
+			uint32 width = desc.Width;
+			uint32 height = desc.Height;
+
+			if (dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_NO_MIPMAPS)
+			{
+				// Plain single image source. It must never go through the
+				// prebaked chain slicer: the legacy code fell into it for any
+				// noResize / explicit mipCount rule, halved the image height,
+				// copied zero pixels once the level count guard
+				// (realMipCount < mipCount(), 0 < 0) went false, and saved an
+				// empty black half-height dds product.
+				if (!effNoResize &&
+					((width & (width - 1)) != 0 || (height & (height - 1)) != 0))
 				{
-					D3DSURFACE_DESC desc;
-					tex->GetLevelDesc(0, &desc);
-
-					uint32 width = desc.Width;
-					uint32 height = desc.Height;
-					uint32 newWidth = width;
-					uint32 newHeight = height;
-					uint32 mipBase = dstInfo->mipSize();
-
-					if (dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_HORIZONTAL_MIPMAPS)
+					// Resize to the nearest power of two, same policy the
+					// nvtt path applies to non-noResize rules.
+					tex = rc().createTextureFromFileInMemoryEx(
+						inputBin->data(), inputBin->len(),
+						D3DX_DEFAULT, D3DX_DEFAULT, 1, 0, D3DFMT_A8R8G8B8,
+						D3DPOOL_SCRATCH, D3DX_FILTER_BOX | D3DX_FILTER_MIRROR,
+						D3DX_FILTER_BOX | D3DX_FILTER_MIRROR, 0, NULL, NULL);
+					if (!tex.hasComObject())
 					{
-						newWidth = mipBase != 0
-							? mipBase
-							: newWidth / 2;
-						mipBase = newWidth;
+						ASSET_MSG("loadD3DXTexture - failed to load source "
+							"texture %s for pow2 resize\n",
+							srcTextureName.c_str());
+						return NULL;
 					}
-					else
+					hr = tex->GetLevelDesc(0, &desc);
+					if (FAILED(hr))
 					{
-						newHeight = mipBase != 0
-							? mipBase
-							: newHeight / 2;
-						mipBase = newHeight;
+						ASSET_MSG("loadD3DXTexture - failed to get level "
+							"description for %s (hr=0x%x)\n",
+							srcTextureName.c_str(), uint32(hr));
+						return NULL;
 					}
+					width = desc.Width;
+					height = desc.Height;
+				}
 
-					uint32 realMipCount = 0;
-					uint32 levelWidth = newWidth;
-					uint32 levelHeight = newHeight;
-					uint32 levelOffset = 0;
-					uint32 levelSize = mipBase;
-					uint32 levelMax =
-						dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_HORIZONTAL_MIPMAPS ? width : height;
-					uint32 mipCount = dstInfo->mipCount() > 0 ? dstInfo->mipCount() : 0xffffffff;
-					while (levelWidth > 0 &&
-						levelHeight > 0 &&
-						realMipCount < dstInfo->mipCount() &&
-						(levelSize + levelOffset) <= levelMax)
+				// How many mip levels the product carries: the explicit
+				// mipCount(), or the full chain for this size. mipCount() == 0
+				// means full chain - the nvtt path convention.
+				uint32 chainLength = (uint32)calcMipChainLength(width, height);
+				uint32 numMips = effMipCount > 0
+					? effMipCount
+					: chainLength;
+				// ... and never longer than the top level allows.
+				if (numMips > chainLength)
+				{
+					numMips = chainLength;
+				}
+
+				ComObjectWrap<DX::Texture> outputTexture =
+					rc().createTexture(width, height, numMips, 0,
+						D3DFMT_A8R8G8B8, D3DPOOL_SCRATCH);
+				if (!outputTexture.hasComObject())
+				{
+					ASSET_MSG("loadD3DXTexture - failed to create %ux%u %u level "
+						"destination texture for %s\n",
+						width, height, numMips, srcTextureName.c_str());
+					return NULL;
+				}
+
+				DX::Surface* pSurfSrc = NULL;
+				hr = tex->GetSurfaceLevel(0, &pSurfSrc);
+				if (FAILED(hr) || !pSurfSrc)
+				{
+					ASSET_MSG("loadD3DXTexture - failed to get source surface "
+						"level 0 of %s (hr=0x%x)\n",
+						srcTextureName.c_str(), uint32(hr));
+					return NULL;
+				}
+
+				DX::Surface* pSurfDest = NULL;
+				hr = outputTexture->GetSurfaceLevel(0, &pSurfDest);
+				if (FAILED(hr) || !pSurfDest)
+				{
+					ASSET_MSG("loadD3DXTexture - failed to get destination "
+						"surface level 0 of %s (hr=0x%x)\n",
+						srcTextureName.c_str(), uint32(hr));
+					SAFE_RELEASE(pSurfSrc);
+					return NULL;
+				}
+
+				{
+					SimpleMutexHolder smh(rc().getD3DXCreateMutex());
+					hr = D3DXLoadSurfaceFromSurface(pSurfDest, NULL, NULL,
+						pSurfSrc, NULL, NULL, D3DX_FILTER_NONE, 0);
+				}
+				SAFE_RELEASE(pSurfDest);
+				SAFE_RELEASE(pSurfSrc);
+				if (FAILED(hr))
+				{
+					ASSET_MSG("loadD3DXTexture - failed to copy top level of "
+						"%s (hr=0x%x)\n", srcTextureName.c_str(), uint32(hr));
+					return NULL;
+				}
+
+				if (numMips > 1)
+				{
+					// Generate the remaining levels from the top level.
+					SimpleMutexHolder smh(rc().getD3DXCreateMutex());
+					hr = D3DXFilterTexture(outputTexture.pComObject(), NULL, 0,
+						D3DX_FILTER_BOX | D3DX_FILTER_MIRROR);
+					if (FAILED(hr))
 					{
-						realMipCount++;
-						levelHeight = levelHeight >> 1;
-						levelWidth = levelWidth >> 1;
-						levelOffset += levelSize;
-						levelSize = levelSize >> 1;
-					}
-
-					outputTexture = rc().createTexture(newWidth, newHeight, realMipCount, 0, D3DFMT_A8R8G8B8,
-						D3DPOOL_SCRATCH);
-					if (outputTexture)
-					{
-						uint32 levelWidth = newWidth;
-						uint32 levelHeight = newHeight;
-						uint32 levelBase = 0;
-						bool horizontal =
-							dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_HORIZONTAL_MIPMAPS;
-
-						DX::Surface* pSurfSrc = NULL;
-						tex->GetSurfaceLevel(0, &pSurfSrc);
-						RECT srcRect;
-						SimpleMutexHolder smh(rc().getD3DXCreateMutex());
-						for (uint32 iLevel = 0; iLevel < realMipCount; iLevel++)
-						{
-							srcRect.top = horizontal ? 0 : levelBase;
-							srcRect.bottom = srcRect.top + levelHeight;
-							srcRect.left = horizontal ? levelBase : 0;
-							srcRect.right = srcRect.left + levelWidth;
-							levelBase += mipBase;
-							levelWidth = levelWidth >> 1;
-							levelHeight = levelHeight >> 1;
-							mipBase = mipBase >> 1;
-							DX::Surface* pSurfDest = NULL;
-							outputTexture->GetSurfaceLevel(iLevel, &pSurfDest);
-							HRESULT hr = D3DXLoadSurfaceFromSurface(pSurfDest, NULL, NULL,
-								pSurfSrc, NULL, &srcRect, D3DX_FILTER_NONE, 0);
-							MF_ASSERT(SUCCEEDED(hr));
-							pSurfDest->Release();
-						}
-						pSurfSrc->Release();
-						*pNumMips = realMipCount;
+						ASSET_MSG("loadD3DXTexture - failed to generate mip "
+							"chain for %s (hr=0x%x)\n",
+							srcTextureName.c_str(), uint32(hr));
+						return NULL;
 					}
 				}
-			}
-			return outputTexture;
-		}
 
+				*pNumMips = numMips;
+				return outputTexture;
+			}
+
+			// The source carries a prebaked mipchain stacked horizontally or
+			// vertically inside one image: slice the levels out of it at the
+			// native dimensions the file was loaded with.
+			{
+				uint32 newWidth = width;
+				uint32 newHeight = height;
+				uint32 mipBase = dstInfo->mipSize();
+
+				if (dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_HORIZONTAL_MIPMAPS)
+				{
+					newWidth = mipBase != 0
+						? mipBase
+						: newWidth / 2;
+					mipBase = newWidth;
+				}
+				else
+				{
+					newHeight = mipBase != 0
+						? mipBase
+						: newHeight / 2;
+					mipBase = newHeight;
+				}
+
+				uint32 levelWidth = newWidth;
+				uint32 levelHeight = newHeight;
+				uint32 levelOffset = 0;
+				uint32 levelSize = mipBase;
+				uint32 levelMax =
+					dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_HORIZONTAL_MIPMAPS
+					? width
+					: height;
+				// mipCount() == 0 means the whole chain present in the image
+				// (nvtt path convention). The legacy guard
+				// realMipCount < dstInfo->mipCount() with mipCount() == 0 was
+				// 0 < 0: the loop never ran and an empty texture was produced.
+				uint32 mipLimit = effMipCount > 0
+					? effMipCount
+					: 0xffffffff;
+				uint32 realMipCount = 0;
+				while (levelWidth > 0 &&
+					levelHeight > 0 &&
+					realMipCount < mipLimit &&
+					(levelSize + levelOffset) <= levelMax)
+				{
+					realMipCount++;
+					levelHeight = levelHeight >> 1;
+					levelWidth = levelWidth >> 1;
+					levelOffset += levelSize;
+					levelSize = levelSize >> 1;
+				}
+
+				if (realMipCount == 0)
+				{
+					// Nothing sliceable in this layout. Fail loudly instead
+					// of producing an empty texture product.
+					ASSET_MSG("loadD3DXTexture - %s declares a prebaked "
+						"mipchain but no level fits the image layout\n",
+						srcTextureName.c_str());
+					return NULL;
+				}
+
+				ComObjectWrap<DX::Texture> outputTexture =
+					rc().createTexture(newWidth, newHeight, realMipCount, 0,
+						D3DFMT_A8R8G8B8, D3DPOOL_SCRATCH);
+				if (!outputTexture.hasComObject())
+				{
+					ASSET_MSG("loadD3DXTexture - failed to create %ux%u %u level "
+						"destination texture for %s\n",
+						newWidth, newHeight, realMipCount,
+						srcTextureName.c_str());
+					return NULL;
+				}
+
+				DX::Surface* pSurfSrc = NULL;
+				hr = tex->GetSurfaceLevel(0, &pSurfSrc);
+				if (FAILED(hr) || !pSurfSrc)
+				{
+					ASSET_MSG("loadD3DXTexture - failed to get source surface "
+						"level 0 of %s (hr=0x%x)\n",
+						srcTextureName.c_str(), uint32(hr));
+					return NULL;
+				}
+
+				bool copyFailed = false;
+				{
+					uint32 sliceWidth = newWidth;
+					uint32 sliceHeight = newHeight;
+					uint32 levelBase = 0;
+					bool horizontal =
+						dstInfo->sourceMipmaps() == TextureDetailLevel::SOURCE_HORIZONTAL_MIPMAPS;
+
+					RECT srcRect;
+					SimpleMutexHolder smh(rc().getD3DXCreateMutex());
+					for (uint32 iLevel = 0; iLevel < realMipCount; iLevel++)
+					{
+						srcRect.top = horizontal ? 0 : levelBase;
+						srcRect.bottom = srcRect.top + sliceHeight;
+						srcRect.left = horizontal ? levelBase : 0;
+						srcRect.right = srcRect.left + sliceWidth;
+						levelBase += mipBase;
+						sliceWidth = sliceWidth >> 1;
+						sliceHeight = sliceHeight >> 1;
+						mipBase = mipBase >> 1;
+
+						DX::Surface* pSurfDest = NULL;
+						HRESULT hr2 =
+							outputTexture->GetSurfaceLevel(iLevel, &pSurfDest);
+						if (FAILED(hr2) || !pSurfDest)
+						{
+							ASSET_MSG("loadD3DXTexture - failed to get "
+								"destination surface level %u of %s "
+								"(hr=0x%x)\n", iLevel, srcTextureName.c_str(),
+								uint32(hr2));
+							copyFailed = true;
+							break;
+						}
+						hr2 = D3DXLoadSurfaceFromSurface(pSurfDest, NULL, NULL,
+							pSurfSrc, NULL, &srcRect, D3DX_FILTER_NONE, 0);
+						pSurfDest->Release();
+						if (FAILED(hr2))
+						{
+							ASSET_MSG("loadD3DXTexture - failed to slice mip "
+								"level %u out of %s (hr=0x%x)\n", iLevel,
+								srcTextureName.c_str(), uint32(hr2));
+							copyFailed = true;
+							break;
+						}
+					}
+				}
+				SAFE_RELEASE(pSurfSrc);
+
+				if (copyFailed)
+				{
+					return NULL;
+				}
+
+				*pNumMips = realMipCount;
+				return outputTexture;
+			}
+		}
 
 		/**
 		 *	This method copies data from the source texture to destination texture
@@ -886,12 +1098,60 @@ namespace Moo
 		{
 			format = dstInfo->format();
 		}
+
+		// Clamp the conversion policy to what the source image and DX9-class
+		// hardware actually allow, before either engine touches the file.
+		//  - GUI-class textures (lodMode 0, never streamed) are drawn at
+		//    native size by the runtime, so a resample is visible corruption:
+		//    honour the source dimensions regardless of what the rule asks.
+		//  - A product that keeps non-power-of-two dimensions cannot carry a
+		//    mip chain or block compression on DX9 (conditional NPOT support
+		//    allows one level, uncompressed only), so fall back to a single
+		//    level in an uncompressed format - the same hardware-validity
+		//    fallback the nvtt path applies for non multiple-of-4 sizes.
+		// This keeps vanilla resources valid: rules that predate NPOT UI art
+		// (the demo gui rule asks for DXT5 with resize allowed) no longer
+		// produce stretched or uncreatable products.
+		D3DFORMAT effFormat = format;
+		uint effMipCount = dstInfo->mipCount();
+		bool effNoResize = dstInfo->noResize();
+		{
+			BinaryPtr srcBin = BWResource::instance().rootSection()->readBinary(
+				srcTextureName_);
+			D3DXIMAGE_INFO srcInfo;
+			if (srcBin &&
+				SUCCEEDED(D3DXGetImageInfoFromFileInMemory(
+					srcBin->data(), (UINT)srcBin->len(), &srcInfo)) &&
+				srcInfo.ResourceType == D3DRTYPE_TEXTURE)
+			{
+				const bool isNPOT =
+					((srcInfo.Width & (srcInfo.Width - 1)) != 0) ||
+					((srcInfo.Height & (srcInfo.Height - 1)) != 0);
+
+				if (dstInfo->lodMode() == 0 && !dstInfo->streamable())
+				{
+					// drawn 1:1 by the runtime (GUI elements, thumbnails,
+					// tool art): never resample
+					effNoResize = true;
+				}
+
+				if (effNoResize && isNPOT)
+				{
+					effMipCount = 1;
+					if (isBlockCompressedFormat(effFormat))
+					{
+						effFormat = D3DFMT_A8R8G8B8;
+					}
+				}
+			}
+		}
 		// try to use nvtt first if we are not in consumer config
 		BinaryPtr bin;
 #if ENABLE_NVTT
-		if (isFormatNVTTSupported(format))
+		if (isFormatNVTTSupported(effFormat))
 		{
-			bin = compressToMemoryNVTT(srcTextureName_, dstInfo, format);
+			bin = compressToMemoryNVTT(srcTextureName_, dstInfo, effFormat,
+				effNoResize, effMipCount);
 			if (!bin)
 			{
 				ASSET_MSG("TextureCompressor failed to do nvtt compression for %s, fall back to d3dx\n", srcTextureName_.c_str());
@@ -902,10 +1162,12 @@ namespace Moo
 		{
 			// fallback to default d3dx conversion
 			uint numMips = 0;
-			srcTexture_ = loadD3DXTexture(srcTextureName_, dstInfo, &numMips);
+			srcTexture_ = loadD3DXTexture(srcTextureName_, dstInfo, &numMips,
+				effNoResize, effMipCount);
 			if (srcTexture_)
 			{
-				bin = this->compressToMemory(format, numMips, dstInfo->maxExtent());
+				bin = this->compressToMemory(effFormat, numMips,
+					dstInfo->maxExtent());
 			}
 		}
 		return bin;

@@ -504,7 +504,7 @@ static void reportCSVStats(FILE * file, double elapsedTime )
 		frameTimeDifferences, frameTimePow2Differences );
 
 	// Print stats for that block
-	fprintf( file, "%g, %d, %d, %lu, %d, %f, %f, %f, %f\n", elapsedTime,
+	fprintf(file, "%g, %Iu, %Iu, %Iu, %Iu, %f, %f, %f, %f\n", elapsedTime,
 		curStats.currentBytes_, curStats.currentAllocs_,
 		pmc.PagefileUsage, s_frameTimes.size(), s_frameTimesTotal * 1000.0f,
 		frameTimesAvg * 1000.0f, frameTimesStdDev * 1000.0f,
