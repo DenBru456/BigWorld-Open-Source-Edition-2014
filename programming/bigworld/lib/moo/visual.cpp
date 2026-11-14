@@ -961,10 +961,16 @@ void Visual::load( uint32 loadingFlags /*= LOAD_ALL*/ )
         BSPMaterialIDs::iterator end = missingBspMaterialIDs.end();
         for ( ; it != end; ++it )
         {
-            // write to the visual the missing BSP identifiers
-            DataSectionPtr missingBspMaterial = root->newSection( "missingBspMaterial" );
-            missingBspMaterial = missingBspMaterial->newSection( "material" );
-            missingBspMaterial->writeString( "identifier", *it );
+            // write to the visual the missing BSP identifiers. Only the
+            // Model Editor consumes this marker, and only from an editable
+            // XML visual. A packed visual (.visual.processed, which every
+            // editor loads first) is read-only, newSection on it asserts.
+            if (!root->isPacked())
+            {
+                DataSectionPtr missingBspMaterial = root->newSection( "missingBspMaterial" );
+                missingBspMaterial = missingBspMaterial->newSection( "material" );
+                missingBspMaterial->writeString( "identifier", *it );
+            }
 
             // create new a material, the material will be added to the visual in the ME
             DataSectionPtr bspMaterial = new XMLSection( "renderSet" );
@@ -987,7 +993,10 @@ void Visual::load( uint32 loadingFlags /*= LOAD_ALL*/ )
                 pMat->load( bspMaterial->openSection( "material" ) );
             }
 
-            renderSets_[0].geometry_[0].primitiveGroups_.push_back( primitiveGroup );
+            if (!renderSets_.empty() && !renderSets_[0].geometry_.empty())
+            {
+                renderSets_[0].geometry_[0].primitiveGroups_.push_back( primitiveGroup );
+            }
 
         }
     }
